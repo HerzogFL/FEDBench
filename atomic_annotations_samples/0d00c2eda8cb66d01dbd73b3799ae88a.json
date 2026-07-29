@@ -1,0 +1,734 @@
+{
+  "image_name": "0d00c2eda8cb66d01dbd73b3799ae88a.png",
+  "prompt_text": "The figure summarizes the structure of a ferroelectric transistor and highlights the key internal layers that control its behavior. At the top, a generic gate stack is shown sitting above a semiconductor substrate with source/drain contacts. The main emphasis is on two parts of this stack: a thin interfacial layer between the channel region and the upper films, and the thicker ferroelectric layer above it. One schematic isolates the interfacial layer, while another points out the ferroelectric layer within the complete gate structure, making clear that device performance depends on both the interface and the ferroelectric film rather than the gate alone.\n\nThe lower part compares three visible ways the ferroelectric layer can be implemented. One appears as a superlattice made of alternating thin layers on a dielectric, another as dispersed ferroelectric nanocrystals embedded in a dielectric matrix, and the third as a nanosheet-style stacked geometry contacted by the gate. Together, these drawings convey that ferroelectric transistors can be engineered through different material organizations and architectures, but all rely on integrating a ferroelectric region with a gate stack over the substrate and source/drain regions.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "gate stack over transistor substrate",
+        "category": "device_component",
+        "panel": "a",
+        "count": 2,
+        "key_attributes": [
+          "layered stack",
+          "over substrate",
+          "with source/drain contacts"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "interfacial layer",
+        "category": "layer",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "thin layer",
+          "between channel and upper films",
+          "inside gate stack"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "ferroelectric layer",
+        "category": "layer",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "thicker layer",
+          "above interfacial layer",
+          "inside gate stack"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "isolated interfacial-layer schematic",
+        "category": "layer",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "highlighted interface",
+          "partial stack",
+          "callout view"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "ferroelectric layer highlighted in complete gate structure",
+        "category": "layer",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "highlighted ferroelectric",
+          "complete stack",
+          "with source/drain and substrate"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "superlattice ferroelectric implementation",
+        "category": "material_structure",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "alternating thin layers",
+          "on dielectric",
+          "subpart i"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "ferroelectric nanocrystals in dielectric matrix",
+        "category": "material_structure",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "embedded nanocrystals",
+          "dielectric host",
+          "subpart ii"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "nanosheet-style ferroelectric transistor geometry",
+        "category": "device_component",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "stacked nanosheets",
+          "gate contacted",
+          "subpart iii"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "source or drain contacts",
+        "category": "device_component",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "contact blocks",
+          "flank channel region"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v10",
+        "entity_type": "visual",
+        "name": "substrate",
+        "category": "layer",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "bottom blue base",
+          "supports stack"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v11",
+        "entity_type": "visual",
+        "name": "pointer arrows/leader lines",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 8,
+        "key_attributes": [
+          "label pointers",
+          "thin gray lines"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "v12",
+        "entity_type": "visual",
+        "name": "color legend swatches",
+        "category": "legend_key",
+        "panel": "single_panel",
+        "count": 4,
+        "key_attributes": [
+          "four colored boxes",
+          "material/component mapping"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "panel a label",
+        "category": "panel_label",
+        "surface_text": "a",
+        "normalized_text": "a",
+        "panel": "a",
+        "count": 1,
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "Gate structure",
+        "category": "scientific_label",
+        "surface_text": "Gate structure",
+        "normalized_text": "gate structure",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "panel title"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "Oxide",
+        "category": "scientific_label",
+        "surface_text": "Oxide",
+        "normalized_text": "oxide",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "upper stack label"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "Interfacial layer",
+        "category": "scientific_label",
+        "surface_text": "Interfacial layer",
+        "normalized_text": "interfacial layer",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "layer label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "Ferroelectric layer",
+        "category": "scientific_label",
+        "surface_text": "Ferroelectric layer",
+        "normalized_text": "ferroelectric layer",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "layer label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "panel b label",
+        "category": "panel_label",
+        "surface_text": "b",
+        "normalized_text": "b",
+        "panel": "b",
+        "count": 1,
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "Interfacial layer",
+        "category": "scientific_label",
+        "surface_text": "Interfacial layer",
+        "normalized_text": "interfacial layer",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "panel title/label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "panel c label",
+        "category": "panel_label",
+        "surface_text": "c",
+        "normalized_text": "c",
+        "panel": "c",
+        "count": 1,
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "Ferroelectric layer",
+        "category": "scientific_label",
+        "surface_text": "Ferroelectric layer",
+        "normalized_text": "ferroelectric layer",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "panel title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "i Superlattice",
+        "category": "scientific_label",
+        "surface_text": "i Superlattice",
+        "normalized_text": "superlattice",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "subpart i"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "Superlattice ferroelectric",
+        "category": "scientific_label",
+        "surface_text": "Superlattice ferroelectric",
+        "normalized_text": "superlattice ferroelectric",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "material label"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "Dielectric",
+        "category": "scientific_label",
+        "surface_text": "Dielectric",
+        "normalized_text": "dielectric",
+        "panel": "c",
+        "count": 2,
+        "key_attributes": [
+          "host/support material"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "Ferroelectric",
+        "category": "scientific_label",
+        "surface_text": "Ferroelectric",
+        "normalized_text": "ferroelectric",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "material label"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t14",
+        "entity_type": "text",
+        "name": "ii Ferroelectric nanocrystals",
+        "category": "scientific_label",
+        "surface_text": "ii Ferroelectric nanocrystals",
+        "normalized_text": "ferroelectric nanocrystals",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "subpart ii"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t15",
+        "entity_type": "text",
+        "name": "Ferroelectric nanocrystals",
+        "category": "scientific_label",
+        "surface_text": "Ferroelectric nanocrystals",
+        "normalized_text": "ferroelectric nanocrystals",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "material label"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t16",
+        "entity_type": "text",
+        "name": "iii Nanosheet",
+        "category": "scientific_label",
+        "surface_text": "iii Nanosheet",
+        "normalized_text": "nanosheet",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "subpart iii"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t17",
+        "entity_type": "text",
+        "name": "Gate",
+        "category": "legend_text",
+        "surface_text": "Gate",
+        "normalized_text": "gate",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "legend item"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t18",
+        "entity_type": "text",
+        "name": "Ferroelectric",
+        "category": "legend_text",
+        "surface_text": "Ferroelectric",
+        "normalized_text": "ferroelectric",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "legend item"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t19",
+        "entity_type": "text",
+        "name": "Source or drain",
+        "category": "legend_text",
+        "surface_text": "Source or drain",
+        "normalized_text": "source or drain",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "legend item"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t20",
+        "entity_type": "text",
+        "name": "Substrate",
+        "category": "legend_text",
+        "surface_text": "Substrate",
+        "normalized_text": "substrate",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "legend item"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t4",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t5",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "v2",
+        "target_entity_id": "v1",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "v3",
+        "target_entity_id": "v1",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "v2",
+        "target_entity_id": "v3",
+        "relation_type": "above",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "v1",
+        "target_entity_id": "v10",
+        "relation_type": "above",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "v9",
+        "target_entity_id": "v10",
+        "relation_type": "above",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "t7",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "v4",
+        "target_entity_id": "v2",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "t9",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "v5",
+        "target_entity_id": "v3",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "v5",
+        "target_entity_id": "v10",
+        "relation_type": "above",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "t10",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "t14",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "t16",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "v6",
+        "target_entity_id": "v3",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "v7",
+        "target_entity_id": "v3",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "v8",
+        "target_entity_id": "v3",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "v6",
+        "target_entity_id": "v10",
+        "relation_type": "above",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "v7",
+        "target_entity_id": "v10",
+        "relation_type": "above",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "v8",
+        "target_entity_id": "v10",
+        "relation_type": "above",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "t17",
+        "target_entity_id": "v12",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r23",
+        "source_entity_id": "t18",
+        "target_entity_id": "v12",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r24",
+        "source_entity_id": "t19",
+        "target_entity_id": "v12",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r25",
+        "source_entity_id": "t20",
+        "target_entity_id": "v12",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "global"
+      }
+    ]
+  }
+}

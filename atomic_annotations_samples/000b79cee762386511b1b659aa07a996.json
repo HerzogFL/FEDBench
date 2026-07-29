@@ -1,0 +1,1251 @@
+{
+  "image_name": "000b79cee762386511b1b659aa07a996.png",
+  "prompt_text": "The figure summarizes a workflow for studying the autoimmune T‑cell receptor (TCR) repertoire, moving from broad repertoire profiling toward targeted identification of disease‑relevant receptors and antigens. On the left, large‑scale methods include low‑resolution approaches such as Vβ‑specific flow cytometry, spectratyping, and biased VDJ usage analysis, followed by bulk TCR sequencing of DNA or RNA to measure diversity, clonality, and CDR3 features. More focused methods then narrow the search: single‑cell RNA sequencing links individual TCRs to phenotypic markers and cell states, while antigen screening tests receptor binding or functional reactivity using peptide display or cell‑based assays.\n\nThe center-right shows this as a funnel: a broad, polyclonal autoimmune repertoire is progressively reduced to “suspected TCRβ” candidates and then to antigen-associated information. Factors that complicate this narrowing include HLA genetics, microbial cross-reactivity, antigen presentation, tissue specificity, disease stage, and phenotypic targeting. The lower part highlights the key outputs needed to connect TCRs to disease mechanisms: αβ TCR pairing, peptide–HLA context, and antigen source. Overall, the figure emphasizes how combining repertoire sequencing, single‑cell phenotyping, and antigen discovery can translate autoimmune TCR studies into biomarkers, mechanistic insight, and potential TCR‑directed or antigen‑based therapies.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "central narrowing funnel",
+        "category": "region",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "blue-green funnel",
+          "broad-to-narrow",
+          "autoimmune repertoire reduction"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "directional workflow arrows",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 10,
+        "key_attributes": [
+          "process flow",
+          "left-to-right",
+          "funnel linkage"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "T cell with receptor icon",
+        "category": "cell",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "round lymphocyte",
+          "surface receptor",
+          "left methods panel"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "gene segment schematic",
+        "category": "pathway_component",
+        "panel": "b",
+        "count": 3,
+        "key_attributes": [
+          "V-D-J-C blocks",
+          "DNA/RNA rows",
+          "sequencing input"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "diversity and clonality plots",
+        "category": "region",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "colored circles",
+          "diversity readout",
+          "clonality/CDR3 outputs"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "single-cell workflow illustration",
+        "category": "cell",
+        "panel": "c",
+        "count": 9,
+        "key_attributes": [
+          "cell suspension",
+          "single-cell separation",
+          "barcoding"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "phenotyping scatter and UMAP plots",
+        "category": "region",
+        "panel": "c",
+        "count": 2,
+        "key_attributes": [
+          "volcano-like plot",
+          "UMAP embedding",
+          "cell states"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "peptide-HLA display platform",
+        "category": "molecule",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "HLA-Ag complex",
+          "binding assay",
+          "display schematic"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "cell-based assay dish with interacting cells",
+        "category": "cell",
+        "panel": "d",
+        "count": 2,
+        "key_attributes": [
+          "reactivity assay",
+          "dish format",
+          "cell interaction"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v10",
+        "entity_type": "visual",
+        "name": "combinatorial peptide library grid",
+        "category": "molecule",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "colored bead/grid",
+          "screening library",
+          "assay input"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v11",
+        "entity_type": "visual",
+        "name": "clinical potential outcome boxes",
+        "category": "region",
+        "panel": "f",
+        "count": 3,
+        "key_attributes": [
+          "stacked gray boxes",
+          "biomarkers",
+          "therapeutic outputs"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v12",
+        "entity_type": "visual",
+        "name": "panel markers",
+        "category": "panel_marker",
+        "panel": "single_panel",
+        "count": 6,
+        "key_attributes": [
+          "a-f labels",
+          "panel indexing"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "Methods",
+        "category": "annotation_text",
+        "surface_text": "Methods",
+        "normalized_text": "Methods",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "section header"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "Autoimmune TCR repertoire",
+        "category": "scientific_label",
+        "surface_text": "Autoimmune TCR repertoire",
+        "normalized_text": "autoimmune TCR repertoire",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "top title",
+          "repertoire focus"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "Large-scale study",
+        "category": "annotation_text",
+        "surface_text": "Large-scale study",
+        "normalized_text": "large-scale study",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "upper left grouping"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "Targeted study",
+        "category": "annotation_text",
+        "surface_text": "Targeted study",
+        "normalized_text": "targeted study",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "lower left grouping"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "Low resolution TCR analysis",
+        "category": "scientific_label",
+        "surface_text": "Low resolution TCR analysis",
+        "normalized_text": "low-resolution TCR analysis",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "broad profiling method"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "V-specific Abs",
+        "category": "scientific_label",
+        "surface_text": "V-specific Abs",
+        "normalized_text": "V-specific antibodies",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "flow cytometry-like method"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "Spectrotyping",
+        "category": "scientific_label",
+        "surface_text": "Spectrotyping",
+        "normalized_text": "spectratyping",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "OCR variant corrected"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "Biased VDJ usage",
+        "category": "scientific_label",
+        "surface_text": "Biased VDJ usage",
+        "normalized_text": "biased VDJ usage",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "gene usage bias"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "Bulk TCR sequencing",
+        "category": "scientific_label",
+        "surface_text": "Bulk TCR sequencing",
+        "normalized_text": "bulk TCR sequencing",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "DNA or RNA",
+          "repertoire sequencing"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "DNA",
+        "category": "scientific_label",
+        "surface_text": "DNA",
+        "normalized_text": "DNA",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "bulk input type"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "RNA",
+        "category": "scientific_label",
+        "surface_text": "RNA",
+        "normalized_text": "RNA",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "bulk input type"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "Diversity",
+        "category": "scientific_label",
+        "surface_text": "Diversity",
+        "normalized_text": "diversity",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "sequencing output"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "Clonality",
+        "category": "scientific_label",
+        "surface_text": "Clonality",
+        "normalized_text": "clonality",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "sequencing output"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t14",
+        "entity_type": "text",
+        "name": "CDR3 association",
+        "category": "scientific_label",
+        "surface_text": "CDR3 association",
+        "normalized_text": "CDR3 features",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "CDR3 output",
+          "OCR paraphrase"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t15",
+        "entity_type": "text",
+        "name": "scRNA sequencing",
+        "category": "scientific_label",
+        "surface_text": "scRNA sequencing",
+        "normalized_text": "single-cell RNA sequencing",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "single-cell method"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t16",
+        "entity_type": "text",
+        "name": "Phenotyping and tracking",
+        "category": "scientific_label",
+        "surface_text": "Phenotyping and tracking",
+        "normalized_text": "phenotyping and tracking",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "links TCR to phenotype"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t17",
+        "entity_type": "text",
+        "name": "Antigen screening",
+        "category": "scientific_label",
+        "surface_text": "Antigen screening",
+        "normalized_text": "antigen screening",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "focused discovery method"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t18",
+        "entity_type": "text",
+        "name": "Peptide display (binding)",
+        "category": "scientific_label",
+        "surface_text": "Peptide display (binding)",
+        "normalized_text": "peptide display binding",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "binding assay"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t19",
+        "entity_type": "text",
+        "name": "Cell-based assays (reactivity)",
+        "category": "scientific_label",
+        "surface_text": "Cell-based assays (reactivity)",
+        "normalized_text": "cell-based assays reactivity",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "functional assay"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t20",
+        "entity_type": "text",
+        "name": "Readout: surface activation marker, cytokine release, transcriptional reporter, ...",
+        "category": "legend_text",
+        "surface_text": "Readout: surface activation marker, cytokine release, transcriptional reporter, ...",
+        "normalized_text": "readout: surface activation marker, cytokine release, transcriptional reporter, ...",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "functional readouts"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t21",
+        "entity_type": "text",
+        "name": "Diversity-reducing factors",
+        "category": "scientific_label",
+        "surface_text": "Diversity-reducing factors",
+        "normalized_text": "diversity-reducing factors",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "funnel complication factors"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t22",
+        "entity_type": "text",
+        "name": "Genetics: HLA repertoire",
+        "category": "legend_text",
+        "surface_text": "Genetics: HLA repertoire",
+        "normalized_text": "HLA genetics",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "genetic factor"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t23",
+        "entity_type": "text",
+        "name": "Epidemiology: microorganism cross-reactivity",
+        "category": "legend_text",
+        "surface_text": "Epidemiology: microorganism cross-reactivity",
+        "normalized_text": "microbial cross-reactivity",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "cross-reactivity factor"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t24",
+        "entity_type": "text",
+        "name": "Immunology/clinical presentation",
+        "category": "legend_text",
+        "surface_text": "Immunology/clinical presentation",
+        "normalized_text": "antigen presentation and clinical presentation",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "presentation factor"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t25",
+        "entity_type": "text",
+        "name": "Tissue specificity and early disease",
+        "category": "legend_text",
+        "surface_text": "Tissue specificity and early disease",
+        "normalized_text": "tissue specificity and disease stage",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "tissue/stage factor"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t26",
+        "entity_type": "text",
+        "name": "Phenotypic targets",
+        "category": "legend_text",
+        "surface_text": "Phenotypic targets",
+        "normalized_text": "phenotypic targeting",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "phenotype factor"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t27",
+        "entity_type": "text",
+        "name": "Polyclonal",
+        "category": "annotation_text",
+        "surface_text": "Polyclonal",
+        "normalized_text": "polyclonal",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "broad repertoire state"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t28",
+        "entity_type": "text",
+        "name": "Suspected TCRβ",
+        "category": "scientific_label",
+        "surface_text": "Suspected TCRβ",
+        "normalized_text": "suspected TCR beta",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "candidate stage"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t29",
+        "entity_type": "text",
+        "name": "Phenotypic markers",
+        "category": "scientific_label",
+        "surface_text": "Phenotypic markers",
+        "normalized_text": "phenotypic markers",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "single-cell linked output"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t30",
+        "entity_type": "text",
+        "name": "Oligoclonal",
+        "category": "annotation_text",
+        "surface_text": "Oligoclonal",
+        "normalized_text": "oligoclonal",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "narrowed repertoire state"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t31",
+        "entity_type": "text",
+        "name": "αβ TCR",
+        "category": "scientific_label",
+        "surface_text": "αβ TCR",
+        "normalized_text": "alpha-beta TCR pairing",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "paired receptor output"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t32",
+        "entity_type": "text",
+        "name": "p-HLA",
+        "category": "scientific_label",
+        "surface_text": "p-HLA",
+        "normalized_text": "peptide-HLA context",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "antigen presentation context"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t33",
+        "entity_type": "text",
+        "name": "Antigen sources",
+        "category": "scientific_label",
+        "surface_text": "Antigen sources",
+        "normalized_text": "antigen source",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "origin of antigen"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t34",
+        "entity_type": "text",
+        "name": "Autoimmune disease",
+        "category": "annotation_text",
+        "surface_text": "Autoimmune disease",
+        "normalized_text": "autoimmune disease",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "final disease context"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t35",
+        "entity_type": "text",
+        "name": "Clinical potential",
+        "category": "scientific_label",
+        "surface_text": "Clinical potential",
+        "normalized_text": "clinical potential",
+        "panel": "f",
+        "count": 1,
+        "key_attributes": [
+          "outcomes heading"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t36",
+        "entity_type": "text",
+        "name": "Biomarkers and pathological pathways",
+        "category": "legend_text",
+        "surface_text": "Biomarkers and pathological pathways",
+        "normalized_text": "biomarkers and pathological pathways",
+        "panel": "f",
+        "count": 1,
+        "key_attributes": [
+          "clinical output"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t37",
+        "entity_type": "text",
+        "name": "TCR-directed therapy and monitoring",
+        "category": "legend_text",
+        "surface_text": "TCR-directed therapy and monitoring",
+        "normalized_text": "TCR-directed therapy and monitoring",
+        "panel": "f",
+        "count": 1,
+        "key_attributes": [
+          "therapy output"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t38",
+        "entity_type": "text",
+        "name": "Antigenic therapy/vaccine",
+        "category": "legend_text",
+        "surface_text": "Antigenic therapy/vaccine",
+        "normalized_text": "antigen-based therapy or vaccine",
+        "panel": "f",
+        "count": 1,
+        "key_attributes": [
+          "vaccine/antigen output"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t39",
+        "entity_type": "text",
+        "name": "panel labels",
+        "category": "panel_label",
+        "surface_text": "a, b, c, d, e, f",
+        "normalized_text": "panel labels a-f",
+        "panel": "single_panel",
+        "count": 6,
+        "key_attributes": [
+          "panel indexing"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t2",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t5",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t6",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t7",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "t8",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "t9",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "t10",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "t11",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "t12",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "t13",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "t14",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "t15",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "t16",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "t17",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "t18",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "t19",
+        "target_entity_id": "v9",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "t20",
+        "target_entity_id": "v9",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "t21",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "t22",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "t23",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "t24",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "t25",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r23",
+        "source_entity_id": "t26",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r24",
+        "source_entity_id": "t27",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r25",
+        "source_entity_id": "t28",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r26",
+        "source_entity_id": "t29",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r27",
+        "source_entity_id": "t31",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r28",
+        "source_entity_id": "t32",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r29",
+        "source_entity_id": "t33",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r30",
+        "source_entity_id": "t27",
+        "target_entity_id": "t28",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r31",
+        "source_entity_id": "t28",
+        "target_entity_id": "t31",
+        "relation_type": "flows_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r32",
+        "source_entity_id": "t28",
+        "target_entity_id": "t32",
+        "relation_type": "flows_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r33",
+        "source_entity_id": "t28",
+        "target_entity_id": "t33",
+        "relation_type": "flows_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r34",
+        "source_entity_id": "t35",
+        "target_entity_id": "v11",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r35",
+        "source_entity_id": "t36",
+        "target_entity_id": "v11",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r36",
+        "source_entity_id": "t37",
+        "target_entity_id": "v11",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r37",
+        "source_entity_id": "t38",
+        "target_entity_id": "v11",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r38",
+        "source_entity_id": "t9",
+        "target_entity_id": "v1",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r39",
+        "source_entity_id": "t15",
+        "target_entity_id": "v1",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r40",
+        "source_entity_id": "t17",
+        "target_entity_id": "v1",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r41",
+        "source_entity_id": "v1",
+        "target_entity_id": "v11",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r42",
+        "source_entity_id": "t15",
+        "target_entity_id": "t29",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r43",
+        "source_entity_id": "t17",
+        "target_entity_id": "t32",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r44",
+        "source_entity_id": "t17",
+        "target_entity_id": "t33",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r45",
+        "source_entity_id": "t31",
+        "target_entity_id": "v11",
+        "relation_type": "flows_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r46",
+        "source_entity_id": "t32",
+        "target_entity_id": "v11",
+        "relation_type": "flows_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r47",
+        "source_entity_id": "t33",
+        "target_entity_id": "v11",
+        "relation_type": "flows_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "cross_panel"
+      }
+    ]
+  }
+}

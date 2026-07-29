@@ -1,0 +1,515 @@
+{
+  "image_name": "3bf428a5edd25eb6ff8a6cc9a315f501.png",
+  "prompt_text": "This figure shows the finite-temperature phase diagram of a strongly interacting fermionic gas across the BCS–BEC crossover. The horizontal axis is the interaction parameter \\(1/\\gamma\\), running from the BCS side on the left to the BEC side on the right, while the vertical axis is temperature scaled by the Fermi temperature, \\(T/T_F\\).\n\nA solid blue curve marks the superfluid transition temperature \\(T_c\\). Below this line, the system is superfluid over the whole crossover, with sketches suggesting large overlapping Cooper pairs on the BCS side, tighter pairs near the middle, and compact bosonic molecules on the BEC side. Above \\(T_c\\), the normal state changes character. On the far left it is labeled as a Fermi liquid with unpaired fermions. Moving toward stronger attraction, a dashed red line \\(T^*\\) appears above \\(T_c\\), indicating pair formation at temperatures where phase coherence has not yet developed. The region between \\(T_c\\) and \\(T^*\\) is therefore a paired but non-superfluid regime. On the right side, the high-temperature normal phase is labeled a Bose liquid, consistent with preformed molecular pairs. Overall, the figure emphasizes the smooth evolution from fermionic to bosonic behavior.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "superfluid transition curve",
+        "category": "pathway_component",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "solid blue",
+          "boundary curve",
+          "separates superfluid"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "pair formation crossover curve",
+        "category": "pathway_component",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "dashed red",
+          "above Tc",
+          "left-to-middle region"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "superfluid region",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "below Tc",
+          "blue shaded",
+          "across crossover"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "paired non-superfluid region",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "between Tc and T*",
+          "intermediate crossover",
+          "normal paired regime"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "BCS-side overlapping Cooper-pair schematic",
+        "category": "molecule",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "large overlapping pairs",
+          "left side",
+          "dashed pair links"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "unitarity/intermediate paired schematic",
+        "category": "molecule",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "tighter pairs",
+          "near center",
+          "multiple dimers"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "BEC-side molecular schematic",
+        "category": "molecule",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "compact bosonic molecules",
+          "right side",
+          "bound dimers"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "BCS direction arrow",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "bottom left",
+          "points left",
+          "axis-end annotation"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "BEC direction arrow",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "bottom right",
+          "points right",
+          "axis-end annotation"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "v10",
+        "entity_type": "visual",
+        "name": "vertical dashed reference line near crossover center",
+        "category": "pathway_component",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "blue dashed vertical",
+          "near 1/gamma=0",
+          "reference marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "Fermi liquid label",
+        "category": "scientific_label",
+        "surface_text": "Fermi liquid",
+        "normalized_text": "Fermi liquid",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "left normal phase"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "Unpaired fermions label",
+        "category": "scientific_label",
+        "surface_text": "Unpaired fermions",
+        "normalized_text": "Unpaired fermions",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "left upper region"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "Bose liquid label",
+        "category": "scientific_label",
+        "surface_text": "Bose liquid",
+        "normalized_text": "Bose liquid",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "right normal phase"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "T star label",
+        "category": "scientific_label",
+        "surface_text": "T*",
+        "normalized_text": "T*",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "dashed red curve"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "Tc label",
+        "category": "scientific_label",
+        "surface_text": "T_c",
+        "normalized_text": "Tc",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "solid blue curve"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "Superfluid label",
+        "category": "scientific_label",
+        "surface_text": "Superfluid",
+        "normalized_text": "Superfluid",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "lower blue region"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "vertical axis label",
+        "category": "scientific_label",
+        "surface_text": "T/T_F",
+        "normalized_text": "T/TF",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "temperature axis"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "horizontal axis label",
+        "category": "scientific_label",
+        "surface_text": "1/γ",
+        "normalized_text": "1/gamma",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "interaction axis"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "x-axis tick labels",
+        "category": "number",
+        "surface_text": "-2, -1, 0, 1, 2",
+        "normalized_text": "-2 -1 0 1 2",
+        "panel": "single_panel",
+        "count": 5,
+        "key_attributes": [
+          "horizontal ticks"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "y-axis tick labels",
+        "category": "number",
+        "surface_text": "0, 0.2, 0.4",
+        "normalized_text": "0 0.2 0.4",
+        "panel": "single_panel",
+        "count": 3,
+        "key_attributes": [
+          "vertical ticks"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "BCS side label",
+        "category": "annotation_text",
+        "surface_text": "BCS",
+        "normalized_text": "BCS",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "left end of axis"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "BEC side label",
+        "category": "annotation_text",
+        "surface_text": "BEC",
+        "normalized_text": "BEC",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "right end of axis"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t5",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t4",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t6",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t1",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "t2",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "t3",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "v3",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "v4",
+        "target_entity_id": "v2",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "v4",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "v5",
+        "target_entity_id": "v3",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "v6",
+        "target_entity_id": "v3",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "v7",
+        "target_entity_id": "v3",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "v5",
+        "target_entity_id": "v6",
+        "relation_type": "left_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "v6",
+        "target_entity_id": "v7",
+        "relation_type": "left_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "t1",
+        "target_entity_id": "t3",
+        "relation_type": "left_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "t11",
+        "target_entity_id": "t12",
+        "relation_type": "left_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "v1",
+        "target_entity_id": "v2",
+        "relation_type": "above",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      }
+    ]
+  }
+}

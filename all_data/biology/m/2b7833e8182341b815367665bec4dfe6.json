@@ -1,0 +1,1005 @@
+{
+  "image_name": "2b7833e8182341b815367665bec4dfe6.jpg",
+  "prompt_text": "The figure presents a proposed link between periodontal infection and joint inflammation in rheumatoid arthritis. It centers on *P. gingivalis* in the periodontium, whose enzyme PPAD drives citrullination of host or bacterial proteins. In a genetically susceptible person, indicated by the HLA‑DRB1 shared epitope, these altered proteins are taken up by antigen-presenting cells, leading to T-cell activation, then B-cell and plasma-cell responses, and ultimately production of ACPAs.\n\nThese ACPAs are then shown binding citrullinated host proteins to form immune complexes. The same citrullination process appears to occur more broadly, generating targets for these antibodies. In the joint, the ACPA-containing immune complexes engage leukocytes through Fc receptors and also activate complement. This produces anaphylatoxins that signal through complement receptors such as C3aR or C5aR, further stimulating inflammatory cells. The end result is release of inflammatory mediators within synovial tissue.\n\nOverall, the image illustrates a mechanistic pathway in which oral infection and protein citrullination may initiate an autoimmune response that spreads to the joints, where immune complexes and complement amplify inflammation.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "periodontium region",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "oral tissue inset",
+          "tooth and gum",
+          "infection site"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "P. gingivalis bacterium",
+        "category": "pathway_component",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "purple microbe",
+          "oral pathogen",
+          "upstream trigger"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "PPAD/PAD enzyme",
+        "category": "protein",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "enzyme box",
+          "drives citrullination"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "citrullinated proteins",
+        "category": "protein",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "modified proteins",
+          "host or bacterial",
+          "host proteins in joint"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "genetic susceptibility marker",
+        "category": "pathway_component",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "DNA helix icon",
+          "HLA-DRB1 shared epitope"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "antigen-presenting cell",
+        "category": "cell",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "orange cell",
+          "APC"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "activated T cells",
+        "category": "cell",
+        "panel": "single_panel",
+        "count": 3,
+        "key_attributes": [
+          "red lymphocytes",
+          "activation step"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "B cells and plasma cells",
+        "category": "cell",
+        "panel": "single_panel",
+        "count": 4,
+        "key_attributes": [
+          "blue lymphocytes",
+          "antibody-producing stage"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "ACPAs antibodies",
+        "category": "molecule",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "Y-shaped antibodies",
+          "autoantibodies"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v10",
+        "entity_type": "visual",
+        "name": "ACPA-based immune complexes",
+        "category": "molecule",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "antibody-antigen complexes",
+          "joint deposition"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v11",
+        "entity_type": "visual",
+        "name": "joint/synovial tissue region",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "pink synovial area",
+          "site of inflammation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v12",
+        "entity_type": "visual",
+        "name": "joint anatomical inset",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "knee-like inset",
+          "anatomical context"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v13",
+        "entity_type": "visual",
+        "name": "leukocytes",
+        "category": "cell",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "yellow immune cells",
+          "effector cells"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v14",
+        "entity_type": "visual",
+        "name": "Fc gamma receptor",
+        "category": "protein",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "cell-surface receptor",
+          "binds immune complexes"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v15",
+        "entity_type": "visual",
+        "name": "complement activation process",
+        "category": "pathway_component",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "downstream cascade",
+          "from immune complexes"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v16",
+        "entity_type": "visual",
+        "name": "anaphylatoxins",
+        "category": "molecule",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "small orange mediators",
+          "complement products"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v17",
+        "entity_type": "visual",
+        "name": "C3aR/C5aR receptor",
+        "category": "protein",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "complement receptor",
+          "on leukocyte"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v18",
+        "entity_type": "visual",
+        "name": "inflammatory mediators",
+        "category": "molecule",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "purple released dots",
+          "effector output"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v19",
+        "entity_type": "visual",
+        "name": "process arrows",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "directional flow",
+          "causal pathway"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "Periodontium label",
+        "category": "scientific_label",
+        "surface_text": "Periodontium",
+        "normalized_text": "periodontium",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "oral site label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "P. gingivalis label",
+        "category": "scientific_label",
+        "surface_text": "P. gingivalis",
+        "normalized_text": "P. gingivalis",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "pathogen name"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "PPAD label",
+        "category": "scientific_label",
+        "surface_text": "PPAD",
+        "normalized_text": "PPAD",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "enzyme name"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "Citrullination label",
+        "category": "scientific_label",
+        "surface_text": "Citrullination",
+        "normalized_text": "citrullination",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "protein modification process"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "Citrullinated host or bacterial proteins label",
+        "category": "scientific_label",
+        "surface_text": "Citrullinated host or bacterial proteins",
+        "normalized_text": "citrullinated host or bacterial proteins",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "oral modified antigens"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "Genetic susceptibility label",
+        "category": "scientific_label",
+        "surface_text": "Genetic susceptibility (HLA-DRB1 shared epitope)",
+        "normalized_text": "genetic susceptibility (HLA-DRB1 shared epitope)",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "host risk factor"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "APC label",
+        "category": "scientific_label",
+        "surface_text": "APC",
+        "normalized_text": "APC",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "antigen-presenting cell"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "Activated T cells label",
+        "category": "scientific_label",
+        "surface_text": "Activated T cells",
+        "normalized_text": "activated T cells",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "T-cell response"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "B cells and plasma cells label",
+        "category": "scientific_label",
+        "surface_text": "B cells and plasma cells",
+        "normalized_text": "B cells and plasma cells",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "antibody-producing cells"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "ACPAs label",
+        "category": "scientific_label",
+        "surface_text": "ACPAs",
+        "normalized_text": "ACPAs",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "autoantibodies"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "Citrullinated host proteins label",
+        "category": "scientific_label",
+        "surface_text": "Citrullinated host proteins",
+        "normalized_text": "citrullinated host proteins",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "joint antigens"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "ACPA-based immune complexes label",
+        "category": "scientific_label",
+        "surface_text": "ACPA-based immune complexes",
+        "normalized_text": "ACPA-based immune complexes",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "immune complexes"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "Complement activation label",
+        "category": "scientific_label",
+        "surface_text": "Complement activation",
+        "normalized_text": "complement activation",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "complement cascade"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t14",
+        "entity_type": "text",
+        "name": "FcγR label",
+        "category": "scientific_label",
+        "surface_text": "FcγR",
+        "normalized_text": "FcγR",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "Fc receptor"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t15",
+        "entity_type": "text",
+        "name": "Leukocytes label",
+        "category": "scientific_label",
+        "surface_text": "Leukocytes",
+        "normalized_text": "leukocytes",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "effector cells"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t16",
+        "entity_type": "text",
+        "name": "Anaphylatoxins label",
+        "category": "scientific_label",
+        "surface_text": "Anaphylatoxins",
+        "normalized_text": "anaphylatoxins",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "complement-derived mediators"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t17",
+        "entity_type": "text",
+        "name": "C3aR or C5aR label",
+        "category": "scientific_label",
+        "surface_text": "C3aR or C5aR",
+        "normalized_text": "C3aR or C5aR",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "complement receptors"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t18",
+        "entity_type": "text",
+        "name": "Inflammatory mediators label",
+        "category": "scientific_label",
+        "surface_text": "Inflammatory mediators",
+        "normalized_text": "inflammatory mediators",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "inflammatory output"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t19",
+        "entity_type": "text",
+        "name": "Joints label",
+        "category": "scientific_label",
+        "surface_text": "Joints",
+        "normalized_text": "joints",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "anatomical site"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t20",
+        "entity_type": "text",
+        "name": "PAD label",
+        "category": "scientific_label",
+        "surface_text": "PAD",
+        "normalized_text": "PAD",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "host enzyme name"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t1",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t2",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t3",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t4",
+        "target_entity_id": "v3",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "t5",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "t6",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "t7",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "t8",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "t9",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "t10",
+        "target_entity_id": "v9",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "t11",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "t12",
+        "target_entity_id": "v10",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "t13",
+        "target_entity_id": "v15",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "t14",
+        "target_entity_id": "v14",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "t15",
+        "target_entity_id": "v13",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "t16",
+        "target_entity_id": "v16",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "t17",
+        "target_entity_id": "v17",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "t18",
+        "target_entity_id": "v18",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "t19",
+        "target_entity_id": "v12",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "t20",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "v2",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "v3",
+        "target_entity_id": "v2",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r23",
+        "source_entity_id": "v3",
+        "target_entity_id": "v4",
+        "relation_type": "transforms_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r24",
+        "source_entity_id": "v4",
+        "target_entity_id": "v6",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r25",
+        "source_entity_id": "v5",
+        "target_entity_id": "v6",
+        "relation_type": "connected_to",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r26",
+        "source_entity_id": "v6",
+        "target_entity_id": "v7",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r27",
+        "source_entity_id": "v7",
+        "target_entity_id": "v8",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r28",
+        "source_entity_id": "v8",
+        "target_entity_id": "v9",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r29",
+        "source_entity_id": "v9",
+        "target_entity_id": "v10",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r30",
+        "source_entity_id": "v4",
+        "target_entity_id": "v10",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r31",
+        "source_entity_id": "v3",
+        "target_entity_id": "v10",
+        "relation_type": "flows_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r32",
+        "source_entity_id": "v10",
+        "target_entity_id": "v11",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r33",
+        "source_entity_id": "v4",
+        "target_entity_id": "v11",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r34",
+        "source_entity_id": "v11",
+        "target_entity_id": "v12",
+        "relation_type": "part_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r35",
+        "source_entity_id": "v10",
+        "target_entity_id": "v14",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r36",
+        "source_entity_id": "v14",
+        "target_entity_id": "v13",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r37",
+        "source_entity_id": "v10",
+        "target_entity_id": "v15",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r38",
+        "source_entity_id": "v15",
+        "target_entity_id": "v16",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r39",
+        "source_entity_id": "v16",
+        "target_entity_id": "v17",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r40",
+        "source_entity_id": "v17",
+        "target_entity_id": "v13",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r41",
+        "source_entity_id": "v13",
+        "target_entity_id": "v18",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r42",
+        "source_entity_id": "v18",
+        "target_entity_id": "v11",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r43",
+        "source_entity_id": "v1",
+        "target_entity_id": "v12",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "global"
+      }
+    ]
+  }
+}

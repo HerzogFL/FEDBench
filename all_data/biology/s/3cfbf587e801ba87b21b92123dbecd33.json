@@ -1,0 +1,1017 @@
+{
+  "image_name": "3cfbf587e801ba87b21b92123dbecd33.png",
+  "prompt_text": "The figure summarizes a signaling network that links cell-surface receptors to activation of ERM proteins and, ultimately, actin crosslinking at the plasma membrane. Signals begin at either a GPCR or an antigen/tyrosine kinase receptor, which then stimulate several small GTPases through GEF-mediated GDP-to-GTP exchange. The main GTPases shown are RAP1, RHOA, and RAC1, each switching from an inactive GDP-bound form to an active conformation when GTP-bound.\n\nThese activated GTPases feed into different downstream effectors. RAP1 and RHOA converge on kinases labeled SLK and STK10, while RHOA also signals through ROCK1 or ROCK2. RAC1 activates pathways involving VAV1, TAOK3, and a protein labeled KIAA0355, with one branch appearing less certain, indicated by question marks. Another uncertain connection is shown between LCK and TAOK3 near the receptor.\n\nAll of these branches converge on ERM proteins, depicted as changing from a closed, inactive form to an open, phosphorylated active form. The active ERM state then promotes actin crosslinking. Overall, the image emphasizes that multiple receptor-triggered GTPase pathways cooperate to control ERM activation and cytoskeletal organization beneath the membrane.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "plasma membrane",
+        "category": "membrane",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "top boundary",
+          "bilayer",
+          "actin beneath"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "GPCR receptor",
+        "category": "protein",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "membrane receptor",
+          "seven-pass shape",
+          "ligand-bound"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "antigen receptor or tyrosine kinase receptor",
+        "category": "protein",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "membrane receptor",
+          "dimeric shape",
+          "ligand-bound"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "small GTPases",
+        "category": "protein",
+        "panel": "single_panel",
+        "count": 6,
+        "key_attributes": [
+          "RAP1 RHOA RAC1",
+          "GDP/GTP states",
+          "inactive to active"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "GEF exchange factors",
+        "category": "protein",
+        "panel": "single_panel",
+        "count": 3,
+        "key_attributes": [
+          "between GDP and GTP forms",
+          "exchange step",
+          "rectangular icons"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "downstream effectors",
+        "category": "protein",
+        "panel": "single_panel",
+        "count": 7,
+        "key_attributes": [
+          "SLK/STK10",
+          "ROCK1/2",
+          "VAV1/TAOK3/KIAA0355"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "ERM protein state transition",
+        "category": "protein",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "inactive closed",
+          "active open",
+          "phosphorylated"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "phosphorylation mark on active ERM",
+        "category": "molecule",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "P symbol",
+          "active ERM",
+          "activation state"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "actin crosslinking output",
+        "category": "pathway_component",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "downstream outcome",
+          "beneath membrane",
+          "terminal process"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v10",
+        "entity_type": "visual",
+        "name": "signaling arrows and connectors",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 18,
+        "key_attributes": [
+          "directed flow",
+          "branching network",
+          "convergence on ERM"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v11",
+        "entity_type": "visual",
+        "name": "uncertain connection markers",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "question-mark branches",
+          "LCK-TAOK3",
+          "KIAA0355 branch"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v12",
+        "entity_type": "visual",
+        "name": "ligand icons",
+        "category": "molecule",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "pink circles",
+          "receptor-bound",
+          "top of receptors"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v13",
+        "entity_type": "visual",
+        "name": "legend box",
+        "category": "legend_key",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "color key",
+          "bottom-left",
+          "category mapping"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "Plasma membrane",
+        "category": "annotation_text",
+        "surface_text": "Plasma membrane",
+        "normalized_text": "plasma membrane",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "compartment label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "Cytosol",
+        "category": "annotation_text",
+        "surface_text": "Cytosol",
+        "normalized_text": "cytosol",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "intracellular region"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "GPCR",
+        "category": "scientific_label",
+        "surface_text": "GPCR",
+        "normalized_text": "GPCR",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "receptor label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "Antigen receptor or tyrosine kinase receptor",
+        "category": "scientific_label",
+        "surface_text": "Antigen receptor or tyrosine kinase receptor",
+        "normalized_text": "antigen receptor or tyrosine kinase receptor",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "receptor label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "LCK",
+        "category": "scientific_label",
+        "surface_text": "LCK",
+        "normalized_text": "LCK",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "upstream kinase"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "TAOK3",
+        "category": "scientific_label",
+        "surface_text": "TAOK3",
+        "normalized_text": "TAOK3",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "RAC1 branch effector"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "question mark uncertainty labels",
+        "category": "annotation_text",
+        "surface_text": "?",
+        "normalized_text": "?",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "uncertain branch"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "GDP",
+        "category": "scientific_label",
+        "surface_text": "GDP",
+        "normalized_text": "GDP",
+        "panel": "single_panel",
+        "count": 3,
+        "key_attributes": [
+          "inactive nucleotide"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "GEF",
+        "category": "scientific_label",
+        "surface_text": "GEF",
+        "normalized_text": "GEF",
+        "panel": "single_panel",
+        "count": 3,
+        "key_attributes": [
+          "exchange factor"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "GTP",
+        "category": "scientific_label",
+        "surface_text": "GTP",
+        "normalized_text": "GTP",
+        "panel": "single_panel",
+        "count": 3,
+        "key_attributes": [
+          "active nucleotide"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "RAP1",
+        "category": "scientific_label",
+        "surface_text": "RAP1",
+        "normalized_text": "RAP1",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "small GTPase"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "RHOA",
+        "category": "scientific_label",
+        "surface_text": "RHOA",
+        "normalized_text": "RHOA",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "small GTPase"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "RAC1",
+        "category": "scientific_label",
+        "surface_text": "RAC1",
+        "normalized_text": "RAC1",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "small GTPase"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t14",
+        "entity_type": "text",
+        "name": "VAV1",
+        "category": "scientific_label",
+        "surface_text": "VAV1",
+        "normalized_text": "VAV1",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "RAC1 branch component"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t15",
+        "entity_type": "text",
+        "name": "Active conformation",
+        "category": "annotation_text",
+        "surface_text": "Active conformation",
+        "normalized_text": "active conformation",
+        "panel": "single_panel",
+        "count": 3,
+        "key_attributes": [
+          "GTPase state label"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t16",
+        "entity_type": "text",
+        "name": "SLK",
+        "category": "scientific_label",
+        "surface_text": "SLK",
+        "normalized_text": "SLK",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "ERM kinase"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t17",
+        "entity_type": "text",
+        "name": "STK10",
+        "category": "scientific_label",
+        "surface_text": "STK10",
+        "normalized_text": "STK10",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "ERM kinase"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t18",
+        "entity_type": "text",
+        "name": "ROCK1 or ROCK2",
+        "category": "scientific_label",
+        "surface_text": "ROCK1 or ROCK2",
+        "normalized_text": "ROCK1 or ROCK2",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "RHOA effector"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t19",
+        "entity_type": "text",
+        "name": "KIAA0355",
+        "category": "scientific_label",
+        "surface_text": "KIAA0355",
+        "normalized_text": "KIAA0355",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "RAC1 branch component"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t20",
+        "entity_type": "text",
+        "name": "ERM protein",
+        "category": "scientific_label",
+        "surface_text": "ERM protein",
+        "normalized_text": "ERM protein",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "target protein"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t21",
+        "entity_type": "text",
+        "name": "Inactive",
+        "category": "annotation_text",
+        "surface_text": "Inactive",
+        "normalized_text": "inactive",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "ERM state"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t22",
+        "entity_type": "text",
+        "name": "Active",
+        "category": "annotation_text",
+        "surface_text": "Active",
+        "normalized_text": "active",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "ERM state"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t23",
+        "entity_type": "text",
+        "name": "P",
+        "category": "scientific_label",
+        "surface_text": "P",
+        "normalized_text": "P",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "phosphorylation mark"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t24",
+        "entity_type": "text",
+        "name": "Actin crosslinking",
+        "category": "annotation_text",
+        "surface_text": "Actin crosslinking",
+        "normalized_text": "actin crosslinking",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "final output"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t25",
+        "entity_type": "text",
+        "name": "Ligands",
+        "category": "legend_text",
+        "surface_text": "Ligands",
+        "normalized_text": "ligands",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "legend item"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t26",
+        "entity_type": "text",
+        "name": "Small GTPases",
+        "category": "legend_text",
+        "surface_text": "Small GTPases",
+        "normalized_text": "small GTPases",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "legend item"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t27",
+        "entity_type": "text",
+        "name": "Effectors",
+        "category": "legend_text",
+        "surface_text": "Effectors",
+        "normalized_text": "effectors",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "legend item"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t28",
+        "entity_type": "text",
+        "name": "Target proteins",
+        "category": "legend_text",
+        "surface_text": "Target proteins",
+        "normalized_text": "target proteins",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "legend item"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t1",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t3",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t4",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t9",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "t20",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "t24",
+        "target_entity_id": "v9",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "t23",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "t21",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "t22",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "v2",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "v3",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "v9",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "v2",
+        "target_entity_id": "v4",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "v3",
+        "target_entity_id": "v4",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "v5",
+        "target_entity_id": "v4",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "t8",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "t10",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "t11",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "t12",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "t13",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "v4",
+        "target_entity_id": "v6",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "t16",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r23",
+        "source_entity_id": "t17",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r24",
+        "source_entity_id": "t18",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r25",
+        "source_entity_id": "t14",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r26",
+        "source_entity_id": "t6",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r27",
+        "source_entity_id": "t19",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r28",
+        "source_entity_id": "t5",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r29",
+        "source_entity_id": "v6",
+        "target_entity_id": "v7",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r30",
+        "source_entity_id": "v7",
+        "target_entity_id": "v8",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r31",
+        "source_entity_id": "v7",
+        "target_entity_id": "v9",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r32",
+        "source_entity_id": "v7",
+        "target_entity_id": "v9",
+        "relation_type": "flows_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r33",
+        "source_entity_id": "v11",
+        "target_entity_id": "t5",
+        "relation_type": "points_to",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r34",
+        "source_entity_id": "v11",
+        "target_entity_id": "t6",
+        "relation_type": "points_to",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r35",
+        "source_entity_id": "v11",
+        "target_entity_id": "t19",
+        "relation_type": "points_to",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r36",
+        "source_entity_id": "t7",
+        "target_entity_id": "v11",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r37",
+        "source_entity_id": "v2",
+        "target_entity_id": "v3",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r38",
+        "source_entity_id": "v1",
+        "target_entity_id": "v7",
+        "relation_type": "above",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r39",
+        "source_entity_id": "v7",
+        "target_entity_id": "v9",
+        "relation_type": "above",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      }
+    ]
+  }
+}

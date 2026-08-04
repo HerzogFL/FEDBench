@@ -1,0 +1,396 @@
+{
+  "image_name": "24692a2f21260bb1ba1f5b9457d3432f.png",
+  "prompt_text": "The figure illustrates a reversible chemical strategy for modifying an antibody-like protein through cysteine thiols. On the left, the protein is shown with exposed sulfhydryl groups, which react with a maleimide reagent by Michael addition. This forms stable-looking thioether linkages, depicted by two attached maleimide-derived groups on the protein in the central structure.\n\nThe key point is that this conjugation is not permanently fixed. A labeled retro-Michael reaction can occur, releasing the maleimide-related species and regenerating free thiols on the protein. The released maleimide then appears able to transfer to another thiol-containing molecule in serum, shown on the right as HSA, likely human serum albumin. The final purple HSA box bearing the maleimide adduct indicates unwanted exchange from the original protein conjugate to serum proteins.\n\nOverall, the schematic emphasizes the instability or reversibility of maleimide-based thiol conjugation in biological environments. It highlights a sequence of initial attachment, possible deconjugation, and subsequent capture by serum thiols, suggesting a mechanism for loss of the original conjugate and off-target binding in circulation.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "antibody-like protein with free thiols",
+        "category": "protein",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "Y-shaped",
+          "free thiols",
+          "green/yellow domains"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "maleimide reagent",
+        "category": "molecule",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "five-membered ring",
+          "carbonyls",
+          "R1 substituent"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "maleimide-conjugated antibody-like protein",
+        "category": "protein",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "two attached adducts",
+          "central product",
+          "thioether-linked"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "reaction arrows",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 4,
+        "key_attributes": [
+          "left-to-right",
+          "reversible step",
+          "transfer step"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "HSA serum protein",
+        "category": "protein",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "purple rounded box",
+          "serum thiol",
+          "acceptor protein"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "HSA maleimide adduct",
+        "category": "protein",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "purple box",
+          "attached maleimide",
+          "off-target conjugate"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "thiol label",
+        "category": "scientific_label",
+        "surface_text": "HS",
+        "normalized_text": "HS",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "protein thiol",
+          "left side label"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "thiol label",
+        "category": "scientific_label",
+        "surface_text": "SH",
+        "normalized_text": "SH",
+        "panel": "single_panel",
+        "count": 3,
+        "key_attributes": [
+          "protein thiol",
+          "HSA thiol"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "Michael addition label",
+        "category": "annotation_text",
+        "surface_text": "Michael addition",
+        "normalized_text": "Michael addition",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "reaction step"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "retro-Michael reaction label",
+        "category": "annotation_text",
+        "surface_text": "Retro-Michael reaction",
+        "normalized_text": "Retro-Michael reaction",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "reversible step"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "serum thiol conjugation label",
+        "category": "annotation_text",
+        "surface_text": "Conjugation to serum thiol (HSA)",
+        "normalized_text": "Conjugation to serum thiol (HSA)",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "transfer step",
+          "serum protein"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "HSA label",
+        "category": "scientific_label",
+        "surface_text": "HSA",
+        "normalized_text": "HSA",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "serum protein label",
+          "purple boxes"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "R1 substituent label",
+        "category": "scientific_label",
+        "surface_text": "R¹",
+        "normalized_text": "R1",
+        "panel": "single_panel",
+        "count": 4,
+        "key_attributes": [
+          "maleimide substituent"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "oxygen atom labels",
+        "category": "scientific_label",
+        "surface_text": "O",
+        "normalized_text": "O",
+        "panel": "single_panel",
+        "count": 8,
+        "key_attributes": [
+          "maleimide carbonyls"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "nitrogen atom labels",
+        "category": "scientific_label",
+        "surface_text": "N",
+        "normalized_text": "N",
+        "panel": "single_panel",
+        "count": 4,
+        "key_attributes": [
+          "maleimide ring atom"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "sulfur atom labels",
+        "category": "scientific_label",
+        "surface_text": "S",
+        "normalized_text": "S",
+        "panel": "single_panel",
+        "count": 3,
+        "key_attributes": [
+          "thioether sulfur"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t2",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t3",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t4",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t5",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "t6",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "t6",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "v1",
+        "target_entity_id": "v3",
+        "relation_type": "transforms_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "v2",
+        "target_entity_id": "v3",
+        "relation_type": "transforms_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "v3",
+        "target_entity_id": "v1",
+        "relation_type": "transforms_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "v2",
+        "target_entity_id": "v6",
+        "relation_type": "transforms_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "v5",
+        "target_entity_id": "v6",
+        "relation_type": "transforms_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "v1",
+        "target_entity_id": "v3",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "v3",
+        "target_entity_id": "v5",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "v5",
+        "target_entity_id": "v6",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      }
+    ]
+  }
+}

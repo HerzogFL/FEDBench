@@ -1,0 +1,1505 @@
+{
+  "image_name": "1ea68b6a87228c5ba1f43acdba1b7e34.png",
+  "prompt_text": "The figure summarizes several long-read RNA sequencing library preparation strategies, highlighting how full-length mRNA is converted or adapted for nanopore or PacBio sequencing. A central theme is preserving transcript ends and transcript-specific features while adding platform-specific adapters.\n\nSeveral methods begin with reverse transcription of poly(A)+ mRNA into cDNA. One schematic shows standard full-length cDNA generation by reverse transcription, template switching, and PCR amplification. Other workflows depict commercial ONT and PacBio approaches, where cDNA molecules receive adapters, motor proteins, barcodes, or circularized structures for sequencing. The PacBio-related diagrams emphasize adapter ligation and, in one method, concatenated or linked cDNA segments with labeled barcode regions.\n\nOther panels focus on enrichment or capture of target transcripts. TEQUILA-seq appears to convert both target and non-target mRNAs to cDNA, then selectively hybridize target molecules to probes, capture them on streptavidin beads, and amplify them. CapTrap and another method using rolling circle amplification or oligonucleotide annealing seem designed to enrich intact full-length molecules or preserve transcript ends.\n\nThe final workflow illustrates direct RNA sequencing by ONT, where native full-length mRNA is ligated to sequencing adapters, optionally reverse transcribed, and sequenced without full cDNA conversion. Overall, the figure compares how different protocols capture full-length transcript information for long-read analysis.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "full-length mRNA molecule",
+        "category": "molecule",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "linear RNA",
+          "poly(A) tail",
+          "full-length transcript"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "cDNA molecule",
+        "category": "molecule",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "reverse-transcribed",
+          "full-length",
+          "DNA strand"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "workflow arrows",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "step progression",
+          "downward arrows",
+          "process flow"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "ONT sequencing adapter assembly",
+        "category": "pathway_component",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "adapter",
+          "tether",
+          "motor protein"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "PacBio SMRTbell circularized library",
+        "category": "pathway_component",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "adapter ligation",
+          "dumbbell ends",
+          "circular template"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "linked concatenated cDNA segments",
+        "category": "molecule",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "cDNA1-cDNA3",
+          "barcode regions",
+          "linked segments"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "circularized cDNA for R2C2",
+        "category": "molecule",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "circular DNA",
+          "rolling circle substrate",
+          "assembled from cDNA"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "target and non-target transcript populations",
+        "category": "region",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "two transcript classes",
+          "before capture",
+          "selective enrichment"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "hybridization probes with biotin",
+        "category": "molecule",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "capture probes",
+          "biotinylated",
+          "bind target cDNA"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v10",
+        "entity_type": "visual",
+        "name": "streptavidin bead capture",
+        "category": "device_component",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "bead",
+          "capture step",
+          "target enrichment"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v11",
+        "entity_type": "visual",
+        "name": "RNA and oligonucleotide annealing schematic",
+        "category": "molecule",
+        "panel": "f",
+        "count": 1,
+        "key_attributes": [
+          "polyA+/polyA-",
+          "annealed oligo",
+          "end-preserving"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v12",
+        "entity_type": "visual",
+        "name": "CapTrap bead-based full-length capture",
+        "category": "pathway_component",
+        "panel": "g",
+        "count": 1,
+        "key_attributes": [
+          "biotin",
+          "streptavidin bead",
+          "full-length enrichment"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v13",
+        "entity_type": "visual",
+        "name": "native mRNA with ONT direct RNA adapters",
+        "category": "molecule",
+        "panel": "h",
+        "count": 1,
+        "key_attributes": [
+          "native RNA",
+          "adapter ligation",
+          "optional RT"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v14",
+        "entity_type": "visual",
+        "name": "method color legend swatches",
+        "category": "legend_key",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "mRNA color",
+          "cDNA color",
+          "modification marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v15",
+        "entity_type": "visual",
+        "name": "panel markers",
+        "category": "panel_marker",
+        "panel": "single_panel",
+        "count": 8,
+        "key_attributes": [
+          "a-h",
+          "panel indexing"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "panel label a",
+        "category": "panel_label",
+        "surface_text": "a",
+        "normalized_text": "a",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "retrotranscription title",
+        "category": "scientific_label",
+        "surface_text": "Retrotranscription of mRNA into cDNA",
+        "normalized_text": "Retrotranscription of mRNA into cDNA",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "workflow title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "full-length mRNA label",
+        "category": "scientific_label",
+        "surface_text": "Full-length mRNA",
+        "normalized_text": "full-length mRNA",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "starting material"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "reverse transcription annotation",
+        "category": "annotation_text",
+        "surface_text": "Reverse transcription",
+        "normalized_text": "reverse transcription",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "process step"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "template switching annotation",
+        "category": "annotation_text",
+        "surface_text": "Template switching",
+        "normalized_text": "template switching",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "process step"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "PCR amplification annotation",
+        "category": "annotation_text",
+        "surface_text": "PCR amplification",
+        "normalized_text": "PCR amplification",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "process step"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "non-templated Cs annotation",
+        "category": "annotation_text",
+        "surface_text": "Non-templated Cs",
+        "normalized_text": "non-templated Cs",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "terminal addition"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "panel label b",
+        "category": "panel_label",
+        "surface_text": "b",
+        "normalized_text": "b",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "ONT cDNA title",
+        "category": "scientific_label",
+        "surface_text": "(Commercial) ONT cDNA",
+        "normalized_text": "commercial ONT cDNA",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "workflow title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "tether label",
+        "category": "legend_text",
+        "surface_text": "Tether",
+        "normalized_text": "tether",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "adapter component"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "adapter label",
+        "category": "legend_text",
+        "surface_text": "Adapter",
+        "normalized_text": "adapter",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "platform-specific addition"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "motor enzyme label",
+        "category": "legend_text",
+        "surface_text": "Motor enzyme",
+        "normalized_text": "motor enzyme",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "ONT component"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "panel label c",
+        "category": "panel_label",
+        "surface_text": "c",
+        "normalized_text": "c",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t14",
+        "entity_type": "text",
+        "name": "PacBio Iso-Seq title",
+        "category": "scientific_label",
+        "surface_text": "(Commercial) PacBio Iso-Seq",
+        "normalized_text": "commercial PacBio Iso-Seq",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "workflow title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t15",
+        "entity_type": "text",
+        "name": "anneal primers annotation",
+        "category": "annotation_text",
+        "surface_text": "Anneal primers",
+        "normalized_text": "anneal primers",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "ligation preparation"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t16",
+        "entity_type": "text",
+        "name": "SMRTbell adapters label",
+        "category": "scientific_label",
+        "surface_text": "SMRTbell adapters",
+        "normalized_text": "SMRTbell adapters",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "PacBio adapters"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t17",
+        "entity_type": "text",
+        "name": "PacBio Kinnex MAS-Seq title",
+        "category": "scientific_label",
+        "surface_text": "(Commercial) PacBio Kinnex/MAS-Seq",
+        "normalized_text": "commercial PacBio Kinnex MAS-Seq",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "workflow title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t18",
+        "entity_type": "text",
+        "name": "barcode adapter label",
+        "category": "scientific_label",
+        "surface_text": "Barcode adapter",
+        "normalized_text": "barcode adapter",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "labeled barcode region"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t19",
+        "entity_type": "text",
+        "name": "cDNA segment labels",
+        "category": "scientific_label",
+        "surface_text": "cDNA1 / cDNA2 / cDNA3",
+        "normalized_text": "cDNA1 cDNA2 cDNA3",
+        "panel": "c",
+        "count": 3,
+        "key_attributes": [
+          "linked cDNAs"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t20",
+        "entity_type": "text",
+        "name": "panel label d",
+        "category": "panel_label",
+        "surface_text": "d",
+        "normalized_text": "d",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t21",
+        "entity_type": "text",
+        "name": "R2C2 title",
+        "category": "scientific_label",
+        "surface_text": "R2C2",
+        "normalized_text": "R2C2",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "workflow title"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t22",
+        "entity_type": "text",
+        "name": "full-length cDNA label",
+        "category": "scientific_label",
+        "surface_text": "Full-length cDNA",
+        "normalized_text": "full-length cDNA",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "starting molecule"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t23",
+        "entity_type": "text",
+        "name": "homology region annotation",
+        "category": "annotation_text",
+        "surface_text": "Homology region",
+        "normalized_text": "homology region",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "assembly overlap"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t24",
+        "entity_type": "text",
+        "name": "Gibson assembly annotation",
+        "category": "annotation_text",
+        "surface_text": "Gibson assembly",
+        "normalized_text": "Gibson assembly",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "circularization step"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t25",
+        "entity_type": "text",
+        "name": "RCA annotation",
+        "category": "annotation_text",
+        "surface_text": "RCA",
+        "normalized_text": "rolling circle amplification",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "amplification step"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t26",
+        "entity_type": "text",
+        "name": "panel label e",
+        "category": "panel_label",
+        "surface_text": "e",
+        "normalized_text": "e",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t27",
+        "entity_type": "text",
+        "name": "TEQUILA-seq title",
+        "category": "scientific_label",
+        "surface_text": "TEQUILA-seq",
+        "normalized_text": "TEQUILA-seq",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "workflow title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t28",
+        "entity_type": "text",
+        "name": "target mRNA label",
+        "category": "scientific_label",
+        "surface_text": "Target mRNA",
+        "normalized_text": "target mRNA",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "selected transcript"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t29",
+        "entity_type": "text",
+        "name": "non-target mRNA label",
+        "category": "scientific_label",
+        "surface_text": "Non-target mRNA",
+        "normalized_text": "non-target mRNA",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "background transcript"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t30",
+        "entity_type": "text",
+        "name": "reverse transcription annotation in TEQUILA-seq",
+        "category": "annotation_text",
+        "surface_text": "Reverse transcription",
+        "normalized_text": "reverse transcription",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "conversion to cDNA"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t31",
+        "entity_type": "text",
+        "name": "biotin label",
+        "category": "scientific_label",
+        "surface_text": "Biotin",
+        "normalized_text": "biotin",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "probe tag"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t32",
+        "entity_type": "text",
+        "name": "hybridize to probes annotation",
+        "category": "annotation_text",
+        "surface_text": "Hybridize to probes",
+        "normalized_text": "hybridize to probes",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "capture step"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t33",
+        "entity_type": "text",
+        "name": "streptavidin bead label",
+        "category": "scientific_label",
+        "surface_text": "Streptavidin bead",
+        "normalized_text": "streptavidin bead",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "capture matrix"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t34",
+        "entity_type": "text",
+        "name": "capture wash amplify annotation",
+        "category": "annotation_text",
+        "surface_text": "Capture, wash and amplify",
+        "normalized_text": "capture wash and amplify",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "enrichment output"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t35",
+        "entity_type": "text",
+        "name": "panel label f",
+        "category": "panel_label",
+        "surface_text": "f",
+        "normalized_text": "f",
+        "panel": "f",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t36",
+        "entity_type": "text",
+        "name": "Nano3P-seq title",
+        "category": "scientific_label",
+        "surface_text": "Nano3P-seq",
+        "normalized_text": "Nano3P-seq",
+        "panel": "f",
+        "count": 1,
+        "key_attributes": [
+          "workflow title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t37",
+        "entity_type": "text",
+        "name": "polyA plus RNA label",
+        "category": "scientific_label",
+        "surface_text": "polyA+ RNA",
+        "normalized_text": "polyA+ RNA",
+        "panel": "f",
+        "count": 1,
+        "key_attributes": [
+          "RNA class"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t38",
+        "entity_type": "text",
+        "name": "polyA minus RNA label",
+        "category": "scientific_label",
+        "surface_text": "polyA− RNA",
+        "normalized_text": "polyA- RNA",
+        "panel": "f",
+        "count": 1,
+        "key_attributes": [
+          "RNA class"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t39",
+        "entity_type": "text",
+        "name": "primer annealing annotation",
+        "category": "annotation_text",
+        "surface_text": "Primer annealing",
+        "normalized_text": "primer annealing",
+        "panel": "f",
+        "count": 1,
+        "key_attributes": [
+          "process step"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t40",
+        "entity_type": "text",
+        "name": "RNA digestion and oligo annealing annotation",
+        "category": "annotation_text",
+        "surface_text": "RNA digestion and complementary oligonucleotide annealing",
+        "normalized_text": "RNA digestion and complementary oligonucleotide annealing",
+        "panel": "f",
+        "count": 1,
+        "key_attributes": [
+          "end-preserving strategy"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t41",
+        "entity_type": "text",
+        "name": "panel label g",
+        "category": "panel_label",
+        "surface_text": "g",
+        "normalized_text": "g",
+        "panel": "g",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t42",
+        "entity_type": "text",
+        "name": "CapTrap title",
+        "category": "scientific_label",
+        "surface_text": "CapTrap",
+        "normalized_text": "CapTrap",
+        "panel": "g",
+        "count": 1,
+        "key_attributes": [
+          "workflow title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t43",
+        "entity_type": "text",
+        "name": "biotin label in CapTrap",
+        "category": "scientific_label",
+        "surface_text": "Biotin",
+        "normalized_text": "biotin",
+        "panel": "g",
+        "count": 1,
+        "key_attributes": [
+          "capture tag"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t44",
+        "entity_type": "text",
+        "name": "streptavidin bead label in CapTrap",
+        "category": "scientific_label",
+        "surface_text": "Streptavidin bead",
+        "normalized_text": "streptavidin bead",
+        "panel": "g",
+        "count": 1,
+        "key_attributes": [
+          "capture support"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t45",
+        "entity_type": "text",
+        "name": "full-length mRNA label in CapTrap",
+        "category": "scientific_label",
+        "surface_text": "Full-length mRNA",
+        "normalized_text": "full-length mRNA",
+        "panel": "g",
+        "count": 1,
+        "key_attributes": [
+          "captured molecule"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t46",
+        "entity_type": "text",
+        "name": "panel label h",
+        "category": "panel_label",
+        "surface_text": "h",
+        "normalized_text": "h",
+        "panel": "h",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t47",
+        "entity_type": "text",
+        "name": "ONT direct RNA title",
+        "category": "scientific_label",
+        "surface_text": "(Commercial) ONT direct RNA",
+        "normalized_text": "commercial ONT direct RNA",
+        "panel": "h",
+        "count": 1,
+        "key_attributes": [
+          "workflow title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t48",
+        "entity_type": "text",
+        "name": "full-length mRNA label in direct RNA panel",
+        "category": "scientific_label",
+        "surface_text": "Full-length mRNA",
+        "normalized_text": "full-length mRNA",
+        "panel": "h",
+        "count": 1,
+        "key_attributes": [
+          "native RNA input"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t49",
+        "entity_type": "text",
+        "name": "RT adapter ligation annotation",
+        "category": "annotation_text",
+        "surface_text": "RT adapter ligation and (optional) reverse transcription",
+        "normalized_text": "RT adapter ligation and optional reverse transcription",
+        "panel": "h",
+        "count": 1,
+        "key_attributes": [
+          "optional RT",
+          "adapter addition"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t50",
+        "entity_type": "text",
+        "name": "sequencing adapter ligation annotation",
+        "category": "annotation_text",
+        "surface_text": "Sequencing adapter ligation",
+        "normalized_text": "sequencing adapter ligation",
+        "panel": "h",
+        "count": 1,
+        "key_attributes": [
+          "final library step"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t51",
+        "entity_type": "text",
+        "name": "legend mRNA",
+        "category": "legend_text",
+        "surface_text": "mRNA",
+        "normalized_text": "mRNA",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "legend entry"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t52",
+        "entity_type": "text",
+        "name": "legend cDNA",
+        "category": "legend_text",
+        "surface_text": "cDNA",
+        "normalized_text": "cDNA",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "legend entry"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t53",
+        "entity_type": "text",
+        "name": "legend modification",
+        "category": "legend_text",
+        "surface_text": "Modification",
+        "normalized_text": "modification",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "legend entry"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t2",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t3",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "v1",
+        "target_entity_id": "v2",
+        "relation_type": "transforms_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t4",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "t5",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "t6",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "t9",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "t10",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "t11",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "t12",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "t14",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "t16",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "t17",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "t18",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "v6",
+        "target_entity_id": "v5",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "t21",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "t25",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "t27",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "t28",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "t29",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "t30",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "v8",
+        "target_entity_id": "v9",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r23",
+        "source_entity_id": "t31",
+        "target_entity_id": "v9",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r24",
+        "source_entity_id": "t32",
+        "target_entity_id": "v9",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r25",
+        "source_entity_id": "v9",
+        "target_entity_id": "v10",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r26",
+        "source_entity_id": "t33",
+        "target_entity_id": "v10",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r27",
+        "source_entity_id": "t34",
+        "target_entity_id": "v10",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r28",
+        "source_entity_id": "t36",
+        "target_entity_id": "v11",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r29",
+        "source_entity_id": "t40",
+        "target_entity_id": "v11",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r30",
+        "source_entity_id": "t42",
+        "target_entity_id": "v12",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r31",
+        "source_entity_id": "t44",
+        "target_entity_id": "v12",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r32",
+        "source_entity_id": "t45",
+        "target_entity_id": "v12",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r33",
+        "source_entity_id": "t47",
+        "target_entity_id": "v13",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r34",
+        "source_entity_id": "t48",
+        "target_entity_id": "v13",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r35",
+        "source_entity_id": "t49",
+        "target_entity_id": "v13",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r36",
+        "source_entity_id": "t50",
+        "target_entity_id": "v13",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r37",
+        "source_entity_id": "v14",
+        "target_entity_id": "t51",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r38",
+        "source_entity_id": "v14",
+        "target_entity_id": "t52",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r39",
+        "source_entity_id": "v14",
+        "target_entity_id": "t53",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r40",
+        "source_entity_id": "t1",
+        "target_entity_id": "v15",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r41",
+        "source_entity_id": "t8",
+        "target_entity_id": "v15",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r42",
+        "source_entity_id": "t13",
+        "target_entity_id": "v15",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r43",
+        "source_entity_id": "t20",
+        "target_entity_id": "v15",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r44",
+        "source_entity_id": "t26",
+        "target_entity_id": "v15",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r45",
+        "source_entity_id": "t35",
+        "target_entity_id": "v15",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r46",
+        "source_entity_id": "t41",
+        "target_entity_id": "v15",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r47",
+        "source_entity_id": "t46",
+        "target_entity_id": "v15",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "global"
+      }
+    ]
+  }
+}

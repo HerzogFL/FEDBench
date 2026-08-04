@@ -1,0 +1,1054 @@
+{
+  "image_name": "c210b4b9201bf73addc288b2e587c16b.png",
+  "prompt_text": "The figure summarizes several proposed mechanisms for dielectric breakdown in interconnect low‑k materials and compares how each model depends on electric field. Across the top and middle, simple cartoons show different physical pictures inside an oxide or low‑k layer between metal/Cu lines: a thermochemical process driven by field‑induced bond stretching and bond breaking; anode hole injection and hydrogen‑release models in which injected carriers create or fill traps; an impact‑damage model involving Poole–Frenkel transport and trap creation; and Cu‑related models where copper ions drift from a Cu line through a barrier into the dielectric.\n\nA main theme is that breakdown is linked to defect generation, trap buildup, and sometimes hydrogen motion or Cu migration. The sketches distinguish thick versus thin oxides for hole injection, and show conductive carriers, trapped charges, and local damage sites forming near one electrode or within the dielectric.\n\nThe bottom panel condenses these ideas into a table, listing for each model which ingredients are included—carrier injection/conduction, ionization, hydrogen, bond breakage, Cu diffusion, trapping, and charge accumulation—along with the expected field dependence and a characteristic lifetime equation for time to breakdown. Overall, the figure is a comparative roadmap of competing breakdown models rather than a single experiment.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "dielectric or low-k layer schematic region",
+        "category": "layer",
+        "panel": "a-f",
+        "count": 6,
+        "key_attributes": [
+          "insulating region",
+          "between electrodes",
+          "polygon slab"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "metal or Cu line electrodes",
+        "category": "device_component",
+        "panel": "b-f",
+        "count": 2,
+        "key_attributes": [
+          "side contacts",
+          "line electrodes",
+          "anode/cathode context"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "bonded atom network cartoon",
+        "category": "material_structure",
+        "panel": "a",
+        "count": 2,
+        "key_attributes": [
+          "bond stretching",
+          "bond breaking",
+          "trap formation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "holes or injected carriers",
+        "category": "pathway_component",
+        "panel": "b-c",
+        "count": 1,
+        "key_attributes": [
+          "positive carriers",
+          "anode injection",
+          "red symbols"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "traps or trapped charges",
+        "category": "region",
+        "panel": "b-d",
+        "count": 1,
+        "key_attributes": [
+          "localized defect sites",
+          "charge trapping",
+          "inside dielectric"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "hydrogen species and motion path",
+        "category": "molecule",
+        "panel": "c,f",
+        "count": 1,
+        "key_attributes": [
+          "H or H+",
+          "release/migration",
+          "near defects"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "Poole-Frenkel conduction path and impact damage site",
+        "category": "pathway_component",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "carrier transport",
+          "damage creation",
+          "impact model"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "Cu and Cu+ species in dielectric",
+        "category": "molecule",
+        "panel": "e-f",
+        "count": 1,
+        "key_attributes": [
+          "neutral and ionic copper",
+          "migration",
+          "yellow/orange circles"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "barrier layer between Cu line and dielectric",
+        "category": "layer",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "thin interfacial barrier",
+          "next to Cu line",
+          "Cu drift model"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v10",
+        "entity_type": "visual",
+        "name": "migration and process arrows",
+        "category": "arrow",
+        "panel": "a-f",
+        "count": 1,
+        "key_attributes": [
+          "field direction",
+          "carrier movement",
+          "sequence cues"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v11",
+        "entity_type": "visual",
+        "name": "comparative summary table grid",
+        "category": "region",
+        "panel": "g",
+        "count": 1,
+        "key_attributes": [
+          "rows by model",
+          "columns by ingredients",
+          "equation column"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v12",
+        "entity_type": "visual",
+        "name": "small Cu/Cu+ legend box",
+        "category": "legend_key",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "color key",
+          "Cu species",
+          "small boxed legend"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "Thermochemical model title",
+        "category": "scientific_label",
+        "surface_text": "Thermochemical model (E)",
+        "normalized_text": "Thermochemical model (E)",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "model name",
+          "field dependence"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "Anode hole injection model title",
+        "category": "scientific_label",
+        "surface_text": "Anode hole injection model (1/E)",
+        "normalized_text": "Anode hole injection model (1/E)",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "model name",
+          "field dependence"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "Anode hydrogen release model title",
+        "category": "scientific_label",
+        "surface_text": "Anode hydrogen release model (power law)",
+        "normalized_text": "Anode hydrogen release model (power law)",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "model name",
+          "power law"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "Impact damage model title",
+        "category": "scientific_label",
+        "surface_text": "Impact damage model (√E)",
+        "normalized_text": "Impact damage model (√E)",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "model name",
+          "sqrt E dependence"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "Cu drift model title",
+        "category": "scientific_label",
+        "surface_text": "Cu+ drift model (E, E²)",
+        "normalized_text": "Cu+ drift model (E, E^2)",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "model name",
+          "Cu ion drift",
+          "field dependence"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "sqrt E Cu model title",
+        "category": "scientific_label",
+        "surface_text": "√E Cu model",
+        "normalized_text": "√E Cu model",
+        "panel": "f",
+        "count": 1,
+        "key_attributes": [
+          "Cu-related model",
+          "sqrt E"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "bond stretching annotation",
+        "category": "annotation_text",
+        "surface_text": "Field-induced bond stretching",
+        "normalized_text": "Field-induced bond stretching",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "mechanism detail"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "bond breaking annotation",
+        "category": "annotation_text",
+        "surface_text": "Bond breaking and trap formation",
+        "normalized_text": "Bond breaking and trap formation",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "defect generation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "thick oxides label",
+        "category": "annotation_text",
+        "surface_text": "Thick oxides",
+        "normalized_text": "Thick oxides",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "oxide thickness distinction"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "thin oxides label",
+        "category": "annotation_text",
+        "surface_text": "Thin oxides",
+        "normalized_text": "Thin oxides",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "oxide thickness distinction"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "hole trapping label",
+        "category": "annotation_text",
+        "surface_text": "Hole trapping",
+        "normalized_text": "Hole trapping",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "carrier trapping"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "trap creation label",
+        "category": "annotation_text",
+        "surface_text": "Trap creation",
+        "normalized_text": "Trap creation",
+        "panel": "b,d",
+        "count": 2,
+        "key_attributes": [
+          "defect generation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "Poole-Frenkel conduction label",
+        "category": "annotation_text",
+        "surface_text": "Poole-Frenkel conduction",
+        "normalized_text": "Poole-Frenkel conduction",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "transport mechanism"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t14",
+        "entity_type": "text",
+        "name": "Cu line label",
+        "category": "annotation_text",
+        "surface_text": "Cu line",
+        "normalized_text": "Cu line",
+        "panel": "e-f",
+        "count": 2,
+        "key_attributes": [
+          "electrode identity"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t15",
+        "entity_type": "text",
+        "name": "Low-k material label",
+        "category": "annotation_text",
+        "surface_text": "Low-k material",
+        "normalized_text": "Low-k material",
+        "panel": "e-f",
+        "count": 2,
+        "key_attributes": [
+          "dielectric identity"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t16",
+        "entity_type": "text",
+        "name": "Barrier layer label",
+        "category": "annotation_text",
+        "surface_text": "Barrier layer",
+        "normalized_text": "Barrier layer",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "interfacial layer"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t17",
+        "entity_type": "text",
+        "name": "Cu legend entries",
+        "category": "legend_text",
+        "surface_text": "Cu; Cu+",
+        "normalized_text": "Cu; Cu+",
+        "panel": "e",
+        "count": 2,
+        "key_attributes": [
+          "species legend"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t18",
+        "entity_type": "text",
+        "name": "hydrogen species labels",
+        "category": "annotation_text",
+        "surface_text": "H; H+",
+        "normalized_text": "H; H+",
+        "panel": "c,f",
+        "count": 3,
+        "key_attributes": [
+          "hydrogen species"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t19",
+        "entity_type": "text",
+        "name": "table column headers",
+        "category": "scientific_label",
+        "surface_text": "Model; Carriers’ injection; Carriers’ conduction; Ionization; Hydrogen; Field-induced bond breakage; Cu+ diffusion; Carriers trapping; Charge accumulation; Field dependence; tBD equation",
+        "normalized_text": "Model; Carriers' injection; Carriers' conduction; Ionization; Hydrogen; Field-induced bond breakage; Cu+ diffusion; Carriers trapping; Charge accumulation; Field dependence; tBD equation",
+        "panel": "g",
+        "count": 11,
+        "key_attributes": [
+          "comparison columns"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t20",
+        "entity_type": "text",
+        "name": "table model row labels",
+        "category": "scientific_label",
+        "surface_text": "Thermochemical; AHI; AHR; Impact damage; Cu+ drift; √E",
+        "normalized_text": "Thermochemical; AHI; AHR; Impact damage; Cu+ drift; √E",
+        "panel": "g",
+        "count": 6,
+        "key_attributes": [
+          "model abbreviations",
+          "row labels"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t21",
+        "entity_type": "text",
+        "name": "field dependence entries",
+        "category": "equation",
+        "surface_text": "E; 1/E; E^N; √E; E, E²",
+        "normalized_text": "E; 1/E; E^N; √E; E, E^2",
+        "panel": "g",
+        "count": 5,
+        "key_attributes": [
+          "field scaling"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t22",
+        "entity_type": "text",
+        "name": "tBD lifetime equations",
+        "category": "equation",
+        "surface_text": "tBD ∝ exp((Ea − bE)/kBT); tBD ∝ exp((B + H)/E); tBD ∝ V^-N; tBD ∝ exp((-γ√E + ξ)/(μqE)); tBD ∝ exp((Ea − γE²)/kBT) f(C,T,E); tBD ∝ exp((Ea − qλE)/kBT); tBD ∝ exp(K1 − K2√E/γ²)",
+        "normalized_text": "tBD proportional equations for each model",
+        "panel": "g",
+        "count": 7,
+        "key_attributes": [
+          "lifetime formulas",
+          "breakdown time"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t23",
+        "entity_type": "text",
+        "name": "transport mode abbreviations",
+        "category": "scientific_label",
+        "surface_text": "FN; PF; Schottky, PF",
+        "normalized_text": "FN; PF; Schottky, PF",
+        "panel": "g",
+        "count": 3,
+        "key_attributes": [
+          "conduction abbreviations"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t24",
+        "entity_type": "text",
+        "name": "panel labels",
+        "category": "panel_label",
+        "surface_text": "a; b; c; d; e; f; g",
+        "normalized_text": "a; b; c; d; e; f; g",
+        "panel": "all",
+        "count": 7,
+        "key_attributes": [
+          "panel markers"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t1",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t7",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t8",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "v3",
+        "target_entity_id": "v5",
+        "relation_type": "transforms_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "t2",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "v4",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "v5",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "t9",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "t10",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "t11",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "t12",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "v4",
+        "target_entity_id": "v5",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "t3",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "v6",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "t18",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "v4",
+        "target_entity_id": "v5",
+        "relation_type": "activates",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "v6",
+        "target_entity_id": "v5",
+        "relation_type": "connected_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "t4",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "t13",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "t12",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "v7",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "v7",
+        "target_entity_id": "v5",
+        "relation_type": "transforms_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r23",
+        "source_entity_id": "t5",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r24",
+        "source_entity_id": "t14",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r25",
+        "source_entity_id": "t15",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r26",
+        "source_entity_id": "t16",
+        "target_entity_id": "v9",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r27",
+        "source_entity_id": "v9",
+        "target_entity_id": "v2",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r28",
+        "source_entity_id": "v8",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r29",
+        "source_entity_id": "v8",
+        "target_entity_id": "v2",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r30",
+        "source_entity_id": "v8",
+        "target_entity_id": "v9",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r31",
+        "source_entity_id": "v9",
+        "target_entity_id": "v1",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r32",
+        "source_entity_id": "t17",
+        "target_entity_id": "v12",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r33",
+        "source_entity_id": "v12",
+        "target_entity_id": "v8",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r34",
+        "source_entity_id": "t6",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r35",
+        "source_entity_id": "t14",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r36",
+        "source_entity_id": "t15",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r37",
+        "source_entity_id": "t18",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r38",
+        "source_entity_id": "v8",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r39",
+        "source_entity_id": "v6",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r40",
+        "source_entity_id": "v8",
+        "target_entity_id": "v2",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r41",
+        "source_entity_id": "v6",
+        "target_entity_id": "v8",
+        "relation_type": "connected_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r42",
+        "source_entity_id": "t19",
+        "target_entity_id": "v11",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r43",
+        "source_entity_id": "t20",
+        "target_entity_id": "v11",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r44",
+        "source_entity_id": "t21",
+        "target_entity_id": "v11",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r45",
+        "source_entity_id": "t22",
+        "target_entity_id": "v11",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r46",
+        "source_entity_id": "t20",
+        "target_entity_id": "t1",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r47",
+        "source_entity_id": "t20",
+        "target_entity_id": "t2",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r48",
+        "source_entity_id": "t20",
+        "target_entity_id": "t3",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r49",
+        "source_entity_id": "t20",
+        "target_entity_id": "t4",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r50",
+        "source_entity_id": "t20",
+        "target_entity_id": "t5",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r51",
+        "source_entity_id": "t20",
+        "target_entity_id": "t6",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "cross_panel"
+      }
+    ]
+  }
+}

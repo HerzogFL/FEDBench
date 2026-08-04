@@ -1,0 +1,462 @@
+{
+  "image_name": "e367a84ab3a9bd2407120538c3fd7709.png",
+  "prompt_text": "The figure illustrates vibrational normal modes in a one-dimensional diatomic chain made of alternating masses, labeled \\(M_1\\) and \\(M_2\\), connected like a spring-mass lattice. It contrasts optical and acoustical modes for both longitudinal motion along the chain and transverse motion perpendicular to it, while indicating wave propagation with the wavevector \\(k\\).\n\nThe key visual message is the phase relation between neighboring atoms. In the optical modes, adjacent large and small masses move in opposite directions, so the two sublattices oscillate against each other. This is shown both for longitudinal motion, where arrows point oppositely on neighboring atoms, and for transverse motion, where the two masses lie on opposite sides of the sinusoidal displacement pattern. In the acoustical modes, neighboring atoms move together in the same direction, giving an in-phase collective motion of the chain. For the transverse acoustic case, both masses follow the same wave-like shape.\n\nOverall, the diagram emphasizes how a diatomic lattice supports two distinct families of vibrations because of the alternating masses: acoustical modes with in-phase motion and optical modes with out-of-phase motion, each possible for different polarization directions.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "diatomic chain lattice",
+        "category": "material_structure",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "1D alternating masses",
+          "spring-mass chain",
+          "repeated unit"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "large mass atoms",
+        "category": "molecule",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "larger blue spheres",
+          "alternating sublattice",
+          "heavier mass type"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "small mass atoms",
+        "category": "molecule",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "smaller yellow spheres",
+          "alternating sublattice",
+          "lighter mass type"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "springs between masses",
+        "category": "pathway_component",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "zigzag connectors",
+          "between neighboring masses",
+          "lattice coupling"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "opposite longitudinal displacement arrows",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "neighboring opposite directions",
+          "optical mode",
+          "along chain"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "same-direction longitudinal displacement arrows",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "neighboring same direction",
+          "acoustical mode",
+          "along chain"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "optical transverse wave pattern",
+        "category": "material_structure",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "two sublattices out of phase",
+          "masses on opposite sides",
+          "sinusoidal path"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "acoustical transverse wave pattern",
+        "category": "material_structure",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "same wave shape",
+          "in-phase motion",
+          "sinusoidal path"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "wavevector direction arrows",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "rightward",
+          "propagation direction",
+          "paired with k"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "chain title",
+        "category": "scientific_label",
+        "surface_text": "1D chain with masses M1 and M2",
+        "normalized_text": "1D chain with masses M1 and M2",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "overview label"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "mass label M1",
+        "category": "scientific_label",
+        "surface_text": "M1",
+        "normalized_text": "M1",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "large mass label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "mass label M2",
+        "category": "scientific_label",
+        "surface_text": "M2",
+        "normalized_text": "M2",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "small mass label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "optical longitudinal mode label",
+        "category": "scientific_label",
+        "surface_text": "Optical longitudinal mode",
+        "normalized_text": "Optical longitudinal mode",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "mode row label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "acoustical longitudinal mode label",
+        "category": "scientific_label",
+        "surface_text": "Acoustical longitudinal mode",
+        "normalized_text": "Acoustical longitudinal mode",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "mode row label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "optical transverse mode label",
+        "category": "scientific_label",
+        "surface_text": "Optical transverse mode",
+        "normalized_text": "Optical transverse mode",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "mode row label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "acoustical transverse mode label",
+        "category": "scientific_label",
+        "surface_text": "Acoustical transverse mode",
+        "normalized_text": "Acoustical transverse mode",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "mode row label"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "wavevector label",
+        "category": "scientific_label",
+        "surface_text": "k",
+        "normalized_text": "k",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "wavevector"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t2",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t3",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t4",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t5",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "t6",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "t7",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "t8",
+        "target_entity_id": "v9",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "v2",
+        "target_entity_id": "v1",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "v3",
+        "target_entity_id": "v1",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "v4",
+        "target_entity_id": "v1",
+        "relation_type": "part_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "v2",
+        "target_entity_id": "v4",
+        "relation_type": "connected_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "v3",
+        "target_entity_id": "v4",
+        "relation_type": "connected_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "v5",
+        "target_entity_id": "v1",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "v6",
+        "target_entity_id": "v1",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "v7",
+        "target_entity_id": "v1",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "v8",
+        "target_entity_id": "v1",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "v9",
+        "target_entity_id": "v1",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "v5",
+        "target_entity_id": "v6",
+        "relation_type": "above",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "v7",
+        "target_entity_id": "v8",
+        "relation_type": "above",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "t1",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      }
+    ]
+  }
+}

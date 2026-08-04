@@ -1,0 +1,710 @@
+{
+  "image_name": "eaaae8f6559961a1275962f7c374079d.png",
+  "prompt_text": "The figure summarizes the quark content and decay mechanism of a neutral D meson into two pions. At the top, it introduces the relevant quark pairs and hadrons: a proton made of two up quarks and one down quark, and a \\(D^0\\) meson made of a charm quark and an anti-up quark. This sets up the particle identities used in the decay diagrams below.\n\nThe lower part compares two types of Feynman-like contributions to the same decay process, \\(D^0 \\to \\pi^- \\pi^+\\). In the “Tree” diagram, the charm quark decays through a \\(W\\) boson into lighter quarks, while the spectator anti-up quark continues into one of the final pions. The quark lines reorganize to form the outgoing \\(\\pi^-\\) and \\(\\pi^+\\).\n\nNext to it, the “Penguin” diagram shows a loop-mediated alternative. Here the charm quark again transitions via a \\(W^+\\), but the process includes an internal loop with down-type quarks labeled \\(d,s,b\\) and a gluon that helps generate the final quark pair. The comparison highlights that the same final state can arise from a direct weak decay or a more indirect loop process, which is the main scientific point of the figure.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "proton schematic",
+        "category": "material_structure",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "large hadron circle",
+          "contains uud",
+          "top-left hadron"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "D0 meson schematic",
+        "category": "material_structure",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "large hadron circle",
+          "contains c and anti-u",
+          "top-right hadron"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "quark pair examples",
+        "category": "pathway_component",
+        "panel": "a",
+        "count": 3,
+        "key_attributes": [
+          "parenthesized pairs",
+          "u-d c-s t-b",
+          "introductory row"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "tree decay diagram",
+        "category": "pathway_component",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "left subpanel",
+          "quark-line decay",
+          "to pi- pi+"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "penguin decay diagram",
+        "category": "pathway_component",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "right subpanel",
+          "loop-mediated",
+          "to pi- pi+"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "W boson exchange line",
+        "category": "pathway_component",
+        "panel": "b",
+        "count": 2,
+        "key_attributes": [
+          "wavy line",
+          "weak interaction",
+          "in both diagrams"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "gluon line",
+        "category": "pathway_component",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "curly line",
+          "penguin only",
+          "creates final pair"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "internal quark loop",
+        "category": "pathway_component",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "closed loop",
+          "penguin only",
+          "down-type quarks"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "external hadron blobs",
+        "category": "region",
+        "panel": "b",
+        "count": 6,
+        "key_attributes": [
+          "oval hadron endpoints",
+          "initial and final mesons",
+          "diagram placeholders"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v10",
+        "entity_type": "visual",
+        "name": "quark-flow arrows",
+        "category": "arrow",
+        "panel": "b",
+        "count": 12,
+        "key_attributes": [
+          "directed fermion lines",
+          "show flow",
+          "both subpanels"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v11",
+        "entity_type": "visual",
+        "name": "panel marker a",
+        "category": "panel_marker",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "top-left",
+          "bold letter"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "v12",
+        "entity_type": "visual",
+        "name": "panel marker b",
+        "category": "panel_marker",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "left of lower panel",
+          "bold letter"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "panel label a",
+        "category": "panel_label",
+        "surface_text": "a",
+        "normalized_text": "a",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "panel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "panel label b",
+        "category": "panel_label",
+        "surface_text": "b",
+        "normalized_text": "b",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "panel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "Proton label",
+        "category": "scientific_label",
+        "surface_text": "Proton",
+        "normalized_text": "proton",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "hadron identity"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "D0 label in panel a",
+        "category": "scientific_label",
+        "surface_text": "D⁰",
+        "normalized_text": "D0",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "hadron identity"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "Tree title",
+        "category": "annotation_text",
+        "surface_text": "Tree",
+        "normalized_text": "Tree",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "left subdiagram title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "Penguin title",
+        "category": "annotation_text",
+        "surface_text": "Penguin",
+        "normalized_text": "Penguin",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "right subdiagram title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "D0 labels in decay diagrams",
+        "category": "scientific_label",
+        "surface_text": "D⁰",
+        "normalized_text": "D0",
+        "panel": "b",
+        "count": 2,
+        "key_attributes": [
+          "initial state",
+          "both subdiagrams"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "pi-minus labels",
+        "category": "scientific_label",
+        "surface_text": "π⁻",
+        "normalized_text": "pi-",
+        "panel": "b",
+        "count": 2,
+        "key_attributes": [
+          "final state",
+          "both subdiagrams"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "pi-plus labels",
+        "category": "scientific_label",
+        "surface_text": "π⁺",
+        "normalized_text": "pi+",
+        "panel": "b",
+        "count": 2,
+        "key_attributes": [
+          "final state",
+          "both subdiagrams"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "anti-up quark labels",
+        "category": "scientific_label",
+        "surface_text": "ū",
+        "normalized_text": "anti-u",
+        "panel": "b",
+        "count": 4,
+        "key_attributes": [
+          "spectator quark",
+          "on top lines"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "charm quark labels",
+        "category": "scientific_label",
+        "surface_text": "c",
+        "normalized_text": "c",
+        "panel": "b",
+        "count": 2,
+        "key_attributes": [
+          "initial quark"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "down quark labels",
+        "category": "scientific_label",
+        "surface_text": "d",
+        "normalized_text": "d",
+        "panel": "b",
+        "count": 2,
+        "key_attributes": [
+          "final quark",
+          "tree and penguin"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "anti-down quark labels",
+        "category": "scientific_label",
+        "surface_text": "d̄",
+        "normalized_text": "anti-d",
+        "panel": "b",
+        "count": 2,
+        "key_attributes": [
+          "final antiquark",
+          "tree and penguin"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t14",
+        "entity_type": "text",
+        "name": "up quark label",
+        "category": "scientific_label",
+        "surface_text": "u",
+        "normalized_text": "u",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "tree branch product"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t15",
+        "entity_type": "text",
+        "name": "W label",
+        "category": "scientific_label",
+        "surface_text": "W",
+        "normalized_text": "W",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "tree weak boson"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t16",
+        "entity_type": "text",
+        "name": "W+ label",
+        "category": "scientific_label",
+        "surface_text": "W⁺",
+        "normalized_text": "W+",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "penguin weak boson"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t17",
+        "entity_type": "text",
+        "name": "gluon label",
+        "category": "scientific_label",
+        "surface_text": "g",
+        "normalized_text": "g",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "penguin gluon"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t18",
+        "entity_type": "text",
+        "name": "loop quark labels",
+        "category": "scientific_label",
+        "surface_text": "d,s,b",
+        "normalized_text": "d,s,b",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "internal loop flavors"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t19",
+        "entity_type": "text",
+        "name": "quark labels in panel a",
+        "category": "scientific_label",
+        "surface_text": "u, d, c, s, t, b, ū",
+        "normalized_text": "u d c s t b anti-u",
+        "panel": "a",
+        "count": 10,
+        "key_attributes": [
+          "quark identities",
+          "hadron constituents",
+          "pair examples"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t3",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t4",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t5",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t6",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "t15",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "t16",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "t17",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "t18",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "v4",
+        "target_entity_id": "v5",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "v1",
+        "target_entity_id": "v2",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "v4",
+        "target_entity_id": "t7",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "v4",
+        "target_entity_id": "t8",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "v4",
+        "target_entity_id": "t9",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "v5",
+        "target_entity_id": "t7",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "v5",
+        "target_entity_id": "t8",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "v5",
+        "target_entity_id": "t9",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "v7",
+        "target_entity_id": "v5",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "v8",
+        "target_entity_id": "v5",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "v6",
+        "target_entity_id": "v4",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "v6",
+        "target_entity_id": "v5",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "v2",
+        "target_entity_id": "v4",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "v2",
+        "target_entity_id": "v5",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "cross_panel"
+      }
+    ]
+  }
+}

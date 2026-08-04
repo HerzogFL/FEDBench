@@ -1,0 +1,1476 @@
+{
+  "image_name": "0cd703c6171f69a2fdbf470a4b98ad89.png",
+  "prompt_text": "This figure summarizes how several membrane receptors and transporters are internalized and then sorted to different intracellular destinations. The top schematic shows the general trafficking network: cargo is taken up from the plasma membrane in an endocytic vesicle, enters a sorting endosome, and is then either recycled back to the surface, sent through recycling endosomes or the Golgi/TGN and storage vesicles, or directed onward to late endosomes and lysosomes for degradation. Small labels for clathrin, caveolin, β-arrestin, AP2, dynamin and Rab proteins indicate the machinery controlling these routes.\n\nThe lower panels apply this common map to specific metabolic receptors. The insulin receptor appears to be largely recycled after endocytosis. The glucagon receptor shows a condition-dependent fate: with low glucagon it is recycled, whereas high glucagon promotes movement toward lysosomal degradation. GIPR is shown with altered routing depending on the presence or absence of GIP, suggesting ligand-dependent recycling versus degradation. GLP1R mainly appears to recycle. GLUT4 is depicted cycling between internal compartments, the Golgi/recycling system, storage vesicles, and the surface rather than being degraded. LDLR seems to internalize and recycle efficiently while delivering cargo toward degradative compartments. Overall, the image highlights selective endosomal sorting as a key regulator of receptor availability and signaling.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "plasma membrane",
+        "category": "membrane",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "top boundary",
+          "source of internalization"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "endocytic vesicle",
+        "category": "pathway_component",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "internalized cargo",
+          "between membrane and endosome"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "sorting endosome",
+        "category": "organelle",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "central hub",
+          "branched routes"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "recycling endosome",
+        "category": "organelle",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "recycling route",
+          "returns to surface"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "TGN and Golgi",
+        "category": "organelle",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "stacked cisternae",
+          "recycling/storage route"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "intracellular storage vesicles",
+        "category": "pathway_component",
+        "panel": "a",
+        "count": 3,
+        "key_attributes": [
+          "small vesicle cluster",
+          "storage pool"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "late endosome",
+        "category": "organelle",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "pre-lysosomal compartment",
+          "degradative route"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "lysosome",
+        "category": "organelle",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "terminal degradation",
+          "circular organelle"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "trafficking arrows",
+        "category": "arrow",
+        "panel": "a",
+        "count": 8,
+        "key_attributes": [
+          "directional flow",
+          "multiple destinations"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v10",
+        "entity_type": "visual",
+        "name": "machinery callout boxes",
+        "category": "legend_key",
+        "panel": "a",
+        "count": 5,
+        "key_attributes": [
+          "boxed labels",
+          "route regulators"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v11",
+        "entity_type": "visual",
+        "name": "insulin receptor icon",
+        "category": "protein",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "surface receptor",
+          "purple"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v12",
+        "entity_type": "visual",
+        "name": "insulin receptor recycling route",
+        "category": "arrow",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "dominant recycling",
+          "avoids degradation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v13",
+        "entity_type": "visual",
+        "name": "glucagon receptor icon",
+        "category": "protein",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "surface receptor",
+          "red"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v14",
+        "entity_type": "visual",
+        "name": "glucagon receptor low-glucagon recycling route",
+        "category": "arrow",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "condition-dependent",
+          "recycling"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v15",
+        "entity_type": "visual",
+        "name": "glucagon receptor high-glucagon degradative route",
+        "category": "arrow",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "condition-dependent",
+          "lysosomal direction"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v16",
+        "entity_type": "visual",
+        "name": "GIPR icon",
+        "category": "protein",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "surface receptor",
+          "blue"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v17",
+        "entity_type": "visual",
+        "name": "GIPR minus-GIP route",
+        "category": "arrow",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "ligand-dependent",
+          "recycling-biased"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v18",
+        "entity_type": "visual",
+        "name": "GIPR plus-GIP route",
+        "category": "arrow",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "ligand-dependent",
+          "degradation-biased"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v19",
+        "entity_type": "visual",
+        "name": "GLP1R icon",
+        "category": "protein",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "surface receptor",
+          "yellow"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v20",
+        "entity_type": "visual",
+        "name": "GLP1R recycling route",
+        "category": "arrow",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "mainly recycled",
+          "minimal degradation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v21",
+        "entity_type": "visual",
+        "name": "GLUT4 transporter icon",
+        "category": "protein",
+        "panel": "f",
+        "count": 1,
+        "key_attributes": [
+          "surface transporter",
+          "cyan"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v22",
+        "entity_type": "visual",
+        "name": "GLUT4 cycling network",
+        "category": "arrow",
+        "panel": "f",
+        "count": 3,
+        "key_attributes": [
+          "surface-Golgi-storage cycling",
+          "non-degradative"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v23",
+        "entity_type": "visual",
+        "name": "LDLR icon",
+        "category": "protein",
+        "panel": "g",
+        "count": 1,
+        "key_attributes": [
+          "surface receptor",
+          "green"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v24",
+        "entity_type": "visual",
+        "name": "LDLR recycling and cargo-delivery routes",
+        "category": "arrow",
+        "panel": "g",
+        "count": 2,
+        "key_attributes": [
+          "efficient recycling",
+          "degradative delivery branch"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v25",
+        "entity_type": "visual",
+        "name": "panel markers",
+        "category": "panel_marker",
+        "panel": "all",
+        "count": 7,
+        "key_attributes": [
+          "a-g",
+          "subplot identifiers"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "panel a label",
+        "category": "panel_label",
+        "surface_text": "a",
+        "normalized_text": "a",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "Endocytic vesicle",
+        "category": "scientific_label",
+        "surface_text": "Endocytic vesicle",
+        "normalized_text": "endocytic vesicle",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "Sorting endosome",
+        "category": "scientific_label",
+        "surface_text": "Sorting endosome",
+        "normalized_text": "sorting endosome",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "Recycling endosome",
+        "category": "scientific_label",
+        "surface_text": "Recycling endosome",
+        "normalized_text": "recycling endosome",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "Intracellular storage vesicle",
+        "category": "scientific_label",
+        "surface_text": "Intracellular storage vesicle",
+        "normalized_text": "intracellular storage vesicle",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "TGN and Golgi",
+        "category": "scientific_label",
+        "surface_text": "TGN and Golgi",
+        "normalized_text": "TGN and Golgi",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "Late endosome",
+        "category": "scientific_label",
+        "surface_text": "Late endosome",
+        "normalized_text": "late endosome",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "Lysosome",
+        "category": "scientific_label",
+        "surface_text": "Lysosome",
+        "normalized_text": "lysosome",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "Clathrin",
+        "category": "legend_text",
+        "surface_text": "Clathrin",
+        "normalized_text": "clathrin",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "Caveolin",
+        "category": "legend_text",
+        "surface_text": "Caveolin",
+        "normalized_text": "caveolin",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "β-arrestin",
+        "category": "legend_text",
+        "surface_text": "β-arrestin",
+        "normalized_text": "β-arrestin",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "Dynamin",
+        "category": "legend_text",
+        "surface_text": "Dynamin",
+        "normalized_text": "dynamin",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "AP2",
+        "category": "legend_text",
+        "surface_text": "AP2",
+        "normalized_text": "AP2",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t14",
+        "entity_type": "text",
+        "name": "RAB8a",
+        "category": "legend_text",
+        "surface_text": "RAB8a",
+        "normalized_text": "RAB8A",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t15",
+        "entity_type": "text",
+        "name": "RAB10",
+        "category": "legend_text",
+        "surface_text": "RAB10",
+        "normalized_text": "RAB10",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t16",
+        "entity_type": "text",
+        "name": "RAB11",
+        "category": "legend_text",
+        "surface_text": "RAB11",
+        "normalized_text": "RAB11",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t17",
+        "entity_type": "text",
+        "name": "RAB1",
+        "category": "legend_text",
+        "surface_text": "RAB1",
+        "normalized_text": "RAB1",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t18",
+        "entity_type": "text",
+        "name": "RAB6",
+        "category": "legend_text",
+        "surface_text": "RAB6",
+        "normalized_text": "RAB6",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t19",
+        "entity_type": "text",
+        "name": "RAB5",
+        "category": "legend_text",
+        "surface_text": "RAB5",
+        "normalized_text": "RAB5",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t20",
+        "entity_type": "text",
+        "name": "RAB4",
+        "category": "legend_text",
+        "surface_text": "RAB4",
+        "normalized_text": "RAB4",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t21",
+        "entity_type": "text",
+        "name": "Vps34",
+        "category": "legend_text",
+        "surface_text": "Vps34",
+        "normalized_text": "VPS34",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t22",
+        "entity_type": "text",
+        "name": "CCC-WASH",
+        "category": "legend_text",
+        "surface_text": "CCC-WASH",
+        "normalized_text": "CCC-WASH",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t23",
+        "entity_type": "text",
+        "name": "RAB7",
+        "category": "legend_text",
+        "surface_text": "RAB7",
+        "normalized_text": "RAB7",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t24",
+        "entity_type": "text",
+        "name": "RAB9",
+        "category": "legend_text",
+        "surface_text": "RAB9",
+        "normalized_text": "RAB9",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t25",
+        "entity_type": "text",
+        "name": "panel b label",
+        "category": "panel_label",
+        "surface_text": "b",
+        "normalized_text": "b",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t26",
+        "entity_type": "text",
+        "name": "Insulin receptor",
+        "category": "scientific_label",
+        "surface_text": "Insulin receptor",
+        "normalized_text": "insulin receptor",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t27",
+        "entity_type": "text",
+        "name": "panel c label",
+        "category": "panel_label",
+        "surface_text": "c",
+        "normalized_text": "c",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t28",
+        "entity_type": "text",
+        "name": "Glucagon receptor",
+        "category": "scientific_label",
+        "surface_text": "Glucagon receptor",
+        "normalized_text": "glucagon receptor",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t29",
+        "entity_type": "text",
+        "name": "Low glucagon",
+        "category": "annotation_text",
+        "surface_text": "Low glucagon",
+        "normalized_text": "low glucagon",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t30",
+        "entity_type": "text",
+        "name": "High glucagon",
+        "category": "annotation_text",
+        "surface_text": "High glucagon",
+        "normalized_text": "high glucagon",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t31",
+        "entity_type": "text",
+        "name": "panel d label",
+        "category": "panel_label",
+        "surface_text": "d",
+        "normalized_text": "d",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t32",
+        "entity_type": "text",
+        "name": "GIPR",
+        "category": "scientific_label",
+        "surface_text": "GIPR",
+        "normalized_text": "GIPR",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t33",
+        "entity_type": "text",
+        "name": "−GIP",
+        "category": "annotation_text",
+        "surface_text": "−GIP",
+        "normalized_text": "-GIP",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t34",
+        "entity_type": "text",
+        "name": "+GIP",
+        "category": "annotation_text",
+        "surface_text": "+GIP",
+        "normalized_text": "+GIP",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t35",
+        "entity_type": "text",
+        "name": "panel e label",
+        "category": "panel_label",
+        "surface_text": "e",
+        "normalized_text": "e",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t36",
+        "entity_type": "text",
+        "name": "GLP1R",
+        "category": "scientific_label",
+        "surface_text": "GLP1R",
+        "normalized_text": "GLP1R",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t37",
+        "entity_type": "text",
+        "name": "panel f label",
+        "category": "panel_label",
+        "surface_text": "f",
+        "normalized_text": "f",
+        "panel": "f",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t38",
+        "entity_type": "text",
+        "name": "GLUT4",
+        "category": "scientific_label",
+        "surface_text": "GLUT4",
+        "normalized_text": "GLUT4",
+        "panel": "f",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t39",
+        "entity_type": "text",
+        "name": "panel g label",
+        "category": "panel_label",
+        "surface_text": "g",
+        "normalized_text": "g",
+        "panel": "g",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t40",
+        "entity_type": "text",
+        "name": "LDLR",
+        "category": "scientific_label",
+        "surface_text": "LDLR",
+        "normalized_text": "LDLR",
+        "panel": "g",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t2",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t3",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t4",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t5",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "t6",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "t7",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "t8",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "v1",
+        "target_entity_id": "v2",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "v2",
+        "target_entity_id": "v3",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "v3",
+        "target_entity_id": "v4",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "v4",
+        "target_entity_id": "v1",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "v3",
+        "target_entity_id": "v5",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "v5",
+        "target_entity_id": "v6",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "v6",
+        "target_entity_id": "v1",
+        "relation_type": "flows_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "v3",
+        "target_entity_id": "v7",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "v7",
+        "target_entity_id": "v8",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "t9",
+        "target_entity_id": "v10",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "t10",
+        "target_entity_id": "v10",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "t11",
+        "target_entity_id": "v10",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "t12",
+        "target_entity_id": "v10",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "t13",
+        "target_entity_id": "v10",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "t14",
+        "target_entity_id": "v10",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r23",
+        "source_entity_id": "t15",
+        "target_entity_id": "v10",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r24",
+        "source_entity_id": "t16",
+        "target_entity_id": "v10",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r25",
+        "source_entity_id": "t19",
+        "target_entity_id": "v10",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r26",
+        "source_entity_id": "t20",
+        "target_entity_id": "v10",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r27",
+        "source_entity_id": "t23",
+        "target_entity_id": "v10",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r28",
+        "source_entity_id": "t26",
+        "target_entity_id": "v11",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r29",
+        "source_entity_id": "v11",
+        "target_entity_id": "v12",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r30",
+        "source_entity_id": "v12",
+        "target_entity_id": "v1",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r31",
+        "source_entity_id": "v12",
+        "target_entity_id": "v4",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r32",
+        "source_entity_id": "t28",
+        "target_entity_id": "v13",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r33",
+        "source_entity_id": "t29",
+        "target_entity_id": "v14",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r34",
+        "source_entity_id": "t30",
+        "target_entity_id": "v15",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r35",
+        "source_entity_id": "v13",
+        "target_entity_id": "v14",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r36",
+        "source_entity_id": "v13",
+        "target_entity_id": "v15",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r37",
+        "source_entity_id": "v14",
+        "target_entity_id": "v4",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r38",
+        "source_entity_id": "v15",
+        "target_entity_id": "v8",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r39",
+        "source_entity_id": "t32",
+        "target_entity_id": "v16",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r40",
+        "source_entity_id": "t33",
+        "target_entity_id": "v17",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r41",
+        "source_entity_id": "t34",
+        "target_entity_id": "v18",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r42",
+        "source_entity_id": "v16",
+        "target_entity_id": "v17",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r43",
+        "source_entity_id": "v16",
+        "target_entity_id": "v18",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r44",
+        "source_entity_id": "v17",
+        "target_entity_id": "v4",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r45",
+        "source_entity_id": "v18",
+        "target_entity_id": "v8",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r46",
+        "source_entity_id": "t36",
+        "target_entity_id": "v19",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r47",
+        "source_entity_id": "v19",
+        "target_entity_id": "v20",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r48",
+        "source_entity_id": "v20",
+        "target_entity_id": "v4",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r49",
+        "source_entity_id": "t38",
+        "target_entity_id": "v21",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r50",
+        "source_entity_id": "v21",
+        "target_entity_id": "v22",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r51",
+        "source_entity_id": "v22",
+        "target_entity_id": "v5",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r52",
+        "source_entity_id": "v22",
+        "target_entity_id": "v6",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r53",
+        "source_entity_id": "v22",
+        "target_entity_id": "v1",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r54",
+        "source_entity_id": "t40",
+        "target_entity_id": "v23",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r55",
+        "source_entity_id": "v23",
+        "target_entity_id": "v24",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r56",
+        "source_entity_id": "v24",
+        "target_entity_id": "v4",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r57",
+        "source_entity_id": "v24",
+        "target_entity_id": "v8",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r58",
+        "source_entity_id": "v3",
+        "target_entity_id": "v4",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r59",
+        "source_entity_id": "v7",
+        "target_entity_id": "v8",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      }
+    ]
+  }
+}

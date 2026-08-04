@@ -1,0 +1,841 @@
+{
+  "image_name": "fa46a32150589a438dc41d058bbe80d2.png",
+  "prompt_text": "The figure presents a conceptual workflow for environmental observing and information delivery across a landscape. It links field sensor networks, aircraft, and satellites to a central system that collects, manages, and analyzes data. At the left and top, “resources,” “sensors,” and “data” feed into stages such as integrated data management, in situ monitoring and remote sensing, and then big-data or cloud-computing methods. These outputs are turned into information through web services and citizen science, and finally distributed to government, researchers, and the public.\n\nThe landscape illustration shows that this observing system spans multiple domains at once, including disaster, ecology, geomorphology, environment, and hydrology. Small ground stations are spread throughout the area, while planes and satellites provide broader observation from above. Dashed blue arrows indicate data flow among sensors, platforms, and processing centers; gray lines show observation angles or method flow; pale shaded areas suggest observation coverage.\n\nOverall, the figure emphasizes an integrated geospatial monitoring framework: heterogeneous observations from ground to space are combined into shared data products and services that support science, public awareness, and decision-making across environmental applications.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "landscape monitoring region",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "isometric terrain",
+          "multi-domain landscape",
+          "central base area"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "ground sensor stations",
+        "category": "device_component",
+        "panel": "single_panel",
+        "count": 12,
+        "key_attributes": [
+          "small towers",
+          "distributed across landscape",
+          "networked"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "aircraft observation platforms",
+        "category": "device_component",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "airplanes",
+          "above landscape",
+          "remote sensing"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "satellite platforms",
+        "category": "device_component",
+        "panel": "single_panel",
+        "count": 3,
+        "key_attributes": [
+          "spaceborne",
+          "top of figure",
+          "broad observation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "central data processing facility",
+        "category": "device_component",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "building complex",
+          "receiving observations",
+          "analysis center"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "satellite dish at facility",
+        "category": "device_component",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "communications dish",
+          "on facility",
+          "uplink/downlink"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "blue dashed data-flow arrows",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 20,
+        "key_attributes": [
+          "blue dashed",
+          "network links",
+          "sensor-to-center flow"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "gray observation-angle lines",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 10,
+        "key_attributes": [
+          "gray dashed",
+          "view geometry",
+          "platform-to-ground"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "gray workflow arrows between processing boxes",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 4,
+        "key_attributes": [
+          "solid light gray",
+          "left-to-right workflow",
+          "method flow"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v10",
+        "entity_type": "visual",
+        "name": "observation coverage shading",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 4,
+        "key_attributes": [
+          "pale translucent",
+          "coverage footprints",
+          "over landscape"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v11",
+        "entity_type": "visual",
+        "name": "workflow process boxes",
+        "category": "pathway_component",
+        "panel": "single_panel",
+        "count": 4,
+        "key_attributes": [
+          "rectangular boxes",
+          "top workflow",
+          "data-processing stages"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v12",
+        "entity_type": "visual",
+        "name": "audience output icon group",
+        "category": "legend_key",
+        "panel": "single_panel",
+        "count": 3,
+        "key_attributes": [
+          "government icon",
+          "researcher icon",
+          "public icon"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v13",
+        "entity_type": "visual",
+        "name": "disaster scene",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "wildfire",
+          "smoke plume",
+          "hazard example"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v14",
+        "entity_type": "visual",
+        "name": "water body and hydrology area",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "blue water",
+          "boats",
+          "lower foreground"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "Resources",
+        "category": "annotation_text",
+        "surface_text": "Resources",
+        "normalized_text": "Resources",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "top-left stage header"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "Integrated data management, data cubes",
+        "category": "scientific_label",
+        "surface_text": "Integrated data management, data cubes",
+        "normalized_text": "Integrated data management, data cubes",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "workflow stage",
+          "data integration"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "Sensors",
+        "category": "annotation_text",
+        "surface_text": "Sensors",
+        "normalized_text": "Sensors",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "top-middle stage header"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "In situ monitoring networks, remote sensing",
+        "category": "scientific_label",
+        "surface_text": "In situ monitoring networks, remote sensing",
+        "normalized_text": "In situ monitoring networks, remote sensing",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "workflow stage",
+          "observation methods"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "Data",
+        "category": "annotation_text",
+        "surface_text": "Data",
+        "normalized_text": "Data",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "top-right stage header"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "Big data and cloud computing methods",
+        "category": "scientific_label",
+        "surface_text": "Big data and cloud computing methods",
+        "normalized_text": "Big data and cloud computing methods",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "workflow stage",
+          "analysis methods"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "Information",
+        "category": "annotation_text",
+        "surface_text": "Information",
+        "normalized_text": "Information",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "downstream stage header"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "Web services and citizen science",
+        "category": "scientific_label",
+        "surface_text": "Web services and citizen science",
+        "normalized_text": "Web services and citizen science",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "workflow stage",
+          "information delivery"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "Disaster",
+        "category": "scientific_label",
+        "surface_text": "Disaster",
+        "normalized_text": "Disaster",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "application domain"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "Ecology",
+        "category": "scientific_label",
+        "surface_text": "Ecology",
+        "normalized_text": "Ecology",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "application domain"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "Geomorphology",
+        "category": "scientific_label",
+        "surface_text": "Geomorphology",
+        "normalized_text": "Geomorphology",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "application domain"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "Environment",
+        "category": "scientific_label",
+        "surface_text": "Environment",
+        "normalized_text": "Environment",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "application domain"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "Hydrology",
+        "category": "scientific_label",
+        "surface_text": "Hydrology",
+        "normalized_text": "Hydrology",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "application domain"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t14",
+        "entity_type": "text",
+        "name": "Government",
+        "category": "legend_text",
+        "surface_text": "Government",
+        "normalized_text": "Government",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "audience label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t15",
+        "entity_type": "text",
+        "name": "Researcher",
+        "category": "legend_text",
+        "surface_text": "Researcher",
+        "normalized_text": "Researcher",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "audience label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t16",
+        "entity_type": "text",
+        "name": "Public",
+        "category": "legend_text",
+        "surface_text": "Public",
+        "normalized_text": "Public",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "audience label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t17",
+        "entity_type": "text",
+        "name": "Data flow",
+        "category": "legend_text",
+        "surface_text": "Data flow",
+        "normalized_text": "Data flow",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "legend item",
+          "blue dashed"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t18",
+        "entity_type": "text",
+        "name": "Observation angle",
+        "category": "legend_text",
+        "surface_text": "Observation angle",
+        "normalized_text": "Observation angle",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "legend item",
+          "gray line"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t19",
+        "entity_type": "text",
+        "name": "GSW method flow",
+        "category": "legend_text",
+        "surface_text": "GSW method flow",
+        "normalized_text": "GSW method flow",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "legend item",
+          "workflow arrow"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t20",
+        "entity_type": "text",
+        "name": "Observation coverage",
+        "category": "legend_text",
+        "surface_text": "Observation coverage",
+        "normalized_text": "Observation coverage",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "legend item",
+          "shaded region"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t1",
+        "target_entity_id": "t2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t3",
+        "target_entity_id": "t4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t5",
+        "target_entity_id": "t6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t7",
+        "target_entity_id": "t8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "v2",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "v3",
+        "target_entity_id": "v1",
+        "relation_type": "above",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "v4",
+        "target_entity_id": "v1",
+        "relation_type": "above",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "v7",
+        "target_entity_id": "v5",
+        "relation_type": "points_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "v2",
+        "target_entity_id": "v5",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "v3",
+        "target_entity_id": "v5",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "v4",
+        "target_entity_id": "v5",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "t2",
+        "target_entity_id": "t4",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "t4",
+        "target_entity_id": "t6",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "t6",
+        "target_entity_id": "t8",
+        "relation_type": "transforms_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "t8",
+        "target_entity_id": "v12",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "t14",
+        "target_entity_id": "v12",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "t15",
+        "target_entity_id": "v12",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "t16",
+        "target_entity_id": "v12",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "t17",
+        "target_entity_id": "v7",
+        "relation_type": "legend_for",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "t18",
+        "target_entity_id": "v8",
+        "relation_type": "legend_for",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "t20",
+        "target_entity_id": "v10",
+        "relation_type": "legend_for",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "t19",
+        "target_entity_id": "v9",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r23",
+        "source_entity_id": "v10",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r24",
+        "source_entity_id": "v8",
+        "target_entity_id": "v1",
+        "relation_type": "points_to",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r25",
+        "source_entity_id": "t9",
+        "target_entity_id": "v13",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r26",
+        "source_entity_id": "t13",
+        "target_entity_id": "v14",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r27",
+        "source_entity_id": "t9",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r28",
+        "source_entity_id": "t10",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r29",
+        "source_entity_id": "t11",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r30",
+        "source_entity_id": "t12",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r31",
+        "source_entity_id": "t13",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      }
+    ]
+  }
+}

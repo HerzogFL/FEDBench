@@ -1,0 +1,517 @@
+{
+  "image_name": "0e4e1298816544f9edcb1c040df0cc3c.jpg",
+  "prompt_text": "The figure presents a simplified model of how a neuron’s fate depends on activity-dependent chromatin regulation. A stimulus triggers calcium entry, which activates the histone chaperone DAXX near the nucleus. DAXX is shown associated with the histone variant H3.3, and this pathway appears to promote H3.3 deposition at chromatin after DAXX is phosphorylated. The consequence is an “immediate early gene response,” indicating rapid activation of genes that normally respond to neuronal stimulation.\n\nIn contrast, the lower part of the diagram shows a no-stimulus condition linked to H2BE, another histone-related component, which feeds into the nucleus in a way that is associated with cell death rather than gene activation. The central DNA drawing emphasizes that both pathways act through chromatin and gene regulation inside the nucleus.\n\nOverall, the image highlights a comparison between two cellular states: stimulated neurons, where calcium signaling and DAXX/H3.3 support an adaptive transcriptional response, and unstimulated neurons, where an alternative chromatin state involving H2BE is tied to degeneration or death. The main message is that neuronal activity can influence survival and gene expression through specific histone pathways.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "neuron cell silhouette",
+        "category": "cell",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "branched soma",
+          "central nucleus",
+          "schematic neuron"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "nucleus/chromatin region",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "central circular region",
+          "site of chromatin regulation",
+          "inside neuron"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "DNA double helix",
+        "category": "molecule",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "double helix",
+          "central chromatin symbol",
+          "inside nucleus"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "DAXX protein",
+        "category": "protein",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "green rounded box",
+          "near nucleus",
+          "upper pathway"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "H3.3 component",
+        "category": "protein",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "green sphere",
+          "associated with DAXX",
+          "upper pathway"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "phosphorylation marker",
+        "category": "molecule",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "orange circle",
+          "P symbol",
+          "above DAXX"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "H2BE component",
+        "category": "protein",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "red sphere",
+          "lower pathway",
+          "feeds toward nucleus"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "stimulus and calcium signaling arrows",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "upper pathway",
+          "left-to-right flow",
+          "toward DAXX"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "upper pathway output arrows",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 3,
+        "key_attributes": [
+          "to phosphorylation",
+          "to chromatin",
+          "to gene response"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v10",
+        "entity_type": "visual",
+        "name": "lower no-stimulus pathway arrows",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 3,
+        "key_attributes": [
+          "from no stimulus",
+          "through H2BE",
+          "to cell death"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v11",
+        "entity_type": "visual",
+        "name": "horizontal state divider",
+        "category": "layer",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "dashed horizontal line",
+          "separates upper/lower states"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "Stimulus label",
+        "category": "annotation_text",
+        "surface_text": "Stimulus",
+        "normalized_text": "Stimulus",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "upper left",
+          "pathway start"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "calcium label",
+        "category": "scientific_label",
+        "surface_text": "Ca²+",
+        "normalized_text": "Ca2+",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "upper pathway",
+          "calcium entry"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "DAXX label",
+        "category": "scientific_label",
+        "surface_text": "DAXX",
+        "normalized_text": "DAXX",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "upper pathway",
+          "histone chaperone"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "phosphorylation text",
+        "category": "scientific_label",
+        "surface_text": "P",
+        "normalized_text": "P",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "phosphorylation marker"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "H3.3 label",
+        "category": "scientific_label",
+        "surface_text": "H3.3",
+        "normalized_text": "H3.3",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "adjacent to green sphere",
+          "upper pathway"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "gene response annotation",
+        "category": "annotation_text",
+        "surface_text": "Immediate early gene response",
+        "normalized_text": "Immediate early gene response",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "upper right",
+          "pathway outcome"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "No stimulus label",
+        "category": "annotation_text",
+        "surface_text": "No stimulus",
+        "normalized_text": "No stimulus",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "lower left",
+          "pathway start"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "H2BE label",
+        "category": "scientific_label",
+        "surface_text": "H2BE",
+        "normalized_text": "H2BE",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "lower pathway",
+          "red sphere label"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "cell death annotation",
+        "category": "annotation_text",
+        "surface_text": "Cell death",
+        "normalized_text": "Cell death",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "lower right",
+          "pathway outcome"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t3",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t5",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t4",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t8",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "v2",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "v3",
+        "target_entity_id": "v2",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "t1",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "t2",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "v8",
+        "target_entity_id": "v4",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "v6",
+        "target_entity_id": "v4",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "v4",
+        "target_entity_id": "v5",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "v4",
+        "target_entity_id": "v6",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "v4",
+        "target_entity_id": "v3",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "v5",
+        "target_entity_id": "v3",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "v3",
+        "target_entity_id": "t6",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "t7",
+        "target_entity_id": "v10",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "v10",
+        "target_entity_id": "v7",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "v7",
+        "target_entity_id": "v3",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "v3",
+        "target_entity_id": "t9",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "v4",
+        "target_entity_id": "v7",
+        "relation_type": "above",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      }
+    ]
+  }
+}

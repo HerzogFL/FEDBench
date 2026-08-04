@@ -1,0 +1,1218 @@
+{
+  "image_name": "005f355318179ee698083ad947e7f9aa.png",
+  "prompt_text": "The figure summarizes how chemicals accumulate and circulate through the plastic life cycle. On the left, plastics move from virgin feedstocks through resin manufacture, compounding, primary and secondary conversion, and finally into products. At each production step, additional substances are introduced: first monomers, catalysts, and stabilizers, then a wider range of additives such as fillers, nucleating agents, colourants, plasticizers, flame retardants, processing aids, antimicrobials, adhesives, and coatings. Small dark triangles appear to represent aggregated non-intentionally added substances.\n\nThe center and right side show what happens after products are made and used. During filling, retail, and consumer use, plastics can exchange contaminants with the environment and biota. After use, materials may be collected and sorted, then sent either to mechanical recycling, chemical recycling, or disposal. Mechanical recycling feeds recycled resins back into manufacturing, while chemical recycling returns material to recycled feedstocks and other chemicals. Shredding and washing are shown as intermediate steps that may not fully remove contaminants.\n\nOverall, the image emphasizes that plastics become chemically more complex over time, and that recycling can recirculate both intended additives and unintended contaminants through new products.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "plastic life-cycle process boxes",
+        "category": "pathway_component",
+        "panel": "single_panel",
+        "count": 12,
+        "key_attributes": [
+          "boxed stages",
+          "left-to-right flow",
+          "manufacture to end-of-life"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "material flow arrows",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 10,
+        "key_attributes": [
+          "directed flow",
+          "manufacturing chain",
+          "recycling loops"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "colored additive and contaminant circles",
+        "category": "molecule",
+        "panel": "single_panel",
+        "count": 40,
+        "key_attributes": [
+          "multicolored dots",
+          "accumulating chemicals",
+          "inside process boxes"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "dark triangles for aggregated NIAS",
+        "category": "molecule",
+        "panel": "single_panel",
+        "count": 8,
+        "key_attributes": [
+          "dark blue triangles",
+          "non-intentionally added substances",
+          "mixed with circles"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "recycling loop pathway",
+        "category": "pathway_component",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "mechanical route",
+          "chemical route",
+          "returns to production"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "environmental contaminant cloud",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "cloud shape",
+          "external source",
+          "adjacent to consumer use"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "sample plastic pellets/discs",
+        "category": "material_structure",
+        "panel": "single_panel",
+        "count": 6,
+        "key_attributes": [
+          "circular pellets",
+          "mixed chemicals",
+          "shown along use and recycling"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "dashed guide separators",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 4,
+        "key_attributes": [
+          "horizontal dashed lines",
+          "section dividers"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "Virgin feedstocks",
+        "category": "scientific_label",
+        "surface_text": "Virgin feedstocks",
+        "normalized_text": "Virgin feedstocks",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "starting material"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "Resin manufacturer",
+        "category": "scientific_label",
+        "surface_text": "Resin manufacturer",
+        "normalized_text": "Resin manufacture",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "production stage"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "Compounders",
+        "category": "scientific_label",
+        "surface_text": "Compounders",
+        "normalized_text": "Compounding",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "production stage"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "Primary converter(s)",
+        "category": "scientific_label",
+        "surface_text": "Primary converter(s)",
+        "normalized_text": "Primary conversion",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "production stage"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "Secondary converter(s)",
+        "category": "scientific_label",
+        "surface_text": "Secondary converter(s)",
+        "normalized_text": "Secondary conversion",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "production stage"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "Products",
+        "category": "scientific_label",
+        "surface_text": "Products",
+        "normalized_text": "Products",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "end of manufacturing"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "Recycled feedstocks",
+        "category": "scientific_label",
+        "surface_text": "Recycled feedstocks",
+        "normalized_text": "Recycled feedstocks",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "chemical recycling output"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "Aggregated NIAS",
+        "category": "scientific_label",
+        "surface_text": "Aggregated NIAS",
+        "normalized_text": "Aggregated NIAS",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "triangle meaning"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "Monomers",
+        "category": "scientific_label",
+        "surface_text": "Monomers",
+        "normalized_text": "Monomers",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "introduced early"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "Oxidative stabilizers",
+        "category": "scientific_label",
+        "surface_text": "Oxidative stabilizers",
+        "normalized_text": "Oxidative stabilizers",
+        "panel": "single_panel",
+        "count": 3,
+        "key_attributes": [
+          "stabilizer additive"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "Catalysts",
+        "category": "scientific_label",
+        "surface_text": "Catalysts",
+        "normalized_text": "Catalysts",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "introduced early"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "Fillers (glass, talc)",
+        "category": "scientific_label",
+        "surface_text": "Fillers (glass, talc)",
+        "normalized_text": "Fillers",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "example additive"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "Nucleating agents",
+        "category": "scientific_label",
+        "surface_text": "Nucleating agents",
+        "normalized_text": "Nucleating agents",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "example additive"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t14",
+        "entity_type": "text",
+        "name": "Colourant",
+        "category": "scientific_label",
+        "surface_text": "Colourant",
+        "normalized_text": "Colourants",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "example additive"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t15",
+        "entity_type": "text",
+        "name": "Plasticizers",
+        "category": "scientific_label",
+        "surface_text": "Plasticizers",
+        "normalized_text": "Plasticizers",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "example additive"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t16",
+        "entity_type": "text",
+        "name": "Flame retardants",
+        "category": "scientific_label",
+        "surface_text": "Flame retardants",
+        "normalized_text": "Flame retardants",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "example additive"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t17",
+        "entity_type": "text",
+        "name": "Processing aids",
+        "category": "scientific_label",
+        "surface_text": "Processing aids",
+        "normalized_text": "Processing aids",
+        "panel": "single_panel",
+        "count": 3,
+        "key_attributes": [
+          "example additive"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t18",
+        "entity_type": "text",
+        "name": "Antimicrobials",
+        "category": "scientific_label",
+        "surface_text": "Antimicrobials",
+        "normalized_text": "Antimicrobials",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "late-stage additive"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t19",
+        "entity_type": "text",
+        "name": "Adhesives/heat seals",
+        "category": "scientific_label",
+        "surface_text": "Adhesives/heat seals",
+        "normalized_text": "Adhesives and heat seals",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "late-stage additive"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t20",
+        "entity_type": "text",
+        "name": "Decorations/coatings",
+        "category": "scientific_label",
+        "surface_text": "Decorations/coatings",
+        "normalized_text": "Decorations and coatings",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "late-stage additive"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t21",
+        "entity_type": "text",
+        "name": "Mechanically recycled resins",
+        "category": "scientific_label",
+        "surface_text": "Mechanically recycled resins",
+        "normalized_text": "Mechanically recycled resins",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "mechanical recycling output"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t22",
+        "entity_type": "text",
+        "name": "Shredding, washing",
+        "category": "scientific_label",
+        "surface_text": "Shredding, washing",
+        "normalized_text": "Shredding and washing",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "intermediate step"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t23",
+        "entity_type": "text",
+        "name": "Chemical recycling",
+        "category": "scientific_label",
+        "surface_text": "Chemical recycling",
+        "normalized_text": "Chemical recycling",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "recycling route"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t24",
+        "entity_type": "text",
+        "name": "Collecting, sorting, baling",
+        "category": "scientific_label",
+        "surface_text": "Collecting, sorting, baling",
+        "normalized_text": "Collecting, sorting, baling",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "post-use handling"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t25",
+        "entity_type": "text",
+        "name": "Other chemicals",
+        "category": "scientific_label",
+        "surface_text": "Other chemicals",
+        "normalized_text": "Other chemicals",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "chemical recycling output"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t26",
+        "entity_type": "text",
+        "name": "Disposal",
+        "category": "scientific_label",
+        "surface_text": "Disposal",
+        "normalized_text": "Disposal",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "end-of-life route"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t27",
+        "entity_type": "text",
+        "name": "Consumer use",
+        "category": "scientific_label",
+        "surface_text": "Consumer use",
+        "normalized_text": "Consumer use",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "use phase"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t28",
+        "entity_type": "text",
+        "name": "Filling, distribution, retail",
+        "category": "scientific_label",
+        "surface_text": "Filling, distribution, retail",
+        "normalized_text": "Filling, distribution, retail",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "post-production stage"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t29",
+        "entity_type": "text",
+        "name": "Exchange with biota and environment",
+        "category": "annotation_text",
+        "surface_text": "Exchange with biota and environment",
+        "normalized_text": "Exchange with biota and environment",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "exchange process"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t30",
+        "entity_type": "text",
+        "name": "Environmental contaminants",
+        "category": "scientific_label",
+        "surface_text": "Environmental contaminants",
+        "normalized_text": "Environmental contaminants",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "external contaminants"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t31",
+        "entity_type": "text",
+        "name": "Chemically complex plastics",
+        "category": "scientific_label",
+        "surface_text": "Chemically complex plastics",
+        "normalized_text": "Chemically complex plastics",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "overall outcome"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t1",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t2",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t3",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t4",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "t5",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "t6",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "t28",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "t27",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "t24",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "t22",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "t23",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "t21",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "t7",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "t26",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "t8",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "t30",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "t29",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "t31",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "v3",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "v4",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "t1",
+        "target_entity_id": "t2",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "t2",
+        "target_entity_id": "t3",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r23",
+        "source_entity_id": "t3",
+        "target_entity_id": "t4",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r24",
+        "source_entity_id": "t4",
+        "target_entity_id": "t5",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r25",
+        "source_entity_id": "t5",
+        "target_entity_id": "t6",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r26",
+        "source_entity_id": "t6",
+        "target_entity_id": "t28",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r27",
+        "source_entity_id": "t28",
+        "target_entity_id": "t27",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r28",
+        "source_entity_id": "t27",
+        "target_entity_id": "t24",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r29",
+        "source_entity_id": "t24",
+        "target_entity_id": "t22",
+        "relation_type": "flows_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r30",
+        "source_entity_id": "t22",
+        "target_entity_id": "t21",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r31",
+        "source_entity_id": "t24",
+        "target_entity_id": "t23",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r32",
+        "source_entity_id": "t24",
+        "target_entity_id": "t26",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r33",
+        "source_entity_id": "t21",
+        "target_entity_id": "t2",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r34",
+        "source_entity_id": "t23",
+        "target_entity_id": "t7",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r35",
+        "source_entity_id": "t23",
+        "target_entity_id": "t25",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r36",
+        "source_entity_id": "t7",
+        "target_entity_id": "t1",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r37",
+        "source_entity_id": "v6",
+        "target_entity_id": "t27",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r38",
+        "source_entity_id": "v6",
+        "target_entity_id": "t28",
+        "relation_type": "connected_to",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r39",
+        "source_entity_id": "t9",
+        "target_entity_id": "t2",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r40",
+        "source_entity_id": "t11",
+        "target_entity_id": "t2",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r41",
+        "source_entity_id": "t10",
+        "target_entity_id": "t2",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r42",
+        "source_entity_id": "t12",
+        "target_entity_id": "t3",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r43",
+        "source_entity_id": "t13",
+        "target_entity_id": "t3",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r44",
+        "source_entity_id": "t14",
+        "target_entity_id": "t3",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r45",
+        "source_entity_id": "t15",
+        "target_entity_id": "t3",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r46",
+        "source_entity_id": "t16",
+        "target_entity_id": "t3",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r47",
+        "source_entity_id": "t17",
+        "target_entity_id": "t3",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r48",
+        "source_entity_id": "t12",
+        "target_entity_id": "t4",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r49",
+        "source_entity_id": "t13",
+        "target_entity_id": "t4",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r50",
+        "source_entity_id": "t14",
+        "target_entity_id": "t4",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r51",
+        "source_entity_id": "t15",
+        "target_entity_id": "t4",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r52",
+        "source_entity_id": "t16",
+        "target_entity_id": "t4",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r53",
+        "source_entity_id": "t17",
+        "target_entity_id": "t4",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r54",
+        "source_entity_id": "t17",
+        "target_entity_id": "t5",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r55",
+        "source_entity_id": "t18",
+        "target_entity_id": "t5",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r56",
+        "source_entity_id": "t19",
+        "target_entity_id": "t5",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r57",
+        "source_entity_id": "t20",
+        "target_entity_id": "t5",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r58",
+        "source_entity_id": "t2",
+        "target_entity_id": "t3",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r59",
+        "source_entity_id": "t3",
+        "target_entity_id": "t4",
+        "relation_type": "above",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r60",
+        "source_entity_id": "t4",
+        "target_entity_id": "t5",
+        "relation_type": "above",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r61",
+        "source_entity_id": "t5",
+        "target_entity_id": "t6",
+        "relation_type": "above",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r62",
+        "source_entity_id": "t6",
+        "target_entity_id": "t28",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r63",
+        "source_entity_id": "t28",
+        "target_entity_id": "t27",
+        "relation_type": "above",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r64",
+        "source_entity_id": "t27",
+        "target_entity_id": "t24",
+        "relation_type": "above",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r65",
+        "source_entity_id": "t24",
+        "target_entity_id": "t23",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      }
+    ]
+  }
+}

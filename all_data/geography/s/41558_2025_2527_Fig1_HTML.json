@@ -1,0 +1,864 @@
+{
+  "image_name": "41558_2025_2527_Fig1_HTML.webp",
+  "prompt_text": "The figure presents a workflow for studying urban building material stocks and their carbon implications over time. At the center is a city block mapped at fine spatial resolution, with individual buildings represented in a 30 × 30 pixel grid and stacked by year to show a long-term, high-resolution database from about 2000 to 2020. The database appears to be built by combining documentary sources, satellite observation, geospatial data, and machine learning.\n\nUsing this time-resolved building stock, the figure then illustrates two main analyses. One is inequality in per capita building material stock, shown by comparing neighborhoods with different building densities and population icons, implying unequal access to constructed material resources. The other is quantification of embodied carbon emissions associated with the building stock.\n\nOn the right, the carbon analysis links the urban buildings to upstream industrial activities, especially extraction of building materials and their production and processing, represented by mines, trucks, and factories. Overall, the image conveys an integrated framework: reconstructing detailed building material stocks across time and space, then using that information to assess both social inequality and the embodied carbon burden of urban development.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "time-resolved city block building stock",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "stacked by year",
+          "fine spatial grid",
+          "urban buildings"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "individual buildings in pixel grid",
+        "category": "material_structure",
+        "panel": "single_panel",
+        "count": 20,
+        "key_attributes": [
+          "30×30 pixel units",
+          "building footprints",
+          "dense urban block"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "stacked yearly layers",
+        "category": "layer",
+        "panel": "single_panel",
+        "count": 4,
+        "key_attributes": [
+          "2000-2020 timeline",
+          "layered slices",
+          "database over time"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "documentary source icon",
+        "category": "pathway_component",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "documents",
+          "data input",
+          "source modality"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "satellite observation icon",
+        "category": "device_component",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "satellite",
+          "remote sensing",
+          "data input"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "geospatial data icon",
+        "category": "pathway_component",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "map pin",
+          "spatial data",
+          "data input"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "machine learning icon",
+        "category": "pathway_component",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "AI symbol",
+          "modeling step",
+          "data integration"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "database box",
+        "category": "pathway_component",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "central repository",
+          "combined inputs",
+          "building stock database"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "inequality comparison neighborhoods",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "different densities",
+          "side-by-side comparison",
+          "per capita contrast"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v10",
+        "entity_type": "visual",
+        "name": "population person icons",
+        "category": "pathway_component",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "single person",
+          "group of people",
+          "per capita comparison"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v11",
+        "entity_type": "visual",
+        "name": "factory and industrial processing area",
+        "category": "material_structure",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "smokestacks",
+          "industrial plant",
+          "material processing"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v12",
+        "entity_type": "visual",
+        "name": "material extraction site",
+        "category": "geological_structure",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "ore piles",
+          "mine",
+          "upstream extraction"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v13",
+        "entity_type": "visual",
+        "name": "trucks transporting materials",
+        "category": "device_component",
+        "panel": "single_panel",
+        "count": 3,
+        "key_attributes": [
+          "haul trucks",
+          "material transport",
+          "upstream supply chain"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v14",
+        "entity_type": "visual",
+        "name": "workflow arrows",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 3,
+        "key_attributes": [
+          "curved orange arrows",
+          "process flow",
+          "stage progression"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v15",
+        "entity_type": "visual",
+        "name": "numbered stage markers",
+        "category": "panel_marker",
+        "panel": "single_panel",
+        "count": 3,
+        "key_attributes": [
+          "circled numbers",
+          "workflow steps",
+          "1-3 markers"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "stage 1 title",
+        "category": "annotation_text",
+        "surface_text": "Establishment of the long-term, high-resolution building material stock database",
+        "normalized_text": "Establishment of the long-term, high-resolution building material stock database",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "workflow title",
+          "database creation",
+          "stage 1"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "satellite observation label",
+        "category": "scientific_label",
+        "surface_text": "Satellite observation",
+        "normalized_text": "Satellite observation",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "data source"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "documentary label",
+        "category": "scientific_label",
+        "surface_text": "Documentary",
+        "normalized_text": "Documentary",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "data source"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "database label",
+        "category": "scientific_label",
+        "surface_text": "Database",
+        "normalized_text": "Database",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "repository label"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "machine learning label",
+        "category": "scientific_label",
+        "surface_text": "Machine learning",
+        "normalized_text": "Machine learning",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "data integration"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "geospatial data label",
+        "category": "scientific_label",
+        "surface_text": "Geospatial data",
+        "normalized_text": "Geospatial data",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "spatial data source"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "stage 2 title",
+        "category": "annotation_text",
+        "surface_text": "Analysis of the inequality in per capita building material stock",
+        "normalized_text": "Analysis of the inequality in per capita building material stock",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "inequality analysis",
+          "per capita",
+          "stage 2"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "2000 year label",
+        "category": "scientific_label",
+        "surface_text": "2000 year",
+        "normalized_text": "2000 year",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "timeline start"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "2001 year label",
+        "category": "scientific_label",
+        "surface_text": "2001 year",
+        "normalized_text": "2001 year",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "timeline"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "2002 year label",
+        "category": "scientific_label",
+        "surface_text": "2002 year",
+        "normalized_text": "2002 year",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "timeline"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "30 × 30 pixel label",
+        "category": "scientific_label",
+        "surface_text": "30 × 30 pixel",
+        "normalized_text": "30 × 30 pixel",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "spatial resolution"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "2020 year label",
+        "category": "scientific_label",
+        "surface_text": "2020 year",
+        "normalized_text": "2020 year",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "timeline end"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "stage 3 title",
+        "category": "annotation_text",
+        "surface_text": "Quantification of embodied carbon emission",
+        "normalized_text": "Quantification of embodied carbon emission",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "embodied carbon",
+          "quantification",
+          "stage 3"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t14",
+        "entity_type": "text",
+        "name": "production and processing label",
+        "category": "scientific_label",
+        "surface_text": "Production and processing of building materials",
+        "normalized_text": "Production and processing of building materials",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "industrial upstream stage"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t15",
+        "entity_type": "text",
+        "name": "extraction label",
+        "category": "scientific_label",
+        "surface_text": "Extraction of building materials",
+        "normalized_text": "Extraction of building materials",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "upstream extraction"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t16",
+        "entity_type": "text",
+        "name": "individual building label",
+        "category": "scientific_label",
+        "surface_text": "Individual building",
+        "normalized_text": "Individual building",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "building unit"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t17",
+        "entity_type": "text",
+        "name": "methodological process legend",
+        "category": "legend_text",
+        "surface_text": "Methodological process",
+        "normalized_text": "Methodological process",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "arrow legend"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t18",
+        "entity_type": "text",
+        "name": "stage marker 1",
+        "category": "panel_label",
+        "surface_text": "①",
+        "normalized_text": "1",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "circled number"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t19",
+        "entity_type": "text",
+        "name": "stage marker 2",
+        "category": "panel_label",
+        "surface_text": "②",
+        "normalized_text": "2",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "circled number"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t20",
+        "entity_type": "text",
+        "name": "stage marker 3",
+        "category": "panel_label",
+        "surface_text": "③",
+        "normalized_text": "3",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "circled number"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "v2",
+        "target_entity_id": "v1",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "v3",
+        "target_entity_id": "v1",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t11",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t16",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "t8",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "t9",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "t10",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "t12",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "t2",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "t3",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "t5",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "t6",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "t4",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "v4",
+        "target_entity_id": "v8",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "v5",
+        "target_entity_id": "v8",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "v6",
+        "target_entity_id": "v8",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "v7",
+        "target_entity_id": "v8",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "v8",
+        "target_entity_id": "v1",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "t1",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "t7",
+        "target_entity_id": "v9",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "v10",
+        "target_entity_id": "v9",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "v1",
+        "target_entity_id": "v9",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r23",
+        "source_entity_id": "t13",
+        "target_entity_id": "v11",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r24",
+        "source_entity_id": "t14",
+        "target_entity_id": "v11",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r25",
+        "source_entity_id": "t15",
+        "target_entity_id": "v12",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r26",
+        "source_entity_id": "v12",
+        "target_entity_id": "v13",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r27",
+        "source_entity_id": "v13",
+        "target_entity_id": "v11",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r28",
+        "source_entity_id": "v1",
+        "target_entity_id": "v11",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r29",
+        "source_entity_id": "v11",
+        "target_entity_id": "v1",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r30",
+        "source_entity_id": "v14",
+        "target_entity_id": "v1",
+        "relation_type": "flows_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r31",
+        "source_entity_id": "v1",
+        "target_entity_id": "v9",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r32",
+        "source_entity_id": "v1",
+        "target_entity_id": "v11",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      }
+    ]
+  }
+}

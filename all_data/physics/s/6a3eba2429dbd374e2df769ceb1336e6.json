@@ -1,0 +1,405 @@
+{
+  "image_name": "6a3eba2429dbd374e2df769ceb1336e6.png",
+  "prompt_text": "The figure compares four Hall regimes by showing how charge carriers move around a two-dimensional sample. In the ordinary quantum Hall effect, a magnetic field \\(B\\) is applied, and the carriers are depicted as electrons with charge \\(e\\), circulating in one direction around the sample. In the fractional quantum Hall case, the motion looks similar, but the highlighted excitation carries only a fraction of the electron charge, labeled \\(\\nu e\\), indicating emergent fractional quasiparticles rather than whole electrons.\n\nThe bottom row shifts to the anomalous Hall versions, where the sample appears to have an internal lattice or texture. Here the circulation occurs without the same emphasis on an external field, suggesting that the Hall behavior comes from the material’s intrinsic structure. In the quantum anomalous Hall panel, whole-electron excitations are shown, while in the fractional quantum anomalous Hall panel both circulating excitations are fractional, again labeled \\(\\nu e\\).\n\nOverall, the key comparison is between integer versus fractional charge and between magnetic-field-driven Hall behavior and anomalous Hall behavior arising from the material itself. The arrows and colored circles emphasize edge circulation and the nature of the charge carriers.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "2D sample disk",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 4,
+        "key_attributes": [
+          "oval sample",
+          "one per regime",
+          "edge highlighted"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "edge circulation arrow",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 4,
+        "key_attributes": [
+          "clockwise edge motion",
+          "top arc arrow",
+          "carrier circulation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "charge carrier excitation",
+        "category": "molecule",
+        "panel": "single_panel",
+        "count": 6,
+        "key_attributes": [
+          "colored circles",
+          "blue or red",
+          "highlighted carriers"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "small electron-like background particles",
+        "category": "molecule",
+        "panel": "single_panel",
+        "count": 10,
+        "key_attributes": [
+          "small ring symbols",
+          "background carriers",
+          "top-row only"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "external magnetic field arrow",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "rightward arrow",
+          "top-row only",
+          "applied field"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "internal lattice texture",
+        "category": "material_structure",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "honeycomb-like pattern",
+          "bottom-row only",
+          "intrinsic structure"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "internal circulation path",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "large inner loop",
+          "bottom-row only",
+          "anomalous circulation"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "Quantum Hall effect title",
+        "category": "scientific_label",
+        "surface_text": "Quantum Hall effect",
+        "normalized_text": "Quantum Hall effect",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "panel title",
+          "top left regime"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "Fractional quantum Hall effect title",
+        "category": "scientific_label",
+        "surface_text": "Fractional quantum Hall effect",
+        "normalized_text": "Fractional quantum Hall effect",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "panel title",
+          "top right regime"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "Quantum anomalous Hall effect title",
+        "category": "scientific_label",
+        "surface_text": "Quantum anomalous Hall effect",
+        "normalized_text": "Quantum anomalous Hall effect",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "panel title",
+          "bottom left regime"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "Fractional quantum anomalous Hall effect title",
+        "category": "scientific_label",
+        "surface_text": "Fractional quantum anomalous Hall effect",
+        "normalized_text": "Fractional quantum anomalous Hall effect",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "panel title",
+          "bottom right regime"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "electron charge label",
+        "category": "scientific_label",
+        "surface_text": "e",
+        "normalized_text": "e",
+        "panel": "single_panel",
+        "count": 3,
+        "key_attributes": [
+          "integer charge",
+          "carrier label",
+          "blue/red excitations"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "fractional charge label",
+        "category": "scientific_label",
+        "surface_text": "νe",
+        "normalized_text": "νe",
+        "panel": "single_panel",
+        "count": 3,
+        "key_attributes": [
+          "fractional charge",
+          "quasiparticle label",
+          "blue/red excitations"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "magnetic field label",
+        "category": "scientific_label",
+        "surface_text": "B",
+        "normalized_text": "B",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "external field",
+          "top-row only"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t1",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t2",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t3",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t4",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "t5",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "t6",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "t7",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "v2",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "v3",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "v4",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "v6",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "v7",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "v5",
+        "target_entity_id": "v1",
+        "relation_type": "points_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "v2",
+        "target_entity_id": "v3",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "v7",
+        "target_entity_id": "v3",
+        "relation_type": "flows_to",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "v1",
+        "target_entity_id": "v6",
+        "relation_type": "above",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "t1",
+        "target_entity_id": "t2",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "t3",
+        "target_entity_id": "t4",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "global"
+      }
+    ]
+  }
+}

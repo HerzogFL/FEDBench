@@ -1,0 +1,532 @@
+{
+  "image_name": "4d68a574028a61abfbeed7dbd02e35e8.jpg",
+  "prompt_text": "The figure summarizes several mechanical deformation methods used to refine material structure, likely for producing very fine or nanostructured grains. Across the panels, a material is repeatedly forced to flow, compress, twist, or impact under severe strain.\n\nTwo common bulk-shaping methods are shown at the top: rolling squeezes a flat sheet between rotating rollers, while wire drawing pulls a cylindrical rod through a die to reduce its diameter. Other methods impose stronger localized deformation. In high-pressure torsion, a short cylindrical sample is compressed while the ends rotate relative to each other, combining load and torsional shear. Shot peening treats a surface by bombarding it with small particles, creating many impact sites and concentrated near-surface plastic deformation.\n\nBall milling is depicted as powder particles trapped in a rotating vial with milling balls; repeated collisions and shear appear to break down and mix particles. Equal-channel angular pressing shows a billet pushed through two intersecting channels of the same cross-section, so the sample experiences intense shear at the bend without changing its overall thickness.\n\nOverall, the image compares different routes for introducing severe plastic deformation in sheets, wires, bulk samples, surfaces, and powders.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "rolling setup",
+        "category": "device_component",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "two rollers",
+          "flat sheet",
+          "compression"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "wire drawing setup",
+        "category": "device_component",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "rod through die",
+          "diameter reduction",
+          "axial drawing"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "high-pressure torsion setup",
+        "category": "device_component",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "cylindrical sample",
+          "axial compression",
+          "torsional rotation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "shot peening setup",
+        "category": "device_component",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "surface target",
+          "impacting shots",
+          "near-surface deformation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "ball milling setup",
+        "category": "device_component",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "rotating vial",
+          "milling balls",
+          "powder particles"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "equal-channel angular pressing setup",
+        "category": "device_component",
+        "panel": "f",
+        "count": 1,
+        "key_attributes": [
+          "intersecting channels",
+          "billet extrusion",
+          "shear at bend"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "process arrows",
+        "category": "arrow",
+        "panel": "all",
+        "count": 12,
+        "key_attributes": [
+          "motion indication",
+          "force direction",
+          "rotation/shear"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "panel markers",
+        "category": "panel_marker",
+        "panel": "all",
+        "count": 6,
+        "key_attributes": [
+          "a-f labels"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "panel a label",
+        "category": "panel_label",
+        "surface_text": "a",
+        "normalized_text": "a",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "Rolling",
+        "category": "scientific_label",
+        "surface_text": "Rolling",
+        "normalized_text": "rolling",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "panel b label",
+        "category": "panel_label",
+        "surface_text": "b",
+        "normalized_text": "b",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "Wire drawing",
+        "category": "scientific_label",
+        "surface_text": "Wire drawing",
+        "normalized_text": "wire drawing",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "panel c label",
+        "category": "panel_label",
+        "surface_text": "c",
+        "normalized_text": "c",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "High-pressure torsion",
+        "category": "scientific_label",
+        "surface_text": "High-pressure torsion",
+        "normalized_text": "high-pressure torsion",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "Load (panel c)",
+        "category": "annotation_text",
+        "surface_text": "Load",
+        "normalized_text": "load",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "applied force"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "panel d label",
+        "category": "panel_label",
+        "surface_text": "d",
+        "normalized_text": "d",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "Shot peening",
+        "category": "scientific_label",
+        "surface_text": "Shot peening",
+        "normalized_text": "shot peening",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "panel e label",
+        "category": "panel_label",
+        "surface_text": "e",
+        "normalized_text": "e",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "Ball milling",
+        "category": "scientific_label",
+        "surface_text": "Ball milling",
+        "normalized_text": "ball milling",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "panel f label",
+        "category": "panel_label",
+        "surface_text": "f",
+        "normalized_text": "f",
+        "panel": "f",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "Equal-channel angular pressing",
+        "category": "scientific_label",
+        "surface_text": "Equal-channel angular pressing",
+        "normalized_text": "equal-channel angular pressing",
+        "panel": "f",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t14",
+        "entity_type": "text",
+        "name": "Load (panel f)",
+        "category": "annotation_text",
+        "surface_text": "Load",
+        "normalized_text": "load",
+        "panel": "f",
+        "count": 1,
+        "key_attributes": [
+          "applied force"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t15",
+        "entity_type": "text",
+        "name": "phi angle",
+        "category": "annotation_text",
+        "surface_text": "φ",
+        "normalized_text": "phi",
+        "panel": "f",
+        "count": 1,
+        "key_attributes": [
+          "channel angle"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t2",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t4",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t6",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t9",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "t11",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "t13",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "t7",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "t14",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "t15",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "v1",
+        "target_entity_id": "v7",
+        "relation_type": "connected_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "v2",
+        "target_entity_id": "v7",
+        "relation_type": "flows_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "v3",
+        "target_entity_id": "v7",
+        "relation_type": "connected_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "v4",
+        "target_entity_id": "v7",
+        "relation_type": "points_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "v5",
+        "target_entity_id": "v7",
+        "relation_type": "connected_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "v6",
+        "target_entity_id": "v7",
+        "relation_type": "flows_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "v1",
+        "target_entity_id": "v2",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "v3",
+        "target_entity_id": "v4",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "v5",
+        "target_entity_id": "v6",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "v1",
+        "target_entity_id": "v3",
+        "relation_type": "above",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "v2",
+        "target_entity_id": "v4",
+        "relation_type": "above",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "global"
+      }
+    ]
+  }
+}

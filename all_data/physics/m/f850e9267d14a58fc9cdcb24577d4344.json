@@ -1,0 +1,1405 @@
+{
+  "image_name": "f850e9267d14a58fc9cdcb24577d4344.png",
+  "prompt_text": "The figure summarizes key operating limits and device components for electrochemical CO2 reduction in a membrane-based electrolyser. The upper part shows that performance depends on balancing CO2 flow, water content, and pH. If the CO2 flow is too low, product formation is limited and hydrogen evolution competes; if it is too high, single-pass conversion drops because much of the CO2 exits unreacted. Water concentration also has an optimum: too little water appears to dehydrate the catalyst layer, lowering faradaic efficiency and increasing voltage, while too much causes flooding and suppresses CO2 reduction. pH is likewise critical: low pH favors hydrogen evolution, whereas high pH drives CO2 into bicarbonate or carbonate rather than desired reduction products.\n\nThe lower part is an exploded view of a PEM-based CO2 electrolyser, showing anode and cathode housings, flow plates, membrane, and a gas diffusion electrode. CO2 enters the cathode side and products such as CO leave from that side, while electrolyte and oxygen are associated with the anode side. The diagram highlights that both the polymer electrolyte membrane and the gas diffusion electrode strongly influence catalysis through properties such as conductivity, thickness, water uptake, morphology, porosity, and hydrophobicity.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "operating-limit schematic for CO2 flow rate",
+        "category": "region",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "too low vs too high",
+          "reactant/product icons",
+          "performance trade-off"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "operating-limit schematic for water concentration",
+        "category": "region",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "dehydration vs flooding",
+          "catalyst/electrolyte interface",
+          "optimum implied"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "operating-limit schematic for pH",
+        "category": "region",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "low vs high pH",
+          "HER competition",
+          "carbonate formation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "exploded PEM-based CO2 electrolyser",
+        "category": "device_component",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "exploded stack",
+          "anode-to-cathode assembly",
+          "membrane-based cell"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "anode housing block",
+        "category": "device_component",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "left side housing",
+          "stack endplate",
+          "anode side"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "cathode housing block",
+        "category": "device_component",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "right side housing",
+          "stack endplate",
+          "cathode side"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "flow plates",
+        "category": "device_component",
+        "panel": "b",
+        "count": 2,
+        "key_attributes": [
+          "paired plates",
+          "internal channels",
+          "between housings and electrodes"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "polymer electrolyte membrane",
+        "category": "membrane",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "thin central layer",
+          "PEM",
+          "ion-conducting separator"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "gas diffusion electrode",
+        "category": "device_component",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "blue layer",
+          "GDE",
+          "catalysis-influencing component"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v10",
+        "entity_type": "visual",
+        "name": "cathode side inlet/outlet arrows",
+        "category": "arrow",
+        "panel": "b",
+        "count": 2,
+        "key_attributes": [
+          "CO2 in",
+          "products out",
+          "right side ports"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v11",
+        "entity_type": "visual",
+        "name": "anode side inlet/outlet arrows",
+        "category": "arrow",
+        "panel": "b",
+        "count": 2,
+        "key_attributes": [
+          "electrolyte in",
+          "O2 out",
+          "left side ports"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v12",
+        "entity_type": "visual",
+        "name": "electron flow arrow in external circuit",
+        "category": "arrow",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "external wire",
+          "e− direction",
+          "top circuit"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v13",
+        "entity_type": "visual",
+        "name": "PEM property callout box",
+        "category": "legend_key",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "beige box",
+          "material properties",
+          "PEM-focused"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v14",
+        "entity_type": "visual",
+        "name": "GDE property callout box",
+        "category": "legend_key",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "blue box",
+          "material properties",
+          "GDE-focused"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v15",
+        "entity_type": "visual",
+        "name": "cross marks indicating unfavorable conditions",
+        "category": "annotation_text",
+        "panel": "a",
+        "count": 5,
+        "key_attributes": [
+          "red X symbols",
+          "suppressed pathways",
+          "too low/high cases"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v16",
+        "entity_type": "visual",
+        "name": "panel marker a",
+        "category": "panel_marker",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "top panel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "v17",
+        "entity_type": "visual",
+        "name": "panel marker b",
+        "category": "panel_marker",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "bottom panel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "panel label a",
+        "category": "panel_label",
+        "surface_text": "a",
+        "normalized_text": "a",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "too low label",
+        "category": "annotation_text",
+        "surface_text": "Too low",
+        "normalized_text": "too low",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "condition extreme"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "too high label",
+        "category": "annotation_text",
+        "surface_text": "Too high",
+        "normalized_text": "too high",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "condition extreme"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "CO2 flow rate label",
+        "category": "scientific_label",
+        "surface_text": "CO2 flow rate",
+        "normalized_text": "CO2 flow rate",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "operating parameter"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "low product formation annotation",
+        "category": "annotation_text",
+        "surface_text": "Low rate of CO2RR product formation",
+        "normalized_text": "low rate of CO2RR product formation",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "low-flow consequence"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "low single-pass conversion annotation",
+        "category": "annotation_text",
+        "surface_text": "Low single-pass conversion efficiency",
+        "normalized_text": "low single-pass conversion efficiency",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "high-flow consequence"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "H2 label",
+        "category": "scientific_label",
+        "surface_text": "H2",
+        "normalized_text": "H2",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "hydrogen evolution"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "CO label",
+        "category": "scientific_label",
+        "surface_text": "CO",
+        "normalized_text": "CO",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "example CO2RR product"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "CO2 label in operating schematic",
+        "category": "scientific_label",
+        "surface_text": "CO2",
+        "normalized_text": "CO2",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "reactant"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "water concentration label",
+        "category": "scientific_label",
+        "surface_text": "Water concentration",
+        "normalized_text": "water concentration",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "operating parameter"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "catalyst label",
+        "category": "scientific_label",
+        "surface_text": "Catalyst",
+        "normalized_text": "catalyst",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "catalyst layer"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "electrolyte label in water schematic",
+        "category": "scientific_label",
+        "surface_text": "Electrolyte",
+        "normalized_text": "electrolyte",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "liquid phase"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "dehydration annotation",
+        "category": "annotation_text",
+        "surface_text": "Dehydration reduces faradaic efficiency and increases voltage",
+        "normalized_text": "dehydration reduces faradaic efficiency and increases voltage",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "too little water effect"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t14",
+        "entity_type": "text",
+        "name": "flooding annotation",
+        "category": "annotation_text",
+        "surface_text": "Flooding reduces CO2RR rates",
+        "normalized_text": "flooding reduces CO2RR rates",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "too much water effect"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t15",
+        "entity_type": "text",
+        "name": "pH label",
+        "category": "scientific_label",
+        "surface_text": "pH",
+        "normalized_text": "pH",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "operating parameter"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t16",
+        "entity_type": "text",
+        "name": "HER-favored annotation",
+        "category": "annotation_text",
+        "surface_text": "Favours HER over CO2RR",
+        "normalized_text": "favours HER over CO2RR",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "low pH effect"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t17",
+        "entity_type": "text",
+        "name": "bicarbonate/carbonate favored annotation",
+        "category": "annotation_text",
+        "surface_text": "Favours HCO3−/CO3^2− formation over CO2RR",
+        "normalized_text": "favours HCO3-/CO3^2- formation over CO2RR",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "high pH effect"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t18",
+        "entity_type": "text",
+        "name": "HCO3− label",
+        "category": "scientific_label",
+        "surface_text": "HCO3−",
+        "normalized_text": "HCO3-",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "bicarbonate species"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t19",
+        "entity_type": "text",
+        "name": "CO3^2− label",
+        "category": "scientific_label",
+        "surface_text": "CO3^2−",
+        "normalized_text": "CO3^2-",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "carbonate species"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t20",
+        "entity_type": "text",
+        "name": "panel label b",
+        "category": "panel_label",
+        "surface_text": "b",
+        "normalized_text": "b",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t21",
+        "entity_type": "text",
+        "name": "flow plates label",
+        "category": "scientific_label",
+        "surface_text": "Flow plates",
+        "normalized_text": "flow plates",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "device component"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t22",
+        "entity_type": "text",
+        "name": "cathode label",
+        "category": "scientific_label",
+        "surface_text": "Cathode",
+        "normalized_text": "cathode",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "electrode side"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t23",
+        "entity_type": "text",
+        "name": "anode label",
+        "category": "scientific_label",
+        "surface_text": "Anode",
+        "normalized_text": "anode",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "electrode side"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t24",
+        "entity_type": "text",
+        "name": "cathode housing label",
+        "category": "scientific_label",
+        "surface_text": "Cathode housing",
+        "normalized_text": "cathode housing",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "device component"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t25",
+        "entity_type": "text",
+        "name": "anode housing label",
+        "category": "scientific_label",
+        "surface_text": "Anode housing",
+        "normalized_text": "anode housing",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "device component"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t26",
+        "entity_type": "text",
+        "name": "electrolyte label in device diagram",
+        "category": "scientific_label",
+        "surface_text": "Electrolyte",
+        "normalized_text": "electrolyte",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "anode-side stream"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t27",
+        "entity_type": "text",
+        "name": "products annotation",
+        "category": "annotation_text",
+        "surface_text": "Products (e.g. CO)",
+        "normalized_text": "products (e.g. CO)",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "cathode-side outlet"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t28",
+        "entity_type": "text",
+        "name": "O2 label",
+        "category": "scientific_label",
+        "surface_text": "O2",
+        "normalized_text": "O2",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "anode-side oxygen"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t29",
+        "entity_type": "text",
+        "name": "CO2 label in device diagram",
+        "category": "scientific_label",
+        "surface_text": "CO2",
+        "normalized_text": "CO2",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "cathode-side feed"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t30",
+        "entity_type": "text",
+        "name": "electron label",
+        "category": "scientific_label",
+        "surface_text": "e−",
+        "normalized_text": "e-",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "external circuit"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t31",
+        "entity_type": "text",
+        "name": "PEM label",
+        "category": "scientific_label",
+        "surface_text": "PEM",
+        "normalized_text": "PEM",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "polymer electrolyte membrane"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t32",
+        "entity_type": "text",
+        "name": "PEM ionic groups property",
+        "category": "legend_text",
+        "surface_text": "Ionic groups",
+        "normalized_text": "ionic groups",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "PEM property"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t33",
+        "entity_type": "text",
+        "name": "PEM polymeric backbone property",
+        "category": "legend_text",
+        "surface_text": "Polymeric backbone",
+        "normalized_text": "polymeric backbone",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "PEM property"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t34",
+        "entity_type": "text",
+        "name": "conductivity property",
+        "category": "legend_text",
+        "surface_text": "Conductivity",
+        "normalized_text": "conductivity",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "material property"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t35",
+        "entity_type": "text",
+        "name": "thickness property",
+        "category": "legend_text",
+        "surface_text": "Thickness",
+        "normalized_text": "thickness",
+        "panel": "b",
+        "count": 2,
+        "key_attributes": [
+          "material property"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t36",
+        "entity_type": "text",
+        "name": "water uptake property",
+        "category": "legend_text",
+        "surface_text": "Water uptake",
+        "normalized_text": "water uptake",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "PEM property"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t37",
+        "entity_type": "text",
+        "name": "GDE label",
+        "category": "scientific_label",
+        "surface_text": "GDE",
+        "normalized_text": "GDE",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "gas diffusion electrode"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t38",
+        "entity_type": "text",
+        "name": "morphology property",
+        "category": "legend_text",
+        "surface_text": "Morphology",
+        "normalized_text": "morphology",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "GDE property"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t39",
+        "entity_type": "text",
+        "name": "composition property",
+        "category": "legend_text",
+        "surface_text": "Composition",
+        "normalized_text": "composition",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "GDE property"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t40",
+        "entity_type": "text",
+        "name": "porosity property",
+        "category": "legend_text",
+        "surface_text": "Porosity",
+        "normalized_text": "porosity",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "GDE property"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t41",
+        "entity_type": "text",
+        "name": "hydrophobicity property",
+        "category": "legend_text",
+        "surface_text": "Hydrophobicity",
+        "normalized_text": "hydrophobicity",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "GDE property"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t42",
+        "entity_type": "text",
+        "name": "PEM and GDE properties summary",
+        "category": "annotation_text",
+        "surface_text": "PEM and GDE material properties that affect CO2RR catalysis in an electrolyser",
+        "normalized_text": "PEM and GDE material properties that affect CO2RR catalysis in an electrolyser",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "summary statement"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t4",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t10",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t15",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t2",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "t3",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "v1",
+        "target_entity_id": "v2",
+        "relation_type": "above",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "v2",
+        "target_entity_id": "v3",
+        "relation_type": "above",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "t5",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "t6",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "t13",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "t14",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "t16",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "t17",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "t11",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "t7",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "t18",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "t19",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "t25",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "t24",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "t21",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "t31",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "t37",
+        "target_entity_id": "v9",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r23",
+        "source_entity_id": "v5",
+        "target_entity_id": "v4",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r24",
+        "source_entity_id": "v6",
+        "target_entity_id": "v4",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r25",
+        "source_entity_id": "v7",
+        "target_entity_id": "v4",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r26",
+        "source_entity_id": "v8",
+        "target_entity_id": "v4",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r27",
+        "source_entity_id": "v9",
+        "target_entity_id": "v4",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r28",
+        "source_entity_id": "v5",
+        "target_entity_id": "v6",
+        "relation_type": "left_of",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r29",
+        "source_entity_id": "v10",
+        "target_entity_id": "v6",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r30",
+        "source_entity_id": "v11",
+        "target_entity_id": "v5",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r31",
+        "source_entity_id": "t29",
+        "target_entity_id": "v10",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r32",
+        "source_entity_id": "t27",
+        "target_entity_id": "v10",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r33",
+        "source_entity_id": "t26",
+        "target_entity_id": "v11",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r34",
+        "source_entity_id": "t28",
+        "target_entity_id": "v11",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r35",
+        "source_entity_id": "v10",
+        "target_entity_id": "v6",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r36",
+        "source_entity_id": "v6",
+        "target_entity_id": "v10",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r37",
+        "source_entity_id": "v11",
+        "target_entity_id": "v5",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r38",
+        "source_entity_id": "v5",
+        "target_entity_id": "v11",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r39",
+        "source_entity_id": "v13",
+        "target_entity_id": "v8",
+        "relation_type": "legend_for",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r40",
+        "source_entity_id": "v14",
+        "target_entity_id": "v9",
+        "relation_type": "legend_for",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r41",
+        "source_entity_id": "t34",
+        "target_entity_id": "v13",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r42",
+        "source_entity_id": "t35",
+        "target_entity_id": "v13",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r43",
+        "source_entity_id": "t36",
+        "target_entity_id": "v13",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r44",
+        "source_entity_id": "t38",
+        "target_entity_id": "v14",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r45",
+        "source_entity_id": "t40",
+        "target_entity_id": "v14",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r46",
+        "source_entity_id": "t41",
+        "target_entity_id": "v14",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r47",
+        "source_entity_id": "t35",
+        "target_entity_id": "v14",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r48",
+        "source_entity_id": "t42",
+        "target_entity_id": "v13",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r49",
+        "source_entity_id": "t42",
+        "target_entity_id": "v14",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r50",
+        "source_entity_id": "v4",
+        "target_entity_id": "v13",
+        "relation_type": "above",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r51",
+        "source_entity_id": "v4",
+        "target_entity_id": "v14",
+        "relation_type": "above",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      }
+    ]
+  }
+}

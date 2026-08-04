@@ -1,0 +1,1637 @@
+{
+  "image_name": "1dfced0dd60d1879ee54c8d3bedf7b49.png",
+  "prompt_text": "The figure summarizes how human cytomegalovirus (HCMV) evades immunity and how it can reactivate in the body. The upper schematic shows an infected cell manipulating innate and adaptive immune pathways. Viral proteins appear to block DNA sensing and interferon signaling, interfere with nuclear antiviral factors, and alter chemokine production. Other viral factors suppress antigen presentation through both MHC class I and class II, reducing activation of CD8 cytotoxic and CD4 helper T cells. HCMV also encodes chemokines or chemokine-like receptors that attract neutrophils and affect natural killer cell responses, highlighting a broad strategy to dampen host detection while shaping inflammation.\n\nThe lower network diagram focuses on latency and reactivation. Latent virus is linked to bone marrow precursors and endothelial progenitors, then to myeloid and endothelial lineages. Inflammatory cytokines, allogeneic T cells, and HCMV-specific CD4 T cells are shown as triggers that can drive cellular or clinical reactivation. Monocytes differentiate into macrophages or dendritic cells, and permissive differentiated cells such as epithelial, endothelial, or smooth muscle cells support productive infection. Natural killer cells, complement, memory B cells, and activated endothelial cells also appear integrated into this reactivation pathway, suggesting that HCMV persistence depends on interactions between hematopoietic differentiation, inflammation, and immune control.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "infected host cell schematic",
+        "category": "cell",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "large beige cell",
+          "contains viral factors",
+          "immune evasion context"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "viral particles",
+        "category": "molecule",
+        "panel": "a",
+        "count": 4,
+        "key_attributes": [
+          "virion icons",
+          "outside cell",
+          "entry context"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "nucleus",
+        "category": "organelle",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "dashed boundary",
+          "intracellular",
+          "contains antiviral factors"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "early endosome",
+        "category": "organelle",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "vesicle",
+          "intracellular compartment",
+          "MHC II pathway"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "proteasome",
+        "category": "organelle",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "protein complex",
+          "peptide generation",
+          "MHC I pathway"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "DNA sensing and interferon pathway block",
+        "category": "pathway_component",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "cGAS-linked",
+          "inhibitory interaction",
+          "innate immune evasion"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "nuclear antiviral factor complex",
+        "category": "pathway_component",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "PML body region",
+          "Daxx/ATRX context",
+          "nuclear restriction"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "MHC class II antigen presentation pathway",
+        "category": "pathway_component",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "surface MHC II",
+          "suppressed presentation",
+          "CD4 T-cell activation reduced"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "MHC class I antigen presentation pathway",
+        "category": "pathway_component",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "surface MHC I",
+          "suppressed presentation",
+          "CD8 T-cell activation reduced"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v10",
+        "entity_type": "visual",
+        "name": "CD4 helper T-cell cluster",
+        "category": "cell",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "blue cell cluster",
+          "adaptive immunity",
+          "target of MHC II suppression"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v11",
+        "entity_type": "visual",
+        "name": "CD8 cytotoxic T-cell cluster",
+        "category": "cell",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "pink cell cluster",
+          "adaptive immunity",
+          "target of MHC I suppression"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v12",
+        "entity_type": "visual",
+        "name": "natural killer cell cluster",
+        "category": "cell",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "orange/red cluster",
+          "innate immunity",
+          "viral modulation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v13",
+        "entity_type": "visual",
+        "name": "neutrophil",
+        "category": "cell",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "lobulated cell icon",
+          "recruitment target",
+          "chemokine response"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v14",
+        "entity_type": "visual",
+        "name": "chemokine-mediated recruitment/signaling arrows",
+        "category": "arrow",
+        "panel": "a",
+        "count": 4,
+        "key_attributes": [
+          "directed arrows",
+          "cell-cell signaling",
+          "immune shaping"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v15",
+        "entity_type": "visual",
+        "name": "latency-reactivation network",
+        "category": "pathway_component",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "cell lineage graph",
+          "reactivation triggers",
+          "multiple arrows"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v16",
+        "entity_type": "visual",
+        "name": "bone marrow precursor cell",
+        "category": "cell",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "green precursor",
+          "latency source",
+          "hematopoietic lineage"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v17",
+        "entity_type": "visual",
+        "name": "endothelial progenitor cell",
+        "category": "cell",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "yellow-green progenitor",
+          "latency source",
+          "endothelial lineage"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v18",
+        "entity_type": "visual",
+        "name": "myeloid or dendritic cell progenitor",
+        "category": "cell",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "intermediate progenitor",
+          "myeloid branch",
+          "linked from bone marrow"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v19",
+        "entity_type": "visual",
+        "name": "monocyte",
+        "category": "cell",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "blue monocyte",
+          "differentiation node",
+          "reactivation-associated"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v20",
+        "entity_type": "visual",
+        "name": "macrophage",
+        "category": "cell",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "orange differentiated cell",
+          "monocyte fate",
+          "productive/permissive context"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v21",
+        "entity_type": "visual",
+        "name": "dendritic cell",
+        "category": "cell",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "purple stellate cell",
+          "monocyte fate",
+          "reactivation network node"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v22",
+        "entity_type": "visual",
+        "name": "permissive differentiated cell types",
+        "category": "cell",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "target cell box/icon",
+          "epithelial/endothelial/smooth muscle examples",
+          "productive infection"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v23",
+        "entity_type": "visual",
+        "name": "venous endothelial cell",
+        "category": "cell",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "endothelial lineage",
+          "from progenitor",
+          "network branch"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v24",
+        "entity_type": "visual",
+        "name": "aortic endothelial cell",
+        "category": "cell",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "endothelial lineage",
+          "from progenitor",
+          "network branch"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v25",
+        "entity_type": "visual",
+        "name": "tissue-resident endothelial cell",
+        "category": "cell",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "green endothelial cell",
+          "intermediate endothelial state",
+          "reactivation pathway"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v26",
+        "entity_type": "visual",
+        "name": "activated endothelial cell",
+        "category": "cell",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "activated state",
+          "linked to immune inputs",
+          "reactivation pathway"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v27",
+        "entity_type": "visual",
+        "name": "allogeneic T cell",
+        "category": "cell",
+        "panel": "b",
+        "count": 2,
+        "key_attributes": [
+          "orange lymphocyte",
+          "reactivation trigger",
+          "upper branches"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v28",
+        "entity_type": "visual",
+        "name": "HCMV-specific CD4 T cell",
+        "category": "cell",
+        "panel": "b",
+        "count": 2,
+        "key_attributes": [
+          "virus-specific helper T cell",
+          "reactivation trigger/control",
+          "network input"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v29",
+        "entity_type": "visual",
+        "name": "inflammatory cytokines node",
+        "category": "molecule",
+        "panel": "b",
+        "count": 2,
+        "key_attributes": [
+          "blue dot cluster",
+          "trigger node",
+          "drives reactivation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v30",
+        "entity_type": "visual",
+        "name": "natural killer cells or complement node",
+        "category": "pathway_component",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "immune control input",
+          "branch to dendritic/endothelial region",
+          "innate defense"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v31",
+        "entity_type": "visual",
+        "name": "memory B cell",
+        "category": "cell",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "red B-cell icon",
+          "immune network input",
+          "reactivation pathway"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v32",
+        "entity_type": "visual",
+        "name": "reactivation arrows",
+        "category": "arrow",
+        "panel": "b",
+        "count": 12,
+        "key_attributes": [
+          "directed lineage links",
+          "trigger links",
+          "network flow"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v33",
+        "entity_type": "visual",
+        "name": "panel marker a",
+        "category": "panel_marker",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "small letter",
+          "top panel",
+          "layout marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "v34",
+        "entity_type": "visual",
+        "name": "panel marker b",
+        "category": "panel_marker",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "small letter",
+          "bottom panel",
+          "layout marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "panel label a",
+        "category": "panel_label",
+        "surface_text": "a",
+        "normalized_text": "a",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "panel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "interferon response",
+        "category": "annotation_text",
+        "surface_text": "Interferon response",
+        "normalized_text": "interferon response",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "innate pathway",
+          "blocked response"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "cGAS",
+        "category": "scientific_label",
+        "surface_text": "cGAS",
+        "normalized_text": "cGAS",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "DNA sensor"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "Daxx",
+        "category": "scientific_label",
+        "surface_text": "Daxx",
+        "normalized_text": "DAXX",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "nuclear factor"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "ATRX",
+        "category": "scientific_label",
+        "surface_text": "ATRX",
+        "normalized_text": "ATRX",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "nuclear factor"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "PML body",
+        "category": "scientific_label",
+        "surface_text": "PML body",
+        "normalized_text": "PML body",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "nuclear antiviral structure"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "viral alpha chemokines",
+        "category": "legend_text",
+        "surface_text": "Viral α-chemokines: UL128, UL146, UL147",
+        "normalized_text": "viral alpha chemokines: UL128, UL146, UL147",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "chemokine list",
+          "viral factors"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "neutrophil recruitment and activation",
+        "category": "annotation_text",
+        "surface_text": "Neutrophil recruitment and activation",
+        "normalized_text": "neutrophil recruitment and activation",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "chemokine outcome"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "MHC class II antigen presentation",
+        "category": "scientific_label",
+        "surface_text": "MHC class II antigen presentation",
+        "normalized_text": "MHC class II antigen presentation",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "adaptive pathway"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "MHC class II molecule",
+        "category": "scientific_label",
+        "surface_text": "MHC class II molecule",
+        "normalized_text": "MHC class II molecule",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "surface receptor"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "CD4 helper T cells",
+        "category": "scientific_label",
+        "surface_text": "CD4+ helper T cells",
+        "normalized_text": "CD4+ helper T cells",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "adaptive effector"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "T helper cytokine output",
+        "category": "annotation_text",
+        "surface_text": "T1 cell help, interferon-γ, IL-2",
+        "normalized_text": "T helper cell help, interferon-gamma, IL-2",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "CD4 response output"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "viral proteins",
+        "category": "scientific_label",
+        "surface_text": "Viral proteins",
+        "normalized_text": "viral proteins",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "generic viral factors"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t14",
+        "entity_type": "text",
+        "name": "proteasome",
+        "category": "scientific_label",
+        "surface_text": "Proteasome",
+        "normalized_text": "proteasome",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "MHC I processing"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t15",
+        "entity_type": "text",
+        "name": "viral peptides",
+        "category": "scientific_label",
+        "surface_text": "Viral peptides",
+        "normalized_text": "viral peptides",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "antigen fragments"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t16",
+        "entity_type": "text",
+        "name": "MHC class I antigen presentation",
+        "category": "scientific_label",
+        "surface_text": "MHC class I antigen presentation",
+        "normalized_text": "MHC class I antigen presentation",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "adaptive pathway"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t17",
+        "entity_type": "text",
+        "name": "MHC class I molecule",
+        "category": "scientific_label",
+        "surface_text": "MHC class I molecule",
+        "normalized_text": "MHC class I molecule",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "surface receptor"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t18",
+        "entity_type": "text",
+        "name": "viral IL-10",
+        "category": "scientific_label",
+        "surface_text": "Viral IL-10 (UL111A)",
+        "normalized_text": "viral IL-10 (UL111A)",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "immunomodulatory viral factor"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t19",
+        "entity_type": "text",
+        "name": "CD8 cytotoxic T cells",
+        "category": "scientific_label",
+        "surface_text": "CD8+ cytotoxic T cells",
+        "normalized_text": "CD8+ cytotoxic T cells",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "adaptive effector"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t20",
+        "entity_type": "text",
+        "name": "US28 viral chemokine receptor",
+        "category": "scientific_label",
+        "surface_text": "US28 viral chemokine receptor",
+        "normalized_text": "US28 viral chemokine receptor",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "viral receptor",
+          "chemokine mimicry"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t21",
+        "entity_type": "text",
+        "name": "natural killer cells",
+        "category": "scientific_label",
+        "surface_text": "Natural killer cells",
+        "normalized_text": "natural killer cells",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "innate effector"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t22",
+        "entity_type": "text",
+        "name": "panel label b",
+        "category": "panel_label",
+        "surface_text": "b",
+        "normalized_text": "b",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "panel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t23",
+        "entity_type": "text",
+        "name": "latency",
+        "category": "annotation_text",
+        "surface_text": "Latency",
+        "normalized_text": "latency",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "state label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t24",
+        "entity_type": "text",
+        "name": "allogeneic T cell",
+        "category": "scientific_label",
+        "surface_text": "Allogeneic T cell",
+        "normalized_text": "allogeneic T cell",
+        "panel": "b",
+        "count": 2,
+        "key_attributes": [
+          "reactivation trigger"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t25",
+        "entity_type": "text",
+        "name": "inflammatory cytokines",
+        "category": "scientific_label",
+        "surface_text": "Inflammatory cytokines",
+        "normalized_text": "inflammatory cytokines",
+        "panel": "b",
+        "count": 2,
+        "key_attributes": [
+          "reactivation trigger"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t26",
+        "entity_type": "text",
+        "name": "HCMV-specific CD4 T cell",
+        "category": "scientific_label",
+        "surface_text": "HCMV-specific CD4+ T cell",
+        "normalized_text": "HCMV-specific CD4+ T cell",
+        "panel": "b",
+        "count": 2,
+        "key_attributes": [
+          "virus-specific trigger/control"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t27",
+        "entity_type": "text",
+        "name": "cellular reactivation",
+        "category": "annotation_text",
+        "surface_text": "Cellular reactivation",
+        "normalized_text": "cellular reactivation",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "reactivation outcome"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t28",
+        "entity_type": "text",
+        "name": "clinical reactivation",
+        "category": "annotation_text",
+        "surface_text": "Clinical reactivation",
+        "normalized_text": "clinical reactivation",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "clinical outcome"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t29",
+        "entity_type": "text",
+        "name": "bone marrow precursor",
+        "category": "scientific_label",
+        "surface_text": "Bone marrow precursor",
+        "normalized_text": "bone marrow precursor",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "latent reservoir lineage"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t30",
+        "entity_type": "text",
+        "name": "myeloid or dendritic cell progenitor",
+        "category": "scientific_label",
+        "surface_text": "Myeloid or dendritic cell progenitor",
+        "normalized_text": "myeloid or dendritic cell progenitor",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "lineage intermediate"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t31",
+        "entity_type": "text",
+        "name": "monocyte",
+        "category": "scientific_label",
+        "surface_text": "Monocyte",
+        "normalized_text": "monocyte",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "myeloid node"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t32",
+        "entity_type": "text",
+        "name": "macrophage",
+        "category": "scientific_label",
+        "surface_text": "Macrophage",
+        "normalized_text": "macrophage",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "monocyte fate"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t33",
+        "entity_type": "text",
+        "name": "dendritic cell",
+        "category": "scientific_label",
+        "surface_text": "Dendritic cell",
+        "normalized_text": "dendritic cell",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "monocyte fate"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t34",
+        "entity_type": "text",
+        "name": "natural killer cells or complement",
+        "category": "scientific_label",
+        "surface_text": "Natural killer cells or complement",
+        "normalized_text": "natural killer cells or complement",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "innate control input"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t35",
+        "entity_type": "text",
+        "name": "infection of permissive cell types",
+        "category": "annotation_text",
+        "surface_text": "Infection of permissive cell types (for example, epithelial, endothelial, smooth muscle cells)",
+        "normalized_text": "infection of permissive cell types (for example, epithelial, endothelial, smooth muscle cells)",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "productive infection",
+          "permissive differentiation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t36",
+        "entity_type": "text",
+        "name": "endothelial progenitor",
+        "category": "scientific_label",
+        "surface_text": "Endothelial progenitor",
+        "normalized_text": "endothelial progenitor",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "latent reservoir lineage"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t37",
+        "entity_type": "text",
+        "name": "venous endothelial cell",
+        "category": "scientific_label",
+        "surface_text": "Venous endothelial cell",
+        "normalized_text": "venous endothelial cell",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "endothelial branch"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t38",
+        "entity_type": "text",
+        "name": "aortic endothelial cell",
+        "category": "scientific_label",
+        "surface_text": "Aortic endothelial cell",
+        "normalized_text": "aortic endothelial cell",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "endothelial branch"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t39",
+        "entity_type": "text",
+        "name": "memory B cell",
+        "category": "scientific_label",
+        "surface_text": "Memory B cell",
+        "normalized_text": "memory B cell",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "immune network input"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t40",
+        "entity_type": "text",
+        "name": "tissue-resident endothelial cell",
+        "category": "scientific_label",
+        "surface_text": "Tissue-resident endothelial cell",
+        "normalized_text": "tissue-resident endothelial cell",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "endothelial intermediate"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t41",
+        "entity_type": "text",
+        "name": "activated endothelial cell",
+        "category": "scientific_label",
+        "surface_text": "Activated endothelial cell",
+        "normalized_text": "activated endothelial cell",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "activated endothelial state"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t2",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t3",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t4",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t5",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "t6",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "t9",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "t11",
+        "target_entity_id": "v10",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "t16",
+        "target_entity_id": "v9",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "t19",
+        "target_entity_id": "v11",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "t21",
+        "target_entity_id": "v12",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "t8",
+        "target_entity_id": "v13",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "v6",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "v7",
+        "target_entity_id": "v3",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "v3",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "v8",
+        "target_entity_id": "v10",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "v9",
+        "target_entity_id": "v11",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "v14",
+        "target_entity_id": "v13",
+        "relation_type": "points_to",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "v14",
+        "target_entity_id": "v12",
+        "relation_type": "points_to",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "v13",
+        "target_entity_id": "v12",
+        "relation_type": "above",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "t23",
+        "target_entity_id": "v15",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "t29",
+        "target_entity_id": "v16",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "t36",
+        "target_entity_id": "v17",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r23",
+        "source_entity_id": "t30",
+        "target_entity_id": "v18",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r24",
+        "source_entity_id": "t31",
+        "target_entity_id": "v19",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r25",
+        "source_entity_id": "t32",
+        "target_entity_id": "v20",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r26",
+        "source_entity_id": "t33",
+        "target_entity_id": "v21",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r27",
+        "source_entity_id": "t35",
+        "target_entity_id": "v22",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r28",
+        "source_entity_id": "t41",
+        "target_entity_id": "v26",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r29",
+        "source_entity_id": "t24",
+        "target_entity_id": "v27",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r30",
+        "source_entity_id": "t26",
+        "target_entity_id": "v28",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r31",
+        "source_entity_id": "t25",
+        "target_entity_id": "v29",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r32",
+        "source_entity_id": "t34",
+        "target_entity_id": "v30",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r33",
+        "source_entity_id": "t39",
+        "target_entity_id": "v31",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r34",
+        "source_entity_id": "v16",
+        "target_entity_id": "v18",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r35",
+        "source_entity_id": "v18",
+        "target_entity_id": "v19",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r36",
+        "source_entity_id": "v19",
+        "target_entity_id": "v20",
+        "relation_type": "transforms_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r37",
+        "source_entity_id": "v19",
+        "target_entity_id": "v21",
+        "relation_type": "transforms_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r38",
+        "source_entity_id": "v17",
+        "target_entity_id": "v26",
+        "relation_type": "flows_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r39",
+        "source_entity_id": "v29",
+        "target_entity_id": "t27",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r40",
+        "source_entity_id": "v27",
+        "target_entity_id": "t27",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r41",
+        "source_entity_id": "v28",
+        "target_entity_id": "t28",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r42",
+        "source_entity_id": "t27",
+        "target_entity_id": "t28",
+        "relation_type": "flows_to",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r43",
+        "source_entity_id": "v20",
+        "target_entity_id": "v22",
+        "relation_type": "flows_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r44",
+        "source_entity_id": "v21",
+        "target_entity_id": "v22",
+        "relation_type": "flows_to",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r45",
+        "source_entity_id": "v31",
+        "target_entity_id": "v26",
+        "relation_type": "connected_to",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r46",
+        "source_entity_id": "v30",
+        "target_entity_id": "v21",
+        "relation_type": "connected_to",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r47",
+        "source_entity_id": "v30",
+        "target_entity_id": "v26",
+        "relation_type": "connected_to",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      }
+    ]
+  }
+}

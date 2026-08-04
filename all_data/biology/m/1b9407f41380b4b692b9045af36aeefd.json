@@ -1,0 +1,1253 @@
+{
+  "image_name": "1b9407f41380b4b692b9045af36aeefd.png",
+  "prompt_text": "The figure summarizes how tissue changes from normal epithelium to an early lesion and then to aggressive cancer, alongside major shifts in immune signaling. In normal tissue, a single orderly epithelial layer sits on the basal membrane, and pathways involving ERVs, STING, NF-κB, interferon, and wild-type p53 appear balanced, supporting immune homeostasis.\n\nIn the early lesion, the epithelium becomes thicker and disorganized. Wild-type p53 is still present and is shown integrating oncogenic stress and DNA damage signals with inflammatory and antigen-presentation pathways. This stage seems to promote senescence, cytokine and chemokine release, PDL1 regulation, MHC-I, and other immune-related molecules, leading to recruitment or activation of CD8 T cells, NK cells, and M1 macrophages. Overall, this corresponds to an antitumoural immune response.\n\nIn aggressive cancer, the tissue is densely overgrown and highly disordered. The signaling box now centers on mutant p53, with disrupted links that appear to weaken immune surveillance. NF-κB-driven cytokines and chemokines remain, but the outcome shifts toward neutrophils, Treg cells, and M2 macrophages, with labels indicating reduced T-cell infiltration and IL-10-associated suppression. The overall message is that p53 status helps drive a transition from immune equilibrium, to early anti-tumour immunity, to an immunosuppressive tumour microenvironment.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "orderly epithelial layer",
+        "category": "layer",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "single layer",
+          "orderly cells",
+          "normal epithelium"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "basal membrane",
+        "category": "membrane",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "wavy boundary",
+          "under epithelium"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "thickened disorganized epithelium",
+        "category": "layer",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "multilayered",
+          "disorganized",
+          "early lesion"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "densely overgrown tumour tissue",
+        "category": "layer",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "dense overgrowth",
+          "high disorder",
+          "aggressive cancer"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "signaling network arrows",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "directed interactions",
+          "pathway links"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "CD8 T cell",
+        "category": "cell",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "immune effector",
+          "recruited in early lesion"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "NK cell",
+        "category": "cell",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "immune effector",
+          "early lesion"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "M1 macrophage",
+        "category": "cell",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "pro-inflammatory",
+          "early lesion"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "neutrophil",
+        "category": "cell",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "aggressive cancer",
+          "immune suppressive context"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v10",
+        "entity_type": "visual",
+        "name": "Treg cell",
+        "category": "cell",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "regulatory T cell",
+          "aggressive cancer"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v11",
+        "entity_type": "visual",
+        "name": "M2 macrophage",
+        "category": "cell",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "M2 polarized",
+          "aggressive cancer"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v12",
+        "entity_type": "visual",
+        "name": "normal signaling box",
+        "category": "region",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "balanced pathways",
+          "homeostasis"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v13",
+        "entity_type": "visual",
+        "name": "early lesion signaling box",
+        "category": "region",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "WT p53 centered",
+          "immune activation"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v14",
+        "entity_type": "visual",
+        "name": "aggressive cancer signaling box",
+        "category": "region",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "mutant p53 centered",
+          "disrupted links"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "panel label a",
+        "category": "panel_label",
+        "surface_text": "a",
+        "normalized_text": "a",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "Normal tissue",
+        "category": "annotation_text",
+        "surface_text": "Normal tissue",
+        "normalized_text": "Normal tissue",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "stage title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "panel label b",
+        "category": "panel_label",
+        "surface_text": "b",
+        "normalized_text": "b",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "Early lesion",
+        "category": "annotation_text",
+        "surface_text": "Early lesion",
+        "normalized_text": "Early lesion",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "stage title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "panel label c",
+        "category": "panel_label",
+        "surface_text": "c",
+        "normalized_text": "c",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "Aggressive cancer",
+        "category": "annotation_text",
+        "surface_text": "Aggressive cancer",
+        "normalized_text": "Aggressive cancer",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "stage title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "Basal membrane",
+        "category": "scientific_label",
+        "surface_text": "Basal membrane",
+        "normalized_text": "Basal membrane",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "tissue boundary"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "ERVs",
+        "category": "scientific_label",
+        "surface_text": "ERVs",
+        "normalized_text": "ERVs",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "normal pathway"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "STING",
+        "category": "scientific_label",
+        "surface_text": "STING",
+        "normalized_text": "STING",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "normal pathway"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "NF-κB",
+        "category": "scientific_label",
+        "surface_text": "NF-κB",
+        "normalized_text": "NF-κB",
+        "panel": "single_panel",
+        "count": 3,
+        "key_attributes": [
+          "immune signaling"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "WT p53",
+        "category": "scientific_label",
+        "surface_text": "WT p53",
+        "normalized_text": "WT p53",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "wild-type p53"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "IFN",
+        "category": "scientific_label",
+        "surface_text": "IFN",
+        "normalized_text": "IFN",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "interferon"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "Oncogenic stress",
+        "category": "annotation_text",
+        "surface_text": "Oncogenic stress",
+        "normalized_text": "Oncogenic stress",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "input signal"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t14",
+        "entity_type": "text",
+        "name": "DNA damage",
+        "category": "annotation_text",
+        "surface_text": "DNA damage",
+        "normalized_text": "DNA damage",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "input signal"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t15",
+        "entity_type": "text",
+        "name": "PDL1",
+        "category": "scientific_label",
+        "surface_text": "PDL1",
+        "normalized_text": "PDL1",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "immune checkpoint"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t16",
+        "entity_type": "text",
+        "name": "MHC-I",
+        "category": "scientific_label",
+        "surface_text": "MHC-I",
+        "normalized_text": "MHC-I",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "antigen presentation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t17",
+        "entity_type": "text",
+        "name": "Senescence",
+        "category": "annotation_text",
+        "surface_text": "Senescence",
+        "normalized_text": "Senescence",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "early lesion outcome"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t18",
+        "entity_type": "text",
+        "name": "Cytokines",
+        "category": "scientific_label",
+        "surface_text": "Cytokines",
+        "normalized_text": "Cytokines",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "secreted factors"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t19",
+        "entity_type": "text",
+        "name": "Chemokines",
+        "category": "scientific_label",
+        "surface_text": "Chemokines",
+        "normalized_text": "Chemokines",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "secreted factors"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t20",
+        "entity_type": "text",
+        "name": "CD8+ T cell",
+        "category": "scientific_label",
+        "surface_text": "CD8+ T cell",
+        "normalized_text": "CD8 T cell",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "immune effector"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t21",
+        "entity_type": "text",
+        "name": "NK cell",
+        "category": "scientific_label",
+        "surface_text": "NK cell",
+        "normalized_text": "NK cell",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "immune effector"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t22",
+        "entity_type": "text",
+        "name": "M1 macrophage",
+        "category": "scientific_label",
+        "surface_text": "M1 macrophage",
+        "normalized_text": "M1 macrophage",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "pro-inflammatory macrophage"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t23",
+        "entity_type": "text",
+        "name": "Mutant p53",
+        "category": "scientific_label",
+        "surface_text": "Mutant p53",
+        "normalized_text": "Mutant p53",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "mutant p53"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t24",
+        "entity_type": "text",
+        "name": "↓T cell infiltration",
+        "category": "annotation_text",
+        "surface_text": "↓T cell infiltration",
+        "normalized_text": "decreased T cell infiltration",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "reduced infiltration"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t25",
+        "entity_type": "text",
+        "name": "IL-10",
+        "category": "scientific_label",
+        "surface_text": "IL-10",
+        "normalized_text": "IL-10",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "suppressive cytokine"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t26",
+        "entity_type": "text",
+        "name": "Neutrophil",
+        "category": "scientific_label",
+        "surface_text": "Neutrophil",
+        "normalized_text": "Neutrophil",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "immune cell"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t27",
+        "entity_type": "text",
+        "name": "Treg cell",
+        "category": "scientific_label",
+        "surface_text": "Treg cell",
+        "normalized_text": "Treg cell",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "regulatory T cell"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t28",
+        "entity_type": "text",
+        "name": "M2 macrophage",
+        "category": "scientific_label",
+        "surface_text": "M2 macrophage",
+        "normalized_text": "M2 macrophage",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "suppressive macrophage"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t29",
+        "entity_type": "text",
+        "name": "Immune homeostasis",
+        "category": "annotation_text",
+        "surface_text": "Immune homeostasis",
+        "normalized_text": "Immune homeostasis",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "stage outcome"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t30",
+        "entity_type": "text",
+        "name": "Antitumoral immune response",
+        "category": "annotation_text",
+        "surface_text": "Antitumoral immune response",
+        "normalized_text": "Antitumoral immune response",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "stage outcome"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t31",
+        "entity_type": "text",
+        "name": "Immunosuppressive microenvironment",
+        "category": "annotation_text",
+        "surface_text": "Immunosuppressive microenvironment",
+        "normalized_text": "Immunosuppressive microenvironment",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "stage outcome"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t32",
+        "entity_type": "text",
+        "name": "TLRs",
+        "category": "scientific_label",
+        "surface_text": "TLRs",
+        "normalized_text": "TLRs",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "inflammatory pathway"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t33",
+        "entity_type": "text",
+        "name": "p21",
+        "category": "scientific_label",
+        "surface_text": "p21",
+        "normalized_text": "p21",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "cell cycle regulator"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t34",
+        "entity_type": "text",
+        "name": "miR-34",
+        "category": "scientific_label",
+        "surface_text": "miR-34",
+        "normalized_text": "miR-34",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "p53 target"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t35",
+        "entity_type": "text",
+        "name": "ERAP1",
+        "category": "scientific_label",
+        "surface_text": "ERAP1",
+        "normalized_text": "ERAP1",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "antigen processing"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t36",
+        "entity_type": "text",
+        "name": "TAP1",
+        "category": "scientific_label",
+        "surface_text": "TAP1",
+        "normalized_text": "TAP1",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "antigen transport"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t37",
+        "entity_type": "text",
+        "name": "ULBP1",
+        "category": "scientific_label",
+        "surface_text": "ULBP1",
+        "normalized_text": "ULBP1",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "NK-related ligand"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t38",
+        "entity_type": "text",
+        "name": "ULBP2",
+        "category": "scientific_label",
+        "surface_text": "ULBP2",
+        "normalized_text": "ULBP2",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "NK-related ligand"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t39",
+        "entity_type": "text",
+        "name": "CXCL2",
+        "category": "scientific_label",
+        "surface_text": "CXCL2",
+        "normalized_text": "CXCL2",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "chemokine"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t40",
+        "entity_type": "text",
+        "name": "M2 polarization",
+        "category": "annotation_text",
+        "surface_text": "M2 polarization",
+        "normalized_text": "M2 polarization",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "macrophage state"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t2",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t4",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t6",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t7",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "t20",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "t21",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "t22",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "t26",
+        "target_entity_id": "v9",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "t27",
+        "target_entity_id": "v10",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "t28",
+        "target_entity_id": "v11",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "v1",
+        "target_entity_id": "v2",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "v3",
+        "target_entity_id": "v2",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "v4",
+        "target_entity_id": "v2",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "v1",
+        "target_entity_id": "v3",
+        "relation_type": "left_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "v3",
+        "target_entity_id": "v4",
+        "relation_type": "left_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "t8",
+        "target_entity_id": "t9",
+        "relation_type": "activates",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "t9",
+        "target_entity_id": "t10",
+        "relation_type": "activates",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "t10",
+        "target_entity_id": "t12",
+        "relation_type": "activates",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "t11",
+        "target_entity_id": "t29",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "t13",
+        "target_entity_id": "t11",
+        "relation_type": "points_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "t14",
+        "target_entity_id": "t11",
+        "relation_type": "points_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "t11",
+        "target_entity_id": "t17",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r23",
+        "source_entity_id": "t11",
+        "target_entity_id": "t15",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r24",
+        "source_entity_id": "t11",
+        "target_entity_id": "t16",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r25",
+        "source_entity_id": "t10",
+        "target_entity_id": "t18",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r26",
+        "source_entity_id": "t10",
+        "target_entity_id": "t19",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r27",
+        "source_entity_id": "t18",
+        "target_entity_id": "v6",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r28",
+        "source_entity_id": "t19",
+        "target_entity_id": "v6",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r29",
+        "source_entity_id": "t18",
+        "target_entity_id": "v7",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r30",
+        "source_entity_id": "t19",
+        "target_entity_id": "v7",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r31",
+        "source_entity_id": "t18",
+        "target_entity_id": "v8",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r32",
+        "source_entity_id": "t19",
+        "target_entity_id": "v8",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r33",
+        "source_entity_id": "v6",
+        "target_entity_id": "t30",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r34",
+        "source_entity_id": "v7",
+        "target_entity_id": "t30",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r35",
+        "source_entity_id": "v8",
+        "target_entity_id": "t30",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r36",
+        "source_entity_id": "t23",
+        "target_entity_id": "t24",
+        "relation_type": "inhibits",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r37",
+        "source_entity_id": "t10",
+        "target_entity_id": "v9",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r38",
+        "source_entity_id": "t10",
+        "target_entity_id": "v10",
+        "relation_type": "activates",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r39",
+        "source_entity_id": "t10",
+        "target_entity_id": "v11",
+        "relation_type": "activates",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r40",
+        "source_entity_id": "t25",
+        "target_entity_id": "t31",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r41",
+        "source_entity_id": "t24",
+        "target_entity_id": "t31",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r42",
+        "source_entity_id": "v9",
+        "target_entity_id": "t31",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r43",
+        "source_entity_id": "v10",
+        "target_entity_id": "t31",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r44",
+        "source_entity_id": "v11",
+        "target_entity_id": "t31",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      }
+    ]
+  }
+}

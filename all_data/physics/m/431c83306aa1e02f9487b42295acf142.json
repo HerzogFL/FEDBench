@@ -1,0 +1,971 @@
+{
+  "image_name": "431c83306aa1e02f9487b42295acf142.jpg",
+  "prompt_text": "The figure summarizes three synthetic routes for making branched or star-shaped “miktoarm” polymers from a branched core bearing orthogonal reactive groups, and shows how these architectures lead to self-assembled nanostructures with useful functions.\n\nOverall, the left side emphasizes drug-delivery micelles. In one route, ring-opening polymerization, ester-based drug conjugation, and a click reaction produce an amphiphilic miktoarm polymer with a linked drug; this then self-assembles and can also encapsulate additional cargo, giving micellar nanocarriers that contain both conjugated and physically trapped drugs. A second route combines atom transfer radical polymerization, click chemistry, and radical addition–fragmentation chain transfer polymerization to create a miktoarm polymer with arms of predetermined functions. These molecules self-assemble into dual-responsive micelles, depicted with a photoresponsive core and a thermoresponsive corona.\n\nThe right side shows a one-pot copper-mediated reversible deactivation radical polymerization approach using monomers such as N-isopropylacrylamide and 2-hydroxyethyl acrylate plus a crosslinker. This yields a core-crosslinked star miktoarm polymer, which further self-assembles into higher-order thermoresponsive organic nanoparticles.\n\nTaken together, the figure highlights how controlled polymer chemistry and arm functionality determine micelle structure, responsiveness, and drug-loading behavior.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "branched core precursor",
+        "category": "pathway_component",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "shared starting node",
+          "orthogonal reactive groups"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "panel a synthesis-to-micelle workflow",
+        "category": "pathway_component",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "route sequence",
+          "drug-linked polymer",
+          "micelle outcome"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "panel a micelle nanocarrier",
+        "category": "molecule",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "branched micelle",
+          "encapsulated cargo",
+          "conjugated drug"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "panel b synthesis-to-responsive micelle workflow",
+        "category": "pathway_component",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "ATRP/click/RAFT route",
+          "predetermined arms"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "thermo- and photoresponsive micelle",
+        "category": "molecule",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "blue corona",
+          "red core",
+          "dual responsive"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "panel c one-pot RDRP workflow",
+        "category": "pathway_component",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "monomers plus crosslinker",
+          "one-pot synthesis"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "core-crosslinked star miktoarm polymer",
+        "category": "molecule",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "star-shaped",
+          "crosslinked core"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "higher-order thermoresponsive organic nanoparticle",
+        "category": "molecule",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "assembled nanoparticle",
+          "thermoresponsive"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "directional process arrows",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 12,
+        "key_attributes": [
+          "workflow arrows",
+          "top branching arrows"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v10",
+        "entity_type": "visual",
+        "name": "legend color keys",
+        "category": "legend_key",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "blue line",
+          "red line"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v11",
+        "entity_type": "visual",
+        "name": "panel markers",
+        "category": "panel_marker",
+        "panel": "single_panel",
+        "count": 3,
+        "key_attributes": [
+          "a",
+          "b",
+          "c"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "branched core with orthogonal reactive groups",
+        "category": "scientific_label",
+        "surface_text": "Branched core with orthogonal reactive groups",
+        "normalized_text": "branched core with orthogonal reactive groups",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "shared precursor"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "ring-opening polymerization",
+        "category": "scientific_label",
+        "surface_text": "Ring-opening polymerization",
+        "normalized_text": "ring-opening polymerization",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "synthetic route"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "drug conjugation by esterification",
+        "category": "scientific_label",
+        "surface_text": "Drug conjugation by esterification",
+        "normalized_text": "drug conjugation by esterification",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "ester-based drug conjugation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "click reaction in panel a",
+        "category": "scientific_label",
+        "surface_text": "Click reaction",
+        "normalized_text": "click reaction",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "orthogonal coupling"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "A2B2 amphiphilic miktoarm polymer with linked drug",
+        "category": "scientific_label",
+        "surface_text": "A2B2 amphiphilic miktoarm polymer with linked drug",
+        "normalized_text": "A2B2 amphiphilic miktoarm polymer with linked drug",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "amphiphilic",
+          "drug-linked"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "self-assembly in panel a",
+        "category": "annotation_text",
+        "surface_text": "Self-assembly",
+        "normalized_text": "self-assembly",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "assembly step"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "drug encapsulation",
+        "category": "annotation_text",
+        "surface_text": "Drug encapsulation",
+        "normalized_text": "drug encapsulation",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "physical cargo loading"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "micelle nanocarriers with conjugated and physically entrapped drugs",
+        "category": "scientific_label",
+        "surface_text": "Micelle nanocarriers with conjugated and physically entrapped drugs",
+        "normalized_text": "micelle nanocarriers with conjugated and physically entrapped drugs",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "dual drug loading"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "atom transfer radical polymerization",
+        "category": "scientific_label",
+        "surface_text": "Atom transfer radical polymerization",
+        "normalized_text": "atom transfer radical polymerization",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "ATRP route"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "click reaction in panel b",
+        "category": "scientific_label",
+        "surface_text": "Click reaction",
+        "normalized_text": "click reaction",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "orthogonal coupling"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "radical addition-fragmentation chain transfer polymerization",
+        "category": "scientific_label",
+        "surface_text": "Radical addition–fragmentation chain transfer polymerization",
+        "normalized_text": "radical addition-fragmentation chain transfer polymerization",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "RAFT polymerization"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "AB3 amphiphilic miktoarm polymer containing arms with predetermined functions",
+        "category": "scientific_label",
+        "surface_text": "AB3 amphiphilic miktoarm polymer containing arms with predetermined functions",
+        "normalized_text": "AB3 amphiphilic miktoarm polymer containing arms with predetermined functions",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "predetermined arm functions"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "self-assembly in panel b",
+        "category": "annotation_text",
+        "surface_text": "Self-assembly",
+        "normalized_text": "self-assembly",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "assembly step"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t14",
+        "entity_type": "text",
+        "name": "thermo- and photoresponsive micelles",
+        "category": "scientific_label",
+        "surface_text": "Thermo- and photoresponsive micelles",
+        "normalized_text": "thermo- and photoresponsive micelles",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "dual responsive micelles"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t15",
+        "entity_type": "text",
+        "name": "RDRP synthesis title",
+        "category": "scientific_label",
+        "surface_text": "Synthesis of linear monomer initiators with Cu-mediated reversible deactivation radical polymerization (RDRP)",
+        "normalized_text": "synthesis of linear monomer initiators with Cu-mediated reversible deactivation radical polymerization (RDRP)",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "Cu-mediated RDRP"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t16",
+        "entity_type": "text",
+        "name": "N-isopropylacrylamide",
+        "category": "scientific_label",
+        "surface_text": "N-isopropyl-acrylamide",
+        "normalized_text": "N-isopropylacrylamide",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "monomer"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t17",
+        "entity_type": "text",
+        "name": "2-hydroxyethyl acrylate",
+        "category": "scientific_label",
+        "surface_text": "2-hydroxyethyl acrylate",
+        "normalized_text": "2-hydroxyethyl acrylate",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "monomer"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t18",
+        "entity_type": "text",
+        "name": "crosslinker",
+        "category": "scientific_label",
+        "surface_text": "Crosslinker",
+        "normalized_text": "crosslinker",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "network-forming reagent"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t19",
+        "entity_type": "text",
+        "name": "one pot Cu-mediated RDRP",
+        "category": "scientific_label",
+        "surface_text": "One pot Cu-mediated RDRP",
+        "normalized_text": "one pot Cu-mediated RDRP",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "one-pot process"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t20",
+        "entity_type": "text",
+        "name": "core crosslinked star miktoarm polymer",
+        "category": "scientific_label",
+        "surface_text": "Core crosslinked star miktoarm polymer",
+        "normalized_text": "core crosslinked star miktoarm polymer",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "star miktoarm product"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t21",
+        "entity_type": "text",
+        "name": "self-assembly in panel c",
+        "category": "annotation_text",
+        "surface_text": "Self-assembly",
+        "normalized_text": "self-assembly",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "assembly step"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t22",
+        "entity_type": "text",
+        "name": "higher order thermoresponsive organic nanoparticles",
+        "category": "scientific_label",
+        "surface_text": "Higher order thermoresponsive organic nanoparticles",
+        "normalized_text": "higher order thermoresponsive organic nanoparticles",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "higher-order nanoparticles"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t23",
+        "entity_type": "text",
+        "name": "thermoresponsive corona",
+        "category": "legend_text",
+        "surface_text": "Thermoresponsive corona",
+        "normalized_text": "thermoresponsive corona",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "blue legend"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t24",
+        "entity_type": "text",
+        "name": "photoresponsive core",
+        "category": "legend_text",
+        "surface_text": "Photoresponsive core",
+        "normalized_text": "photoresponsive core",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "red legend"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t25",
+        "entity_type": "text",
+        "name": "panel label a",
+        "category": "panel_label",
+        "surface_text": "a",
+        "normalized_text": "a",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t26",
+        "entity_type": "text",
+        "name": "panel label b",
+        "category": "panel_label",
+        "surface_text": "b",
+        "normalized_text": "b",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t27",
+        "entity_type": "text",
+        "name": "panel label c",
+        "category": "panel_label",
+        "surface_text": "c",
+        "normalized_text": "c",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t28",
+        "entity_type": "text",
+        "name": "Poly(NIPAM)",
+        "category": "scientific_label",
+        "surface_text": "Poly(NIPAM)",
+        "normalized_text": "Poly(NIPAM)",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "polymer intermediate"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t29",
+        "entity_type": "text",
+        "name": "Poly(HEA)",
+        "category": "scientific_label",
+        "surface_text": "Poly(HEA)",
+        "normalized_text": "Poly(HEA)",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "polymer intermediate"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t1",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "v1",
+        "target_entity_id": "v2",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "v1",
+        "target_entity_id": "v4",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "v1",
+        "target_entity_id": "v6",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "t2",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "t3",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "t4",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "t5",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "t6",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "t7",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "t8",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "v2",
+        "target_entity_id": "v3",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "t9",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "t10",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "t11",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "t12",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "t13",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "t14",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "v4",
+        "target_entity_id": "v5",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "t15",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "t16",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "t17",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r23",
+        "source_entity_id": "t18",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r24",
+        "source_entity_id": "t19",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r25",
+        "source_entity_id": "t20",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r26",
+        "source_entity_id": "t21",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r27",
+        "source_entity_id": "t22",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r28",
+        "source_entity_id": "v6",
+        "target_entity_id": "v7",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r29",
+        "source_entity_id": "v7",
+        "target_entity_id": "v8",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r30",
+        "source_entity_id": "t23",
+        "target_entity_id": "v10",
+        "relation_type": "legend_for",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r31",
+        "source_entity_id": "t24",
+        "target_entity_id": "v10",
+        "relation_type": "legend_for",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r32",
+        "source_entity_id": "t23",
+        "target_entity_id": "v5",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r33",
+        "source_entity_id": "t24",
+        "target_entity_id": "v5",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r34",
+        "source_entity_id": "v2",
+        "target_entity_id": "v4",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r35",
+        "source_entity_id": "v4",
+        "target_entity_id": "v6",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r36",
+        "source_entity_id": "t28",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r37",
+        "source_entity_id": "t29",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      }
+    ]
+  }
+}

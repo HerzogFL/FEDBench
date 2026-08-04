@@ -1,0 +1,691 @@
+{
+  "image_name": "41560_2026_1968_Fig1_HTML.webp",
+  "prompt_text": "The figure contrasts two lithium-ion solvation environments and how they affect electron transfer and lithium deposition at a metal surface. On the left, a Li+ ion coordinated by G2 and HFE is shown with weak orbital overlap, marked by slow electron transfer. In this case, electrons appear to reduce the solvent more readily, and the lithium metal surface grows into rough, uneven Li dendrites. The image suggests that poor electronic coupling between the solvated ion complex and the electrode promotes parasitic solvent reduction and nonuniform deposition.\n\nOn the right, replacing G2 with MTP creates a different coordination structure around Li+ together with HFE. This arrangement is labeled as having strong orbital overlap and fast electron transfer. The result is lower reactivity of the solvent and a much more uniform lithium deposit, illustrated as a smooth, rounded layer rather than dendritic protrusions.\n\nOverall, the figure’s main message is that tailoring the solvation shell can change interfacial electron-transfer kinetics. Stronger orbital interaction in the electrolyte helps direct electrons toward Li+ reduction instead of solvent decomposition, leading to safer, more even lithium plating.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "left solvated Li+ complex",
+        "category": "molecule",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "Li+ with G2",
+          "includes HFE",
+          "weak coupling"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "right solvated Li+ complex",
+        "category": "molecule",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "Li+ with MTP",
+          "includes HFE",
+          "strong coupling"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "electron transfer arrow on left",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "curved arrow",
+          "slow transfer",
+          "top left"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "electron transfer arrow on right",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "curved arrow",
+          "fast transfer",
+          "top right"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "rough lithium dendrite deposit",
+        "category": "material_structure",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "uneven surface",
+          "left side",
+          "dendritic growth"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "uniform lithium deposit",
+        "category": "layer",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "smooth rounded layer",
+          "right side",
+          "uniform plating"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "lithium metal substrate left",
+        "category": "material_structure",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "bottom block",
+          "metal surface",
+          "left"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "lithium metal substrate right",
+        "category": "material_structure",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "bottom block",
+          "metal surface",
+          "right"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "solvent reduction pathway marker",
+        "category": "pathway_component",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "solvent molecule sketch",
+          "left side",
+          "reduction indicated"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v10",
+        "entity_type": "visual",
+        "name": "free electron icons",
+        "category": "pathway_component",
+        "panel": "single_panel",
+        "count": 7,
+        "key_attributes": [
+          "yellow circles",
+          "e− labels",
+          "interfacial electrons"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v11",
+        "entity_type": "visual",
+        "name": "left red cross mark",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "red X",
+          "negative outcome",
+          "above left"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "v12",
+        "entity_type": "visual",
+        "name": "right green check mark",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "green check",
+          "positive outcome",
+          "above right"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "slow electron transfer label",
+        "category": "scientific_label",
+        "surface_text": "Slow e− transfer",
+        "normalized_text": "slow electron transfer",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "left condition",
+          "kinetics label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "fast electron transfer label",
+        "category": "scientific_label",
+        "surface_text": "Fast e− transfer",
+        "normalized_text": "fast electron transfer",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "right condition",
+          "kinetics label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "weak orbital overlap label",
+        "category": "scientific_label",
+        "surface_text": "Weak orbital overlap",
+        "normalized_text": "weak orbital overlap",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "left condition",
+          "orbital interaction"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "strong orbital overlap label",
+        "category": "scientific_label",
+        "surface_text": "Strong orbital overlap",
+        "normalized_text": "strong orbital overlap",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "right condition",
+          "orbital interaction"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "Li+ label",
+        "category": "scientific_label",
+        "surface_text": "Li+",
+        "normalized_text": "Li+",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "cation",
+          "both complexes"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "G2 label",
+        "category": "scientific_label",
+        "surface_text": "G2",
+        "normalized_text": "G2",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "left solvent",
+          "ligand identity"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "HFE label",
+        "category": "scientific_label",
+        "surface_text": "HFE",
+        "normalized_text": "HFE",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "cosolvent",
+          "both sides"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "solvent reduction label",
+        "category": "annotation_text",
+        "surface_text": "Solvent reduction",
+        "normalized_text": "solvent reduction",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "left pathway",
+          "parasitic reaction"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "Li dendrites label",
+        "category": "annotation_text",
+        "surface_text": "Li dendrites",
+        "normalized_text": "lithium dendrites",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "left deposit",
+          "rough morphology"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "MTP label",
+        "category": "scientific_label",
+        "surface_text": "MTP",
+        "normalized_text": "MTP",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "right solvent",
+          "ligand identity"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "low reactivity label",
+        "category": "annotation_text",
+        "surface_text": "Low reactivity",
+        "normalized_text": "low reactivity",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "right side",
+          "suppressed solvent reaction"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "uniform Li label",
+        "category": "annotation_text",
+        "surface_text": "Uniform Li",
+        "normalized_text": "uniform lithium",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "right deposit",
+          "even plating"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "Li0 substrate label",
+        "category": "scientific_label",
+        "surface_text": "Li0",
+        "normalized_text": "Li0",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "metal substrate",
+          "bottom labels"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t14",
+        "entity_type": "text",
+        "name": "electron icon label",
+        "category": "scientific_label",
+        "surface_text": "e−",
+        "normalized_text": "e−",
+        "panel": "single_panel",
+        "count": 7,
+        "key_attributes": [
+          "free electrons",
+          "icon labels"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t15",
+        "entity_type": "text",
+        "name": "fluorine atom label",
+        "category": "scientific_label",
+        "surface_text": "F",
+        "normalized_text": "F",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "solvent sketch",
+          "left molecular fragment"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t1",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t2",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t3",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t4",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "t6",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "t7",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "t7",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "t5",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "t5",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "t10",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "t8",
+        "target_entity_id": "v9",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "t9",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "t11",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "t12",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "v3",
+        "target_entity_id": "v1",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "v4",
+        "target_entity_id": "v2",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "v9",
+        "target_entity_id": "v5",
+        "relation_type": "flows_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "v5",
+        "target_entity_id": "v7",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "v6",
+        "target_entity_id": "v8",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "v1",
+        "target_entity_id": "v5",
+        "relation_type": "above",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "v2",
+        "target_entity_id": "v6",
+        "relation_type": "above",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "v1",
+        "target_entity_id": "v2",
+        "relation_type": "left_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r23",
+        "source_entity_id": "v5",
+        "target_entity_id": "v6",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r24",
+        "source_entity_id": "t13",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r25",
+        "source_entity_id": "t13",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r26",
+        "source_entity_id": "t14",
+        "target_entity_id": "v10",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      }
+    ]
+  }
+}

@@ -1,0 +1,901 @@
+{
+  "image_name": "3ac4e3f35ba668907767c03044bdedd3.png",
+  "prompt_text": "The figure contrasts two kinds of shape-morphing devices and the applications they enable. In the top row, a simple flat pattern is shown transforming into another defined shape when exposed to external stimuli such as temperature, light, magnetic fields, or pneumatic actuation. The idea is pattern-to-pattern conversion: a structure starts flat and then switches into a specific curved form. This stimulus-driven morphing is linked to uses in untethered soft robots, medical or diagnostic robots inside the body, cell-related experiments using shaped surfaces, and deployable aerospace components.\n\nThe bottom row shows programmable shape-morphing devices. Here, a tiled or pixelated surface is controlled by discrete or continuous signals, allowing a wider range of target shapes rather than a single preset transformation. The examples suggest dynamically reconfigurable surfaces that can produce different curvatures and textures on demand. These programmable systems are associated with tactile or haptic interfaces, tangible user interfaces for AR/VR, and optical or acoustic metamaterials whose surface geometry can tune how waves interact with them.\n\nOverall, the figure emphasizes the shift from passive stimulus-responsive shape change to actively programmable, multifunctional morphing platforms.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "flat starting sheet",
+        "category": "material_structure",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "flat diamond sheet",
+          "blue",
+          "initial state"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "stimulus-driven curved target shape",
+        "category": "material_structure",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "curved ribbon",
+          "blue",
+          "morphed state"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "transformation arrows",
+        "category": "arrow",
+        "panel": "a",
+        "count": 2,
+        "key_attributes": [
+          "left-right arrows",
+          "between states",
+          "morphing flow"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "stimuli list container",
+        "category": "region",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "dashed box",
+          "four entries",
+          "input stimuli"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "stimuli bracket connector",
+        "category": "arrow",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "bracket-like line",
+          "groups stimuli",
+          "points to morphing"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "untethered soft robot example",
+        "category": "device_component",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "segmented robot",
+          "magnet nearby",
+          "application icon"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "diagnostic robot in body example",
+        "category": "device_component",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "human silhouette",
+          "GI tract path",
+          "internal device"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "cell experiment shaped surface",
+        "category": "cell",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "wavy substrate",
+          "cells on surface",
+          "pipette above"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "aerospace deployable structure",
+        "category": "device_component",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "satellite-like",
+          "deployable panels",
+          "space application"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v10",
+        "entity_type": "visual",
+        "name": "tiled programmable starting surface",
+        "category": "material_structure",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "pixelated grid",
+          "flat",
+          "blue tiles"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v11",
+        "entity_type": "visual",
+        "name": "multiple programmable target shapes",
+        "category": "material_structure",
+        "panel": "b",
+        "count": 3,
+        "key_attributes": [
+          "different curvatures",
+          "alternative outputs",
+          "blue surfaces"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v12",
+        "entity_type": "visual",
+        "name": "control signals container",
+        "category": "region",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "dashed box",
+          "two entries",
+          "signal inputs"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v13",
+        "entity_type": "visual",
+        "name": "programmable transformation arrows",
+        "category": "arrow",
+        "panel": "b",
+        "count": 2,
+        "key_attributes": [
+          "left-right arrows",
+          "between grid and outputs",
+          "control flow"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v14",
+        "entity_type": "visual",
+        "name": "control bracket connector",
+        "category": "arrow",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "bracket-like line",
+          "groups signals",
+          "points to outputs"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v15",
+        "entity_type": "visual",
+        "name": "haptic textured surface",
+        "category": "device_component",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "bumpy surface",
+          "finger touching",
+          "tactile output"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v16",
+        "entity_type": "visual",
+        "name": "AR-VR tangible interface example",
+        "category": "device_component",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "person with headset",
+          "hand controllers",
+          "interaction arrows"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v17",
+        "entity_type": "visual",
+        "name": "optical acoustic metamaterial example",
+        "category": "material_structure",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "wave source",
+          "projected waves",
+          "textured surface"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "panel a label",
+        "category": "panel_label",
+        "surface_text": "a",
+        "normalized_text": "a",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "panel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "pattern-to-pattern title",
+        "category": "annotation_text",
+        "surface_text": "Pattern-to-pattern shape-morphing devices",
+        "normalized_text": "pattern-to-pattern shape-morphing devices",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "section title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "stimuli header",
+        "category": "scientific_label",
+        "surface_text": "Stimuli",
+        "normalized_text": "stimuli",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "input category"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "temperature label",
+        "category": "scientific_label",
+        "surface_text": "Temperature",
+        "normalized_text": "temperature",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "stimulus"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "light label",
+        "category": "scientific_label",
+        "surface_text": "Light",
+        "normalized_text": "light",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "stimulus"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "magnetic field label",
+        "category": "scientific_label",
+        "surface_text": "Magnetic field",
+        "normalized_text": "magnetic field",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "stimulus"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "pneumatic actuation label",
+        "category": "scientific_label",
+        "surface_text": "Pneumatic actuation",
+        "normalized_text": "pneumatic actuation",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "stimulus"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "untethered robots label",
+        "category": "legend_text",
+        "surface_text": "Untethered robots",
+        "normalized_text": "untethered robots",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "application"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "diagnostic robots label",
+        "category": "legend_text",
+        "surface_text": "Diagnostic robots",
+        "normalized_text": "diagnostic robots",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "application"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "cell experiments label",
+        "category": "legend_text",
+        "surface_text": "Cell experiments",
+        "normalized_text": "cell experiments",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "application"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "aerospace label",
+        "category": "legend_text",
+        "surface_text": "Aerospace",
+        "normalized_text": "aerospace",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "application"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "panel b label",
+        "category": "panel_label",
+        "surface_text": "b",
+        "normalized_text": "b",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "panel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "programmable title",
+        "category": "annotation_text",
+        "surface_text": "Programmable shape-morphing devices",
+        "normalized_text": "programmable shape-morphing devices",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "section title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t14",
+        "entity_type": "text",
+        "name": "control signals header",
+        "category": "scientific_label",
+        "surface_text": "Control signals",
+        "normalized_text": "control signals",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "input category"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t15",
+        "entity_type": "text",
+        "name": "discrete label",
+        "category": "scientific_label",
+        "surface_text": "Discrete",
+        "normalized_text": "discrete",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "signal type"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t16",
+        "entity_type": "text",
+        "name": "continuous label",
+        "category": "scientific_label",
+        "surface_text": "Continuous",
+        "normalized_text": "continuous",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "signal type"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t17",
+        "entity_type": "text",
+        "name": "haptic devices label",
+        "category": "legend_text",
+        "surface_text": "Haptic devices",
+        "normalized_text": "haptic devices",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "application"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t18",
+        "entity_type": "text",
+        "name": "AR-VR TUI label",
+        "category": "legend_text",
+        "surface_text": "TUI for AR–VR",
+        "normalized_text": "tui for ar-vr",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "application"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t19",
+        "entity_type": "text",
+        "name": "optical and acoustical metamaterials label",
+        "category": "legend_text",
+        "surface_text": "Optical and acoustical metamaterials",
+        "normalized_text": "optical and acoustical metamaterials",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "application"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t2",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t3",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t4",
+        "target_entity_id": "v4",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t5",
+        "target_entity_id": "v4",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "t6",
+        "target_entity_id": "v4",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "t7",
+        "target_entity_id": "v4",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "v1",
+        "target_entity_id": "v2",
+        "relation_type": "transforms_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "v3",
+        "target_entity_id": "v2",
+        "relation_type": "points_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "v4",
+        "target_entity_id": "v2",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "v5",
+        "target_entity_id": "v2",
+        "relation_type": "points_to",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "t8",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "t9",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "t10",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "t11",
+        "target_entity_id": "v9",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "v2",
+        "target_entity_id": "v6",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "v2",
+        "target_entity_id": "v7",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "v2",
+        "target_entity_id": "v8",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "v2",
+        "target_entity_id": "v9",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "t13",
+        "target_entity_id": "v10",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "t14",
+        "target_entity_id": "v12",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "t15",
+        "target_entity_id": "v12",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "t16",
+        "target_entity_id": "v12",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r23",
+        "source_entity_id": "v10",
+        "target_entity_id": "v11",
+        "relation_type": "transforms_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r24",
+        "source_entity_id": "v13",
+        "target_entity_id": "v11",
+        "relation_type": "points_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r25",
+        "source_entity_id": "v12",
+        "target_entity_id": "v11",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r26",
+        "source_entity_id": "v14",
+        "target_entity_id": "v11",
+        "relation_type": "points_to",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r27",
+        "source_entity_id": "t17",
+        "target_entity_id": "v15",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r28",
+        "source_entity_id": "t18",
+        "target_entity_id": "v16",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r29",
+        "source_entity_id": "t19",
+        "target_entity_id": "v17",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r30",
+        "source_entity_id": "v11",
+        "target_entity_id": "v15",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r31",
+        "source_entity_id": "v11",
+        "target_entity_id": "v16",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r32",
+        "source_entity_id": "v11",
+        "target_entity_id": "v17",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r33",
+        "source_entity_id": "v1",
+        "target_entity_id": "v10",
+        "relation_type": "above",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r34",
+        "source_entity_id": "v2",
+        "target_entity_id": "v11",
+        "relation_type": "above",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r35",
+        "source_entity_id": "v6",
+        "target_entity_id": "v15",
+        "relation_type": "above",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "cross_panel"
+      }
+    ]
+  }
+}

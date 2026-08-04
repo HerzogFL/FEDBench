@@ -1,0 +1,589 @@
+{
+  "image_name": "2b7126b33f1f9fe56d60897aa6f7f086.jpg",
+  "prompt_text": "This schematic summarizes the brainstem and forebrain circuits that regulate pain signals descending to the spinal cord. A pain transmission neuron in the dorsal horn is shown in pink, carrying ascending nociceptive information upward while also being strongly influenced by descending inputs. The central pathway runs through the periaqueductal gray (PAG) and the rostral ventromedial medulla (RVM), which send projections back to the dorsal horn to either suppress or facilitate spinal pain processing.\n\nSeveral higher brain regions appear to feed into this system, including the anterior cingulate cortex (ACC), amygdala, and hypothalamic/thalamic areas. Green and red pathways indicate different functional influences converging on PAG and RVM and then on spinal dorsal horn neurons; visually, these seem to represent opposing control systems, with one pathway dampening pain transmission and another enhancing it. An additional orange pathway in the medulla also contributes to modulation at the spinal level.\n\nOverall, the figure emphasizes that pain is not transmitted passively from spinal cord to brain. Instead, it is dynamically shaped by emotional, cognitive, and homeostatic centers acting through the PAG–RVM descending control network to increase or decrease nociceptive output.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "pain transmission neuron",
+        "category": "cell",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "pink neuron",
+          "dorsal horn",
+          "ascending axon"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "dorsal horn region",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "spinal cord",
+          "lower panel region"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "periaqueductal gray",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "midbrain region",
+          "central hub"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "rostral ventromedial medulla",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "medulla region",
+          "descending relay"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "anterior cingulate cortex region",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "forebrain input",
+          "superior cortex"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "amygdala region",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "forebrain input",
+          "lateral region"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "thalamic area",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "green dashed region",
+          "T"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "hypothalamic area",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "green dashed region",
+          "H"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "green descending modulatory pathway",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "green path",
+          "to PAG/RVM",
+          "to dorsal horn"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v10",
+        "entity_type": "visual",
+        "name": "red descending modulatory pathway",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "red path",
+          "to PAG/RVM",
+          "to dorsal horn"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v11",
+        "entity_type": "visual",
+        "name": "orange medullary modulatory pathway",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "orange path",
+          "medulla to spinal cord"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v12",
+        "entity_type": "visual",
+        "name": "pink ascending nociceptive pathway",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "pink path",
+          "ascends from dorsal horn"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "ACC label",
+        "category": "scientific_label",
+        "surface_text": "ACC",
+        "normalized_text": "ACC",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "brain region label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "thalamic area label",
+        "category": "scientific_label",
+        "surface_text": "T",
+        "normalized_text": "T",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "abbreviated label"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "hypothalamic area label",
+        "category": "scientific_label",
+        "surface_text": "H",
+        "normalized_text": "H",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "abbreviated label"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "periaqueductal gray label",
+        "category": "scientific_label",
+        "surface_text": "PAG",
+        "normalized_text": "PAG",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "brainstem label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "amygdala label",
+        "category": "scientific_label",
+        "surface_text": "Amygdala",
+        "normalized_text": "Amygdala",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "forebrain label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "RVM label",
+        "category": "scientific_label",
+        "surface_text": "RVM",
+        "normalized_text": "RVM",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "medulla label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "dorsal horn label",
+        "category": "scientific_label",
+        "surface_text": "Dorsal horn",
+        "normalized_text": "Dorsal horn",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "spinal region label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "pain transmission neuron label",
+        "category": "annotation_text",
+        "surface_text": "Pain transmission neuron",
+        "normalized_text": "Pain transmission neuron",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "cell annotation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "L label",
+        "category": "scientific_label",
+        "surface_text": "L",
+        "normalized_text": "L",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "abbreviated label"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t1",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t2",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t3",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t4",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "t5",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "t6",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "t7",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "t8",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "v1",
+        "target_entity_id": "v2",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "v12",
+        "target_entity_id": "v1",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "v12",
+        "target_entity_id": "v3",
+        "relation_type": "flows_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "v3",
+        "target_entity_id": "v4",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "v4",
+        "target_entity_id": "v2",
+        "relation_type": "inhibits",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "v4",
+        "target_entity_id": "v2",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "v5",
+        "target_entity_id": "v3",
+        "relation_type": "connected_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "v6",
+        "target_entity_id": "v3",
+        "relation_type": "connected_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "v7",
+        "target_entity_id": "v3",
+        "relation_type": "connected_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "v8",
+        "target_entity_id": "v3",
+        "relation_type": "connected_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "v9",
+        "target_entity_id": "v3",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "v9",
+        "target_entity_id": "v4",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "v9",
+        "target_entity_id": "v2",
+        "relation_type": "inhibits",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "v10",
+        "target_entity_id": "v3",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r23",
+        "source_entity_id": "v10",
+        "target_entity_id": "v4",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r24",
+        "source_entity_id": "v10",
+        "target_entity_id": "v2",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r25",
+        "source_entity_id": "v11",
+        "target_entity_id": "v2",
+        "relation_type": "connected_to",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r26",
+        "source_entity_id": "v3",
+        "target_entity_id": "v4",
+        "relation_type": "above",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r27",
+        "source_entity_id": "v4",
+        "target_entity_id": "v2",
+        "relation_type": "above",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r28",
+        "source_entity_id": "v5",
+        "target_entity_id": "v3",
+        "relation_type": "above",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      }
+    ]
+  }
+}

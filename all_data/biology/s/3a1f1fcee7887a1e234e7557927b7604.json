@@ -1,0 +1,989 @@
+{
+  "image_name": "3a1f1fcee7887a1e234e7557927b7604.png",
+  "prompt_text": "This figure summarizes a biomarker framework for neurodegeneration centered on a diseased neuron and its wider body-level readouts. In the middle, a neuron contains damaged mitochondria, released mitochondrial DNA, and pathogenic protein aggregates that also spread along the axon. Surrounding microglia indicate a linked inflammatory response. The diagram groups measurable signals into major categories: mitochondrial dysfunction, impaired mitophagy, inflammation, mtDNA release, altered glucose/oxygen metabolism, and abnormal protein aggregation. Each category is paired with example detection methods such as PET ligands, mass spectrometry, ELISA, CSF assays, PCR, and sequencing, suggesting how these pathological processes can be monitored in patients.\n\nThe right side expands this from the brain to systemic monitoring. A human silhouette highlights accessible tissues and pathways including blood, skeletal muscle, skin, vagus nerve, sensory neurons, and the gastrointestinal tract. This implies that disease-related mitochondrial and inflammatory changes may be tracked not only in the central nervous system but also in peripheral tissues. Overall, the figure presents neurodegeneration as a multisystem process in which mitochondrial damage, protein aggregation, and immune activation generate biomarker signals across brain, cerebrospinal fluid, imaging, and peripheral samples.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "diseased neuron",
+        "category": "cell",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "central soma",
+          "extended axon",
+          "degenerative context"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "damaged mitochondria",
+        "category": "organelle",
+        "panel": "single_panel",
+        "count": 6,
+        "key_attributes": [
+          "pink oval",
+          "inside neuron",
+          "damaged state"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "released mtDNA",
+        "category": "molecule",
+        "panel": "single_panel",
+        "count": 3,
+        "key_attributes": [
+          "blue DNA strands",
+          "extramitochondrial",
+          "near soma"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "pathogenic protein aggregates",
+        "category": "protein",
+        "panel": "single_panel",
+        "count": 4,
+        "key_attributes": [
+          "red tangled clusters",
+          "in soma and axon",
+          "spreading"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "axon propagation arrow",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "rightward",
+          "along axon",
+          "spread indication"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "microglia",
+        "category": "cell",
+        "panel": "single_panel",
+        "count": 4,
+        "key_attributes": [
+          "blue ramified cells",
+          "surrounding neuron",
+          "immune response"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "human body silhouette",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "right side",
+          "systemic overview",
+          "whole-body context"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "brain region in silhouette",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "head highlight",
+          "CNS source",
+          "linked to neuron"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "blood vessel pathway",
+        "category": "pathway_component",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "arm vessels",
+          "sampling route",
+          "systemic biomarker access"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v10",
+        "entity_type": "visual",
+        "name": "skeletal muscle region",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "upper limb",
+          "peripheral tissue",
+          "accessible tissue"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v11",
+        "entity_type": "visual",
+        "name": "skin region",
+        "category": "layer",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "body surface highlight",
+          "peripheral tissue",
+          "accessible tissue"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v12",
+        "entity_type": "visual",
+        "name": "vagus nerve pathway",
+        "category": "pathway_component",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "neck to gut",
+          "long nerve tract",
+          "brain-body link"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v13",
+        "entity_type": "visual",
+        "name": "sensory neurons pathway",
+        "category": "pathway_component",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "peripheral nerves",
+          "body-side tract",
+          "systemic monitoring"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v14",
+        "entity_type": "visual",
+        "name": "gastrointestinal tract",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "abdomen",
+          "gut outline",
+          "peripheral monitoring"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v15",
+        "entity_type": "visual",
+        "name": "dashed brain-to-body link",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "horizontal dashed line",
+          "left to right",
+          "conceptual connection"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "v16",
+        "entity_type": "visual",
+        "name": "bottom legend icons",
+        "category": "legend_key",
+        "panel": "single_panel",
+        "count": 3,
+        "key_attributes": [
+          "aggregate icon",
+          "mitochondrion icon",
+          "mtDNA icon"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "Mitochondria label",
+        "category": "scientific_label",
+        "surface_text": "Mitochondria",
+        "normalized_text": "mitochondria",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "category heading"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "Mitophagy label",
+        "category": "scientific_label",
+        "surface_text": "Mitophagy",
+        "normalized_text": "mitophagy",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "category heading"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "Inflammation label",
+        "category": "scientific_label",
+        "surface_text": "Inflammation",
+        "normalized_text": "inflammation",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "category heading"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "mtDNA label",
+        "category": "scientific_label",
+        "surface_text": "mtDNA",
+        "normalized_text": "mtDNA",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "category heading"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "Glucose/oxygen label",
+        "category": "scientific_label",
+        "surface_text": "Glucose/oxygen",
+        "normalized_text": "glucose/oxygen",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "category heading"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "Protein aggregates label",
+        "category": "scientific_label",
+        "surface_text": "Protein aggregates",
+        "normalized_text": "protein aggregates",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "category heading"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "Microglia label",
+        "category": "annotation_text",
+        "surface_text": "Microglia",
+        "normalized_text": "microglia",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "cell annotation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "Mitochondria methods text",
+        "category": "legend_text",
+        "surface_text": "MAO-B PET ligands — deprenyl; TSPO PET ligands — DPA714, PBR28; Mito complex I PET ligand — BCCP-EF",
+        "normalized_text": "MAO-B PET ligands — deprenyl; TSPO PET ligands — DPA714, PBR28; Mito complex I PET ligand — BCCP-EF",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "PET ligands",
+          "detection methods"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "Mitophagy methods text",
+        "category": "legend_text",
+        "surface_text": "p-Ser65-Ub — ELISA; Ubiquitylated OMM proteins — diGly mass spectrometry",
+        "normalized_text": "p-Ser65-Ub — ELISA; ubiquitylated OMM proteins — diGly mass spectrometry",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "ELISA",
+          "mass spectrometry"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "Inflammation methods text",
+        "category": "legend_text",
+        "surface_text": "TSPO PET ligands — PK11195, DPA714, PBR28; CSF1R PET ligands — CPPC; CSF cytokines — IL-6, IL-18, IL-1β",
+        "normalized_text": "TSPO PET ligands — PK11195, DPA714, PBR28; CSF1R PET ligands — CPPC; CSF cytokines — IL-6, IL-18, IL-1β",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "PET ligands",
+          "CSF cytokines"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "mtDNA methods text",
+        "category": "legend_text",
+        "surface_text": "CSF ccf-mtDNA — ddPCR; CSF mtDNA somatic mutations — NGS",
+        "normalized_text": "CSF ccf-mtDNA — ddPCR; CSF mtDNA somatic mutations — NGS",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "PCR",
+          "sequencing"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "Glucose/oxygen methods text",
+        "category": "legend_text",
+        "surface_text": "ATP, PCr — 31P-MRS; Glucose uptake — FDG-PET",
+        "normalized_text": "ATP, PCr — 31P-MRS; glucose uptake — FDG-PET",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "MRS",
+          "FDG-PET"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "Protein aggregate methods text",
+        "category": "legend_text",
+        "surface_text": "α-synuclein SAA — RTQuic/PMCA; Aβ - PET ligands PIB, florebetapir; Tau - PET ligands flortaucipir, PI-2620",
+        "normalized_text": "α-synuclein SAA — RTQuic/PMCA; Aβ PET ligands PIB, florebetapir; Tau PET ligands flortaucipir, PI-2620",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "SAA assay",
+          "PET ligands"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t14",
+        "entity_type": "text",
+        "name": "Systemic monitoring text",
+        "category": "annotation_text",
+        "surface_text": "Systemic monitoring e.g. blood, muscle, skin, gastrointestinal tract",
+        "normalized_text": "systemic monitoring e.g. blood, muscle, skin, gastrointestinal tract",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "right-side summary"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t15",
+        "entity_type": "text",
+        "name": "Blood sampling text",
+        "category": "annotation_text",
+        "surface_text": "Blood sampling for systemic biomarker assessment",
+        "normalized_text": "blood sampling for systemic biomarker assessment",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "sampling route"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t16",
+        "entity_type": "text",
+        "name": "Skeletal muscle label",
+        "category": "annotation_text",
+        "surface_text": "Skeletal muscle",
+        "normalized_text": "skeletal muscle",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "peripheral tissue"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t17",
+        "entity_type": "text",
+        "name": "Vagus nerve label",
+        "category": "annotation_text",
+        "surface_text": "Vagus nerve",
+        "normalized_text": "vagus nerve",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "peripheral pathway"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t18",
+        "entity_type": "text",
+        "name": "Skin label",
+        "category": "annotation_text",
+        "surface_text": "Skin",
+        "normalized_text": "skin",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "peripheral tissue"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t19",
+        "entity_type": "text",
+        "name": "Sensory neurons label",
+        "category": "annotation_text",
+        "surface_text": "Sensory neurons",
+        "normalized_text": "sensory neurons",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "peripheral neurons"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t20",
+        "entity_type": "text",
+        "name": "Vagal afferents label",
+        "category": "annotation_text",
+        "surface_text": "Vagal afferents",
+        "normalized_text": "vagal afferents",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "gut-brain pathway"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t21",
+        "entity_type": "text",
+        "name": "Lower motor neuron label",
+        "category": "annotation_text",
+        "surface_text": "Lower motor neuron",
+        "normalized_text": "lower motor neuron",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "neuronal pathway"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t22",
+        "entity_type": "text",
+        "name": "Pathogenic protein aggregate legend",
+        "category": "legend_text",
+        "surface_text": "Pathogenic protein aggregate",
+        "normalized_text": "pathogenic protein aggregate",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "legend item"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t23",
+        "entity_type": "text",
+        "name": "Damaged mitochondrion legend",
+        "category": "legend_text",
+        "surface_text": "Damaged mitochondrion",
+        "normalized_text": "damaged mitochondrion",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "legend item"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t24",
+        "entity_type": "text",
+        "name": "mtDNA legend",
+        "category": "legend_text",
+        "surface_text": "mtDNA",
+        "normalized_text": "mtDNA",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "legend item"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t1",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t2",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t3",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t4",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "t5",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "t6",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "t7",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "t8",
+        "target_entity_id": "t1",
+        "relation_type": "legend_for",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "t9",
+        "target_entity_id": "t2",
+        "relation_type": "legend_for",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "t10",
+        "target_entity_id": "t3",
+        "relation_type": "legend_for",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "t11",
+        "target_entity_id": "t4",
+        "relation_type": "legend_for",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "t12",
+        "target_entity_id": "t5",
+        "relation_type": "legend_for",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "t13",
+        "target_entity_id": "t6",
+        "relation_type": "legend_for",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "v2",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "v3",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "v4",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "v5",
+        "target_entity_id": "v4",
+        "relation_type": "points_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "v4",
+        "target_entity_id": "v1",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "v6",
+        "target_entity_id": "v1",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "t14",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "v8",
+        "target_entity_id": "v7",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "v9",
+        "target_entity_id": "v7",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r23",
+        "source_entity_id": "v10",
+        "target_entity_id": "v7",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r24",
+        "source_entity_id": "v11",
+        "target_entity_id": "v7",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r25",
+        "source_entity_id": "v12",
+        "target_entity_id": "v7",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r26",
+        "source_entity_id": "v13",
+        "target_entity_id": "v7",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r27",
+        "source_entity_id": "v14",
+        "target_entity_id": "v7",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r28",
+        "source_entity_id": "t15",
+        "target_entity_id": "v9",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r29",
+        "source_entity_id": "t16",
+        "target_entity_id": "v10",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r30",
+        "source_entity_id": "t17",
+        "target_entity_id": "v12",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r31",
+        "source_entity_id": "t18",
+        "target_entity_id": "v11",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r32",
+        "source_entity_id": "t19",
+        "target_entity_id": "v13",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r33",
+        "source_entity_id": "v15",
+        "target_entity_id": "v7",
+        "relation_type": "connected_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r34",
+        "source_entity_id": "v15",
+        "target_entity_id": "v1",
+        "relation_type": "connected_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r35",
+        "source_entity_id": "t22",
+        "target_entity_id": "v16",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r36",
+        "source_entity_id": "t23",
+        "target_entity_id": "v16",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r37",
+        "source_entity_id": "t24",
+        "target_entity_id": "v16",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      }
+    ]
+  }
+}

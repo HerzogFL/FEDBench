@@ -1,0 +1,554 @@
+{
+  "image_name": "f81c3c3b55024686590bf3bc697c3414.png",
+  "prompt_text": "The figure illustrates a two-part physical picture of how a single object or state can move between different energy landscapes and interact with a nearby platform. On the left, potential energy is plotted against position, with two distinct red potential surfaces: an upper, funnel-like landscape and a lower, bowl-shaped one. Blue irregular shapes appear to represent different configurations or localized states within these potentials. Curved arrows indicate motion or transitions within each landscape and also a transfer from the upper surface into the lower one, suggesting relaxation between states or trapping in lower-energy minima.\n\nOn the right, the schematic is simplified into a model with two quantized wells connected through a central element labeled S, positioned above a larger red body labeled T. The two wells have visible energy levels, and the labels “energy difference” and “coupling strength” indicate the main tunable quantities controlling the interaction. Wavy lines connect the wells and the central object to the red substrate-like element, implying coupling to an external environment or support. Overall, the figure conveys a transition from a complex spatial energy landscape to a reduced model emphasizing state energies and coupling to a target or substrate.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "upper potential energy landscape",
+        "category": "region",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "red funnel-like surface",
+          "higher energy",
+          "open upper basin"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "lower potential well landscape",
+        "category": "region",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "red bowl-shaped surface",
+          "lower energy",
+          "contains minima"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "localized states or configurations",
+        "category": "pathway_component",
+        "panel": "a",
+        "count": 4,
+        "key_attributes": [
+          "blue irregular shapes",
+          "occupy landscapes",
+          "state representations"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "transition arrows within and between landscapes",
+        "category": "arrow",
+        "panel": "a",
+        "count": 4,
+        "key_attributes": [
+          "curved arrows",
+          "intra-landscape motion",
+          "transfer downward"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "left quantized well",
+        "category": "region",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "blue well",
+          "contains energy levels",
+          "left side"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "right quantized well",
+        "category": "region",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "blue well",
+          "contains energy levels",
+          "right side"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "energy levels in wells",
+        "category": "pathway_component",
+        "panel": "b",
+        "count": 10,
+        "key_attributes": [
+          "horizontal red lines",
+          "quantized levels",
+          "inside wells"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "central object",
+        "category": "pathway_component",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "gray circular body",
+          "between wells",
+          "above substrate"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "target or substrate body",
+        "category": "material_structure",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "large red body",
+          "below model",
+          "platform-like"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v10",
+        "entity_type": "visual",
+        "name": "coupling links between wells and central object",
+        "category": "arrow",
+        "panel": "b",
+        "count": 2,
+        "key_attributes": [
+          "wavy horizontal lines",
+          "connect to S",
+          "left and right"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v11",
+        "entity_type": "visual",
+        "name": "environment coupling lines to substrate",
+        "category": "arrow",
+        "panel": "b",
+        "count": 2,
+        "key_attributes": [
+          "wavy vertical lines",
+          "well-to-substrate",
+          "dissipative coupling"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v12",
+        "entity_type": "visual",
+        "name": "panel marker a",
+        "category": "panel_marker",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "bold letter",
+          "top left",
+          "panel identifier"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "v13",
+        "entity_type": "visual",
+        "name": "panel marker b",
+        "category": "panel_marker",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "bold letter",
+          "top left",
+          "panel identifier"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "panel label a",
+        "category": "panel_label",
+        "surface_text": "a",
+        "normalized_text": "a",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "panel identifier"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "potential energy axis label",
+        "category": "scientific_label",
+        "surface_text": "Potential energy",
+        "normalized_text": "potential energy",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "vertical axis",
+          "energy quantity"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "x coordinate label",
+        "category": "annotation_text",
+        "surface_text": "x",
+        "normalized_text": "x",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "coordinate axis"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "z coordinate label",
+        "category": "annotation_text",
+        "surface_text": "z",
+        "normalized_text": "z",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "coordinate axis"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "panel label b",
+        "category": "panel_label",
+        "surface_text": "b",
+        "normalized_text": "b",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "panel identifier"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "energy difference label",
+        "category": "scientific_label",
+        "surface_text": "Energy difference",
+        "normalized_text": "energy difference",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "parameter label",
+          "between wells"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "coupling strength label",
+        "category": "scientific_label",
+        "surface_text": "Coupling strength",
+        "normalized_text": "coupling strength",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "parameter label",
+          "controls interaction"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "label S",
+        "category": "annotation_text",
+        "surface_text": "S",
+        "normalized_text": "S",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "central object label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "label T",
+        "category": "annotation_text",
+        "surface_text": "T",
+        "normalized_text": "T",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "substrate label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "v3",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "v3",
+        "target_entity_id": "v2",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "v4",
+        "target_entity_id": "v2",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "v1",
+        "target_entity_id": "v2",
+        "relation_type": "above",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "v5",
+        "target_entity_id": "v6",
+        "relation_type": "left_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "v7",
+        "target_entity_id": "v5",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "v7",
+        "target_entity_id": "v6",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "v8",
+        "target_entity_id": "v9",
+        "relation_type": "above",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "v10",
+        "target_entity_id": "v5",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "v10",
+        "target_entity_id": "v6",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "v10",
+        "target_entity_id": "v8",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "v11",
+        "target_entity_id": "v5",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "v11",
+        "target_entity_id": "v6",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "v11",
+        "target_entity_id": "v9",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "t6",
+        "target_entity_id": "v5",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "t6",
+        "target_entity_id": "v6",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "t7",
+        "target_entity_id": "v10",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "t8",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "t9",
+        "target_entity_id": "v9",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "t2",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "t2",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      }
+    ]
+  }
+}

@@ -1,0 +1,391 @@
+{
+  "image_name": "e7c881385a2fefab320203d114866a17.png",
+  "prompt_text": "This figure is a conceptual diagram showing how stem surface moisture influences methane (CH₄) exchange between a tree trunk and the atmosphere. The trunk is split into two contrasting conditions: a moist surface with high interception on the left and a dry surface with low interception on the right. A dashed vertical line separates these conditions.\n\nRed arrows indicate methane movement across the bark, while blue curved arrows suggest internal circulation or mixing within the stem, and blue arrows from the roots show upward transport from belowground sources. The main visible comparison is that the size and direction of the red arrows change with stem moisture and along stem height. Near the lower trunk, larger outward arrows suggest stronger methane release, especially compared with the upper stem where arrows are smaller and may indicate weaker exchange. The moist and dry sides appear to differ in how much methane is emitted or retained, implying that intercepted water on the bark modifies gas transfer across the stem surface.\n\nOverall, the image communicates that methane emitted by trees is not fixed, but depends on both internal transport from roots and the moisture state of the stem surface.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "tree trunk",
+        "category": "material_structure",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "central stem",
+          "split comparison",
+          "bark exchange surface"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "moist stem surface region",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "left side",
+          "high interception",
+          "moist condition"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "dry stem surface region",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "right side",
+          "low interception",
+          "dry condition"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "vertical dashed divider",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "dashed line",
+          "vertical separator",
+          "condition split"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "red methane exchange arrows across bark",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 8,
+        "key_attributes": [
+          "red",
+          "cross-stem exchange",
+          "variable size"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "blue internal circulation arrows",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 6,
+        "key_attributes": [
+          "blue curved arrows",
+          "internal mixing",
+          "within stem"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "blue upward root transport arrows",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 5,
+        "key_attributes": [
+          "blue upward arrows",
+          "from roots",
+          "belowground source"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "root system",
+        "category": "material_structure",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "belowground roots",
+          "source region",
+          "connected to trunk"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "soil/ground layer",
+        "category": "layer",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "lower ground band",
+          "root zone",
+          "belowground context"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v10",
+        "entity_type": "visual",
+        "name": "tree canopy and branches",
+        "category": "material_structure",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "upper branches",
+          "green leaves",
+          "tree context"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "figure title",
+        "category": "scientific_label",
+        "surface_text": "Effect of stem surface moisture on CH4 exchange",
+        "normalized_text": "Effect of stem surface moisture on CH4 exchange",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "title",
+          "CH4 exchange",
+          "stem moisture"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "moist surface label",
+        "category": "scientific_label",
+        "surface_text": "Moist surface",
+        "normalized_text": "Moist surface",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "left label",
+          "condition name"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "high interception label",
+        "category": "annotation_text",
+        "surface_text": "(high interception)",
+        "normalized_text": "high interception",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "left condition",
+          "interception level"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "dry surface label",
+        "category": "scientific_label",
+        "surface_text": "Dry surface",
+        "normalized_text": "Dry surface",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "right label",
+          "condition name"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "low interception label",
+        "category": "annotation_text",
+        "surface_text": "(low interception)",
+        "normalized_text": "low interception",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "right condition",
+          "interception level"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t2",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t3",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t4",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t5",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "v2",
+        "target_entity_id": "v3",
+        "relation_type": "left_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "v2",
+        "target_entity_id": "v1",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "v3",
+        "target_entity_id": "v1",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "v4",
+        "target_entity_id": "v1",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "v5",
+        "target_entity_id": "v1",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "v6",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "v7",
+        "target_entity_id": "v8",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "v8",
+        "target_entity_id": "v1",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "v8",
+        "target_entity_id": "v9",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "v9",
+        "target_entity_id": "v1",
+        "relation_type": "above",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "v1",
+        "target_entity_id": "v10",
+        "relation_type": "above",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      }
+    ]
+  }
+}

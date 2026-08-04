@@ -1,0 +1,831 @@
+{
+  "image_name": "520bfcc4b998c15f483aa7b8c19ab159.png",
+  "prompt_text": "The figure contrasts how rainfall moves through a pre-urban landscape versus an urbanized one, highlighting how urban development reshapes the water cycle. On the pre-urban side, precipitation falls onto vegetated, permeable ground, where much of the water infiltrates into the soil and feeds groundwater and steady baseflow. Trees also return water to the atmosphere through evaporation and transpiration, and surface runoff appears limited.\n\nOn the urban side, houses, infrastructure, and less permeable surfaces reduce infiltration and lower both evaporation and transpiration. As a result, more rain becomes rapid, often polluted runoff that is routed downslope and into drainage pathways, increasing erosion. The diagram also shows reduced groundwater recharge and reduced baseflow overall, although leaks from water and sewer pipes and over-irrigation may partly add to baseflow in developed areas. In karst settings, the figure suggests that urban drainage can create preferential flow paths.\n\nOverall, the image shows a shift from a slower, vegetation- and groundwater-dominated hydrologic system to a flashier urban system with less infiltration, less natural water recycling, more runoff, and altered streamflow behavior.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "pre-urban landscape side",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "vegetated slope",
+          "permeable ground",
+          "left half"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "urban landscape side",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "houses and roads",
+          "reduced permeability",
+          "right half"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "precipitation arrows",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "downward rain input",
+          "both sides"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "infiltration arrows",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "downward into soil",
+          "stronger pre-urban",
+          "reduced urban"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "evaporation and transpiration arrows",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 4,
+        "key_attributes": [
+          "upward fluxes",
+          "larger pre-urban",
+          "reduced urban"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "surface runoff pathways",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "downslope flow",
+          "limited pre-urban",
+          "increased urban"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "groundwater/baseflow flow arrows",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "subsurface lateral flow",
+          "stronger pre-urban",
+          "reduced urban"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "trees and vegetation",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "dense left",
+          "sparse right"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "urban houses and infrastructure",
+        "category": "device_component",
+        "panel": "single_panel",
+        "count": 5,
+        "key_attributes": [
+          "buildings on slope",
+          "developed area"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v10",
+        "entity_type": "visual",
+        "name": "water table",
+        "category": "layer",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "blue subsurface zone",
+          "continuous across figure"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v11",
+        "entity_type": "visual",
+        "name": "permeable topsoil layer",
+        "category": "layer",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "upper soil band",
+          "tan color"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v12",
+        "entity_type": "visual",
+        "name": "less permeable subsoil on rock layer",
+        "category": "layer",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "lower geologic layer",
+          "light beige"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v13",
+        "entity_type": "visual",
+        "name": "preferential karst flow paths",
+        "category": "pathway_component",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "urban subsurface drainage path",
+          "karst-related"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v14",
+        "entity_type": "visual",
+        "name": "erosion channel at urban outlet",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "incised outlet",
+          "between slopes"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v15",
+        "entity_type": "visual",
+        "name": "vertical divider line",
+        "category": "panel_marker",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "dashed separator",
+          "center split"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "v16",
+        "entity_type": "visual",
+        "name": "bottom legend color keys",
+        "category": "legend_key",
+        "panel": "single_panel",
+        "count": 3,
+        "key_attributes": [
+          "three colored boxes",
+          "material legend"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "Pre-urban",
+        "category": "scientific_label",
+        "surface_text": "Pre-urban",
+        "normalized_text": "Pre-urban",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "left side title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "Urban",
+        "category": "scientific_label",
+        "surface_text": "Urban",
+        "normalized_text": "Urban",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "right side title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "Precipitation",
+        "category": "scientific_label",
+        "surface_text": "Precipitation",
+        "normalized_text": "Precipitation",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "rain input label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "Infiltration",
+        "category": "scientific_label",
+        "surface_text": "Infiltration",
+        "normalized_text": "Infiltration",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "pre-urban process label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "Evaporation",
+        "category": "scientific_label",
+        "surface_text": "Evaporation",
+        "normalized_text": "Evaporation",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "pre-urban upward flux"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "Transpiration",
+        "category": "scientific_label",
+        "surface_text": "Transpiration",
+        "normalized_text": "Transpiration",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "pre-urban vegetation flux"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "Baseflow",
+        "category": "scientific_label",
+        "surface_text": "Baseflow",
+        "normalized_text": "Baseflow",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "pre-urban subsurface flow"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "Run-off",
+        "category": "scientific_label",
+        "surface_text": "Run-off",
+        "normalized_text": "Run-off",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "surface flow label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "Irrigation note",
+        "category": "annotation_text",
+        "surface_text": "Irrigation (over-irrigation may contribute to baseflow)",
+        "normalized_text": "Irrigation (over-irrigation may contribute to baseflow)",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "urban added recharge note"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "Increased polluted runoff",
+        "category": "annotation_text",
+        "surface_text": "Increased polluted run-off",
+        "normalized_text": "Increased polluted runoff",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "urban runoff annotation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "Increased erosion",
+        "category": "annotation_text",
+        "surface_text": "Increased erosion",
+        "normalized_text": "Increased erosion",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "urban channel response"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "Reduced transpiration",
+        "category": "annotation_text",
+        "surface_text": "Reduced transpiration",
+        "normalized_text": "Reduced transpiration",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "urban reduced flux"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "Reduced evaporation",
+        "category": "annotation_text",
+        "surface_text": "Reduced evaporation",
+        "normalized_text": "Reduced evaporation",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "urban reduced flux"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t14",
+        "entity_type": "text",
+        "name": "Preferential flows in urban karst",
+        "category": "annotation_text",
+        "surface_text": "Preferential flows in urban karst",
+        "normalized_text": "Preferential flows in urban karst",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "karst drainage note"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t15",
+        "entity_type": "text",
+        "name": "Reduced infiltration",
+        "category": "annotation_text",
+        "surface_text": "Reduced infiltration",
+        "normalized_text": "Reduced infiltration",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "urban infiltration decrease"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t16",
+        "entity_type": "text",
+        "name": "Reduced baseflow with leaks note",
+        "category": "annotation_text",
+        "surface_text": "Reduced baseflow (Leaks from water and sewer pipes contribute to baseflow)",
+        "normalized_text": "Reduced baseflow (Leaks from water and sewer pipes contribute to baseflow)",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "urban baseflow decrease",
+          "pipe leak qualifier"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t17",
+        "entity_type": "text",
+        "name": "Water table",
+        "category": "legend_text",
+        "surface_text": "Water table",
+        "normalized_text": "Water table",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "legend entry"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t18",
+        "entity_type": "text",
+        "name": "Permeable topsoil",
+        "category": "legend_text",
+        "surface_text": "Permeable topsoil",
+        "normalized_text": "Permeable topsoil",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "legend entry"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t19",
+        "entity_type": "text",
+        "name": "Less permeable subsoil on rock",
+        "category": "legend_text",
+        "surface_text": "Less permeable subsoil on rock",
+        "normalized_text": "Less permeable subsoil on rock",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "legend entry"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t1",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t2",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t3",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t4",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "t5",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "t6",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "t7",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "t8",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "t10",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "t12",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "t13",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "t15",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "t16",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "t9",
+        "target_entity_id": "v7",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "t11",
+        "target_entity_id": "v14",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "t14",
+        "target_entity_id": "v13",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "v3",
+        "target_entity_id": "v1",
+        "relation_type": "points_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "v3",
+        "target_entity_id": "v2",
+        "relation_type": "points_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "v4",
+        "target_entity_id": "v11",
+        "relation_type": "points_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "v5",
+        "target_entity_id": "v8",
+        "relation_type": "points_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "v6",
+        "target_entity_id": "v14",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "v4",
+        "target_entity_id": "v7",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r23",
+        "source_entity_id": "v13",
+        "target_entity_id": "v7",
+        "relation_type": "connected_to",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r24",
+        "source_entity_id": "v8",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r25",
+        "source_entity_id": "v8",
+        "target_entity_id": "v2",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r26",
+        "source_entity_id": "v9",
+        "target_entity_id": "v2",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r27",
+        "source_entity_id": "v13",
+        "target_entity_id": "v2",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r28",
+        "source_entity_id": "v14",
+        "target_entity_id": "v2",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r29",
+        "source_entity_id": "v1",
+        "target_entity_id": "v2",
+        "relation_type": "left_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r30",
+        "source_entity_id": "v3",
+        "target_entity_id": "v6",
+        "relation_type": "above",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      }
+    ]
+  }
+}

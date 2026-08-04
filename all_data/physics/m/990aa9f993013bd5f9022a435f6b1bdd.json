@@ -1,0 +1,946 @@
+{
+  "image_name": "990aa9f993013bd5f9022a435f6b1bdd.jpg",
+  "prompt_text": "The figure summarizes several ways nucleic-acid sensors can be built so that target binding changes fluorescence. Across all designs, a fluorophore and quencher are arranged so the optical signal depends on whether the analyte induces a structural rearrangement.\n\nThe top left compares two “bimodal” strategies. In one, target binding folds the sequence so fluorophore and quencher come together, turning the signal off. In the other, binding displaces one labeled strand from another, separating the labels and turning the signal on. The top right shows a split-aptamer approach: two fragments assemble around the analyte. Depending on where the labels are placed, this assembly either brings fluorophore and quencher together for signal loss or keeps them apart for signal gain.\n\nThe lower left illustrates structure-switching SELEX, where aptamers are selected on a solid support for their ability to change conformation and release from a complementary capture strand upon recognizing the target. The lower right then shows how such selected sequences are used as structure-switching sensors: target binding reshapes the aptamer, disrupts base pairing, and separates the quencher from the fluorophore, producing a fluorescence increase. Overall, the figure emphasizes target-induced folding or assembly as the basis of aptamer sensor readout.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "bimodal aptamer sensor schematic",
+        "category": "molecule",
+        "panel": "a",
+        "count": 2,
+        "key_attributes": [
+          "two strategies",
+          "aptamer strands",
+          "label rearrangement"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "fluorophore label",
+        "category": "molecule",
+        "panel": "a",
+        "count": 4,
+        "key_attributes": [
+          "green or blue circle",
+          "marked F",
+          "attached to strand"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "quencher label",
+        "category": "molecule",
+        "panel": "a",
+        "count": 2,
+        "key_attributes": [
+          "blue circle",
+          "marked Q",
+          "attached to strand"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "analyte",
+        "category": "molecule",
+        "panel": "a",
+        "count": 2,
+        "key_attributes": [
+          "spiky blue symbol",
+          "target molecule",
+          "induces rearrangement"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "process arrows",
+        "category": "arrow",
+        "panel": "a",
+        "count": 2,
+        "key_attributes": [
+          "left to right",
+          "reaction progression"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "split aptamer fragments",
+        "category": "molecule",
+        "panel": "b",
+        "count": 2,
+        "key_attributes": [
+          "two fragments",
+          "assemble on analyte",
+          "strand segments"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "fluorophore and quencher labels on split aptamer",
+        "category": "molecule",
+        "panel": "b",
+        "count": 4,
+        "key_attributes": [
+          "F and Q circles",
+          "different placements",
+          "signal-dependent spacing"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "analyte",
+        "category": "molecule",
+        "panel": "b",
+        "count": 2,
+        "key_attributes": [
+          "spiky blue symbol",
+          "bridges assembly"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "process arrows",
+        "category": "arrow",
+        "panel": "b",
+        "count": 2,
+        "key_attributes": [
+          "top to bottom",
+          "assembly progression"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v10",
+        "entity_type": "visual",
+        "name": "solid support",
+        "category": "device_component",
+        "panel": "c",
+        "count": 2,
+        "key_attributes": [
+          "horizontal bar",
+          "immobilization surface"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v11",
+        "entity_type": "visual",
+        "name": "capture strand and aptamer library complex",
+        "category": "molecule",
+        "panel": "c",
+        "count": 2,
+        "key_attributes": [
+          "base-paired segment",
+          "surface tethered",
+          "structure switching"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v12",
+        "entity_type": "visual",
+        "name": "analyte",
+        "category": "molecule",
+        "panel": "c",
+        "count": 2,
+        "key_attributes": [
+          "spiky blue symbol",
+          "target for selection"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v13",
+        "entity_type": "visual",
+        "name": "chelating agent",
+        "category": "molecule",
+        "panel": "c",
+        "count": 2,
+        "key_attributes": [
+          "orange star-like shape",
+          "binds analyte"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v14",
+        "entity_type": "visual",
+        "name": "process arrow",
+        "category": "arrow",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "left to right",
+          "selection progression"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v15",
+        "entity_type": "visual",
+        "name": "structure-switching sensor",
+        "category": "molecule",
+        "panel": "d",
+        "count": 2,
+        "key_attributes": [
+          "aptamer strand",
+          "base-paired segment",
+          "conformational change"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v16",
+        "entity_type": "visual",
+        "name": "fluorophore and quencher labels",
+        "category": "molecule",
+        "panel": "d",
+        "count": 4,
+        "key_attributes": [
+          "F and Q circles",
+          "separate after binding"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v17",
+        "entity_type": "visual",
+        "name": "analyte",
+        "category": "molecule",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "spiky blue symbol",
+          "triggers reshaping"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v18",
+        "entity_type": "visual",
+        "name": "chelating agent",
+        "category": "molecule",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "orange star-like shape",
+          "associated with analyte"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v19",
+        "entity_type": "visual",
+        "name": "process arrow",
+        "category": "arrow",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "left to right",
+          "sensor activation"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v20",
+        "entity_type": "visual",
+        "name": "legend symbols",
+        "category": "legend_key",
+        "panel": "single_panel",
+        "count": 4,
+        "key_attributes": [
+          "F symbol",
+          "Q symbol",
+          "analyte symbol"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "panel label a",
+        "category": "panel_label",
+        "surface_text": "a",
+        "normalized_text": "a",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "Bimodal sensor designs",
+        "category": "scientific_label",
+        "surface_text": "Bimodal sensor designs",
+        "normalized_text": "bimodal sensor designs",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "panel title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "Signal off",
+        "category": "annotation_text",
+        "surface_text": "Signal off",
+        "normalized_text": "signal off",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "output state"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "Signal on",
+        "category": "annotation_text",
+        "surface_text": "Signal on",
+        "normalized_text": "signal on",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "output state"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "panel label b",
+        "category": "panel_label",
+        "surface_text": "b",
+        "normalized_text": "b",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "Split-aptamer design",
+        "category": "scientific_label",
+        "surface_text": "Split-aptamer design",
+        "normalized_text": "split-aptamer design",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "panel title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "Signal off",
+        "category": "annotation_text",
+        "surface_text": "Signal off",
+        "normalized_text": "signal off",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "output state"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "Signal on",
+        "category": "annotation_text",
+        "surface_text": "Signal on",
+        "normalized_text": "signal on",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "output state"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "panel label c",
+        "category": "panel_label",
+        "surface_text": "c",
+        "normalized_text": "c",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "Structure-switching SELEX",
+        "category": "scientific_label",
+        "surface_text": "Structure-switching SELEX",
+        "normalized_text": "structure-switching selex",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "panel title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "Solid support",
+        "category": "scientific_label",
+        "surface_text": "Solid support",
+        "normalized_text": "solid support",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "substrate label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "N30",
+        "category": "annotation_text",
+        "surface_text": "N30",
+        "normalized_text": "N30",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "random region"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "panel label d",
+        "category": "panel_label",
+        "surface_text": "d",
+        "normalized_text": "d",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t14",
+        "entity_type": "text",
+        "name": "Structure-switching sensors",
+        "category": "scientific_label",
+        "surface_text": "Structure-switching sensors",
+        "normalized_text": "structure-switching sensors",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "panel title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t15",
+        "entity_type": "text",
+        "name": "F",
+        "category": "legend_text",
+        "surface_text": "F",
+        "normalized_text": "F",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "legend symbol"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t16",
+        "entity_type": "text",
+        "name": "Fluorophore",
+        "category": "legend_text",
+        "surface_text": "Fluorophore",
+        "normalized_text": "fluorophore",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "legend label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t17",
+        "entity_type": "text",
+        "name": "Q",
+        "category": "legend_text",
+        "surface_text": "Q",
+        "normalized_text": "Q",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "legend symbol"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t18",
+        "entity_type": "text",
+        "name": "Quencher",
+        "category": "legend_text",
+        "surface_text": "Quencher",
+        "normalized_text": "quencher",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "legend label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t19",
+        "entity_type": "text",
+        "name": "Analyte",
+        "category": "legend_text",
+        "surface_text": "Analyte",
+        "normalized_text": "analyte",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "legend label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t20",
+        "entity_type": "text",
+        "name": "Chelating agent",
+        "category": "legend_text",
+        "surface_text": "Chelating agent",
+        "normalized_text": "chelating agent",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "legend label"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t2",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "v4",
+        "target_entity_id": "v1",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "v5",
+        "target_entity_id": "v1",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t3",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "t4",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "v2",
+        "target_entity_id": "v1",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "v3",
+        "target_entity_id": "v1",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "t3",
+        "target_entity_id": "t4",
+        "relation_type": "above",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "t6",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "v8",
+        "target_entity_id": "v6",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "v9",
+        "target_entity_id": "v6",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "v7",
+        "target_entity_id": "v6",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "t7",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "t8",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "t7",
+        "target_entity_id": "t8",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "t10",
+        "target_entity_id": "v11",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "t11",
+        "target_entity_id": "v10",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "v11",
+        "target_entity_id": "v10",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "v12",
+        "target_entity_id": "v11",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "v14",
+        "target_entity_id": "v11",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "v13",
+        "target_entity_id": "v12",
+        "relation_type": "connected_to",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "t14",
+        "target_entity_id": "v15",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r23",
+        "source_entity_id": "v16",
+        "target_entity_id": "v15",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r24",
+        "source_entity_id": "v17",
+        "target_entity_id": "v15",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r25",
+        "source_entity_id": "v19",
+        "target_entity_id": "v15",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r26",
+        "source_entity_id": "v18",
+        "target_entity_id": "v17",
+        "relation_type": "connected_to",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r27",
+        "source_entity_id": "t15",
+        "target_entity_id": "v20",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r28",
+        "source_entity_id": "t16",
+        "target_entity_id": "v20",
+        "relation_type": "legend_for",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r29",
+        "source_entity_id": "t17",
+        "target_entity_id": "v20",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r30",
+        "source_entity_id": "t18",
+        "target_entity_id": "v20",
+        "relation_type": "legend_for",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r31",
+        "source_entity_id": "t19",
+        "target_entity_id": "v20",
+        "relation_type": "legend_for",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r32",
+        "source_entity_id": "t20",
+        "target_entity_id": "v20",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r33",
+        "source_entity_id": "v20",
+        "target_entity_id": "v2",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r34",
+        "source_entity_id": "v20",
+        "target_entity_id": "v3",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r35",
+        "source_entity_id": "v20",
+        "target_entity_id": "v4",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "cross_panel"
+      }
+    ]
+  }
+}

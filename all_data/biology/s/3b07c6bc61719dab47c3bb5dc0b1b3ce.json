@@ -1,0 +1,795 @@
+{
+  "image_name": "3b07c6bc61719dab47c3bb5dc0b1b3ce.png",
+  "prompt_text": "The figure summarizes a proposed model for how ACPA antibodies may arise and influence progression toward rheumatoid arthritis. On the left, a “dynamic citrulline response” is shown as a circular process around a cell-like structure coated with antibodies and immune complexes. Environmental triggers such as smoking, mucosal exposures, and possibly infections appear to feed into this response. Beneath that, the image highlights key ACPA features that may vary, including multireactivity, fine specificity, Fab glycosylation, and antibody subclass.\n\nThe right side links different functional ACPA profiles to clinical stages. Blue antibodies labeled anti-inflammatory point toward an asymptomatic state, while gray neutral antibodies sit between these extremes. Red pro-inflammatory antibodies are associated with progression toward erosive rheumatoid arthritis, with arrows suggesting they may also contribute earlier during an “at-risk arthralgia” phase. A vertical pathway runs from asymptomatic to at-risk arthralgia and then to erosive RA, emphasizing a disease continuum.\n\nOverall, the figure argues that not all ACPAs are equivalent: their biological properties may help determine whether a person remains symptom-free or progresses to inflammatory, erosive RA, and may therefore help identify risk and guide tailored therapy.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "central cell-like circular structure",
+        "category": "cell",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "large circular cell",
+          "left side",
+          "surrounded by antibodies"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "circular dynamic response arrow loop",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "circular flow",
+          "around cell",
+          "dark blue"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "antibodies coating cell",
+        "category": "protein",
+        "panel": "single_panel",
+        "count": 7,
+        "key_attributes": [
+          "Y-shaped",
+          "blue",
+          "around cell"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "immune complex label box",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "pink box",
+          "near loop",
+          "left top"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "environmental trigger label boxes",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 3,
+        "key_attributes": [
+          "pink boxes",
+          "around loop",
+          "external triggers"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "anti-inflammatory antibody icon",
+        "category": "protein",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "blue antibody",
+          "right side",
+          "top"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "neutral antibody icon",
+        "category": "protein",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "gray antibody",
+          "middle right",
+          "between extremes"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "pro-inflammatory antibody icon",
+        "category": "protein",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "red antibody",
+          "bottom right",
+          "disease-associated"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "vertical disease continuum pathway",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "vertical line with arrows",
+          "right side",
+          "stage progression"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v10",
+        "entity_type": "visual",
+        "name": "horizontal arrow from anti-inflammatory to asymptomatic",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "rightward arrow",
+          "top row",
+          "links antibody to state"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v11",
+        "entity_type": "visual",
+        "name": "pro-inflammatory contribution arrows",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 3,
+        "key_attributes": [
+          "from red antibody",
+          "toward at-risk and RA",
+          "multiple paths"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v12",
+        "entity_type": "visual",
+        "name": "speech bubble callouts",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "pink callout boxes",
+          "right margin",
+          "question prompts"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "Dynamic citrulline response",
+        "category": "scientific_label",
+        "surface_text": "Dynamic citrulline response",
+        "normalized_text": "dynamic citrulline response",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "title-like label",
+          "left top"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "Smoking",
+        "category": "annotation_text",
+        "surface_text": "Smoking",
+        "normalized_text": "smoking",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "environmental trigger"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "Immune complexes",
+        "category": "annotation_text",
+        "surface_text": "Immune complexes",
+        "normalized_text": "immune complexes",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "left-side annotation"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "Mucosal exposures",
+        "category": "annotation_text",
+        "surface_text": "Mucosal exposures",
+        "normalized_text": "mucosal exposures",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "environmental trigger"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "Infections (?)",
+        "category": "annotation_text",
+        "surface_text": "Infections (?)",
+        "normalized_text": "infections (?)",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "possible trigger",
+          "uncertain"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "ACPA characteristics",
+        "category": "scientific_label",
+        "surface_text": "ACPA characteristics",
+        "normalized_text": "acpa characteristics",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "section heading",
+          "lower left"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "Multireactivity profiles",
+        "category": "scientific_label",
+        "surface_text": "Multireactivity profiles",
+        "normalized_text": "multireactivity profiles",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "ACPA feature"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "Fine-specificities",
+        "category": "scientific_label",
+        "surface_text": "Fine-specificities",
+        "normalized_text": "fine-specificities",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "ACPA feature"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "N-linked Fab glycosylations",
+        "category": "scientific_label",
+        "surface_text": "N-linked Fab glycosylations",
+        "normalized_text": "n-linked fab glycosylations",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "ACPA feature"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "Ig subclass",
+        "category": "scientific_label",
+        "surface_text": "Ig subclass",
+        "normalized_text": "ig subclass",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "ACPA feature"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "Anti-inflammatory",
+        "category": "scientific_label",
+        "surface_text": "Anti-inflammatory",
+        "normalized_text": "anti-inflammatory",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "blue antibody label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "Neutral",
+        "category": "scientific_label",
+        "surface_text": "Neutral",
+        "normalized_text": "neutral",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "gray antibody label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "Pro-inflammatory",
+        "category": "scientific_label",
+        "surface_text": "Pro-inflammatory",
+        "normalized_text": "pro-inflammatory",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "red antibody label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t14",
+        "entity_type": "text",
+        "name": "Asymptomatic",
+        "category": "scientific_label",
+        "surface_text": "Asymptomatic",
+        "normalized_text": "asymptomatic",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "clinical stage",
+          "top right"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t15",
+        "entity_type": "text",
+        "name": "At-risk arthralgia",
+        "category": "scientific_label",
+        "surface_text": "At-risk arthralgia",
+        "normalized_text": "at-risk arthralgia",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "clinical stage",
+          "middle right"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t16",
+        "entity_type": "text",
+        "name": "Erosive RA",
+        "category": "scientific_label",
+        "surface_text": "Erosive RA",
+        "normalized_text": "erosive ra",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "clinical stage",
+          "bottom right"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t17",
+        "entity_type": "text",
+        "name": "Identify ACPA profiles associated with risk of RA ?",
+        "category": "annotation_text",
+        "surface_text": "Identify ACPA profiles associated with risk of RA ?",
+        "normalized_text": "identify acpa profiles associated with risk of ra?",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "right callout",
+          "question text"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t18",
+        "entity_type": "text",
+        "name": "Tailored therapy according to ACPA profiles ?",
+        "category": "annotation_text",
+        "surface_text": "Tailored therapy according to ACPA profiles ?",
+        "normalized_text": "tailored therapy according to acpa profiles?",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "right callout",
+          "question text"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t1",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "v2",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "v3",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t3",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "t2",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "t4",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "t5",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "v5",
+        "target_entity_id": "v2",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "t6",
+        "target_entity_id": "t7",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "t6",
+        "target_entity_id": "t8",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "t6",
+        "target_entity_id": "t9",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "t6",
+        "target_entity_id": "t10",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "t11",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "t12",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "t13",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "v10",
+        "target_entity_id": "v6",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "v10",
+        "target_entity_id": "t14",
+        "relation_type": "points_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "v11",
+        "target_entity_id": "v8",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "v11",
+        "target_entity_id": "t15",
+        "relation_type": "points_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "v11",
+        "target_entity_id": "t16",
+        "relation_type": "points_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "v9",
+        "target_entity_id": "t14",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "v9",
+        "target_entity_id": "t15",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r23",
+        "source_entity_id": "v9",
+        "target_entity_id": "t16",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r24",
+        "source_entity_id": "t14",
+        "target_entity_id": "t15",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r25",
+        "source_entity_id": "t15",
+        "target_entity_id": "t16",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r26",
+        "source_entity_id": "v6",
+        "target_entity_id": "t14",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r27",
+        "source_entity_id": "v7",
+        "target_entity_id": "t15",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r28",
+        "source_entity_id": "v8",
+        "target_entity_id": "t16",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r29",
+        "source_entity_id": "t17",
+        "target_entity_id": "v12",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r30",
+        "source_entity_id": "t18",
+        "target_entity_id": "v12",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r31",
+        "source_entity_id": "v1",
+        "target_entity_id": "v9",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r32",
+        "source_entity_id": "v6",
+        "target_entity_id": "v7",
+        "relation_type": "above",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r33",
+        "source_entity_id": "v7",
+        "target_entity_id": "v8",
+        "relation_type": "above",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      }
+    ]
+  }
+}

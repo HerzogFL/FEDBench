@@ -1,0 +1,455 @@
+{
+  "image_name": "31af8273924e0038ff49e82bf9d34314.png",
+  "prompt_text": "This figure presents a carbon-flow concept linking land, transport, and a biorefinery with carbon capture. Trees on the land area are shown taking up atmospheric CO2, emphasizing biomass growth as the starting point. That biomass then appears to move through a labeled supply chain, illustrated by trucks and infrastructure, toward a processing plant.\n\nAt the bottom, the biorefinery converts the biomass into fuel and other outputs. A curved arrow labeled “Lowest C fuel” points from the plant toward cars, suggesting the facility produces a low-carbon transportation fuel. At the same time, the refinery is paired with CCS, with downward arrows and CO2 beneath the plant indicating captured carbon being removed or stored rather than released.\n\nTaken together, the image communicates a system-level strategy for reducing transport emissions: carbon is first absorbed on land, then biomass is collected and processed, and finally emissions from fuel production are lowered further through carbon capture and storage. The overall message is that combining bio-based fuel production with CCS can create a very low-carbon, and possibly net-negative, fuel pathway for vehicles and freight.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "land area with forest",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "green land platform",
+          "forest on top",
+          "carbon uptake context"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "trees",
+        "category": "material_structure",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "clustered forest",
+          "biomass growth",
+          "on land"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "atmospheric CO2 arrows toward land",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "curved downward arrows",
+          "toward forest",
+          "CO2 uptake"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "supply chain transport trucks",
+        "category": "device_component",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "freight trucks",
+          "on road",
+          "biomass transport"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "road infrastructure",
+        "category": "pathway_component",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "main roadway",
+          "connects land and plant",
+          "transport route"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "biorefinery plant",
+        "category": "device_component",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "industrial facility",
+          "smokestacks",
+          "processing plant"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "curved fuel arrow from biorefinery to cars",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "white curved arrow",
+          "from plant",
+          "to vehicles"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "cars",
+        "category": "device_component",
+        "panel": "single_panel",
+        "count": 3,
+        "key_attributes": [
+          "small vehicles",
+          "around refinery",
+          "fuel end use"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "CCS downward arrows beneath plant",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 3,
+        "key_attributes": [
+          "downward arrows",
+          "beneath refinery",
+          "storage/removal"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v10",
+        "entity_type": "visual",
+        "name": "captured CO2 below plant",
+        "category": "molecule",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "below downward arrows",
+          "associated with CCS",
+          "captured carbon"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v11",
+        "entity_type": "visual",
+        "name": "power transmission tower",
+        "category": "device_component",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "lattice tower",
+          "left side",
+          "background infrastructure"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "CO2 label above land",
+        "category": "scientific_label",
+        "surface_text": "CO2",
+        "normalized_text": "CO2",
+        "panel": "single_panel",
+        "count": 3,
+        "key_attributes": [
+          "atmospheric carbon",
+          "above trees",
+          "uptake context"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "Land label",
+        "category": "scientific_label",
+        "surface_text": "Land",
+        "normalized_text": "Land",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "forest region label"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "Supply chain label",
+        "category": "annotation_text",
+        "surface_text": "Supply chain",
+        "normalized_text": "Supply chain",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "transport stage label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "Lowest C fuel label",
+        "category": "annotation_text",
+        "surface_text": "Lowest C fuel",
+        "normalized_text": "Lowest C fuel",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "fuel output label",
+          "on curved arrow"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "Biorefinery label",
+        "category": "scientific_label",
+        "surface_text": "Biorefinery",
+        "normalized_text": "Biorefinery",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "plant label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "CCS label",
+        "category": "scientific_label",
+        "surface_text": "CCS",
+        "normalized_text": "CCS",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "carbon capture and storage"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "CO2 label below plant",
+        "category": "scientific_label",
+        "surface_text": "CO2",
+        "normalized_text": "CO2",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "captured carbon",
+          "beneath refinery"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t2",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "v2",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t1",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "v3",
+        "target_entity_id": "v2",
+        "relation_type": "points_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "t3",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "v4",
+        "target_entity_id": "v5",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "v1",
+        "target_entity_id": "v6",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "v4",
+        "target_entity_id": "v6",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "t5",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "t4",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "v7",
+        "target_entity_id": "v8",
+        "relation_type": "points_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "v6",
+        "target_entity_id": "v8",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "t6",
+        "target_entity_id": "v9",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "t7",
+        "target_entity_id": "v10",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "v9",
+        "target_entity_id": "v10",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "v10",
+        "target_entity_id": "v6",
+        "relation_type": "connected_to",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "v1",
+        "target_entity_id": "v6",
+        "relation_type": "above",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      }
+    ]
+  }
+}

@@ -1,0 +1,612 @@
+{
+  "image_name": "2f7ec3c18bb230bf29db24dad3d3d719.png",
+  "prompt_text": "The figure illustrates how mechanical force can activate embedded chemical groups in polymer networks and convert that force into new reactions inside soft materials. Overall, it compares several gel designs in which stretching or stress breaks or opens specific “mechanophore” units along polymer chains, generating reactive species that then change the network structure.\n\nIn the top scheme, a dibromocyclopropane unit appears to undergo force-triggered ring opening. In a polymer network, this activation is accompanied by some chain scission, creating reactive chain sites; a subsequent crosslinking step reconnects chains into a modified network. The cartoons emphasize a transition from a closed, intact motif to an open, reactive one and then to new links between chains.\n\nThe lower left panel shows a double-network gel, where force seems to generate radicals from weak bonds in one network. An inset suggests cleavage of a central bond to produce radical-ended chains.\n\nThe lower right panel depicts cyanofluorene-based radicals formed under force. These radicals then initiate polymerization of side chains, increasing connectivity through new chain growth in addition to existing physical crosslinks. Across the figure, the main trend is that mechanical stress is used not just to damage polymers, but to trigger useful chemical reorganization and reinforcement.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "closed dibromocyclopropane mechanophore",
+        "category": "molecule",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "ring form",
+          "Br substituents",
+          "polymer-linked"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "open ring-opened mechanophore",
+        "category": "molecule",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "opened form",
+          "reactive motif",
+          "polymer-linked"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "polymer network before activation",
+        "category": "material_structure",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "gel cartoon",
+          "intact network",
+          "embedded mechanophores"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "activated and chain-scissed polymer network",
+        "category": "material_structure",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "broken chains",
+          "reactive chain ends",
+          "mixed blue/red sites"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "re-crosslinked modified polymer network",
+        "category": "material_structure",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "new links",
+          "reconnected chains",
+          "modified network"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "reaction/process arrows in panel a",
+        "category": "arrow",
+        "panel": "a",
+        "count": 4,
+        "key_attributes": [
+          "left-to-right flow",
+          "stress step",
+          "crosslinking step"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "double-network gel",
+        "category": "material_structure",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "two interpenetrating networks",
+          "blue network",
+          "gold network"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "bond-cleavage inset producing radical-ended chains",
+        "category": "molecule",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "central bond cleavage",
+          "radical products",
+          "inset schematic"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "force arrow in panel b",
+        "category": "arrow",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "downward arrow",
+          "cleavage trigger"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v10",
+        "entity_type": "visual",
+        "name": "cyanofluorene radical-containing polymer network before force",
+        "category": "material_structure",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "blue chains",
+          "red side groups",
+          "physical crosslinks present"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v11",
+        "entity_type": "visual",
+        "name": "polymer network after force-induced side-chain polymerization",
+        "category": "material_structure",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "new chain growth",
+          "increased connectivity",
+          "retained physical crosslinks"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v12",
+        "entity_type": "visual",
+        "name": "physical crosslink domains",
+        "category": "pathway_component",
+        "panel": "c",
+        "count": 4,
+        "key_attributes": [
+          "clustered nodes",
+          "noncovalent domains",
+          "blue striped regions"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v13",
+        "entity_type": "visual",
+        "name": "force arrow in panel c",
+        "category": "arrow",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "left-to-right arrow",
+          "activation step"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "panel a label",
+        "category": "panel_label",
+        "surface_text": "a",
+        "normalized_text": "a",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "panel a title",
+        "category": "scientific_label",
+        "surface_text": "Force-induced mechanical activation of dibromocyclopropane mechanophores",
+        "normalized_text": "force-induced mechanical activation of dibromocyclopropane mechanophores",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "dibromocyclopropane",
+          "mechanical activation"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "stress activation label",
+        "category": "annotation_text",
+        "surface_text": "Stress activation",
+        "normalized_text": "stress activation",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "crosslinking label",
+        "category": "annotation_text",
+        "surface_text": "Crosslinking",
+        "normalized_text": "crosslinking",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "closed state label",
+        "category": "annotation_text",
+        "surface_text": "Closed",
+        "normalized_text": "closed",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "open state label",
+        "category": "annotation_text",
+        "surface_text": "Open",
+        "normalized_text": "open",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "stress activation and chain scission label",
+        "category": "annotation_text",
+        "surface_text": "Stress activation and chain scission",
+        "normalized_text": "stress activation and chain scission",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "chain scission"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "panel b label",
+        "category": "panel_label",
+        "surface_text": "b",
+        "normalized_text": "b",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "panel b title",
+        "category": "scientific_label",
+        "surface_text": "Force-induced radicals in DN gel",
+        "normalized_text": "force-induced radicals in DN gel",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "DN gel",
+          "radicals"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "force label in panel b",
+        "category": "annotation_text",
+        "surface_text": "Force",
+        "normalized_text": "force",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "panel c label",
+        "category": "panel_label",
+        "surface_text": "c",
+        "normalized_text": "c",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "panel c title",
+        "category": "scientific_label",
+        "surface_text": "Force-induced cyanofluorene radicals to initiate the polymerization of side chains",
+        "normalized_text": "force-induced cyanofluorene radicals to initiate the polymerization of side chains",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "cyanofluorene radicals",
+          "side-chain polymerization"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "physical crosslinking label",
+        "category": "annotation_text",
+        "surface_text": "Physical crosslinking",
+        "normalized_text": "physical crosslinking",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t14",
+        "entity_type": "text",
+        "name": "force label in panel c",
+        "category": "annotation_text",
+        "surface_text": "Force",
+        "normalized_text": "force",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t5",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t6",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t3",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t4",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "t7",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "v1",
+        "target_entity_id": "v2",
+        "relation_type": "transforms_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "v3",
+        "target_entity_id": "v4",
+        "relation_type": "transforms_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "v4",
+        "target_entity_id": "v5",
+        "relation_type": "transforms_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "v2",
+        "target_entity_id": "v4",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "v6",
+        "target_entity_id": "v2",
+        "relation_type": "points_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "v6",
+        "target_entity_id": "v4",
+        "relation_type": "points_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "v6",
+        "target_entity_id": "v5",
+        "relation_type": "points_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "v8",
+        "target_entity_id": "v7",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "t10",
+        "target_entity_id": "v9",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "v9",
+        "target_entity_id": "v8",
+        "relation_type": "activates",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "v10",
+        "target_entity_id": "v11",
+        "relation_type": "transforms_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "v12",
+        "target_entity_id": "v10",
+        "relation_type": "part_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "v12",
+        "target_entity_id": "v11",
+        "relation_type": "part_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "t13",
+        "target_entity_id": "v12",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "t14",
+        "target_entity_id": "v13",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "v13",
+        "target_entity_id": "v11",
+        "relation_type": "activates",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      }
+    ]
+  }
+}

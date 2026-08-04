@@ -1,0 +1,690 @@
+{
+  "image_name": "1ccb5a9464865a95b4449ddf4240f9f3.png",
+  "prompt_text": "This figure presents a broad urban design concept showing how green infrastructure can deliver multiple benefits across a city streetscape and stream corridor. Trees, rain gardens, swales, infiltration trenches, and a restored urban stream are arranged from roadside to open space, illustrating how stormwater is captured, filtered, and infiltrated into the ground rather than simply running off paved surfaces. Blue arrows below the surface emphasize water moving downward into soil.\n\nThe image links these landscape elements to several urban co-benefits. Vegetation is shown improving property values, reducing air pollution and taking up CO2, and providing protection from wind and noise. Street and park trees also create shade and cooling, while their canopies intercept and evaporate rainfall to reduce runoff. Open green areas support both passive and active recreation, with a cyclist and runner suggesting everyday public use.\n\nToward the right, a “healthy urban stream corridor” appears to filter flow, provide habitat, and safely convey floodwaters. Across the whole scene, the message is that connected green spaces and water-sensitive design can simultaneously manage stormwater, improve urban climate and amenity, and enhance biodiversity within a dense city environment.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "urban trees and vegetation",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "street trees",
+          "park vegetation",
+          "distributed across scene"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "rain gardens and rain trees area",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "roadside planting",
+          "stormwater capture",
+          "left side"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "swales and infiltration trenches zone",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "roadside drainage",
+          "subsurface infiltration",
+          "near roadway"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "healthy urban stream corridor",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "restored stream",
+          "right side",
+          "open green corridor"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "downward blue infiltration arrows",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 7,
+        "key_attributes": [
+          "blue",
+          "below ground",
+          "downward water movement"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "road and paved street surface",
+        "category": "material_structure",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "paved roadway",
+          "center foreground",
+          "runoff source context"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "open green recreation space",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "grass/open space",
+          "between street and stream",
+          "public amenity"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "cyclist",
+        "category": "pathway_component",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "human figure",
+          "bicycle",
+          "active recreation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "runner",
+        "category": "pathway_component",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "human figure",
+          "running",
+          "active recreation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v10",
+        "entity_type": "visual",
+        "name": "buildings and houses",
+        "category": "material_structure",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "urban skyline",
+          "dense city context",
+          "background structures"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v11",
+        "entity_type": "visual",
+        "name": "subsurface soil/ground layer",
+        "category": "layer",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "brown underground",
+          "infiltration target",
+          "cross-section base"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v12",
+        "entity_type": "visual",
+        "name": "vehicles on roadway",
+        "category": "device_component",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "car",
+          "bus",
+          "streetscape context"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "Increased property values",
+        "category": "annotation_text",
+        "surface_text": "Increased property values",
+        "normalized_text": "Increased property values",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "co-benefit label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "Reduced air pollution, CO2 uptake",
+        "category": "annotation_text",
+        "surface_text": "Reduced air pollution, CO₂ uptake",
+        "normalized_text": "Reduced air pollution, CO2 uptake",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "co-benefit label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "Protection from wind and noise",
+        "category": "annotation_text",
+        "surface_text": "Protection from wind and noise",
+        "normalized_text": "Protection from wind and noise",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "co-benefit label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "Rain gardens and rain trees",
+        "category": "scientific_label",
+        "surface_text": "Rain gardens and rain trees",
+        "normalized_text": "Rain gardens and rain trees",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "GI feature label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "Capture and filter water, support plant growth",
+        "category": "annotation_text",
+        "surface_text": "Capture and filter water, support plant growth",
+        "normalized_text": "Capture and filter water, support plant growth",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "stormwater function"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "Swales and infiltration trenches",
+        "category": "scientific_label",
+        "surface_text": "Swales and infiltration trenches",
+        "normalized_text": "Swales and infiltration trenches",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "GI feature label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "Capture and infiltrate water, provide water to support urban trees",
+        "category": "annotation_text",
+        "surface_text": "Capture and infiltrate water, provide water to support urban trees",
+        "normalized_text": "Capture and infiltrate water, provide water to support urban trees",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "stormwater function"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "Space for passive and active recreation",
+        "category": "annotation_text",
+        "surface_text": "Space for passive and active recreation",
+        "normalized_text": "Space for passive and active recreation",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "public amenity label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "Aesthetics and amenity",
+        "category": "annotation_text",
+        "surface_text": "Aesthetics and amenity",
+        "normalized_text": "Aesthetics and amenity",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "co-benefit label"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "Shade and cooling",
+        "category": "annotation_text",
+        "surface_text": "Shade and cooling",
+        "normalized_text": "Shade and cooling",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "urban climate benefit"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "Urban tree cover",
+        "category": "scientific_label",
+        "surface_text": "Urban tree cover",
+        "normalized_text": "Urban tree cover",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "vegetation label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "Intercepts and evaporates rainfall, reduces run-off",
+        "category": "annotation_text",
+        "surface_text": "Intercepts and evaporates rainfall, reduces run-off",
+        "normalized_text": "Intercepts and evaporates rainfall, reduces runoff",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "rainfall interception"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "Space for active recreation",
+        "category": "annotation_text",
+        "surface_text": "Space for active recreation",
+        "normalized_text": "Space for active recreation",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "public amenity label"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t14",
+        "entity_type": "text",
+        "name": "Healthy urban stream corridor",
+        "category": "scientific_label",
+        "surface_text": "Healthy urban stream corridor",
+        "normalized_text": "Healthy urban stream corridor",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "stream feature label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t15",
+        "entity_type": "text",
+        "name": "Filters flow and provides habitat",
+        "category": "annotation_text",
+        "surface_text": "Filters flow and provides habitat",
+        "normalized_text": "Filters flow and provides habitat",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "stream function"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t16",
+        "entity_type": "text",
+        "name": "Allow safe passage of floodwaters",
+        "category": "annotation_text",
+        "surface_text": "Allow safe passage of floodwaters",
+        "normalized_text": "Allow safe passage of floodwaters",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "flood conveyance"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t17",
+        "entity_type": "text",
+        "name": "Habitat biodiversity",
+        "category": "annotation_text",
+        "surface_text": "Habitat biodiversity",
+        "normalized_text": "Habitat biodiversity",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "biodiversity benefit"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t4",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t6",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t11",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t14",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "t1",
+        "target_entity_id": "v1",
+        "relation_type": "points_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "t2",
+        "target_entity_id": "v1",
+        "relation_type": "points_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "t3",
+        "target_entity_id": "v1",
+        "relation_type": "points_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "t5",
+        "target_entity_id": "v2",
+        "relation_type": "points_to",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "t7",
+        "target_entity_id": "v3",
+        "relation_type": "points_to",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "t8",
+        "target_entity_id": "v7",
+        "relation_type": "points_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "t10",
+        "target_entity_id": "v1",
+        "relation_type": "points_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "t12",
+        "target_entity_id": "v1",
+        "relation_type": "points_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "t13",
+        "target_entity_id": "v7",
+        "relation_type": "points_to",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "t15",
+        "target_entity_id": "v4",
+        "relation_type": "points_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "t16",
+        "target_entity_id": "v4",
+        "relation_type": "points_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "t17",
+        "target_entity_id": "v4",
+        "relation_type": "points_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "v5",
+        "target_entity_id": "v11",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "v5",
+        "target_entity_id": "v2",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "v5",
+        "target_entity_id": "v3",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "v2",
+        "target_entity_id": "v6",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "v6",
+        "target_entity_id": "v7",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "v7",
+        "target_entity_id": "v4",
+        "relation_type": "left_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r23",
+        "source_entity_id": "v8",
+        "target_entity_id": "v7",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r24",
+        "source_entity_id": "v9",
+        "target_entity_id": "v7",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      }
+    ]
+  }
+}

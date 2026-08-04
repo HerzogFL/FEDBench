@@ -1,0 +1,991 @@
+{
+  "image_name": "2a2dffb05eb86dc40567278572047aaa.png",
+  "prompt_text": "The figure summarizes how sister-chromatid cohesion is established during DNA replication and how this relates to cohesin regulation. The main idea is that cohesin rings can capture replicated DNA either by a “conversion” route, where a cohesin already associated with one DNA duplex is remodeled as the replication fork passes, or by a “de novo” route, where new cohesin is loaded behind or near the fork. In both cases, the replication machinery, including PCNA and the MCM helicase, is shown near the fork, and specific factor sets are highlighted for each pathway. The conversion pathway appears to involve fork-associated replisome proteins, whereas the de novo pathway depends on loading factors such as NIPBL and PCNA-linked components.\n\nA separate structural cartoon emphasizes regulation of the cohesin complex itself, showing the SMC3-containing ring and the PDS5 subunit. ESCO-mediated acetylation and sororin are depicted as stabilizing cohesion, while WAPL is shown as an opposing factor that promotes release.\n\nAt the bottom, the figure connects replication to chromosome organization more broadly: a moving replication fork seems to interfere with or pause cohesin-driven loop extrusion, suggesting that DNA replication both establishes cohesion and transiently alters genome-looping dynamics.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "replication fork with DNA duplexes",
+        "category": "pathway_component",
+        "panel": "a",
+        "count": 2,
+        "key_attributes": [
+          "forked DNA",
+          "replication context",
+          "two pathways"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "cohesin ring on DNA",
+        "category": "protein",
+        "panel": "a",
+        "count": 4,
+        "key_attributes": [
+          "blue ring",
+          "DNA-associated",
+          "captures sister DNAs"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "PCNA clamp",
+        "category": "protein",
+        "panel": "a",
+        "count": 6,
+        "key_attributes": [
+          "yellow ring",
+          "near fork",
+          "replication factor"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "MCM helicase",
+        "category": "protein",
+        "panel": "a",
+        "count": 2,
+        "key_attributes": [
+          "pink complex",
+          "fork-associated",
+          "replisome factor"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "conversion pathway arrows",
+        "category": "arrow",
+        "panel": "a",
+        "count": 4,
+        "key_attributes": [
+          "stepwise progression",
+          "vertical transitions",
+          "fork passage"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "de novo loading pathway arrows",
+        "category": "arrow",
+        "panel": "a",
+        "count": 4,
+        "key_attributes": [
+          "loading route",
+          "curved loading arrow",
+          "stepwise progression"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "NIPBL loading factor",
+        "category": "protein",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "gray factor",
+          "near cohesin",
+          "de novo loading"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "cohesin structural ring complex",
+        "category": "protein",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "large ring",
+          "SMC3 side",
+          "regulatory cartoon"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "PDS5-associated subunit region",
+        "category": "protein",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "gray subunit",
+          "base of ring",
+          "regulatory binding site"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v10",
+        "entity_type": "visual",
+        "name": "ESCO factor",
+        "category": "protein",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "oval label bubble",
+          "points to acetylation site",
+          "stabilizing factor"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v11",
+        "entity_type": "visual",
+        "name": "Sororin factor",
+        "category": "protein",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "orange factor",
+          "stabilizes cohesion",
+          "near acetylated region"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v12",
+        "entity_type": "visual",
+        "name": "WAPL factor",
+        "category": "protein",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "red oval bubble",
+          "opposing factor",
+          "release-promoting"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v13",
+        "entity_type": "visual",
+        "name": "acetylation mark",
+        "category": "molecule",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "Ac tag",
+          "SMC3 modification",
+          "stabilization cue"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v14",
+        "entity_type": "visual",
+        "name": "loop-extruding cohesin",
+        "category": "protein",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "ring with DNA loop",
+          "loop extrusion",
+          "genome organization"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v15",
+        "entity_type": "visual",
+        "name": "replication fork encountering loop extrusion",
+        "category": "pathway_component",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "moving fork",
+          "approaches cohesin",
+          "causes stalling"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v16",
+        "entity_type": "visual",
+        "name": "stalling arrows and motion indicators",
+        "category": "arrow",
+        "panel": "c",
+        "count": 3,
+        "key_attributes": [
+          "directionality",
+          "approach to barrier",
+          "pause indication"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v17",
+        "entity_type": "visual",
+        "name": "factor list inset box",
+        "category": "legend_key",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "two-column inset",
+          "conversion vs de novo",
+          "gray background"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "panel label a",
+        "category": "panel_label",
+        "surface_text": "a",
+        "normalized_text": "a",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "conversion pathway title",
+        "category": "scientific_label",
+        "surface_text": "Conversion pathway",
+        "normalized_text": "conversion pathway",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "pathway title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "de novo pathway title",
+        "category": "scientific_label",
+        "surface_text": "De novo pathway",
+        "normalized_text": "de novo pathway",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "pathway title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "PCNA label",
+        "category": "scientific_label",
+        "surface_text": "PCNA",
+        "normalized_text": "PCNA",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "replication factor"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "MCM helicase label",
+        "category": "scientific_label",
+        "surface_text": "MCM helicase",
+        "normalized_text": "MCM helicase",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "replisome factor"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "cohesin label in panel a",
+        "category": "scientific_label",
+        "surface_text": "Cohesin",
+        "normalized_text": "Cohesin",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "ring label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "NIPBL label",
+        "category": "scientific_label",
+        "surface_text": "NIPBL",
+        "normalized_text": "NIPBL",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "loading factor"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "SCC2 label",
+        "category": "scientific_label",
+        "surface_text": "SCC2",
+        "normalized_text": "SCC2",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "associated with NIPBL"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "conversion factors header",
+        "category": "legend_text",
+        "surface_text": "Conversion factors",
+        "normalized_text": "conversion factors",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "legend header"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "conversion factors list",
+        "category": "legend_text",
+        "surface_text": "Chl1, Ctf4, Csm3, Tof1, MMS22L–TONSL",
+        "normalized_text": "Chl1, Ctf4, Csm3, Tof1, MMS22L-TONSL",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "factor set"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "de novo factors header",
+        "category": "legend_text",
+        "surface_text": "De novo factors",
+        "normalized_text": "de novo factors",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "legend header"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "de novo factors list",
+        "category": "legend_text",
+        "surface_text": "Ctf18, Ctf8, Mrc1, Dcc1, NIPBL",
+        "normalized_text": "Ctf18, Ctf8, Mrc1, Dcc1, NIPBL",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "factor set"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "SCC2 legend text",
+        "category": "legend_text",
+        "surface_text": "SCC2",
+        "normalized_text": "SCC2",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "legend continuation"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t14",
+        "entity_type": "text",
+        "name": "loading by PCNA text",
+        "category": "legend_text",
+        "surface_text": "loading by PCNA",
+        "normalized_text": "loading by PCNA",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "mechanistic note"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t15",
+        "entity_type": "text",
+        "name": "panel label b",
+        "category": "panel_label",
+        "surface_text": "b",
+        "normalized_text": "b",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t16",
+        "entity_type": "text",
+        "name": "SMC3 label",
+        "category": "scientific_label",
+        "surface_text": "SMC3",
+        "normalized_text": "SMC3",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "cohesin subunit"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t17",
+        "entity_type": "text",
+        "name": "ESCO label",
+        "category": "scientific_label",
+        "surface_text": "ESCO",
+        "normalized_text": "ESCO",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "acetyltransferase"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t18",
+        "entity_type": "text",
+        "name": "acetylation annotation",
+        "category": "annotation_text",
+        "surface_text": "Ac",
+        "normalized_text": "Ac",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "acetylation mark"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t19",
+        "entity_type": "text",
+        "name": "Sororin label",
+        "category": "scientific_label",
+        "surface_text": "Sororin",
+        "normalized_text": "Sororin",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "stabilizing factor"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t20",
+        "entity_type": "text",
+        "name": "WAPL label",
+        "category": "scientific_label",
+        "surface_text": "WAPL",
+        "normalized_text": "WAPL",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "release factor"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t21",
+        "entity_type": "text",
+        "name": "PDS5 subunit label",
+        "category": "scientific_label",
+        "surface_text": "PDS5 subunit",
+        "normalized_text": "PDS5 subunit",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "cohesin-associated subunit"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t22",
+        "entity_type": "text",
+        "name": "panel label c",
+        "category": "panel_label",
+        "surface_text": "c",
+        "normalized_text": "c",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t23",
+        "entity_type": "text",
+        "name": "cohesin label in panel c",
+        "category": "scientific_label",
+        "surface_text": "Cohesin",
+        "normalized_text": "Cohesin",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "loop extruder label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t24",
+        "entity_type": "text",
+        "name": "replication fork label",
+        "category": "scientific_label",
+        "surface_text": "Replication fork",
+        "normalized_text": "Replication fork",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "fork label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t25",
+        "entity_type": "text",
+        "name": "loop-extrusion stalling annotation",
+        "category": "annotation_text",
+        "surface_text": "Loop-extrusion stalling by replication",
+        "normalized_text": "loop-extrusion stalling by replication",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "outcome annotation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t2",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t3",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t4",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t5",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "t6",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "t7",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "v3",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "v4",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "v5",
+        "target_entity_id": "v2",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "v6",
+        "target_entity_id": "v2",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "v7",
+        "target_entity_id": "v2",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "v5",
+        "target_entity_id": "v1",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "v6",
+        "target_entity_id": "v1",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "t16",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "t17",
+        "target_entity_id": "v10",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "t18",
+        "target_entity_id": "v13",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "t19",
+        "target_entity_id": "v11",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "t20",
+        "target_entity_id": "v12",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "t21",
+        "target_entity_id": "v9",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "v9",
+        "target_entity_id": "v8",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "v13",
+        "target_entity_id": "v8",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "v10",
+        "target_entity_id": "v13",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r23",
+        "source_entity_id": "v11",
+        "target_entity_id": "v8",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r24",
+        "source_entity_id": "v12",
+        "target_entity_id": "v8",
+        "relation_type": "inhibits",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r25",
+        "source_entity_id": "v11",
+        "target_entity_id": "v12",
+        "relation_type": "inhibits",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r26",
+        "source_entity_id": "t23",
+        "target_entity_id": "v14",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r27",
+        "source_entity_id": "t24",
+        "target_entity_id": "v15",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r28",
+        "source_entity_id": "t25",
+        "target_entity_id": "v16",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r29",
+        "source_entity_id": "v15",
+        "target_entity_id": "v14",
+        "relation_type": "inhibits",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r30",
+        "source_entity_id": "v16",
+        "target_entity_id": "v15",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r31",
+        "source_entity_id": "v16",
+        "target_entity_id": "v14",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r32",
+        "source_entity_id": "v1",
+        "target_entity_id": "v14",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r33",
+        "source_entity_id": "v2",
+        "target_entity_id": "v8",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r34",
+        "source_entity_id": "v17",
+        "target_entity_id": "v5",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r35",
+        "source_entity_id": "v17",
+        "target_entity_id": "v6",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      }
+    ]
+  }
+}

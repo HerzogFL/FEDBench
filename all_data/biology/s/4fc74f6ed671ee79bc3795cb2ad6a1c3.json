@@ -1,0 +1,1167 @@
+{
+  "image_name": "4fc74f6ed671ee79bc3795cb2ad6a1c3.png",
+  "prompt_text": "The figure summarizes the life cycle of a messenger RNA from its birth in the nucleus to its use in the cytoplasm, emphasizing that many proteins bind the RNA at each stage. During transcription, RNA polymerase II produces a pre‑mRNA from DNA while processing factors assemble on the transcript. Visible examples include the cap-binding complex at the 5′ end, splicing factors and the spliceosome along the RNA, and 3′ end cleavage/polyadenylation factors near the polymerase, showing that capping, splicing, and end formation occur co-transcriptionally.\n\nAfter processing, the mRNA is packaged for nuclear export. The diagram shows export-associated proteins such as TREX, exon junction complexes left after splicing, and a nucleo-cytoplasmic shuttling protein, indicating that the mature RNA carries a protein signature as it crosses from nucleus to cytoplasm.\n\nIn the cytoplasm, these bound factors help control translation and mRNA stability. The mRNA is shown circularized, with poly(A)-binding proteins near one end and translation initiation factors recruiting a ribosome to the start codon, labeled AUG. Additional ribosomes, elongation factors, and regulatory proteins appear on the transcript, while other factors promote either degradation or stabilization. Overall, the figure presents mRNA as a dynamically packaged molecule whose associated proteins coordinate processing, export, translation, and turnover.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "DNA double helix",
+        "category": "molecule",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "double helix",
+          "template strand",
+          "top region"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "RNA polymerase II complex",
+        "category": "protein",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "large blue complex",
+          "on DNA",
+          "transcribing RNA"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "pre-mRNA transcript",
+        "category": "molecule",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "wavy RNA",
+          "emerging transcript",
+          "protein-bound"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "cap-binding complex",
+        "category": "protein",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "5′ end bound",
+          "yellow factor",
+          "early processing"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "splicing factors",
+        "category": "protein",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "bound along RNA",
+          "pink factor",
+          "processing stage"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "spliceosome",
+        "category": "protein",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "green complex",
+          "on transcript",
+          "splicing machinery"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "3′ end cleavage and polyadenylation factors",
+        "category": "protein",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "near polymerase",
+          "orange factor",
+          "3′ end processing"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "co-transcriptional splicing regulators and RNA editing factors",
+        "category": "protein",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "small blue factor",
+          "bound to RNA",
+          "co-transcriptional regulation"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "nucleus-cytoplasm boundary",
+        "category": "membrane",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "dashed horizontal divider",
+          "compartment boundary",
+          "export crossing"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v10",
+        "entity_type": "visual",
+        "name": "mature mRNA export complex",
+        "category": "molecule",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "RNA with bound proteins",
+          "crossing boundary",
+          "export intermediate"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v11",
+        "entity_type": "visual",
+        "name": "TREX complex",
+        "category": "protein",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "green factor",
+          "export-associated",
+          "bound to RNA"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v12",
+        "entity_type": "visual",
+        "name": "exon junction complexes",
+        "category": "protein",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "blue complexes",
+          "post-splicing marks",
+          "on exported RNA"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v13",
+        "entity_type": "visual",
+        "name": "nucleo-cytoplasmic shuttling protein",
+        "category": "protein",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "orange elongated factor",
+          "bound to RNA",
+          "export-associated"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v14",
+        "entity_type": "visual",
+        "name": "circularized cytoplasmic mRNA",
+        "category": "molecule",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "looped RNA",
+          "translation stage",
+          "protein-decorated"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v15",
+        "entity_type": "visual",
+        "name": "poly(A)-binding proteins",
+        "category": "protein",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "near one end",
+          "orange proteins",
+          "mRNA circularization"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v16",
+        "entity_type": "visual",
+        "name": "translation initiation factors",
+        "category": "protein",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "lavender factors",
+          "near start codon",
+          "ribosome recruitment"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v17",
+        "entity_type": "visual",
+        "name": "ribosomes",
+        "category": "protein",
+        "panel": "single_panel",
+        "count": 4,
+        "key_attributes": [
+          "large blue particles",
+          "multiple along mRNA",
+          "translation machinery"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v18",
+        "entity_type": "visual",
+        "name": "start codon label tag",
+        "category": "molecule",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "small tag on RNA",
+          "near first ribosome",
+          "AUG marked"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v19",
+        "entity_type": "visual",
+        "name": "translation regulators",
+        "category": "protein",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "purple factor",
+          "bound to mRNA",
+          "cytoplasmic regulation"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v20",
+        "entity_type": "visual",
+        "name": "mRNA degradation and stabilization factors",
+        "category": "protein",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "blue factor",
+          "bound to mRNA",
+          "turnover control"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v21",
+        "entity_type": "visual",
+        "name": "translation elongation factors and regulators",
+        "category": "protein",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "red factor",
+          "on translating ribosome",
+          "elongation stage"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v22",
+        "entity_type": "visual",
+        "name": "nascent protein chains",
+        "category": "protein",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "emerging polypeptides",
+          "from ribosomes",
+          "translation output"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "Transcription",
+        "category": "scientific_label",
+        "surface_text": "Transcription",
+        "normalized_text": "Transcription",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "stage heading"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "DNA",
+        "category": "scientific_label",
+        "surface_text": "DNA",
+        "normalized_text": "DNA",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "template label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "RNA polymerase II",
+        "category": "scientific_label",
+        "surface_text": "RNA polymerase II",
+        "normalized_text": "RNA polymerase II",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "enzyme label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "Splicing factors",
+        "category": "scientific_label",
+        "surface_text": "Splicing factors",
+        "normalized_text": "Splicing factors",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "processing factor label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "Cap-binding complex",
+        "category": "scientific_label",
+        "surface_text": "Cap-binding complex",
+        "normalized_text": "Cap-binding complex",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "5′ end factor label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "Pre-mRNA",
+        "category": "scientific_label",
+        "surface_text": "Pre-mRNA",
+        "normalized_text": "pre-mRNA",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "transcript label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "Spliceosome",
+        "category": "scientific_label",
+        "surface_text": "Spliceosome",
+        "normalized_text": "Spliceosome",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "splicing machinery label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "Co-transcriptional splicing regulators, RNA editing",
+        "category": "scientific_label",
+        "surface_text": "Co-transcriptional splicing regulators, RNA editing",
+        "normalized_text": "Co-transcriptional splicing regulators, RNA editing",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "auxiliary processing factors"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "3′ end cleavage and polyadenylation factors",
+        "category": "scientific_label",
+        "surface_text": "3′ end cleavage and polyadenylation factors",
+        "normalized_text": "3′ end cleavage and polyadenylation factors",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "3′ processing label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "Nucleus",
+        "category": "annotation_text",
+        "surface_text": "Nucleus",
+        "normalized_text": "Nucleus",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "compartment label"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "Nuclear export",
+        "category": "scientific_label",
+        "surface_text": "Nuclear export",
+        "normalized_text": "Nuclear export",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "stage heading"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "Cytoplasm",
+        "category": "annotation_text",
+        "surface_text": "Cytoplasm",
+        "normalized_text": "Cytoplasm",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "compartment label"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "TREX",
+        "category": "scientific_label",
+        "surface_text": "TREX",
+        "normalized_text": "TREX",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "export factor label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t14",
+        "entity_type": "text",
+        "name": "Exon junction complex",
+        "category": "scientific_label",
+        "surface_text": "Exon junction complex",
+        "normalized_text": "Exon junction complex",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "post-splicing mark label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t15",
+        "entity_type": "text",
+        "name": "Nucleo-cytoplasmic shuttling protein",
+        "category": "scientific_label",
+        "surface_text": "Nucleo-cytoplasmic shuttling protein",
+        "normalized_text": "Nucleo-cytoplasmic shuttling protein",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "shuttling factor label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t16",
+        "entity_type": "text",
+        "name": "Translation",
+        "category": "scientific_label",
+        "surface_text": "Translation",
+        "normalized_text": "Translation",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "stage heading"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t17",
+        "entity_type": "text",
+        "name": "Poly(A) binding proteins",
+        "category": "scientific_label",
+        "surface_text": "Poly(A) binding proteins",
+        "normalized_text": "Poly(A) binding proteins",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "poly(A)-associated label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t18",
+        "entity_type": "text",
+        "name": "Translation initiation factors",
+        "category": "scientific_label",
+        "surface_text": "Translation initiation factors",
+        "normalized_text": "Translation initiation factors",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "initiation factor label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t19",
+        "entity_type": "text",
+        "name": "Ribosome",
+        "category": "scientific_label",
+        "surface_text": "Ribosome",
+        "normalized_text": "Ribosome",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "translation machinery label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t20",
+        "entity_type": "text",
+        "name": "Start codon",
+        "category": "scientific_label",
+        "surface_text": "Start codon",
+        "normalized_text": "Start codon",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "codon label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t21",
+        "entity_type": "text",
+        "name": "AUG",
+        "category": "scientific_label",
+        "surface_text": "AUG",
+        "normalized_text": "AUG",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "start codon text"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t22",
+        "entity_type": "text",
+        "name": "Translation regulators",
+        "category": "scientific_label",
+        "surface_text": "Translation regulators",
+        "normalized_text": "Translation regulators",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "regulatory factor label"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t23",
+        "entity_type": "text",
+        "name": "mRNA degradation and stabilization factors",
+        "category": "scientific_label",
+        "surface_text": "mRNA degradation and stabilization factors",
+        "normalized_text": "mRNA degradation and stabilization factors",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "turnover control label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t24",
+        "entity_type": "text",
+        "name": "Protein",
+        "category": "scientific_label",
+        "surface_text": "Protein",
+        "normalized_text": "Protein",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "translation product label"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t25",
+        "entity_type": "text",
+        "name": "Translation elongation factors and regulators",
+        "category": "scientific_label",
+        "surface_text": "Translation elongation factors and regulators",
+        "normalized_text": "Translation elongation factors and regulators",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "elongation factor label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t2",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t3",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t6",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t5",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "t4",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "t7",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "t9",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "t8",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "t13",
+        "target_entity_id": "v11",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "t14",
+        "target_entity_id": "v12",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "t15",
+        "target_entity_id": "v13",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "t17",
+        "target_entity_id": "v15",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "t18",
+        "target_entity_id": "v16",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "t19",
+        "target_entity_id": "v17",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "t20",
+        "target_entity_id": "v18",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "t21",
+        "target_entity_id": "v18",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "t22",
+        "target_entity_id": "v19",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "t23",
+        "target_entity_id": "v20",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "t24",
+        "target_entity_id": "v22",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "t25",
+        "target_entity_id": "v21",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "v2",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "v3",
+        "target_entity_id": "v2",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r23",
+        "source_entity_id": "v4",
+        "target_entity_id": "v3",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r24",
+        "source_entity_id": "v5",
+        "target_entity_id": "v3",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r25",
+        "source_entity_id": "v6",
+        "target_entity_id": "v3",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r26",
+        "source_entity_id": "v7",
+        "target_entity_id": "v2",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r27",
+        "source_entity_id": "v8",
+        "target_entity_id": "v3",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r28",
+        "source_entity_id": "v3",
+        "target_entity_id": "v10",
+        "relation_type": "transforms_to",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r29",
+        "source_entity_id": "v10",
+        "target_entity_id": "v9",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r30",
+        "source_entity_id": "v11",
+        "target_entity_id": "v10",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r31",
+        "source_entity_id": "v12",
+        "target_entity_id": "v10",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r32",
+        "source_entity_id": "v13",
+        "target_entity_id": "v10",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r33",
+        "source_entity_id": "v10",
+        "target_entity_id": "v14",
+        "relation_type": "transforms_to",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r34",
+        "source_entity_id": "v15",
+        "target_entity_id": "v14",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r35",
+        "source_entity_id": "v16",
+        "target_entity_id": "v14",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r36",
+        "source_entity_id": "v16",
+        "target_entity_id": "v17",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r37",
+        "source_entity_id": "v18",
+        "target_entity_id": "v14",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r38",
+        "source_entity_id": "v17",
+        "target_entity_id": "v14",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r39",
+        "source_entity_id": "v19",
+        "target_entity_id": "v14",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r40",
+        "source_entity_id": "v20",
+        "target_entity_id": "v14",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r41",
+        "source_entity_id": "v21",
+        "target_entity_id": "v17",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r42",
+        "source_entity_id": "v17",
+        "target_entity_id": "v22",
+        "relation_type": "transforms_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r43",
+        "source_entity_id": "v2",
+        "target_entity_id": "v3",
+        "relation_type": "above",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r44",
+        "source_entity_id": "v3",
+        "target_entity_id": "v10",
+        "relation_type": "above",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r45",
+        "source_entity_id": "v10",
+        "target_entity_id": "v14",
+        "relation_type": "above",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      }
+    ]
+  }
+}

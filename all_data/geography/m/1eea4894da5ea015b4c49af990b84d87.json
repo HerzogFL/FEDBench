@@ -1,0 +1,614 @@
+{
+  "image_name": "1eea4894da5ea015b4c49af990b84d87.png",
+  "prompt_text": "The figure compares two reconstructions of Earth in the Late Paleozoic, emphasizing a major climate shift from a warm Devonian world at about 375 million years ago to an icehouse world by about 320 million years ago. Both maps show ancient continental positions and use icons to summarize large-scale environmental processes.\n\nIn the older Devonian panel, the planet appears broadly warm and wet, with strong monsoon belts marked across tropical landmasses and circular arrows over the oceans indicating active circulation and moisture cycling. No large continental ice is shown, suggesting an overall greenhouse or “warmhouse” state.\n\nIn the younger Mississippian–Pennsylvanian panel, the scene becomes much more complex and colder. Monsoons are still present, but wildfire symbols and several “CO2” icons indicate widespread organic carbon burial on land, while “CH4” and dotted ground symbols mark permafrost development. Large snowflake symbols over southern high-latitude continents and sea-ice icons around polar oceans show substantial continental and marine ice expansion. The overall message is that Earth transitioned from a relatively ice-free, monsoon-dominated warm climate to a glaciated icehouse system with carbon drawdown, permafrost, and expanded polar ice.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "Devonian paleogeographic world map",
+        "category": "region",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "global oval map",
+          "ancient continents",
+          "warm-state scene"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "Mississippian–Pennsylvanian paleogeographic world map",
+        "category": "region",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "global oval map",
+          "ancient continents",
+          "icehouse scene"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "monsoon symbols",
+        "category": "arrow",
+        "panel": "both",
+        "count": 6,
+        "key_attributes": [
+          "white swirl icon",
+          "over tropical land",
+          "multiple occurrences"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "ocean circulation icons",
+        "category": "arrow",
+        "panel": "both",
+        "count": 4,
+        "key_attributes": [
+          "circular arrows",
+          "droplet center",
+          "over oceans"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "wildfire symbols",
+        "category": "pathway_component",
+        "panel": "b",
+        "count": 2,
+        "key_attributes": [
+          "flame icon",
+          "on land",
+          "icehouse panel only"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "organic carbon burial icons on continents",
+        "category": "pathway_component",
+        "panel": "b",
+        "count": 3,
+        "key_attributes": [
+          "CO2 plant/globe icon",
+          "land-based",
+          "multiple sites"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "permafrost symbols",
+        "category": "region",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "dotted ground icon",
+          "CH4-associated",
+          "land area"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "continental ice symbols",
+        "category": "region",
+        "panel": "b",
+        "count": 2,
+        "key_attributes": [
+          "snowflake icon",
+          "southern continents",
+          "large ice sheets"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "sea ice icons",
+        "category": "region",
+        "panel": "b",
+        "count": 4,
+        "key_attributes": [
+          "circled mountain-wave icon",
+          "polar oceans",
+          "multiple occurrences"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v10",
+        "entity_type": "visual",
+        "name": "absence of large continental ice in warmhouse panel",
+        "category": "region",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "no snowflake icons",
+          "ice-free land",
+          "contrast with panel b"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v11",
+        "entity_type": "visual",
+        "name": "legend icon row",
+        "category": "legend_key",
+        "panel": "single_panel",
+        "count": 7,
+        "key_attributes": [
+          "bottom legend",
+          "icon-text pairs",
+          "symbol guide"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "panel a label",
+        "category": "panel_label",
+        "surface_text": "a",
+        "normalized_text": "a",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "panel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "late Devonian warmhouse title",
+        "category": "scientific_label",
+        "surface_text": "375 Ma: late Devonian warmhouse",
+        "normalized_text": "375 Ma late Devonian warmhouse",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "time label",
+          "warmhouse state"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "panel b label",
+        "category": "panel_label",
+        "surface_text": "b",
+        "normalized_text": "b",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "panel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "Mississippian–Pennsylvanian icehouse title",
+        "category": "scientific_label",
+        "surface_text": "320 Ma: Mississippian–Pennsylvanian icehouse",
+        "normalized_text": "320 Ma Mississippian–Pennsylvanian icehouse",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "time label",
+          "icehouse state"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "Monsoon legend label",
+        "category": "legend_text",
+        "surface_text": "Monsoon",
+        "normalized_text": "Monsoon",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "legend entry"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "Wildfire legend label",
+        "category": "legend_text",
+        "surface_text": "Wildfire",
+        "normalized_text": "Wildfire",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "legend entry"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "Ocean circulation legend label",
+        "category": "legend_text",
+        "surface_text": "Ocean circulation",
+        "normalized_text": "Ocean circulation",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "legend entry"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "Sea ice legend label",
+        "category": "legend_text",
+        "surface_text": "Sea ice",
+        "normalized_text": "Sea ice",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "legend entry"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "Continental ice legend label",
+        "category": "legend_text",
+        "surface_text": "Continental ice",
+        "normalized_text": "Continental ice",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "legend entry"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "Organic carbon burial on continents legend label",
+        "category": "legend_text",
+        "surface_text": "Organic carbon burial on continents",
+        "normalized_text": "Organic carbon burial on continents",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "legend entry"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "Permafrost legend label",
+        "category": "legend_text",
+        "surface_text": "Permafrost",
+        "normalized_text": "Permafrost",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "legend entry"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "CO2 labels",
+        "category": "scientific_label",
+        "surface_text": "CO2",
+        "normalized_text": "CO2",
+        "panel": "b",
+        "count": 3,
+        "key_attributes": [
+          "greenhouse gas text",
+          "burial-associated"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "CH4 label",
+        "category": "scientific_label",
+        "surface_text": "CH4",
+        "normalized_text": "CH4",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "methane text",
+          "permafrost-associated"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t2",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t4",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t1",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t3",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "v3",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "v3",
+        "target_entity_id": "v2",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "v4",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "v4",
+        "target_entity_id": "v2",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "v5",
+        "target_entity_id": "v2",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "v6",
+        "target_entity_id": "v2",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "v7",
+        "target_entity_id": "v2",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "v8",
+        "target_entity_id": "v2",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "v9",
+        "target_entity_id": "v2",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "t12",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "t13",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "t5",
+        "target_entity_id": "v3",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "t6",
+        "target_entity_id": "v5",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "t7",
+        "target_entity_id": "v4",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "t8",
+        "target_entity_id": "v9",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "t9",
+        "target_entity_id": "v8",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "t10",
+        "target_entity_id": "v6",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "t11",
+        "target_entity_id": "v7",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r23",
+        "source_entity_id": "v1",
+        "target_entity_id": "v2",
+        "relation_type": "above",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r24",
+        "source_entity_id": "v10",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      }
+    ]
+  }
+}

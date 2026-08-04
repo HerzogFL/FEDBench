@@ -1,0 +1,1229 @@
+{
+  "image_name": "2b5c3abc547cbd0b13086e40aa3c2f5c.png",
+  "prompt_text": "The figure summarizes gene-therapy strategies for adrenal progenitor cells and the expected tissue-level effects in two adrenal disorders. At the top, three therapeutic routes are contrasted: direct in vivo delivery of gene-editing components in lipid nanoparticles to a diseased progenitor cell; ex vivo autologous therapy, where patient-derived iPSCs are gene edited, differentiated, and reimplanted; and allogeneic therapy, where healthy-donor iPSCs are differentiated into progenitors and implanted into the patient. In each case, the goal is to replace or convert diseased progenitors into corrected ones.\n\nThe lower part shows how this correction could restore adrenal cortex organization over time. For congenital adrenal hyperplasia, the diagrams suggest progressive normalization of the outer zona glomerulosa and middle zona fasciculata, with increasing numbers of healthy differentiated cells after therapy. For primary adrenal insufficiency, a broader recovery is depicted, including restoration across zona glomerulosa, fasciculata, and reticularis. A side legend distinguishes diseased versus healthy progenitor cells and their differentiated descendants. Overall, the figure conveys that repaired or donor-derived adrenal progenitors could repopulate adrenal zones and gradually rebuild functional adrenal tissue architecture.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "lipid nanoparticle carrying gene-editing cargo",
+        "category": "molecule",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "circular particle",
+          "gene-editing cargo",
+          "top-left route"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "diseased progenitor cell cluster",
+        "category": "cell",
+        "panel": "a",
+        "count": 3,
+        "key_attributes": [
+          "grey cluster",
+          "one per therapy route",
+          "pre-treatment"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "corrected progenitor cell cluster",
+        "category": "cell",
+        "panel": "a",
+        "count": 3,
+        "key_attributes": [
+          "cluster with orange corrected cell",
+          "post-therapy",
+          "replacement outcome"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "patient-derived iPSC",
+        "category": "cell",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "blue stem-cell icon",
+          "PAI source",
+          "autologous route"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "healthy-donor iPSC",
+        "category": "cell",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "blue stem-cell icon",
+          "healthy donor source",
+          "allogeneic route"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "gene editing step",
+        "category": "pathway_component",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "editing workflow",
+          "autologous route",
+          "between iPSC and differentiation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "directed differentiation step",
+        "category": "pathway_component",
+        "panel": "a",
+        "count": 2,
+        "key_attributes": [
+          "orange/yellow progenitor output",
+          "from iPSC",
+          "therapy preparation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "implantation workflow arrows",
+        "category": "arrow",
+        "panel": "a",
+        "count": 6,
+        "key_attributes": [
+          "curved arrows",
+          "therapy progression",
+          "delivery and implant"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "adrenal cortex layered tissue schematic for congenital adrenal hyperplasia",
+        "category": "region",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "time progression",
+          "partial restoration",
+          "upper disease row"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v10",
+        "entity_type": "visual",
+        "name": "adrenal cortex layered tissue schematic for primary adrenal insufficiency",
+        "category": "region",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "time progression",
+          "broader restoration",
+          "lower disease row"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v11",
+        "entity_type": "visual",
+        "name": "capsule layer",
+        "category": "layer",
+        "panel": "b",
+        "count": 2,
+        "key_attributes": [
+          "outermost blue band",
+          "above cortex zones",
+          "wavy surface"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v12",
+        "entity_type": "visual",
+        "name": "zona glomerulosa layer",
+        "category": "layer",
+        "panel": "b",
+        "count": 2,
+        "key_attributes": [
+          "outer cortical zone",
+          "yellow/orange differentiated cells",
+          "restoration over time"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v13",
+        "entity_type": "visual",
+        "name": "zona fasciculata layer",
+        "category": "layer",
+        "panel": "b",
+        "count": 2,
+        "key_attributes": [
+          "middle cortical zone",
+          "pink block cells",
+          "restoration over time"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v14",
+        "entity_type": "visual",
+        "name": "zona reticularis layer",
+        "category": "layer",
+        "panel": "b",
+        "count": 2,
+        "key_attributes": [
+          "inner cortical zone",
+          "oval red cells",
+          "restoration in PAI"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v15",
+        "entity_type": "visual",
+        "name": "SHH-positive progenitor cells",
+        "category": "cell",
+        "panel": "b",
+        "count": 12,
+        "key_attributes": [
+          "clustered progenitors",
+          "grey versus orange state",
+          "legend-defined"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v16",
+        "entity_type": "visual",
+        "name": "differentiated zona glomerulosa cells",
+        "category": "cell",
+        "panel": "b",
+        "count": 12,
+        "key_attributes": [
+          "round yellow cells",
+          "outer zone descendants",
+          "healthy versus diseased colors"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v17",
+        "entity_type": "visual",
+        "name": "differentiated zona fasciculata cells",
+        "category": "cell",
+        "panel": "b",
+        "count": 12,
+        "key_attributes": [
+          "rectangular pink cells",
+          "middle zone descendants",
+          "healthy versus diseased colors"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v18",
+        "entity_type": "visual",
+        "name": "differentiated zona reticularis cells",
+        "category": "cell",
+        "panel": "b",
+        "count": 12,
+        "key_attributes": [
+          "oval red cells",
+          "inner zone descendants",
+          "healthy versus diseased colors"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v19",
+        "entity_type": "visual",
+        "name": "disease starting-state column",
+        "category": "region",
+        "panel": "b",
+        "count": 2,
+        "key_attributes": [
+          "pink shaded column",
+          "baseline disease",
+          "leftmost timepoint"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v20",
+        "entity_type": "visual",
+        "name": "therapy-and-response-time arrow",
+        "category": "arrow",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "horizontal axis arrow",
+          "bottom of panel",
+          "time progression"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v21",
+        "entity_type": "visual",
+        "name": "legend color keys for diseased and healthy cell states",
+        "category": "legend_key",
+        "panel": "b",
+        "count": 8,
+        "key_attributes": [
+          "paired diseased/healthy examples",
+          "right-side legend",
+          "four cell classes"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "panel a label",
+        "category": "panel_label",
+        "surface_text": "a",
+        "normalized_text": "a",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "in vivo gene therapy title",
+        "category": "scientific_label",
+        "surface_text": "In vivo gene therapy",
+        "normalized_text": "in vivo gene therapy",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "therapy route"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "ex vivo autologous gene therapy title",
+        "category": "scientific_label",
+        "surface_text": "Ex vivo autologous gene therapy",
+        "normalized_text": "ex vivo autologous gene therapy",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "therapy route"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "allogeneic cell therapy title",
+        "category": "scientific_label",
+        "surface_text": "Allogenic cell therapy",
+        "normalized_text": "allogeneic cell therapy",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "therapy route"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "lipid nanoparticle annotation",
+        "category": "annotation_text",
+        "surface_text": "Lipid nanoparticles containing gene-editing machinery and correct gene",
+        "normalized_text": "lipid nanoparticles containing gene-editing machinery and correct gene",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "cargo description"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "target progenitor annotation",
+        "category": "annotation_text",
+        "surface_text": "Target to progenitor cell",
+        "normalized_text": "target to progenitor cell",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "delivery target"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "diseased progenitor cell label",
+        "category": "scientific_label",
+        "surface_text": "Diseased progenitor cell",
+        "normalized_text": "diseased progenitor cell",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "starting cell state"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "corrected progenitor cell label",
+        "category": "scientific_label",
+        "surface_text": "Corrected progenitor cell",
+        "normalized_text": "corrected progenitor cell",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "post-therapy state"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "patient-derived iPSC label",
+        "category": "scientific_label",
+        "surface_text": "iPSC derived from a person with PAI",
+        "normalized_text": "ipsc derived from a person with PAI",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "autologous source"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "gene editing label",
+        "category": "annotation_text",
+        "surface_text": "Gene editing",
+        "normalized_text": "gene editing",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "workflow step"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "directed differentiation label",
+        "category": "annotation_text",
+        "surface_text": "Directed differentiation",
+        "normalized_text": "directed differentiation",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "workflow step"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "implant corrected progenitors label",
+        "category": "annotation_text",
+        "surface_text": "Implant corrected progenitors",
+        "normalized_text": "implant corrected progenitors",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "reimplantation step"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "healthy donor iPSC label",
+        "category": "scientific_label",
+        "surface_text": "iPSC derived from a healthy donor",
+        "normalized_text": "ipsc derived from a healthy donor",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "allogeneic source"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t14",
+        "entity_type": "text",
+        "name": "healthy donor label",
+        "category": "scientific_label",
+        "surface_text": "Healthy donor",
+        "normalized_text": "healthy donor",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "donor source"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t15",
+        "entity_type": "text",
+        "name": "implant label",
+        "category": "annotation_text",
+        "surface_text": "Implant",
+        "normalized_text": "implant",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "allogeneic implantation"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t16",
+        "entity_type": "text",
+        "name": "panel b label",
+        "category": "panel_label",
+        "surface_text": "b",
+        "normalized_text": "b",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t17",
+        "entity_type": "text",
+        "name": "congenital adrenal hyperplasia label",
+        "category": "scientific_label",
+        "surface_text": "Congenital adrenal hyperplasia",
+        "normalized_text": "congenital adrenal hyperplasia",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "disease row"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t18",
+        "entity_type": "text",
+        "name": "zona glomerulosa label",
+        "category": "scientific_label",
+        "surface_text": "Zona glomerulosa",
+        "normalized_text": "zona glomerulosa",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "cortical zone"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t19",
+        "entity_type": "text",
+        "name": "zona fasciculata label",
+        "category": "scientific_label",
+        "surface_text": "Zona fasciculata",
+        "normalized_text": "zona fasciculata",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "cortical zone"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t20",
+        "entity_type": "text",
+        "name": "zona reticularis label",
+        "category": "scientific_label",
+        "surface_text": "Zona reticularis",
+        "normalized_text": "zona reticularis",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "cortical zone"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t21",
+        "entity_type": "text",
+        "name": "primary adrenal insufficiency label",
+        "category": "scientific_label",
+        "surface_text": "Primary adrenal insufficiency",
+        "normalized_text": "primary adrenal insufficiency",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "disease row"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t22",
+        "entity_type": "text",
+        "name": "diseased legend header",
+        "category": "legend_text",
+        "surface_text": "Diseased",
+        "normalized_text": "diseased",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "legend state"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t23",
+        "entity_type": "text",
+        "name": "healthy legend header",
+        "category": "legend_text",
+        "surface_text": "Healthy",
+        "normalized_text": "healthy",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "legend state"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t24",
+        "entity_type": "text",
+        "name": "SHH-positive progenitor legend entry",
+        "category": "legend_text",
+        "surface_text": "SHH+ progenitor cell",
+        "normalized_text": "SHH+ progenitor cell",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "legend cell type"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t25",
+        "entity_type": "text",
+        "name": "zona glomerulosa cell legend entry",
+        "category": "legend_text",
+        "surface_text": "Differentiated zona glomerulosa cell",
+        "normalized_text": "differentiated zona glomerulosa cell",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "legend cell type"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t26",
+        "entity_type": "text",
+        "name": "zona fasciculata cell legend entry",
+        "category": "legend_text",
+        "surface_text": "Differentiated zona fasciculata cell",
+        "normalized_text": "differentiated zona fasciculata cell",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "legend cell type"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t27",
+        "entity_type": "text",
+        "name": "zona reticularis cell legend entry",
+        "category": "legend_text",
+        "surface_text": "Differentiated zona reticularis cell",
+        "normalized_text": "differentiated zona reticularis cell",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "legend cell type"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t28",
+        "entity_type": "text",
+        "name": "disease label",
+        "category": "annotation_text",
+        "surface_text": "Disease",
+        "normalized_text": "disease",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "baseline state"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t29",
+        "entity_type": "text",
+        "name": "therapy and response time label",
+        "category": "annotation_text",
+        "surface_text": "Therapy and response time",
+        "normalized_text": "therapy and response time",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "time axis"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t2",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t3",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t4",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t5",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "t7",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "t8",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "t9",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "t10",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "t11",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "t13",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "v1",
+        "target_entity_id": "v2",
+        "relation_type": "points_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "v2",
+        "target_entity_id": "v3",
+        "relation_type": "transforms_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "v4",
+        "target_entity_id": "v6",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "v6",
+        "target_entity_id": "v7",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "v7",
+        "target_entity_id": "v3",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "v5",
+        "target_entity_id": "v7",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "v7",
+        "target_entity_id": "v3",
+        "relation_type": "transforms_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "t17",
+        "target_entity_id": "v9",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "t21",
+        "target_entity_id": "v10",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "t18",
+        "target_entity_id": "v12",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "t19",
+        "target_entity_id": "v13",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "t20",
+        "target_entity_id": "v14",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r23",
+        "source_entity_id": "t29",
+        "target_entity_id": "v20",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r24",
+        "source_entity_id": "v12",
+        "target_entity_id": "v9",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r25",
+        "source_entity_id": "v13",
+        "target_entity_id": "v9",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r26",
+        "source_entity_id": "v12",
+        "target_entity_id": "v10",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r27",
+        "source_entity_id": "v13",
+        "target_entity_id": "v10",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r28",
+        "source_entity_id": "v14",
+        "target_entity_id": "v10",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r29",
+        "source_entity_id": "v15",
+        "target_entity_id": "v12",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r30",
+        "source_entity_id": "v16",
+        "target_entity_id": "v12",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r31",
+        "source_entity_id": "v17",
+        "target_entity_id": "v13",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r32",
+        "source_entity_id": "v18",
+        "target_entity_id": "v14",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r33",
+        "source_entity_id": "v9",
+        "target_entity_id": "v10",
+        "relation_type": "above",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r34",
+        "source_entity_id": "v12",
+        "target_entity_id": "v13",
+        "relation_type": "above",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r35",
+        "source_entity_id": "v13",
+        "target_entity_id": "v14",
+        "relation_type": "above",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r36",
+        "source_entity_id": "t24",
+        "target_entity_id": "v21",
+        "relation_type": "legend_for",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r37",
+        "source_entity_id": "t25",
+        "target_entity_id": "v21",
+        "relation_type": "legend_for",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r38",
+        "source_entity_id": "t26",
+        "target_entity_id": "v21",
+        "relation_type": "legend_for",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r39",
+        "source_entity_id": "t27",
+        "target_entity_id": "v21",
+        "relation_type": "legend_for",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r40",
+        "source_entity_id": "v21",
+        "target_entity_id": "v15",
+        "relation_type": "legend_for",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r41",
+        "source_entity_id": "v21",
+        "target_entity_id": "v16",
+        "relation_type": "legend_for",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r42",
+        "source_entity_id": "v21",
+        "target_entity_id": "v17",
+        "relation_type": "legend_for",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r43",
+        "source_entity_id": "v21",
+        "target_entity_id": "v18",
+        "relation_type": "legend_for",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r44",
+        "source_entity_id": "v20",
+        "target_entity_id": "v9",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r45",
+        "source_entity_id": "v20",
+        "target_entity_id": "v10",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r46",
+        "source_entity_id": "v3",
+        "target_entity_id": "v9",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r47",
+        "source_entity_id": "v3",
+        "target_entity_id": "v10",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "cross_panel"
+      }
+    ]
+  }
+}

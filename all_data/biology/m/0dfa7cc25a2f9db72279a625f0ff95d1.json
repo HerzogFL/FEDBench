@@ -1,0 +1,448 @@
+{
+  "image_name": "0dfa7cc25a2f9db72279a625f0ff95d1.jpg",
+  "prompt_text": "The figure compares several conceptual models for how T cell receptors (shown in blue) recognize peptide–MHC ligands (shown in red). Across the panels, the main issue is whether immune recognition is organized as many highly specific receptors for many distinct ligands, a few broadly cross-reactive receptors, or an intermediate arrangement.\n\nIn the “small-repertoire” model, many different receptor groups each connect to only a limited set of ligands, implying relatively restricted specificity spread across multiple clonotypes. In contrast, the “degenerate-TCR” model shows many receptors converging on a single ligand, emphasizing strong receptor cross-reactivity and the idea that one antigen can be recognized by a broad receptor population. The “Gemisch” model depicts a mixed architecture: a few receptor groups each interact with clusters of related ligands, with some overlap between groups, suggesting both specificity and degeneracy coexist. The final panel, labeled with H2–M3 observations, appears to resemble this mixed or constrained pattern but with a smaller number of receptor groups recognizing a shared ligand set.\n\nOverall, the image illustrates alternative ways immune repertoires may be structured, highlighting the balance between receptor diversity, ligand diversity, and cross-recognition.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "T cell receptor groups",
+        "category": "protein",
+        "panel": "all_panels",
+        "count": 4,
+        "key_attributes": [
+          "blue nodes",
+          "top-positioned",
+          "multiple groups"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "peptide-MHC ligands",
+        "category": "molecule",
+        "panel": "all_panels",
+        "count": 4,
+        "key_attributes": [
+          "red nodes",
+          "lower-positioned",
+          "ligand sets"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "recognition connections",
+        "category": "arrow",
+        "panel": "all_panels",
+        "count": 1,
+        "key_attributes": [
+          "thin gray lines",
+          "node-link edges",
+          "specificity mapping"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "small-repertoire interaction pattern",
+        "category": "region",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "many receptor clusters",
+          "few ligands per cluster",
+          "restricted specificity"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "degenerate-TCR interaction pattern",
+        "category": "region",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "many receptors to one ligand",
+          "convergent pattern",
+          "strong cross-reactivity"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "Gemisch interaction pattern",
+        "category": "region",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "few receptor groups",
+          "ligand clusters",
+          "partial overlap"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "H2-M3 observation pattern",
+        "category": "region",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "few receptor groups",
+          "shared ligand set",
+          "constrained mixed pattern"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "panel a label",
+        "category": "panel_label",
+        "surface_text": "a",
+        "normalized_text": "a",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "panel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "Small-repertoire model",
+        "category": "scientific_label",
+        "surface_text": "Small-repertoire model",
+        "normalized_text": "small-repertoire model",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "model title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "panel b label",
+        "category": "panel_label",
+        "surface_text": "b",
+        "normalized_text": "b",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "panel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "Degenerate-TCR model",
+        "category": "scientific_label",
+        "surface_text": "Degenerate-TCR model",
+        "normalized_text": "degenerate-tcr model",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "model title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "panel c label",
+        "category": "panel_label",
+        "surface_text": "c",
+        "normalized_text": "c",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "panel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "Gemisch model",
+        "category": "scientific_label",
+        "surface_text": "Gemisch model",
+        "normalized_text": "gemisch model",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "model title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "panel d label",
+        "category": "panel_label",
+        "surface_text": "d",
+        "normalized_text": "d",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "panel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "H2-M3 observations",
+        "category": "scientific_label",
+        "surface_text": "H2–M3 observations",
+        "normalized_text": "h2-m3 observations",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "observation title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t2",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t4",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t6",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t8",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "t1",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "t3",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "t5",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "t7",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "v1",
+        "target_entity_id": "v2",
+        "relation_type": "above",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "v3",
+        "target_entity_id": "v1",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "v3",
+        "target_entity_id": "v2",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "v4",
+        "target_entity_id": "v1",
+        "relation_type": "part_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "v4",
+        "target_entity_id": "v2",
+        "relation_type": "part_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "v5",
+        "target_entity_id": "v1",
+        "relation_type": "part_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "v5",
+        "target_entity_id": "v2",
+        "relation_type": "part_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "v6",
+        "target_entity_id": "v1",
+        "relation_type": "part_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "v6",
+        "target_entity_id": "v2",
+        "relation_type": "part_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "v7",
+        "target_entity_id": "v1",
+        "relation_type": "part_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "v7",
+        "target_entity_id": "v2",
+        "relation_type": "part_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "v4",
+        "target_entity_id": "v5",
+        "relation_type": "above",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "v5",
+        "target_entity_id": "v6",
+        "relation_type": "above",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "v6",
+        "target_entity_id": "v7",
+        "relation_type": "above",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "global"
+      }
+    ]
+  }
+}

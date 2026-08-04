@@ -1,0 +1,1075 @@
+{
+  "image_name": "0e34a16e96206cb99b5c38f877513c28.png",
+  "prompt_text": "The figure outlines how DNA polymerase theta (Polθ) may repair double-strand breaks through theta-mediated end joining. At the top, Polθ is shown as a multi-domain protein with helicase-like and polymerase regions. The central schematic summarizes the repair pathway: broken DNA ends are first recognized, then brought together while short matching sequences (microhomologies) are searched. Non-matching 3′ tails are trimmed, and Polθ-driven DNA synthesis extends one end using the other as a template. The process can finish through either a short-patch or long-patch route, involving ligation and possibly flap removal, with several accessory factors shown as proposed contributors.\n\nThe lower part compares two synthesis modes. In intermolecular synthesis, one DNA end copies sequence from the other end, promoting repair products with direct-repeat templated insertions. In intramolecular synthesis, a single end folds back on itself to prime DNA synthesis, which can be unproductive or generate inverted-repeat insertions before switching into productive joining. The diagrams emphasize that Polθ’s helicase and polymerase activities appear to cooperate during end alignment, synthesis, and resolution, while some steps and factors remain uncertain, as indicated by question marks and alternative labels.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "Polθ multi-domain protein schematic",
+        "category": "protein",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "linear domain map",
+          "three domains",
+          "top panel"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "helicase-like domain region",
+        "category": "protein",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "left domain",
+          "blue oval",
+          "HelD"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "polymerase domain region",
+        "category": "protein",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "right domain",
+          "blue oval",
+          "PolD"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "broken DNA ends",
+        "category": "molecule",
+        "panel": "b",
+        "count": 2,
+        "key_attributes": [
+          "double-strand break",
+          "separated ends",
+          "3′ tails"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "Polθ repair complexes on DNA",
+        "category": "protein",
+        "panel": "b",
+        "count": 5,
+        "key_attributes": [
+          "blue globular complex",
+          "bound to DNA",
+          "repeated across steps"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "pathway progression arrows",
+        "category": "arrow",
+        "panel": "b",
+        "count": 6,
+        "key_attributes": [
+          "downward flow",
+          "step transitions",
+          "resolution branch"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "microhomology alignment segment",
+        "category": "region",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "short matching bases",
+          "highlighted overlap",
+          "end pairing"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "trimmed non-homologous 3′ tails",
+        "category": "region",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "tail removal",
+          "scissor cut",
+          "processed end"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "DNA synthesis intermediate",
+        "category": "molecule",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "extended strand",
+          "template copying",
+          "intermolecular"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v10",
+        "entity_type": "visual",
+        "name": "short-patch resolution product",
+        "category": "molecule",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "joined duplex",
+          "left branch",
+          "ligation route"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v11",
+        "entity_type": "visual",
+        "name": "long-patch resolution product with flap processing",
+        "category": "molecule",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "joined duplex",
+          "right branch",
+          "flap intermediate"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v12",
+        "entity_type": "visual",
+        "name": "intermolecular synthesis schematic",
+        "category": "pathway_component",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "left lower panel",
+          "one end copies other",
+          "stepwise sequence"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v13",
+        "entity_type": "visual",
+        "name": "intramolecular synthesis schematic",
+        "category": "pathway_component",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "right lower panel",
+          "fold-back priming",
+          "alternative outcomes"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v14",
+        "entity_type": "visual",
+        "name": "direct-repeat templated insertion outcome",
+        "category": "region",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "left final product",
+          "direct repeat",
+          "TIN outcome"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v15",
+        "entity_type": "visual",
+        "name": "inverted-repeat templated insertion outcome",
+        "category": "region",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "right final product",
+          "inverted repeat",
+          "TIN outcome"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v16",
+        "entity_type": "visual",
+        "name": "unproductive intramolecular branch",
+        "category": "pathway_component",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "failed path",
+          "right-side branch",
+          "alternative outcome"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v17",
+        "entity_type": "visual",
+        "name": "question mark uncertainty symbols",
+        "category": "legend_key",
+        "panel": "b",
+        "count": 6,
+        "key_attributes": [
+          "uncertain factors",
+          "proposed contributors",
+          "question marks"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "panel a label",
+        "category": "panel_label",
+        "surface_text": "a",
+        "normalized_text": "a",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "Polθ label",
+        "category": "scientific_label",
+        "surface_text": "Polθ",
+        "normalized_text": "DNA polymerase theta",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "protein name"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "HelD label",
+        "category": "scientific_label",
+        "surface_text": "HelD",
+        "normalized_text": "helicase domain",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "domain abbreviation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "PolD label",
+        "category": "scientific_label",
+        "surface_text": "PolD",
+        "normalized_text": "polymerase domain",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "domain abbreviation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "panel b label",
+        "category": "panel_label",
+        "surface_text": "b",
+        "normalized_text": "b",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "DNA end recognition step label",
+        "category": "annotation_text",
+        "surface_text": "DNA end recognition",
+        "normalized_text": "DNA end recognition",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "pathway step"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "End pairing and microhomology search label",
+        "category": "annotation_text",
+        "surface_text": "End pairing and microhomology search",
+        "normalized_text": "End pairing and microhomology search",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "pathway step"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "Microhomology label",
+        "category": "annotation_text",
+        "surface_text": "Microhomology",
+        "normalized_text": "microhomology",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "short matching sequence"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "Trimming step label",
+        "category": "annotation_text",
+        "surface_text": "Trimming of non-homologous 3′ tails",
+        "normalized_text": "Trimming of non-homologous 3′ tails",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "pathway step"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "DNA synthesis intermolecular label",
+        "category": "annotation_text",
+        "surface_text": "DNA synthesis (intermolecular)",
+        "normalized_text": "DNA synthesis (intermolecular)",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "pathway step"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "Resolution label",
+        "category": "annotation_text",
+        "surface_text": "Resolution",
+        "normalized_text": "Resolution",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "final step"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "Short patch label",
+        "category": "legend_text",
+        "surface_text": "Short patch:",
+        "normalized_text": "Short patch",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "resolution branch"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "Long patch label",
+        "category": "legend_text",
+        "surface_text": "Long patch:",
+        "normalized_text": "Long patch",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "resolution branch"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t14",
+        "entity_type": "text",
+        "name": "5′ flap nuclease label",
+        "category": "legend_text",
+        "surface_text": "5′ flap nuclease",
+        "normalized_text": "5′ flap nuclease",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "long-patch factor"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t15",
+        "entity_type": "text",
+        "name": "RPA label",
+        "category": "scientific_label",
+        "surface_text": "RPA",
+        "normalized_text": "RPA",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "accessory factor"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t16",
+        "entity_type": "text",
+        "name": "PARP1 label",
+        "category": "legend_text",
+        "surface_text": "PARP1",
+        "normalized_text": "PARP1",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "proposed contributor"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t17",
+        "entity_type": "text",
+        "name": "FANCD2 label",
+        "category": "legend_text",
+        "surface_text": "FANCD2",
+        "normalized_text": "FANCD2",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "proposed contributor"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t18",
+        "entity_type": "text",
+        "name": "HMCES uncertain label",
+        "category": "legend_text",
+        "surface_text": "HMCES?",
+        "normalized_text": "HMCES?",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "uncertain factor"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t19",
+        "entity_type": "text",
+        "name": "9-1-1 complex uncertain label",
+        "category": "legend_text",
+        "surface_text": "9-1-1 complex?",
+        "normalized_text": "9-1-1 complex?",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "uncertain factor"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t20",
+        "entity_type": "text",
+        "name": "XPF-ERCC1 uncertain label",
+        "category": "legend_text",
+        "surface_text": "XPF-ERCC1?",
+        "normalized_text": "XPF-ERCC1?",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "uncertain nuclease"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t21",
+        "entity_type": "text",
+        "name": "panel c label",
+        "category": "panel_label",
+        "surface_text": "c",
+        "normalized_text": "c",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t22",
+        "entity_type": "text",
+        "name": "Intermolecular synthesis label",
+        "category": "annotation_text",
+        "surface_text": "Intermolecular synthesis",
+        "normalized_text": "Intermolecular synthesis",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "left mode"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t23",
+        "entity_type": "text",
+        "name": "Intramolecular synthesis label",
+        "category": "annotation_text",
+        "surface_text": "Intramolecular synthesis",
+        "normalized_text": "Intramolecular synthesis",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "right mode"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t24",
+        "entity_type": "text",
+        "name": "Direct repeat TINs label",
+        "category": "annotation_text",
+        "surface_text": "Direct repeat TINs",
+        "normalized_text": "Direct repeat templated insertions",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "left outcome"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t25",
+        "entity_type": "text",
+        "name": "Inverted repeat TINs label",
+        "category": "annotation_text",
+        "surface_text": "Inverted repeat TINs",
+        "normalized_text": "Inverted repeat templated insertions",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "right outcome"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t26",
+        "entity_type": "text",
+        "name": "Unproductive label",
+        "category": "legend_text",
+        "surface_text": "Unproductive",
+        "normalized_text": "Unproductive",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "failed pathway"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t27",
+        "entity_type": "text",
+        "name": "Polθ PolD label",
+        "category": "scientific_label",
+        "surface_text": "Polθ PolD",
+        "normalized_text": "Polθ polymerase domain",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "activity label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t28",
+        "entity_type": "text",
+        "name": "Polθ HelD label",
+        "category": "scientific_label",
+        "surface_text": "Polθ HelD",
+        "normalized_text": "Polθ helicase domain",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "activity label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t2",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t3",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t4",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "v2",
+        "target_entity_id": "v3",
+        "relation_type": "left_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "v2",
+        "target_entity_id": "v1",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "v3",
+        "target_entity_id": "v1",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "t6",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "t7",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "t8",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "t9",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "t10",
+        "target_entity_id": "v9",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "t12",
+        "target_entity_id": "v10",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "t13",
+        "target_entity_id": "v11",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "t14",
+        "target_entity_id": "v11",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "v4",
+        "target_entity_id": "v7",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "v7",
+        "target_entity_id": "v8",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "v8",
+        "target_entity_id": "v9",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "v9",
+        "target_entity_id": "v10",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "v9",
+        "target_entity_id": "v11",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "v5",
+        "target_entity_id": "v4",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "v5",
+        "target_entity_id": "v7",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "v5",
+        "target_entity_id": "v8",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r23",
+        "source_entity_id": "v5",
+        "target_entity_id": "v9",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r24",
+        "source_entity_id": "v17",
+        "target_entity_id": "t16",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r25",
+        "source_entity_id": "v17",
+        "target_entity_id": "t17",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r26",
+        "source_entity_id": "v17",
+        "target_entity_id": "t18",
+        "relation_type": "legend_for",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r27",
+        "source_entity_id": "v17",
+        "target_entity_id": "t19",
+        "relation_type": "legend_for",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r28",
+        "source_entity_id": "v17",
+        "target_entity_id": "t20",
+        "relation_type": "legend_for",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r29",
+        "source_entity_id": "t22",
+        "target_entity_id": "v12",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r30",
+        "source_entity_id": "t23",
+        "target_entity_id": "v13",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r31",
+        "source_entity_id": "t24",
+        "target_entity_id": "v14",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r32",
+        "source_entity_id": "t25",
+        "target_entity_id": "v15",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r33",
+        "source_entity_id": "t26",
+        "target_entity_id": "v16",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r34",
+        "source_entity_id": "t27",
+        "target_entity_id": "v12",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r35",
+        "source_entity_id": "t28",
+        "target_entity_id": "v13",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r36",
+        "source_entity_id": "v12",
+        "target_entity_id": "v14",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r37",
+        "source_entity_id": "v13",
+        "target_entity_id": "v15",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r38",
+        "source_entity_id": "v13",
+        "target_entity_id": "v16",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r39",
+        "source_entity_id": "v12",
+        "target_entity_id": "v13",
+        "relation_type": "left_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      }
+    ]
+  }
+}

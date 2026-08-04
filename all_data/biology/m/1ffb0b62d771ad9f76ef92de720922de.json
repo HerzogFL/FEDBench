@@ -1,0 +1,1684 @@
+{
+  "image_name": "1ffb0b62d771ad9f76ef92de720922de.png",
+  "prompt_text": "The figure summarizes several major functions of m6A RNA modification and its reader proteins across gene expression. Overall, it shows that m6A marks on pre-mRNA and mRNA can influence splicing, nuclear export, translation, transcript decay, RNA stabilization, and X chromosome inactivation.\n\nIn splicing, m6A appears to act either directly, through readers such as YTHDC1 and SRSF proteins that favor exon inclusion or skipping, or indirectly by changing local RNA structure to expose or hide binding motifs for proteins like HNRNPC. In the nucleus, m6A-marked transcripts are also shown being exported through the nuclear pore, with YTHDC1, SRSF3, and NXF1 helping move mature mRNA to the cytoplasm.\n\nAnother panel links m6A to XIST RNA and silencing on the X chromosome, indicating a role in m6A-mediated X chromosome inactivation. In the cytoplasm, m6A promotes translation in multiple ways, including cap-independent initiation and enhanced ribosome engagement through YTHDF1/3, while another example suggests effects on tRNA selection during elongation. Finally, the figure contrasts outcomes for transcript fate: YTHDF2 recruits the CCR4–NOT complex to drive degradation, whereas IGF2BPs and G3BPs are associated with transcript stabilization.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "m6A-marked RNA transcripts",
+        "category": "molecule",
+        "panel": "multi_panel",
+        "count": 1,
+        "key_attributes": [
+          "pre-mRNA and mRNA",
+          "contains m6A marks",
+          "blue RNA schematics"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "m6A modification sites",
+        "category": "molecule",
+        "panel": "multi_panel",
+        "count": 1,
+        "key_attributes": [
+          "red dot markers",
+          "on RNA",
+          "modification cue"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "splicing outcome schematics",
+        "category": "pathway_component",
+        "panel": "a",
+        "count": 2,
+        "key_attributes": [
+          "exon inclusion",
+          "exon skipping",
+          "alternative isoforms"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "RNA structure remodeling schematic",
+        "category": "pathway_component",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "hairpin-like RNA",
+          "motif exposure/hiding",
+          "indirect mechanism"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "nuclear pore complex",
+        "category": "device_component",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "membrane channel",
+          "nucleus-cytoplasm boundary",
+          "export route"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "nuclear envelope boundary",
+        "category": "membrane",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "curved bilayer",
+          "separates nucleus and cytoplasm",
+          "contains pore"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "X chromosome schematic",
+        "category": "material_structure",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "large chromosome shape",
+          "inactive X context",
+          "blue structure"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "chromatin silencing region",
+        "category": "region",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "magnified nuclear inset",
+          "chromatin-associated",
+          "silencing context"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "translation initiation machinery",
+        "category": "pathway_component",
+        "panel": "d",
+        "count": 2,
+        "key_attributes": [
+          "43S/40S-related complexes",
+          "ribosome recruitment",
+          "initiation examples"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v10",
+        "entity_type": "visual",
+        "name": "ribosome elongation schematic",
+        "category": "pathway_component",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "ribosome on mRNA",
+          "tRNA selection",
+          "growing polypeptide"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v11",
+        "entity_type": "visual",
+        "name": "degradation pathway schematic",
+        "category": "pathway_component",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "YTHDF2 branch",
+          "downstream decay",
+          "CCR4-NOT recruitment"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v12",
+        "entity_type": "visual",
+        "name": "stabilization pathway schematics",
+        "category": "pathway_component",
+        "panel": "e",
+        "count": 2,
+        "key_attributes": [
+          "IGF2BPs branch",
+          "G3BPs branch",
+          "stabilized transcripts"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v13",
+        "entity_type": "visual",
+        "name": "process arrows",
+        "category": "arrow",
+        "panel": "multi_panel",
+        "count": 1,
+        "key_attributes": [
+          "directional flow",
+          "mechanistic transitions",
+          "black arrows"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v14",
+        "entity_type": "visual",
+        "name": "panel markers",
+        "category": "panel_marker",
+        "panel": "multi_panel",
+        "count": 5,
+        "key_attributes": [
+          "a-e labels",
+          "panel organization",
+          "top-left markers"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "panel a label",
+        "category": "panel_label",
+        "surface_text": "a",
+        "normalized_text": "a",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "panel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "Alternative splicing",
+        "category": "scientific_label",
+        "surface_text": "Alternative splicing",
+        "normalized_text": "alternative splicing",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "panel title",
+          "splicing function"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "Direct",
+        "category": "annotation_text",
+        "surface_text": "Direct",
+        "normalized_text": "direct",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "mechanism subtype"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "Indirect",
+        "category": "annotation_text",
+        "surface_text": "Indirect",
+        "normalized_text": "indirect",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "mechanism subtype"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "SRSF3",
+        "category": "scientific_label",
+        "surface_text": "SRSF3",
+        "normalized_text": "SRSF3",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "splicing factor"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "YTHDC1",
+        "category": "scientific_label",
+        "surface_text": "YTHDC1",
+        "normalized_text": "YTHDC1",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "m6A reader",
+          "splicing"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "SRSF10",
+        "category": "scientific_label",
+        "surface_text": "SRSF10",
+        "normalized_text": "SRSF10",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "splicing factor"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "pre-mRNA",
+        "category": "scientific_label",
+        "surface_text": "pre-mRNA",
+        "normalized_text": "pre-mRNA",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "RNA substrate"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "mRNA",
+        "category": "scientific_label",
+        "surface_text": "mRNA",
+        "normalized_text": "mRNA",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "processed transcript"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "m6A",
+        "category": "scientific_label",
+        "surface_text": "m6A",
+        "normalized_text": "m6A",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "RNA modification"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "Exon inclusion",
+        "category": "annotation_text",
+        "surface_text": "Exon inclusion",
+        "normalized_text": "exon inclusion",
+        "panel": "a",
+        "count": 2,
+        "key_attributes": [
+          "splicing outcome"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "Exon skipping",
+        "category": "annotation_text",
+        "surface_text": "Exon skipping",
+        "normalized_text": "exon skipping",
+        "panel": "a",
+        "count": 2,
+        "key_attributes": [
+          "splicing outcome"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "Buried U-binding motif",
+        "category": "annotation_text",
+        "surface_text": "Buried U-binding motif",
+        "normalized_text": "buried U-binding motif",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "hidden motif",
+          "RNA structure effect"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t14",
+        "entity_type": "text",
+        "name": "RNA restructuring",
+        "category": "annotation_text",
+        "surface_text": "RNA restructuring",
+        "normalized_text": "RNA restructuring",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "structural mechanism"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t15",
+        "entity_type": "text",
+        "name": "HNRNPC",
+        "category": "scientific_label",
+        "surface_text": "HNRNPC",
+        "normalized_text": "HNRNPC",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "RNA-binding protein",
+          "indirect splicing"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t16",
+        "entity_type": "text",
+        "name": "panel b label",
+        "category": "panel_label",
+        "surface_text": "b",
+        "normalized_text": "b",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "panel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t17",
+        "entity_type": "text",
+        "name": "Nuclear export",
+        "category": "scientific_label",
+        "surface_text": "Nuclear export",
+        "normalized_text": "nuclear export",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "panel title",
+          "RNA export"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t18",
+        "entity_type": "text",
+        "name": "Nuclear pore complex",
+        "category": "scientific_label",
+        "surface_text": "Nuclear pore complex",
+        "normalized_text": "nuclear pore complex",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "export channel"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t19",
+        "entity_type": "text",
+        "name": "Cytoplasm",
+        "category": "annotation_text",
+        "surface_text": "Cytoplasm",
+        "normalized_text": "cytoplasm",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "cellular compartment"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t20",
+        "entity_type": "text",
+        "name": "Nucleus",
+        "category": "annotation_text",
+        "surface_text": "Nucleus",
+        "normalized_text": "nucleus",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "cellular compartment"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t21",
+        "entity_type": "text",
+        "name": "NXF1",
+        "category": "scientific_label",
+        "surface_text": "NXF1",
+        "normalized_text": "NXF1",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "export factor"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t22",
+        "entity_type": "text",
+        "name": "m7G",
+        "category": "scientific_label",
+        "surface_text": "m7G",
+        "normalized_text": "m7G",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "5' cap label"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t23",
+        "entity_type": "text",
+        "name": "SRSF3",
+        "category": "scientific_label",
+        "surface_text": "SRSF3",
+        "normalized_text": "SRSF3",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "export-associated factor"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t24",
+        "entity_type": "text",
+        "name": "YTHDC1",
+        "category": "scientific_label",
+        "surface_text": "YTHDC1",
+        "normalized_text": "YTHDC1",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "m6A reader",
+          "export"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t25",
+        "entity_type": "text",
+        "name": "poly(A) tail label",
+        "category": "scientific_label",
+        "surface_text": "Aₙ",
+        "normalized_text": "A_n",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "poly(A) tail"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t26",
+        "entity_type": "text",
+        "name": "panel c label",
+        "category": "panel_label",
+        "surface_text": "c",
+        "normalized_text": "c",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "panel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t27",
+        "entity_type": "text",
+        "name": "m6A-mediated X chromosome inactivation",
+        "category": "scientific_label",
+        "surface_text": "m6A-mediated X chromosome inactivation",
+        "normalized_text": "m6A-mediated X chromosome inactivation",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "panel title",
+          "XCI function"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t28",
+        "entity_type": "text",
+        "name": "Nucleus",
+        "category": "annotation_text",
+        "surface_text": "Nucleus",
+        "normalized_text": "nucleus",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "cellular compartment"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t29",
+        "entity_type": "text",
+        "name": "Silencing protein",
+        "category": "annotation_text",
+        "surface_text": "Silencing protein",
+        "normalized_text": "silencing protein",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "repressor factor"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t30",
+        "entity_type": "text",
+        "name": "Chromatin",
+        "category": "scientific_label",
+        "surface_text": "Chromatin",
+        "normalized_text": "chromatin",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "silencing substrate"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t31",
+        "entity_type": "text",
+        "name": "YTHDC1",
+        "category": "scientific_label",
+        "surface_text": "YTHDC1",
+        "normalized_text": "YTHDC1",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "m6A reader",
+          "XIST-associated"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t32",
+        "entity_type": "text",
+        "name": "XIST",
+        "category": "scientific_label",
+        "surface_text": "XIST",
+        "normalized_text": "XIST",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "lncRNA",
+          "X inactivation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t33",
+        "entity_type": "text",
+        "name": "X chromosome",
+        "category": "scientific_label",
+        "surface_text": "X chromosome",
+        "normalized_text": "X chromosome",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "chromosome identity"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t34",
+        "entity_type": "text",
+        "name": "panel d label",
+        "category": "panel_label",
+        "surface_text": "d",
+        "normalized_text": "d",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "panel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t35",
+        "entity_type": "text",
+        "name": "Translation",
+        "category": "scientific_label",
+        "surface_text": "Translation",
+        "normalized_text": "translation",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "panel title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t36",
+        "entity_type": "text",
+        "name": "Promotion of cap-independent translation",
+        "category": "annotation_text",
+        "surface_text": "Promotion of cap-independent translation",
+        "normalized_text": "promotion of cap-independent translation",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "translation mode"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t37",
+        "entity_type": "text",
+        "name": "43S complex",
+        "category": "scientific_label",
+        "surface_text": "43S complex",
+        "normalized_text": "43S complex",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "initiation complex"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t38",
+        "entity_type": "text",
+        "name": "eIF3",
+        "category": "scientific_label",
+        "surface_text": "eIF3",
+        "normalized_text": "eIF3",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "translation initiation factor"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t39",
+        "entity_type": "text",
+        "name": "5' UTR",
+        "category": "scientific_label",
+        "surface_text": "5' UTR",
+        "normalized_text": "5' UTR",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "mRNA region"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t40",
+        "entity_type": "text",
+        "name": "Coding sequence",
+        "category": "scientific_label",
+        "surface_text": "Coding sequence",
+        "normalized_text": "coding sequence",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "mRNA region"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t41",
+        "entity_type": "text",
+        "name": "3' UTR",
+        "category": "scientific_label",
+        "surface_text": "3' UTR",
+        "normalized_text": "3' UTR",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "mRNA region"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t42",
+        "entity_type": "text",
+        "name": "poly(A) tail sequence",
+        "category": "scientific_label",
+        "surface_text": "AAAAAAA",
+        "normalized_text": "poly(A)",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "tail sequence"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t43",
+        "entity_type": "text",
+        "name": "Enhanced translation",
+        "category": "annotation_text",
+        "surface_text": "Enhanced translation",
+        "normalized_text": "enhanced translation",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "translation outcome"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t44",
+        "entity_type": "text",
+        "name": "PABP",
+        "category": "scientific_label",
+        "surface_text": "PABP",
+        "normalized_text": "PABP",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "poly(A)-binding protein"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t45",
+        "entity_type": "text",
+        "name": "4G",
+        "category": "scientific_label",
+        "surface_text": "4G",
+        "normalized_text": "eIF4G",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "initiation factor shorthand"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t46",
+        "entity_type": "text",
+        "name": "4E",
+        "category": "scientific_label",
+        "surface_text": "4E",
+        "normalized_text": "eIF4E",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "initiation factor shorthand"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t47",
+        "entity_type": "text",
+        "name": "40S",
+        "category": "scientific_label",
+        "surface_text": "40S",
+        "normalized_text": "40S",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "small ribosomal subunit"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t48",
+        "entity_type": "text",
+        "name": "YTHDF1/YTHDF3",
+        "category": "scientific_label",
+        "surface_text": "YTHDF1/YTHDF3",
+        "normalized_text": "YTHDF1/YTHDF3",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "m6A readers",
+          "translation enhancement"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t49",
+        "entity_type": "text",
+        "name": "Interference with tRNA selection",
+        "category": "annotation_text",
+        "surface_text": "Interference with tRNA selection",
+        "normalized_text": "interference with tRNA selection",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "elongation effect"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t50",
+        "entity_type": "text",
+        "name": "Growing polypeptide",
+        "category": "annotation_text",
+        "surface_text": "Growing polypeptide",
+        "normalized_text": "growing polypeptide",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "elongation product"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t51",
+        "entity_type": "text",
+        "name": "tRNA selection",
+        "category": "annotation_text",
+        "surface_text": "tRNA selection",
+        "normalized_text": "tRNA selection",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "targeted process"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t52",
+        "entity_type": "text",
+        "name": "Ribosome",
+        "category": "scientific_label",
+        "surface_text": "Ribosome",
+        "normalized_text": "ribosome",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "translation machinery"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t53",
+        "entity_type": "text",
+        "name": "Cytoplasm",
+        "category": "annotation_text",
+        "surface_text": "Cytoplasm",
+        "normalized_text": "cytoplasm",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "cellular compartment"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t54",
+        "entity_type": "text",
+        "name": "panel e label",
+        "category": "panel_label",
+        "surface_text": "e",
+        "normalized_text": "e",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "panel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t55",
+        "entity_type": "text",
+        "name": "Transcript degradation and stabilization",
+        "category": "scientific_label",
+        "surface_text": "Transcript degradation and stabilization",
+        "normalized_text": "transcript degradation and stabilization",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "panel title",
+          "RNA fate"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t56",
+        "entity_type": "text",
+        "name": "Degradation",
+        "category": "annotation_text",
+        "surface_text": "Degradation",
+        "normalized_text": "degradation",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "fate branch"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t57",
+        "entity_type": "text",
+        "name": "YTHDF2",
+        "category": "scientific_label",
+        "surface_text": "YTHDF2",
+        "normalized_text": "YTHDF2",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "m6A reader",
+          "decay factor"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t58",
+        "entity_type": "text",
+        "name": "Recruitment of the CCR4-NOT complex",
+        "category": "annotation_text",
+        "surface_text": "Recruitment of the CCR4-NOT complex",
+        "normalized_text": "recruitment of the CCR4-NOT complex",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "degradation mechanism"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t59",
+        "entity_type": "text",
+        "name": "Degradation of transcripts",
+        "category": "annotation_text",
+        "surface_text": "Degradation of transcripts",
+        "normalized_text": "degradation of transcripts",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "fate outcome"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t60",
+        "entity_type": "text",
+        "name": "Stability",
+        "category": "annotation_text",
+        "surface_text": "Stability",
+        "normalized_text": "stability",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "fate branch"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t61",
+        "entity_type": "text",
+        "name": "IGF2BPs",
+        "category": "scientific_label",
+        "surface_text": "IGF2BPs",
+        "normalized_text": "IGF2BPs",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "stabilizing readers"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t62",
+        "entity_type": "text",
+        "name": "Stabilization of transcripts",
+        "category": "annotation_text",
+        "surface_text": "Stabilization of transcripts",
+        "normalized_text": "stabilization of transcripts",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "fate outcome"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t63",
+        "entity_type": "text",
+        "name": "G3BPs",
+        "category": "scientific_label",
+        "surface_text": "G3BPs",
+        "normalized_text": "G3BPs",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "stability-associated proteins"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t64",
+        "entity_type": "text",
+        "name": "poly(A) tail sequence",
+        "category": "scientific_label",
+        "surface_text": "AAAAAAA",
+        "normalized_text": "poly(A)",
+        "panel": "e",
+        "count": 2,
+        "key_attributes": [
+          "tail sequence"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t2",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t14",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t17",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t18",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "t27",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "t33",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "t35",
+        "target_entity_id": "v9",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "t36",
+        "target_entity_id": "v9",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "t49",
+        "target_entity_id": "v10",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "t55",
+        "target_entity_id": "v11",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "t55",
+        "target_entity_id": "v12",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "t10",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "v2",
+        "target_entity_id": "v1",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "t8",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "t9",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "v1",
+        "target_entity_id": "v3",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "t6",
+        "target_entity_id": "v3",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "t11",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "t12",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "v2",
+        "target_entity_id": "v4",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "t15",
+        "target_entity_id": "v4",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "v4",
+        "target_entity_id": "v3",
+        "relation_type": "flows_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r23",
+        "source_entity_id": "v5",
+        "target_entity_id": "v6",
+        "relation_type": "part_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r24",
+        "source_entity_id": "v1",
+        "target_entity_id": "v5",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r25",
+        "source_entity_id": "t24",
+        "target_entity_id": "v1",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r26",
+        "source_entity_id": "t23",
+        "target_entity_id": "v1",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r27",
+        "source_entity_id": "t21",
+        "target_entity_id": "v5",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r28",
+        "source_entity_id": "t32",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r29",
+        "source_entity_id": "v1",
+        "target_entity_id": "v7",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r30",
+        "source_entity_id": "v8",
+        "target_entity_id": "v7",
+        "relation_type": "part_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r31",
+        "source_entity_id": "t31",
+        "target_entity_id": "v1",
+        "relation_type": "connected_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r32",
+        "source_entity_id": "v1",
+        "target_entity_id": "v8",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r33",
+        "source_entity_id": "t29",
+        "target_entity_id": "v8",
+        "relation_type": "connected_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r34",
+        "source_entity_id": "v1",
+        "target_entity_id": "v9",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r35",
+        "source_entity_id": "t48",
+        "target_entity_id": "v9",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r36",
+        "source_entity_id": "t43",
+        "target_entity_id": "v9",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r37",
+        "source_entity_id": "v1",
+        "target_entity_id": "v10",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r38",
+        "source_entity_id": "t51",
+        "target_entity_id": "v10",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r39",
+        "source_entity_id": "t57",
+        "target_entity_id": "v11",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r40",
+        "source_entity_id": "t58",
+        "target_entity_id": "v11",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r41",
+        "source_entity_id": "t59",
+        "target_entity_id": "v11",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r42",
+        "source_entity_id": "v1",
+        "target_entity_id": "v11",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r43",
+        "source_entity_id": "t61",
+        "target_entity_id": "v12",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r44",
+        "source_entity_id": "t63",
+        "target_entity_id": "v12",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r45",
+        "source_entity_id": "t62",
+        "target_entity_id": "v12",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r46",
+        "source_entity_id": "v1",
+        "target_entity_id": "v12",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      }
+    ]
+  }
+}

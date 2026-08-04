@@ -1,0 +1,966 @@
+{
+  "image_name": "aba298ebda605bbcb4da2383a350fabc.png",
+  "prompt_text": "This figure summarizes several transverse transport effects in a sample and organizes them by what drives them and what kind of response they produce. The horizontal direction contrasts electrically driven effects on the left with thermally driven effects on the right, while the vertical direction separates charge responses above from non-charge responses below.\n\nAt the center is the nonlinear Hall effect: an oscillating electric field produces a transverse current at twice the frequency and a measured second-harmonic voltage, alongside a longitudinal current at the original frequency. Around it are four related effects. In the upper left, the Magnus effect appears to come from a spatial potential variation and an AC current, giving an AC transverse voltage. In the upper right, the thermoelectric case shows a temperature gradient driving a DC transverse charge current and voltage. In the lower left, a spin-related effect produces a DC spin current and voltage under electrical excitation, illustrated with opposite spin directions. In the lower right, a purely thermal response is shown: a temperature gradient drives a heat current and a temperature difference rather than charge flow.\n\nOverall, the diagram highlights a family of analogous transverse responses linking electrical, thermal, spin, and nonlinear phenomena.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "Magnus-effect sample schematic",
+        "category": "material_structure",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "top-left block",
+          "sample slab",
+          "transverse arrows"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "thermoelectric sample schematic",
+        "category": "material_structure",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "top-right block",
+          "temperature-driven",
+          "charge response"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "nonlinear Hall effect sample schematic",
+        "category": "material_structure",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "center block",
+          "oscillating drive",
+          "second-harmonic response"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "spin-effect sample schematic",
+        "category": "material_structure",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "bottom-left block",
+          "electrical excitation",
+          "spin response"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "thermal-effect sample schematic",
+        "category": "material_structure",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "bottom-right block",
+          "heat current",
+          "temperature difference"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "charge-response vertical axis arrow",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "upward axis",
+          "charge vs non-charge",
+          "centered"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "electrical-to-thermal horizontal axis arrow",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "left-right axis",
+          "driving type",
+          "centered"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "opposite spin markers",
+        "category": "pathway_component",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "paired spins",
+          "opposite directions",
+          "bottom-left"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "sample-internal transport arrows",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 5,
+        "key_attributes": [
+          "colored arrows",
+          "transverse/longitudinal",
+          "inside blocks"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v10",
+        "entity_type": "visual",
+        "name": "measurement leads and contact loops",
+        "category": "device_component",
+        "panel": "single_panel",
+        "count": 5,
+        "key_attributes": [
+          "top contacts",
+          "voltage probes",
+          "wire outlines"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "Magnus label",
+        "category": "scientific_label",
+        "surface_text": "Magnus",
+        "normalized_text": "Magnus",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "effect name",
+          "top-left"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "Thermoelectric label",
+        "category": "scientific_label",
+        "surface_text": "Thermoelectric",
+        "normalized_text": "Thermoelectric",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "effect name",
+          "top-right"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "Nonlinear Hall effect label",
+        "category": "scientific_label",
+        "surface_text": "Nonlinear Hall effect",
+        "normalized_text": "Nonlinear Hall effect",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "central title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "Spin label",
+        "category": "scientific_label",
+        "surface_text": "Spin",
+        "normalized_text": "Spin",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "effect name",
+          "bottom-left"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "Thermal label",
+        "category": "scientific_label",
+        "surface_text": "Thermal",
+        "normalized_text": "Thermal",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "effect name",
+          "bottom-right"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "Charge response axis label",
+        "category": "annotation_text",
+        "surface_text": "Charge response",
+        "normalized_text": "Charge response",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "vertical axis",
+          "upper label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "Non-charge response axis label",
+        "category": "annotation_text",
+        "surface_text": "Non-charge response",
+        "normalized_text": "Non-charge response",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "vertical axis",
+          "lower label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "Electric driven axis label",
+        "category": "annotation_text",
+        "surface_text": "Electric driven",
+        "normalized_text": "Electric driven",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "horizontal axis",
+          "left side"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "Thermal driven axis label",
+        "category": "annotation_text",
+        "surface_text": "Thermal driven",
+        "normalized_text": "Thermal driven",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "horizontal axis",
+          "right side"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "Magnus transverse voltage label",
+        "category": "scientific_label",
+        "surface_text": "Vω",
+        "normalized_text": "Vω",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "AC transverse voltage",
+          "Magnus"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "Magnus transverse current label",
+        "category": "scientific_label",
+        "surface_text": "Jω",
+        "normalized_text": "Jω",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "AC current",
+          "Magnus"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "AC drive current label",
+        "category": "scientific_label",
+        "surface_text": "Iω",
+        "normalized_text": "Iω",
+        "panel": "single_panel",
+        "count": 3,
+        "key_attributes": [
+          "electrical excitation",
+          "appears multiple times"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "spatial potential variation label",
+        "category": "scientific_label",
+        "surface_text": "U(r)",
+        "normalized_text": "U(r)",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "spatial potential",
+          "Magnus"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t14",
+        "entity_type": "text",
+        "name": "DC transverse voltage label",
+        "category": "scientific_label",
+        "surface_text": "Vdc",
+        "normalized_text": "Vdc",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "DC voltage",
+          "thermoelectric/spin"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t15",
+        "entity_type": "text",
+        "name": "DC charge current label",
+        "category": "scientific_label",
+        "surface_text": "Jdc",
+        "normalized_text": "Jdc",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "DC charge current",
+          "thermoelectric"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t16",
+        "entity_type": "text",
+        "name": "temperature gradient label",
+        "category": "scientific_label",
+        "surface_text": "∇T",
+        "normalized_text": "∇T",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "thermal drive",
+          "top-right and bottom-right"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t17",
+        "entity_type": "text",
+        "name": "second-harmonic voltage label",
+        "category": "scientific_label",
+        "surface_text": "V2ω",
+        "normalized_text": "V2ω",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "second harmonic",
+          "nonlinear Hall"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t18",
+        "entity_type": "text",
+        "name": "oscillating electric field label",
+        "category": "scientific_label",
+        "surface_text": "Eω",
+        "normalized_text": "Eω",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "electric drive",
+          "nonlinear Hall"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t19",
+        "entity_type": "text",
+        "name": "second-harmonic transverse current label",
+        "category": "scientific_label",
+        "surface_text": "J2ω",
+        "normalized_text": "J2ω",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "second harmonic",
+          "nonlinear Hall"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t20",
+        "entity_type": "text",
+        "name": "DC spin current label",
+        "category": "scientific_label",
+        "surface_text": "Jsdc",
+        "normalized_text": "Jsdc",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "spin current",
+          "bottom-left"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t21",
+        "entity_type": "text",
+        "name": "temperature difference label",
+        "category": "scientific_label",
+        "surface_text": "ΔT",
+        "normalized_text": "ΔT",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "thermal response",
+          "bottom-right"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t22",
+        "entity_type": "text",
+        "name": "heat current label",
+        "category": "scientific_label",
+        "surface_text": "Jheat",
+        "normalized_text": "Jheat",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "heat current",
+          "bottom-right"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t1",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t2",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t3",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t4",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "t5",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "t6",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "t7",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "t8",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "t9",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "t10",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "t11",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "t13",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "t14",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "t15",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "t16",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "t17",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "t18",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "t19",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "t20",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "t14",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "t21",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "t22",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r23",
+        "source_entity_id": "t16",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r24",
+        "source_entity_id": "v1",
+        "target_entity_id": "v3",
+        "relation_type": "left_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r25",
+        "source_entity_id": "v3",
+        "target_entity_id": "v2",
+        "relation_type": "left_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r26",
+        "source_entity_id": "v4",
+        "target_entity_id": "v5",
+        "relation_type": "left_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r27",
+        "source_entity_id": "v1",
+        "target_entity_id": "v4",
+        "relation_type": "above",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r28",
+        "source_entity_id": "v2",
+        "target_entity_id": "v5",
+        "relation_type": "above",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r29",
+        "source_entity_id": "v3",
+        "target_entity_id": "v4",
+        "relation_type": "above",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r30",
+        "source_entity_id": "v7",
+        "target_entity_id": "v3",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r31",
+        "source_entity_id": "v6",
+        "target_entity_id": "v3",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r32",
+        "source_entity_id": "v8",
+        "target_entity_id": "v4",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r33",
+        "source_entity_id": "t18",
+        "target_entity_id": "t19",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r34",
+        "source_entity_id": "t19",
+        "target_entity_id": "t17",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r35",
+        "source_entity_id": "t16",
+        "target_entity_id": "t15",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r36",
+        "source_entity_id": "t15",
+        "target_entity_id": "t14",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r37",
+        "source_entity_id": "t12",
+        "target_entity_id": "t20",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r38",
+        "source_entity_id": "t20",
+        "target_entity_id": "t14",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r39",
+        "source_entity_id": "t16",
+        "target_entity_id": "t22",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r40",
+        "source_entity_id": "t22",
+        "target_entity_id": "t21",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r41",
+        "source_entity_id": "t13",
+        "target_entity_id": "t10",
+        "relation_type": "activates",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r42",
+        "source_entity_id": "t12",
+        "target_entity_id": "t10",
+        "relation_type": "activates",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r43",
+        "source_entity_id": "v10",
+        "target_entity_id": "v1",
+        "relation_type": "part_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r44",
+        "source_entity_id": "v10",
+        "target_entity_id": "v2",
+        "relation_type": "part_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r45",
+        "source_entity_id": "v10",
+        "target_entity_id": "v3",
+        "relation_type": "part_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r46",
+        "source_entity_id": "v10",
+        "target_entity_id": "v4",
+        "relation_type": "part_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r47",
+        "source_entity_id": "v10",
+        "target_entity_id": "v5",
+        "relation_type": "part_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      }
+    ]
+  }
+}

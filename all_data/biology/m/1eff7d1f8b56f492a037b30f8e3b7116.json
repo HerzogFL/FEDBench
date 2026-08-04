@@ -1,0 +1,1895 @@
+{
+  "image_name": "1eff7d1f8b56f492a037b30f8e3b7116.png",
+  "prompt_text": "The figure summarizes how ferroptosis is controlled at the plasma membrane by balancing lipid peroxidation against several protective systems. Its central message is that ferroptosis results from iron-driven oxidation of phospholipids, especially PUFA-containing membrane lipids, and can be suppressed through multiple parallel antioxidant pathways.\n\nOne major route is the cystine–GSH–GPX4 axis: cystine import through system x_c^- supports glutathione production, which GPX4 uses to reduce phospholipid hydroperoxides to less harmful alcohols. The figure also shows the FSP1–CoQ/vitamin K pathway, where FSP1 uses NAD(P)H to regenerate reduced CoQ or vitamin K forms that trap lipid radicals in membranes. A third protective branch involves cholesterol synthesis intermediates, including squalene and 7-DHC, which appear to limit lipid peroxidation. The GCH1–BH4 pathway is shown as another radical-scavenging system, with vitamin E and related lipophilic antioxidants also blocking damaging lipid radicals.\n\nThe lower part illustrates the chemistry of phospholipid peroxidation: initiation, propagation, and termination of lipid radicals ultimately cause membrane rupture. A comparison of phospholipid composition highlights that PUFA incorporation promotes ferroptosis, whereas MUFA-rich phospholipids are anti-ferroptotic. Several inhibitors are marked, including erastin, BSO, RSL3, and ML210, which target these defense pathways.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "plasma membrane bilayer",
+        "category": "membrane",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "horizontal bilayer",
+          "site of ferroptosis control",
+          "lipid peroxidation context"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "system xc− transporter",
+        "category": "protein",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "membrane transporter",
+          "cystine import",
+          "glutamate export"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "GPX4 enzyme",
+        "category": "protein",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "antioxidant enzyme",
+          "reduces lipid hydroperoxides",
+          "uses GSH"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "FSP1 enzyme",
+        "category": "protein",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "membrane-associated",
+          "uses NAD(P)H",
+          "regenerates CoQ/VK"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "GCH1 enzyme",
+        "category": "protein",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "BH4 pathway",
+          "radical-scavenging branch",
+          "cytoplasmic enzyme"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "DHCR7 enzyme",
+        "category": "protein",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "cholesterol synthesis",
+          "7-DHC conversion",
+          "protective branch"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "lipid radical species in membrane",
+        "category": "molecule",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "PLOO•/PLO•",
+          "damaging radicals",
+          "membrane-localized"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "phospholipid hydroperoxide to alcohol conversion",
+        "category": "pathway_component",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "PLOOH to PLOH",
+          "GPX4-mediated",
+          "protective reduction"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "cholesterol synthesis protective branch",
+        "category": "pathway_component",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "squalene",
+          "7-DHC",
+          "anti-peroxidation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v10",
+        "entity_type": "visual",
+        "name": "phospholipid peroxidation reaction chain",
+        "category": "pathway_component",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "initiation",
+          "propagation",
+          "termination"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v11",
+        "entity_type": "visual",
+        "name": "ruptured plasma membrane",
+        "category": "membrane",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "membrane rupture",
+          "ferroptotic damage",
+          "lower panel"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v12",
+        "entity_type": "visual",
+        "name": "PUFA phospholipid branch",
+        "category": "pathway_component",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "PUFA incorporation",
+          "pro-ferroptotic",
+          "PL-PUFA"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v13",
+        "entity_type": "visual",
+        "name": "MUFA phospholipid branch",
+        "category": "pathway_component",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "MUFA incorporation",
+          "anti-ferroptotic",
+          "PL-MUFA"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v14",
+        "entity_type": "visual",
+        "name": "directional reaction arrows",
+        "category": "arrow",
+        "panel": "all",
+        "count": 20,
+        "key_attributes": [
+          "biochemical flow",
+          "activation/inhibition",
+          "pathway connections"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "panel a label",
+        "category": "panel_label",
+        "surface_text": "a",
+        "normalized_text": "a",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "top-left panel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "ferroptosis-suppressing pathways title",
+        "category": "annotation_text",
+        "surface_text": "Ferroptosis-suppressing pathways",
+        "normalized_text": "Ferroptosis-suppressing pathways",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "section title"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "Cysteine-GSH-GPX4 pathway label",
+        "category": "scientific_label",
+        "surface_text": "① Cysteine–GSH–GPX4 pathway",
+        "normalized_text": "Cysteine-GSH-GPX4 pathway",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "pathway name"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "FSP1-CoQ-VK pathway label",
+        "category": "scientific_label",
+        "surface_text": "② FSP1–CoQ/VK pathway",
+        "normalized_text": "FSP1-CoQ/VK pathway",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "pathway name"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "cholesterol synthesis pathway label",
+        "category": "scientific_label",
+        "surface_text": "③ Cholesterol synthesis pathway",
+        "normalized_text": "Cholesterol synthesis pathway",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "pathway name"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "GCH1-BH4 pathway label",
+        "category": "scientific_label",
+        "surface_text": "④ GCH1–BH4 pathway",
+        "normalized_text": "GCH1-BH4 pathway",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "pathway name"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "plasma membrane label",
+        "category": "annotation_text",
+        "surface_text": "Plasma membrane",
+        "normalized_text": "Plasma membrane",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "membrane region"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "cytoplasm label",
+        "category": "annotation_text",
+        "surface_text": "Cytoplasm",
+        "normalized_text": "Cytoplasm",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "cellular compartment"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "System xc− label",
+        "category": "scientific_label",
+        "surface_text": "System xc−",
+        "normalized_text": "System xc-",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "cystine transporter"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "Cystine label",
+        "category": "scientific_label",
+        "surface_text": "Cystine",
+        "normalized_text": "Cystine",
+        "panel": "a",
+        "count": 2,
+        "key_attributes": [
+          "imported substrate"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "Glutamate label",
+        "category": "scientific_label",
+        "surface_text": "Glutamate",
+        "normalized_text": "Glutamate",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "exported amino acid"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "Erastin label",
+        "category": "scientific_label",
+        "surface_text": "Erastin",
+        "normalized_text": "Erastin",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "system xc inhibitor"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "GSH label",
+        "category": "scientific_label",
+        "surface_text": "GSH",
+        "normalized_text": "GSH",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "glutathione"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t14",
+        "entity_type": "text",
+        "name": "GSH synthesis label",
+        "category": "scientific_label",
+        "surface_text": "GSH synthesis",
+        "normalized_text": "GSH synthesis",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "biosynthetic step"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t15",
+        "entity_type": "text",
+        "name": "BSO label",
+        "category": "scientific_label",
+        "surface_text": "BSO",
+        "normalized_text": "BSO",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "GSH synthesis inhibitor"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t16",
+        "entity_type": "text",
+        "name": "GPX4 label",
+        "category": "scientific_label",
+        "surface_text": "GPX4",
+        "normalized_text": "GPX4",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "lipid peroxide reductase"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t17",
+        "entity_type": "text",
+        "name": "RSL3 label",
+        "category": "scientific_label",
+        "surface_text": "RSL3",
+        "normalized_text": "RSL3",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "GPX4 inhibitor"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t18",
+        "entity_type": "text",
+        "name": "ML210 label",
+        "category": "scientific_label",
+        "surface_text": "ML210",
+        "normalized_text": "ML210",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "GPX4 inhibitor"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t19",
+        "entity_type": "text",
+        "name": "PLOH label in panel a",
+        "category": "scientific_label",
+        "surface_text": "PLOH",
+        "normalized_text": "PLOH",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "lipid alcohol product"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t20",
+        "entity_type": "text",
+        "name": "PLOOH label in panel a",
+        "category": "scientific_label",
+        "surface_text": "PLOOH",
+        "normalized_text": "PLOOH",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "lipid hydroperoxide"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t21",
+        "entity_type": "text",
+        "name": "Fe2+ label",
+        "category": "scientific_label",
+        "surface_text": "Fe2+",
+        "normalized_text": "Fe2+",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "iron-driven oxidation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t22",
+        "entity_type": "text",
+        "name": "NAD(P)H label",
+        "category": "scientific_label",
+        "surface_text": "NAD(P)H",
+        "normalized_text": "NAD(P)H",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "reducing equivalent"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t23",
+        "entity_type": "text",
+        "name": "NAD(P)+ label",
+        "category": "scientific_label",
+        "surface_text": "NAD(P)+",
+        "normalized_text": "NAD(P)+",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "oxidized cofactor"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t24",
+        "entity_type": "text",
+        "name": "FSP1 label",
+        "category": "scientific_label",
+        "surface_text": "FSP1",
+        "normalized_text": "FSP1",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "ferroptosis suppressor"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t25",
+        "entity_type": "text",
+        "name": "CoQ10H2 label",
+        "category": "scientific_label",
+        "surface_text": "CoQ10H2",
+        "normalized_text": "CoQ10H2",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "reduced coenzyme Q"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t26",
+        "entity_type": "text",
+        "name": "VKH2 label",
+        "category": "scientific_label",
+        "surface_text": "VKH2",
+        "normalized_text": "VKH2",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "reduced vitamin K"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t27",
+        "entity_type": "text",
+        "name": "PLOO radical label in panel a",
+        "category": "scientific_label",
+        "surface_text": "PLOO•",
+        "normalized_text": "PLOO•",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "lipid peroxyl radical"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t28",
+        "entity_type": "text",
+        "name": "PLO radical label in panel a",
+        "category": "scientific_label",
+        "surface_text": "PLO•",
+        "normalized_text": "PLO•",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "lipid alkoxyl radical"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t29",
+        "entity_type": "text",
+        "name": "CoQ10 label",
+        "category": "scientific_label",
+        "surface_text": "CoQ10",
+        "normalized_text": "CoQ10",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "oxidized coenzyme Q"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t30",
+        "entity_type": "text",
+        "name": "VK label",
+        "category": "scientific_label",
+        "surface_text": "VK",
+        "normalized_text": "VK",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "vitamin K"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t31",
+        "entity_type": "text",
+        "name": "7-DHC label",
+        "category": "scientific_label",
+        "surface_text": "7-DHC",
+        "normalized_text": "7-DHC",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "cholesterol intermediate"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t32",
+        "entity_type": "text",
+        "name": "Squalene label",
+        "category": "scientific_label",
+        "surface_text": "Squalene",
+        "normalized_text": "Squalene",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "cholesterol intermediate"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t33",
+        "entity_type": "text",
+        "name": "Cholesterol label",
+        "category": "scientific_label",
+        "surface_text": "Cholesterol",
+        "normalized_text": "Cholesterol",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "sterol product"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t34",
+        "entity_type": "text",
+        "name": "Farnesyl pyrophosphate label",
+        "category": "scientific_label",
+        "surface_text": "Farnesyl pyrophosphate",
+        "normalized_text": "Farnesyl pyrophosphate",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "mevalonate intermediate"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t35",
+        "entity_type": "text",
+        "name": "Mevalonate pathway label",
+        "category": "scientific_label",
+        "surface_text": "Mevalonate pathway",
+        "normalized_text": "Mevalonate pathway",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "upstream sterol synthesis"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t36",
+        "entity_type": "text",
+        "name": "BH4 label",
+        "category": "scientific_label",
+        "surface_text": "BH4",
+        "normalized_text": "BH4",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "radical scavenger"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t37",
+        "entity_type": "text",
+        "name": "BH2 label",
+        "category": "scientific_label",
+        "surface_text": "BH2",
+        "normalized_text": "BH2",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "oxidized biopterin"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t38",
+        "entity_type": "text",
+        "name": "GCH1 label",
+        "category": "scientific_label",
+        "surface_text": "GCH1",
+        "normalized_text": "GCH1",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "BH4 synthesis enzyme"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t39",
+        "entity_type": "text",
+        "name": "Vitamin E label",
+        "category": "scientific_label",
+        "surface_text": "Vitamin E",
+        "normalized_text": "Vitamin E",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "lipophilic antioxidant"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t40",
+        "entity_type": "text",
+        "name": "Lipophilic RTAs label",
+        "category": "legend_text",
+        "surface_text": "Lipophilic RTAs (e.g., Lip-1, Fer-1)",
+        "normalized_text": "Lipophilic RTAs (e.g., Lip-1, Fer-1)",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "chain-breaking antioxidants"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t41",
+        "entity_type": "text",
+        "name": "panel b label",
+        "category": "panel_label",
+        "surface_text": "b",
+        "normalized_text": "b",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "panel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t42",
+        "entity_type": "text",
+        "name": "Phospholipid peroxidation title",
+        "category": "scientific_label",
+        "surface_text": "Phospholipid peroxidation",
+        "normalized_text": "Phospholipid peroxidation",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "section title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t43",
+        "entity_type": "text",
+        "name": "Termination label",
+        "category": "annotation_text",
+        "surface_text": "Termination",
+        "normalized_text": "Termination",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "reaction phase"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t44",
+        "entity_type": "text",
+        "name": "Propagation label",
+        "category": "annotation_text",
+        "surface_text": "Propagation",
+        "normalized_text": "Propagation",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "reaction phase"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t45",
+        "entity_type": "text",
+        "name": "Initiation label",
+        "category": "annotation_text",
+        "surface_text": "Initiation",
+        "normalized_text": "Initiation",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "reaction phase"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t46",
+        "entity_type": "text",
+        "name": "PLOOH label in panel b",
+        "category": "scientific_label",
+        "surface_text": "PLOOH",
+        "normalized_text": "PLOOH",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "lipid hydroperoxide"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t47",
+        "entity_type": "text",
+        "name": "PLOH label in panel b",
+        "category": "scientific_label",
+        "surface_text": "PLOH",
+        "normalized_text": "PLOH",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "reduced phospholipid alcohol"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t48",
+        "entity_type": "text",
+        "name": "PL radical label",
+        "category": "scientific_label",
+        "surface_text": "PL•",
+        "normalized_text": "PL•",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "phospholipid radical"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t49",
+        "entity_type": "text",
+        "name": "PLOO radical label in panel b",
+        "category": "scientific_label",
+        "surface_text": "PLOO•",
+        "normalized_text": "PLOO•",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "peroxyl radical"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t50",
+        "entity_type": "text",
+        "name": "PLO radical label in panel b",
+        "category": "scientific_label",
+        "surface_text": "PLO•",
+        "normalized_text": "PLO•",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "alkoxyl radical"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t51",
+        "entity_type": "text",
+        "name": "Fe2+ label in panel b",
+        "category": "scientific_label",
+        "surface_text": "Fe2+",
+        "normalized_text": "Fe2+",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "initiating iron"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t52",
+        "entity_type": "text",
+        "name": "O2 label",
+        "category": "scientific_label",
+        "surface_text": "O2",
+        "normalized_text": "O2",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "oxygen addition"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t53",
+        "entity_type": "text",
+        "name": "RTAs label",
+        "category": "scientific_label",
+        "surface_text": "RTAs",
+        "normalized_text": "RTAs",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "radical trapping antioxidants"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t54",
+        "entity_type": "text",
+        "name": "PUFA-PLOOH label",
+        "category": "scientific_label",
+        "surface_text": "PUFA-PLOOH",
+        "normalized_text": "PUFA-PLOOH",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "oxidized PUFA phospholipid"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t55",
+        "entity_type": "text",
+        "name": "Lipid radicals legend",
+        "category": "legend_text",
+        "surface_text": "Lipid radicals (PLOO•, PLO•)",
+        "normalized_text": "Lipid radicals (PLOO•, PLO•)",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "damaging radical pool"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t56",
+        "entity_type": "text",
+        "name": "Plasma membrane rupture label",
+        "category": "annotation_text",
+        "surface_text": "Plasma membrane rupture",
+        "normalized_text": "Plasma membrane rupture",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "ferroptotic outcome"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t57",
+        "entity_type": "text",
+        "name": "panel c label",
+        "category": "panel_label",
+        "surface_text": "c",
+        "normalized_text": "c",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "panel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t58",
+        "entity_type": "text",
+        "name": "Regulation of phospholipid composition title",
+        "category": "scientific_label",
+        "surface_text": "Regulation of phospholipid composition",
+        "normalized_text": "Regulation of phospholipid composition",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "section title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t59",
+        "entity_type": "text",
+        "name": "PUFAs label",
+        "category": "scientific_label",
+        "surface_text": "PUFAs",
+        "normalized_text": "PUFAs",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "pro-ferroptotic fatty acids"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t60",
+        "entity_type": "text",
+        "name": "SFAs label",
+        "category": "scientific_label",
+        "surface_text": "SFAs",
+        "normalized_text": "SFAs",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "precursor class for MUFAs"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t61",
+        "entity_type": "text",
+        "name": "Arachidonic acid label",
+        "category": "scientific_label",
+        "surface_text": "Arachidonic acid",
+        "normalized_text": "Arachidonic acid",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "PUFA example"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t62",
+        "entity_type": "text",
+        "name": "Adrenic acid label",
+        "category": "scientific_label",
+        "surface_text": "Adrenic acid",
+        "normalized_text": "Adrenic acid",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "PUFA example"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t63",
+        "entity_type": "text",
+        "name": "ACSL4 label",
+        "category": "scientific_label",
+        "surface_text": "ACSL4",
+        "normalized_text": "ACSL4",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "PUFA activation enzyme"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t64",
+        "entity_type": "text",
+        "name": "PUFA-CoA label",
+        "category": "scientific_label",
+        "surface_text": "PUFA-CoA",
+        "normalized_text": "PUFA-CoA",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "activated PUFA intermediate"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t65",
+        "entity_type": "text",
+        "name": "LPCAT3 label",
+        "category": "scientific_label",
+        "surface_text": "LPCAT3",
+        "normalized_text": "LPCAT3",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "PUFA incorporation enzyme"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t66",
+        "entity_type": "text",
+        "name": "PL-PUFA label",
+        "category": "scientific_label",
+        "surface_text": "PL-PUFA",
+        "normalized_text": "PL-PUFA",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "PUFA-containing phospholipid"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t67",
+        "entity_type": "text",
+        "name": "SCD1 label",
+        "category": "scientific_label",
+        "surface_text": "SCD1",
+        "normalized_text": "SCD1",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "MUFA synthesis enzyme"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t68",
+        "entity_type": "text",
+        "name": "MUFAs label",
+        "category": "legend_text",
+        "surface_text": "MUFAs (e.g., oleic acid)",
+        "normalized_text": "MUFAs (e.g., oleic acid)",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "anti-ferroptotic fatty acids"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t69",
+        "entity_type": "text",
+        "name": "ACSL3 label",
+        "category": "scientific_label",
+        "surface_text": "ACSL3",
+        "normalized_text": "ACSL3",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "MUFA activation enzyme"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t70",
+        "entity_type": "text",
+        "name": "MUFA-CoA label",
+        "category": "scientific_label",
+        "surface_text": "MUFA-CoA",
+        "normalized_text": "MUFA-CoA",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "activated MUFA intermediate"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t71",
+        "entity_type": "text",
+        "name": "MBOAT1/2 label",
+        "category": "scientific_label",
+        "surface_text": "MBOAT1/2",
+        "normalized_text": "MBOAT1/2",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "MUFA incorporation enzyme"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t72",
+        "entity_type": "text",
+        "name": "PL-MUFA label",
+        "category": "scientific_label",
+        "surface_text": "PL-MUFA",
+        "normalized_text": "PL-MUFA",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "MUFA-containing phospholipid"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t73",
+        "entity_type": "text",
+        "name": "Pro-ferroptotic label",
+        "category": "annotation_text",
+        "surface_text": "Pro-ferroptotic",
+        "normalized_text": "Pro-ferroptotic",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "PUFA outcome"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t74",
+        "entity_type": "text",
+        "name": "Anti-ferroptotic label",
+        "category": "annotation_text",
+        "surface_text": "Anti-ferroptotic",
+        "normalized_text": "Anti-ferroptotic",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "MUFA outcome"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t7",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t9",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t16",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t24",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "t38",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "t3",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "t3",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "t4",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "t5",
+        "target_entity_id": "v9",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "t6",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "t12",
+        "target_entity_id": "v2",
+        "relation_type": "inhibits",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "t15",
+        "target_entity_id": "t14",
+        "relation_type": "inhibits",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "t17",
+        "target_entity_id": "v3",
+        "relation_type": "inhibits",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "t18",
+        "target_entity_id": "v3",
+        "relation_type": "inhibits",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "v2",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "t10",
+        "target_entity_id": "v2",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "v2",
+        "target_entity_id": "t13",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "t13",
+        "target_entity_id": "v3",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "v3",
+        "target_entity_id": "v8",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "t20",
+        "target_entity_id": "t19",
+        "relation_type": "transforms_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "t22",
+        "target_entity_id": "v4",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "v4",
+        "target_entity_id": "t25",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r23",
+        "source_entity_id": "v4",
+        "target_entity_id": "t26",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r24",
+        "source_entity_id": "t25",
+        "target_entity_id": "v7",
+        "relation_type": "inhibits",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r25",
+        "source_entity_id": "t26",
+        "target_entity_id": "v7",
+        "relation_type": "inhibits",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r26",
+        "source_entity_id": "t31",
+        "target_entity_id": "v9",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r27",
+        "source_entity_id": "t32",
+        "target_entity_id": "v9",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r28",
+        "source_entity_id": "v9",
+        "target_entity_id": "v7",
+        "relation_type": "inhibits",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r29",
+        "source_entity_id": "v5",
+        "target_entity_id": "t36",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r30",
+        "source_entity_id": "t36",
+        "target_entity_id": "v7",
+        "relation_type": "inhibits",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r31",
+        "source_entity_id": "t39",
+        "target_entity_id": "v7",
+        "relation_type": "inhibits",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r32",
+        "source_entity_id": "t40",
+        "target_entity_id": "v7",
+        "relation_type": "inhibits",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r33",
+        "source_entity_id": "t42",
+        "target_entity_id": "v10",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r34",
+        "source_entity_id": "t55",
+        "target_entity_id": "t49",
+        "relation_type": "legend_for",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r35",
+        "source_entity_id": "t55",
+        "target_entity_id": "t50",
+        "relation_type": "legend_for",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r36",
+        "source_entity_id": "t45",
+        "target_entity_id": "v10",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r37",
+        "source_entity_id": "t44",
+        "target_entity_id": "v10",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r38",
+        "source_entity_id": "t43",
+        "target_entity_id": "v10",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r39",
+        "source_entity_id": "t51",
+        "target_entity_id": "v10",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r40",
+        "source_entity_id": "t49",
+        "target_entity_id": "t46",
+        "relation_type": "transforms_to",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r41",
+        "source_entity_id": "t53",
+        "target_entity_id": "t49",
+        "relation_type": "inhibits",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r42",
+        "source_entity_id": "t53",
+        "target_entity_id": "t50",
+        "relation_type": "inhibits",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r43",
+        "source_entity_id": "v10",
+        "target_entity_id": "v11",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r44",
+        "source_entity_id": "t56",
+        "target_entity_id": "v11",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r45",
+        "source_entity_id": "t58",
+        "target_entity_id": "v12",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r46",
+        "source_entity_id": "t58",
+        "target_entity_id": "v13",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r47",
+        "source_entity_id": "t59",
+        "target_entity_id": "v12",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r48",
+        "source_entity_id": "t66",
+        "target_entity_id": "v12",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r49",
+        "source_entity_id": "t68",
+        "target_entity_id": "v13",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r50",
+        "source_entity_id": "t72",
+        "target_entity_id": "v13",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r51",
+        "source_entity_id": "v12",
+        "target_entity_id": "t73",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r52",
+        "source_entity_id": "v13",
+        "target_entity_id": "t74",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r53",
+        "source_entity_id": "v12",
+        "target_entity_id": "v11",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "cross_panel"
+      }
+    ]
+  }
+}

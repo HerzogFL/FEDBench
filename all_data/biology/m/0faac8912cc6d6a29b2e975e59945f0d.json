@@ -1,0 +1,1029 @@
+{
+  "image_name": "0faac8912cc6d6a29b2e975e59945f0d.png",
+  "prompt_text": "The figure summarizes the structure of lipoprotein(a), showing it as an LDL-like particle with an added apolipoprotein(a) chain. The main spherical particle has a lipid core containing cholesteryl esters and triglycerides, surrounded by a phospholipid and free cholesterol surface. ApoB100 wraps around this LDL-like particle, while apo(a) is attached to it through a disulfide bond.\n\nApo(a) is depicted as a string of repeated kringle domains labeled KIV, followed by KV and a protease-like domain. One key point is that the KIV2 region is repeated a variable number of times, explaining apo(a) isoform size heterogeneity. The surface also includes oxidized phospholipids, suggesting that these lipids associate with lipoprotein(a).\n\nThe lower schematic compares apo(a) with plasminogen, emphasizing their structural similarity. Both contain kringle motifs and a protease domain, but apo(a) differs in function: its lysine-binding sites vary in strength, with weaker binding in some kringles and a stronger site near KIV10, and its protease domain is shown as inactive. Overall, the figure highlights how lipoprotein(a) combines an LDL particle with a plasminogen-like apo(a), helping explain its distinctive biological properties.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "LDL-like spherical particle",
+        "category": "molecule",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "spherical particle",
+          "lipid core",
+          "surface monolayer"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "apoB100 wrapped around particle",
+        "category": "protein",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "ribbon-like",
+          "surface-associated",
+          "encircling LDL-like particle"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "apo(a) chain attached to particle",
+        "category": "protein",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "beads-on-string",
+          "attached to LDL-like particle",
+          "domain chain"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "disulfide bond linking apo(a) and particle",
+        "category": "molecule",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "S-S linkage",
+          "protein attachment",
+          "covalent bond"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "kringle IV repeated domain series",
+        "category": "protein",
+        "panel": "a",
+        "count": 10,
+        "key_attributes": [
+          "repeated beads",
+          "KIV1-KIV10",
+          "linear chain"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "KIV2 repeat expansion region",
+        "category": "region",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "repeat bracket",
+          "variable copy number",
+          "isoform heterogeneity"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "KV domain",
+        "category": "protein",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "single terminal domain",
+          "after KIV10",
+          "before protease domain"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "protease-like domain of apo(a)",
+        "category": "protein",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "terminal oval",
+          "apo(a) end",
+          "protease-like"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "plasminogen domain schematic",
+        "category": "protein",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "comparison reference",
+          "kringle domains",
+          "protease domain"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v10",
+        "entity_type": "visual",
+        "name": "apo(a) domain schematic comparison row",
+        "category": "protein",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "linear domain map",
+          "aligned with plasminogen",
+          "comparison row"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v11",
+        "entity_type": "visual",
+        "name": "oxidized phospholipid surface features",
+        "category": "molecule",
+        "panel": "a",
+        "count": 3,
+        "key_attributes": [
+          "purple surface protrusions",
+          "surface-associated",
+          "OxPL"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v12",
+        "entity_type": "visual",
+        "name": "particle surface phospholipid/free cholesterol layer",
+        "category": "layer",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "outer monolayer",
+          "orange bead surface",
+          "contains PL and FC"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v13",
+        "entity_type": "visual",
+        "name": "neutral lipid core",
+        "category": "region",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "inner core",
+          "contains CE and TG",
+          "cutaway interior"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v14",
+        "entity_type": "visual",
+        "name": "weak lysine-binding site region",
+        "category": "region",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "under apo(a) kringles",
+          "weak LBS annotation",
+          "comparison feature"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v15",
+        "entity_type": "visual",
+        "name": "strong lysine-binding site near KIV10",
+        "category": "region",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "near KIV10",
+          "strong LBS annotation",
+          "comparison feature"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v16",
+        "entity_type": "visual",
+        "name": "inactive apo(a) protease callout",
+        "category": "region",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "boxed callout",
+          "protease inactivity",
+          "apo(a) specific"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v17",
+        "entity_type": "visual",
+        "name": "panel marker a",
+        "category": "panel_marker",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "top-left panel tag"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "v18",
+        "entity_type": "visual",
+        "name": "panel marker b",
+        "category": "panel_marker",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "left panel tag"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "panel label a",
+        "category": "panel_label",
+        "surface_text": "a",
+        "normalized_text": "a",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "panel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "LDL-like particle label",
+        "category": "scientific_label",
+        "surface_text": "LDL-like particle",
+        "normalized_text": "LDL-like particle",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "main particle"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "free cholesterol label",
+        "category": "scientific_label",
+        "surface_text": "FC",
+        "normalized_text": "free cholesterol",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "surface lipid"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "oxidized phospholipid label",
+        "category": "scientific_label",
+        "surface_text": "OxPL",
+        "normalized_text": "oxidized phospholipid",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "surface-associated"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "phospholipid label",
+        "category": "scientific_label",
+        "surface_text": "PL",
+        "normalized_text": "phospholipid",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "surface layer"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "triglyceride label",
+        "category": "scientific_label",
+        "surface_text": "TG",
+        "normalized_text": "triglyceride",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "core lipid"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "cholesteryl ester label",
+        "category": "scientific_label",
+        "surface_text": "CE",
+        "normalized_text": "cholesteryl ester",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "core lipid"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "ApoB100 label",
+        "category": "scientific_label",
+        "surface_text": "ApoB100",
+        "normalized_text": "ApoB100",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "surface apolipoprotein"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "Apo(a) label in panel a",
+        "category": "scientific_label",
+        "surface_text": "Apo(a)",
+        "normalized_text": "Apo(a)",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "attached chain"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "KIV2 label",
+        "category": "scientific_label",
+        "surface_text": "KIV2",
+        "normalized_text": "KIV2",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "repeat region"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "KIV10 label",
+        "category": "scientific_label",
+        "surface_text": "KIV10",
+        "normalized_text": "KIV10",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "strong LBS region"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "KV label",
+        "category": "scientific_label",
+        "surface_text": "KV",
+        "normalized_text": "KV",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "terminal kringle"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "disulfide bond annotation",
+        "category": "annotation_text",
+        "surface_text": "S-S",
+        "normalized_text": "disulfide bond",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "bond label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t14",
+        "entity_type": "text",
+        "name": "protease domain label in panel a",
+        "category": "scientific_label",
+        "surface_text": "Protease domain",
+        "normalized_text": "protease domain",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "apo(a) terminal domain"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t15",
+        "entity_type": "text",
+        "name": "panel label b",
+        "category": "panel_label",
+        "surface_text": "b",
+        "normalized_text": "b",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "panel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t16",
+        "entity_type": "text",
+        "name": "Plasminogen label",
+        "category": "scientific_label",
+        "surface_text": "Plasminogen",
+        "normalized_text": "Plasminogen",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "comparison protein"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t17",
+        "entity_type": "text",
+        "name": "Apo(a) label in panel b",
+        "category": "scientific_label",
+        "surface_text": "Apo(a)",
+        "normalized_text": "Apo(a)",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "comparison protein"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t18",
+        "entity_type": "text",
+        "name": "repeat count annotation",
+        "category": "annotation_text",
+        "surface_text": "n",
+        "normalized_text": "n",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "variable repeat number"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t19",
+        "entity_type": "text",
+        "name": "thiol annotation",
+        "category": "annotation_text",
+        "surface_text": "SH",
+        "normalized_text": "SH",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "free sulfhydryl"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t20",
+        "entity_type": "text",
+        "name": "weak lysine-binding site annotation",
+        "category": "annotation_text",
+        "surface_text": "Weak LBS",
+        "normalized_text": "weak lysine-binding site",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "apo(a) property"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t21",
+        "entity_type": "text",
+        "name": "strong lysine-binding site annotation",
+        "category": "annotation_text",
+        "surface_text": "Strong LBS",
+        "normalized_text": "strong lysine-binding site",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "near KIV10"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t22",
+        "entity_type": "text",
+        "name": "isoform heterogeneity annotation",
+        "category": "annotation_text",
+        "surface_text": "Isoform size heterogeneity",
+        "normalized_text": "isoform size heterogeneity",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "repeat consequence"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t23",
+        "entity_type": "text",
+        "name": "OxPL addition annotation",
+        "category": "annotation_text",
+        "surface_text": "OxPL addition",
+        "normalized_text": "oxidized phospholipid addition",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "apo(a)-associated OxPL"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t24",
+        "entity_type": "text",
+        "name": "inactive protease annotation",
+        "category": "annotation_text",
+        "surface_text": "Inactive protease",
+        "normalized_text": "inactive protease",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "apo(a) domain function"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t2",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t8",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t9",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t13",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "t10",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "t12",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "t14",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "t16",
+        "target_entity_id": "v9",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "t17",
+        "target_entity_id": "v10",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "t4",
+        "target_entity_id": "v11",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "t5",
+        "target_entity_id": "v12",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "t3",
+        "target_entity_id": "v12",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "t6",
+        "target_entity_id": "v13",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "t7",
+        "target_entity_id": "v13",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "t20",
+        "target_entity_id": "v14",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "t21",
+        "target_entity_id": "v15",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "t24",
+        "target_entity_id": "v16",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "v2",
+        "target_entity_id": "v1",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "v3",
+        "target_entity_id": "v1",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "v4",
+        "target_entity_id": "v3",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "v4",
+        "target_entity_id": "v1",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "v5",
+        "target_entity_id": "v3",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r23",
+        "source_entity_id": "v7",
+        "target_entity_id": "v3",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r24",
+        "source_entity_id": "v8",
+        "target_entity_id": "v3",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r25",
+        "source_entity_id": "v11",
+        "target_entity_id": "v12",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r26",
+        "source_entity_id": "v12",
+        "target_entity_id": "v1",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r27",
+        "source_entity_id": "v13",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r28",
+        "source_entity_id": "v5",
+        "target_entity_id": "v7",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r29",
+        "source_entity_id": "v7",
+        "target_entity_id": "v8",
+        "relation_type": "left_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r30",
+        "source_entity_id": "v6",
+        "target_entity_id": "v10",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r31",
+        "source_entity_id": "t18",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r32",
+        "source_entity_id": "t22",
+        "target_entity_id": "v6",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r33",
+        "source_entity_id": "v15",
+        "target_entity_id": "v10",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r34",
+        "source_entity_id": "v16",
+        "target_entity_id": "v10",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r35",
+        "source_entity_id": "v14",
+        "target_entity_id": "v10",
+        "relation_type": "part_of",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r36",
+        "source_entity_id": "v10",
+        "target_entity_id": "v9",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r37",
+        "source_entity_id": "v14",
+        "target_entity_id": "v15",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r38",
+        "source_entity_id": "v15",
+        "target_entity_id": "v16",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r39",
+        "source_entity_id": "v1",
+        "target_entity_id": "v10",
+        "relation_type": "above",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "global"
+      }
+    ]
+  }
+}

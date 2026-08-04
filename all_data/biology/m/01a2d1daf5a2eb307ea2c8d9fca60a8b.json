@@ -1,0 +1,1113 @@
+{
+  "image_name": "01a2d1daf5a2eb307ea2c8d9fca60a8b.jpg",
+  "prompt_text": "The figure summarizes nitrogen cycling driven by different microbial groups across several marine and plant-associated environments. Across all panels, arrows connect named bacteria and archaea to key nitrogen compounds such as ammonium, nitrite, nitrate, organic nitrogen, nitrous oxide, and dinitrogen, showing how microbial communities transform nitrogen through fixation, nitrification, denitrification, anammox, and recycling.\n\nThe upper marine panels emphasize planktonic systems. Cyanobacteria and associated microbes appear to supply fixed nitrogen, while abundant ocean taxa such as Pelagibacter, Prochlorococcus, and nitrifiers like Nitrosopumilus and Nitrospina exchange ammonium, nitrite, and nitrate. Organic matter release, grazing, and viral lysis feed organic nitrogen back into the system. A second marine scheme highlights low-oxygen conditions, where pathways leading to N2 and N2O become more prominent and involve groups such as Scalindua, Arcobacter, and other proteobacteria.\n\nThe lower panels shift to soils or rhizosphere-like settings. Around roots, organic carbon inputs stimulate complex coupling between aerobic and anaerobic processes. Nitrifiers convert ammonium to nitrite and nitrate in oxic zones, while denitrifiers, anammox bacteria, and methane-linked microbes in anoxic zones return nitrogen to N2 or N2O. Overall, the image conveys that nitrogen transformations depend strongly on habitat, oxygen availability, and interactions among diverse microbial taxa.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "microbial taxa icons",
+        "category": "cell",
+        "panel": "all_panels",
+        "count": 30,
+        "key_attributes": [
+          "colored microbe shapes",
+          "named taxa",
+          "connected to compounds"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "nitrogen compound nodes",
+        "category": "molecule",
+        "panel": "all_panels",
+        "count": 8,
+        "key_attributes": [
+          "NH4+",
+          "NO2-",
+          "NO3-",
+          "N2/N2O"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "transformation arrows",
+        "category": "arrow",
+        "panel": "all_panels",
+        "count": 1,
+        "key_attributes": [
+          "directed links",
+          "microbes to compounds",
+          "pathway flow"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "marine water background regions",
+        "category": "region",
+        "panel": "a,b",
+        "count": 2,
+        "key_attributes": [
+          "blue background",
+          "planktonic systems",
+          "marine habitat"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "root-associated soil region",
+        "category": "region",
+        "panel": "c,d",
+        "count": 2,
+        "key_attributes": [
+          "tan soil",
+          "plant roots",
+          "rhizosphere setting"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "plant root system",
+        "category": "pathway_component",
+        "panel": "c,d",
+        "count": 2,
+        "key_attributes": [
+          "green roots",
+          "carbon input context",
+          "root-associated"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "oxic and anoxic layered zones",
+        "category": "layer",
+        "panel": "d",
+        "count": 2,
+        "key_attributes": [
+          "upper oxic",
+          "lower anoxic",
+          "habitat stratification"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "mesozooplankton/grazing icon",
+        "category": "cell",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "small grazer",
+          "marine food web",
+          "organic matter recycling"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "viral particles near lysis label",
+        "category": "pathway_component",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "small dots",
+          "viral lysis",
+          "organic N recycling"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v10",
+        "entity_type": "visual",
+        "name": "panel markers",
+        "category": "panel_marker",
+        "panel": "all_panels",
+        "count": 4,
+        "key_attributes": [
+          "a-d labels",
+          "panel organization"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "Trichodesmium label",
+        "category": "scientific_label",
+        "surface_text": "Trichodesmium spp.",
+        "normalized_text": "Trichodesmium spp.",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "cyanobacteria",
+          "marine diazotroph"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "Pelagibacter label",
+        "category": "scientific_label",
+        "surface_text": "Pelagibacter spp.",
+        "normalized_text": "Pelagibacter spp.",
+        "panel": "a,b",
+        "count": 2,
+        "key_attributes": [
+          "ocean taxon"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "Prochlorococcus label",
+        "category": "scientific_label",
+        "surface_text": "Prochlorococcus spp.",
+        "normalized_text": "Prochlorococcus spp.",
+        "panel": "a,b",
+        "count": 2,
+        "key_attributes": [
+          "marine cyanobacterium"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "Nitrosopumilus label",
+        "category": "scientific_label",
+        "surface_text": "Nitrosopumilus spp.",
+        "normalized_text": "Nitrosopumilus spp.",
+        "panel": "a,b",
+        "count": 2,
+        "key_attributes": [
+          "nitrifier",
+          "marine archaeon"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "Nitrospina label",
+        "category": "scientific_label",
+        "surface_text": "Nitrospina spp.",
+        "normalized_text": "Nitrospina spp.",
+        "panel": "a,b,c,d",
+        "count": 4,
+        "key_attributes": [
+          "nitrite oxidizer",
+          "nitrifier"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "Scalindua label",
+        "category": "scientific_label",
+        "surface_text": "Scalindua spp.",
+        "normalized_text": "Scalindua spp.",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "anammox bacterium",
+          "low oxygen marine"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "Arcobacter label",
+        "category": "scientific_label",
+        "surface_text": "Arcobacter spp.",
+        "normalized_text": "Arcobacter spp.",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "proteobacterial group",
+          "low oxygen marine"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "Proteobacteria label",
+        "category": "scientific_label",
+        "surface_text": "Proteobacteria",
+        "normalized_text": "Proteobacteria",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "broad bacterial group"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "Nitrosomonas label",
+        "category": "scientific_label",
+        "surface_text": "Nitrosomonas spp.",
+        "normalized_text": "Nitrosomonas spp.",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "soil nitrifier"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "Pseudomonas label",
+        "category": "scientific_label",
+        "surface_text": "Pseudomonas spp.",
+        "normalized_text": "Pseudomonas spp.",
+        "panel": "c,d",
+        "count": 2,
+        "key_attributes": [
+          "denitrifier"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "Brocadia label",
+        "category": "scientific_label",
+        "surface_text": "Brocadia spp.",
+        "normalized_text": "Brocadia spp.",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "anammox bacterium"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "Methylomirabilis label",
+        "category": "scientific_label",
+        "surface_text": "Methylomirabilis spp.",
+        "normalized_text": "Methylomirabilis spp.",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "methane-linked microbe"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "Methanoperedens label",
+        "category": "scientific_label",
+        "surface_text": "Methanoperedens spp.",
+        "normalized_text": "Methanoperedens spp.",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "methane-linked archaeon"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t14",
+        "entity_type": "text",
+        "name": "Mesozooplankton label",
+        "category": "scientific_label",
+        "surface_text": "Mesozooplankton",
+        "normalized_text": "Mesozooplankton",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "grazing"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t15",
+        "entity_type": "text",
+        "name": "Viral lysis label",
+        "category": "annotation_text",
+        "surface_text": "Viral lysis",
+        "normalized_text": "Viral lysis",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "recycling process"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t16",
+        "entity_type": "text",
+        "name": "Organic nitrogen label",
+        "category": "annotation_text",
+        "surface_text": "Organic N",
+        "normalized_text": "Organic N",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "nitrogen pool"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t17",
+        "entity_type": "text",
+        "name": "Dinitrogen label",
+        "category": "scientific_label",
+        "surface_text": "N2",
+        "normalized_text": "N2",
+        "panel": "all_panels",
+        "count": 6,
+        "key_attributes": [
+          "dinitrogen"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t18",
+        "entity_type": "text",
+        "name": "Ammonium label",
+        "category": "scientific_label",
+        "surface_text": "NH4+",
+        "normalized_text": "NH4+",
+        "panel": "all_panels",
+        "count": 6,
+        "key_attributes": [
+          "ammonium"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t19",
+        "entity_type": "text",
+        "name": "Nitrite label",
+        "category": "scientific_label",
+        "surface_text": "NO2−",
+        "normalized_text": "NO2−",
+        "panel": "all_panels",
+        "count": 6,
+        "key_attributes": [
+          "nitrite"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t20",
+        "entity_type": "text",
+        "name": "Nitrate label",
+        "category": "scientific_label",
+        "surface_text": "NO3−",
+        "normalized_text": "NO3−",
+        "panel": "all_panels",
+        "count": 6,
+        "key_attributes": [
+          "nitrate"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t21",
+        "entity_type": "text",
+        "name": "Organic carbon label",
+        "category": "annotation_text",
+        "surface_text": "Organic C",
+        "normalized_text": "Organic C",
+        "panel": "b,c,d",
+        "count": 4,
+        "key_attributes": [
+          "carbon input",
+          "root stimulation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t22",
+        "entity_type": "text",
+        "name": "Nitrous oxide label",
+        "category": "scientific_label",
+        "surface_text": "N2O",
+        "normalized_text": "N2O",
+        "panel": "b,c,d",
+        "count": 5,
+        "key_attributes": [
+          "nitrous oxide"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t23",
+        "entity_type": "text",
+        "name": "Oxygen label",
+        "category": "scientific_label",
+        "surface_text": "O2",
+        "normalized_text": "O2",
+        "panel": "b,c,d",
+        "count": 4,
+        "key_attributes": [
+          "oxygen availability"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t24",
+        "entity_type": "text",
+        "name": "Oxic label",
+        "category": "annotation_text",
+        "surface_text": "Oxic",
+        "normalized_text": "Oxic",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "upper layer"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t25",
+        "entity_type": "text",
+        "name": "Anoxic label",
+        "category": "annotation_text",
+        "surface_text": "Anoxic",
+        "normalized_text": "Anoxic",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "lower layer"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t26",
+        "entity_type": "text",
+        "name": "Methane label",
+        "category": "scientific_label",
+        "surface_text": "CH4",
+        "normalized_text": "CH4",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "methane-linked process"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t27",
+        "entity_type": "text",
+        "name": "Urea label",
+        "category": "scientific_label",
+        "surface_text": "Urea",
+        "normalized_text": "Urea",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "nitrogen substrate"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t28",
+        "entity_type": "text",
+        "name": "panel a label",
+        "category": "panel_label",
+        "surface_text": "a",
+        "normalized_text": "a",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "panel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t29",
+        "entity_type": "text",
+        "name": "panel b label",
+        "category": "panel_label",
+        "surface_text": "b",
+        "normalized_text": "b",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "panel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t30",
+        "entity_type": "text",
+        "name": "panel c label",
+        "category": "panel_label",
+        "surface_text": "c",
+        "normalized_text": "c",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "panel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t31",
+        "entity_type": "text",
+        "name": "panel d label",
+        "category": "panel_label",
+        "surface_text": "d",
+        "normalized_text": "d",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "panel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t2",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t3",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t4",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t5",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "t6",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "t7",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "t16",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "t17",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "t18",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "t19",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "t20",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "t22",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "v1",
+        "target_entity_id": "v2",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "v3",
+        "target_entity_id": "v1",
+        "relation_type": "points_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "v3",
+        "target_entity_id": "v2",
+        "relation_type": "points_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "v1",
+        "target_entity_id": "v4",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "v1",
+        "target_entity_id": "v5",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "v6",
+        "target_entity_id": "v5",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "t24",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "t25",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "t24",
+        "target_entity_id": "t25",
+        "relation_type": "above",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "v7",
+        "target_entity_id": "v5",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r23",
+        "source_entity_id": "t4",
+        "target_entity_id": "t18",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r24",
+        "source_entity_id": "t4",
+        "target_entity_id": "t19",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r25",
+        "source_entity_id": "t5",
+        "target_entity_id": "t19",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r26",
+        "source_entity_id": "t5",
+        "target_entity_id": "t20",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r27",
+        "source_entity_id": "t6",
+        "target_entity_id": "t17",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r28",
+        "source_entity_id": "t6",
+        "target_entity_id": "t22",
+        "relation_type": "connected_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r29",
+        "source_entity_id": "t7",
+        "target_entity_id": "t17",
+        "relation_type": "connected_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r30",
+        "source_entity_id": "t2",
+        "target_entity_id": "t18",
+        "relation_type": "connected_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r31",
+        "source_entity_id": "t2",
+        "target_entity_id": "t16",
+        "relation_type": "connected_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r32",
+        "source_entity_id": "t3",
+        "target_entity_id": "t18",
+        "relation_type": "connected_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r33",
+        "source_entity_id": "t3",
+        "target_entity_id": "t16",
+        "relation_type": "connected_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r34",
+        "source_entity_id": "t9",
+        "target_entity_id": "t18",
+        "relation_type": "connected_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r35",
+        "source_entity_id": "t9",
+        "target_entity_id": "t19",
+        "relation_type": "connected_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r36",
+        "source_entity_id": "t10",
+        "target_entity_id": "t20",
+        "relation_type": "connected_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r37",
+        "source_entity_id": "t10",
+        "target_entity_id": "t17",
+        "relation_type": "connected_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r38",
+        "source_entity_id": "t10",
+        "target_entity_id": "t22",
+        "relation_type": "connected_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r39",
+        "source_entity_id": "t11",
+        "target_entity_id": "t17",
+        "relation_type": "connected_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r40",
+        "source_entity_id": "t11",
+        "target_entity_id": "t22",
+        "relation_type": "connected_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r41",
+        "source_entity_id": "t12",
+        "target_entity_id": "t17",
+        "relation_type": "connected_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r42",
+        "source_entity_id": "t12",
+        "target_entity_id": "t22",
+        "relation_type": "connected_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r43",
+        "source_entity_id": "t13",
+        "target_entity_id": "t26",
+        "relation_type": "connected_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r44",
+        "source_entity_id": "t13",
+        "target_entity_id": "t17",
+        "relation_type": "connected_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r45",
+        "source_entity_id": "t14",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r46",
+        "source_entity_id": "t15",
+        "target_entity_id": "v9",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r47",
+        "source_entity_id": "v8",
+        "target_entity_id": "t16",
+        "relation_type": "connected_to",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r48",
+        "source_entity_id": "v9",
+        "target_entity_id": "t16",
+        "relation_type": "connected_to",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r49",
+        "source_entity_id": "t21",
+        "target_entity_id": "v5",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      }
+    ]
+  }
+}

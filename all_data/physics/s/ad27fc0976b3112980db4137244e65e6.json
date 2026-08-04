@@ -1,0 +1,482 @@
+{
+  "image_name": "ad27fc0976b3112980db4137244e65e6.png",
+  "prompt_text": "The figure illustrates how a complex crystal structure can be simplified into a framework description that highlights where lithium ions sit. It starts with a three-dimensional arrangement of polyhedra, then reduces this to a two-dimensional network built from anions and non-lithium cations. In this intermediate view, yellow spheres form the anion lattice, while red and pink sites mark the other cations embedded in the framework; green spheres indicate lithium.\n\nThe central idea is that the chemically complicated structure can be separated into a relatively regular anion framework and the voids or channels created by that framework. Once only the anion network is retained, the geometry of possible lithium positions becomes clearer. The final panel emphasizes this by shading connected regions that represent the topology of lithium sites supplied by the framework. Lithium appears to occupy a subset of these available positions within repeating motifs, while the non-lithium cations remain part of the host scaffold.\n\nOverall, the figure shows a progression from full crystal chemistry to an abstract structural map, revealing how the underlying anion framework determines the arrangement and connectivity of lithium sites.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "3D crystal structure polyhedral assembly",
+        "category": "material_structure",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "3D polyhedra",
+          "mixed blue and pink units",
+          "starting structure"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "framework network with anions and non-lithium cations",
+        "category": "material_structure",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "2D network",
+          "yellow anion lattice",
+          "embedded red and pink cations"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "anion framework network",
+        "category": "material_structure",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "yellow nodes",
+          "gray bonds",
+          "framework only"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "shaded topology regions of lithium sites",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "cyan shaded channels",
+          "connected motifs",
+          "derived from framework"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "lithium ions",
+        "category": "molecule",
+        "panel": "single_panel",
+        "count": 10,
+        "key_attributes": [
+          "green spheres",
+          "subset of available sites",
+          "within framework voids"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "anions",
+        "category": "molecule",
+        "panel": "single_panel",
+        "count": 50,
+        "key_attributes": [
+          "yellow spheres",
+          "framework lattice",
+          "repeating nodes"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "non-lithium cation sites",
+        "category": "molecule",
+        "panel": "single_panel",
+        "count": 16,
+        "key_attributes": [
+          "red and pink sites",
+          "host scaffold",
+          "embedded in framework"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "progression arrows",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 3,
+        "key_attributes": [
+          "left-to-right",
+          "stage transition",
+          "dark blue"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "legend color markers",
+        "category": "legend_key",
+        "panel": "single_panel",
+        "count": 4,
+        "key_attributes": [
+          "red and pink cation keys",
+          "green lithium key",
+          "yellow anion key"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "Crystal structure",
+        "category": "scientific_label",
+        "surface_text": "Crystal structure",
+        "normalized_text": "Crystal structure",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "stage title"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "Frameworks (anions and non-Li cations)",
+        "category": "scientific_label",
+        "surface_text": "Frameworks (anions and non-Li cations)",
+        "normalized_text": "Frameworks (anions and non-Li cations)",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "stage title"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "Anion frameworks",
+        "category": "scientific_label",
+        "surface_text": "Anion frameworks",
+        "normalized_text": "Anion frameworks",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "stage title"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "Topology of lithium sites provided by the framework",
+        "category": "scientific_label",
+        "surface_text": "Topology of lithium sites provided by the framework",
+        "normalized_text": "Topology of lithium sites provided by the framework",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "stage title"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "Non-Li cation",
+        "category": "legend_text",
+        "surface_text": "Non-Li cation",
+        "normalized_text": "Non-Li cation",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "legend entry"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "Lithium",
+        "category": "legend_text",
+        "surface_text": "Lithium",
+        "normalized_text": "Lithium",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "legend entry"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "Anion",
+        "category": "legend_text",
+        "surface_text": "Anion",
+        "normalized_text": "Anion",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "legend entry"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t1",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t2",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t3",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t4",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "t5",
+        "target_entity_id": "v9",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "t6",
+        "target_entity_id": "v9",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "t7",
+        "target_entity_id": "v9",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "v9",
+        "target_entity_id": "v7",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "v9",
+        "target_entity_id": "v5",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "v9",
+        "target_entity_id": "v6",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "v8",
+        "target_entity_id": "v1",
+        "relation_type": "points_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "v1",
+        "target_entity_id": "v2",
+        "relation_type": "transforms_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "v2",
+        "target_entity_id": "v3",
+        "relation_type": "transforms_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "v3",
+        "target_entity_id": "v4",
+        "relation_type": "transforms_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "v6",
+        "target_entity_id": "v2",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "v7",
+        "target_entity_id": "v2",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "v6",
+        "target_entity_id": "v3",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "v5",
+        "target_entity_id": "v2",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "v7",
+        "target_entity_id": "v2",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "v5",
+        "target_entity_id": "v4",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "v4",
+        "target_entity_id": "v3",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "v1",
+        "target_entity_id": "v2",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r23",
+        "source_entity_id": "v2",
+        "target_entity_id": "v3",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r24",
+        "source_entity_id": "v3",
+        "target_entity_id": "v4",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      }
+    ]
+  }
+}

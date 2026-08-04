@@ -1,0 +1,332 @@
+{
+  "image_name": "db28d706112da2e13e93ffbf105b0a70.png",
+  "prompt_text": "The figure illustrates how time-resolved liquid-phase electron microscopy can be used to follow a reaction and infer its mechanism. A filmstrip-style sequence across the top shows clusters of mostly pink spheres changing over reaction progress as blue spheres appear and become incorporated into the particle groups. Early frames contain only pink clusters, while later frames show mixed pink–blue assemblies and a growing fraction of blue-containing products, indicating a gradual compositional transformation during the reaction.\n\nBelow the sequence, pie charts summarize this shift quantitatively: the red portion increases from left to right, suggesting that the amount of transformed or exchanged material rises as the reaction proceeds. An arrow labeled reaction progress ties the microscopy snapshots and summary charts into a time-evolution picture.\n\nOn the right, the figure connects these observations to a molecular-scale mechanism. A benzene-like ring with a blue substituent is shown converting, via an arrow, to a similar ring with a pink substituent, alongside a cluster and a dark dot that appears to represent the reactive particle or catalytic site. Overall, the image conveys a workflow from direct nanoscale monitoring of changing particle composition to a proposed atomistic or catalytic exchange mechanism.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "filmstrip microscopy sequence",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "top horizontal sequence",
+          "reaction snapshots",
+          "filmstrip frame border"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "pink particle clusters",
+        "category": "material_structure",
+        "panel": "single_panel",
+        "count": 8,
+        "key_attributes": [
+          "mostly pink spheres",
+          "clustered particles",
+          "early-stage assemblies"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "blue spheres incorporated into clusters",
+        "category": "material_structure",
+        "panel": "single_panel",
+        "count": 8,
+        "key_attributes": [
+          "blue components appear",
+          "mixed pink-blue assemblies",
+          "later-stage products"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "pie charts summarizing composition shift",
+        "category": "legend_key",
+        "panel": "single_panel",
+        "count": 3,
+        "key_attributes": [
+          "three pies",
+          "red fraction increases",
+          "quantitative summary"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "reaction progress arrow",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "horizontal arrow",
+          "left to right",
+          "ties sequence and charts"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "molecular conversion arrow",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "curved arrow",
+          "mechanism direction",
+          "top molecule to bottom molecule"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "reactant aromatic ring with blue substituent",
+        "category": "molecule",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "benzene-like ring",
+          "blue substituent",
+          "upper right"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "product aromatic ring with pink substituent",
+        "category": "molecule",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "benzene-like ring",
+          "pink substituent",
+          "lower right"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "particle cluster near mechanism",
+        "category": "material_structure",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "pink sphere cluster",
+          "right-side inset",
+          "associated with mechanism"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v10",
+        "entity_type": "visual",
+        "name": "dark reactive site dot",
+        "category": "pathway_component",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "dark circular dot",
+          "between cluster and arrow",
+          "catalytic or reactive site"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "workflow heading left",
+        "category": "annotation_text",
+        "surface_text": "From liquid-phase electron-microscopy monitoring...",
+        "normalized_text": "From liquid-phase electron-microscopy monitoring...",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "top title fragment",
+          "left side",
+          "workflow start"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "workflow heading right",
+        "category": "annotation_text",
+        "surface_text": "...to mechanism",
+        "normalized_text": "...to mechanism",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "top title fragment",
+          "right side",
+          "workflow end"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "reaction progress label",
+        "category": "scientific_label",
+        "surface_text": "Reaction progress",
+        "normalized_text": "Reaction progress",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "arrow label",
+          "time evolution",
+          "bottom center"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t3",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "v2",
+        "target_entity_id": "v3",
+        "relation_type": "transforms_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "v5",
+        "target_entity_id": "v1",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "v5",
+        "target_entity_id": "v4",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "v1",
+        "target_entity_id": "v4",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "v1",
+        "target_entity_id": "v4",
+        "relation_type": "above",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "v7",
+        "target_entity_id": "v8",
+        "relation_type": "transforms_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "v6",
+        "target_entity_id": "v7",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "v6",
+        "target_entity_id": "v8",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "v7",
+        "target_entity_id": "v8",
+        "relation_type": "above",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "v10",
+        "target_entity_id": "v9",
+        "relation_type": "connected_to",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "v1",
+        "target_entity_id": "v7",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      }
+    ]
+  }
+}

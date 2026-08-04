@@ -1,0 +1,1390 @@
+{
+  "image_name": "1ff930c0b05f4c6183fae8a24fb53405.jpg",
+  "prompt_text": "The figure compares four extracorporeal bioartificial liver support systems, all designed to temporarily treat liver failure by circulating a patient’s blood outside the body through purification and cell-based support modules. In every diagram, blood or separated plasma is drawn from the patient, routed through devices that remove toxins, and then returned.\n\nA central theme is the different ways these systems combine detoxification with bioreactors containing living liver-related cells. HepatAssist appears to use plasma separation plus a charcoal column and a bioreactor. ELAD routes plasma through multiple bioreactors, with added control elements such as a glucose pump and heat exchanger. The modular extracorporeal liver support design separates functions most explicitly, showing a plasma path connected to an oxygenated cell module and a distinct detox module, along with dialysis-related filters and solutions. The AMC-bioartificial liver also integrates plasma processing, oxygenation, filtration, and a bioreactor in a somewhat more compact circuit.\n\nOverall, the image highlights that these devices share the same clinical goal—external liver replacement support—but differ in circuit architecture and in how they balance plasma filtration, adsorption or dialysis-based detoxification, oxygenation, and bioreactor-based metabolic assistance.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "patient silhouette",
+        "category": "region",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "human outline",
+          "blood source/return"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "blood/plasma flow arrows",
+        "category": "arrow",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "red circuit",
+          "directional flow"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "plasmapheresis separator",
+        "category": "device_component",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "round separator",
+          "plasma separation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "charcoal column device",
+        "category": "device_component",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "green column",
+          "detox adsorption"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "bioreactor vessel",
+        "category": "device_component",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "vertical cylinder",
+          "cell support"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "reservoir",
+        "category": "device_component",
+        "panel": "a",
+        "count": 2,
+        "key_attributes": [
+          "tan/gray blocks",
+          "circuit accessory"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "patient silhouette",
+        "category": "region",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "human outline",
+          "blood source/return"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "blood/plasma flow arrows",
+        "category": "arrow",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "red circuit",
+          "directional flow"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "plasmapheresis device",
+        "category": "device_component",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "vertical separator",
+          "plasma branch"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v10",
+        "entity_type": "visual",
+        "name": "glucose pump",
+        "category": "device_component",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "small green block",
+          "control element"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v11",
+        "entity_type": "visual",
+        "name": "ELAD bioreactor array",
+        "category": "device_component",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "multiple stacked cartridges",
+          "parallel bioreactors"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v12",
+        "entity_type": "visual",
+        "name": "heat exchanger",
+        "category": "device_component",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "gray horizontal unit",
+          "temperature control"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v13",
+        "entity_type": "visual",
+        "name": "reservoir",
+        "category": "device_component",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "tan block",
+          "circuit accessory"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v14",
+        "entity_type": "visual",
+        "name": "patient silhouette",
+        "category": "region",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "human outline",
+          "blood source/return"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v15",
+        "entity_type": "visual",
+        "name": "blood/plasma flow arrows",
+        "category": "arrow",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "red and blue paths",
+          "directional flow"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v16",
+        "entity_type": "visual",
+        "name": "plasmapheresis device",
+        "category": "device_component",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "vertical separator",
+          "whole blood to plasma"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v17",
+        "entity_type": "visual",
+        "name": "oxygenator",
+        "category": "device_component",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "large yellow circle",
+          "oxygenated module"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v18",
+        "entity_type": "visual",
+        "name": "cell module",
+        "category": "device_component",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "right-side module",
+          "connected to oxygenation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v19",
+        "entity_type": "visual",
+        "name": "detox module",
+        "category": "device_component",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "lower circuit branch",
+          "distinct detox path"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v20",
+        "entity_type": "visual",
+        "name": "dialysis-related filters and solutions",
+        "category": "device_component",
+        "panel": "c",
+        "count": 4,
+        "key_attributes": [
+          "small colored modules",
+          "filter/solution symbols"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v21",
+        "entity_type": "visual",
+        "name": "patient silhouette",
+        "category": "region",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "human outline",
+          "blood source/return"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v22",
+        "entity_type": "visual",
+        "name": "blood/plasma flow arrows",
+        "category": "arrow",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "red and blue paths",
+          "directional flow"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v23",
+        "entity_type": "visual",
+        "name": "plasma processing separator",
+        "category": "device_component",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "round separator",
+          "compact circuit"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v24",
+        "entity_type": "visual",
+        "name": "oxygenation unit",
+        "category": "device_component",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "tan block",
+          "oxygenation step"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v25",
+        "entity_type": "visual",
+        "name": "bioreactor vessel",
+        "category": "device_component",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "vertical cylinder",
+          "cell-based support"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v26",
+        "entity_type": "visual",
+        "name": "filters",
+        "category": "device_component",
+        "panel": "d",
+        "count": 2,
+        "key_attributes": [
+          "paired rectangular filters",
+          "filtration step"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v27",
+        "entity_type": "visual",
+        "name": "legend symbol set",
+        "category": "legend_key",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "colored key",
+          "device symbols"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "v28",
+        "entity_type": "visual",
+        "name": "panel markers",
+        "category": "panel_marker",
+        "panel": "single_panel",
+        "count": 4,
+        "key_attributes": [
+          "a-d labels",
+          "panel indexing"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "panel label a",
+        "category": "panel_label",
+        "surface_text": "a",
+        "normalized_text": "a",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "panel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "HepatAssist system title",
+        "category": "scientific_label",
+        "surface_text": "HepatAssist™",
+        "normalized_text": "HepatAssist",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "system name"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "whole blood label panel a",
+        "category": "scientific_label",
+        "surface_text": "Whole blood",
+        "normalized_text": "whole blood",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "blood path"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "charcoal column label",
+        "category": "scientific_label",
+        "surface_text": "Charcoal column",
+        "normalized_text": "charcoal column",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "detox module"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "bioreactor label panel a",
+        "category": "scientific_label",
+        "surface_text": "Bioreactor",
+        "normalized_text": "bioreactor",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "cell support"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "panel label b",
+        "category": "panel_label",
+        "surface_text": "b",
+        "normalized_text": "b",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "panel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "ELAD system title",
+        "category": "scientific_label",
+        "surface_text": "Extracorporeal Liver Assist Device (ELAD)®",
+        "normalized_text": "Extracorporeal Liver Assist Device (ELAD)",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "system name"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "whole blood label panel b",
+        "category": "scientific_label",
+        "surface_text": "Whole blood",
+        "normalized_text": "whole blood",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "blood path"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "plasma label panel b",
+        "category": "scientific_label",
+        "surface_text": "Plasma",
+        "normalized_text": "plasma",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "separated plasma"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "glucose pump label",
+        "category": "scientific_label",
+        "surface_text": "Glucose pump",
+        "normalized_text": "glucose pump",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "control element"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "ELAD bioreactors label",
+        "category": "scientific_label",
+        "surface_text": "ELAD bioreactors",
+        "normalized_text": "ELAD bioreactors",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "multiple bioreactors"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "heat exchanger label",
+        "category": "scientific_label",
+        "surface_text": "Heat exchanger",
+        "normalized_text": "heat exchanger",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "control element"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "panel label c",
+        "category": "panel_label",
+        "surface_text": "c",
+        "normalized_text": "c",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "panel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t14",
+        "entity_type": "text",
+        "name": "modular system title",
+        "category": "scientific_label",
+        "surface_text": "Modular Extracorporeal Liver Support",
+        "normalized_text": "Modular Extracorporeal Liver Support",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "system name"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t15",
+        "entity_type": "text",
+        "name": "whole blood label panel c",
+        "category": "scientific_label",
+        "surface_text": "Whole blood",
+        "normalized_text": "whole blood",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "blood path"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t16",
+        "entity_type": "text",
+        "name": "plasma label panel c",
+        "category": "scientific_label",
+        "surface_text": "Plasma",
+        "normalized_text": "plasma",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "separated plasma"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t17",
+        "entity_type": "text",
+        "name": "oxygenation label panel c",
+        "category": "scientific_label",
+        "surface_text": "Oxygenation",
+        "normalized_text": "oxygenation",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "oxygenated module"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t18",
+        "entity_type": "text",
+        "name": "cell module label",
+        "category": "scientific_label",
+        "surface_text": "Cell Module",
+        "normalized_text": "cell module",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "cell support"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t19",
+        "entity_type": "text",
+        "name": "detox module label",
+        "category": "scientific_label",
+        "surface_text": "Detox Module",
+        "normalized_text": "detox module",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "separate detox path"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t20",
+        "entity_type": "text",
+        "name": "panel label d",
+        "category": "panel_label",
+        "surface_text": "d",
+        "normalized_text": "d",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "panel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t21",
+        "entity_type": "text",
+        "name": "AMC-BAL system title",
+        "category": "scientific_label",
+        "surface_text": "AMC-Bioartificial Liver (AMC-BAL)",
+        "normalized_text": "AMC-Bioartificial Liver (AMC-BAL)",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "system name"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t22",
+        "entity_type": "text",
+        "name": "whole blood label panel d",
+        "category": "scientific_label",
+        "surface_text": "Whole blood",
+        "normalized_text": "whole blood",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "blood path"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t23",
+        "entity_type": "text",
+        "name": "oxygenation label panel d",
+        "category": "scientific_label",
+        "surface_text": "Oxygenation",
+        "normalized_text": "oxygenation",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "oxygenation step"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t24",
+        "entity_type": "text",
+        "name": "bioreactor label panel d",
+        "category": "scientific_label",
+        "surface_text": "Bioreactor",
+        "normalized_text": "bioreactor",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "cell support"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t25",
+        "entity_type": "text",
+        "name": "legend reservoir",
+        "category": "legend_text",
+        "surface_text": "Reservoir",
+        "normalized_text": "reservoir",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "legend item"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t26",
+        "entity_type": "text",
+        "name": "legend waste",
+        "category": "legend_text",
+        "surface_text": "Waste",
+        "normalized_text": "waste",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "legend item"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t27",
+        "entity_type": "text",
+        "name": "legend dialysis solution",
+        "category": "legend_text",
+        "surface_text": "Dialysis solution",
+        "normalized_text": "dialysis solution",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "legend item"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t28",
+        "entity_type": "text",
+        "name": "legend albumin dialysis solution",
+        "category": "legend_text",
+        "surface_text": "Albumin dialysis solution",
+        "normalized_text": "albumin dialysis solution",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "legend item"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t29",
+        "entity_type": "text",
+        "name": "legend filter",
+        "category": "legend_text",
+        "surface_text": "Filter",
+        "normalized_text": "filter",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "legend item"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t30",
+        "entity_type": "text",
+        "name": "legend high-flux dialysis filter",
+        "category": "legend_text",
+        "surface_text": "High-flux dialysis filter",
+        "normalized_text": "high-flux dialysis filter",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "legend item"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t31",
+        "entity_type": "text",
+        "name": "legend low-flux dialysis filter",
+        "category": "legend_text",
+        "surface_text": "Low-flux dialysis filter",
+        "normalized_text": "low-flux dialysis filter",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "legend item"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t32",
+        "entity_type": "text",
+        "name": "legend plasmapheresis device",
+        "category": "legend_text",
+        "surface_text": "Plasmapheresis device",
+        "normalized_text": "plasmapheresis device",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "legend item"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t33",
+        "entity_type": "text",
+        "name": "legend oxygenator",
+        "category": "legend_text",
+        "surface_text": "Oxygenator",
+        "normalized_text": "oxygenator",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "legend item"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t2",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t4",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t5",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t3",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "v1",
+        "target_entity_id": "v3",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "v3",
+        "target_entity_id": "v4",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "v4",
+        "target_entity_id": "v5",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "v5",
+        "target_entity_id": "v1",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "t7",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "t9",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "t10",
+        "target_entity_id": "v10",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "t11",
+        "target_entity_id": "v11",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "t12",
+        "target_entity_id": "v12",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "t8",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "v7",
+        "target_entity_id": "v9",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "v9",
+        "target_entity_id": "v11",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "v10",
+        "target_entity_id": "v11",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "v11",
+        "target_entity_id": "v12",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "v12",
+        "target_entity_id": "v7",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "t14",
+        "target_entity_id": "v15",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "t16",
+        "target_entity_id": "v15",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "t17",
+        "target_entity_id": "v17",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r23",
+        "source_entity_id": "t18",
+        "target_entity_id": "v18",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r24",
+        "source_entity_id": "t19",
+        "target_entity_id": "v19",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r25",
+        "source_entity_id": "t15",
+        "target_entity_id": "v15",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r26",
+        "source_entity_id": "v14",
+        "target_entity_id": "v16",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r27",
+        "source_entity_id": "v16",
+        "target_entity_id": "v17",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r28",
+        "source_entity_id": "v17",
+        "target_entity_id": "v18",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r29",
+        "source_entity_id": "v16",
+        "target_entity_id": "v19",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r30",
+        "source_entity_id": "v20",
+        "target_entity_id": "v19",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r31",
+        "source_entity_id": "v18",
+        "target_entity_id": "v19",
+        "relation_type": "above",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r32",
+        "source_entity_id": "t21",
+        "target_entity_id": "v22",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r33",
+        "source_entity_id": "t23",
+        "target_entity_id": "v24",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r34",
+        "source_entity_id": "t24",
+        "target_entity_id": "v25",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r35",
+        "source_entity_id": "t22",
+        "target_entity_id": "v22",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r36",
+        "source_entity_id": "v21",
+        "target_entity_id": "v23",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r37",
+        "source_entity_id": "v23",
+        "target_entity_id": "v26",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r38",
+        "source_entity_id": "v26",
+        "target_entity_id": "v24",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r39",
+        "source_entity_id": "v24",
+        "target_entity_id": "v25",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r40",
+        "source_entity_id": "v25",
+        "target_entity_id": "v21",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r41",
+        "source_entity_id": "t25",
+        "target_entity_id": "v27",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r42",
+        "source_entity_id": "t27",
+        "target_entity_id": "v27",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r43",
+        "source_entity_id": "t28",
+        "target_entity_id": "v27",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r44",
+        "source_entity_id": "t29",
+        "target_entity_id": "v27",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r45",
+        "source_entity_id": "t30",
+        "target_entity_id": "v27",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r46",
+        "source_entity_id": "t31",
+        "target_entity_id": "v27",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r47",
+        "source_entity_id": "t32",
+        "target_entity_id": "v27",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r48",
+        "source_entity_id": "t33",
+        "target_entity_id": "v27",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "global"
+      }
+    ]
+  }
+}

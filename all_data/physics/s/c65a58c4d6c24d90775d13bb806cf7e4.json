@@ -1,0 +1,668 @@
+{
+  "image_name": "c65a58c4d6c24d90775d13bb806cf7e4.png",
+  "prompt_text": "The figure is a decision tree showing how to choose an electron microscopy approach based mainly on the sample’s physical state and pressure tolerance. It starts by asking whether the sample is gaseous, liquid/mixed, or solid. Gaseous samples are marked as generally not applicable, while solids go directly to standard solid-phase electron microscopy, where standard instrument settings can be used.\n\nFor liquid or mixed samples, the next key question is whether the liquid components are non-volatile. If they are, the figure points to electron microscopy in ionic liquids, again compatible with standard instrument configuration. If not, the chart asks whether the volatile components can survive at sub-atmospheric pressure. If they can, environmental electron microscopy is recommended, but this requires special equipment because the pressure must remain higher than in conventional vacuum operation.\n\nIf the volatile sample cannot tolerate reduced pressure, the final option considers whether observations are only possible under atmospheric conditions. In that case, the sample is placed in vacuum-tight cells. This route seems to allow use of a standard microscope, but it needs a special sample holder. Overall, the diagram compares methods by matching sample volatility and pressure requirements to the appropriate microscopy setup.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "decision tree branching arrows/connectors",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "branching flow",
+          "question-to-outcome links"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "pressure gauge icons",
+        "category": "device_component",
+        "panel": "single_panel",
+        "count": 5,
+        "key_attributes": [
+          "low-high scale",
+          "pressure tolerance"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "electron beam schematic over sample",
+        "category": "pathway_component",
+        "panel": "single_panel",
+        "count": 3,
+        "key_attributes": [
+          "beam cone",
+          "sample interaction"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "vacuum-tight cell schematic",
+        "category": "device_component",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "sealed chamber",
+          "sample holder"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "initial decision question",
+        "category": "annotation_text",
+        "surface_text": "What states of matter is the sample in?",
+        "normalized_text": "What states of matter is the sample in?",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "root question"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "gaseous state",
+        "category": "scientific_label",
+        "surface_text": "Gaseous",
+        "normalized_text": "Gaseous",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "sample state"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "liquid mixed state",
+        "category": "scientific_label",
+        "surface_text": "Liquid/mixed",
+        "normalized_text": "Liquid/mixed",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "sample state"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "solid state",
+        "category": "scientific_label",
+        "surface_text": "Solid",
+        "normalized_text": "Solid",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "sample state"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "gaseous not applicable",
+        "category": "annotation_text",
+        "surface_text": "Not generally applicable",
+        "normalized_text": "Not generally applicable",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "gaseous outcome"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "solid method",
+        "category": "scientific_label",
+        "surface_text": "Standard solid-phase electron microscopy",
+        "normalized_text": "Standard solid-phase electron microscopy",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "solid route"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "non-volatile liquid question",
+        "category": "annotation_text",
+        "surface_text": "Are the liquid components of the mixture non-volatile?",
+        "normalized_text": "Are the liquid components of the mixture non-volatile?",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "decision question"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "ionic liquid method",
+        "category": "scientific_label",
+        "surface_text": "Electron microscopy in ionic liquids",
+        "normalized_text": "Electron microscopy in ionic liquids",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "non-volatile liquid route"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "sub-atmospheric survival question",
+        "category": "annotation_text",
+        "surface_text": "Can the volatile components survive at sub-atmospheric pressure?",
+        "normalized_text": "Can the volatile components survive at sub-atmospheric pressure?",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "decision question"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "environmental EM method",
+        "category": "scientific_label",
+        "surface_text": "Environmental electron microscopy",
+        "normalized_text": "Environmental electron microscopy",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "volatile tolerant route"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "atmospheric-only question",
+        "category": "annotation_text",
+        "surface_text": "Are the observations possible only under atmospheric conditions?",
+        "normalized_text": "Are the observations possible only under atmospheric conditions?",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "final decision question"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "vacuum-tight cell method",
+        "category": "scientific_label",
+        "surface_text": "Electron microscopy in vacuum-tight cells",
+        "normalized_text": "Electron microscopy in vacuum-tight cells",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "atmospheric route"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "standard configuration note",
+        "category": "annotation_text",
+        "surface_text": "Standard instrument configuration can be used",
+        "normalized_text": "Standard instrument configuration can be used",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "solid and ionic liquid routes"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t14",
+        "entity_type": "text",
+        "name": "special equipment note",
+        "category": "annotation_text",
+        "surface_text": "Special equipment is required",
+        "normalized_text": "Special equipment is required",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "environmental EM requirement"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t15",
+        "entity_type": "text",
+        "name": "special sample holder note",
+        "category": "annotation_text",
+        "surface_text": "Standard instrument can be used but special sample holder is required",
+        "normalized_text": "Standard instrument can be used but special sample holder is required",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "vacuum-tight cell requirement"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t16",
+        "entity_type": "text",
+        "name": "pressure label",
+        "category": "scientific_label",
+        "surface_text": "Pressure",
+        "normalized_text": "Pressure",
+        "panel": "single_panel",
+        "count": 5,
+        "key_attributes": [
+          "gauge title"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t17",
+        "entity_type": "text",
+        "name": "low pressure label",
+        "category": "scientific_label",
+        "surface_text": "Low",
+        "normalized_text": "Low",
+        "panel": "single_panel",
+        "count": 5,
+        "key_attributes": [
+          "gauge endpoint"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t18",
+        "entity_type": "text",
+        "name": "high pressure label",
+        "category": "scientific_label",
+        "surface_text": "High",
+        "normalized_text": "High",
+        "panel": "single_panel",
+        "count": 5,
+        "key_attributes": [
+          "gauge endpoint"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t19",
+        "entity_type": "text",
+        "name": "yes branch labels",
+        "category": "annotation_text",
+        "surface_text": "Yes",
+        "normalized_text": "Yes",
+        "panel": "single_panel",
+        "count": 3,
+        "key_attributes": [
+          "positive branch"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t20",
+        "entity_type": "text",
+        "name": "no branch labels",
+        "category": "annotation_text",
+        "surface_text": "No",
+        "normalized_text": "No",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "negative branch"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t21",
+        "entity_type": "text",
+        "name": "electron symbol",
+        "category": "scientific_label",
+        "surface_text": "e⁻",
+        "normalized_text": "e-",
+        "panel": "single_panel",
+        "count": 4,
+        "key_attributes": [
+          "beam notation"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t22",
+        "entity_type": "text",
+        "name": "step marker 1",
+        "category": "panel_label",
+        "surface_text": "①",
+        "normalized_text": "1",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "numbered step"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t23",
+        "entity_type": "text",
+        "name": "step marker 2",
+        "category": "panel_label",
+        "surface_text": "②",
+        "normalized_text": "2",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "numbered step"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t24",
+        "entity_type": "text",
+        "name": "step marker 3",
+        "category": "panel_label",
+        "surface_text": "③",
+        "normalized_text": "3",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "numbered step"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t25",
+        "entity_type": "text",
+        "name": "step marker 4",
+        "category": "panel_label",
+        "surface_text": "④",
+        "normalized_text": "4",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "numbered step"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t2",
+        "target_entity_id": "t5",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t4",
+        "target_entity_id": "t6",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t3",
+        "target_entity_id": "t7",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t7",
+        "target_entity_id": "t8",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "t7",
+        "target_entity_id": "t9",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "t9",
+        "target_entity_id": "t10",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "t9",
+        "target_entity_id": "t11",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "t11",
+        "target_entity_id": "t12",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "t13",
+        "target_entity_id": "t6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "t13",
+        "target_entity_id": "t8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "t14",
+        "target_entity_id": "t10",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "t15",
+        "target_entity_id": "t12",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "v4",
+        "target_entity_id": "t12",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "t16",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "t17",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "t18",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "t19",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "t20",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "t6",
+        "target_entity_id": "v2",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "t8",
+        "target_entity_id": "v2",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "t10",
+        "target_entity_id": "v2",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "t12",
+        "target_entity_id": "v2",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1270 @@
+{
+  "image_name": "f409a58664472d83ce3f18af1d52b88c.png",
+  "prompt_text": "This figure summarizes the mercury (Hg) budget of the Arctic system, showing the main reservoirs and exchanges among land, atmosphere, ice, ocean, and sediments. The largest visible mercury stores are on land, especially permafrost, the active layer, and surface soils, with much smaller amounts in snowpacks, sea ice, and the atmosphere. Glaciers also appear to hold a substantial mercury reservoir.\n\nArrows indicate annual fluxes linking these compartments. The atmosphere exchanges mercury with both land and ocean, with deposition to the Arctic Ocean and some return emission back to the air. Rivers or coastal inputs seem to transfer mercury from soils and vegetation into the ocean. Within the ocean, mercury is distributed by depth: relatively small amounts occur in the upper 0–20 m and 20–200 m layers, while the largest oceanic reservoir is shown below 500 m. Vertical arrows suggest movement between surface and deeper waters, including downward transport from the upper ocean and some upward return.\n\nThe seafloor is another important sink. Mercury accumulates in shelf and deep sediments, with red and gray arrows indicating burial and internal sediment exchange. Overall, the diagram emphasizes that most mercury is stored in frozen soils and deep ocean/sediment compartments, while atmospheric and surface-ice reservoirs are comparatively small but active in exchange.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "atmosphere region",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "upper sky band",
+          "air reservoir",
+          "flux arrows"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "land/soil reservoir block",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "left terrestrial block",
+          "layered soils",
+          "major Hg store"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "surface soils layer",
+        "category": "layer",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "top soil layer",
+          "0-0.3 m",
+          "brown band"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "active layer",
+        "category": "layer",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "middle soil layer",
+          "0-1 m",
+          "brown band"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "permafrost layer",
+        "category": "layer",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "deep frozen layer",
+          "0-3 m",
+          "largest land store"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "soils and vegetation area",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "trees",
+          "land surface",
+          "terrestrial biosphere"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "glacier reservoir",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "ice block",
+          "terrestrial ice",
+          "substantial store"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "snowpack reservoir",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "white snow slab",
+          "small store",
+          "land surface snow"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "Arctic Ocean water body",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "right blue basin",
+          "ocean reservoir",
+          "depth structured"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v10",
+        "entity_type": "visual",
+        "name": "ocean 0-20 m layer",
+        "category": "layer",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "surface ocean",
+          "uppermost layer",
+          "small reservoir"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v11",
+        "entity_type": "visual",
+        "name": "ocean 20-200 m layer",
+        "category": "layer",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "subsurface ocean",
+          "intermediate shallow layer",
+          "small reservoir"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v12",
+        "entity_type": "visual",
+        "name": "ocean 200-500 m layer",
+        "category": "layer",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "mid-depth ocean",
+          "intermediate layer",
+          "moderate reservoir"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v13",
+        "entity_type": "visual",
+        "name": "ocean below 500 m layer",
+        "category": "layer",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "deep ocean",
+          "largest ocean store",
+          "below 500 m"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v14",
+        "entity_type": "visual",
+        "name": "sea ice reservoir",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "floating ice",
+          "small store",
+          "ocean surface"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v15",
+        "entity_type": "visual",
+        "name": "shelf sediments",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "shallow seafloor",
+          "sediment sink",
+          "left sediment wedge"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v16",
+        "entity_type": "visual",
+        "name": "deep sediments",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "deep seafloor basin",
+          "sediment sink",
+          "bottom right"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v17",
+        "entity_type": "visual",
+        "name": "atmosphere-land exchange arrows",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "vertical arrows",
+          "land-air exchange",
+          "multiple fluxes"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v18",
+        "entity_type": "visual",
+        "name": "atmosphere-ocean exchange arrows",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "deposition and emission",
+          "air-sea exchange",
+          "vertical arrows"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v19",
+        "entity_type": "visual",
+        "name": "land-to-ocean lateral transport arrows",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "river/coastal input",
+          "green lateral arrows",
+          "toward ocean"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v20",
+        "entity_type": "visual",
+        "name": "vertical ocean transport arrows",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "upward and downward",
+          "between depth layers",
+          "internal ocean exchange"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v21",
+        "entity_type": "visual",
+        "name": "sediment burial arrows",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "red arrows",
+          "downward burial",
+          "to sediments"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v22",
+        "entity_type": "visual",
+        "name": "internal sediment exchange arrows",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "gray arrows",
+          "sediment exchange",
+          "upward/downward"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v23",
+        "entity_type": "visual",
+        "name": "industrial emission source icon",
+        "category": "device_component",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "factory with smokestacks",
+          "left margin",
+          "decorative source cue"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "Atmosphere label",
+        "category": "scientific_label",
+        "surface_text": "Atmosphere",
+        "normalized_text": "atmosphere",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "compartment label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "Atmosphere reservoir value",
+        "category": "number",
+        "surface_text": "330",
+        "normalized_text": "330",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "Hg budget value"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "Total Hg title",
+        "category": "scientific_label",
+        "surface_text": "Total Hg",
+        "normalized_text": "total hg",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "figure title cue"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "Flux unit text",
+        "category": "unit",
+        "surface_text": "Flux: Mg year$^{-1}$",
+        "normalized_text": "flux: mg year^-1",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "flux legend"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "Hg budget legend text",
+        "category": "legend_text",
+        "surface_text": "Hg budget: Mg",
+        "normalized_text": "hg budget: mg",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "budget legend"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "Soils and vegetation label",
+        "category": "scientific_label",
+        "surface_text": "Soils and vegetation",
+        "normalized_text": "soils and vegetation",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "terrestrial compartment"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "Glaciers label",
+        "category": "scientific_label",
+        "surface_text": "Glaciers",
+        "normalized_text": "glaciers",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "ice reservoir"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "Glacier reservoir value",
+        "category": "number",
+        "surface_text": "2,415",
+        "normalized_text": "2415",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "Hg budget value"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "Snowpacks label",
+        "category": "scientific_label",
+        "surface_text": "Snowpacks",
+        "normalized_text": "snowpacks",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "snow reservoir"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "Snowpack reservoir value",
+        "category": "number",
+        "surface_text": "39",
+        "normalized_text": "39",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "Hg budget value"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "Surface soils label",
+        "category": "scientific_label",
+        "surface_text": "Surface soils (0–0.3 m)",
+        "normalized_text": "surface soils (0-0.3 m)",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "soil depth interval"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "Surface soils reservoir value",
+        "category": "number",
+        "surface_text": "49,000",
+        "normalized_text": "49000",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "Hg budget value"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "Active layer label",
+        "category": "scientific_label",
+        "surface_text": "Active layer (0–1 m)",
+        "normalized_text": "active layer (0-1 m)",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "soil depth interval"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t14",
+        "entity_type": "text",
+        "name": "Active layer reservoir value",
+        "category": "number",
+        "surface_text": "212,000",
+        "normalized_text": "212000",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "Hg budget value"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t15",
+        "entity_type": "text",
+        "name": "Permafrost label",
+        "category": "scientific_label",
+        "surface_text": "Permafrost (0–3 m)",
+        "normalized_text": "permafrost (0-3 m)",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "frozen soil depth interval"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t16",
+        "entity_type": "text",
+        "name": "Permafrost reservoir value",
+        "category": "number",
+        "surface_text": "597,000",
+        "normalized_text": "597000",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "Hg budget value"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t17",
+        "entity_type": "text",
+        "name": "Arctic Ocean label",
+        "category": "scientific_label",
+        "surface_text": "Arctic Ocean",
+        "normalized_text": "arctic ocean",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "marine compartment"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t18",
+        "entity_type": "text",
+        "name": "0-20 m layer label",
+        "category": "scientific_label",
+        "surface_text": "0–20 m",
+        "normalized_text": "0-20 m",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "upper ocean depth"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t19",
+        "entity_type": "text",
+        "name": "0-20 m reservoir value",
+        "category": "number",
+        "surface_text": "44",
+        "normalized_text": "44",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "Hg budget value"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t20",
+        "entity_type": "text",
+        "name": "20-200 m layer label",
+        "category": "scientific_label",
+        "surface_text": "20–200 m",
+        "normalized_text": "20-200 m",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "subsurface ocean depth"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t21",
+        "entity_type": "text",
+        "name": "20-200 m reservoir value",
+        "category": "number",
+        "surface_text": "228",
+        "normalized_text": "228",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "Hg budget value"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t22",
+        "entity_type": "text",
+        "name": "200-500 m layer label",
+        "category": "scientific_label",
+        "surface_text": "200–500 m",
+        "normalized_text": "200-500 m",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "mid-depth ocean depth"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t23",
+        "entity_type": "text",
+        "name": "200-500 m reservoir value",
+        "category": "number",
+        "surface_text": "224",
+        "normalized_text": "224",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "Hg budget value"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t24",
+        "entity_type": "text",
+        "name": "Below 500 m layer label",
+        "category": "scientific_label",
+        "surface_text": "Below 500 m",
+        "normalized_text": "below 500 m",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "deep ocean depth"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t25",
+        "entity_type": "text",
+        "name": "Below 500 m reservoir value",
+        "category": "number",
+        "surface_text": "1,375",
+        "normalized_text": "1375",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "largest ocean Hg budget value"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t26",
+        "entity_type": "text",
+        "name": "Sea ice label",
+        "category": "scientific_label",
+        "surface_text": "Sea ice",
+        "normalized_text": "sea ice",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "ice compartment"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t27",
+        "entity_type": "text",
+        "name": "Sea ice reservoir value",
+        "category": "number",
+        "surface_text": "9",
+        "normalized_text": "9",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "Hg budget value"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t28",
+        "entity_type": "text",
+        "name": "Shelf sediments label",
+        "category": "scientific_label",
+        "surface_text": "Sediments",
+        "normalized_text": "sediments",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "shallow sediment sink"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t29",
+        "entity_type": "text",
+        "name": "Shelf sediment concentration note",
+        "category": "legend_text",
+        "surface_text": "(Hg concentration: 29 ng g$^{-1}$)",
+        "normalized_text": "(hg concentration: 29 ng g^-1)",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "sediment concentration"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t30",
+        "entity_type": "text",
+        "name": "Deep sediments label",
+        "category": "scientific_label",
+        "surface_text": "Sediments",
+        "normalized_text": "sediments",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "deep sediment sink"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t31",
+        "entity_type": "text",
+        "name": "Deep sediment concentration note",
+        "category": "legend_text",
+        "surface_text": "(Hg concentration: 60 ng g$^{-1}$)",
+        "normalized_text": "(hg concentration: 60 ng g^-1)",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "sediment concentration"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t1",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t6",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t7",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t9",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "t11",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "t13",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "t15",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "t17",
+        "target_entity_id": "v9",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "t18",
+        "target_entity_id": "v10",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "t20",
+        "target_entity_id": "v11",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "t22",
+        "target_entity_id": "v12",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "t24",
+        "target_entity_id": "v13",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "t26",
+        "target_entity_id": "v14",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "t28",
+        "target_entity_id": "v15",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "t30",
+        "target_entity_id": "v16",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "v3",
+        "target_entity_id": "v2",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "v4",
+        "target_entity_id": "v2",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "v5",
+        "target_entity_id": "v2",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "v10",
+        "target_entity_id": "v9",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "v11",
+        "target_entity_id": "v9",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "v12",
+        "target_entity_id": "v9",
+        "relation_type": "part_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "v13",
+        "target_entity_id": "v9",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r23",
+        "source_entity_id": "v14",
+        "target_entity_id": "v9",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r24",
+        "source_entity_id": "v15",
+        "target_entity_id": "v9",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r25",
+        "source_entity_id": "v16",
+        "target_entity_id": "v9",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r26",
+        "source_entity_id": "v17",
+        "target_entity_id": "v1",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r27",
+        "source_entity_id": "v17",
+        "target_entity_id": "v2",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r28",
+        "source_entity_id": "v18",
+        "target_entity_id": "v1",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r29",
+        "source_entity_id": "v18",
+        "target_entity_id": "v9",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r30",
+        "source_entity_id": "v19",
+        "target_entity_id": "v6",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r31",
+        "source_entity_id": "v19",
+        "target_entity_id": "v9",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r32",
+        "source_entity_id": "v20",
+        "target_entity_id": "v10",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r33",
+        "source_entity_id": "v20",
+        "target_entity_id": "v11",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r34",
+        "source_entity_id": "v20",
+        "target_entity_id": "v13",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r35",
+        "source_entity_id": "v21",
+        "target_entity_id": "v15",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r36",
+        "source_entity_id": "v21",
+        "target_entity_id": "v16",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r37",
+        "source_entity_id": "v22",
+        "target_entity_id": "v15",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r38",
+        "source_entity_id": "v22",
+        "target_entity_id": "v16",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r39",
+        "source_entity_id": "v2",
+        "target_entity_id": "v9",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r40",
+        "source_entity_id": "v1",
+        "target_entity_id": "v2",
+        "relation_type": "above",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r41",
+        "source_entity_id": "v1",
+        "target_entity_id": "v9",
+        "relation_type": "above",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r42",
+        "source_entity_id": "v10",
+        "target_entity_id": "v11",
+        "relation_type": "above",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r43",
+        "source_entity_id": "v11",
+        "target_entity_id": "v13",
+        "relation_type": "above",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r44",
+        "source_entity_id": "v15",
+        "target_entity_id": "v16",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      }
+    ]
+  }
+}

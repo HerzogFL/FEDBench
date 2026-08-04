@@ -1,0 +1,1641 @@
+{
+  "image_name": "4aee4e926c6a124da4dc38e614ea3385.png",
+  "prompt_text": "The figure summarizes several ways block copolymer materials can be used as responsive photonic and soft-matter systems. A central theme is that changing the nanoscale domain or lamellar spacing alters optical behavior and mechanical actuation.\n\nOne part shows a block copolymer photonic crystal whose domain size changes when exposed to humidity, temperature, or mechanical force. Water, solvents, or ionic liquids appear to swell the hydrophilic regions, while drying, cooling/mixing, compression, or relaxation shift the spacing between layers. Another section links this structural change directly to color: as the lamellar period increases through polymer swelling, the display shifts from no visible reflectance to blue, green, and then red reflection, enabling an environment-interactive display.\n\nThe figure also illustrates two soft actuator mechanisms. In one, hydration and dehydration transform the polymer between a more disordered amorphous state and an ordered crystalline state, producing strain-programmed motion. In the other, ion migration through ion-conducting domains under an applied voltage causes bending by creating unequal ion diffusion pathways.\n\nA final section suggests optical-device applications, including flat optics and antireflection coatings based on gradual refractive-index changes and subwavelength conical surface patterns.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "block copolymer lamellar photonic crystal",
+        "category": "material_structure",
+        "panel": "a",
+        "count": 6,
+        "key_attributes": [
+          "lamellar stripes",
+          "hydrophilic/hydrophobic domains",
+          "spacing changes"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "water or solvent molecules within hydrophilic domains",
+        "category": "molecule",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "small blue molecules",
+          "swelling agent",
+          "inside domains"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "stimulus arrows for humidity, temperature, and mechanical force",
+        "category": "arrow",
+        "panel": "a",
+        "count": 6,
+        "key_attributes": [
+          "bidirectional",
+          "stimulus-response",
+          "spacing control"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "photonic crystal display blocks with increasing thickness",
+        "category": "material_structure",
+        "panel": "b",
+        "count": 4,
+        "key_attributes": [
+          "stacked layers",
+          "different lamellar periods",
+          "display states"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "color progression swatches",
+        "category": "legend_key",
+        "panel": "b",
+        "count": 4,
+        "key_attributes": [
+          "white-blue-green-red",
+          "reflectance states",
+          "bottom swatches"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "lamellar period increase arrow",
+        "category": "arrow",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "horizontal trend",
+          "polymer swelling",
+          "left to right"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "touching hand over photonic crystal display",
+        "category": "region",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "finger interaction",
+          "display activation",
+          "schematic hand"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "hydration-driven polymer in amorphous state",
+        "category": "material_structure",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "disordered chains",
+          "soft actuator",
+          "initial state"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "hydration-driven polymer in crystalline state",
+        "category": "material_structure",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "ordered chains",
+          "strain-programmed",
+          "final state"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v10",
+        "entity_type": "visual",
+        "name": "hydration and dehydration transition arrows",
+        "category": "arrow",
+        "panel": "c",
+        "count": 2,
+        "key_attributes": [
+          "bidirectional",
+          "state transition",
+          "actuation mechanism"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v11",
+        "entity_type": "visual",
+        "name": "ion-migration soft actuator strip",
+        "category": "material_structure",
+        "panel": "d",
+        "count": 2,
+        "key_attributes": [
+          "layered strip",
+          "straight and bent",
+          "ion-conducting domains"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v12",
+        "entity_type": "visual",
+        "name": "mobile ions in conducting domains",
+        "category": "molecule",
+        "panel": "d",
+        "count": 10,
+        "key_attributes": [
+          "positive ions",
+          "domain-confined",
+          "unequal distribution"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v13",
+        "entity_type": "visual",
+        "name": "electrodes and applied-voltage setup",
+        "category": "device_component",
+        "panel": "d",
+        "count": 2,
+        "key_attributes": [
+          "electrode pair",
+          "battery symbol",
+          "driving field"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v14",
+        "entity_type": "visual",
+        "name": "flat optics beam-shaping component",
+        "category": "device_component",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "lens-like element",
+          "projected beam",
+          "graded index"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v15",
+        "entity_type": "visual",
+        "name": "graded refractive-index surface cross-section",
+        "category": "layer",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "low-to-high index",
+          "vertical gradient",
+          "surface profile"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v16",
+        "entity_type": "visual",
+        "name": "antireflection coating film with conical surface pattern",
+        "category": "material_structure",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "subwavelength cones",
+          "film-air interface",
+          "antireflection"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v17",
+        "entity_type": "visual",
+        "name": "top-middle-bottom pattern insets",
+        "category": "region",
+        "panel": "e",
+        "count": 3,
+        "key_attributes": [
+          "cross-sectional levels",
+          "index variation",
+          "inset boxes"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "panel label a",
+        "category": "panel_label",
+        "surface_text": "a",
+        "normalized_text": "a",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "Domain size change of BCP photonic crystal",
+        "category": "scientific_label",
+        "surface_text": "Domain size change of BCP photonic crystal",
+        "normalized_text": "domain size change of block copolymer photonic crystal",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "panel title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "Hydrophobic block",
+        "category": "scientific_label",
+        "surface_text": "Hydrophobic block",
+        "normalized_text": "hydrophobic block",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "polymer domain"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "Hydrophilic block",
+        "category": "scientific_label",
+        "surface_text": "Hydrophilic block",
+        "normalized_text": "hydrophilic block",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "polymer domain"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "High humidity",
+        "category": "annotation_text",
+        "surface_text": "High humidity",
+        "normalized_text": "high humidity",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "stimulus condition"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "Low humidity",
+        "category": "annotation_text",
+        "surface_text": "Low humidity",
+        "normalized_text": "low humidity",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "stimulus condition"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "Solvents or ionic liquids",
+        "category": "annotation_text",
+        "surface_text": "Solvents or ionic liquids",
+        "normalized_text": "solvents or ionic liquids",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "swelling agents"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "High T (demixing)",
+        "category": "annotation_text",
+        "surface_text": "High T (demixing)",
+        "normalized_text": "high temperature demixing",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "temperature effect"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "Low T (mixing)",
+        "category": "annotation_text",
+        "surface_text": "Low T (mixing)",
+        "normalized_text": "low temperature mixing",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "temperature effect"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "Compression",
+        "category": "annotation_text",
+        "surface_text": "Compression",
+        "normalized_text": "compression",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "mechanical effect"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "Relaxation",
+        "category": "annotation_text",
+        "surface_text": "Relaxation",
+        "normalized_text": "relaxation",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "mechanical effect"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "Water molecule",
+        "category": "scientific_label",
+        "surface_text": "Water molecule",
+        "normalized_text": "water molecule",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "swelling species"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "Humidity",
+        "category": "scientific_label",
+        "surface_text": "Humidity",
+        "normalized_text": "humidity",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "stimulus class"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t14",
+        "entity_type": "text",
+        "name": "Temperature",
+        "category": "scientific_label",
+        "surface_text": "Temperature",
+        "normalized_text": "temperature",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "stimulus class"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t15",
+        "entity_type": "text",
+        "name": "Mechanical force",
+        "category": "scientific_label",
+        "surface_text": "Mechanical force",
+        "normalized_text": "mechanical force",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "stimulus class"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t16",
+        "entity_type": "text",
+        "name": "panel label b",
+        "category": "panel_label",
+        "surface_text": "b",
+        "normalized_text": "b",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t17",
+        "entity_type": "text",
+        "name": "Environment-interactive display",
+        "category": "scientific_label",
+        "surface_text": "Environment-interactive display",
+        "normalized_text": "environment-interactive display",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "panel title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t18",
+        "entity_type": "text",
+        "name": "BCP photonic crystal display",
+        "category": "scientific_label",
+        "surface_text": "BCP photonic crystal display",
+        "normalized_text": "block copolymer photonic crystal display",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "device label"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t19",
+        "entity_type": "text",
+        "name": "No visible reflectance (white)",
+        "category": "annotation_text",
+        "surface_text": "No visible reflectance (white)",
+        "normalized_text": "no visible reflectance white",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "display state"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t20",
+        "entity_type": "text",
+        "name": "Blue wavelength",
+        "category": "annotation_text",
+        "surface_text": "Blue wavelength",
+        "normalized_text": "blue wavelength",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "display state"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t21",
+        "entity_type": "text",
+        "name": "Green wavelength",
+        "category": "annotation_text",
+        "surface_text": "Green wavelength",
+        "normalized_text": "green wavelength",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "display state"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t22",
+        "entity_type": "text",
+        "name": "Red wavelength",
+        "category": "annotation_text",
+        "surface_text": "Red wavelength",
+        "normalized_text": "red wavelength",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "display state"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t23",
+        "entity_type": "text",
+        "name": "Lamellar period",
+        "category": "scientific_label",
+        "surface_text": "Lamellar period",
+        "normalized_text": "lamellar period",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "structural parameter"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t24",
+        "entity_type": "text",
+        "name": "PC display",
+        "category": "scientific_label",
+        "surface_text": "PC display",
+        "normalized_text": "photonic crystal display",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "device label"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t25",
+        "entity_type": "text",
+        "name": "Increasing lamellar period (polymer swelling)",
+        "category": "annotation_text",
+        "surface_text": "Increasing lamellar period (polymer swelling)",
+        "normalized_text": "increasing lamellar period polymer swelling",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "trend annotation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t26",
+        "entity_type": "text",
+        "name": "panel label c",
+        "category": "panel_label",
+        "surface_text": "c",
+        "normalized_text": "c",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t27",
+        "entity_type": "text",
+        "name": "Soft actuator driven by hydration",
+        "category": "scientific_label",
+        "surface_text": "Soft actuator driven by hydration",
+        "normalized_text": "soft actuator driven by hydration",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "panel title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t28",
+        "entity_type": "text",
+        "name": "Amorphous state",
+        "category": "scientific_label",
+        "surface_text": "Amorphous state",
+        "normalized_text": "amorphous state",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "disordered phase"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t29",
+        "entity_type": "text",
+        "name": "Crystalline state",
+        "category": "scientific_label",
+        "surface_text": "Crystalline state",
+        "normalized_text": "crystalline state",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "ordered phase"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t30",
+        "entity_type": "text",
+        "name": "Dehydration",
+        "category": "annotation_text",
+        "surface_text": "Dehydration",
+        "normalized_text": "dehydration",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "transition direction"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t31",
+        "entity_type": "text",
+        "name": "Hydration",
+        "category": "annotation_text",
+        "surface_text": "Hydration",
+        "normalized_text": "hydration",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "transition direction"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t32",
+        "entity_type": "text",
+        "name": "Hydrophilic block",
+        "category": "scientific_label",
+        "surface_text": "Hydrophilic block",
+        "normalized_text": "hydrophilic block",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "polymer domain"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t33",
+        "entity_type": "text",
+        "name": "Hydrophobic block",
+        "category": "scientific_label",
+        "surface_text": "Hydrophobic block",
+        "normalized_text": "hydrophobic block",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "polymer domain"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t34",
+        "entity_type": "text",
+        "name": "Strain-programmed crystallization",
+        "category": "annotation_text",
+        "surface_text": "Strain-programmed crystallization",
+        "normalized_text": "strain-programmed crystallization",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "mechanism label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t35",
+        "entity_type": "text",
+        "name": "panel label d",
+        "category": "panel_label",
+        "surface_text": "d",
+        "normalized_text": "d",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t36",
+        "entity_type": "text",
+        "name": "Soft actuator driven by ion migration",
+        "category": "scientific_label",
+        "surface_text": "Soft actuator driven by ion migration",
+        "normalized_text": "soft actuator driven by ion migration",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "panel title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t37",
+        "entity_type": "text",
+        "name": "Ion-conducting block",
+        "category": "scientific_label",
+        "surface_text": "Ion-conducting block",
+        "normalized_text": "ion-conducting block",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "conductive domain"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t38",
+        "entity_type": "text",
+        "name": "Effective ion-diffusion pathway",
+        "category": "scientific_label",
+        "surface_text": "Effective ion-diffusion pathway",
+        "normalized_text": "effective ion-diffusion pathway",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "unequal pathway"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t39",
+        "entity_type": "text",
+        "name": "Electrode",
+        "category": "scientific_label",
+        "surface_text": "Electrode",
+        "normalized_text": "electrode",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "device component"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t40",
+        "entity_type": "text",
+        "name": "panel label e",
+        "category": "panel_label",
+        "surface_text": "e",
+        "normalized_text": "e",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t41",
+        "entity_type": "text",
+        "name": "Optical components for IoT devices",
+        "category": "scientific_label",
+        "surface_text": "Optical components for IoT devices",
+        "normalized_text": "optical components for iot devices",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "panel title"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t42",
+        "entity_type": "text",
+        "name": "Flat optics",
+        "category": "scientific_label",
+        "surface_text": "Flat optics",
+        "normalized_text": "flat optics",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "application type"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t43",
+        "entity_type": "text",
+        "name": "Projected beam",
+        "category": "annotation_text",
+        "surface_text": "Projected beam",
+        "normalized_text": "projected beam",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "optical output"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t44",
+        "entity_type": "text",
+        "name": "Surface with a gradual change in refractive index",
+        "category": "annotation_text",
+        "surface_text": "Surface with a gradual change in refractive index",
+        "normalized_text": "surface with a gradual change in refractive index",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "graded-index description"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t45",
+        "entity_type": "text",
+        "name": "Low refractive index",
+        "category": "scientific_label",
+        "surface_text": "Low refractive index",
+        "normalized_text": "low refractive index",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "index endpoint"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t46",
+        "entity_type": "text",
+        "name": "High refractive index",
+        "category": "scientific_label",
+        "surface_text": "High refractive index",
+        "normalized_text": "high refractive index",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "index endpoint"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t47",
+        "entity_type": "text",
+        "name": "Antireflection coatings",
+        "category": "scientific_label",
+        "surface_text": "Antireflection coatings",
+        "normalized_text": "antireflection coatings",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "application type"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t48",
+        "entity_type": "text",
+        "name": "Light glimmering",
+        "category": "annotation_text",
+        "surface_text": "Light glimmering",
+        "normalized_text": "light glimmering",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "reflection effect"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t50",
+        "entity_type": "text",
+        "name": "Antireflection film",
+        "category": "scientific_label",
+        "surface_text": "Antireflection film",
+        "normalized_text": "antireflection film",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "film label"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t51",
+        "entity_type": "text",
+        "name": "Air",
+        "category": "scientific_label",
+        "surface_text": "Air",
+        "normalized_text": "air",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "ambient medium"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t53",
+        "entity_type": "text",
+        "name": "Subwavelength-sized conical pattern",
+        "category": "scientific_label",
+        "surface_text": "Subwavelength-sized conical pattern",
+        "normalized_text": "subwavelength-sized conical pattern",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "surface nanostructure"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t54",
+        "entity_type": "text",
+        "name": "Height",
+        "category": "scientific_label",
+        "surface_text": "Height",
+        "normalized_text": "height",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "vertical dimension"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t55",
+        "entity_type": "text",
+        "name": "Top",
+        "category": "annotation_text",
+        "surface_text": "Top",
+        "normalized_text": "top",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "inset level"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t56",
+        "entity_type": "text",
+        "name": "Middle",
+        "category": "annotation_text",
+        "surface_text": "Middle",
+        "normalized_text": "middle",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "inset level"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t57",
+        "entity_type": "text",
+        "name": "Bottom",
+        "category": "annotation_text",
+        "surface_text": "Bottom",
+        "normalized_text": "bottom",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "inset level"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t58",
+        "entity_type": "text",
+        "name": "Gradual change of refractive index from the top to the bottom of the film",
+        "category": "annotation_text",
+        "surface_text": "Gradual change of refractive index from the top to the bottom of the film",
+        "normalized_text": "gradual change of refractive index from the top to the bottom of the film",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "film gradient description"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t59",
+        "entity_type": "text",
+        "name": "n_air",
+        "category": "equation",
+        "surface_text": "n_air",
+        "normalized_text": "n_air",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "refractive index symbol"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t60",
+        "entity_type": "text",
+        "name": "n_substrate",
+        "category": "equation",
+        "surface_text": "n_substrate",
+        "normalized_text": "n_substrate",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "refractive index symbol"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t2",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t12",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "v2",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t4",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "t5",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "t7",
+        "target_entity_id": "v2",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "t8",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "t9",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "t10",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "t11",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "t13",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "t14",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "t15",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "v3",
+        "target_entity_id": "v1",
+        "relation_type": "points_to",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "t17",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "t19",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "t20",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "t21",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "t22",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "t23",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "t25",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "v6",
+        "target_entity_id": "v4",
+        "relation_type": "points_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r23",
+        "source_entity_id": "v4",
+        "target_entity_id": "v5",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r24",
+        "source_entity_id": "v4",
+        "target_entity_id": "v7",
+        "relation_type": "below",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r25",
+        "source_entity_id": "t27",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r26",
+        "source_entity_id": "t28",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r27",
+        "source_entity_id": "t29",
+        "target_entity_id": "v9",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r28",
+        "source_entity_id": "t30",
+        "target_entity_id": "v10",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r29",
+        "source_entity_id": "t31",
+        "target_entity_id": "v10",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r30",
+        "source_entity_id": "t34",
+        "target_entity_id": "v9",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r31",
+        "source_entity_id": "v8",
+        "target_entity_id": "v9",
+        "relation_type": "transforms_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r32",
+        "source_entity_id": "v10",
+        "target_entity_id": "v8",
+        "relation_type": "points_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r33",
+        "source_entity_id": "v10",
+        "target_entity_id": "v9",
+        "relation_type": "points_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r34",
+        "source_entity_id": "t36",
+        "target_entity_id": "v11",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r35",
+        "source_entity_id": "t37",
+        "target_entity_id": "v11",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r36",
+        "source_entity_id": "t38",
+        "target_entity_id": "v11",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r37",
+        "source_entity_id": "t39",
+        "target_entity_id": "v13",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r38",
+        "source_entity_id": "v12",
+        "target_entity_id": "v11",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r39",
+        "source_entity_id": "v13",
+        "target_entity_id": "v11",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r40",
+        "source_entity_id": "v12",
+        "target_entity_id": "v11",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r41",
+        "source_entity_id": "t42",
+        "target_entity_id": "v14",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r42",
+        "source_entity_id": "t44",
+        "target_entity_id": "v15",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r43",
+        "source_entity_id": "t45",
+        "target_entity_id": "v15",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r44",
+        "source_entity_id": "t46",
+        "target_entity_id": "v15",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r45",
+        "source_entity_id": "t47",
+        "target_entity_id": "v16",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r46",
+        "source_entity_id": "t53",
+        "target_entity_id": "v16",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r47",
+        "source_entity_id": "t58",
+        "target_entity_id": "v16",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r48",
+        "source_entity_id": "v15",
+        "target_entity_id": "v14",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r49",
+        "source_entity_id": "v16",
+        "target_entity_id": "t47",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      }
+    ]
+  }
+}

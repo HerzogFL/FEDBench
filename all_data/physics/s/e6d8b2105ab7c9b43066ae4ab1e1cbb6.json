@@ -1,0 +1,417 @@
+{
+  "image_name": "e6d8b2105ab7c9b43066ae4ab1e1cbb6.png",
+  "prompt_text": "The figure is a simple schematic showing how renewable electricity can drive electrochemical reactions in water to make useful chemicals. On the left, icons for electricity, heat, and plant-based sources suggest renewable energy inputs. These feed into a central electrochemical cell containing an electrolyte, drawn with two different electrode regions on either side and a water droplet in the middle, emphasizing that water is the reaction medium or key participant.\n\nPipes connect the cell to materials on the right labeled as organic reactants at the top and value-added chemicals at the bottom. This layout indicates a conversion process: organic feedstocks are introduced into the electrochemical system, and electricity-powered transformations in the aqueous electrolyte turn them into more valuable products. The barrel and container imply bulk chemical feedstocks, while the pill and paint bucket symbolize diverse end products such as pharmaceuticals or industrial chemicals.\n\nOverall, the image communicates a green-chemistry concept: instead of relying on conventional thermal processing, water-based electrochemistry powered by renewable energy can upgrade organic reactants into useful chemicals in a more sustainable way.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "renewable energy input icons",
+        "category": "pathway_component",
+        "panel": "single_panel",
+        "count": 3,
+        "key_attributes": [
+          "lightning bolt",
+          "thermometer",
+          "leaf icon"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "electrochemical cell",
+        "category": "cell",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "central vessel",
+          "aqueous medium",
+          "conversion site"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "left electrode region",
+        "category": "pathway_component",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "blue spheres",
+          "left side",
+          "electrode region"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "right electrode region",
+        "category": "pathway_component",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "red spheres",
+          "right side",
+          "electrode region"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "water droplet",
+        "category": "molecule",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "central droplet",
+          "inside cell",
+          "water medium"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "inlet and outlet pipes",
+        "category": "pathway_component",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "top connection",
+          "bottom connection",
+          "material flow"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "organic reactant containers",
+        "category": "pathway_component",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "barrel",
+          "jug container",
+          "feedstock icons"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "value-added chemical product icons",
+        "category": "pathway_component",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "capsule",
+          "paint bucket",
+          "product examples"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "left-to-right input arrow",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "dark blue",
+          "toward cell",
+          "energy input"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v10",
+        "entity_type": "visual",
+        "name": "rightward product flow arrow",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "bottom right",
+          "from cell",
+          "toward products"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "Renewable electricity label",
+        "category": "scientific_label",
+        "surface_text": "Renewable electricity",
+        "normalized_text": "renewable electricity",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "left side",
+          "energy input"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "Electrolyte label",
+        "category": "scientific_label",
+        "surface_text": "Electrolyte",
+        "normalized_text": "electrolyte",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "inside cell context",
+          "aqueous medium"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "Organic reactants label",
+        "category": "scientific_label",
+        "surface_text": "Organic reactants",
+        "normalized_text": "organic reactants",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "top right",
+          "feedstock label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "Value-added chemicals label",
+        "category": "scientific_label",
+        "surface_text": "Value-added chemicals",
+        "normalized_text": "value-added chemicals",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "bottom right",
+          "product label"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "process description",
+        "category": "annotation_text",
+        "surface_text": "Electrochemical transformations using water",
+        "normalized_text": "electrochemical transformations using water",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "bottom caption box",
+          "water-based conversion"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t1",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t2",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t3",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t4",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "t5",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "v3",
+        "target_entity_id": "v2",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "v4",
+        "target_entity_id": "v2",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "v5",
+        "target_entity_id": "v2",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "v1",
+        "target_entity_id": "v2",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "v9",
+        "target_entity_id": "v2",
+        "relation_type": "points_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "v7",
+        "target_entity_id": "v2",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "v2",
+        "target_entity_id": "v8",
+        "relation_type": "transforms_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "v6",
+        "target_entity_id": "v7",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "v6",
+        "target_entity_id": "v2",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "v6",
+        "target_entity_id": "v8",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "v3",
+        "target_entity_id": "v4",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "v7",
+        "target_entity_id": "v8",
+        "relation_type": "above",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "v10",
+        "target_entity_id": "v8",
+        "relation_type": "points_to",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      }
+    ]
+  }
+}

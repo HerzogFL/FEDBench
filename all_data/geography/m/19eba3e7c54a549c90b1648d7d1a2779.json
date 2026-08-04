@@ -1,0 +1,846 @@
+{
+  "image_name": "19eba3e7c54a549c90b1648d7d1a2779.png",
+  "prompt_text": "The figure is a conceptual comparison of how three nutrients move from river headwaters through reservoirs to the coastal zone: nitrogen, phosphorus, and silicon. In each case, a colored arrow represents the nutrient load traveling downstream, while widening blue shapes suggest increasing water storage and burial in reservoirs.\n\nA common message is that human activities alter river chemistry before nutrients reach the coast, but they affect each element differently. For nitrogen, inputs from agriculture, wastewater, and fixation enlarge the riverine load, and the diagram emphasizes both denitrification and reservoir burial as important removal processes. Even so, anthropogenic nitrogen appears to exceed natural nitrogen in the coastal export. For phosphorus, agriculture and wastewater strongly increase inputs, but reservoirs trap a large fraction through burial, shown as a particularly large loss. For silicon, cultivation and deforestation are linked to reduced dissolved silica relative to natural conditions, with additional in-stream elimination and reservoir burial lowering export to the coast.\n\nOverall, the figure highlights reservoirs as major biogeochemical filters and shows that human disturbance tends to raise nitrogen and phosphorus delivery while decreasing silicon, shifting nutrient ratios delivered to coastal waters.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "downstream nutrient load arrows",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 3,
+        "key_attributes": [
+          "colored by nutrient",
+          "horizontal downstream",
+          "load transport"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "water storage and burial shapes",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 3,
+        "key_attributes": [
+          "blue widening shapes",
+          "reservoir storage",
+          "burial sink"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "reservoir barriers",
+        "category": "device_component",
+        "panel": "single_panel",
+        "count": 3,
+        "key_attributes": [
+          "vertical gray dam",
+          "between river and coast"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "anthropogenic input arrows",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 6,
+        "key_attributes": [
+          "curved input arrows",
+          "human sources",
+          "panel-specific"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "removal process arrows",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 6,
+        "key_attributes": [
+          "downward sink arrows",
+          "in-stream and burial",
+          "loss processes"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "panel backgrounds",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 3,
+        "key_attributes": [
+          "green purple tan",
+          "one per nutrient"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "weathering baseline arrow",
+        "category": "arrow",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "bottom horizontal",
+          "silicon source context"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "River network",
+        "category": "annotation_text",
+        "surface_text": "River network",
+        "normalized_text": "River network",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "left section header"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "Reservoirs",
+        "category": "annotation_text",
+        "surface_text": "Reservoirs",
+        "normalized_text": "Reservoirs",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "middle section header"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "Coastal zone",
+        "category": "annotation_text",
+        "surface_text": "Coastal zone",
+        "normalized_text": "Coastal zone",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "right section header"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "a",
+        "category": "panel_label",
+        "surface_text": "a",
+        "normalized_text": "a",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "panel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "Nitrogen",
+        "category": "scientific_label",
+        "surface_text": "Nitrogen",
+        "normalized_text": "Nitrogen",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "nutrient name"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "Agriculture",
+        "category": "legend_text",
+        "surface_text": "• Agriculture",
+        "normalized_text": "Agriculture",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "anthropogenic source"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "Wastewater",
+        "category": "legend_text",
+        "surface_text": "• Wastewater",
+        "normalized_text": "Wastewater",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "anthropogenic source"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "Fixation",
+        "category": "legend_text",
+        "surface_text": "• Fixation",
+        "normalized_text": "Fixation",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "nitrogen source"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "In-stream elimination",
+        "category": "scientific_label",
+        "surface_text": "In-stream elimination",
+        "normalized_text": "In-stream elimination",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "loss process"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "Denitrification",
+        "category": "scientific_label",
+        "surface_text": "Denitrification",
+        "normalized_text": "Denitrification",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "nitrogen removal"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "Reservoir burial",
+        "category": "scientific_label",
+        "surface_text": "Reservoir burial",
+        "normalized_text": "Reservoir burial",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "reservoir sink"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "TN_anthro > TN_nat",
+        "category": "equation",
+        "surface_text": "TN_anthro > TN_nat",
+        "normalized_text": "TN_anthro > TN_nat",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "anthropogenic exceeds natural"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "b",
+        "category": "panel_label",
+        "surface_text": "b",
+        "normalized_text": "b",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "panel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t14",
+        "entity_type": "text",
+        "name": "Phosphorus",
+        "category": "scientific_label",
+        "surface_text": "Phosphorus",
+        "normalized_text": "Phosphorus",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "nutrient name"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t15",
+        "entity_type": "text",
+        "name": "Agriculture",
+        "category": "legend_text",
+        "surface_text": "• Agriculture",
+        "normalized_text": "Agriculture",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "anthropogenic source"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t16",
+        "entity_type": "text",
+        "name": "Wastewater",
+        "category": "legend_text",
+        "surface_text": "• Wastewater",
+        "normalized_text": "Wastewater",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "anthropogenic source"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t17",
+        "entity_type": "text",
+        "name": "In-stream elimination",
+        "category": "scientific_label",
+        "surface_text": "In-stream elimination",
+        "normalized_text": "In-stream elimination",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "loss process"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t18",
+        "entity_type": "text",
+        "name": "Reservoir burial",
+        "category": "scientific_label",
+        "surface_text": "Reservoir burial",
+        "normalized_text": "Reservoir burial",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "major phosphorus sink"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t19",
+        "entity_type": "text",
+        "name": "≈ 44% loss",
+        "category": "annotation_text",
+        "surface_text": "≈ 44% loss",
+        "normalized_text": "≈ 44% loss",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "large burial loss"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t20",
+        "entity_type": "text",
+        "name": "TP_anthro > TP_nat",
+        "category": "equation",
+        "surface_text": "TP_anthro > TP_nat",
+        "normalized_text": "TP_anthro > TP_nat",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "anthropogenic exceeds natural"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t21",
+        "entity_type": "text",
+        "name": "c",
+        "category": "panel_label",
+        "surface_text": "c",
+        "normalized_text": "c",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "panel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t22",
+        "entity_type": "text",
+        "name": "Silicon",
+        "category": "scientific_label",
+        "surface_text": "Silicon",
+        "normalized_text": "Silicon",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "nutrient name"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t23",
+        "entity_type": "text",
+        "name": "Cultivation",
+        "category": "legend_text",
+        "surface_text": "• Cultivation",
+        "normalized_text": "Cultivation",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "human driver"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t24",
+        "entity_type": "text",
+        "name": "Deforestation",
+        "category": "legend_text",
+        "surface_text": "• Deforestation",
+        "normalized_text": "Deforestation",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "human driver"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t25",
+        "entity_type": "text",
+        "name": "In-stream elimination",
+        "category": "scientific_label",
+        "surface_text": "In-stream elimination",
+        "normalized_text": "In-stream elimination",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "loss process"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t26",
+        "entity_type": "text",
+        "name": "Reservoir burial",
+        "category": "scientific_label",
+        "surface_text": "Reservoir burial",
+        "normalized_text": "Reservoir burial",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "reservoir sink"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t27",
+        "entity_type": "text",
+        "name": "RSi_anthro < RSi_nat",
+        "category": "equation",
+        "surface_text": "RSi_anthro < RSi_nat",
+        "normalized_text": "RSi_anthro < RSi_nat",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "anthropogenic below natural"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t28",
+        "entity_type": "text",
+        "name": "Weathering",
+        "category": "scientific_label",
+        "surface_text": "Weathering",
+        "normalized_text": "Weathering",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "silicon source context"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t1",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t2",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t3",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "v1",
+        "target_entity_id": "v3",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "v3",
+        "target_entity_id": "v2",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "t5",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "t14",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "t22",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "t6",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "t7",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "t8",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "v4",
+        "target_entity_id": "v1",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "t9",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "t10",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "t11",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "v5",
+        "target_entity_id": "v1",
+        "relation_type": "inhibits",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "v2",
+        "target_entity_id": "v1",
+        "relation_type": "inhibits",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "t12",
+        "target_entity_id": "v1",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "t15",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "t16",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "t18",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "t19",
+        "target_entity_id": "v2",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r23",
+        "source_entity_id": "t20",
+        "target_entity_id": "v1",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r24",
+        "source_entity_id": "t23",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r25",
+        "source_entity_id": "t24",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r26",
+        "source_entity_id": "v4",
+        "target_entity_id": "v1",
+        "relation_type": "inhibits",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r27",
+        "source_entity_id": "t25",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r28",
+        "source_entity_id": "t26",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r29",
+        "source_entity_id": "t27",
+        "target_entity_id": "v1",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r30",
+        "source_entity_id": "t28",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r31",
+        "source_entity_id": "v7",
+        "target_entity_id": "v1",
+        "relation_type": "activates",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      }
+    ]
+  }
+}

@@ -1,0 +1,484 @@
+{
+  "image_name": "0b52883006f71387a9558f55c5756986.png",
+  "prompt_text": "The figure compares how different squalene–drug conjugates self-assemble and how that relates to drug release and biological activity. Its main message is that the nanostructure formed by each conjugate strongly influences whether the drug is effectively released.\n\nOne example, squalene–paclitaxel, is shown as amorphous and lacking an organized structure; this is linked to no drug release and poor anticancer activity. In contrast, squalene–doxorubicin forms ordered cylindrical assemblies with a labeled core-cell cylinder organization, and this structured state is associated with drug release and anticancer activity. Squalene–gemcitabine also forms a clear ordered phase, described as an inverted hexagonal structure, and likewise shows drug release with anticancer effects.\n\nSqualene–adenosine appears more structurally diverse, with several coexisting morphologies, including cubic-, lamellar-, and hexagonal-like phases. Despite this complexity, it is also associated with drug release, but here the functional outcome is neuroprotective rather than anticancer.\n\nOverall, the figure emphasizes a structure–function relationship: organized self-assembled phases favor release and therapeutic activity, while a disordered amorphous state does not.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "amorphous state depiction",
+        "category": "material_structure",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "disordered",
+          "no organized nanostructure"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "cylindrical assembly",
+        "category": "material_structure",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "ordered",
+          "cylinder",
+          "core-shell like"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "inverted hexagonal assembly",
+        "category": "material_structure",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "ordered phase",
+          "hexagonal packing"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "coexisting cubic phase",
+        "category": "material_structure",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "porous network",
+          "adenosine morphology"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "coexisting hexagonal phase",
+        "category": "material_structure",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "cylindrical bundles",
+          "adenosine morphology"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "coexisting lamellar phase",
+        "category": "layer",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "stacked sheets",
+          "adenosine morphology"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "outcome arrows",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 4,
+        "key_attributes": [
+          "structure to function",
+          "right-pointing"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "Squalene-paclitaxel label",
+        "category": "scientific_label",
+        "surface_text": "Squalene–paclitaxel",
+        "normalized_text": "Squalene-paclitaxel",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "conjugate name"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "paclitaxel structure annotation",
+        "category": "annotation_text",
+        "surface_text": "No structure: amorphous",
+        "normalized_text": "No structure: amorphous",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "disordered state"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "paclitaxel outcome annotation",
+        "category": "annotation_text",
+        "surface_text": "No drug release; poor anticancer activity",
+        "normalized_text": "No drug release; poor anticancer activity",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "no release",
+          "poor activity"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "Squalene-doxorubicin label",
+        "category": "scientific_label",
+        "surface_text": "Squalene–doxorubicine",
+        "normalized_text": "Squalene-doxorubicin",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "conjugate name"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "doxorubicin structure annotation",
+        "category": "annotation_text",
+        "surface_text": "Core cell cylinders",
+        "normalized_text": "Core cell cylinders",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "cylindrical organization"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "doxorubicin outcome annotation",
+        "category": "annotation_text",
+        "surface_text": "Drug release; anticancer activity",
+        "normalized_text": "Drug release; anticancer activity",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "release",
+          "anticancer"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "Squalene-gemcitabine label",
+        "category": "scientific_label",
+        "surface_text": "Squalene–gemcitabine",
+        "normalized_text": "Squalene-gemcitabine",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "conjugate name"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "gemcitabine structure annotation",
+        "category": "annotation_text",
+        "surface_text": "Inverted hexagonal structure",
+        "normalized_text": "Inverted hexagonal structure",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "ordered phase"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "Squalene-adenosine label",
+        "category": "scientific_label",
+        "surface_text": "Squalene–adenosine",
+        "normalized_text": "Squalene-adenosine",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "conjugate name"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "adenosine outcome annotation",
+        "category": "annotation_text",
+        "surface_text": "Drug release; neuroprotective activity",
+        "normalized_text": "Drug release; neuroprotective activity",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "release",
+          "neuroprotective"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "adenosine phase coexistence annotation",
+        "category": "annotation_text",
+        "surface_text": "Co-existence of cubic, lamellar and hexagonal phases",
+        "normalized_text": "Co-existence of cubic, lamellar and hexagonal phases",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "multiple phases"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t1",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t2",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "v1",
+        "target_entity_id": "t3",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t4",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "t5",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "v2",
+        "target_entity_id": "t6",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "t7",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "t8",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "v3",
+        "target_entity_id": "t6",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "t9",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "t9",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "t9",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "t11",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "t11",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "t11",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "v4",
+        "target_entity_id": "t10",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "v5",
+        "target_entity_id": "t10",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "v6",
+        "target_entity_id": "t10",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "v4",
+        "target_entity_id": "v5",
+        "relation_type": "connected_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "v5",
+        "target_entity_id": "v6",
+        "relation_type": "connected_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "v4",
+        "target_entity_id": "v6",
+        "relation_type": "connected_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      }
+    ]
+  }
+}

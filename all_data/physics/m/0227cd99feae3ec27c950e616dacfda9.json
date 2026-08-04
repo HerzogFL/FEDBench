@@ -1,0 +1,590 @@
+{
+  "image_name": "0227cd99feae3ec27c950e616dacfda9.jpg",
+  "prompt_text": "The figure shows the design and proposed behavior of an amphiphilic molecular motor that can switch the form of assemblies in water. On the left, the chemical structure is divided into three functional parts: a hydrophilic charged headgroup, a central light-responsive molecular motor core, and two hydrophobic tails. This layout suggests a surfactant-like molecule whose shape and motion can be controlled.\n\nOn the right, the molecule is illustrated self-assembling in aqueous solution into two different mesoscale states. In one state, elongated rod-like aggregates dominate; in the other, roughly spherical particles are formed. The transition between these morphologies is shown as reversible, driven in one direction by light irradiation and in the opposite direction by a temperature change. Insets indicate that the molecular motor embedded in the amphiphile changes conformation during this process, which appears to alter packing and therefore the larger self-assembled structure.\n\nOverall, the figure conveys a mechanism in which a synthetic amphiphile containing a molecular motor uses external stimuli—light and heat—to reversibly reorganize from anisotropic rod-like assemblies to spherical ones, linking molecular motion to macroscopic changes in soft matter structure.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "amphiphilic molecular structure",
+        "category": "molecule",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "full chemical structure",
+          "surfactant-like",
+          "three-part organization"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "hydrophilic headgroup region",
+        "category": "region",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "upper segment",
+          "charged headgroup",
+          "bracketed"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "molecular motor core region",
+        "category": "molecule",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "central core",
+          "light-responsive",
+          "fused aromatic motor"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "hydrophobic tail region",
+        "category": "region",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "lower segment",
+          "two tails",
+          "bracketed"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "left aqueous container with rod-like aggregates",
+        "category": "region",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "water-filled vessel",
+          "elongated rods",
+          "left state"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "rod-like aggregates",
+        "category": "material_structure",
+        "panel": "b",
+        "count": 8,
+        "key_attributes": [
+          "elongated",
+          "red cylinders",
+          "anisotropic"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "right aqueous container with spherical particles",
+        "category": "region",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "water-filled vessel",
+          "spherical particles",
+          "right state"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "spherical assemblies",
+        "category": "material_structure",
+        "panel": "b",
+        "count": 14,
+        "key_attributes": [
+          "yellow spheres",
+          "roughly spherical",
+          "dispersed"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "reversible transition arrows",
+        "category": "arrow",
+        "panel": "b",
+        "count": 2,
+        "key_attributes": [
+          "bidirectional",
+          "between states",
+          "stimulus-driven"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v10",
+        "entity_type": "visual",
+        "name": "left inset showing motor conformation",
+        "category": "molecule",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "zoomed inset",
+          "embedded amphiphile",
+          "purple conformation"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v11",
+        "entity_type": "visual",
+        "name": "right inset showing alternate motor conformation",
+        "category": "molecule",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "zoomed inset",
+          "embedded amphiphile",
+          "orange conformation"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v12",
+        "entity_type": "visual",
+        "name": "dashed callout connectors",
+        "category": "arrow",
+        "panel": "b",
+        "count": 4,
+        "key_attributes": [
+          "dashed lines",
+          "aggregate-to-inset",
+          "zoom indication"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "panel label a",
+        "category": "panel_label",
+        "surface_text": "a",
+        "normalized_text": "a",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "panel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "panel label b",
+        "category": "panel_label",
+        "surface_text": "b",
+        "normalized_text": "b",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "panel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "counterion label",
+        "category": "scientific_label",
+        "surface_text": "TsO−",
+        "normalized_text": "TsO−",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "counterion",
+          "charged headgroup"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "Hydrophilic label",
+        "category": "scientific_label",
+        "surface_text": "Hydrophilic",
+        "normalized_text": "Hydrophilic",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "functional part label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "Molecular motor label",
+        "category": "scientific_label",
+        "surface_text": "Molecular motor",
+        "normalized_text": "Molecular motor",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "functional part label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "Hydrophobic label",
+        "category": "scientific_label",
+        "surface_text": "Hydrophobic",
+        "normalized_text": "Hydrophobic",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "functional part label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "light stimulus label",
+        "category": "annotation_text",
+        "surface_text": "hν",
+        "normalized_text": "hν",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "forward stimulus",
+          "light irradiation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "temperature stimulus label",
+        "category": "annotation_text",
+        "surface_text": "ΔT",
+        "normalized_text": "ΔT",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "reverse stimulus",
+          "temperature change"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "headgroup repeat count",
+        "category": "number",
+        "surface_text": "2",
+        "normalized_text": "2",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "substructure count"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "tail length number",
+        "category": "number",
+        "surface_text": "10",
+        "normalized_text": "10",
+        "panel": "a",
+        "count": 2,
+        "key_attributes": [
+          "tail repeat count"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t4",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t5",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t6",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "v2",
+        "target_entity_id": "v1",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "v3",
+        "target_entity_id": "v1",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "v4",
+        "target_entity_id": "v1",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "v2",
+        "target_entity_id": "v3",
+        "relation_type": "above",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "v3",
+        "target_entity_id": "v4",
+        "relation_type": "above",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "t3",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "v6",
+        "target_entity_id": "v5",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "v8",
+        "target_entity_id": "v7",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "v5",
+        "target_entity_id": "v7",
+        "relation_type": "left_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "t7",
+        "target_entity_id": "v9",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "t8",
+        "target_entity_id": "v9",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "v5",
+        "target_entity_id": "v7",
+        "relation_type": "transforms_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "v7",
+        "target_entity_id": "v5",
+        "relation_type": "transforms_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "t7",
+        "target_entity_id": "v7",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "t8",
+        "target_entity_id": "v5",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "v10",
+        "target_entity_id": "v5",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "v11",
+        "target_entity_id": "v7",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "v10",
+        "target_entity_id": "v11",
+        "relation_type": "transforms_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "v12",
+        "target_entity_id": "v10",
+        "relation_type": "points_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r23",
+        "source_entity_id": "v12",
+        "target_entity_id": "v11",
+        "relation_type": "points_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r24",
+        "source_entity_id": "v1",
+        "target_entity_id": "v5",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r25",
+        "source_entity_id": "v1",
+        "target_entity_id": "v7",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "cross_panel"
+      }
+    ]
+  }
+}

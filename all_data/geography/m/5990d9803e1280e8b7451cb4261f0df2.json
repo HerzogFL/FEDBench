@@ -1,0 +1,1203 @@
+{
+  "image_name": "5990d9803e1280e8b7451cb4261f0df2.png",
+  "prompt_text": "The figure compares how nitrogen is transformed and exported to the sea in three coastal settings: sandy, muddy, and rocky coasts. Across all cases, groundwater discharge links land-based nitrogen sources with coastal waters, but the dominant pathways differ with sediment structure and permeability.\n\nIn sandy coasts, permeable sediments allow strong exchange between groundwater and seawater, so infiltrating organic matter is mineralized and then nitrified. The diagram suggests brackish submarine groundwater discharge often carries nitrogen mainly as nitrate, with some ammonium and dissolved organic nitrogen also cycling through denitrification and related reactions.\n\nIn muddy coasts, low permeability is offset by burrows that create secondary pathways and redox mosaics. Here, plant inputs, soil organic matter, anaerobic mineralization, denitrification, DNRA, and nitrification all interact. The exported groundwater appears more mixed, with saline discharge dominating over fresh discharge and carrying substantial dissolved organic nitrogen and ammonium.\n\nIn rocky coasts, groundwater moves through fractures, conduits, and submarine springs rather than reactive sediments. Because contact with biologically active material seems limited, nitrate attenuation is weak and only minor ammonium or dissolved organic nitrogen production occurs. Fresh groundwater discharge dominates and the exported nitrogen is shown chiefly as nitrate.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "sandy coast cross-section",
+        "category": "geological_structure",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "permeable sediment",
+          "shore-to-sea section",
+          "groundwater exchange"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "muddy coast cross-section",
+        "category": "geological_structure",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "muddy sediment",
+          "burrowed shore",
+          "groundwater export"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "rocky coast cross-section",
+        "category": "geological_structure",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "rocky substrate",
+          "fractures/conduits",
+          "submarine outlet"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "fresh groundwater discharge arrows",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 3,
+        "key_attributes": [
+          "yellow arrows",
+          "land-to-sea flow",
+          "export pathway"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "saline or brackish groundwater discharge arrows",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 3,
+        "key_attributes": [
+          "blue arrows",
+          "seawater-groundwater exchange",
+          "subsurface recirculation"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "burrows",
+        "category": "pathway_component",
+        "panel": "b",
+        "count": 3,
+        "key_attributes": [
+          "secondary permeability",
+          "vertical tubes",
+          "redox mosaic"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "fracture and conduit network",
+        "category": "pathway_component",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "rock fractures",
+          "groundwater pathways",
+          "limited sediment contact"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "submarine spring outlet",
+        "category": "pathway_component",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "offshore discharge",
+          "spring mouth",
+          "rocky coast"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "coastal seawater body",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 3,
+        "key_attributes": [
+          "blue water region",
+          "tidal surface",
+          "receiving zone"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v10",
+        "entity_type": "visual",
+        "name": "terrestrial nitrogen source area",
+        "category": "region",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "land surface",
+          "human source",
+          "upland input"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v11",
+        "entity_type": "visual",
+        "name": "vegetation and soil organic matter zone",
+        "category": "region",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "plants",
+          "high organic matter",
+          "muddy coast surface"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v12",
+        "entity_type": "visual",
+        "name": "legend color keys for groundwater types",
+        "category": "legend_key",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "yellow key",
+          "blue key",
+          "discharge type legend"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "panel a label",
+        "category": "panel_label",
+        "surface_text": "a",
+        "normalized_text": "a",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "sandy coast title",
+        "category": "scientific_label",
+        "surface_text": "Sandy coasts: permeable sediments",
+        "normalized_text": "sandy coasts: permeable sediments",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "panel title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "anthropogenic sources",
+        "category": "annotation_text",
+        "surface_text": "Anthropogenic sources",
+        "normalized_text": "anthropogenic sources",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "land nitrogen source"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "POM infiltration",
+        "category": "scientific_label",
+        "surface_text": "POM infiltration",
+        "normalized_text": "POM infiltration",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "organic matter input"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "mineralization",
+        "category": "scientific_label",
+        "surface_text": "Mineralization",
+        "normalized_text": "mineralization",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "nitrogen transformation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "nitrification sandy",
+        "category": "scientific_label",
+        "surface_text": "Nitrification",
+        "normalized_text": "nitrification",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "NH4 to NO3"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "denitrification sandy",
+        "category": "scientific_label",
+        "surface_text": "Denitrification",
+        "normalized_text": "denitrification",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "nitrogen loss"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "DNRA sandy",
+        "category": "scientific_label",
+        "surface_text": "DNRA",
+        "normalized_text": "DNRA",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "nitrate reduction"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "DON sandy",
+        "category": "scientific_label",
+        "surface_text": "DON",
+        "normalized_text": "DON",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "dissolved organic nitrogen"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "NH4 sandy",
+        "category": "scientific_label",
+        "surface_text": "NH4+",
+        "normalized_text": "NH4+",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "ammonium"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "NO3 sandy",
+        "category": "scientific_label",
+        "surface_text": "NO3−",
+        "normalized_text": "NO3−",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "nitrate"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "brackish SGD label",
+        "category": "scientific_label",
+        "surface_text": "Brackish SGD",
+        "normalized_text": "brackish SGD",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "export type"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "sandy export composition",
+        "category": "equation",
+        "surface_text": "NH4+ ~ DON > NO3−",
+        "normalized_text": "NH4+ ~ DON > NO3−",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "relative export composition"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t14",
+        "entity_type": "text",
+        "name": "panel b label",
+        "category": "panel_label",
+        "surface_text": "b",
+        "normalized_text": "b",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t15",
+        "entity_type": "text",
+        "name": "muddy coast title",
+        "category": "scientific_label",
+        "surface_text": "Muddy coasts: secondary permeability created by burrows",
+        "normalized_text": "muddy coasts: secondary permeability created by burrows",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "panel title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t16",
+        "entity_type": "text",
+        "name": "plant uptake",
+        "category": "scientific_label",
+        "surface_text": "Plant uptake",
+        "normalized_text": "plant uptake",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "vegetation interaction"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t17",
+        "entity_type": "text",
+        "name": "high soil organic matter",
+        "category": "scientific_label",
+        "surface_text": "High soil OM",
+        "normalized_text": "high soil OM",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "organic-rich sediment"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t18",
+        "entity_type": "text",
+        "name": "anaerobic mineralization",
+        "category": "scientific_label",
+        "surface_text": "Anaerobic mineralization",
+        "normalized_text": "anaerobic mineralization",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "anoxic processing"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t19",
+        "entity_type": "text",
+        "name": "denitrification muddy",
+        "category": "scientific_label",
+        "surface_text": "Denitrification",
+        "normalized_text": "denitrification",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "nitrogen loss"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t20",
+        "entity_type": "text",
+        "name": "DNRA muddy",
+        "category": "scientific_label",
+        "surface_text": "DNRA",
+        "normalized_text": "DNRA",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "nitrate reduction"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t21",
+        "entity_type": "text",
+        "name": "nitrification muddy",
+        "category": "scientific_label",
+        "surface_text": "Nitrification",
+        "normalized_text": "nitrification",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "oxic transformation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t22",
+        "entity_type": "text",
+        "name": "suboxic burrows",
+        "category": "scientific_label",
+        "surface_text": "Suboxic burrows",
+        "normalized_text": "suboxic burrows",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "secondary pathways"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t23",
+        "entity_type": "text",
+        "name": "DON muddy",
+        "category": "scientific_label",
+        "surface_text": "DON",
+        "normalized_text": "DON",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "dissolved organic nitrogen"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t24",
+        "entity_type": "text",
+        "name": "NH4 muddy",
+        "category": "scientific_label",
+        "surface_text": "NH4+",
+        "normalized_text": "NH4+",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "ammonium"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t25",
+        "entity_type": "text",
+        "name": "NO3 muddy",
+        "category": "scientific_label",
+        "surface_text": "NO3−",
+        "normalized_text": "NO3−",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "nitrate"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t26",
+        "entity_type": "text",
+        "name": "saline versus fresh discharge",
+        "category": "equation",
+        "surface_text": "Saline SGD >> fresh SGD",
+        "normalized_text": "saline SGD >> fresh SGD",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "dominant saline export"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t27",
+        "entity_type": "text",
+        "name": "muddy export composition",
+        "category": "equation",
+        "surface_text": "DON + NH4+",
+        "normalized_text": "DON + NH4+",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "exported nitrogen forms"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t28",
+        "entity_type": "text",
+        "name": "panel c label",
+        "category": "panel_label",
+        "surface_text": "c",
+        "normalized_text": "c",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t29",
+        "entity_type": "text",
+        "name": "rocky coast title",
+        "category": "scientific_label",
+        "surface_text": "Rocky coasts: fractures and/or conduits in karstified carbonate or volcanic rocks",
+        "normalized_text": "rocky coasts: fractures and/or conduits in karstified carbonate or volcanic rocks",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "panel title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t30",
+        "entity_type": "text",
+        "name": "nitrate sources",
+        "category": "scientific_label",
+        "surface_text": "NO3− sources",
+        "normalized_text": "NO3− sources",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "nitrate supply"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t31",
+        "entity_type": "text",
+        "name": "oxic conditions",
+        "category": "scientific_label",
+        "surface_text": "Oxic conditions",
+        "normalized_text": "oxic conditions",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "oxygenated flowpath"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t32",
+        "entity_type": "text",
+        "name": "low organic matter",
+        "category": "scientific_label",
+        "surface_text": "Low OM",
+        "normalized_text": "low OM",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "limited reactive material"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t33",
+        "entity_type": "text",
+        "name": "minor ammonium and DON production",
+        "category": "scientific_label",
+        "surface_text": "Minor NH4+ and DON production",
+        "normalized_text": "minor NH4+ and DON production",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "weak reduced-N generation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t34",
+        "entity_type": "text",
+        "name": "ineffective nitrate attenuation",
+        "category": "scientific_label",
+        "surface_text": "Ineffective NO3− attenuation",
+        "normalized_text": "ineffective NO3− attenuation",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "weak nitrate removal"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t35",
+        "entity_type": "text",
+        "name": "submarine springs label",
+        "category": "scientific_label",
+        "surface_text": "Submarine springs",
+        "normalized_text": "submarine springs",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "offshore outlets"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t36",
+        "entity_type": "text",
+        "name": "fresh versus saline discharge rocky",
+        "category": "equation",
+        "surface_text": "Fresh SGD > saline SGD",
+        "normalized_text": "fresh SGD > saline SGD",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "fresh discharge dominant"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t37",
+        "entity_type": "text",
+        "name": "rocky export composition",
+        "category": "equation",
+        "surface_text": "NO3− > DON ~ NH4+",
+        "normalized_text": "NO3− > DON ~ NH4+",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "nitrate-dominated export"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t38",
+        "entity_type": "text",
+        "name": "fresh SGD legend text",
+        "category": "legend_text",
+        "surface_text": "Fresh SGD",
+        "normalized_text": "fresh SGD",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "legend entry"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t39",
+        "entity_type": "text",
+        "name": "saline SGD legend text",
+        "category": "legend_text",
+        "surface_text": "Saline SGD",
+        "normalized_text": "saline SGD",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "legend entry"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t40",
+        "entity_type": "text",
+        "name": "high tide annotations",
+        "category": "annotation_text",
+        "surface_text": "High tide",
+        "normalized_text": "high tide",
+        "panel": "single_panel",
+        "count": 3,
+        "key_attributes": [
+          "tidal reference"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t41",
+        "entity_type": "text",
+        "name": "low tide annotations",
+        "category": "annotation_text",
+        "surface_text": "Low tide",
+        "normalized_text": "low tide",
+        "panel": "single_panel",
+        "count": 3,
+        "key_attributes": [
+          "tidal reference"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t2",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t15",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t29",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t38",
+        "target_entity_id": "v4",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "t39",
+        "target_entity_id": "v5",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "v12",
+        "target_entity_id": "v4",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "v12",
+        "target_entity_id": "v5",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "v4",
+        "target_entity_id": "v9",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "v5",
+        "target_entity_id": "v9",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "t4",
+        "target_entity_id": "t5",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "t5",
+        "target_entity_id": "t6",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "t6",
+        "target_entity_id": "t11",
+        "relation_type": "transforms_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "t5",
+        "target_entity_id": "t10",
+        "relation_type": "transforms_to",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "t7",
+        "target_entity_id": "t11",
+        "relation_type": "inhibits",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "t8",
+        "target_entity_id": "t11",
+        "relation_type": "inhibits",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "t12",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "t3",
+        "target_entity_id": "v10",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "t13",
+        "target_entity_id": "t12",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "t16",
+        "target_entity_id": "v11",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "t17",
+        "target_entity_id": "v11",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "t22",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "v6",
+        "target_entity_id": "v2",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r23",
+        "source_entity_id": "t18",
+        "target_entity_id": "t24",
+        "relation_type": "transforms_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r24",
+        "source_entity_id": "t21",
+        "target_entity_id": "t25",
+        "relation_type": "transforms_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r25",
+        "source_entity_id": "t19",
+        "target_entity_id": "t25",
+        "relation_type": "inhibits",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r26",
+        "source_entity_id": "t20",
+        "target_entity_id": "t25",
+        "relation_type": "inhibits",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r27",
+        "source_entity_id": "t26",
+        "target_entity_id": "v5",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r28",
+        "source_entity_id": "t26",
+        "target_entity_id": "v4",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r29",
+        "source_entity_id": "t27",
+        "target_entity_id": "v5",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r30",
+        "source_entity_id": "v7",
+        "target_entity_id": "v3",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r31",
+        "source_entity_id": "v8",
+        "target_entity_id": "v3",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r32",
+        "source_entity_id": "t35",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r33",
+        "source_entity_id": "t31",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r34",
+        "source_entity_id": "t32",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r35",
+        "source_entity_id": "t34",
+        "target_entity_id": "t30",
+        "relation_type": "inhibits",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r36",
+        "source_entity_id": "t33",
+        "target_entity_id": "t30",
+        "relation_type": "connected_to",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r37",
+        "source_entity_id": "t36",
+        "target_entity_id": "v4",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r38",
+        "source_entity_id": "t36",
+        "target_entity_id": "v5",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r39",
+        "source_entity_id": "t37",
+        "target_entity_id": "v4",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      }
+    ]
+  }
+}

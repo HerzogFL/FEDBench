@@ -1,0 +1,1034 @@
+{
+  "image_name": "5bf43fd64145f7657e4a0d61ccd27565.png",
+  "prompt_text": "The figure summarizes major machine-learning strategies for molecular design and then shows an example workflow and outputs. Across the top and middle, four common generative frameworks are sketched. In reinforcement learning, a generative network proposes molecules from a latent space and a predictive model returns a reward that guides improvement. In diffusion models, molecules are mapped through a latent representation with a forward diffusion process and then regenerated through iterative denoising. In a generative adversarial network, a generator produces candidate molecules from latent variables while a discriminator compares generated and real molecules and provides a loss signal. In a variational autoencoder, molecules are encoded into a compact latent space and decoded back into reconstructed molecules.\n\nThe lower-left panel combines these ideas into a practical discovery loop: training data and known actives are used to train generative models, molecules are sampled, scored with a QSAR model, and reinforcement appears to feed high-scoring results back to improve generation; enrichment, few-shot learning, and transfer learning are also indicated. The lower-right panel shows two example chemical structures, illustrating the kind of candidate compounds such methods can produce. Overall, the figure highlights latent-space-based generation and iterative optimization of drug-like molecules.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "reinforcement learning schematic",
+        "category": "pathway_component",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "latent-to-molecule loop",
+          "reward feedback",
+          "network blocks"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "diffusion model schematic",
+        "category": "pathway_component",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "forward diffusion",
+          "iterative generation",
+          "latent representation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "generative adversarial network schematic",
+        "category": "pathway_component",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "generator-discriminator",
+          "real vs fake",
+          "loss feedback"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "variational autoencoder schematic",
+        "category": "pathway_component",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "encoder-decoder",
+          "latent space",
+          "reconstruction"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "discovery loop workflow",
+        "category": "pathway_component",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "training-sampling-scoring",
+          "QSAR scoring",
+          "reinforcement loop"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "example candidate chemical structures",
+        "category": "molecule",
+        "panel": "f",
+        "count": 2,
+        "key_attributes": [
+          "drug-like compounds",
+          "two examples",
+          "skeletal formulas"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "arrows indicating process flow",
+        "category": "arrow",
+        "panel": "all",
+        "count": 1,
+        "key_attributes": [
+          "directional flow",
+          "feedback loops",
+          "workflow connections"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "molecule card stack icons",
+        "category": "molecule",
+        "panel": "a,b,c,d",
+        "count": 1,
+        "key_attributes": [
+          "stacked pages",
+          "chemical sketch inset",
+          "molecule examples"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "latent space node icon",
+        "category": "pathway_component",
+        "panel": "a,b,c,d",
+        "count": 1,
+        "key_attributes": [
+          "vertical capsule",
+          "three nodes",
+          "abstract latent vector"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v10",
+        "entity_type": "visual",
+        "name": "real/fake discriminator outcome lights",
+        "category": "legend_key",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "green-red indicators",
+          "binary outcome",
+          "classifier output"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v11",
+        "entity_type": "visual",
+        "name": "dashed reinforcement loop boundary",
+        "category": "region",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "dashed outline",
+          "workflow enclosure",
+          "feedback region"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "Reinforcement learning",
+        "category": "legend_text",
+        "surface_text": "Reinforcement learning",
+        "normalized_text": "reinforcement learning",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "framework title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "Diffusion models",
+        "category": "legend_text",
+        "surface_text": "Diffusion models",
+        "normalized_text": "diffusion models",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "framework title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "Generative adversarial network",
+        "category": "legend_text",
+        "surface_text": "Generative adversarial network",
+        "normalized_text": "generative adversarial network",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "framework title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "Variational autoencoder",
+        "category": "legend_text",
+        "surface_text": "Variational autoencoder",
+        "normalized_text": "variational autoencoder",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "framework title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "Latent space",
+        "category": "scientific_label",
+        "surface_text": "Latent space",
+        "normalized_text": "latent space",
+        "panel": "a,b,c,d",
+        "count": 4,
+        "key_attributes": [
+          "shared concept"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "Reward",
+        "category": "scientific_label",
+        "surface_text": "Reward",
+        "normalized_text": "reward",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "RL feedback"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "Generative network",
+        "category": "scientific_label",
+        "surface_text": "Generative network",
+        "normalized_text": "generative network",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "RL generator"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "Predictive network",
+        "category": "scientific_label",
+        "surface_text": "Predictive network",
+        "normalized_text": "predictive network",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "reward model"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "Generated molecules",
+        "category": "scientific_label",
+        "surface_text": "Generated molecules",
+        "normalized_text": "generated molecules",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "RL output"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "Molecules",
+        "category": "scientific_label",
+        "surface_text": "Molecules",
+        "normalized_text": "molecules",
+        "panel": "b,d",
+        "count": 2,
+        "key_attributes": [
+          "input molecules"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "Diffusion",
+        "category": "scientific_label",
+        "surface_text": "Diffusion",
+        "normalized_text": "diffusion",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "forward process"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "Generation",
+        "category": "scientific_label",
+        "surface_text": "Generation",
+        "normalized_text": "generation",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "reverse process"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "Real-world molecules",
+        "category": "scientific_label",
+        "surface_text": "Real-world molecules",
+        "normalized_text": "real-world molecules",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "GAN real data"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t14",
+        "entity_type": "text",
+        "name": "Discriminator",
+        "category": "scientific_label",
+        "surface_text": "Discriminator",
+        "normalized_text": "discriminator",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "GAN classifier"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t15",
+        "entity_type": "text",
+        "name": "Generator",
+        "category": "scientific_label",
+        "surface_text": "Generator",
+        "normalized_text": "generator",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "GAN generator"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t16",
+        "entity_type": "text",
+        "name": "Loss",
+        "category": "scientific_label",
+        "surface_text": "Loss",
+        "normalized_text": "loss",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "GAN feedback"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t17",
+        "entity_type": "text",
+        "name": "Real",
+        "category": "annotation_text",
+        "surface_text": "Real",
+        "normalized_text": "real",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "GAN outcome"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t18",
+        "entity_type": "text",
+        "name": "Fake",
+        "category": "annotation_text",
+        "surface_text": "Fake",
+        "normalized_text": "fake",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "GAN outcome"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t19",
+        "entity_type": "text",
+        "name": "Encoder",
+        "category": "scientific_label",
+        "surface_text": "Encoder",
+        "normalized_text": "encoder",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "VAE encoder"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t20",
+        "entity_type": "text",
+        "name": "Decoder",
+        "category": "scientific_label",
+        "surface_text": "Decoder",
+        "normalized_text": "decoder",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "VAE decoder"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t21",
+        "entity_type": "text",
+        "name": "Reconstructed molecules",
+        "category": "scientific_label",
+        "surface_text": "Reconstructed molecules",
+        "normalized_text": "reconstructed molecules",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "VAE output"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t22",
+        "entity_type": "text",
+        "name": "Training data",
+        "category": "scientific_label",
+        "surface_text": "Training data",
+        "normalized_text": "training data",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "workflow input"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t23",
+        "entity_type": "text",
+        "name": "Known actives",
+        "category": "scientific_label",
+        "surface_text": "Known actives",
+        "normalized_text": "known actives",
+        "panel": "e",
+        "count": 2,
+        "key_attributes": [
+          "prior examples"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t24",
+        "entity_type": "text",
+        "name": "Generative models",
+        "category": "scientific_label",
+        "surface_text": "Generative models",
+        "normalized_text": "generative models",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "model family"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t25",
+        "entity_type": "text",
+        "name": "Sampling",
+        "category": "scientific_label",
+        "surface_text": "Sampling",
+        "normalized_text": "sampling",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "workflow stage"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t26",
+        "entity_type": "text",
+        "name": "Scoring",
+        "category": "scientific_label",
+        "surface_text": "Scoring",
+        "normalized_text": "scoring",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "workflow stage"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t27",
+        "entity_type": "text",
+        "name": "QSAR model",
+        "category": "scientific_label",
+        "surface_text": "QSAR model",
+        "normalized_text": "qsar model",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "scoring model"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t28",
+        "entity_type": "text",
+        "name": "Reinforcement",
+        "category": "scientific_label",
+        "surface_text": "Reinforcement",
+        "normalized_text": "reinforcement",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "feedback loop"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t29",
+        "entity_type": "text",
+        "name": "Enrichment",
+        "category": "scientific_label",
+        "surface_text": "Enrichment",
+        "normalized_text": "enrichment",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "auxiliary method"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t30",
+        "entity_type": "text",
+        "name": "Few-shot learning",
+        "category": "scientific_label",
+        "surface_text": "Few-shot learning",
+        "normalized_text": "few-shot learning",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "auxiliary method"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t31",
+        "entity_type": "text",
+        "name": "Transfer learning",
+        "category": "scientific_label",
+        "surface_text": "Transfer learning",
+        "normalized_text": "transfer learning",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "auxiliary method"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t32",
+        "entity_type": "text",
+        "name": "panel labels",
+        "category": "panel_label",
+        "surface_text": "a, b, c, d, e, f",
+        "normalized_text": "a b c d e f",
+        "panel": "all",
+        "count": 6,
+        "key_attributes": [
+          "panel markers"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t33",
+        "entity_type": "text",
+        "name": "compound marker 1",
+        "category": "annotation_text",
+        "surface_text": "①",
+        "normalized_text": "1",
+        "panel": "f",
+        "count": 1,
+        "key_attributes": [
+          "compound index"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t34",
+        "entity_type": "text",
+        "name": "compound marker 2",
+        "category": "annotation_text",
+        "surface_text": "②",
+        "normalized_text": "2",
+        "panel": "f",
+        "count": 1,
+        "key_attributes": [
+          "compound index"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t35",
+        "entity_type": "text",
+        "name": "chemical substituent labels",
+        "category": "annotation_text",
+        "surface_text": "F; O; NH2; OH; Cl; CF3",
+        "normalized_text": "F O NH2 OH Cl CF3",
+        "panel": "f",
+        "count": 6,
+        "key_attributes": [
+          "atom/group labels"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t1",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t2",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t3",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t4",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "t7",
+        "target_entity_id": "t9",
+        "relation_type": "transforms_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "t8",
+        "target_entity_id": "t6",
+        "relation_type": "transforms_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "t6",
+        "target_entity_id": "t7",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "t11",
+        "target_entity_id": "t5",
+        "relation_type": "transforms_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "t5",
+        "target_entity_id": "t12",
+        "relation_type": "transforms_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "t15",
+        "target_entity_id": "t14",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "t13",
+        "target_entity_id": "t14",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "t14",
+        "target_entity_id": "t16",
+        "relation_type": "transforms_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "t16",
+        "target_entity_id": "t15",
+        "relation_type": "inhibits",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "t19",
+        "target_entity_id": "t5",
+        "relation_type": "transforms_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "t5",
+        "target_entity_id": "t20",
+        "relation_type": "transforms_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "t20",
+        "target_entity_id": "t21",
+        "relation_type": "transforms_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "t22",
+        "target_entity_id": "t24",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "t23",
+        "target_entity_id": "t24",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "t24",
+        "target_entity_id": "t25",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "t25",
+        "target_entity_id": "t26",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "t26",
+        "target_entity_id": "t27",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "t27",
+        "target_entity_id": "t28",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r23",
+        "source_entity_id": "t28",
+        "target_entity_id": "t24",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r24",
+        "source_entity_id": "t29",
+        "target_entity_id": "v5",
+        "relation_type": "part_of",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r25",
+        "source_entity_id": "t30",
+        "target_entity_id": "v5",
+        "relation_type": "part_of",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r26",
+        "source_entity_id": "t31",
+        "target_entity_id": "v5",
+        "relation_type": "part_of",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r27",
+        "source_entity_id": "v1",
+        "target_entity_id": "v2",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r28",
+        "source_entity_id": "v2",
+        "target_entity_id": "v3",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r29",
+        "source_entity_id": "v3",
+        "target_entity_id": "v4",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r30",
+        "source_entity_id": "v5",
+        "target_entity_id": "v6",
+        "relation_type": "left_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r31",
+        "source_entity_id": "v1",
+        "target_entity_id": "v5",
+        "relation_type": "above",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r32",
+        "source_entity_id": "v2",
+        "target_entity_id": "v6",
+        "relation_type": "above",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "global"
+      }
+    ]
+  }
+}

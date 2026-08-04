@@ -1,0 +1,690 @@
+{
+  "image_name": "d2f8dd30d59f0d335c8283b91fdeebaa.jpg",
+  "prompt_text": "The figure illustrates a heat-to-work conversion concept based on a nanoporous membrane separating two liquid regions at different temperatures and pressures. A warm fluid at low pressure lies above the membrane and is heated by a heat source, while a cool fluid at high pressure lies below it and is connected to a heat sink. Thermometer and pressure icons emphasize the imposed gradient: high temperature/low pressure on top versus low temperature/high pressure below.\n\nThe enlarged view of the membrane suggests that vapor moves through nanoscale pores from the warm side to the cool side, indicated by downward arrows. This transport appears to be driven by the temperature difference while occurring against the pressure difference, from low pressure toward high pressure. The membrane therefore acts as a selective pathway for vapor flux between the two liquid phases.\n\nThe overall message is that thermal energy can be converted into mechanical work by sustaining vapor flow across the membrane. The equation at the bottom summarizes the idea: the generated work is proportional to the vapor flux multiplied by the pressure difference between the high- and low-pressure sides.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "upper warm fluid region",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "above membrane",
+          "warm side",
+          "low pressure"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "lower cool fluid region",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "below membrane",
+          "cool side",
+          "high pressure"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "nanoporous membrane",
+        "category": "membrane",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "separator layer",
+          "nanoporous",
+          "between liquids"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "membrane pores in magnified view",
+        "category": "pathway_component",
+        "panel": "single_panel",
+        "count": 5,
+        "key_attributes": [
+          "vertical pores",
+          "nanoscale channels",
+          "inside membrane"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "downward vapor flux arrows",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 5,
+        "key_attributes": [
+          "downward",
+          "through pores",
+          "transport direction"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "heat source block",
+        "category": "device_component",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "top block",
+          "heating",
+          "warm side"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "heat sink block",
+        "category": "device_component",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "bottom block",
+          "cooling",
+          "cool side"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "mechanical work output arrow",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "downward output",
+          "from lower conduit",
+          "work extraction"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "thermometer icons",
+        "category": "device_component",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "temperature indicators",
+          "top and bottom",
+          "gradient cue"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v10",
+        "entity_type": "visual",
+        "name": "pressure gauge icons",
+        "category": "device_component",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "pressure indicators",
+          "top and bottom",
+          "gradient cue"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v11",
+        "entity_type": "visual",
+        "name": "magnified circular inset",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "zoomed view",
+          "circular",
+          "membrane detail"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v12",
+        "entity_type": "visual",
+        "name": "zoom connector lines",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "link schematic to inset",
+          "thin lines",
+          "callout"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "top temperature label",
+        "category": "scientific_label",
+        "surface_text": "T_warm",
+        "normalized_text": "T_warm",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "warm temperature",
+          "top side"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "top pressure label",
+        "category": "scientific_label",
+        "surface_text": "P_low",
+        "normalized_text": "P_low",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "low pressure",
+          "top side"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "heat source label",
+        "category": "annotation_text",
+        "surface_text": "Heat source",
+        "normalized_text": "Heat source",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "top heater"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "upper fluid description",
+        "category": "annotation_text",
+        "surface_text": "Warm fluid at low pressure",
+        "normalized_text": "Warm fluid at low pressure",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "upper region"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "membrane label",
+        "category": "scientific_label",
+        "surface_text": "Nanoporous membrane",
+        "normalized_text": "Nanoporous membrane",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "separator label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "lower fluid description",
+        "category": "annotation_text",
+        "surface_text": "Cool fluid at high pressure",
+        "normalized_text": "Cool fluid at high pressure",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "lower region"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "bottom pressure label",
+        "category": "scientific_label",
+        "surface_text": "P_high",
+        "normalized_text": "P_high",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "high pressure",
+          "bottom side"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "bottom temperature label",
+        "category": "scientific_label",
+        "surface_text": "T_cool",
+        "normalized_text": "T_cool",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "cool temperature",
+          "bottom side"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "heat sink label",
+        "category": "annotation_text",
+        "surface_text": "Heat sink",
+        "normalized_text": "Heat sink",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "bottom cooler"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "mechanical work label",
+        "category": "annotation_text",
+        "surface_text": "Mechanical work",
+        "normalized_text": "Mechanical work",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "output label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "inset upper liquid label",
+        "category": "annotation_text",
+        "surface_text": "Warm liquid",
+        "normalized_text": "Warm liquid",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "inset top"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "inset top pressure text",
+        "category": "annotation_text",
+        "surface_text": "Low pressure",
+        "normalized_text": "Low pressure",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "inset top"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "inset lower liquid label",
+        "category": "annotation_text",
+        "surface_text": "Cool liquid",
+        "normalized_text": "Cool liquid",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "inset bottom"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t14",
+        "entity_type": "text",
+        "name": "inset bottom pressure text",
+        "category": "annotation_text",
+        "surface_text": "High pressure",
+        "normalized_text": "High pressure",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "inset bottom"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t15",
+        "entity_type": "text",
+        "name": "work relation equation",
+        "category": "equation",
+        "surface_text": "Work ∝ vapour flux × (P_high−P_low)",
+        "normalized_text": "Work ∝ vapour flux × (P_high − P_low)",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "proportional relation",
+          "pressure difference"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t4",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t6",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t5",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t3",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "t9",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "t10",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "t1",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "t2",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "t7",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "t8",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "v1",
+        "target_entity_id": "v3",
+        "relation_type": "above",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "v3",
+        "target_entity_id": "v2",
+        "relation_type": "above",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "v6",
+        "target_entity_id": "v1",
+        "relation_type": "above",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "v7",
+        "target_entity_id": "v2",
+        "relation_type": "below",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "v4",
+        "target_entity_id": "v3",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "v5",
+        "target_entity_id": "v4",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "v5",
+        "target_entity_id": "v2",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "v5",
+        "target_entity_id": "v3",
+        "relation_type": "connected_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "v3",
+        "target_entity_id": "v1",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "v3",
+        "target_entity_id": "v2",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "v8",
+        "target_entity_id": "t15",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "v11",
+        "target_entity_id": "v3",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r23",
+        "source_entity_id": "t11",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r24",
+        "source_entity_id": "t12",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r25",
+        "source_entity_id": "t13",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r26",
+        "source_entity_id": "t14",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r27",
+        "source_entity_id": "v12",
+        "target_entity_id": "v11",
+        "relation_type": "points_to",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      }
+    ]
+  }
+}

@@ -1,0 +1,673 @@
+{
+  "image_name": "2199e7efde6cb72c2b8a740dddab34ae.jpg",
+  "prompt_text": "The figure compares how different metallic nanostructures concentrate and direct electromagnetic fields. It presents four common geometries—nanosphere, nanowire, nanodisk, and nanogaps—and highlights how shape controls the surrounding field distribution and polarization response.\n\nFor the nanosphere, curved field lines wrap symmetrically around the particle, suggesting a more isotropic dipole-like response in a medium labeled with dielectric constant. In contrast, the elongated nanowire and flattened nanodisk show strongly shape-dependent behavior: arrows indicate polarization across the short dimension, while dashed arrows along the long in-plane axis suggest charge or plasmon motion extending through the structure. Bright yellow regions appear at edges or ends, emphasizing localized field enhancement at sharp boundaries.\n\nThe nanogap example shows the strongest confinement. A small dielectric spacer between two metallic regions creates an intense field concentrated inside the narrow gap, with the yellow region pinched between the facing surfaces. This visually communicates the key idea that reducing separation between metallic elements dramatically increases local electromagnetic intensity.\n\nOverall, the figure conveys that nanostructure geometry—from symmetric particles to anisotropic rods, disks, and especially coupled gaps—governs where fields localize and how strongly light can be concentrated at the nanoscale.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "metal nanosphere",
+        "category": "material_structure",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "spherical metal particle",
+          "centered in medium",
+          "dipole-like field"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "curved field lines around nanosphere",
+        "category": "arrow",
+        "panel": "a",
+        "count": 4,
+        "key_attributes": [
+          "symmetric loops",
+          "wrap around sphere",
+          "red field lines"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "vertical polarization arrow in nanosphere panel",
+        "category": "arrow",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "vertical",
+          "through sphere center",
+          "dark arrow"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "metal nanowire",
+        "category": "material_structure",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "elongated rod",
+          "horizontal",
+          "rounded end"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "radial polarization arrows at nanowire end",
+        "category": "arrow",
+        "panel": "b",
+        "count": 10,
+        "key_attributes": [
+          "emanating from end",
+          "short-dimension response",
+          "dark arrows"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "long-axis dashed arrow in nanowire",
+        "category": "arrow",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "horizontal dashed",
+          "inside rod",
+          "plasmon motion"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "edge-enhanced field region near nanowire",
+        "category": "region",
+        "panel": "b",
+        "count": 2,
+        "key_attributes": [
+          "bright yellow",
+          "at sharp boundary",
+          "localized enhancement"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "metal nanodisk",
+        "category": "material_structure",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "flattened disk",
+          "horizontal",
+          "elliptical top"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "vertical polarization arrows at nanodisk edge",
+        "category": "arrow",
+        "panel": "c",
+        "count": 2,
+        "key_attributes": [
+          "up and down",
+          "across short dimension",
+          "dark arrows"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v10",
+        "entity_type": "visual",
+        "name": "in-plane dashed arrow in nanodisk",
+        "category": "arrow",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "horizontal dashed",
+          "through disk",
+          "long in-plane axis"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v11",
+        "entity_type": "visual",
+        "name": "edge-enhanced field region near nanodisk",
+        "category": "region",
+        "panel": "c",
+        "count": 2,
+        "key_attributes": [
+          "bright yellow",
+          "at disk edge",
+          "localized enhancement"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v12",
+        "entity_type": "visual",
+        "name": "metallic nanogap structure",
+        "category": "material_structure",
+        "panel": "d",
+        "count": 2,
+        "key_attributes": [
+          "two metal regions",
+          "facing surfaces",
+          "narrow separation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v13",
+        "entity_type": "visual",
+        "name": "dielectric spacer in nanogap",
+        "category": "layer",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "green spacer",
+          "between metals",
+          "narrow gap region"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v14",
+        "entity_type": "visual",
+        "name": "confined field hotspot in nanogap",
+        "category": "region",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "pinched yellow region",
+          "inside gap",
+          "strong confinement"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v15",
+        "entity_type": "visual",
+        "name": "arrows indicating nanogap polarization and coupling",
+        "category": "arrow",
+        "panel": "d",
+        "count": 3,
+        "key_attributes": [
+          "vertical arrow",
+          "horizontal dashed arrows",
+          "gap-directed response"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v16",
+        "entity_type": "visual",
+        "name": "3D inset schematic of disk-on-layer nanogap geometry",
+        "category": "material_structure",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "perspective inset",
+          "cylindrical top element",
+          "stacked layers"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "panel label a",
+        "category": "panel_label",
+        "surface_text": "a",
+        "normalized_text": "a",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "Nanosphere label",
+        "category": "scientific_label",
+        "surface_text": "Nanosphere",
+        "normalized_text": "nanosphere",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "geometry name"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "medium dielectric constant label",
+        "category": "scientific_label",
+        "surface_text": "εm",
+        "normalized_text": "epsilon_m",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "surrounding medium"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "panel label b",
+        "category": "panel_label",
+        "surface_text": "b",
+        "normalized_text": "b",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "Nanowire label",
+        "category": "scientific_label",
+        "surface_text": "Nanowire",
+        "normalized_text": "nanowire",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "geometry name"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "medium dielectric constant label",
+        "category": "scientific_label",
+        "surface_text": "εm",
+        "normalized_text": "epsilon_m",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "surrounding medium"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "panel label c",
+        "category": "panel_label",
+        "surface_text": "c",
+        "normalized_text": "c",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "Nanodisk label",
+        "category": "scientific_label",
+        "surface_text": "Nanodisk",
+        "normalized_text": "nanodisk",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "geometry name"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "medium dielectric constant label",
+        "category": "scientific_label",
+        "surface_text": "εm",
+        "normalized_text": "epsilon_m",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "surrounding medium"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "panel label d",
+        "category": "panel_label",
+        "surface_text": "d",
+        "normalized_text": "d",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "Nanogaps label",
+        "category": "scientific_label",
+        "surface_text": "Nanogaps",
+        "normalized_text": "nanogaps",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "geometry name"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "metal medium dielectric label",
+        "category": "scientific_label",
+        "surface_text": "εm",
+        "normalized_text": "epsilon_m",
+        "panel": "d",
+        "count": 2,
+        "key_attributes": [
+          "metal regions"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "dielectric spacer label",
+        "category": "scientific_label",
+        "surface_text": "εd",
+        "normalized_text": "epsilon_d",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "dielectric spacer"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t2",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "v2",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "v3",
+        "target_entity_id": "v1",
+        "relation_type": "points_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t3",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "t5",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "v5",
+        "target_entity_id": "v4",
+        "relation_type": "points_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "v6",
+        "target_entity_id": "v4",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "v7",
+        "target_entity_id": "v4",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "t6",
+        "target_entity_id": "v4",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "t8",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "v9",
+        "target_entity_id": "v8",
+        "relation_type": "points_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "v10",
+        "target_entity_id": "v8",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "v11",
+        "target_entity_id": "v8",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "t9",
+        "target_entity_id": "v8",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "t11",
+        "target_entity_id": "v12",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "v13",
+        "target_entity_id": "v12",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "v14",
+        "target_entity_id": "v13",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "v15",
+        "target_entity_id": "v12",
+        "relation_type": "points_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "t13",
+        "target_entity_id": "v13",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "t12",
+        "target_entity_id": "v12",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "v1",
+        "target_entity_id": "v4",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "v4",
+        "target_entity_id": "v8",
+        "relation_type": "above",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r23",
+        "source_entity_id": "v8",
+        "target_entity_id": "v12",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "global"
+      }
+    ]
+  }
+}

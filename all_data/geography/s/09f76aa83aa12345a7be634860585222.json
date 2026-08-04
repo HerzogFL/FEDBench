@@ -1,0 +1,861 @@
+{
+  "image_name": "09f76aa83aa12345a7be634860585222.png",
+  "prompt_text": "This figure is a schematic of the global overturning circulation linking the atmosphere and ocean from the Atlantic, through Antarctica, to the Pacific. It shows how major wind belts and atmospheric cells over the Southern Ocean help drive water exchange between ocean basins and between the surface and deep ocean.\n\nAt the ocean surface, relatively warm subtropical or tropical waters move poleward toward Antarctica. Around Antarctica, strong wind-driven circulation and Southern Ocean upwelling bring deep waters upward. Some of this water is transformed into intermediate waters, labeled SAMW/AAIW, which spread northward near the surface, while very dense Antarctic Bottom Water (AABW) forms and sinks to the abyss, then flows into both the Atlantic and Pacific as a bottom current.\n\nThe Atlantic side highlights North Atlantic Deep Water (NADW) formation in the north, with NADW flowing southward at depth toward the Southern Ocean. Near Antarctica it connects with deep waters such as LCDW and returns upward. On the Pacific side, older deep waters appear as UCDW and PDW, which upwell near Antarctica and are returned to shallower layers.\n\nOverall, the figure emphasizes Antarctica as the central junction where winds, upwelling, water-mass transformation, and deep/bottom water formation connect the global ocean circulation.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "atmosphere region",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "upper zone",
+          "above ocean"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "ocean region",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "lower basin",
+          "Atlantic to Pacific"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "Antarctica central surface cap",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "central junction",
+          "light blue oval",
+          "surface around Antarctica"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "Atlantic basin side",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "left side",
+          "ocean basin"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "Pacific basin side",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "right side",
+          "ocean basin"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "atmospheric circulation cell loops",
+        "category": "cell",
+        "panel": "single_panel",
+        "count": 7,
+        "key_attributes": [
+          "loop arrows",
+          "over Southern Ocean and subtropics",
+          "multiple cells"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "wind belt symbols",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 6,
+        "key_attributes": [
+          "wind markers",
+          "surface wind belts"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "subtropical or tropical surface water flow",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "near-surface current",
+          "poleward toward Antarctica",
+          "purple/cyan pathways"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "Southern Ocean upwelling pathway",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "upward flow",
+          "near Antarctica",
+          "deep to surface"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v10",
+        "entity_type": "visual",
+        "name": "SAMW/AAIW northward shallow export",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "intermediate water",
+          "northward spread",
+          "near surface"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v11",
+        "entity_type": "visual",
+        "name": "AABW sinking and bottom flow",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 3,
+        "key_attributes": [
+          "dense bottom water",
+          "sinks beneath Antarctica",
+          "flows into both basins"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v12",
+        "entity_type": "visual",
+        "name": "NADW southward deep pathway",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "deep Atlantic flow",
+          "southward",
+          "toward Southern Ocean"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v13",
+        "entity_type": "visual",
+        "name": "water-column connection beneath Antarctica",
+        "category": "layer",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "vertical blue column",
+          "surface-deep linkage"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "Atmosphere",
+        "category": "annotation_text",
+        "surface_text": "Atmosphere",
+        "normalized_text": "Atmosphere",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "region label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "Ocean",
+        "category": "annotation_text",
+        "surface_text": "Ocean",
+        "normalized_text": "Ocean",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "region label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "Polar cell",
+        "category": "scientific_label",
+        "surface_text": "Polar cell",
+        "normalized_text": "Polar cell",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "atmospheric cell"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "Mid-latitude cell",
+        "category": "scientific_label",
+        "surface_text": "Mid-latitude cell",
+        "normalized_text": "Mid-latitude cell",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "atmospheric cell"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "Hadley cell",
+        "category": "scientific_label",
+        "surface_text": "Hadley cell",
+        "normalized_text": "Hadley cell",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "atmospheric cell"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "Polar easterlies",
+        "category": "scientific_label",
+        "surface_text": "Polar easterlies",
+        "normalized_text": "Polar easterlies",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "wind belt"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "Mid-latitude westerlies",
+        "category": "scientific_label",
+        "surface_text": "Mid-latitude westerlies",
+        "normalized_text": "Mid-latitude westerlies",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "wind belt"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "Southeast trade winds",
+        "category": "scientific_label",
+        "surface_text": "Southeast trade winds",
+        "normalized_text": "Southeast trade winds",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "wind belt"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "Northeast trade winds",
+        "category": "scientific_label",
+        "surface_text": "Northeast trade winds",
+        "normalized_text": "Northeast trade winds",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "wind belt"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "Antarctica",
+        "category": "scientific_label",
+        "surface_text": "Antarctica",
+        "normalized_text": "Antarctica",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "central junction"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "SAMW/AAIW",
+        "category": "scientific_label",
+        "surface_text": "SAMW/AAIW",
+        "normalized_text": "SAMW/AAIW",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "intermediate waters"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "LCDW",
+        "category": "scientific_label",
+        "surface_text": "LCDW",
+        "normalized_text": "LCDW",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "deep water mass"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "UCDW",
+        "category": "scientific_label",
+        "surface_text": "UCDW",
+        "normalized_text": "UCDW",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "deep water mass"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t14",
+        "entity_type": "text",
+        "name": "PDW",
+        "category": "scientific_label",
+        "surface_text": "PDW",
+        "normalized_text": "PDW",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "Pacific deep water"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t15",
+        "entity_type": "text",
+        "name": "NADW",
+        "category": "scientific_label",
+        "surface_text": "NADW",
+        "normalized_text": "NADW",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "North Atlantic Deep Water"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t16",
+        "entity_type": "text",
+        "name": "AABW",
+        "category": "scientific_label",
+        "surface_text": "AABW",
+        "normalized_text": "AABW",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "Antarctic Bottom Water"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t17",
+        "entity_type": "text",
+        "name": "Subtropical or tropical surface waters",
+        "category": "annotation_text",
+        "surface_text": "Subtropical or tropical surface waters",
+        "normalized_text": "Subtropical or tropical surface waters",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "surface flow label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t18",
+        "entity_type": "text",
+        "name": "Southern Ocean upwelling",
+        "category": "annotation_text",
+        "surface_text": "Southern Ocean upwelling",
+        "normalized_text": "Southern Ocean upwelling",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "upwelling label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t19",
+        "entity_type": "text",
+        "name": "NADW formation",
+        "category": "annotation_text",
+        "surface_text": "NADW formation",
+        "normalized_text": "NADW formation",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "formation site"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t20",
+        "entity_type": "text",
+        "name": "AABW formation",
+        "category": "annotation_text",
+        "surface_text": "AABW formation",
+        "normalized_text": "AABW formation",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "formation site"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t21",
+        "entity_type": "text",
+        "name": "Atlantic",
+        "category": "scientific_label",
+        "surface_text": "Atlantic",
+        "normalized_text": "Atlantic",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "basin label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t22",
+        "entity_type": "text",
+        "name": "Pacific",
+        "category": "scientific_label",
+        "surface_text": "Pacific",
+        "normalized_text": "Pacific",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "basin label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t1",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t2",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t10",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t21",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "t22",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "t17",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "t18",
+        "target_entity_id": "v9",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "t11",
+        "target_entity_id": "v10",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "t15",
+        "target_entity_id": "v12",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "t16",
+        "target_entity_id": "v11",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "t19",
+        "target_entity_id": "v12",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "t20",
+        "target_entity_id": "v11",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "t12",
+        "target_entity_id": "v2",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "t13",
+        "target_entity_id": "v2",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "t14",
+        "target_entity_id": "v2",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "v1",
+        "target_entity_id": "v2",
+        "relation_type": "above",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "v4",
+        "target_entity_id": "v3",
+        "relation_type": "left_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "v3",
+        "target_entity_id": "v5",
+        "relation_type": "left_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "v8",
+        "target_entity_id": "v3",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "v9",
+        "target_entity_id": "v3",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "v9",
+        "target_entity_id": "v10",
+        "relation_type": "transforms_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "v10",
+        "target_entity_id": "v4",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r23",
+        "source_entity_id": "v10",
+        "target_entity_id": "v5",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r24",
+        "source_entity_id": "v11",
+        "target_entity_id": "v4",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r25",
+        "source_entity_id": "v11",
+        "target_entity_id": "v5",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r26",
+        "source_entity_id": "v12",
+        "target_entity_id": "v3",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r27",
+        "source_entity_id": "v12",
+        "target_entity_id": "t12",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r28",
+        "source_entity_id": "t13",
+        "target_entity_id": "v9",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r29",
+        "source_entity_id": "t14",
+        "target_entity_id": "v9",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r30",
+        "source_entity_id": "v7",
+        "target_entity_id": "v9",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r31",
+        "source_entity_id": "v6",
+        "target_entity_id": "v7",
+        "relation_type": "connected_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r32",
+        "source_entity_id": "v13",
+        "target_entity_id": "v3",
+        "relation_type": "connected_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r33",
+        "source_entity_id": "v13",
+        "target_entity_id": "v11",
+        "relation_type": "connected_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      }
+    ]
+  }
+}

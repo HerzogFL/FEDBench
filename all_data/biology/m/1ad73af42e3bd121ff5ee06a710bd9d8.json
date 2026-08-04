@@ -1,0 +1,1981 @@
+{
+  "image_name": "1ad73af42e3bd121ff5ee06a710bd9d8.png",
+  "prompt_text": "The figure compares how different cells localize specific mRNAs to distinct intracellular regions, linking RNA position to where proteins are made. In bacteria such as *E. coli*, mRNAs appear distributed to recognizable subcellular sites including the nucleoid, cell poles, outer membrane, and more diffuse cytoplasmic regions, showing that even simple cells spatially organize translation.\n\nIn budding yeast, mRNAs are shown traveling to polarized destinations in the mother–bud system, including the bud tip, neck, mitochondria, rough or tubular ER, peroxisomes, and the nucleus/nucleolus. The drawing emphasizes transport along actin and localization near organelles, suggesting targeted local protein synthesis.\n\nThe animal examples extend this idea to larger polarized cells. In the *Drosophila* oocyte, different maternal mRNAs accumulate in opposite regions of the egg chamber, associated with anchored or sliding microtubules and transport from nurse cells, establishing embryonic axes. In the *C. elegans* embryo, selected mRNAs are enriched at the cortex or in germ granules, again indicating developmental patterning through RNA localization.\n\nFinally, intestinal villus enterocytes illustrate a physiological switch: under famine versus re-feeding, localized mRNAs and ribosomes become enriched toward the apical, microvilli-rich region, consistent with nutrient-dependent reorganization of protein synthesis.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "E. coli cell schematics",
+        "category": "cell",
+        "panel": "a",
+        "count": 4,
+        "key_attributes": [
+          "rod-shaped",
+          "multiple localization examples",
+          "bacterial cell"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "bacterial nucleoid/chromosome region",
+        "category": "region",
+        "panel": "a",
+        "count": 4,
+        "key_attributes": [
+          "central DNA region",
+          "subcellular localization site",
+          "blue tangled DNA"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "bacterial cell poles",
+        "category": "region",
+        "panel": "a",
+        "count": 2,
+        "key_attributes": [
+          "polar ends",
+          "subcellular localization site"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "outer membrane",
+        "category": "membrane",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "cell boundary",
+          "peripheral localization"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "cytoplasmic mRNA distribution",
+        "category": "region",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "diffuse interior",
+          "non-membrane localization"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "localized mRNA molecules in bacteria",
+        "category": "molecule",
+        "panel": "a",
+        "count": 4,
+        "key_attributes": [
+          "red squiggles",
+          "position-specific",
+          "translation-related"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "budding yeast mother-bud cells",
+        "category": "cell",
+        "panel": "b",
+        "count": 4,
+        "key_attributes": [
+          "mother-bud morphology",
+          "polarized cell",
+          "multiple destinations"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "bud tip / bud region",
+        "category": "region",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "polarized destination",
+          "bud-localized"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "actin filament track at neck",
+        "category": "pathway_component",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "transport track",
+          "mother-bud neck",
+          "red filament"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v10",
+        "entity_type": "visual",
+        "name": "mitochondrion in yeast",
+        "category": "organelle",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "organelle-localized mRNA",
+          "orange bean-like"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v11",
+        "entity_type": "visual",
+        "name": "tubular ER",
+        "category": "organelle",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "ER tubules",
+          "organelle-localized mRNA"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v12",
+        "entity_type": "visual",
+        "name": "rough ER",
+        "category": "organelle",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "ribosome-studded ER",
+          "organelle-localized mRNA"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v13",
+        "entity_type": "visual",
+        "name": "peroxisome",
+        "category": "organelle",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "small vesicular organelle",
+          "organelle-localized mRNA"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v14",
+        "entity_type": "visual",
+        "name": "nucleus/nucleolus in yeast",
+        "category": "organelle",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "large nucleus",
+          "nucleolus indicated"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v15",
+        "entity_type": "visual",
+        "name": "localized mRNA molecules in yeast",
+        "category": "molecule",
+        "panel": "b",
+        "count": 4,
+        "key_attributes": [
+          "red/blue RNA icons",
+          "destination-specific"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v16",
+        "entity_type": "visual",
+        "name": "Drosophila oocyte and nurse cells",
+        "category": "cell",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "egg chamber schematic",
+          "oocyte with nurse cells",
+          "polarized"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v17",
+        "entity_type": "visual",
+        "name": "nurse cell to oocyte connection",
+        "category": "pathway_component",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "ring canals",
+          "transport route"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v18",
+        "entity_type": "visual",
+        "name": "anchored microtubules",
+        "category": "pathway_component",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "anchored",
+          "microtubule network"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v19",
+        "entity_type": "visual",
+        "name": "sliding microtubules",
+        "category": "pathway_component",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "sliding",
+          "microtubule network"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v20",
+        "entity_type": "visual",
+        "name": "oppositely localized maternal mRNAs in oocyte",
+        "category": "molecule",
+        "panel": "c",
+        "count": 3,
+        "key_attributes": [
+          "anterior vs posterior",
+          "maternal transcripts",
+          "axis patterning"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v21",
+        "entity_type": "visual",
+        "name": "oocyte nucleus",
+        "category": "organelle",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "nuclear landmark",
+          "near dorsal side"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v22",
+        "entity_type": "visual",
+        "name": "C. elegans embryo schematics",
+        "category": "cell",
+        "panel": "d",
+        "count": 3,
+        "key_attributes": [
+          "embryo cells",
+          "developmental polarity",
+          "multiple mRNA patterns"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v23",
+        "entity_type": "visual",
+        "name": "cortical mRNA localization in embryo",
+        "category": "region",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "cell cortex",
+          "peripheral enrichment"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v24",
+        "entity_type": "visual",
+        "name": "P granules",
+        "category": "organelle",
+        "panel": "d",
+        "count": 3,
+        "key_attributes": [
+          "germ granules",
+          "punctate domains",
+          "posterior-associated"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v25",
+        "entity_type": "visual",
+        "name": "localized mRNA molecules in embryo",
+        "category": "molecule",
+        "panel": "d",
+        "count": 3,
+        "key_attributes": [
+          "green puncta",
+          "region-specific"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v26",
+        "entity_type": "visual",
+        "name": "intestinal villi and enterocytes",
+        "category": "cell",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "epithelial enterocytes",
+          "villus context",
+          "apical-basal polarity"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v27",
+        "entity_type": "visual",
+        "name": "microvilli-rich apical region",
+        "category": "region",
+        "panel": "e",
+        "count": 2,
+        "key_attributes": [
+          "apical border",
+          "brush border",
+          "microvilli"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v28",
+        "entity_type": "visual",
+        "name": "famine versus re-fed state comparison",
+        "category": "region",
+        "panel": "e",
+        "count": 2,
+        "key_attributes": [
+          "left-right comparison",
+          "nutrient switch"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v29",
+        "entity_type": "visual",
+        "name": "localized mRNAs in enterocytes",
+        "category": "molecule",
+        "panel": "e",
+        "count": 2,
+        "key_attributes": [
+          "red squiggles",
+          "apical enrichment after re-feeding"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v30",
+        "entity_type": "visual",
+        "name": "ribosomes in enterocytes",
+        "category": "organelle",
+        "panel": "e",
+        "count": 2,
+        "key_attributes": [
+          "pre-existing and new",
+          "apical enrichment"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v31",
+        "entity_type": "visual",
+        "name": "directional arrows",
+        "category": "arrow",
+        "panel": "e",
+        "count": 3,
+        "key_attributes": [
+          "state transition",
+          "upward movement"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "v32",
+        "entity_type": "visual",
+        "name": "panel markers a-e",
+        "category": "panel_marker",
+        "panel": "all",
+        "count": 5,
+        "key_attributes": [
+          "panel letters",
+          "multi-panel layout"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "panel label a",
+        "category": "panel_label",
+        "surface_text": "a",
+        "normalized_text": "a",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "E. coli label",
+        "category": "scientific_label",
+        "surface_text": "E. coli",
+        "normalized_text": "Escherichia coli",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "organism name"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "Nucleoid label",
+        "category": "scientific_label",
+        "surface_text": "Nucleoid",
+        "normalized_text": "nucleoid",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "subcellular site"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "Cell poles label",
+        "category": "scientific_label",
+        "surface_text": "Cell poles",
+        "normalized_text": "cell poles",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "subcellular site"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "Outer membrane label",
+        "category": "scientific_label",
+        "surface_text": "Outer membrane",
+        "normalized_text": "outer membrane",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "subcellular site"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "Cytoplasm label",
+        "category": "scientific_label",
+        "surface_text": "Cytoplasm",
+        "normalized_text": "cytoplasm",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "diffuse region"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "circular chromosome label",
+        "category": "scientific_label",
+        "surface_text": "Circular chromosome",
+        "normalized_text": "circular chromosome",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "DNA structure"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "Ribosome label in bacteria",
+        "category": "scientific_label",
+        "surface_text": "Ribosome",
+        "normalized_text": "ribosome",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "translation machinery"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "example bacterial mRNAs near nucleoid",
+        "category": "annotation_text",
+        "surface_text": "lacZ mRNA, ptsG mRNA",
+        "normalized_text": "lacZ mRNA; ptsG mRNA",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "example transcripts"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "example bacterial mRNAs at poles",
+        "category": "annotation_text",
+        "surface_text": "hfq mRNA, bglG mRNA",
+        "normalized_text": "hfq mRNA; bglG mRNA",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "example transcripts"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "example bacterial membrane mRNAs",
+        "category": "annotation_text",
+        "surface_text": "bglF mRNA, lacY mRNA",
+        "normalized_text": "bglF mRNA; lacY mRNA",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "example transcripts"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "example bacterial cytoplasmic mRNA",
+        "category": "annotation_text",
+        "surface_text": "cat mRNA",
+        "normalized_text": "cat mRNA",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "example transcript"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "panel label b",
+        "category": "panel_label",
+        "surface_text": "b",
+        "normalized_text": "b",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t14",
+        "entity_type": "text",
+        "name": "S. cerevisiae label",
+        "category": "scientific_label",
+        "surface_text": "S. cerevisiae",
+        "normalized_text": "Saccharomyces cerevisiae",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "organism name"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t15",
+        "entity_type": "text",
+        "name": "Mother label",
+        "category": "scientific_label",
+        "surface_text": "Mother",
+        "normalized_text": "mother",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "cell compartment"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t16",
+        "entity_type": "text",
+        "name": "Bud label",
+        "category": "scientific_label",
+        "surface_text": "Bud",
+        "normalized_text": "bud",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "polarized daughter region"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t17",
+        "entity_type": "text",
+        "name": "Nucleolus label in yeast",
+        "category": "scientific_label",
+        "surface_text": "Nucleolus",
+        "normalized_text": "nucleolus",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "nuclear subcompartment"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t18",
+        "entity_type": "text",
+        "name": "Actin filament neck label",
+        "category": "scientific_label",
+        "surface_text": "Actin filament neck",
+        "normalized_text": "actin filament neck",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "transport track"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t19",
+        "entity_type": "text",
+        "name": "Mitochondrion label",
+        "category": "scientific_label",
+        "surface_text": "Mitochondrion",
+        "normalized_text": "mitochondrion",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "organelle destination"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t20",
+        "entity_type": "text",
+        "name": "Tubular ER label",
+        "category": "scientific_label",
+        "surface_text": "Tubular ER",
+        "normalized_text": "tubular ER",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "ER destination"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t21",
+        "entity_type": "text",
+        "name": "Rough ER label",
+        "category": "scientific_label",
+        "surface_text": "Rough ER",
+        "normalized_text": "rough ER",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "ER destination"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t22",
+        "entity_type": "text",
+        "name": "Peroxisome label",
+        "category": "scientific_label",
+        "surface_text": "Peroxisome",
+        "normalized_text": "peroxisome",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "organelle destination"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t23",
+        "entity_type": "text",
+        "name": "Ribosome label in yeast",
+        "category": "scientific_label",
+        "surface_text": "Ribosome",
+        "normalized_text": "ribosome",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "translation machinery"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t24",
+        "entity_type": "text",
+        "name": "ASH1/CLB2/IST2 examples",
+        "category": "annotation_text",
+        "surface_text": "For example, ASH1, CLB2, IST2",
+        "normalized_text": "for example, ASH1, CLB2, IST2",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "example transcripts"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t25",
+        "entity_type": "text",
+        "name": "ASP2/OXA1 examples",
+        "category": "annotation_text",
+        "surface_text": "For example, ASP2, OXA1",
+        "normalized_text": "for example, ASP2, OXA1",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "example transcripts"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t26",
+        "entity_type": "text",
+        "name": "USE1/SUC2 examples",
+        "category": "annotation_text",
+        "surface_text": "For example, USE1, SUC2",
+        "normalized_text": "for example, USE1, SUC2",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "example transcripts"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t27",
+        "entity_type": "text",
+        "name": "PEX1/PEX5/PEX15 examples",
+        "category": "annotation_text",
+        "surface_text": "For example, PEX1, PEX5, PEX15",
+        "normalized_text": "for example, PEX1, PEX5, PEX15",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "example transcripts"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t28",
+        "entity_type": "text",
+        "name": "panel label c",
+        "category": "panel_label",
+        "surface_text": "c",
+        "normalized_text": "c",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t29",
+        "entity_type": "text",
+        "name": "Drosophila oocyte label",
+        "category": "scientific_label",
+        "surface_text": "D. melanogaster oocyte",
+        "normalized_text": "Drosophila melanogaster oocyte",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "organism and cell type"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t30",
+        "entity_type": "text",
+        "name": "Nurse cells label",
+        "category": "scientific_label",
+        "surface_text": "Nurse cells",
+        "normalized_text": "nurse cells",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "source cells"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t31",
+        "entity_type": "text",
+        "name": "Oocyte label",
+        "category": "scientific_label",
+        "surface_text": "Oocyte",
+        "normalized_text": "oocyte",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "target cell"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t32",
+        "entity_type": "text",
+        "name": "Anchored microtubules label",
+        "category": "scientific_label",
+        "surface_text": "Anchored microtubules",
+        "normalized_text": "anchored microtubules",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "transport scaffold"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t33",
+        "entity_type": "text",
+        "name": "Sliding microtubules label",
+        "category": "scientific_label",
+        "surface_text": "Sliding microtubules",
+        "normalized_text": "sliding microtubules",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "transport scaffold"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t34",
+        "entity_type": "text",
+        "name": "Ring canals label",
+        "category": "scientific_label",
+        "surface_text": "Ring canals",
+        "normalized_text": "ring canals",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "cell connection"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t35",
+        "entity_type": "text",
+        "name": "Grk mRNAs label",
+        "category": "annotation_text",
+        "surface_text": "Grk mRNAs",
+        "normalized_text": "grk mRNAs",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "maternal mRNA example"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t36",
+        "entity_type": "text",
+        "name": "Bcd mRNAs label",
+        "category": "annotation_text",
+        "surface_text": "Bcd mRNAs",
+        "normalized_text": "bcd mRNAs",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "anterior-localized example"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t37",
+        "entity_type": "text",
+        "name": "Osk mRNAs label",
+        "category": "annotation_text",
+        "surface_text": "Osk mRNAs",
+        "normalized_text": "osk mRNAs",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "posterior-localized example"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t38",
+        "entity_type": "text",
+        "name": "panel label d",
+        "category": "panel_label",
+        "surface_text": "d",
+        "normalized_text": "d",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t39",
+        "entity_type": "text",
+        "name": "C. elegans embryo label",
+        "category": "scientific_label",
+        "surface_text": "C. elegans embryo",
+        "normalized_text": "Caenorhabditis elegans embryo",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "organism and stage"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t40",
+        "entity_type": "text",
+        "name": "P granule label",
+        "category": "scientific_label",
+        "surface_text": "P granule",
+        "normalized_text": "P granule",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "germ granule"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t41",
+        "entity_type": "text",
+        "name": "Nucleus label in embryo",
+        "category": "scientific_label",
+        "surface_text": "Nucleus",
+        "normalized_text": "nucleus",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "cell landmark"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t42",
+        "entity_type": "text",
+        "name": "erm1 mRNA label",
+        "category": "annotation_text",
+        "surface_text": "erm1 mRNA",
+        "normalized_text": "erm1 mRNA",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "cortical example"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t43",
+        "entity_type": "text",
+        "name": "nos2/clu1 mRNA label",
+        "category": "annotation_text",
+        "surface_text": "nos2 mRNA, clu1 mRNA",
+        "normalized_text": "nos2 mRNA; clu1 mRNA",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "localized examples"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t44",
+        "entity_type": "text",
+        "name": "imb2 mRNA label",
+        "category": "annotation_text",
+        "surface_text": "imb2 mRNA",
+        "normalized_text": "imb2 mRNA",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "granule-associated example"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t45",
+        "entity_type": "text",
+        "name": "panel label e",
+        "category": "panel_label",
+        "surface_text": "e",
+        "normalized_text": "e",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t46",
+        "entity_type": "text",
+        "name": "Intestine villi label",
+        "category": "scientific_label",
+        "surface_text": "Intestine villi",
+        "normalized_text": "intestine villi",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "tissue context"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t47",
+        "entity_type": "text",
+        "name": "Enterocytes label",
+        "category": "scientific_label",
+        "surface_text": "Enterocytes",
+        "normalized_text": "enterocytes",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "cell type"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t48",
+        "entity_type": "text",
+        "name": "Apical label",
+        "category": "scientific_label",
+        "surface_text": "Apical",
+        "normalized_text": "apical",
+        "panel": "e",
+        "count": 2,
+        "key_attributes": [
+          "polarity axis"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t49",
+        "entity_type": "text",
+        "name": "Basal label",
+        "category": "scientific_label",
+        "surface_text": "Basal",
+        "normalized_text": "basal",
+        "panel": "e",
+        "count": 2,
+        "key_attributes": [
+          "polarity axis"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t50",
+        "entity_type": "text",
+        "name": "Famine label",
+        "category": "annotation_text",
+        "surface_text": "Famine",
+        "normalized_text": "famine",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "nutrient state"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t51",
+        "entity_type": "text",
+        "name": "Re-fed label",
+        "category": "annotation_text",
+        "surface_text": "Re-fed",
+        "normalized_text": "re-fed",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "nutrient state"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t52",
+        "entity_type": "text",
+        "name": "Microvilli label",
+        "category": "scientific_label",
+        "surface_text": "Microvilli",
+        "normalized_text": "microvilli",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "apical structure"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t53",
+        "entity_type": "text",
+        "name": "Localized mRNAs label",
+        "category": "annotation_text",
+        "surface_text": "Localized mRNAs",
+        "normalized_text": "localized mRNAs",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "RNA pool"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t54",
+        "entity_type": "text",
+        "name": "Pre-existing ribosome label",
+        "category": "scientific_label",
+        "surface_text": "Pre-existing ribosome",
+        "normalized_text": "pre-existing ribosome",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "existing ribosome pool"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t55",
+        "entity_type": "text",
+        "name": "New ribosome label",
+        "category": "scientific_label",
+        "surface_text": "New ribosome",
+        "normalized_text": "new ribosome",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "new ribosome pool"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t56",
+        "entity_type": "text",
+        "name": "ribosomal protein mRNA label",
+        "category": "annotation_text",
+        "surface_text": "mRNAs encoding ribosomal protein",
+        "normalized_text": "mRNAs encoding ribosomal protein",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "translation-related mRNAs"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t2",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t3",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t4",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t5",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "t6",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "v6",
+        "target_entity_id": "v2",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "v6",
+        "target_entity_id": "v3",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "v6",
+        "target_entity_id": "v4",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "v6",
+        "target_entity_id": "v5",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "v2",
+        "target_entity_id": "v1",
+        "relation_type": "part_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "v3",
+        "target_entity_id": "v1",
+        "relation_type": "part_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "v4",
+        "target_entity_id": "v1",
+        "relation_type": "part_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "v5",
+        "target_entity_id": "v1",
+        "relation_type": "part_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "t14",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "t16",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "t18",
+        "target_entity_id": "v9",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "t19",
+        "target_entity_id": "v10",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "t20",
+        "target_entity_id": "v11",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "t21",
+        "target_entity_id": "v12",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "t22",
+        "target_entity_id": "v13",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "t17",
+        "target_entity_id": "v14",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "v15",
+        "target_entity_id": "v8",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r23",
+        "source_entity_id": "v15",
+        "target_entity_id": "v10",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r24",
+        "source_entity_id": "v15",
+        "target_entity_id": "v11",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r25",
+        "source_entity_id": "v15",
+        "target_entity_id": "v12",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r26",
+        "source_entity_id": "v15",
+        "target_entity_id": "v13",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r27",
+        "source_entity_id": "v15",
+        "target_entity_id": "v14",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r28",
+        "source_entity_id": "v15",
+        "target_entity_id": "v9",
+        "relation_type": "flows_to",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r29",
+        "source_entity_id": "v8",
+        "target_entity_id": "v7",
+        "relation_type": "part_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r30",
+        "source_entity_id": "v10",
+        "target_entity_id": "v7",
+        "relation_type": "part_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r31",
+        "source_entity_id": "v11",
+        "target_entity_id": "v7",
+        "relation_type": "part_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r32",
+        "source_entity_id": "v12",
+        "target_entity_id": "v7",
+        "relation_type": "part_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r33",
+        "source_entity_id": "v13",
+        "target_entity_id": "v7",
+        "relation_type": "part_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r34",
+        "source_entity_id": "v14",
+        "target_entity_id": "v7",
+        "relation_type": "part_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r35",
+        "source_entity_id": "t29",
+        "target_entity_id": "v16",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r36",
+        "source_entity_id": "t32",
+        "target_entity_id": "v18",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r37",
+        "source_entity_id": "t33",
+        "target_entity_id": "v19",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r38",
+        "source_entity_id": "t34",
+        "target_entity_id": "v17",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r39",
+        "source_entity_id": "v17",
+        "target_entity_id": "v16",
+        "relation_type": "part_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r40",
+        "source_entity_id": "v18",
+        "target_entity_id": "v16",
+        "relation_type": "part_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r41",
+        "source_entity_id": "v19",
+        "target_entity_id": "v16",
+        "relation_type": "part_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r42",
+        "source_entity_id": "v20",
+        "target_entity_id": "v16",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r43",
+        "source_entity_id": "v20",
+        "target_entity_id": "v18",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r44",
+        "source_entity_id": "v20",
+        "target_entity_id": "v19",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r45",
+        "source_entity_id": "v17",
+        "target_entity_id": "v20",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r46",
+        "source_entity_id": "t39",
+        "target_entity_id": "v22",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r47",
+        "source_entity_id": "t40",
+        "target_entity_id": "v24",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r48",
+        "source_entity_id": "v23",
+        "target_entity_id": "v22",
+        "relation_type": "part_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r49",
+        "source_entity_id": "v24",
+        "target_entity_id": "v22",
+        "relation_type": "part_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r50",
+        "source_entity_id": "v25",
+        "target_entity_id": "v23",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r51",
+        "source_entity_id": "v25",
+        "target_entity_id": "v24",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r52",
+        "source_entity_id": "t46",
+        "target_entity_id": "v26",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r53",
+        "source_entity_id": "t47",
+        "target_entity_id": "v26",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r54",
+        "source_entity_id": "t48",
+        "target_entity_id": "v27",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r55",
+        "source_entity_id": "t50",
+        "target_entity_id": "v28",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r56",
+        "source_entity_id": "t51",
+        "target_entity_id": "v28",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r57",
+        "source_entity_id": "t52",
+        "target_entity_id": "v27",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r58",
+        "source_entity_id": "t53",
+        "target_entity_id": "v29",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r59",
+        "source_entity_id": "t54",
+        "target_entity_id": "v30",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r60",
+        "source_entity_id": "t55",
+        "target_entity_id": "v30",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r61",
+        "source_entity_id": "v27",
+        "target_entity_id": "v26",
+        "relation_type": "part_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r62",
+        "source_entity_id": "v29",
+        "target_entity_id": "v26",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r63",
+        "source_entity_id": "v30",
+        "target_entity_id": "v26",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r64",
+        "source_entity_id": "v29",
+        "target_entity_id": "v27",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r65",
+        "source_entity_id": "v30",
+        "target_entity_id": "v27",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r66",
+        "source_entity_id": "t50",
+        "target_entity_id": "t51",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      }
+    ]
+  }
+}

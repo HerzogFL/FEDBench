@@ -1,0 +1,1541 @@
+{
+  "image_name": "2a21969fa96b8d2db7d7fd2e67de25ec.png",
+  "prompt_text": "The figure summarizes several ways the m6A RNA modification pathway controls gene expression from the nucleus to the cytoplasm. In the nucleus, a writer complex containing METTL3, METTL14, and WTAP adds m6A marks to mRNA, particularly around stop-codon regions, while the erasers FTO and ALKBH5 remove them. Modified RNAs then pass through the nuclear pore and are used differently in the cytoplasm depending on which reader proteins bind.\n\nOne prominent outcome is enhanced translation: METTL3 appears to promote ribosome-associated translation, with eIF3 shown as part of this process, and EGFR given as an example target. Another branch shows m6A participating in pri-miRNA processing, producing pre-miRNAs. The figure also indicates a chromatin-associated role for METTL3 near promoter elements such as the CAAT and TATA boxes, where it seems linked to RNA polymerase II and increased translation of genes including SP1 and SP2.\n\nA separate panel highlights reader proteins that determine RNA fate after m6A marking. YTHDF2 is associated with RNA decay, IGF2BP1 and YTHDF1 with RNA stability, and YTHDC2 with translation. Example downstream targets include cancer-related transcripts such as MYC, SOX2, FOXM1, and HIF1A, emphasizing that m6A can influence degradation, stability, or protein production depending on context.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "nucleus region",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "large blue compartment",
+          "left side",
+          "contains writer and erasers"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "cytoplasm region",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "right side",
+          "destination of exported RNA",
+          "contains translation and fate branches"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "nuclear envelope boundary",
+        "category": "membrane",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "curved double boundary",
+          "separates nucleus and cytoplasm"
+        ],
+        "importance": "implicitly_needed",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "nuclear pore complexes",
+        "category": "device_component",
+        "panel": "single_panel",
+        "count": 4,
+        "key_attributes": [
+          "pores on envelope",
+          "RNA export route"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "mRNA with m6A marks",
+        "category": "molecule",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "linear RNA",
+          "blue m6A dots",
+          "stop-codon enriched"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "writer complex",
+        "category": "protein",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "three-protein complex",
+          "adds m6A",
+          "near mRNA"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "eraser proteins",
+        "category": "protein",
+        "panel": "a",
+        "count": 2,
+        "key_attributes": [
+          "remove m6A",
+          "paired enzymes"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "cofactor exchange for methylation/demethylation",
+        "category": "molecule",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "SAM/SAH",
+          "alpha-ketoglutarate",
+          "succinate and CO2"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "translation branch",
+        "category": "arrow",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "exported RNA to ribosome",
+          "cytoplasmic branch"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v10",
+        "entity_type": "visual",
+        "name": "ribosome",
+        "category": "organelle",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "purple complex",
+          "associated with translated RNA"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v11",
+        "entity_type": "visual",
+        "name": "METTL3-enhanced translation complex",
+        "category": "pathway_component",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "METTL3 on mRNA",
+          "eIF3-associated",
+          "promotes translation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v12",
+        "entity_type": "visual",
+        "name": "pri-miRNA substrate",
+        "category": "molecule",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "hairpin RNA",
+          "m6A-marked",
+          "nuclear processing"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v13",
+        "entity_type": "visual",
+        "name": "pre-miRNA product",
+        "category": "molecule",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "processed hairpin fragments",
+          "output of pri-miRNA processing"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v14",
+        "entity_type": "visual",
+        "name": "reader proteins on mRNA",
+        "category": "protein",
+        "panel": "d",
+        "count": 4,
+        "key_attributes": [
+          "bound near m6A sites",
+          "determine RNA fate"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v15",
+        "entity_type": "visual",
+        "name": "RNA fate branching arrows",
+        "category": "arrow",
+        "panel": "d",
+        "count": 4,
+        "key_attributes": [
+          "reader-specific outputs",
+          "decay stability translation"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v16",
+        "entity_type": "visual",
+        "name": "promoter DNA region",
+        "category": "region",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "CAAT and TATA elements",
+          "chromatin-associated"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v17",
+        "entity_type": "visual",
+        "name": "chromatin-associated METTL3 complex",
+        "category": "protein",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "METTL3 with CEBPZ",
+          "near promoter"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v18",
+        "entity_type": "visual",
+        "name": "RNA polymerase II transcription machinery",
+        "category": "protein",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "at promoter",
+          "linked to METTL3 role"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v19",
+        "entity_type": "visual",
+        "name": "gene expression output branch",
+        "category": "arrow",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "promoter to translation output",
+          "SP1 SP2 examples"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v20",
+        "entity_type": "visual",
+        "name": "panel markers",
+        "category": "panel_marker",
+        "panel": "single_panel",
+        "count": 5,
+        "key_attributes": [
+          "a-e labels"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "panel label a",
+        "category": "panel_label",
+        "surface_text": "a",
+        "normalized_text": "a",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "panel label b",
+        "category": "panel_label",
+        "surface_text": "b",
+        "normalized_text": "b",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "panel label c",
+        "category": "panel_label",
+        "surface_text": "c",
+        "normalized_text": "c",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "panel label d",
+        "category": "panel_label",
+        "surface_text": "d",
+        "normalized_text": "d",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "panel label e",
+        "category": "panel_label",
+        "surface_text": "e",
+        "normalized_text": "e",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "Nucleus label",
+        "category": "scientific_label",
+        "surface_text": "Nucleus",
+        "normalized_text": "Nucleus",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "Cytoplasm label",
+        "category": "scientific_label",
+        "surface_text": "Cytoplasm",
+        "normalized_text": "Cytoplasm",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "NPC label",
+        "category": "scientific_label",
+        "surface_text": "NPC",
+        "normalized_text": "NPC",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "stop codon label",
+        "category": "scientific_label",
+        "surface_text": "STOP codon",
+        "normalized_text": "Stop codon",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "m6A-enriched region"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "WTAP label",
+        "category": "scientific_label",
+        "surface_text": "WTAP",
+        "normalized_text": "WTAP",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "writer complex component"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "METTL3 writer label",
+        "category": "scientific_label",
+        "surface_text": "METTL3",
+        "normalized_text": "METTL3",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "writer complex component"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "METTL14 label",
+        "category": "scientific_label",
+        "surface_text": "METTL14",
+        "normalized_text": "METTL14",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "writer complex component"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "ALKBH5 label",
+        "category": "scientific_label",
+        "surface_text": "ALKBH5",
+        "normalized_text": "ALKBH5",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "eraser"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t14",
+        "entity_type": "text",
+        "name": "FTO label",
+        "category": "scientific_label",
+        "surface_text": "FTO",
+        "normalized_text": "FTO",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "eraser"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t15",
+        "entity_type": "text",
+        "name": "m6A label",
+        "category": "scientific_label",
+        "surface_text": "m6A",
+        "normalized_text": "m6A",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "RNA modification"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t16",
+        "entity_type": "text",
+        "name": "METTL3 translation label",
+        "category": "scientific_label",
+        "surface_text": "METTL3",
+        "normalized_text": "METTL3",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "translation-promoting branch"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t17",
+        "entity_type": "text",
+        "name": "eIF3 label",
+        "category": "scientific_label",
+        "surface_text": "eIF3",
+        "normalized_text": "eIF3",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "translation factor"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t18",
+        "entity_type": "text",
+        "name": "Ribosome label",
+        "category": "scientific_label",
+        "surface_text": "Ribosome",
+        "normalized_text": "Ribosome",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t19",
+        "entity_type": "text",
+        "name": "Translation label in panel b",
+        "category": "legend_text",
+        "surface_text": "Translation",
+        "normalized_text": "Translation",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "output state"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t20",
+        "entity_type": "text",
+        "name": "EGFR label",
+        "category": "scientific_label",
+        "surface_text": "EGFR",
+        "normalized_text": "EGFR",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "example target"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t21",
+        "entity_type": "text",
+        "name": "miRNA label",
+        "category": "scientific_label",
+        "surface_text": "miRNA",
+        "normalized_text": "miRNA",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t22",
+        "entity_type": "text",
+        "name": "Pri-miRNA processing label",
+        "category": "annotation_text",
+        "surface_text": "Pri-miRNA processing",
+        "normalized_text": "Pri-miRNA processing",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "processing step"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t23",
+        "entity_type": "text",
+        "name": "Pre-miRNA label",
+        "category": "scientific_label",
+        "surface_text": "Pre-miRNA",
+        "normalized_text": "Pre-miRNA",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "product"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t24",
+        "entity_type": "text",
+        "name": "YTHDF2 label",
+        "category": "scientific_label",
+        "surface_text": "YTHDF2",
+        "normalized_text": "YTHDF2",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "reader",
+          "decay-associated"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t25",
+        "entity_type": "text",
+        "name": "IGF2BP1 label",
+        "category": "scientific_label",
+        "surface_text": "IGF2BP1",
+        "normalized_text": "IGF2BP1",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "reader",
+          "stability-associated"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t26",
+        "entity_type": "text",
+        "name": "YTHDF1 label",
+        "category": "scientific_label",
+        "surface_text": "YTHDF1",
+        "normalized_text": "YTHDF1",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "reader",
+          "stability-associated"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t27",
+        "entity_type": "text",
+        "name": "YTHDC2 label",
+        "category": "scientific_label",
+        "surface_text": "YTHDC2",
+        "normalized_text": "YTHDC2",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "reader",
+          "translation-associated"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t28",
+        "entity_type": "text",
+        "name": "RNA decay label",
+        "category": "legend_text",
+        "surface_text": "RNA decay",
+        "normalized_text": "RNA decay",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "fate outcome"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t29",
+        "entity_type": "text",
+        "name": "RNA stability label",
+        "category": "legend_text",
+        "surface_text": "RNA stability",
+        "normalized_text": "RNA stability",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "fate outcome"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t30",
+        "entity_type": "text",
+        "name": "Translation label in panel d",
+        "category": "legend_text",
+        "surface_text": "Translation",
+        "normalized_text": "Translation",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "fate outcome"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t31",
+        "entity_type": "text",
+        "name": "MYC label",
+        "category": "scientific_label",
+        "surface_text": "MYC",
+        "normalized_text": "MYC",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "example target"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t32",
+        "entity_type": "text",
+        "name": "SOX2 label",
+        "category": "scientific_label",
+        "surface_text": "SOX2",
+        "normalized_text": "SOX2",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "example target"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t33",
+        "entity_type": "text",
+        "name": "FOXM1 label",
+        "category": "scientific_label",
+        "surface_text": "FOXM1",
+        "normalized_text": "FOXM1",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "example target"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t34",
+        "entity_type": "text",
+        "name": "HIF1A label",
+        "category": "scientific_label",
+        "surface_text": "HIF1A",
+        "normalized_text": "HIF1A",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "example target"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t35",
+        "entity_type": "text",
+        "name": "CAAT box label",
+        "category": "scientific_label",
+        "surface_text": "CAAT box",
+        "normalized_text": "CAAT box",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "promoter element"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t36",
+        "entity_type": "text",
+        "name": "TATA box label",
+        "category": "scientific_label",
+        "surface_text": "TATA box",
+        "normalized_text": "TATA box",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "promoter element"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t37",
+        "entity_type": "text",
+        "name": "RNA Pol II label",
+        "category": "scientific_label",
+        "surface_text": "RNA Pol II",
+        "normalized_text": "RNA polymerase II",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "transcription machinery"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t38",
+        "entity_type": "text",
+        "name": "Translation label in panel e",
+        "category": "legend_text",
+        "surface_text": "Translation",
+        "normalized_text": "Translation",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "output state"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t39",
+        "entity_type": "text",
+        "name": "SP1 label",
+        "category": "scientific_label",
+        "surface_text": "SP1",
+        "normalized_text": "SP1",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "example gene"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t40",
+        "entity_type": "text",
+        "name": "SP2 label",
+        "category": "scientific_label",
+        "surface_text": "SP2",
+        "normalized_text": "SP2",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "example gene"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t41",
+        "entity_type": "text",
+        "name": "CEBPZ label",
+        "category": "scientific_label",
+        "surface_text": "CEBPZ",
+        "normalized_text": "CEBPZ",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "METTL3-associated factor"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t6",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t7",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t8",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "v1",
+        "target_entity_id": "v2",
+        "relation_type": "left_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "v4",
+        "target_entity_id": "v3",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "v3",
+        "target_entity_id": "v1",
+        "relation_type": "connected_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "v3",
+        "target_entity_id": "v2",
+        "relation_type": "connected_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "t10",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "t11",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "t12",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "t13",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "t14",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "t15",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "t9",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "v6",
+        "target_entity_id": "v5",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "v7",
+        "target_entity_id": "v5",
+        "relation_type": "inhibits",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "v5",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "v5",
+        "target_entity_id": "v4",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "v4",
+        "target_entity_id": "v2",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "t16",
+        "target_entity_id": "v11",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "t17",
+        "target_entity_id": "v11",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "t18",
+        "target_entity_id": "v10",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r23",
+        "source_entity_id": "t19",
+        "target_entity_id": "v9",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r24",
+        "source_entity_id": "t20",
+        "target_entity_id": "v9",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r25",
+        "source_entity_id": "v11",
+        "target_entity_id": "v10",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r26",
+        "source_entity_id": "v9",
+        "target_entity_id": "v10",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r27",
+        "source_entity_id": "v5",
+        "target_entity_id": "v9",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r28",
+        "source_entity_id": "v10",
+        "target_entity_id": "v2",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r29",
+        "source_entity_id": "t22",
+        "target_entity_id": "v12",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r30",
+        "source_entity_id": "t23",
+        "target_entity_id": "v13",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r31",
+        "source_entity_id": "v12",
+        "target_entity_id": "v13",
+        "relation_type": "transforms_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r32",
+        "source_entity_id": "v12",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r33",
+        "source_entity_id": "t24",
+        "target_entity_id": "v14",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r34",
+        "source_entity_id": "t25",
+        "target_entity_id": "v14",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r35",
+        "source_entity_id": "t26",
+        "target_entity_id": "v14",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r36",
+        "source_entity_id": "t27",
+        "target_entity_id": "v14",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r37",
+        "source_entity_id": "t28",
+        "target_entity_id": "v15",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r38",
+        "source_entity_id": "t29",
+        "target_entity_id": "v15",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r39",
+        "source_entity_id": "t30",
+        "target_entity_id": "v15",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r40",
+        "source_entity_id": "v14",
+        "target_entity_id": "v15",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r41",
+        "source_entity_id": "v5",
+        "target_entity_id": "v14",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r42",
+        "source_entity_id": "v14",
+        "target_entity_id": "t28",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r43",
+        "source_entity_id": "v14",
+        "target_entity_id": "t29",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r44",
+        "source_entity_id": "v14",
+        "target_entity_id": "t30",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r45",
+        "source_entity_id": "t31",
+        "target_entity_id": "v15",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r46",
+        "source_entity_id": "t32",
+        "target_entity_id": "v15",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r47",
+        "source_entity_id": "t33",
+        "target_entity_id": "v15",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r48",
+        "source_entity_id": "t34",
+        "target_entity_id": "v15",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r49",
+        "source_entity_id": "t35",
+        "target_entity_id": "v16",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r50",
+        "source_entity_id": "t36",
+        "target_entity_id": "v16",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r51",
+        "source_entity_id": "t37",
+        "target_entity_id": "v18",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r52",
+        "source_entity_id": "t38",
+        "target_entity_id": "v19",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r53",
+        "source_entity_id": "t39",
+        "target_entity_id": "v19",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r54",
+        "source_entity_id": "t40",
+        "target_entity_id": "v19",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r55",
+        "source_entity_id": "v17",
+        "target_entity_id": "v16",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r56",
+        "source_entity_id": "v18",
+        "target_entity_id": "v16",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r57",
+        "source_entity_id": "v17",
+        "target_entity_id": "v18",
+        "relation_type": "connected_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r58",
+        "source_entity_id": "v18",
+        "target_entity_id": "v19",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r59",
+        "source_entity_id": "v19",
+        "target_entity_id": "v2",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r60",
+        "source_entity_id": "t41",
+        "target_entity_id": "v17",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r61",
+        "source_entity_id": "t1",
+        "target_entity_id": "v20",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r62",
+        "source_entity_id": "t2",
+        "target_entity_id": "v20",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r63",
+        "source_entity_id": "t3",
+        "target_entity_id": "v20",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r64",
+        "source_entity_id": "t4",
+        "target_entity_id": "v20",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r65",
+        "source_entity_id": "t5",
+        "target_entity_id": "v20",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      }
+    ]
+  }
+}

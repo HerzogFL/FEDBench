@@ -1,0 +1,629 @@
+{
+  "image_name": "739c85d23d87ede0bbcd6ca91240a809.png",
+  "prompt_text": "The figure contrasts two hydrologic settings in a fractured rocky basin and how they affect magnesium carbonate formation. In the upper scene, an active hydrologic cycle with rainfall, surface water, and shoreline or delta input brings in mixed sediments and dissolved material. A standing water body occupies the basin, and dissolved magnesium and carbonate remain in the lake water, while groundwater also moves through fractures below. This panel suggests a relatively open, wetter system where material is transported and dispersed.\n\nThe lower scene shows a drier setting where evaporation exceeds precipitation. Here the water body is reduced and the groundwater table is emphasized. Under these conditions, magnesium carbonate appears to precipitate directly within fractures and also accumulate in basin-floor terraces. The central deposit is shown as evaporite-rich sediment, with magnesium carbonate present as cement and concretions. Compared with the upper panel, the lower one highlights concentration of dissolved ions by evaporation, followed by mineral precipitation in subsurface cracks and near-surface sediments.\n\nOverall, the figure illustrates how shifting from a wetter lake system to an evaporation-dominated basin promotes localized mineral enrichment and MgCO3 deposition.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "standing lake water body",
+        "category": "region",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "blue surface water",
+          "basin-filling",
+          "open lake"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "fractured rocky basin",
+        "category": "geological_structure",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "polygonal bedrock",
+          "fractured substrate",
+          "cross-section"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "groundwater in fractures",
+        "category": "region",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "subsurface blue zone",
+          "through fractures",
+          "below lake"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "shoreline or delta sediment input",
+        "category": "layer",
+        "panel": "a",
+        "count": 2,
+        "key_attributes": [
+          "brown marginal wedges",
+          "shoreline deposits",
+          "lake margins"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "rainfall cloud and precipitation",
+        "category": "region",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "gray cloud",
+          "falling rain",
+          "surface input"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "surface inflow arrow",
+        "category": "arrow",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "curved black arrow",
+          "into basin",
+          "hydrologic transport"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "dissolved magnesium and carbonate in lake water",
+        "category": "molecule",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "dissolved ions",
+          "in lake center",
+          "aqueous species"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "reduced water body",
+        "category": "region",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "smaller blue water",
+          "drier basin",
+          "lower water level"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "groundwater table boundary",
+        "category": "layer",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "sloping subsurface line",
+          "water table",
+          "left-labeled"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v10",
+        "entity_type": "visual",
+        "name": "MgCO3 precipitated in fractures",
+        "category": "molecule",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "fracture-hosted mineral",
+          "subsurface precipitation",
+          "localized enrichment"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v11",
+        "entity_type": "visual",
+        "name": "terrace mineral accumulations",
+        "category": "layer",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "basin-floor terraces",
+          "enriched minerals",
+          "marginal benches"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v12",
+        "entity_type": "visual",
+        "name": "evaporite-rich central sediment deposit",
+        "category": "layer",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "brown central deposit",
+          "evaporite sediment",
+          "basin floor"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v13",
+        "entity_type": "visual",
+        "name": "cement and concretions within evaporite deposit",
+        "category": "material_structure",
+        "panel": "b",
+        "count": 5,
+        "key_attributes": [
+          "dark nodules",
+          "within brown layer",
+          "concretions"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v14",
+        "entity_type": "visual",
+        "name": "fractured rocky basin",
+        "category": "geological_structure",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "polygonal bedrock",
+          "fractured substrate",
+          "cross-section"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "panel label a",
+        "category": "panel_label",
+        "surface_text": "a",
+        "normalized_text": "a",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "top panel"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "active hydrologic cycle",
+        "category": "annotation_text",
+        "surface_text": "Active hydrologic cycle",
+        "normalized_text": "active hydrologic cycle",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "wet setting"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "mixed sediment and dissolved material label",
+        "category": "scientific_label",
+        "surface_text": "Sediments, detrital igneous, amorphous silica, clays, sulfides, iron oxide, carbonates",
+        "normalized_text": "sediments, detrital igneous, amorphous silica, clays, sulfides, iron oxide, carbonates",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "mixed sediments",
+          "detrital input"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "shorelines deltas",
+        "category": "scientific_label",
+        "surface_text": "Shorelines, deltas",
+        "normalized_text": "shorelines, deltas",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "marginal depositional setting"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "dissolved magnesium and carbonate species",
+        "category": "equation",
+        "surface_text": "Mg3+CO3 2−",
+        "normalized_text": "Mg3+ CO3 2-",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "ocr likely imperfect",
+          "dissolved ions"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "panel label b",
+        "category": "panel_label",
+        "surface_text": "b",
+        "normalized_text": "b",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "bottom panel"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "evaporation greater than precipitation",
+        "category": "annotation_text",
+        "surface_text": "Evaporation > precipitation",
+        "normalized_text": "evaporation > precipitation",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "dry setting"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "MgCO3 precipitated in fractures",
+        "category": "scientific_label",
+        "surface_text": "MgCO3 precipitated in fractures",
+        "normalized_text": "MgCO3 precipitated in fractures",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "fracture precipitation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "minerals enriched in terraces",
+        "category": "scientific_label",
+        "surface_text": "Minerals enriched in terraces",
+        "normalized_text": "minerals enriched in terraces",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "terrace enrichment"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "evaporite salts including MgCO3",
+        "category": "scientific_label",
+        "surface_text": "Evaporite salts including MgCO3 present as cement and concretions",
+        "normalized_text": "evaporite salts including MgCO3 present as cement and concretions",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "evaporite deposit",
+          "cement and concretions"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "groundwater table",
+        "category": "scientific_label",
+        "surface_text": "Groundwater table",
+        "normalized_text": "groundwater table",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "subsurface hydrology"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t2",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t3",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t4",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t5",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "v5",
+        "target_entity_id": "v1",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "v6",
+        "target_entity_id": "v1",
+        "relation_type": "points_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "v4",
+        "target_entity_id": "v1",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "v7",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "v3",
+        "target_entity_id": "v2",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "v1",
+        "target_entity_id": "v2",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "v3",
+        "target_entity_id": "v1",
+        "relation_type": "above",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "t7",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "t8",
+        "target_entity_id": "v10",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "t9",
+        "target_entity_id": "v11",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "t10",
+        "target_entity_id": "v12",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "t11",
+        "target_entity_id": "v9",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "v10",
+        "target_entity_id": "v14",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "v11",
+        "target_entity_id": "v14",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "v12",
+        "target_entity_id": "v14",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "v13",
+        "target_entity_id": "v12",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "v8",
+        "target_entity_id": "v14",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "v9",
+        "target_entity_id": "v8",
+        "relation_type": "above",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r23",
+        "source_entity_id": "v1",
+        "target_entity_id": "v8",
+        "relation_type": "above",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r24",
+        "source_entity_id": "v7",
+        "target_entity_id": "v10",
+        "relation_type": "transforms_to",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "cross_panel"
+      }
+    ]
+  }
+}

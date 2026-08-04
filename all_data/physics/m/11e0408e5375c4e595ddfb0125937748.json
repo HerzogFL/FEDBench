@@ -1,0 +1,522 @@
+{
+  "image_name": "11e0408e5375c4e595ddfb0125937748.png",
+  "prompt_text": "The figure illustrates an electrochemical process that removes carbon dioxide from a piperazine-based solvent using a membrane electrode assembly. On the left, a CO2-rich piperazine solution enters the device containing carbon-bearing species, while the outlet stream is shown as a CO2-lean piperazine solution, indicating regeneration of the solvent. At the same time, carbon monoxide is produced as a separate product on the right, suggesting that captured CO2 is being converted rather than simply released.\n\nThe central drawing emphasizes the reactor hardware: a compact electrochemical cell with flow ports and layered internal components characteristic of a membrane electrode assembly. The overall message is that absorbed CO2 in the amine solution can be directly processed inside this cell to yield CO and a regenerated capture medium.\n\nThe panel on the right zooms in on the catalytic surface and appears to show a molecule containing carbon and oxygen interacting with a nickel-containing, nitrogen-doped carbon material. The legend identifies Ni, N, C, O, and H atoms. This close-up supports the mechanistic idea that the catalyst surface promotes conversion of the CO2-derived species into carbon monoxide at the electrode interface.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "membrane electrode assembly device",
+        "category": "cell",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "layered block",
+          "flow ports",
+          "compact reactor"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "CO2-rich piperazine solution stream",
+        "category": "region",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "input stream",
+          "contains carbon-bearing species",
+          "left lower cloud"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "CO2-lean piperazine solution stream",
+        "category": "region",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "output stream",
+          "regenerated solvent",
+          "left upper cloud"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "carbon monoxide product molecules",
+        "category": "molecule",
+        "panel": "a",
+        "count": 3,
+        "key_attributes": [
+          "separate product",
+          "right side",
+          "diatomic molecules"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "adsorbed carbon-oxygen-containing intermediate",
+        "category": "molecule",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "red oxygen atoms",
+          "surface-bound",
+          "close-up intermediate"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "nickel-nitrogen-doped carbon catalyst surface",
+        "category": "material_structure",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "Ni-containing",
+          "N-doped carbon",
+          "granular surface"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "piperazine-derived molecular species",
+        "category": "molecule",
+        "panel": "a",
+        "count": 6,
+        "key_attributes": [
+          "ball-and-stick",
+          "amine solvent species",
+          "input/output clouds"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "panel marker a",
+        "category": "panel_marker",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "bold letter"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "panel marker b",
+        "category": "panel_marker",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "bold letter"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "v10",
+        "entity_type": "visual",
+        "name": "atom color legend keys",
+        "category": "legend_key",
+        "panel": "b",
+        "count": 5,
+        "key_attributes": [
+          "colored circles",
+          "Ni N C O H",
+          "bottom legend"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "panel label a",
+        "category": "panel_label",
+        "surface_text": "a",
+        "normalized_text": "a",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "panel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "panel label b",
+        "category": "panel_label",
+        "surface_text": "b",
+        "normalized_text": "b",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "panel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "output stream label",
+        "category": "annotation_text",
+        "surface_text": "Output: CO2-lean piperazine solution",
+        "normalized_text": "Output: CO2-lean piperazine solution",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "regenerated solvent"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "input stream label",
+        "category": "annotation_text",
+        "surface_text": "Input: CO2-rich piperazine solution",
+        "normalized_text": "Input: CO2-rich piperazine solution",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "feed solvent"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "device label",
+        "category": "scientific_label",
+        "surface_text": "Membrane electrode assembly",
+        "normalized_text": "membrane electrode assembly",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "reactor hardware"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "product label",
+        "category": "scientific_label",
+        "surface_text": "Carbon monoxide",
+        "normalized_text": "carbon monoxide",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "right-side product"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "legend label Ni",
+        "category": "legend_text",
+        "surface_text": "Ni",
+        "normalized_text": "Ni",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "nickel atom key"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "legend label N",
+        "category": "legend_text",
+        "surface_text": "N",
+        "normalized_text": "N",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "nitrogen atom key"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "legend label C",
+        "category": "legend_text",
+        "surface_text": "C",
+        "normalized_text": "C",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "carbon atom key"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "legend label O",
+        "category": "legend_text",
+        "surface_text": "O",
+        "normalized_text": "O",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "oxygen atom key"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "legend label H",
+        "category": "legend_text",
+        "surface_text": "H",
+        "normalized_text": "H",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "hydrogen atom key"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t4",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t3",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t5",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t6",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "v2",
+        "target_entity_id": "v1",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "v1",
+        "target_entity_id": "v3",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "v1",
+        "target_entity_id": "v4",
+        "relation_type": "transforms_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "v2",
+        "target_entity_id": "v3",
+        "relation_type": "transforms_to",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "v5",
+        "target_entity_id": "v6",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "v6",
+        "target_entity_id": "v4",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "v5",
+        "target_entity_id": "v4",
+        "relation_type": "transforms_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "t7",
+        "target_entity_id": "v10",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "t8",
+        "target_entity_id": "v10",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "t9",
+        "target_entity_id": "v10",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "t10",
+        "target_entity_id": "v10",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "t11",
+        "target_entity_id": "v10",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "v3",
+        "target_entity_id": "v2",
+        "relation_type": "above",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "v2",
+        "target_entity_id": "v1",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "v1",
+        "target_entity_id": "v4",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "v1",
+        "target_entity_id": "v6",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "cross_panel"
+      }
+    ]
+  }
+}

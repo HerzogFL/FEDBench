@@ -1,0 +1,914 @@
+{
+  "image_name": "0db6e64c712f16f432ea27730f156ba7.png",
+  "prompt_text": "The figure summarizes how liver macrophages can arise from two sources and then adopt different functional states. On the left, it distinguishes resident Kupffer cells, shown as yolk-sac–derived liver macrophages, from circulating monocytes that come from hematopoietic stem cells. These cells feed into a common macrophage pathway that can polarize in different directions depending on cytokine signals.\n\nOne branch, driven by IL-12 and IFNγ, leads to classically activated M1 macrophages. These are associated with a fibrotic, immune-activating role, including phagocytosis of debris and apoptotic cells and production of pro-inflammatory cytokines. The other branch, driven by IL-4 and IL-13, leads to alternatively activated M2 macrophages, which are linked to profibrotic, immune-suppressive effects such as angiogenesis and anti-inflammatory cytokine production.\n\nA central note lists signaling-related molecules including CSFR1, CCR2, IL4RA, IL13RA1, IL13RA2, and STAT6, suggesting factors involved in this polarization. Between the M1-like and M2-like outcomes, the diagram places a pro-resolution macrophage population marked by CD11b+, F4/80+, and Ly6C low, with dashed arrows implying some plasticity or transition between states. An arrow labeled “targeted modulation?” highlights this pro-resolution state as a possible therapeutic focus.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "Kupffer cell",
+        "category": "cell",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "resident macrophage",
+          "left source cell",
+          "irregular yellow cell"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "Monocyte",
+        "category": "cell",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "blood-derived precursor",
+          "left source cell",
+          "round purple cell"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "Branching differentiation pathway",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 3,
+        "key_attributes": [
+          "shared trunk",
+          "bifurcation",
+          "directed flow"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "Classically activated M1 macrophage",
+        "category": "cell",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "upper branch outcome",
+          "phagocytic appearance",
+          "purple cell"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "Alternatively activated M2 macrophage",
+        "category": "cell",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "lower branch outcome",
+          "purple cell",
+          "polarized state"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "Pro-resolution macrophage",
+        "category": "cell",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "intermediate state",
+          "center-right highlight",
+          "therapeutic focus"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "Dashed plasticity arrows",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "dashed style",
+          "vertical transitions",
+          "state plasticity"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "Targeted modulation arrow",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "upward arrow",
+          "right side",
+          "therapeutic emphasis"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "Signaling molecules note box",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "central note",
+          "receptor list",
+          "rounded box"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v10",
+        "entity_type": "visual",
+        "name": "Fibrolytic immune-activating function box",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "upper right box",
+          "M1-associated outcomes",
+          "bullet list"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v11",
+        "entity_type": "visual",
+        "name": "Profibrotic immune-suppressive function box",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "lower right box",
+          "M2-associated outcomes",
+          "bullet list"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "Kupffer cell label",
+        "category": "scientific_label",
+        "surface_text": "Kupffer cell",
+        "normalized_text": "Kupffer cell",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "cell identity"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "Kupffer cell origin annotation",
+        "category": "annotation_text",
+        "surface_text": "Liver-resident macrophage, originating from erythromyeloid progenitors of the yolk sac",
+        "normalized_text": "liver-resident macrophage originating from erythromyeloid progenitors of the yolk sac",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "resident origin",
+          "yolk sac"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "Monocyte label",
+        "category": "scientific_label",
+        "surface_text": "Monocyte",
+        "normalized_text": "Monocyte",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "cell identity"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "Monocyte origin annotation",
+        "category": "annotation_text",
+        "surface_text": "Blood-derived, originating from haematopoietic stem cells",
+        "normalized_text": "blood-derived, originating from haematopoietic stem cells",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "blood-derived",
+          "stem-cell origin"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "CSFR1",
+        "category": "scientific_label",
+        "surface_text": "CSFR1",
+        "normalized_text": "CSFR1",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "signaling factor"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "CCR2",
+        "category": "scientific_label",
+        "surface_text": "CCR2",
+        "normalized_text": "CCR2",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "signaling factor"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "IL4RA",
+        "category": "scientific_label",
+        "surface_text": "IL4RA",
+        "normalized_text": "IL4RA",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "signaling factor"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "IL13RA1",
+        "category": "scientific_label",
+        "surface_text": "IL13RA1",
+        "normalized_text": "IL13RA1",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "signaling factor"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "IL13RA2",
+        "category": "scientific_label",
+        "surface_text": "IL13RA2",
+        "normalized_text": "IL13RA2",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "signaling factor"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "STAT6",
+        "category": "scientific_label",
+        "surface_text": "STAT6",
+        "normalized_text": "STAT6",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "signaling factor"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "M1-driving cytokines",
+        "category": "scientific_label",
+        "surface_text": "IL-12, IFNγ",
+        "normalized_text": "IL-12, IFNγ",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "upper branch cue"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "M1 macrophage label",
+        "category": "scientific_label",
+        "surface_text": "Classically activated M1 macrophage (M1a–c)",
+        "normalized_text": "classically activated M1 macrophage (M1a-c)",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "upper branch state"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "M2-driving cytokines",
+        "category": "scientific_label",
+        "surface_text": "IL-4, IL-13",
+        "normalized_text": "IL-4, IL-13",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "lower branch cue"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t14",
+        "entity_type": "text",
+        "name": "M2 macrophage label",
+        "category": "scientific_label",
+        "surface_text": "Alternatively activated M2 macrophage (M2a–d)",
+        "normalized_text": "alternatively activated M2 macrophage (M2a-d)",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "lower branch state"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t15",
+        "entity_type": "text",
+        "name": "Fibrolytic immune-activating heading",
+        "category": "legend_text",
+        "surface_text": "Fibrolytic, immune-activating",
+        "normalized_text": "fibrolytic, immune-activating",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "M1 function heading"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t16",
+        "entity_type": "text",
+        "name": "M1 phagocytosis function",
+        "category": "legend_text",
+        "surface_text": "Phagocytosis of debris and apoptotic cells",
+        "normalized_text": "phagocytosis of debris and apoptotic cells",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "M1 function"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t17",
+        "entity_type": "text",
+        "name": "M1 cytokine production function",
+        "category": "legend_text",
+        "surface_text": "Generation of pro-inflammatory cytokines",
+        "normalized_text": "generation of pro-inflammatory cytokines",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "M1 function"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t18",
+        "entity_type": "text",
+        "name": "Pro-resolution macrophage label",
+        "category": "scientific_label",
+        "surface_text": "Pro-resolution macrophage",
+        "normalized_text": "pro-resolution macrophage",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "intermediate state"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t19",
+        "entity_type": "text",
+        "name": "Pro-resolution markers CD11b+ F4/80+",
+        "category": "scientific_label",
+        "surface_text": "CD11b+ F4/80+",
+        "normalized_text": "CD11b+ F4/80+",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "marker set"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t20",
+        "entity_type": "text",
+        "name": "Pro-resolution marker LY6C low",
+        "category": "scientific_label",
+        "surface_text": "LY6C low",
+        "normalized_text": "Ly6C low",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "marker state"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t21",
+        "entity_type": "text",
+        "name": "Targeted modulation annotation",
+        "category": "annotation_text",
+        "surface_text": "Targeted modulation?",
+        "normalized_text": "targeted modulation?",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "therapeutic note"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t22",
+        "entity_type": "text",
+        "name": "Profibrotic immune-suppressive heading",
+        "category": "legend_text",
+        "surface_text": "Profibrotic, immune-suppressive",
+        "normalized_text": "profibrotic, immune-suppressive",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "M2 function heading"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t23",
+        "entity_type": "text",
+        "name": "M2 angiogenesis function",
+        "category": "legend_text",
+        "surface_text": "Promotion of angiogenesis",
+        "normalized_text": "promotion of angiogenesis",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "M2 function"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t24",
+        "entity_type": "text",
+        "name": "M2 cytokine production function",
+        "category": "legend_text",
+        "surface_text": "Generation of anti-inflammatory cytokines",
+        "normalized_text": "generation of anti-inflammatory cytokines",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "M2 function"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t1",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t2",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t3",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t4",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "v1",
+        "target_entity_id": "v3",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "v2",
+        "target_entity_id": "v3",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "v3",
+        "target_entity_id": "v4",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "v3",
+        "target_entity_id": "v5",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "t11",
+        "target_entity_id": "v4",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "t12",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "t13",
+        "target_entity_id": "v5",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "t14",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "t15",
+        "target_entity_id": "v10",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "t16",
+        "target_entity_id": "v10",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "t17",
+        "target_entity_id": "v10",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "v10",
+        "target_entity_id": "v4",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "t18",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "t19",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "t20",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "v7",
+        "target_entity_id": "v6",
+        "relation_type": "points_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "v7",
+        "target_entity_id": "v10",
+        "relation_type": "connected_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "v7",
+        "target_entity_id": "v11",
+        "relation_type": "connected_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r23",
+        "source_entity_id": "t21",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r24",
+        "source_entity_id": "v8",
+        "target_entity_id": "v6",
+        "relation_type": "points_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r25",
+        "source_entity_id": "t5",
+        "target_entity_id": "v9",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r26",
+        "source_entity_id": "t6",
+        "target_entity_id": "v9",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r27",
+        "source_entity_id": "t7",
+        "target_entity_id": "v9",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r28",
+        "source_entity_id": "t8",
+        "target_entity_id": "v9",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r29",
+        "source_entity_id": "t9",
+        "target_entity_id": "v9",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r30",
+        "source_entity_id": "t10",
+        "target_entity_id": "v9",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r31",
+        "source_entity_id": "t22",
+        "target_entity_id": "v11",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r32",
+        "source_entity_id": "t23",
+        "target_entity_id": "v11",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r33",
+        "source_entity_id": "t24",
+        "target_entity_id": "v11",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r34",
+        "source_entity_id": "v11",
+        "target_entity_id": "v5",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r35",
+        "source_entity_id": "v1",
+        "target_entity_id": "v2",
+        "relation_type": "above",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r36",
+        "source_entity_id": "v4",
+        "target_entity_id": "v5",
+        "relation_type": "above",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r37",
+        "source_entity_id": "v6",
+        "target_entity_id": "v11",
+        "relation_type": "above",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r38",
+        "source_entity_id": "v10",
+        "target_entity_id": "v11",
+        "relation_type": "above",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      }
+    ]
+  }
+}

@@ -1,0 +1,642 @@
+{
+  "image_name": "2fa1adb2f784e515bb904586b5110ab2.png",
+  "prompt_text": "This figure is a conceptual summary of how climate change and human activity affect extreme rainfall and flooding across a mountain-to-city-to-coast landscape. At the center, a storm cloud over mountains and an urban area links warmer, moister conditions to stronger precipitation. The main message is that more moisture strongly fuels heavier precipitation, while condensation releases more heat and can strengthen storms. Increased uplift also appears to raise the frozen fraction of precipitation and its intensity.\n\nThe diagram also shows several factors that can counteract or complicate this intensification. Cloud microphysics may limit rainfall growth, and a more stable atmosphere can inhibit storm formation. Pollution is shown as having mixed effects, suppressing rainfall in some cases but invigorating storms in others. A note at the top suggests that shifts in where the wettest events occur make local detection and projection harder.\n\nAt the surface, heavier rainfall increases flood severity, especially over cities where urbanization boosts storm impacts, runoff, and flash flooding. In river basins, runoff responses are complex and depend on catchment conditions and human intervention. More runoff can occur when intense rain falls on dry crusted or saturated soils, while increased water use can reduce river flow. Near the coast, intense rainfall combined with storm surge increases compound flooding.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "storm cloud",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "large gray cloud",
+          "over mountains and city",
+          "central weather feature"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "mountain landscape",
+        "category": "geological_structure",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "snowy peaks",
+          "upland terrain",
+          "left/center background"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "urban area",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "gray buildings",
+          "city at mountain base",
+          "runoff source"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "rainfall",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "blue rain streaks",
+          "falling from cloud",
+          "heavy precipitation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "river and runoff pathway",
+        "category": "pathway_component",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "blue channel",
+          "connects inland to coast",
+          "surface runoff transport"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "coastal ocean",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "blue water body",
+          "right/lower side",
+          "coastal flooding context"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "directional arrows",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 10,
+        "key_attributes": [
+          "curved and straight arrows",
+          "link processes",
+          "cause-effect flow"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "storm surge/coastal flooding zone",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "coastal interface",
+          "compound flooding area",
+          "near shoreline"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "changing location of wettest events note",
+        "category": "annotation_text",
+        "surface_text": "Changing location of wettest events reduces skill in observational detection and future projections of extreme precipitation at local scales (+/−)",
+        "normalized_text": "changing location of wettest events reduces skill in observational detection and future projections of extreme precipitation at local scales (+/-)",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "top note",
+          "location shifts",
+          "detection/projection uncertainty"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "cloud microphysics annotation",
+        "category": "annotation_text",
+        "surface_text": "Cloud microphysics limits rainfall intensification (−)",
+        "normalized_text": "cloud microphysics limits rainfall intensification (-)",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "microphysics limit",
+          "negative effect",
+          "rainfall intensification"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "stable atmosphere annotation",
+        "category": "annotation_text",
+        "surface_text": "More stable atmosphere inhibits storm formation (−)",
+        "normalized_text": "more stable atmosphere inhibits storm formation (-)",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "stability",
+          "storm inhibition",
+          "negative effect"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "condensation heat annotation",
+        "category": "annotation_text",
+        "surface_text": "Greater heat released by condensation",
+        "normalized_text": "greater heat released by condensation",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "latent heat",
+          "storm strengthening pathway",
+          "atmospheric process"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "uplift annotation",
+        "category": "annotation_text",
+        "surface_text": "Increased uplift increases frozen fraction and intensity of precipitation",
+        "normalized_text": "increased uplift increases frozen fraction and intensity of precipitation",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "uplift",
+          "frozen fraction",
+          "precipitation intensity"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "stronger storms annotation",
+        "category": "annotation_text",
+        "surface_text": "Stronger storms (+)",
+        "normalized_text": "stronger storms (+)",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "storm intensification",
+          "positive effect",
+          "central label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "pollution annotation",
+        "category": "annotation_text",
+        "surface_text": "Pollution inhibits rainfall (−) but invigorates storms (+)",
+        "normalized_text": "pollution inhibits rainfall (-) but invigorates storms (+)",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "mixed effects",
+          "rainfall suppression",
+          "storm invigoration"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "moisture to precipitation annotation",
+        "category": "annotation_text",
+        "surface_text": "More moisture fuels heavier precipitation (+++)",
+        "normalized_text": "more moisture fuels heavier precipitation (+++)",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "main message",
+          "strong positive effect",
+          "moisture increase"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "flood severity annotation",
+        "category": "annotation_text",
+        "surface_text": "Heavier rainfall increases flood severity (++)",
+        "normalized_text": "heavier rainfall increases flood severity (++)",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "surface impact",
+          "flooding",
+          "positive effect"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "water use annotation",
+        "category": "annotation_text",
+        "surface_text": "Increased water use reduces river flow (−)",
+        "normalized_text": "increased water use reduces river flow (-)",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "human intervention",
+          "reduced discharge",
+          "negative effect"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "urbanization annotation",
+        "category": "annotation_text",
+        "surface_text": "Urbanization increases storm strength, run-off and flash flooding (+)",
+        "normalized_text": "urbanization increases storm strength, run-off and flash flooding (+)",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "urban impact",
+          "runoff",
+          "flash flooding"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "seasonal runoff complexity annotation",
+        "category": "annotation_text",
+        "surface_text": "Complex seasonal run-off changes as catchment characteristics respond to climate change and direct human intervention (+/−)",
+        "normalized_text": "complex seasonal run-off changes as catchment characteristics respond to climate change and direct human intervention (+/-)",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "catchment dependence",
+          "mixed effect",
+          "seasonal runoff"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "compound flooding annotation",
+        "category": "annotation_text",
+        "surface_text": "Increased compound flooding from intense rainfall and storm surges (++)",
+        "normalized_text": "increased compound flooding from intense rainfall and storm surges (++)",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "coastal flooding",
+          "storm surge",
+          "positive effect"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t14",
+        "entity_type": "text",
+        "name": "soil runoff annotation",
+        "category": "annotation_text",
+        "surface_text": "More run-off from heavy rain falling on dry, encrusted soils (+) or wet, saturated soils (+)",
+        "normalized_text": "more run-off from heavy rain falling on dry, encrusted soils (+) or wet, saturated soils (+)",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "soil condition",
+          "runoff increase",
+          "dry or saturated soils"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "v4",
+        "target_entity_id": "v1",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t6",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t8",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t9",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "t11",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "t10",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "t12",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "t14",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "t13",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "v8",
+        "target_entity_id": "v6",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "v5",
+        "target_entity_id": "v6",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "v2",
+        "target_entity_id": "v3",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "v3",
+        "target_entity_id": "v6",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "v1",
+        "target_entity_id": "v2",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "v1",
+        "target_entity_id": "v3",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "t2",
+        "target_entity_id": "v4",
+        "relation_type": "inhibits",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "t3",
+        "target_entity_id": "v1",
+        "relation_type": "inhibits",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "t4",
+        "target_entity_id": "v1",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "t5",
+        "target_entity_id": "v4",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "t7",
+        "target_entity_id": "v4",
+        "relation_type": "inhibits",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "t7",
+        "target_entity_id": "v1",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "t8",
+        "target_entity_id": "v1",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r23",
+        "source_entity_id": "t9",
+        "target_entity_id": "v8",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r24",
+        "source_entity_id": "t11",
+        "target_entity_id": "v8",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r25",
+        "source_entity_id": "t11",
+        "target_entity_id": "v1",
+        "relation_type": "activates",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r26",
+        "source_entity_id": "t13",
+        "target_entity_id": "v8",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r27",
+        "source_entity_id": "v4",
+        "target_entity_id": "v8",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r28",
+        "source_entity_id": "t1",
+        "target_entity_id": "v1",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "global"
+      }
+    ]
+  }
+}

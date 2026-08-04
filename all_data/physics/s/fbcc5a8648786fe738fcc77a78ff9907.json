@@ -1,0 +1,544 @@
+{
+  "image_name": "fbcc5a8648786fe738fcc77a78ff9907.png",
+  "prompt_text": "The figure summarizes how optical signals can be used for computing and how they connect to electronic systems. At the top, it contrasts two basic encoding schemes. In amplitude-based computing, two waveforms are combined so that their signal strengths add to produce a larger output wave. In phase-based computing, a single oscillating wave is split into outputs with different relative phase states, suggesting information can be carried not only by intensity but also by timing within the oscillation.\n\nThe middle row shows three physical ways to realize these operations optically. One uses free-space components such as beams, lenses, and mirrors. Another uses fibre, with guided light traveling through shaped loops and paths. The third is an integrated photonic approach, where many channels and waveguide structures are packed onto a chip, indicating greater compactness and parallelism.\n\nThe bottom row shows the electro-optical interface. One direction appears to convert analog optical-like signal levels into digital binary words, while another analog–analog interface maps one set of multilevel waveforms to another. Overall, the figure presents a broad framework linking optical computing principles, hardware implementations, and conversion between optical and electronic information formats.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "amplitude waveform combination schematic",
+        "category": "pathway_component",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "two input waves",
+          "summed output wave",
+          "plus/equals layout"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "phase-based wave splitting schematic",
+        "category": "pathway_component",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "single input wave",
+          "two output waves",
+          "different phase states"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "free-space optical setup",
+        "category": "device_component",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "beams",
+          "lenses/mirrors",
+          "free-space propagation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "fibre optical path setup",
+        "category": "device_component",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "guided path",
+          "looped fibre",
+          "input and output connectors"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "integrated photonic chip schematic",
+        "category": "device_component",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "chip-like blocks",
+          "many channels",
+          "compact parallel layout"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "analog-to-digital interface schematic",
+        "category": "pathway_component",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "multilevel waveforms",
+          "binary word output",
+          "bidirectional arrow"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "analog-to-analog interface schematic",
+        "category": "pathway_component",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "multilevel waveforms",
+          "mapped waveform outputs",
+          "bidirectional arrow"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "directional arrows",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 6,
+        "key_attributes": [
+          "signal flow",
+          "splitting",
+          "interface direction"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "Computing scheme",
+        "category": "scientific_label",
+        "surface_text": "Computing scheme",
+        "normalized_text": "Computing scheme",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "top section title"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "Amplitude",
+        "category": "scientific_label",
+        "surface_text": "Amplitude",
+        "normalized_text": "Amplitude",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "encoding scheme"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "Phase",
+        "category": "scientific_label",
+        "surface_text": "Phase",
+        "normalized_text": "Phase",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "encoding scheme"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "plus sign",
+        "category": "equation",
+        "surface_text": "+",
+        "normalized_text": "+",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "wave summation"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "equals sign",
+        "category": "equation",
+        "surface_text": "=",
+        "normalized_text": "=",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "resulting output"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "Optical realization",
+        "category": "scientific_label",
+        "surface_text": "Optical realization",
+        "normalized_text": "Optical realization",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "middle section title"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "Free space",
+        "category": "scientific_label",
+        "surface_text": "Free space",
+        "normalized_text": "Free space",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "implementation type"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "Fibre",
+        "category": "scientific_label",
+        "surface_text": "Fibre",
+        "normalized_text": "Fibre",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "implementation type"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "Integrated",
+        "category": "scientific_label",
+        "surface_text": "Integrated",
+        "normalized_text": "Integrated",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "implementation type"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "Electro-optical interface",
+        "category": "scientific_label",
+        "surface_text": "Electro-optical interface",
+        "normalized_text": "Electro-optical interface",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "bottom section title"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "Analog-digital",
+        "category": "scientific_label",
+        "surface_text": "Analog-digital",
+        "normalized_text": "Analog-digital",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "interface type"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "Analog-analog",
+        "category": "scientific_label",
+        "surface_text": "Analog-analog",
+        "normalized_text": "Analog-analog",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "interface type"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "binary output words",
+        "category": "number",
+        "surface_text": "01010110 / 10001001 / 11101011 / 00110100 / 01000110",
+        "normalized_text": "01010110 10001001 11101011 00110100 01000110",
+        "panel": "single_panel",
+        "count": 5,
+        "key_attributes": [
+          "digital bit strings"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t2",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t3",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t7",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t8",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "t9",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "t11",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "t12",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "t1",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "t1",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "t6",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "t6",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "t6",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "t10",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "t10",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "v1",
+        "target_entity_id": "v2",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "v3",
+        "target_entity_id": "v4",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "v4",
+        "target_entity_id": "v5",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "v6",
+        "target_entity_id": "v7",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "v1",
+        "target_entity_id": "v3",
+        "relation_type": "above",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "v3",
+        "target_entity_id": "v6",
+        "relation_type": "above",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "v8",
+        "target_entity_id": "v2",
+        "relation_type": "flows_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "t13",
+        "target_entity_id": "v6",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      }
+    ]
+  }
+}

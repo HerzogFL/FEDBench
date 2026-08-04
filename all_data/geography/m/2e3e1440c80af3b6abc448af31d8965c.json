@@ -1,0 +1,945 @@
+{
+  "image_name": "2e3e1440c80af3b6abc448af31d8965c.png",
+  "prompt_text": "The figure compares present and possible future working conditions across three settings—outdoor agriculture, indoor factory work, and indoor office work—under rising heat. In the historical row, work proceeds normally with moderate temperatures. In the future scenario without labour adaptation, thermometers and worker icons suggest hotter conditions reduce labour capacity across all settings. Outdoors, crop trees appear stressed and some workers are absent or replaced by equipment, while factory and office scenes show fewer active workers despite cooling units being present.\n\nThe bottom row shows a future with labour adaptation, emphasizing that productivity losses can be reduced through a mix of responses tailored to each workplace. Outdoors, visible measures include shifted work timing, mechanization, shade, lighter clothing, breaks, and warning systems. In factories and offices, the buildings appear upgraded with stronger cooling and structural protections, and icons indicate strategies such as air conditioning, insulation, regulations, and altered schedules. The overall message is that climate warming threatens labour performance in many sectors, but a portfolio of behavioural, organizational, and technological adaptations can help workers continue operating more safely and effectively.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "outdoor agriculture scene",
+        "category": "region",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "crop trees",
+          "farm workers",
+          "historical condition"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "indoor factory scene",
+        "category": "region",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "factory building",
+          "assembly line",
+          "historical condition"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "indoor office scene",
+        "category": "region",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "office building",
+          "desk workers",
+          "historical condition"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "hotter thermometer indicators",
+        "category": "device_component",
+        "panel": "single_panel",
+        "count": 6,
+        "key_attributes": [
+          "one per scenario setting",
+          "higher in future rows",
+          "heat cue"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "reduced labour capacity icon",
+        "category": "legend_key",
+        "panel": "b",
+        "count": 3,
+        "key_attributes": [
+          "worker silhouette",
+          "down arrow",
+          "capacity reduction"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "outdoor stressed crops and reduced workers",
+        "category": "region",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "one wilted tree",
+          "fewer workers",
+          "equipment substitution"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "factory reduced active workers",
+        "category": "region",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "fewer workers",
+          "cooling present",
+          "heat impact"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "office reduced active workers",
+        "category": "region",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "fewer workers",
+          "cooling present",
+          "heat impact"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "outdoor adaptation strategy icons",
+        "category": "legend_key",
+        "panel": "c",
+        "count": 7,
+        "key_attributes": [
+          "strategy strip",
+          "outdoor measures",
+          "icon row"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v10",
+        "entity_type": "visual",
+        "name": "factory adaptation upgrades and icons",
+        "category": "region",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "stronger cooling",
+          "structural protection",
+          "strategy strip"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v11",
+        "entity_type": "visual",
+        "name": "office adaptation upgrades and icons",
+        "category": "region",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "stronger cooling",
+          "insulation",
+          "strategy strip"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v12",
+        "entity_type": "visual",
+        "name": "worker figures",
+        "category": "cell",
+        "panel": "single_panel",
+        "count": 20,
+        "key_attributes": [
+          "human workers",
+          "multiple settings",
+          "activity indicator"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v13",
+        "entity_type": "visual",
+        "name": "cooling units",
+        "category": "device_component",
+        "panel": "single_panel",
+        "count": 8,
+        "key_attributes": [
+          "blue airflow",
+          "mounted indoors",
+          "air conditioning cue"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v14",
+        "entity_type": "visual",
+        "name": "farm machinery",
+        "category": "device_component",
+        "panel": "single_panel",
+        "count": 5,
+        "key_attributes": [
+          "tractors",
+          "harvest support",
+          "mechanization cue"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v15",
+        "entity_type": "visual",
+        "name": "sun symbols",
+        "category": "legend_key",
+        "panel": "single_panel",
+        "count": 3,
+        "key_attributes": [
+          "warm conditions",
+          "sky icon",
+          "temperature cue"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "historical panel label",
+        "category": "panel_label",
+        "surface_text": "a Historical",
+        "normalized_text": "Historical",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "row label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "outdoor label",
+        "category": "scientific_label",
+        "surface_text": "Outdoor",
+        "normalized_text": "Outdoor",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "setting label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "indoor factory label",
+        "category": "scientific_label",
+        "surface_text": "Indoor — factory",
+        "normalized_text": "Indoor factory",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "setting label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "indoor office label",
+        "category": "scientific_label",
+        "surface_text": "Indoor — office",
+        "normalized_text": "Indoor office",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "setting label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "future no adaptation panel label",
+        "category": "panel_label",
+        "surface_text": "b Future — no labour adaptation",
+        "normalized_text": "Future — no labour adaptation",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "row label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "future with adaptation panel label",
+        "category": "panel_label",
+        "surface_text": "c Future — with labour adaptation",
+        "normalized_text": "Future — with labour adaptation",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "row label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "adaptation strategies legend title",
+        "category": "legend_text",
+        "surface_text": "Adaptation strategies",
+        "normalized_text": "Adaptation strategies",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "legend header"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "labour impact legend label",
+        "category": "legend_text",
+        "surface_text": "Labour impact",
+        "normalized_text": "Labour impact",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "legend item"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "shifted work day",
+        "category": "legend_text",
+        "surface_text": "Shifted work day",
+        "normalized_text": "Shifted work day",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "adaptation label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "mandatory work breaks",
+        "category": "legend_text",
+        "surface_text": "Mandatory work breaks",
+        "normalized_text": "Mandatory work breaks",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "adaptation label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "laws and regulations",
+        "category": "legend_text",
+        "surface_text": "Laws and regulations",
+        "normalized_text": "Laws and regulations",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "adaptation label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "lighter clothing",
+        "category": "legend_text",
+        "surface_text": "Lighter clothing",
+        "normalized_text": "Lighter clothing",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "adaptation label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "shade provision",
+        "category": "legend_text",
+        "surface_text": "Shade provision",
+        "normalized_text": "Shade provision",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "adaptation label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t14",
+        "entity_type": "text",
+        "name": "early warning",
+        "category": "legend_text",
+        "surface_text": "Early warning",
+        "normalized_text": "Early warning",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "adaptation label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t15",
+        "entity_type": "text",
+        "name": "mechanization",
+        "category": "legend_text",
+        "surface_text": "Mechanization",
+        "normalized_text": "Mechanization",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "adaptation label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t16",
+        "entity_type": "text",
+        "name": "air conditioning",
+        "category": "legend_text",
+        "surface_text": "Air conditioning",
+        "normalized_text": "Air conditioning",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "adaptation label"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t17",
+        "entity_type": "text",
+        "name": "insulation",
+        "category": "legend_text",
+        "surface_text": "Insulation",
+        "normalized_text": "Insulation",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "adaptation label"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t1",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t1",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t1",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t2",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "t3",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "t4",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "t5",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "t5",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "t5",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "t6",
+        "target_entity_id": "v9",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "t6",
+        "target_entity_id": "v10",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "t6",
+        "target_entity_id": "v11",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "t7",
+        "target_entity_id": "v9",
+        "relation_type": "legend_for",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "t7",
+        "target_entity_id": "v10",
+        "relation_type": "legend_for",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "t7",
+        "target_entity_id": "v11",
+        "relation_type": "legend_for",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "t8",
+        "target_entity_id": "v5",
+        "relation_type": "legend_for",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "t9",
+        "target_entity_id": "v9",
+        "relation_type": "legend_for",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "t10",
+        "target_entity_id": "v9",
+        "relation_type": "legend_for",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "t11",
+        "target_entity_id": "v10",
+        "relation_type": "legend_for",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "t12",
+        "target_entity_id": "v9",
+        "relation_type": "legend_for",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "t13",
+        "target_entity_id": "v9",
+        "relation_type": "legend_for",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "t14",
+        "target_entity_id": "v9",
+        "relation_type": "legend_for",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r23",
+        "source_entity_id": "t15",
+        "target_entity_id": "v9",
+        "relation_type": "legend_for",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r24",
+        "source_entity_id": "t16",
+        "target_entity_id": "v10",
+        "relation_type": "legend_for",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r25",
+        "source_entity_id": "t16",
+        "target_entity_id": "v11",
+        "relation_type": "legend_for",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r26",
+        "source_entity_id": "t17",
+        "target_entity_id": "v11",
+        "relation_type": "legend_for",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r27",
+        "source_entity_id": "v4",
+        "target_entity_id": "v5",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r28",
+        "source_entity_id": "v4",
+        "target_entity_id": "v6",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r29",
+        "source_entity_id": "v4",
+        "target_entity_id": "v7",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r30",
+        "source_entity_id": "v4",
+        "target_entity_id": "v8",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r31",
+        "source_entity_id": "v14",
+        "target_entity_id": "v6",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r32",
+        "source_entity_id": "v13",
+        "target_entity_id": "v7",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r33",
+        "source_entity_id": "v13",
+        "target_entity_id": "v8",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r34",
+        "source_entity_id": "v13",
+        "target_entity_id": "v10",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r35",
+        "source_entity_id": "v13",
+        "target_entity_id": "v11",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r36",
+        "source_entity_id": "v1",
+        "target_entity_id": "v2",
+        "relation_type": "left_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r37",
+        "source_entity_id": "v2",
+        "target_entity_id": "v3",
+        "relation_type": "left_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r38",
+        "source_entity_id": "v6",
+        "target_entity_id": "v7",
+        "relation_type": "left_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r39",
+        "source_entity_id": "v7",
+        "target_entity_id": "v8",
+        "relation_type": "left_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r40",
+        "source_entity_id": "v9",
+        "target_entity_id": "v10",
+        "relation_type": "left_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r41",
+        "source_entity_id": "v10",
+        "target_entity_id": "v11",
+        "relation_type": "left_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r42",
+        "source_entity_id": "v1",
+        "target_entity_id": "v6",
+        "relation_type": "above",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r43",
+        "source_entity_id": "v6",
+        "target_entity_id": "v9",
+        "relation_type": "above",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r44",
+        "source_entity_id": "v2",
+        "target_entity_id": "v7",
+        "relation_type": "above",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r45",
+        "source_entity_id": "v7",
+        "target_entity_id": "v10",
+        "relation_type": "above",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r46",
+        "source_entity_id": "v3",
+        "target_entity_id": "v8",
+        "relation_type": "above",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r47",
+        "source_entity_id": "v8",
+        "target_entity_id": "v11",
+        "relation_type": "above",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "cross_panel"
+      }
+    ]
+  }
+}

@@ -1,0 +1,557 @@
+{
+  "image_name": "dda7d6f06c3d2a20b354a769ed669631.jpg",
+  "prompt_text": "The figure illustrates a simple workflow for turning nanoscale particles into targeted or delivery-ready biological tools. At the top, the starting materials are basic nanoparticles, shown as either a spherical quantum dot or an elongated nanorod. These particles are then coated with protective linker molecules, such as thiol-linked PEG or peptides, which appear to form a stabilizing layer around the particle surface.\n\nFrom this protected intermediate, the particles can be further functionalized with different types of biological or chemical cargo. The lower part of the diagram shows several examples: antibodies, biotin, peptides, small drugs or other molecules, and DNA/RNA. The arrows suggest that the same nanoparticle platform can be adapted into multiple end uses depending on what is attached to the surface.\n\nOverall, the figure conveys a modular surface-engineering strategy: begin with a nanoparticle core, add protective linkers to improve compatibility and provide attachment points, and then decorate the particle with specific molecules for targeting, sensing, or delivery. The main message is the versatility of nanomaterials as customizable carriers for biomedical applications.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "basic nanoparticle cores",
+        "category": "material_structure",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "starting materials",
+          "sphere and rod",
+          "blue nanoparticles"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "protective linker coating on nanoparticle",
+        "category": "layer",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "surface coating",
+          "stabilizing layer",
+          "around particle"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "functionalization arrows",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 7,
+        "key_attributes": [
+          "branching workflow",
+          "downward direction",
+          "modular adaptation"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "antibody-functionalized nanoparticle",
+        "category": "material_structure",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "Y-shaped ligands",
+          "decorated surface",
+          "targeting cargo"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "biotin-functionalized nanoparticle",
+        "category": "material_structure",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "small round ligands",
+          "decorated surface",
+          "cargo example"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "peptide-functionalized nanoparticle",
+        "category": "material_structure",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "short surface ligands",
+          "linker/cargo example",
+          "pink decorations"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "drug or small-molecule functionalized nanoparticle",
+        "category": "material_structure",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "small attached molecules",
+          "decorated surface",
+          "delivery cargo"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "DNA/RNA-functionalized nanoparticle",
+        "category": "material_structure",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "nucleic acid strands",
+          "decorated surface",
+          "delivery cargo"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "Basic particle",
+        "category": "annotation_text",
+        "surface_text": "Basic particle",
+        "normalized_text": "Basic particle",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "workflow stage"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "Quantum dot",
+        "category": "scientific_label",
+        "surface_text": "Quantum dot",
+        "normalized_text": "quantum dot",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "starting particle"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "Nanorod",
+        "category": "scientific_label",
+        "surface_text": "Nanorod",
+        "normalized_text": "nanorod",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "starting particle"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "Protect and attach links",
+        "category": "annotation_text",
+        "surface_text": "Protect and attach links",
+        "normalized_text": "Protect and attach links",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "workflow stage"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "Thiol-linked PEG",
+        "category": "scientific_label",
+        "surface_text": "Thiol-linked PEG",
+        "normalized_text": "thiol-linked PEG",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "protective linker"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "Peptides",
+        "category": "scientific_label",
+        "surface_text": "Peptides",
+        "normalized_text": "peptides",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "linker and cargo label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "Functionalize for targeting or delivery",
+        "category": "annotation_text",
+        "surface_text": "Functionalize for targeting or delivery",
+        "normalized_text": "Functionalize for targeting or delivery",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "workflow stage"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "Antibodies",
+        "category": "scientific_label",
+        "surface_text": "Antibodies",
+        "normalized_text": "antibodies",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "cargo example"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "Biotin",
+        "category": "scientific_label",
+        "surface_text": "Biotin",
+        "normalized_text": "biotin",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "cargo example"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "Drugs or other molecules",
+        "category": "scientific_label",
+        "surface_text": "Drugs or other molecules",
+        "normalized_text": "drugs or other molecules",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "cargo example"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "DNA/RNA",
+        "category": "scientific_label",
+        "surface_text": "DNA/RNA",
+        "normalized_text": "DNA/RNA",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "cargo example"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t2",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t3",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t5",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t6",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "t8",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "t9",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "t6",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "t10",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "t11",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "v1",
+        "target_entity_id": "v2",
+        "relation_type": "transforms_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "v2",
+        "target_entity_id": "v4",
+        "relation_type": "transforms_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "v2",
+        "target_entity_id": "v5",
+        "relation_type": "transforms_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "v2",
+        "target_entity_id": "v6",
+        "relation_type": "transforms_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "v2",
+        "target_entity_id": "v7",
+        "relation_type": "transforms_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "v2",
+        "target_entity_id": "v8",
+        "relation_type": "transforms_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "v2",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "v4",
+        "target_entity_id": "v1",
+        "relation_type": "part_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "v5",
+        "target_entity_id": "v1",
+        "relation_type": "part_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "v6",
+        "target_entity_id": "v1",
+        "relation_type": "part_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "v7",
+        "target_entity_id": "v1",
+        "relation_type": "part_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "v8",
+        "target_entity_id": "v1",
+        "relation_type": "part_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "v1",
+        "target_entity_id": "v2",
+        "relation_type": "above",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r23",
+        "source_entity_id": "v2",
+        "target_entity_id": "v4",
+        "relation_type": "above",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r24",
+        "source_entity_id": "v4",
+        "target_entity_id": "v5",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r25",
+        "source_entity_id": "v5",
+        "target_entity_id": "v6",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r26",
+        "source_entity_id": "v6",
+        "target_entity_id": "v7",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r27",
+        "source_entity_id": "v7",
+        "target_entity_id": "v8",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      }
+    ]
+  }
+}

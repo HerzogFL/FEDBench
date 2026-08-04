@@ -1,0 +1,708 @@
+{
+  "image_name": "f581afccedad7ee1089a79cf98a36ce3.jpg",
+  "prompt_text": "The image is a schematic of a lead–iodide perovskite crystal operating in an acidic iodide electrolyte under illumination, apparently illustrating photocatalytic hydrogen production together with iodine redox chemistry. A pink-and-gray lattice labeled perovskite crystal is surrounded by an electrolyte identified as HI saturated with PbI₂. Blue wavy lines marked light strike the crystal and generate an electron–hole pair inside it.\n\nThe separated charges then move in opposite directions through the crystal: electrons are shown traveling toward the left surface, where nearby protons are reduced to H₂, while holes move toward the right surface. On the oxidative side, iodide-containing species near the surface, including I⁻ and a PbI₃⁻ complex, appear to participate in hole-driven oxidation that ultimately forms I₃⁻. Dashed arrows emphasize the paths of the electron and hole through the material.\n\nThe figure’s main message is that the perovskite acts as a light absorber and charge-separating semiconductor in solution, using photogenerated electrons for hydrogen evolution and photogenerated holes for iodide oxidation. The surrounding iodide/lead-iodide species seem to help stabilize the perovskite surface and mediate the redox process.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "perovskite crystal lattice",
+        "category": "material_structure",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "pink-gray lattice",
+          "3D crystal block",
+          "central object"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "electrolyte surrounding region",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "surrounds crystal",
+          "solution phase",
+          "acidic iodide medium"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "incident light waves",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "blue wavy lines",
+          "incoming",
+          "illumination"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "electron-hole generation site",
+        "category": "pathway_component",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "inside crystal",
+          "charge pair",
+          "blue star center"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "electron transport path",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "green dashed arrow",
+          "toward left surface",
+          "charge separation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "hole transport path",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "red dashed arrow",
+          "toward right surface",
+          "charge separation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "protons in electrolyte",
+        "category": "molecule",
+        "panel": "single_panel",
+        "count": 6,
+        "key_attributes": [
+          "small beige center",
+          "red halo",
+          "left side reduction substrate"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "hydrogen product",
+        "category": "molecule",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "diatomic pair",
+          "left of crystal",
+          "evolution product"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "iodide ions",
+        "category": "molecule",
+        "panel": "single_panel",
+        "count": 4,
+        "key_attributes": [
+          "pink sphere",
+          "green halo",
+          "electrolyte species"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v10",
+        "entity_type": "visual",
+        "name": "lead triiodide complex",
+        "category": "molecule",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "Pb center",
+          "three I ligands",
+          "near oxidative side"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v11",
+        "entity_type": "visual",
+        "name": "triiodide product",
+        "category": "molecule",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "three connected pink spheres",
+          "right side product",
+          "oxidation outcome"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v12",
+        "entity_type": "visual",
+        "name": "curved reaction arrows",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 3,
+        "key_attributes": [
+          "black curved arrows",
+          "reaction direction",
+          "surface processes"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v13",
+        "entity_type": "visual",
+        "name": "element legend inset",
+        "category": "legend_key",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "H I Pb MA",
+          "bottom left",
+          "color key"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v14",
+        "entity_type": "visual",
+        "name": "charge legend inset",
+        "category": "legend_key",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "minus and plus",
+          "bottom left",
+          "charge color key"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "proton label",
+        "category": "scientific_label",
+        "surface_text": "H+",
+        "normalized_text": "H+",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "reactant label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "iodide label",
+        "category": "scientific_label",
+        "surface_text": "I−",
+        "normalized_text": "I-",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "electrolyte species"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "light label",
+        "category": "annotation_text",
+        "surface_text": "Light",
+        "normalized_text": "Light",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "illumination"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "lead triiodide complex label",
+        "category": "scientific_label",
+        "surface_text": "PbI3−",
+        "normalized_text": "PbI3-",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "oxidative-side species"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "triiodide label",
+        "category": "scientific_label",
+        "surface_text": "I3−",
+        "normalized_text": "I3-",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "oxidation product"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "hydrogen label",
+        "category": "scientific_label",
+        "surface_text": "H2",
+        "normalized_text": "H2",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "reduction product"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "electron label",
+        "category": "scientific_label",
+        "surface_text": "e−",
+        "normalized_text": "e-",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "charge carrier"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "hole label",
+        "category": "scientific_label",
+        "surface_text": "h+",
+        "normalized_text": "h+",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "charge carrier"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "perovskite crystal label",
+        "category": "annotation_text",
+        "surface_text": "Perovskite crystal",
+        "normalized_text": "Perovskite crystal",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "main material label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "electrolyte composition label",
+        "category": "annotation_text",
+        "surface_text": "Electrolyte: HI saturated with PbI2",
+        "normalized_text": "Electrolyte: HI saturated with PbI2",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "solution composition"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "legend H",
+        "category": "legend_text",
+        "surface_text": "H",
+        "normalized_text": "H",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "element legend"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "legend I",
+        "category": "legend_text",
+        "surface_text": "I",
+        "normalized_text": "I",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "element legend"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "legend Pb",
+        "category": "legend_text",
+        "surface_text": "Pb",
+        "normalized_text": "Pb",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "element legend"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t14",
+        "entity_type": "text",
+        "name": "legend MA",
+        "category": "legend_text",
+        "surface_text": "MA",
+        "normalized_text": "MA",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "organic cation legend"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t15",
+        "entity_type": "text",
+        "name": "charge legend text",
+        "category": "legend_text",
+        "surface_text": "Charge",
+        "normalized_text": "Charge",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "legend label"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t9",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t10",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t3",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t1",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "t2",
+        "target_entity_id": "v9",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "t4",
+        "target_entity_id": "v10",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "t5",
+        "target_entity_id": "v11",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "t6",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "t7",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "t8",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "v3",
+        "target_entity_id": "v4",
+        "relation_type": "points_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "v4",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "v5",
+        "target_entity_id": "v7",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "v6",
+        "target_entity_id": "v9",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "v7",
+        "target_entity_id": "v8",
+        "relation_type": "transforms_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "v9",
+        "target_entity_id": "v11",
+        "relation_type": "transforms_to",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "v10",
+        "target_entity_id": "v11",
+        "relation_type": "transforms_to",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "v2",
+        "target_entity_id": "v1",
+        "relation_type": "surrounded_by",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "v7",
+        "target_entity_id": "v1",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "v8",
+        "target_entity_id": "v1",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "v1",
+        "target_entity_id": "v11",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "t11",
+        "target_entity_id": "v13",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r23",
+        "source_entity_id": "t12",
+        "target_entity_id": "v13",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r24",
+        "source_entity_id": "t13",
+        "target_entity_id": "v13",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r25",
+        "source_entity_id": "t14",
+        "target_entity_id": "v13",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r26",
+        "source_entity_id": "t15",
+        "target_entity_id": "v14",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      }
+    ]
+  }
+}

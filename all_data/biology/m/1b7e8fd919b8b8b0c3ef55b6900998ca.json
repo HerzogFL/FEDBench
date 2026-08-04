@@ -1,0 +1,1584 @@
+{
+  "image_name": "1b7e8fd919b8b8b0c3ef55b6900998ca.png",
+  "prompt_text": "The figure summarizes how AMPK helps maintain organelle quality and responds to cellular stress, linking mitochondria, DNA damage, and lysosomes. In mitochondria, reduced ATP production or oxidative stress raises AMP/ATP, activating AMPK and its mitochondrial pool, which promotes mitochondrial biogenesis, fission, and mitophagy to restore homeostasis.\n\nThe nuclear section shows AMPKα1 in DNA damage signaling. DNA lesions activate pathways involving ATM/ATR, CHK2, p53, and repair factors such as 53BP1 and EXO1. Calcium-dependent CaMKK2 also appears to activate AMPKα1. The diagram suggests AMPKα1 shuttles between nucleus and cytoplasm and influences both DNA repair and apoptotic outputs, including caspase 3 and pro-apoptotic gene expression.\n\nThe lysosomal part highlights a switch from intact to damaged lysosomes. Undamaged lysosomes are marked by LAMP1/2 and luminal glycans, whereas damage leads to ubiquitin accumulation and recruitment of factors including GAL9, USP9X, TAK1, and AMPK. Activated AMPK then seems to drive two coordinated responses: TFEB/TFE3-dependent lysosomal biogenesis and ULK1-linked lysophagy. The damaged lysosome is shown being wrapped by an LC3-positive autophagosome, illustrating selective removal of defective lysosomes.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "mitochondrion",
+        "category": "organelle",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "large cutaway organelle",
+          "inner cristae",
+          "source of stress signaling"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "AMPK signaling hub in mitochondria panel",
+        "category": "protein",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "central node",
+          "connected to outputs",
+          "energy stress responder"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "mitochondrial biogenesis icon",
+        "category": "organelle",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "small mitochondrion",
+          "output state",
+          "top row icon"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "mitochondrial fission icon",
+        "category": "organelle",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "split mitochondria",
+          "output state",
+          "top row icon"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "mitophagy icon",
+        "category": "organelle",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "mitochondrion in engulfing structure",
+          "clearance pathway",
+          "top row icon"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "energy metabolite cycle",
+        "category": "molecule",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "ATP/ADP/AMP cycle",
+          "near AK2",
+          "stress sensing"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "nucleus",
+        "category": "organelle",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "large circular compartment",
+          "contains DNA lesion pathway",
+          "nuclear envelope shown"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "damaged DNA duplex",
+        "category": "pathway_component",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "DNA helix",
+          "lesion/lightning mark",
+          "damage initiation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "AMPKα1 shuttle node",
+        "category": "protein",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "cytoplasm-nucleus exchange",
+          "central regulatory node",
+          "linked to repair and apoptosis"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v10",
+        "entity_type": "visual",
+        "name": "nuclear pore",
+        "category": "device_component",
+        "panel": "b",
+        "count": 2,
+        "key_attributes": [
+          "envelope openings",
+          "shuttling route",
+          "drawn on nuclear boundary"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v11",
+        "entity_type": "visual",
+        "name": "undamaged lysosome",
+        "category": "organelle",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "intact membrane",
+          "luminal glycans",
+          "LAMP-marked"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v12",
+        "entity_type": "visual",
+        "name": "damaged lysosome",
+        "category": "organelle",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "disrupted membrane",
+          "ubiquitin decorated",
+          "recruits response factors"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v13",
+        "entity_type": "visual",
+        "name": "AMPK signaling hub on damaged lysosome",
+        "category": "protein",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "activated node",
+          "downstream bifurcation",
+          "lysosome-associated"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v14",
+        "entity_type": "visual",
+        "name": "autophagosome engulfing damaged lysosome",
+        "category": "membrane",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "crescent membrane",
+          "wraps damaged lysosome",
+          "selective lysophagy"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v15",
+        "entity_type": "visual",
+        "name": "LC3-positive autophagosome markers",
+        "category": "protein",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "membrane-associated dots",
+          "autophagosome marker",
+          "engulfment context"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v16",
+        "entity_type": "visual",
+        "name": "ubiquitin accumulation on damaged lysosome",
+        "category": "protein",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "multiple Ub tags",
+          "damage-associated",
+          "surface accumulation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v17",
+        "entity_type": "visual",
+        "name": "directional pathway arrows",
+        "category": "arrow",
+        "panel": "all",
+        "count": 1,
+        "key_attributes": [
+          "causal flow",
+          "multiple connectors",
+          "branching outputs"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "panel a label",
+        "category": "panel_label",
+        "surface_text": "a",
+        "normalized_text": "a",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "mitochondrial homeostasis title",
+        "category": "scientific_label",
+        "surface_text": "Mitochondrial homeostasis",
+        "normalized_text": "Mitochondrial homeostasis",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "Mitochondrial biogenesis",
+        "category": "scientific_label",
+        "surface_text": "Mitochondrial biogenesis",
+        "normalized_text": "Mitochondrial biogenesis",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "Mitochondrial fission",
+        "category": "scientific_label",
+        "surface_text": "Mitochondrial fission",
+        "normalized_text": "Mitochondrial fission",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "Mitophagy",
+        "category": "scientific_label",
+        "surface_text": "Mitophagy",
+        "normalized_text": "Mitophagy",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "AMPK label in mitochondria panel",
+        "category": "scientific_label",
+        "surface_text": "AMPK",
+        "normalized_text": "AMPK",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "AMP + ATP",
+        "category": "scientific_label",
+        "surface_text": "AMP + ATP",
+        "normalized_text": "AMP + ATP",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "energy state"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "AK2",
+        "category": "scientific_label",
+        "surface_text": "AK2",
+        "normalized_text": "AK2",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "ATP",
+        "category": "scientific_label",
+        "surface_text": "ATP",
+        "normalized_text": "ATP",
+        "panel": "a",
+        "count": 2,
+        "key_attributes": [
+          "energy metabolite"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "ADP",
+        "category": "scientific_label",
+        "surface_text": "ADP",
+        "normalized_text": "ADP",
+        "panel": "a",
+        "count": 2,
+        "key_attributes": [
+          "energy metabolite"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "ADP/ATP translocase",
+        "category": "scientific_label",
+        "surface_text": "ADP/ATP translocase",
+        "normalized_text": "ADP/ATP translocase",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "ATP synthase",
+        "category": "scientific_label",
+        "surface_text": "ATP synthase",
+        "normalized_text": "ATP synthase",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "Mitochondrion",
+        "category": "scientific_label",
+        "surface_text": "Mitochondrion",
+        "normalized_text": "Mitochondrion",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t14",
+        "entity_type": "text",
+        "name": "Oxidative stress",
+        "category": "annotation_text",
+        "surface_text": "Oxidative stress",
+        "normalized_text": "Oxidative stress",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t15",
+        "entity_type": "text",
+        "name": "Mitochondrial inhibitors",
+        "category": "annotation_text",
+        "surface_text": "Mitochondrial inhibitors",
+        "normalized_text": "Mitochondrial inhibitors",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t16",
+        "entity_type": "text",
+        "name": "panel b label",
+        "category": "panel_label",
+        "surface_text": "b",
+        "normalized_text": "b",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t17",
+        "entity_type": "text",
+        "name": "DNA damage and repair title",
+        "category": "scientific_label",
+        "surface_text": "DNA damage and repair",
+        "normalized_text": "DNA damage and repair",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t18",
+        "entity_type": "text",
+        "name": "DNA damage",
+        "category": "scientific_label",
+        "surface_text": "DNA damage",
+        "normalized_text": "DNA damage",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t19",
+        "entity_type": "text",
+        "name": "ATM/ATR",
+        "category": "scientific_label",
+        "surface_text": "ATM/ATR",
+        "normalized_text": "ATM/ATR",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t20",
+        "entity_type": "text",
+        "name": "DNA repair",
+        "category": "scientific_label",
+        "surface_text": "DNA repair",
+        "normalized_text": "DNA repair",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t21",
+        "entity_type": "text",
+        "name": "CHK2",
+        "category": "scientific_label",
+        "surface_text": "CHK2",
+        "normalized_text": "CHK2",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t22",
+        "entity_type": "text",
+        "name": "53BP1",
+        "category": "scientific_label",
+        "surface_text": "53BP1",
+        "normalized_text": "53BP1",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t23",
+        "entity_type": "text",
+        "name": "EXO1",
+        "category": "scientific_label",
+        "surface_text": "EXO1",
+        "normalized_text": "EXO1",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t24",
+        "entity_type": "text",
+        "name": "p53",
+        "category": "scientific_label",
+        "surface_text": "p53",
+        "normalized_text": "p53",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t25",
+        "entity_type": "text",
+        "name": "Ca2+",
+        "category": "scientific_label",
+        "surface_text": "Ca2+",
+        "normalized_text": "Ca2+",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "calcium signal"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t26",
+        "entity_type": "text",
+        "name": "CaMKK2",
+        "category": "scientific_label",
+        "surface_text": "CaMKK2",
+        "normalized_text": "CaMKK2",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t27",
+        "entity_type": "text",
+        "name": "AMPKα1",
+        "category": "scientific_label",
+        "surface_text": "AMPKα1",
+        "normalized_text": "AMPKα1",
+        "panel": "b",
+        "count": 2,
+        "key_attributes": [
+          "nuclear-cytoplasmic shuttle"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t28",
+        "entity_type": "text",
+        "name": "AMPKα1-NES",
+        "category": "scientific_label",
+        "surface_text": "AMPKα1–NES",
+        "normalized_text": "AMPKα1-NES",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t29",
+        "entity_type": "text",
+        "name": "NES",
+        "category": "scientific_label",
+        "surface_text": "NES",
+        "normalized_text": "NES",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "nuclear export signal"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t30",
+        "entity_type": "text",
+        "name": "Pro-apoptotic genes",
+        "category": "annotation_text",
+        "surface_text": "Pro-apoptotic genes",
+        "normalized_text": "Pro-apoptotic genes",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t31",
+        "entity_type": "text",
+        "name": "Caspase 3",
+        "category": "scientific_label",
+        "surface_text": "Caspase 3",
+        "normalized_text": "Caspase 3",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t32",
+        "entity_type": "text",
+        "name": "Nuclear pore",
+        "category": "scientific_label",
+        "surface_text": "Nuclear pore",
+        "normalized_text": "Nuclear pore",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t33",
+        "entity_type": "text",
+        "name": "Nucleus",
+        "category": "scientific_label",
+        "surface_text": "Nucleus",
+        "normalized_text": "Nucleus",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t34",
+        "entity_type": "text",
+        "name": "uncertainty mark",
+        "category": "annotation_text",
+        "surface_text": "?",
+        "normalized_text": "?",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "speculative link"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t35",
+        "entity_type": "text",
+        "name": "panel c label",
+        "category": "panel_label",
+        "surface_text": "c",
+        "normalized_text": "c",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t36",
+        "entity_type": "text",
+        "name": "Lysosomal homeostasis title",
+        "category": "scientific_label",
+        "surface_text": "Lysosomal homeostasis",
+        "normalized_text": "Lysosomal homeostasis",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t37",
+        "entity_type": "text",
+        "name": "GAL9",
+        "category": "scientific_label",
+        "surface_text": "GAL9",
+        "normalized_text": "GAL9",
+        "panel": "c",
+        "count": 2,
+        "key_attributes": [],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t38",
+        "entity_type": "text",
+        "name": "AMPK label in lysosome panel",
+        "category": "scientific_label",
+        "surface_text": "AMPK",
+        "normalized_text": "AMPK",
+        "panel": "c",
+        "count": 2,
+        "key_attributes": [],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t39",
+        "entity_type": "text",
+        "name": "TAK1",
+        "category": "scientific_label",
+        "surface_text": "TAK1",
+        "normalized_text": "TAK1",
+        "panel": "c",
+        "count": 2,
+        "key_attributes": [],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t40",
+        "entity_type": "text",
+        "name": "USP9X",
+        "category": "scientific_label",
+        "surface_text": "USP9X",
+        "normalized_text": "USP9X",
+        "panel": "c",
+        "count": 2,
+        "key_attributes": [],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t41",
+        "entity_type": "text",
+        "name": "LAMP1/2",
+        "category": "scientific_label",
+        "surface_text": "LAMP1/2",
+        "normalized_text": "LAMP1/2",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t42",
+        "entity_type": "text",
+        "name": "Luminal glycan",
+        "category": "scientific_label",
+        "surface_text": "Luminal glycan",
+        "normalized_text": "Luminal glycan",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t43",
+        "entity_type": "text",
+        "name": "Undamaged lysosome",
+        "category": "scientific_label",
+        "surface_text": "Undamaged lysosome",
+        "normalized_text": "Undamaged lysosome",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t44",
+        "entity_type": "text",
+        "name": "Lysosomal damage annotation",
+        "category": "annotation_text",
+        "surface_text": "Lysosomal damage (e.g. infection with Mycobacterium tuberculosis)",
+        "normalized_text": "Lysosomal damage",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "example cause included"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t45",
+        "entity_type": "text",
+        "name": "Damaged lysosome",
+        "category": "scientific_label",
+        "surface_text": "Damaged lysosome",
+        "normalized_text": "Damaged lysosome",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t46",
+        "entity_type": "text",
+        "name": "Ub",
+        "category": "scientific_label",
+        "surface_text": "Ub",
+        "normalized_text": "ubiquitin",
+        "panel": "c",
+        "count": 8,
+        "key_attributes": [
+          "damage-associated tagging"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t47",
+        "entity_type": "text",
+        "name": "K63",
+        "category": "scientific_label",
+        "surface_text": "K63",
+        "normalized_text": "K63",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "ubiquitin linkage"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t48",
+        "entity_type": "text",
+        "name": "LC3",
+        "category": "scientific_label",
+        "surface_text": "LC3",
+        "normalized_text": "LC3",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t49",
+        "entity_type": "text",
+        "name": "Lysophagy",
+        "category": "scientific_label",
+        "surface_text": "Lysophagy",
+        "normalized_text": "Lysophagy",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t50",
+        "entity_type": "text",
+        "name": "ULK1",
+        "category": "scientific_label",
+        "surface_text": "ULK1?",
+        "normalized_text": "ULK1",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "uncertain link"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t51",
+        "entity_type": "text",
+        "name": "Lysosomal biogenesis",
+        "category": "scientific_label",
+        "surface_text": "Lysosomal biogenesis",
+        "normalized_text": "Lysosomal biogenesis",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t52",
+        "entity_type": "text",
+        "name": "TFEB/TFE3",
+        "category": "scientific_label",
+        "surface_text": "TFEB/TFE3",
+        "normalized_text": "TFEB/TFE3",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t53",
+        "entity_type": "text",
+        "name": "phosphorylation mark",
+        "category": "scientific_label",
+        "surface_text": "P",
+        "normalized_text": "P",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "phosphorylation indicator"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t54",
+        "entity_type": "text",
+        "name": "Autophagosome engulfing damaged lysosome",
+        "category": "annotation_text",
+        "surface_text": "Autophagosome engulfing damaged lysosome",
+        "normalized_text": "Autophagosome engulfing damaged lysosome",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t6",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t3",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t4",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t5",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "t13",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "t7",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "v6",
+        "target_entity_id": "v2",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "t14",
+        "target_entity_id": "v1",
+        "relation_type": "points_to",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "v2",
+        "target_entity_id": "v3",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "v2",
+        "target_entity_id": "v4",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "v2",
+        "target_entity_id": "v5",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "v3",
+        "target_entity_id": "v4",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "v4",
+        "target_entity_id": "v5",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "t33",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "t18",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "t27",
+        "target_entity_id": "v9",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "t32",
+        "target_entity_id": "v10",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "v8",
+        "target_entity_id": "t19",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "t19",
+        "target_entity_id": "t21",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "t21",
+        "target_entity_id": "t24",
+        "relation_type": "activates",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "t24",
+        "target_entity_id": "t30",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "t30",
+        "target_entity_id": "t31",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r23",
+        "source_entity_id": "t19",
+        "target_entity_id": "t22",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r24",
+        "source_entity_id": "t19",
+        "target_entity_id": "t23",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r25",
+        "source_entity_id": "t22",
+        "target_entity_id": "t20",
+        "relation_type": "activates",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r26",
+        "source_entity_id": "t23",
+        "target_entity_id": "t20",
+        "relation_type": "activates",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r27",
+        "source_entity_id": "t25",
+        "target_entity_id": "t26",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r28",
+        "source_entity_id": "t26",
+        "target_entity_id": "v9",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r29",
+        "source_entity_id": "v9",
+        "target_entity_id": "t20",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r30",
+        "source_entity_id": "v9",
+        "target_entity_id": "t31",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r31",
+        "source_entity_id": "v9",
+        "target_entity_id": "t30",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r32",
+        "source_entity_id": "v9",
+        "target_entity_id": "v7",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r33",
+        "source_entity_id": "v10",
+        "target_entity_id": "v7",
+        "relation_type": "part_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r34",
+        "source_entity_id": "v9",
+        "target_entity_id": "v10",
+        "relation_type": "connected_to",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r35",
+        "source_entity_id": "t43",
+        "target_entity_id": "v11",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r36",
+        "source_entity_id": "t45",
+        "target_entity_id": "v12",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r37",
+        "source_entity_id": "t38",
+        "target_entity_id": "v13",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r38",
+        "source_entity_id": "t54",
+        "target_entity_id": "v14",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r39",
+        "source_entity_id": "t48",
+        "target_entity_id": "v15",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r40",
+        "source_entity_id": "t46",
+        "target_entity_id": "v16",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r41",
+        "source_entity_id": "t41",
+        "target_entity_id": "v11",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r42",
+        "source_entity_id": "t42",
+        "target_entity_id": "v11",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r43",
+        "source_entity_id": "t44",
+        "target_entity_id": "v12",
+        "relation_type": "points_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r44",
+        "source_entity_id": "v11",
+        "target_entity_id": "v12",
+        "relation_type": "transforms_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r45",
+        "source_entity_id": "v16",
+        "target_entity_id": "v12",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r46",
+        "source_entity_id": "t37",
+        "target_entity_id": "v12",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r47",
+        "source_entity_id": "t39",
+        "target_entity_id": "v12",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r48",
+        "source_entity_id": "t40",
+        "target_entity_id": "v12",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r49",
+        "source_entity_id": "v12",
+        "target_entity_id": "v13",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r50",
+        "source_entity_id": "v13",
+        "target_entity_id": "t52",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r51",
+        "source_entity_id": "t52",
+        "target_entity_id": "t51",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r52",
+        "source_entity_id": "v13",
+        "target_entity_id": "t50",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r53",
+        "source_entity_id": "t50",
+        "target_entity_id": "t49",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r54",
+        "source_entity_id": "v14",
+        "target_entity_id": "v12",
+        "relation_type": "wraps_to",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r55",
+        "source_entity_id": "v14",
+        "target_entity_id": "v12",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r56",
+        "source_entity_id": "v15",
+        "target_entity_id": "v14",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r57",
+        "source_entity_id": "v14",
+        "target_entity_id": "t49",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r58",
+        "source_entity_id": "v11",
+        "target_entity_id": "v12",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      }
+    ]
+  }
+}

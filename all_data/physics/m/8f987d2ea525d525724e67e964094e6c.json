@@ -1,0 +1,814 @@
+{
+  "image_name": "8f987d2ea525d525724e67e964094e6c.png",
+  "prompt_text": "The figure compares electrochemical measurement setups and how electrode geometry affects what is actually being measured. In the top row, three beaker schematics show a potentiostat/galvanostat connected to working, reference, and counter electrodes. The associated circuit models illustrate how impedance is split among solution resistance, charge-transfer resistance, double-layer capacitance, and diffusion-like elements. With a three-electrode arrangement, the reference electrode measures potential in a way that helps separate the working-electrode and counter-electrode contributions. In simpler two-electrode-like situations, those contributions become lumped together. When the counter electrode is made much larger, its own impedance becomes relatively small, so the overall response is dominated by the working electrode and electrolyte path, giving a simplified equivalent circuit.\n\nThe bottom row applies this idea to implanted electrodes in tissue. One sketch places the counter electrode as an external bone screw, while another places it directly on the implant. The comparison indicates a tradeoff: an external counter electrode reduces the counter electrode’s influence but increases tissue impedance, whereas an on-implant counter electrode lowers tissue impedance but causes the counter electrode to contribute more strongly to the measured signal. Overall, the figure explains how measurement configuration shapes interpretation of electrochemical impedance data.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "three-electrode beaker setup",
+        "category": "device_component",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "beaker cell",
+          "WE RE CE inserted",
+          "instrument connected"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "two-electrode-like beaker setup",
+        "category": "device_component",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "beaker cell",
+          "WE and CE only",
+          "lumped measurement"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "large counter-electrode beaker setup",
+        "category": "device_component",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "oversized CE",
+          "beaker cell",
+          "simplified response"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "equivalent circuit with separated WE and CE contributions",
+        "category": "pathway_component",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "WE branch",
+          "electrolyte resistances",
+          "CE branch"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "equivalent circuit with lumped two-electrode contributions",
+        "category": "pathway_component",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "WE branch",
+          "single Re",
+          "CE branch"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "simplified equivalent circuit with large CE deemphasized",
+        "category": "pathway_component",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "active WE branch",
+          "series Re",
+          "faded CE branch"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "implant in tissue with external bone screw counter electrode",
+        "category": "device_component",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "implant WE",
+          "external CE",
+          "tissue path"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "implant in tissue with counter electrode on implant",
+        "category": "device_component",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "implant WE",
+          "on-implant CE",
+          "shorter tissue path"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "working electrode",
+        "category": "device_component",
+        "panel": "a-c,d-e",
+        "count": 5,
+        "key_attributes": [
+          "electrode contact",
+          "WE role",
+          "measurement focus"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v10",
+        "entity_type": "visual",
+        "name": "reference electrode",
+        "category": "device_component",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "third electrode",
+          "potential reference",
+          "separates contributions"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v11",
+        "entity_type": "visual",
+        "name": "counter electrode",
+        "category": "device_component",
+        "panel": "a-c,d-e",
+        "count": 5,
+        "key_attributes": [
+          "return electrode",
+          "variable geometry",
+          "influences impedance"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v12",
+        "entity_type": "visual",
+        "name": "potentiostat/galvanostat instrument box",
+        "category": "device_component",
+        "panel": "a-c",
+        "count": 3,
+        "key_attributes": [
+          "instrument controller",
+          "wired to electrodes",
+          "top box"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v13",
+        "entity_type": "visual",
+        "name": "tissue or head region",
+        "category": "region",
+        "panel": "d-e",
+        "count": 2,
+        "key_attributes": [
+          "implant environment",
+          "tissue conduction path",
+          "anatomical context"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v14",
+        "entity_type": "visual",
+        "name": "dashed separation arrows from reference electrode",
+        "category": "arrow",
+        "panel": "a",
+        "count": 2,
+        "key_attributes": [
+          "points to WE and CE",
+          "separation cue",
+          "dashed"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "panel label a",
+        "category": "panel_label",
+        "surface_text": "a",
+        "normalized_text": "a",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "panel label b",
+        "category": "panel_label",
+        "surface_text": "b",
+        "normalized_text": "b",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "panel label c",
+        "category": "panel_label",
+        "surface_text": "c",
+        "normalized_text": "c",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "panel label d",
+        "category": "panel_label",
+        "surface_text": "d",
+        "normalized_text": "d",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "panel label e",
+        "category": "panel_label",
+        "surface_text": "e",
+        "normalized_text": "e",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "Potentiostat/galvanostat",
+        "category": "scientific_label",
+        "surface_text": "Potentiostat/galvanostat",
+        "normalized_text": "potentiostat/galvanostat",
+        "panel": "a-c",
+        "count": 3,
+        "key_attributes": [
+          "instrument label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "WE label",
+        "category": "scientific_label",
+        "surface_text": "WE",
+        "normalized_text": "working electrode",
+        "panel": "a-e",
+        "count": 7,
+        "key_attributes": [
+          "electrode abbreviation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "RE label",
+        "category": "scientific_label",
+        "surface_text": "RE",
+        "normalized_text": "reference electrode",
+        "panel": "a",
+        "count": 3,
+        "key_attributes": [
+          "electrode abbreviation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "CE label",
+        "category": "scientific_label",
+        "surface_text": "CE",
+        "normalized_text": "counter electrode",
+        "panel": "a-e",
+        "count": 7,
+        "key_attributes": [
+          "electrode abbreviation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "double-layer capacitance labels",
+        "category": "scientific_label",
+        "surface_text": "Cdl,WE; Cdl,CE",
+        "normalized_text": "double-layer capacitance at WE and CE",
+        "panel": "a-c",
+        "count": 6,
+        "key_attributes": [
+          "capacitance terms",
+          "WE and CE"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "charge-transfer resistance labels",
+        "category": "scientific_label",
+        "surface_text": "Rct,WE; Rct,CE",
+        "normalized_text": "charge-transfer resistance at WE and CE",
+        "panel": "a-c",
+        "count": 6,
+        "key_attributes": [
+          "resistance terms",
+          "WE and CE"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "diffusion impedance labels",
+        "category": "scientific_label",
+        "surface_text": "Zw,WE; Zw,CE",
+        "normalized_text": "Warburg diffusion elements at WE and CE",
+        "panel": "a-c",
+        "count": 6,
+        "key_attributes": [
+          "diffusion-like terms",
+          "WE and CE"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "electrolyte resistance labels",
+        "category": "scientific_label",
+        "surface_text": "Re; Re,WE; Re,CE",
+        "normalized_text": "solution or electrolyte resistance",
+        "panel": "a-c",
+        "count": 5,
+        "key_attributes": [
+          "electrolyte path",
+          "split or lumped"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t14",
+        "entity_type": "text",
+        "name": "reference-electrode separation annotation",
+        "category": "annotation_text",
+        "surface_text": "RE measures a potential reference allowing separation of WE and CE contributions",
+        "normalized_text": "reference electrode allows separation of working and counter electrode contributions",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "interpretive note"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t15",
+        "entity_type": "text",
+        "name": "large CE simplification annotation",
+        "category": "annotation_text",
+        "surface_text": "Simplification with large CE",
+        "normalized_text": "simplification with large counter electrode",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "interpretive note"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t16",
+        "entity_type": "text",
+        "name": "Electronics interface",
+        "category": "annotation_text",
+        "surface_text": "Electronics interface",
+        "normalized_text": "electronics interface",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "device context"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t17",
+        "entity_type": "text",
+        "name": "External bone screw CE",
+        "category": "annotation_text",
+        "surface_text": "External bone screw CE",
+        "normalized_text": "external bone screw counter electrode",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "configuration label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t18",
+        "entity_type": "text",
+        "name": "external CE decreased contribution annotation",
+        "category": "annotation_text",
+        "surface_text": "Decreased contribution from CE ✓",
+        "normalized_text": "decreased contribution from counter electrode",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "tradeoff benefit"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t19",
+        "entity_type": "text",
+        "name": "external CE increased tissue impedance annotation",
+        "category": "annotation_text",
+        "surface_text": "Increased tissue impedance ✕",
+        "normalized_text": "increased tissue impedance",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "tradeoff cost"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t20",
+        "entity_type": "text",
+        "name": "CE on implant",
+        "category": "annotation_text",
+        "surface_text": "CE on implant",
+        "normalized_text": "counter electrode on implant",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "configuration label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t21",
+        "entity_type": "text",
+        "name": "on-implant CE greater contribution annotation",
+        "category": "annotation_text",
+        "surface_text": "Greater contribution from CE ✕",
+        "normalized_text": "greater contribution from counter electrode",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "tradeoff cost"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t22",
+        "entity_type": "text",
+        "name": "on-implant CE decreased tissue impedance annotation",
+        "category": "annotation_text",
+        "surface_text": "Decreased tissue impedance ✓",
+        "normalized_text": "decreased tissue impedance",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "tradeoff benefit"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t6",
+        "target_entity_id": "v12",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t7",
+        "target_entity_id": "v9",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t8",
+        "target_entity_id": "v10",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t9",
+        "target_entity_id": "v11",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "v12",
+        "target_entity_id": "v9",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "v12",
+        "target_entity_id": "v11",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "v12",
+        "target_entity_id": "v10",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "v4",
+        "target_entity_id": "v1",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "v5",
+        "target_entity_id": "v2",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "v6",
+        "target_entity_id": "v3",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "t14",
+        "target_entity_id": "v10",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "v14",
+        "target_entity_id": "v9",
+        "relation_type": "points_to",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "v14",
+        "target_entity_id": "v11",
+        "relation_type": "points_to",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "t15",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "v9",
+        "target_entity_id": "v13",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "v11",
+        "target_entity_id": "v13",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "t17",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "t20",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "t18",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "t19",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "t21",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "t22",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r23",
+        "source_entity_id": "v7",
+        "target_entity_id": "v8",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r24",
+        "source_entity_id": "v1",
+        "target_entity_id": "v2",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r25",
+        "source_entity_id": "v2",
+        "target_entity_id": "v3",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r26",
+        "source_entity_id": "v1",
+        "target_entity_id": "v7",
+        "relation_type": "above",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "cross_panel"
+      }
+    ]
+  }
+}

@@ -1,0 +1,495 @@
+{
+  "image_name": "4ea3d112de725dc5d988e7631556584f.png",
+  "prompt_text": "This schematic illustrates several ways vaccine or drug particles can reach dendritic cells (DCs) in skin and lymphatic tissue. The central idea is that particle size and delivery method determine whether materials stay near the injection site, diffuse into lymphatic vessels, or are carried by cells to lymph nodes.\n\nSmall particles, shown as gray dots, appear to diffuse through tissue and enter initial lymphatics, enabling diffusion-based DC targeting. Hydrogel materials are depicted as a local depot that provides sustained release to skin-resident DCs and nearby lymphatics over time. On the right, microneedles deliver particles directly across the skin barrier to resident DCs.\n\nLarger microparticles seem less able to drain freely and are instead trafficked by cells toward lymph nodes. Nanoparticles are shown interacting with DC surface markers, suggesting both passive and active targeting. Antigen is also present within lymphatic vessels and tissue, indicating uptake during transport.\n\nAt the lower right, the lymph node is shown as a key destination where lymph node–resident DCs capture incoming nanoparticles. Overall, the figure compares complementary delivery strategies for engaging DCs locally in skin and remotely in lymph nodes to shape immune responses.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "dendritic cells",
+        "category": "cell",
+        "panel": "single_panel",
+        "count": 10,
+        "key_attributes": [
+          "purple stellate cells",
+          "skin and lymph node",
+          "target immune cells"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "small particles / nanoparticles",
+        "category": "molecule",
+        "panel": "single_panel",
+        "count": 50,
+        "key_attributes": [
+          "gray dots",
+          "diffusing in tissue",
+          "enter lymphatics"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "lymphatic vessels",
+        "category": "pathway_component",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "branching pink tubes",
+          "transport route",
+          "to lymph node"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "hydrogel depot",
+        "category": "material_structure",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "light blue mesh",
+          "local depot",
+          "sustained release"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "microneedles",
+        "category": "device_component",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "needle array",
+          "right side",
+          "penetrating skin"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "microparticles carried by cells",
+        "category": "molecule",
+        "panel": "single_panel",
+        "count": 8,
+        "key_attributes": [
+          "larger purple particles",
+          "associated with cells",
+          "cell-mediated trafficking"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "lymph node",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "lower right",
+          "rounded organ",
+          "destination site"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "surface markers on dendritic cells",
+        "category": "protein",
+        "panel": "single_panel",
+        "count": 6,
+        "key_attributes": [
+          "small receptor-like icons",
+          "near DCs",
+          "targeting cue"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "antigen particles",
+        "category": "molecule",
+        "panel": "single_panel",
+        "count": 4,
+        "key_attributes": [
+          "small red dots",
+          "within vessels",
+          "transported antigen"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v10",
+        "entity_type": "visual",
+        "name": "directional transport arrows",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 3,
+        "key_attributes": [
+          "curved arrows",
+          "movement direction",
+          "trafficking paths"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "diffusion-based DC targeting label",
+        "category": "scientific_label",
+        "surface_text": "Diffusion-based DC targeting (10–100nm)",
+        "normalized_text": "diffusion-based DC targeting (10-100 nm)",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "small-particle range",
+          "DC targeting",
+          "diffusion route"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "sustained release hydrogel label",
+        "category": "scientific_label",
+        "surface_text": "Sustained release to skin resident DCs and initial lymphatics using hydrogel materials",
+        "normalized_text": "sustained release to skin resident DCs and initial lymphatics using hydrogel materials",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "hydrogel delivery",
+          "skin resident DCs",
+          "initial lymphatics"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "hydrogel label",
+        "category": "scientific_label",
+        "surface_text": "Hydrogel",
+        "normalized_text": "hydrogel",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "material name"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "microneedle penetration label",
+        "category": "scientific_label",
+        "surface_text": "Microneedle penetration to skin-resident DCs",
+        "normalized_text": "microneedle penetration to skin-resident DCs",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "direct skin delivery",
+          "resident DCs"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "cell-mediated microparticle trafficking label",
+        "category": "scientific_label",
+        "surface_text": "Cell-mediated trafficking of microparticles to lymph nodes",
+        "normalized_text": "cell-mediated trafficking of microparticles to lymph nodes",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "microparticles",
+          "cell-mediated transport",
+          "lymph nodes"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "antigen label",
+        "category": "scientific_label",
+        "surface_text": "Antigen",
+        "normalized_text": "antigen",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "transported cargo"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "nanoparticles targeting DCs label",
+        "category": "scientific_label",
+        "surface_text": "Nanoparticles targeting DCs",
+        "normalized_text": "nanoparticles targeting DCs",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "nanoparticle interaction",
+          "DC targeting"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "surface marker label",
+        "category": "scientific_label",
+        "surface_text": "Surface marker",
+        "normalized_text": "surface marker",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "target receptor"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "lymph node-resident DC capture label",
+        "category": "scientific_label",
+        "surface_text": "Lymph node-resident DCs capture nanoparticles (passive and active targeting)",
+        "normalized_text": "lymph node-resident DCs capture nanoparticles (passive and active targeting)",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "lymph node destination",
+          "nanoparticle capture",
+          "passive and active targeting"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t1",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t2",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t3",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t4",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "t5",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "t6",
+        "target_entity_id": "v9",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "t7",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "t8",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "t9",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "v2",
+        "target_entity_id": "v3",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "v4",
+        "target_entity_id": "v1",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "v4",
+        "target_entity_id": "v3",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "v5",
+        "target_entity_id": "v1",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "v6",
+        "target_entity_id": "v7",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "v2",
+        "target_entity_id": "v8",
+        "relation_type": "connected_to",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "v8",
+        "target_entity_id": "v1",
+        "relation_type": "part_of",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "v9",
+        "target_entity_id": "v3",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "v7",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "v1",
+        "target_entity_id": "v7",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      }
+    ]
+  }
+}

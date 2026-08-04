@@ -1,0 +1,1422 @@
+{
+  "image_name": "0f51ab1d8d35d899b44b3399862941c5.png",
+  "prompt_text": "The figure summarizes how different immune-cell metabolic states influence heart cells during injury or stress. It centers on macrophage subtypes and related immune cells, showing that their fuel use shapes the signals they release and the effects on cardiomyocytes and fibroblasts.\n\nOn the left, anti-inflammatory macrophages rely on fatty-acid β-oxidation and produce anti-inflammatory cytokines such as IL-13. These signals act on cardiomyocytes to support glucose metabolism and also appear to influence fibroblasts. In contrast, pro-inflammatory macrophages use glucose, convert pyruvate to lactate, and release inflammatory cytokines like TNF and IL-1β. During myocardial ischaemia, this inflammatory program is linked to lactate accumulation, which enters cardiomyocytes through MCT1 and is associated with dedifferentiation.\n\nIn the middle, lactate and succinate also activate resident macrophages and Treg cells through labeled receptors, suggesting metabolite sensing as a key mechanism. On the right, lipid-rich states appear to activate specific resident macrophage populations: increased fatty acids in cardiometabolic HFpEF activate TIMD4-positive resident macrophages, which are connected to cardiomyocyte hypertrophy and apoptosis, while in sepsis dysfunctional mitochondria released as exophers seem to stimulate TREM2-high resident macrophages.\n\nOverall, the image links immune-cell metabolism to inflammation, tissue remodeling, and cardiac dysfunction.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "anti-inflammatory macrophage cell",
+        "category": "cell",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "blue cell",
+          "left side",
+          "fatty-acid metabolism"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "pro-inflammatory macrophage cell",
+        "category": "cell",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "purple cell",
+          "left-center",
+          "glycolytic state"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "cardiomyocyte cell region",
+        "category": "cell",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "pink basal region",
+          "target cell",
+          "receives signals"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "fibroblast cell region",
+        "category": "cell",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "large upper-left cell",
+          "contains nucleus",
+          "receives cytokine signals"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "resident macrophage cell",
+        "category": "cell",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "cyan cell",
+          "center",
+          "metabolite sensing"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "Treg cell",
+        "category": "cell",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "round yellow cell",
+          "center",
+          "activation state"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "TIMD4-positive resident macrophage cell",
+        "category": "cell",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "green cell",
+          "right-center",
+          "lipid-responsive"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "TREM2-high resident macrophage cell",
+        "category": "cell",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "olive cell",
+          "far right",
+          "sepsis-associated"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "exopher vesicle containing dysfunctional mitochondria",
+        "category": "organelle",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "pink vesicle",
+          "contains mitochondria",
+          "near sepsis label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v10",
+        "entity_type": "visual",
+        "name": "nucleus in fibroblast",
+        "category": "organelle",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "inside fibroblast",
+          "upper left",
+          "gene labels nearby"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v11",
+        "entity_type": "visual",
+        "name": "IL-13 receptor",
+        "category": "protein",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "on cardiomyocyte",
+          "binds anti-inflammatory cytokine",
+          "blue receptor"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v12",
+        "entity_type": "visual",
+        "name": "TNF receptor",
+        "category": "protein",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "on fibroblast and cardiomyocyte",
+          "purple receptor",
+          "inflammatory signaling"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v13",
+        "entity_type": "visual",
+        "name": "IL-1β receptor",
+        "category": "protein",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "on fibroblast",
+          "blue receptor",
+          "inflammatory signaling"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v14",
+        "entity_type": "visual",
+        "name": "MCT1 transporter",
+        "category": "protein",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "cardiomyocyte membrane",
+          "lactate transport",
+          "teal transporter"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v15",
+        "entity_type": "visual",
+        "name": "HCA1 receptor",
+        "category": "protein",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "on resident macrophage",
+          "lactate sensing",
+          "center"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v16",
+        "entity_type": "visual",
+        "name": "SUCNR1 receptor",
+        "category": "protein",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "on resident macrophage",
+          "succinate sensing",
+          "center"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v17",
+        "entity_type": "visual",
+        "name": "fatty acids metabolite",
+        "category": "molecule",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "fuel source",
+          "left and right contexts",
+          "lipid state"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v18",
+        "entity_type": "visual",
+        "name": "glucose metabolite",
+        "category": "molecule",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "fuel source",
+          "pro-inflammatory macrophage",
+          "glycolysis input"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v19",
+        "entity_type": "visual",
+        "name": "pyruvate metabolite",
+        "category": "molecule",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "glycolytic intermediate",
+          "between glucose and lactate",
+          "inside pro-inflammatory macrophage"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v20",
+        "entity_type": "visual",
+        "name": "lactate metabolite",
+        "category": "molecule",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "product of pyruvate",
+          "extracellular pool",
+          "signals to cells"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v21",
+        "entity_type": "visual",
+        "name": "succinate metabolite",
+        "category": "molecule",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "center metabolite",
+          "activates sensing pathway",
+          "orange dots"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v22",
+        "entity_type": "visual",
+        "name": "signaling arrows between cells and metabolites",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "dark blue arrows",
+          "cause-effect flow",
+          "cell communication"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "v23",
+        "entity_type": "visual",
+        "name": "activation callout boxes",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 3,
+        "key_attributes": [
+          "pink labels",
+          "over immune cells",
+          "indicate activated state"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "anti-inflammatory macrophage label",
+        "category": "scientific_label",
+        "surface_text": "Anti-inflammatory macrophage",
+        "normalized_text": "anti-inflammatory macrophage",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "cell label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "pro-inflammatory macrophage label",
+        "category": "scientific_label",
+        "surface_text": "Pro-inflammatory macrophage",
+        "normalized_text": "pro-inflammatory macrophage",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "cell label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "resident macrophage label",
+        "category": "scientific_label",
+        "surface_text": "Resident macrophage",
+        "normalized_text": "resident macrophage",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "cell label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "Treg cell label",
+        "category": "scientific_label",
+        "surface_text": "Treg cell",
+        "normalized_text": "Treg cell",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "cell label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "TIMD4-positive resident macrophage label",
+        "category": "scientific_label",
+        "surface_text": "TIMD4+ resident macrophage",
+        "normalized_text": "TIMD4-positive resident macrophage",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "cell subtype label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "TREM2-high resident macrophage label",
+        "category": "scientific_label",
+        "surface_text": "TREM2high resident macrophage",
+        "normalized_text": "TREM2-high resident macrophage",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "cell subtype label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "fibroblast label",
+        "category": "scientific_label",
+        "surface_text": "Fibroblast",
+        "normalized_text": "fibroblast",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "target cell label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "cardiomyocyte label",
+        "category": "scientific_label",
+        "surface_text": "Cardiomyocyte",
+        "normalized_text": "cardiomyocyte",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "target cell label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "fatty acids label",
+        "category": "scientific_label",
+        "surface_text": "Fatty acids",
+        "normalized_text": "fatty acids",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "metabolic fuel"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "beta-oxidation label",
+        "category": "scientific_label",
+        "surface_text": "β-Oxidation",
+        "normalized_text": "beta-oxidation",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "metabolic pathway"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "anti-inflammatory cytokines label",
+        "category": "legend_text",
+        "surface_text": "Anti-inflammatory cytokines (IL-13)",
+        "normalized_text": "anti-inflammatory cytokines (IL-13)",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "secreted signal"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "glucose label",
+        "category": "scientific_label",
+        "surface_text": "Glucose",
+        "normalized_text": "glucose",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "metabolic substrate"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "pyruvate label",
+        "category": "scientific_label",
+        "surface_text": "Pyruvate",
+        "normalized_text": "pyruvate",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "metabolic intermediate"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t14",
+        "entity_type": "text",
+        "name": "lactate label",
+        "category": "scientific_label",
+        "surface_text": "Lactate",
+        "normalized_text": "lactate",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "metabolite"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t15",
+        "entity_type": "text",
+        "name": "pro-inflammatory cytokines label",
+        "category": "legend_text",
+        "surface_text": "Pro-inflammatory cytokines (TNF, IL-1β)",
+        "normalized_text": "pro-inflammatory cytokines (TNF, IL-1β)",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "secreted signal"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t16",
+        "entity_type": "text",
+        "name": "myocardial ischaemia label",
+        "category": "annotation_text",
+        "surface_text": "Myocardial ischaemia",
+        "normalized_text": "myocardial ischaemia",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "disease context"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t17",
+        "entity_type": "text",
+        "name": "inflammation label",
+        "category": "annotation_text",
+        "surface_text": "Inflammation",
+        "normalized_text": "inflammation",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "outcome label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t18",
+        "entity_type": "text",
+        "name": "HCA1 label",
+        "category": "scientific_label",
+        "surface_text": "HCA1",
+        "normalized_text": "HCA1",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "lactate receptor"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t19",
+        "entity_type": "text",
+        "name": "SUCNR1 label",
+        "category": "scientific_label",
+        "surface_text": "SUCNR1",
+        "normalized_text": "SUCNR1",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "succinate receptor"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t20",
+        "entity_type": "text",
+        "name": "succinate label",
+        "category": "scientific_label",
+        "surface_text": "Succinate",
+        "normalized_text": "succinate",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "metabolite"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t21",
+        "entity_type": "text",
+        "name": "MCT1 label",
+        "category": "scientific_label",
+        "surface_text": "MCT1",
+        "normalized_text": "MCT1",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "lactate transporter"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t22",
+        "entity_type": "text",
+        "name": "IL-13 receptor alpha1 label",
+        "category": "scientific_label",
+        "surface_text": "IL-13Rα1",
+        "normalized_text": "IL-13Rα1",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "cardiomyocyte receptor"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t23",
+        "entity_type": "text",
+        "name": "glucose metabolism label",
+        "category": "scientific_label",
+        "surface_text": "Glucose metabolism",
+        "normalized_text": "glucose metabolism",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "cardiomyocyte response"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t24",
+        "entity_type": "text",
+        "name": "dedifferentiation label",
+        "category": "annotation_text",
+        "surface_text": "Dedifferentiation",
+        "normalized_text": "dedifferentiation",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "cardiomyocyte outcome"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t25",
+        "entity_type": "text",
+        "name": "activation label",
+        "category": "annotation_text",
+        "surface_text": "Activation",
+        "normalized_text": "activation",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "immune-cell state"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t26",
+        "entity_type": "text",
+        "name": "FOXP3 label",
+        "category": "scientific_label",
+        "surface_text": "FOXP3",
+        "normalized_text": "FOXP3",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "Treg marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t27",
+        "entity_type": "text",
+        "name": "cardiometabolic HFpEF label",
+        "category": "annotation_text",
+        "surface_text": "Cardiometabolic HEpEF",
+        "normalized_text": "cardiometabolic HFpEF",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "disease context"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t28",
+        "entity_type": "text",
+        "name": "increased fatty acids label",
+        "category": "annotation_text",
+        "surface_text": "↑ Fatty acids",
+        "normalized_text": "increased fatty acids",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "lipid increase"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t29",
+        "entity_type": "text",
+        "name": "hypertrophy label",
+        "category": "annotation_text",
+        "surface_text": "Hypertrophy",
+        "normalized_text": "hypertrophy",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "cardiac outcome"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t30",
+        "entity_type": "text",
+        "name": "apoptosis label",
+        "category": "annotation_text",
+        "surface_text": "Apoptosis",
+        "normalized_text": "apoptosis",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "cardiac outcome"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t31",
+        "entity_type": "text",
+        "name": "sepsis label",
+        "category": "annotation_text",
+        "surface_text": "Sepsis",
+        "normalized_text": "sepsis",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "disease context"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t32",
+        "entity_type": "text",
+        "name": "dysfunctional mitochondria label",
+        "category": "scientific_label",
+        "surface_text": "Dysfunctional mitochondria",
+        "normalized_text": "dysfunctional mitochondria",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "organelle cargo"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t33",
+        "entity_type": "text",
+        "name": "exophers label",
+        "category": "scientific_label",
+        "surface_text": "Exophers",
+        "normalized_text": "exophers",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "released structure"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t34",
+        "entity_type": "text",
+        "name": "YAP label",
+        "category": "scientific_label",
+        "surface_text": "YAP",
+        "normalized_text": "YAP",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "resident macrophage marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t35",
+        "entity_type": "text",
+        "name": "TNFR label",
+        "category": "scientific_label",
+        "surface_text": "TNFR",
+        "normalized_text": "TNFR",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "receptor label"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t36",
+        "entity_type": "text",
+        "name": "IL-1β receptor label",
+        "category": "scientific_label",
+        "surface_text": "IL-1βR",
+        "normalized_text": "IL-1βR",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "receptor label"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t1",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t2",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t3",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t4",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "t5",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "t6",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "t7",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "t8",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "t9",
+        "target_entity_id": "v17",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "t12",
+        "target_entity_id": "v18",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "t13",
+        "target_entity_id": "v19",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "t14",
+        "target_entity_id": "v20",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "t18",
+        "target_entity_id": "v15",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "t19",
+        "target_entity_id": "v16",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "t20",
+        "target_entity_id": "v21",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "t21",
+        "target_entity_id": "v14",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "t22",
+        "target_entity_id": "v11",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "t32",
+        "target_entity_id": "v9",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "t11",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "t15",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "v17",
+        "target_entity_id": "v1",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "v18",
+        "target_entity_id": "v2",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r23",
+        "source_entity_id": "v19",
+        "target_entity_id": "v20",
+        "relation_type": "transforms_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r24",
+        "source_entity_id": "v18",
+        "target_entity_id": "v19",
+        "relation_type": "transforms_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r25",
+        "source_entity_id": "v20",
+        "target_entity_id": "v14",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r26",
+        "source_entity_id": "v14",
+        "target_entity_id": "v3",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r27",
+        "source_entity_id": "v20",
+        "target_entity_id": "v3",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r28",
+        "source_entity_id": "v20",
+        "target_entity_id": "v15",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r29",
+        "source_entity_id": "v21",
+        "target_entity_id": "v16",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r30",
+        "source_entity_id": "v15",
+        "target_entity_id": "v5",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r31",
+        "source_entity_id": "v16",
+        "target_entity_id": "v5",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r32",
+        "source_entity_id": "v20",
+        "target_entity_id": "v5",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r33",
+        "source_entity_id": "v21",
+        "target_entity_id": "v5",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r34",
+        "source_entity_id": "v20",
+        "target_entity_id": "v6",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r35",
+        "source_entity_id": "v17",
+        "target_entity_id": "v7",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r36",
+        "source_entity_id": "v9",
+        "target_entity_id": "v8",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r37",
+        "source_entity_id": "v9",
+        "target_entity_id": "t33",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r38",
+        "source_entity_id": "v1",
+        "target_entity_id": "v3",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r39",
+        "source_entity_id": "v1",
+        "target_entity_id": "v4",
+        "relation_type": "activates",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r40",
+        "source_entity_id": "v2",
+        "target_entity_id": "v3",
+        "relation_type": "connected_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r41",
+        "source_entity_id": "v2",
+        "target_entity_id": "v4",
+        "relation_type": "activates",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r42",
+        "source_entity_id": "v20",
+        "target_entity_id": "t24",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r43",
+        "source_entity_id": "v7",
+        "target_entity_id": "t29",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r44",
+        "source_entity_id": "v7",
+        "target_entity_id": "t30",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r45",
+        "source_entity_id": "v11",
+        "target_entity_id": "v3",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r46",
+        "source_entity_id": "v1",
+        "target_entity_id": "v2",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r47",
+        "source_entity_id": "v2",
+        "target_entity_id": "v5",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r48",
+        "source_entity_id": "v5",
+        "target_entity_id": "v7",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r49",
+        "source_entity_id": "v7",
+        "target_entity_id": "v8",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r50",
+        "source_entity_id": "v4",
+        "target_entity_id": "v1",
+        "relation_type": "above",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r51",
+        "source_entity_id": "v4",
+        "target_entity_id": "v2",
+        "relation_type": "above",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r52",
+        "source_entity_id": "v10",
+        "target_entity_id": "v4",
+        "relation_type": "part_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      }
+    ]
+  }
+}

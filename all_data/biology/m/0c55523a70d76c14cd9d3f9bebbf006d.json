@@ -1,0 +1,1220 @@
+{
+  "image_name": "0c55523a70d76c14cd9d3f9bebbf006d.jpg",
+  "prompt_text": "This figure summarizes how epidermal cell fate is controlled by epigenetic regulators during the transition from proliferation in the basal layer to terminal differentiation in the upper skin layers. The main panel shows a regulatory network in which factors such as p63, ACTL6A, BRG1, SATB1, GRHL3, TrxG, JMJD3, HDAC1/2, PRC2, DNMT1, and CBX4 either promote or repress differentiation. Differentiation genes, including components of the epidermal differentiation complex and proteins like filaggrin, loricrin, involucrin, and LCE, are activated as cells move upward from the stratum basale through the spinous and granular layers to the stratum corneum. In contrast, proliferation-associated pathways in basal cells involve p16INK4A and p21, with p53, MYC, and SETD8 also linked into this control system.\n\nA key theme is the balance between activating and repressive chromatin states. H3K27me3 appears as a major repressive mark that is removed or opposed during differentiation, while histone acetylation is associated with activation. The smaller summary panel emphasizes this shift: non-epidermal and stem cell genes lose prominence, differentiation genes increase, H3K27me3 marking decreases overall, histone acetylation rises, and expression of HDAC1/2 and CBX4/DNMT1 seems to decline with differentiation.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "regulatory network arrows",
+        "category": "arrow",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "activation and repression",
+          "connects regulators",
+          "directed flow"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "differentiation state block",
+        "category": "pathway_component",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "upper fate outcome",
+          "blue vertical capsule",
+          "target of regulators"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "proliferation state block",
+        "category": "pathway_component",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "basal fate outcome",
+          "lower vertical capsule",
+          "target of regulators"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "epidermal layer cartoon",
+        "category": "layer",
+        "panel": "a",
+        "count": 4,
+        "key_attributes": [
+          "stacked skin strata",
+          "upward differentiation",
+          "linked to network"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "basement membrane band",
+        "category": "membrane",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "beneath basal layer",
+          "wavy band",
+          "skin boundary"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "epidermal cells in strata",
+        "category": "cell",
+        "panel": "a",
+        "count": 20,
+        "key_attributes": [
+          "changing shape upward",
+          "layer-specific morphology",
+          "pink-toned cells"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "differentiation trend arrow",
+        "category": "arrow",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "upward arrow",
+          "summary direction",
+          "gray-blue"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "summary trend shapes",
+        "category": "pathway_component",
+        "panel": "b",
+        "count": 7,
+        "key_attributes": [
+          "varying widths",
+          "increase/decrease trends",
+          "conceptual bars"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "panel marker a",
+        "category": "panel_marker",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "lowercase letter",
+          "top-left",
+          "panel identifier"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "v10",
+        "entity_type": "visual",
+        "name": "panel marker b",
+        "category": "panel_marker",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "lowercase letter",
+          "top area",
+          "panel identifier"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "panel label a",
+        "category": "panel_label",
+        "surface_text": "a",
+        "normalized_text": "a",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "panel identifier"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "ACTL6A label",
+        "category": "scientific_label",
+        "surface_text": "ACTL6A",
+        "normalized_text": "ACTL6A",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "chromatin regulator"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "BRG1 label",
+        "category": "scientific_label",
+        "surface_text": "BRG1",
+        "normalized_text": "BRG1",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "chromatin remodeler"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "EDC label",
+        "category": "scientific_label",
+        "surface_text": "EDC",
+        "normalized_text": "EDC",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "differentiation gene cluster"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "terminal differentiation gene label",
+        "category": "scientific_label",
+        "surface_text": "FLG, LOR, IVL and LCE",
+        "normalized_text": "FLG, LOR, IVL and LCE",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "filaggrin group",
+          "terminal differentiation markers"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "p63 label",
+        "category": "scientific_label",
+        "surface_text": "p63",
+        "normalized_text": "p63",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "epidermal regulator"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "SATB1 label",
+        "category": "scientific_label",
+        "surface_text": "SATB1",
+        "normalized_text": "SATB1",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "genome organizer"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "GRHL3 label",
+        "category": "scientific_label",
+        "surface_text": "GRHL3",
+        "normalized_text": "GRHL3",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "differentiation regulator"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "TrxG label",
+        "category": "scientific_label",
+        "surface_text": "TrxG",
+        "normalized_text": "TrxG",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "activating chromatin complex"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "JMJD3 label",
+        "category": "scientific_label",
+        "surface_text": "JMJD3",
+        "normalized_text": "JMJD3",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "demethylase"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "H3K27me3 label",
+        "category": "scientific_label",
+        "surface_text": "H3K27me3",
+        "normalized_text": "H3K27me3",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "repressive mark"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "HDAC1 and HDAC2 label",
+        "category": "scientific_label",
+        "surface_text": "HDAC1 and HDAC2",
+        "normalized_text": "HDAC1/2",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "histone deacetylases"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "PRC2 label",
+        "category": "scientific_label",
+        "surface_text": "PRC2",
+        "normalized_text": "PRC2",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "repressive complex"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t14",
+        "entity_type": "text",
+        "name": "DNMT1 label",
+        "category": "scientific_label",
+        "surface_text": "DNMT1",
+        "normalized_text": "DNMT1",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "DNA methyltransferase"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t15",
+        "entity_type": "text",
+        "name": "CBX4 label",
+        "category": "scientific_label",
+        "surface_text": "CBX4",
+        "normalized_text": "CBX4",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "polycomb-related regulator"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t16",
+        "entity_type": "text",
+        "name": "Differentiation label",
+        "category": "annotation_text",
+        "surface_text": "Differentiation",
+        "normalized_text": "Differentiation",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "fate state"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t17",
+        "entity_type": "text",
+        "name": "Proliferation label",
+        "category": "annotation_text",
+        "surface_text": "Proliferation",
+        "normalized_text": "Proliferation",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "fate state"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t18",
+        "entity_type": "text",
+        "name": "p16INK4A label",
+        "category": "scientific_label",
+        "surface_text": "p16INK4A",
+        "normalized_text": "p16INK4A",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "cell cycle inhibitor"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t19",
+        "entity_type": "text",
+        "name": "MYC label",
+        "category": "scientific_label",
+        "surface_text": "MYC",
+        "normalized_text": "MYC",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "proliferation regulator"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t20",
+        "entity_type": "text",
+        "name": "SETD8 label",
+        "category": "scientific_label",
+        "surface_text": "SETD8",
+        "normalized_text": "SETD8",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "histone modifier"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t21",
+        "entity_type": "text",
+        "name": "p53 label",
+        "category": "scientific_label",
+        "surface_text": "p53",
+        "normalized_text": "p53",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "tumor suppressor"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t22",
+        "entity_type": "text",
+        "name": "p21 label",
+        "category": "scientific_label",
+        "surface_text": "p21",
+        "normalized_text": "p21",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "cell cycle inhibitor"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t23",
+        "entity_type": "text",
+        "name": "unknown interaction marker",
+        "category": "annotation_text",
+        "surface_text": "?",
+        "normalized_text": "?",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "uncertain link"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t24",
+        "entity_type": "text",
+        "name": "Stratum corneum label",
+        "category": "annotation_text",
+        "surface_text": "Stratum corneum",
+        "normalized_text": "Stratum corneum",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "upper skin layer"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t25",
+        "entity_type": "text",
+        "name": "Stratum granulosum label",
+        "category": "annotation_text",
+        "surface_text": "Stratum granulosum",
+        "normalized_text": "Stratum granulosum",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "granular layer"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t26",
+        "entity_type": "text",
+        "name": "Stratum spinosum label",
+        "category": "annotation_text",
+        "surface_text": "Stratum spinosum",
+        "normalized_text": "Stratum spinosum",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "spinous layer"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t27",
+        "entity_type": "text",
+        "name": "Stratum basale label",
+        "category": "annotation_text",
+        "surface_text": "Stratum basale",
+        "normalized_text": "Stratum basale",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "basal layer"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t28",
+        "entity_type": "text",
+        "name": "Basement membrane label",
+        "category": "annotation_text",
+        "surface_text": "Basement membrane",
+        "normalized_text": "Basement membrane",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "layer boundary"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t29",
+        "entity_type": "text",
+        "name": "panel label b",
+        "category": "panel_label",
+        "surface_text": "b",
+        "normalized_text": "b",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "panel identifier"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t30",
+        "entity_type": "text",
+        "name": "Differentiation label in summary panel",
+        "category": "annotation_text",
+        "surface_text": "Differentiation",
+        "normalized_text": "Differentiation",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "summary axis concept"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t31",
+        "entity_type": "text",
+        "name": "Non-epidermal genes label",
+        "category": "scientific_label",
+        "surface_text": "Non-epidermal genes",
+        "normalized_text": "Non-epidermal genes",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "declining gene class"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t32",
+        "entity_type": "text",
+        "name": "Stem cell genes label",
+        "category": "scientific_label",
+        "surface_text": "Stem cell genes",
+        "normalized_text": "Stem cell genes",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "declining gene class"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t33",
+        "entity_type": "text",
+        "name": "Differentiation genes label",
+        "category": "scientific_label",
+        "surface_text": "Differentiation genes",
+        "normalized_text": "Differentiation genes",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "increasing gene class"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t34",
+        "entity_type": "text",
+        "name": "H3K27me3 marking label",
+        "category": "annotation_text",
+        "surface_text": "H3K27me3 marking",
+        "normalized_text": "H3K27me3 marking",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "repressive mark trend"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t35",
+        "entity_type": "text",
+        "name": "Histone acetylation label",
+        "category": "annotation_text",
+        "surface_text": "Histone acetylation",
+        "normalized_text": "Histone acetylation",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "activation mark trend"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t36",
+        "entity_type": "text",
+        "name": "HDAC1 and HDAC2 summary label",
+        "category": "scientific_label",
+        "surface_text": "HDAC1 and HDAC2",
+        "normalized_text": "HDAC1/2",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "declining expression"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t37",
+        "entity_type": "text",
+        "name": "CBX4 and DNMT1 summary label",
+        "category": "scientific_label",
+        "surface_text": "CBX4 and DNMT1",
+        "normalized_text": "CBX4 and DNMT1",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "declining expression"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t38",
+        "entity_type": "text",
+        "name": "Expression label",
+        "category": "annotation_text",
+        "surface_text": "Expression",
+        "normalized_text": "Expression",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "summary axis concept"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t16",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t17",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t24",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t25",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "t26",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "t27",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "t28",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "t27",
+        "target_entity_id": "t28",
+        "relation_type": "above",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "t26",
+        "target_entity_id": "t27",
+        "relation_type": "above",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "t25",
+        "target_entity_id": "t26",
+        "relation_type": "above",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "t24",
+        "target_entity_id": "t25",
+        "relation_type": "above",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "t6",
+        "target_entity_id": "t3",
+        "relation_type": "activates",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "t2",
+        "target_entity_id": "t3",
+        "relation_type": "inhibits",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "t6",
+        "target_entity_id": "t7",
+        "relation_type": "activates",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "t8",
+        "target_entity_id": "t9",
+        "relation_type": "activates",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "t3",
+        "target_entity_id": "t4",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "t7",
+        "target_entity_id": "t4",
+        "relation_type": "activates",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "t4",
+        "target_entity_id": "v2",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "t5",
+        "target_entity_id": "v2",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "t9",
+        "target_entity_id": "v2",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "t10",
+        "target_entity_id": "t11",
+        "relation_type": "inhibits",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "t11",
+        "target_entity_id": "v2",
+        "relation_type": "inhibits",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r23",
+        "source_entity_id": "t12",
+        "target_entity_id": "v2",
+        "relation_type": "inhibits",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r24",
+        "source_entity_id": "t13",
+        "target_entity_id": "v2",
+        "relation_type": "inhibits",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r25",
+        "source_entity_id": "t14",
+        "target_entity_id": "v2",
+        "relation_type": "inhibits",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r26",
+        "source_entity_id": "t15",
+        "target_entity_id": "v2",
+        "relation_type": "inhibits",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r27",
+        "source_entity_id": "t19",
+        "target_entity_id": "t20",
+        "relation_type": "activates",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r28",
+        "source_entity_id": "t20",
+        "target_entity_id": "t21",
+        "relation_type": "inhibits",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r29",
+        "source_entity_id": "t12",
+        "target_entity_id": "t21",
+        "relation_type": "inhibits",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r30",
+        "source_entity_id": "t21",
+        "target_entity_id": "t22",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r31",
+        "source_entity_id": "t22",
+        "target_entity_id": "v3",
+        "relation_type": "inhibits",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r32",
+        "source_entity_id": "t18",
+        "target_entity_id": "v3",
+        "relation_type": "inhibits",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r33",
+        "source_entity_id": "t15",
+        "target_entity_id": "t18",
+        "relation_type": "inhibits",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r34",
+        "source_entity_id": "t14",
+        "target_entity_id": "t18",
+        "relation_type": "inhibits",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r35",
+        "source_entity_id": "t30",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r36",
+        "source_entity_id": "t38",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r37",
+        "source_entity_id": "t31",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r38",
+        "source_entity_id": "t32",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r39",
+        "source_entity_id": "t33",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r40",
+        "source_entity_id": "t34",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r41",
+        "source_entity_id": "t35",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r42",
+        "source_entity_id": "t36",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r43",
+        "source_entity_id": "t37",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r44",
+        "source_entity_id": "t31",
+        "target_entity_id": "t33",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r45",
+        "source_entity_id": "t32",
+        "target_entity_id": "t33",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r46",
+        "source_entity_id": "t34",
+        "target_entity_id": "t35",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r47",
+        "source_entity_id": "t35",
+        "target_entity_id": "t36",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r48",
+        "source_entity_id": "t36",
+        "target_entity_id": "t37",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r49",
+        "source_entity_id": "v3",
+        "target_entity_id": "v2",
+        "relation_type": "above",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "cross_panel"
+      }
+    ]
+  }
+}

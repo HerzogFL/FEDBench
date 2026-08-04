@@ -1,0 +1,942 @@
+{
+  "image_name": "21f334c94c8fc299a59bec644c7aeb7b.png",
+  "prompt_text": "The figure uses interlocking puzzle pieces to compare natural photosynthesis with engineered solar-use technologies. On the left, natural photosynthesis is broken into four core functions: light harvesting with charge separation and electron transfer, catalytic water oxidation, separated proton/electron energy storage, and catalytic CO2 reduction. The stacked puzzle pieces suggest these are distinct but connected modules that can be combined in different ways.\n\nIn the center, several smaller puzzle-piece groupings represent selective integration of these functions rather than copying the whole biological system. Colored arrows show that different subsets of the natural processes feed into different technological designs.\n\nOn the right, these integrated combinations are mapped to major solar energy conversion routes: solar to power, solar to chemical, solar to electrochemical storage, solar to electrochemical conversion, and solar to thermal. Each route is then linked to a typical device class, such as photovoltaic cells, photocatalytic cells, photorechargeable batteries, photoelectrochemical cells, and solar thermal tandem devices. The listed materials indicate which components are emphasized in each case, including semiconductors, catalysts, redox materials, and solar absorbents.\n\nOverall, the diagram conveys that solar technologies borrow and recombine key functions of photosynthesis in modular ways to achieve different energy outputs.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "stacked natural photosynthesis puzzle modules",
+        "category": "pathway_component",
+        "panel": "single_panel",
+        "count": 4,
+        "key_attributes": [
+          "vertical stack",
+          "interlocking puzzle pieces",
+          "four functions"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "integrated puzzle-piece groupings",
+        "category": "pathway_component",
+        "panel": "single_panel",
+        "count": 5,
+        "key_attributes": [
+          "smaller combinations",
+          "selective integration",
+          "boxed groupings"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "colored linking arrows from natural functions to integrations",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 7,
+        "key_attributes": [
+          "multicolored",
+          "module mapping",
+          "left-to-center"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "arrows from integrations to energy-conversion routes",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 5,
+        "key_attributes": [
+          "dark blue",
+          "center-to-right",
+          "route linkage"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "arrows from energy-conversion routes to device classes",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 5,
+        "key_attributes": [
+          "dark blue",
+          "rightward",
+          "device linkage"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "energy conversion route boxes",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 5,
+        "key_attributes": [
+          "beige rectangles",
+          "right-side column",
+          "conversion categories"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "solar utilization device boxes",
+        "category": "device_component",
+        "panel": "single_panel",
+        "count": 5,
+        "key_attributes": [
+          "paired label boxes",
+          "device classes",
+          "materials listed"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "section brackets across top",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "top bracket lines",
+          "group headings",
+          "layout guide"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "roman numeral markers beside four processes",
+        "category": "panel_marker",
+        "panel": "single_panel",
+        "count": 4,
+        "key_attributes": [
+          "circled numerals",
+          "I-IV",
+          "left margin"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "Natural photosynthesis",
+        "category": "annotation_text",
+        "surface_text": "Natural photosynthesis",
+        "normalized_text": "Natural photosynthesis",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "top heading"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "Solar utilization technologies",
+        "category": "annotation_text",
+        "surface_text": "Solar utilization technologies",
+        "normalized_text": "Solar utilization technologies",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "top heading"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "Four key processes",
+        "category": "annotation_text",
+        "surface_text": "Four key processes",
+        "normalized_text": "Four key processes",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "section title"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "Integration",
+        "category": "annotation_text",
+        "surface_text": "Integration",
+        "normalized_text": "Integration",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "section title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "Energy conversion",
+        "category": "annotation_text",
+        "surface_text": "Energy conversion",
+        "normalized_text": "Energy conversion",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "section title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "Solar utilization devices",
+        "category": "annotation_text",
+        "surface_text": "Solar utilization devices",
+        "normalized_text": "Solar utilization devices",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "section title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "Light harvesting, charge separation, electron transfer",
+        "category": "scientific_label",
+        "surface_text": "Light harvesting, charge separation, electron transfer",
+        "normalized_text": "Light harvesting, charge separation, electron transfer",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "process label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "Catalytic H2O oxidation",
+        "category": "scientific_label",
+        "surface_text": "Catalytic H2O oxidation",
+        "normalized_text": "Catalytic H2O oxidation",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "process label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "Proton/electron separated energy storage",
+        "category": "scientific_label",
+        "surface_text": "Proton/electron separated energy storage",
+        "normalized_text": "Proton/electron separated energy storage",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "process label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "Catalytic CO2 reduction",
+        "category": "scientific_label",
+        "surface_text": "Catalytic CO2 reduction",
+        "normalized_text": "Catalytic CO2 reduction",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "process label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "Solar to power (STP)",
+        "category": "scientific_label",
+        "surface_text": "Solar to power (STP)",
+        "normalized_text": "Solar to power (STP)",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "conversion route"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "Solar to chemical (STC)",
+        "category": "scientific_label",
+        "surface_text": "Solar to chemical (STC)",
+        "normalized_text": "Solar to chemical (STC)",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "conversion route"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "Solar to electrochemical storage (STES)",
+        "category": "scientific_label",
+        "surface_text": "Solar to electrochemical storage (STES)",
+        "normalized_text": "Solar to electrochemical storage (STES)",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "conversion route"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t14",
+        "entity_type": "text",
+        "name": "Solar to electrochemical conversion (STEC)",
+        "category": "scientific_label",
+        "surface_text": "Solar to electrochemical conversion (STEC)",
+        "normalized_text": "Solar to electrochemical conversion (STEC)",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "conversion route"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t15",
+        "entity_type": "text",
+        "name": "Solar to thermal (STT)",
+        "category": "scientific_label",
+        "surface_text": "Solar to thermal (STT)",
+        "normalized_text": "Solar to thermal (STT)",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "conversion route"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t16",
+        "entity_type": "text",
+        "name": "Photovoltaic cell",
+        "category": "scientific_label",
+        "surface_text": "Photovoltaic cell",
+        "normalized_text": "Photovoltaic cell",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "device class"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t17",
+        "entity_type": "text",
+        "name": "Semiconductor",
+        "category": "scientific_label",
+        "surface_text": "Semiconductor",
+        "normalized_text": "Semiconductor",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "material emphasis"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t18",
+        "entity_type": "text",
+        "name": "Photocatalytic cell",
+        "category": "scientific_label",
+        "surface_text": "Photocatalytic cell",
+        "normalized_text": "Photocatalytic cell",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "device class"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t19",
+        "entity_type": "text",
+        "name": "Semiconductor and catalyst",
+        "category": "scientific_label",
+        "surface_text": "Semiconductor and catalyst",
+        "normalized_text": "Semiconductor and catalyst",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "material emphasis"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t20",
+        "entity_type": "text",
+        "name": "Photorechargeable battery",
+        "category": "scientific_label",
+        "surface_text": "Photorechargeable battery",
+        "normalized_text": "Photorechargeable battery",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "device class"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t21",
+        "entity_type": "text",
+        "name": "Semiconductor and redox material",
+        "category": "scientific_label",
+        "surface_text": "Semiconductor and redox material",
+        "normalized_text": "Semiconductor and redox material",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "material emphasis"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t22",
+        "entity_type": "text",
+        "name": "Photoelectrochemical cell",
+        "category": "scientific_label",
+        "surface_text": "Photoelectrochemical cell",
+        "normalized_text": "Photoelectrochemical cell",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "device class"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t23",
+        "entity_type": "text",
+        "name": "Catalyst",
+        "category": "scientific_label",
+        "surface_text": "Catalyst",
+        "normalized_text": "Catalyst",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "material emphasis"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t24",
+        "entity_type": "text",
+        "name": "Solar thermal tandem devices",
+        "category": "scientific_label",
+        "surface_text": "Solar thermal tandem devices",
+        "normalized_text": "Solar thermal tandem devices",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "device class"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t25",
+        "entity_type": "text",
+        "name": "Solar absorbent",
+        "category": "scientific_label",
+        "surface_text": "Solar absorbent",
+        "normalized_text": "Solar absorbent",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "material emphasis"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t26",
+        "entity_type": "text",
+        "name": "I",
+        "category": "panel_label",
+        "surface_text": "I",
+        "normalized_text": "I",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "roman numeral"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t27",
+        "entity_type": "text",
+        "name": "II",
+        "category": "panel_label",
+        "surface_text": "II",
+        "normalized_text": "II",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "roman numeral"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t28",
+        "entity_type": "text",
+        "name": "III",
+        "category": "panel_label",
+        "surface_text": "III",
+        "normalized_text": "III",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "roman numeral"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t29",
+        "entity_type": "text",
+        "name": "IV",
+        "category": "panel_label",
+        "surface_text": "IV",
+        "normalized_text": "IV",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "roman numeral"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t1",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t2",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t3",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t4",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "t5",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "t6",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "t7",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "t8",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "t9",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "t10",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "t11",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "t12",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "t13",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "t14",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "t15",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "t16",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "t17",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "t18",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "t19",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "t20",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "t21",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "t22",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r23",
+        "source_entity_id": "t23",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r24",
+        "source_entity_id": "t24",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r25",
+        "source_entity_id": "t25",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r26",
+        "source_entity_id": "v1",
+        "target_entity_id": "v2",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r27",
+        "source_entity_id": "v3",
+        "target_entity_id": "v2",
+        "relation_type": "points_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r28",
+        "source_entity_id": "v4",
+        "target_entity_id": "v6",
+        "relation_type": "points_to",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r29",
+        "source_entity_id": "v5",
+        "target_entity_id": "v7",
+        "relation_type": "points_to",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r30",
+        "source_entity_id": "v1",
+        "target_entity_id": "v2",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r31",
+        "source_entity_id": "v2",
+        "target_entity_id": "v6",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r32",
+        "source_entity_id": "v6",
+        "target_entity_id": "v7",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r33",
+        "source_entity_id": "t26",
+        "target_entity_id": "v9",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r34",
+        "source_entity_id": "t27",
+        "target_entity_id": "v9",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r35",
+        "source_entity_id": "t28",
+        "target_entity_id": "v9",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r36",
+        "source_entity_id": "t29",
+        "target_entity_id": "v9",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      }
+    ]
+  }
+}

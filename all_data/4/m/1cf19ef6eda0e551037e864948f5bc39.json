@@ -1,0 +1,1132 @@
+{
+  "image_name": "1cf19ef6eda0e551037e864948f5bc39.png",
+  "prompt_text": "The figure summarizes how a lymph node develops and how specialized lymphatic endothelial cells are patterned. On the left, an early “lymph node anlage” forms during embryonic stages as green LTi cells gather around a vascular and lymphatic meshwork near mesenchymal cells and blood vessels. The central schematic shows a more organized early lymph node, with afferent and efferent lymphatics connected to a capsule-like structure surrounding the node. Distinct endothelial layers are indicated: “ceiling” lymphatic endothelial cells around the upper sinus region and “floor” endothelial cells lining the lower side, alongside mesenchymal and smooth muscle cells. Immune cells, including LTi cells and dendritic cells, are shown entering and accumulating within this developing structure.\n\nThe right panel highlights a signaling mechanism that appears to establish floor LEC identity. RANKL from a marginal reticular cell acts through RANK on the endothelial layer, increasing molecules such as MADCAM1, α2β integrin, and CCL20 while reducing ACKR4. CSF1 is also shown as a candidate signal, possibly acting through CSF1R, linked to nearby CD11b+ myeloid precursors and subcapsular sinus macrophages. Overall, the figure emphasizes staged lymph node assembly and local niche signals that shape specialized lymphatic endothelium and associated immune cell populations.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "lymph node anlage region",
+        "category": "region",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "early stage",
+          "dashed boundary",
+          "cell aggregation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "LTi cells",
+        "category": "cell",
+        "panel": "a",
+        "count": 10,
+        "key_attributes": [
+          "green round cells",
+          "clustered",
+          "migrating"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "lymphatic vessel meshwork",
+        "category": "membrane",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "branched network",
+          "pink tubes",
+          "surrounding anlage"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "mesenchymal cells",
+        "category": "cell",
+        "panel": "a",
+        "count": 2,
+        "key_attributes": [
+          "spindle-shaped",
+          "stromal",
+          "adjacent to vessels"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "blood vessels",
+        "category": "membrane",
+        "panel": "a",
+        "count": 2,
+        "key_attributes": [
+          "red tubular",
+          "large vessel",
+          "vascular connection"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "migration arrows",
+        "category": "arrow",
+        "panel": "a",
+        "count": 8,
+        "key_attributes": [
+          "dark arrows",
+          "cell movement",
+          "toward node"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "early lymph node structure",
+        "category": "region",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "organized node",
+          "capsule-like outline",
+          "central sinus"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "afferent lymphatics",
+        "category": "membrane",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "incoming lymphatics",
+          "upper left",
+          "connected to node"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "efferent lymphatics",
+        "category": "membrane",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "outgoing lymphatics",
+          "right side",
+          "connected to node"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v10",
+        "entity_type": "visual",
+        "name": "ceiling LEC layer",
+        "category": "layer",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "upper sinus lining",
+          "endothelial layer",
+          "around node top"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v11",
+        "entity_type": "visual",
+        "name": "floor LEC layer",
+        "category": "layer",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "lower sinus lining",
+          "endothelial layer",
+          "specialized floor"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v12",
+        "entity_type": "visual",
+        "name": "dendritic cells",
+        "category": "cell",
+        "panel": "a",
+        "count": 3,
+        "key_attributes": [
+          "purple stellate cells",
+          "inside node",
+          "immune cells"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v13",
+        "entity_type": "visual",
+        "name": "smooth muscle cells",
+        "category": "cell",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "elongated",
+          "perivascular",
+          "supporting cell"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v14",
+        "entity_type": "visual",
+        "name": "marginal reticular cell",
+        "category": "cell",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "teal stromal cell",
+          "beneath floor LEC",
+          "signal source"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v15",
+        "entity_type": "visual",
+        "name": "floor LEC in signaling panel",
+        "category": "layer",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "elongated endothelial band",
+          "RANK-positive",
+          "target cell"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v16",
+        "entity_type": "visual",
+        "name": "RANKL-RANK signaling interaction",
+        "category": "pathway_component",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "ligand-receptor",
+          "purple molecules",
+          "toward floor LEC"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v17",
+        "entity_type": "visual",
+        "name": "CSF1-CSF1R candidate signaling interaction",
+        "category": "pathway_component",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "candidate pathway",
+          "green ligand",
+          "questioned receptor"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v18",
+        "entity_type": "visual",
+        "name": "subcapsular sinus macrophage",
+        "category": "cell",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "orange irregular cell",
+          "adjacent to floor LEC",
+          "macrophage"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v19",
+        "entity_type": "visual",
+        "name": "CD11b+ myeloid precursor",
+        "category": "cell",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "pink round cell",
+          "near macrophage",
+          "precursor"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v20",
+        "entity_type": "visual",
+        "name": "conduits network",
+        "category": "pathway_component",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "pale blue strands",
+          "stromal network",
+          "beneath cells"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "panel a label",
+        "category": "panel_label",
+        "surface_text": "a",
+        "normalized_text": "a",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "lymph node anlage stage title",
+        "category": "scientific_label",
+        "surface_text": "Lymph node anlage (E12–E15)",
+        "normalized_text": "lymph node anlage (E12–E15)",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "developmental stage"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "LTi cell label",
+        "category": "scientific_label",
+        "surface_text": "LTi cell",
+        "normalized_text": "LTi cell",
+        "panel": "a",
+        "count": 2,
+        "key_attributes": [
+          "immune cell"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "LN anlage label",
+        "category": "scientific_label",
+        "surface_text": "LN anlage",
+        "normalized_text": "lymph node anlage",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "anlage region"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "lymphatic vessel label",
+        "category": "scientific_label",
+        "surface_text": "Lymphatic vessel",
+        "normalized_text": "lymphatic vessel",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "mesenchymal cell label",
+        "category": "scientific_label",
+        "surface_text": "Mesenchymal cell",
+        "normalized_text": "mesenchymal cell",
+        "panel": "a",
+        "count": 2,
+        "key_attributes": [],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "blood vessel label",
+        "category": "scientific_label",
+        "surface_text": "Blood vessel",
+        "normalized_text": "blood vessel",
+        "panel": "a",
+        "count": 2,
+        "key_attributes": [],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "early lymph node stage title",
+        "category": "scientific_label",
+        "surface_text": "Early lymph node (E17–E21)",
+        "normalized_text": "early lymph node (E17–E21)",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "developmental stage"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "afferent lymphatics label",
+        "category": "scientific_label",
+        "surface_text": "Afferent lymphatics",
+        "normalized_text": "afferent lymphatics",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "efferent lymphatics label",
+        "category": "scientific_label",
+        "surface_text": "Efferent lymphatics",
+        "normalized_text": "efferent lymphatics",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "DC label",
+        "category": "scientific_label",
+        "surface_text": "DC",
+        "normalized_text": "dendritic cell",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "immune cell abbreviation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "smooth muscle cell label",
+        "category": "scientific_label",
+        "surface_text": "Smooth muscle cell",
+        "normalized_text": "smooth muscle cell",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "ceiling LEC label",
+        "category": "scientific_label",
+        "surface_text": "Ceiling LEC",
+        "normalized_text": "ceiling LEC",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "upper endothelial subtype"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t14",
+        "entity_type": "text",
+        "name": "floor LEC label",
+        "category": "scientific_label",
+        "surface_text": "Floor LEC",
+        "normalized_text": "floor LEC",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "lower endothelial subtype"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t15",
+        "entity_type": "text",
+        "name": "ceiling LEC marker annotation",
+        "category": "annotation_text",
+        "surface_text": "ACKR4+; PDGFRβ+; FOXC2+",
+        "normalized_text": "ACKR4+ PDGFRβ+ FOXC2+",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "marker list"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t16",
+        "entity_type": "text",
+        "name": "floor LEC marker annotation",
+        "category": "annotation_text",
+        "surface_text": "α2β integrin+; MADCAM1+; FOXC2−; LYVE1+",
+        "normalized_text": "α2β integrin+ MADCAM1+ FOXC2− LYVE1+",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "marker list"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t17",
+        "entity_type": "text",
+        "name": "panel b label",
+        "category": "panel_label",
+        "surface_text": "b",
+        "normalized_text": "b",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t18",
+        "entity_type": "text",
+        "name": "CSF1 label",
+        "category": "scientific_label",
+        "surface_text": "CSF1",
+        "normalized_text": "CSF1",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "candidate signal"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t19",
+        "entity_type": "text",
+        "name": "CSF1R label",
+        "category": "scientific_label",
+        "surface_text": "CSFR1?",
+        "normalized_text": "CSF1R?",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "candidate receptor"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t20",
+        "entity_type": "text",
+        "name": "floor LEC response annotation",
+        "category": "annotation_text",
+        "surface_text": "↑ MADCAM1; ↑ α2B integrin; ↑ CCL20; ↓ ACKR4",
+        "normalized_text": "↑ MADCAM1 ↑ α2β integrin ↑ CCL20 ↓ ACKR4",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "expression changes"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t21",
+        "entity_type": "text",
+        "name": "floor LEC label in signaling panel",
+        "category": "scientific_label",
+        "surface_text": "Floor LEC",
+        "normalized_text": "floor LEC",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t22",
+        "entity_type": "text",
+        "name": "RANK label",
+        "category": "scientific_label",
+        "surface_text": "RANK",
+        "normalized_text": "RANK",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "receptor"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t23",
+        "entity_type": "text",
+        "name": "RANKL label",
+        "category": "scientific_label",
+        "surface_text": "RANKL",
+        "normalized_text": "RANKL",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "ligand"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t24",
+        "entity_type": "text",
+        "name": "conduits label",
+        "category": "scientific_label",
+        "surface_text": "Conduits",
+        "normalized_text": "conduits",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t25",
+        "entity_type": "text",
+        "name": "marginal reticular cell label",
+        "category": "scientific_label",
+        "surface_text": "Marginal reticular cell",
+        "normalized_text": "marginal reticular cell",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t26",
+        "entity_type": "text",
+        "name": "subcapsular sinus macrophage label",
+        "category": "scientific_label",
+        "surface_text": "Subcapsular sinus macrophage",
+        "normalized_text": "subcapsular sinus macrophage",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t27",
+        "entity_type": "text",
+        "name": "CD11b+ myeloid precursor label",
+        "category": "scientific_label",
+        "surface_text": "CD11b+ myeloid precursor",
+        "normalized_text": "CD11b+ myeloid precursor",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t2",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t3",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t4",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t5",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "t6",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "t7",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "t8",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "t9",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "t10",
+        "target_entity_id": "v9",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "t11",
+        "target_entity_id": "v12",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "t12",
+        "target_entity_id": "v13",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "t13",
+        "target_entity_id": "v10",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "t14",
+        "target_entity_id": "v11",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "t15",
+        "target_entity_id": "v10",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "t16",
+        "target_entity_id": "v11",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "v2",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "v3",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "v4",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "v5",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "v6",
+        "target_entity_id": "v2",
+        "relation_type": "points_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "v8",
+        "target_entity_id": "v7",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "v9",
+        "target_entity_id": "v7",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r23",
+        "source_entity_id": "v10",
+        "target_entity_id": "v7",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r24",
+        "source_entity_id": "v11",
+        "target_entity_id": "v7",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r25",
+        "source_entity_id": "v11",
+        "target_entity_id": "v10",
+        "relation_type": "above",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r26",
+        "source_entity_id": "v12",
+        "target_entity_id": "v7",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r27",
+        "source_entity_id": "v2",
+        "target_entity_id": "v7",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r28",
+        "source_entity_id": "v13",
+        "target_entity_id": "v7",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r29",
+        "source_entity_id": "t18",
+        "target_entity_id": "v17",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r30",
+        "source_entity_id": "t19",
+        "target_entity_id": "v17",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r31",
+        "source_entity_id": "t20",
+        "target_entity_id": "v15",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r32",
+        "source_entity_id": "t21",
+        "target_entity_id": "v15",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r33",
+        "source_entity_id": "t22",
+        "target_entity_id": "v16",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r34",
+        "source_entity_id": "t23",
+        "target_entity_id": "v16",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r35",
+        "source_entity_id": "t24",
+        "target_entity_id": "v20",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r36",
+        "source_entity_id": "t25",
+        "target_entity_id": "v14",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r37",
+        "source_entity_id": "t26",
+        "target_entity_id": "v18",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r38",
+        "source_entity_id": "t27",
+        "target_entity_id": "v19",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r39",
+        "source_entity_id": "v14",
+        "target_entity_id": "v16",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r40",
+        "source_entity_id": "v16",
+        "target_entity_id": "v15",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r41",
+        "source_entity_id": "v17",
+        "target_entity_id": "v15",
+        "relation_type": "activates",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r42",
+        "source_entity_id": "v14",
+        "target_entity_id": "v15",
+        "relation_type": "below",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r43",
+        "source_entity_id": "v15",
+        "target_entity_id": "v18",
+        "relation_type": "above",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r44",
+        "source_entity_id": "v19",
+        "target_entity_id": "v18",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      }
+    ]
+  }
+}

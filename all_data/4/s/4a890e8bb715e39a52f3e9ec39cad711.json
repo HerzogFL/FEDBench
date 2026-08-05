@@ -1,0 +1,1498 @@
+{
+  "image_name": "4a890e8bb715e39a52f3e9ec39cad711.png",
+  "prompt_text": "The figure summarizes iron handling and redox pathways that control ferroptosis, highlighting factors that either promote or suppress this form of cell death. Iron enters cells mainly through transferrin receptor uptake and other import routes, is stored in ferritin, exported by SLC40A1, or directed to mitochondria and heme-related processes. Ferritin breakdown via ferritinophagy appears to release additional iron, increasing the labile Fe²⁺ pool. This iron fuels reactive oxygen species production through Fenton chemistry and related oxidase systems, leading to lipid peroxide formation.\n\nA central theme is the balance between pro-ferroptotic lipid oxidation and anti-ferroptotic antioxidant defense. On the lipid side, enzymes such as ACSL4, LPCAT3, and ALOXs channel polyunsaturated fatty acids into membrane phospholipids and oxidize them into toxic lipid hydroperoxides. On the protective side, the system xc⁻ transporter imports cystine for glutathione synthesis, and GPX4 uses glutathione to detoxify lipid peroxides. Mitochondrial iron-sulfur cluster and citrate-related proteins also appear linked to iron regulation.\n\nThe color coding reinforces the overall message: blue components generally drive ferroptosis by increasing iron availability or lipid oxidation, whereas orange components counter it by exporting iron, storing it, supporting glutathione metabolism, or removing lipid peroxides.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "cell boundary membrane",
+        "category": "membrane",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "top plasma membrane",
+          "transporters embedded"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "mitochondrion",
+        "category": "organelle",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "orange organelle",
+          "iron and ETC context"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "iron uptake and trafficking pathway",
+        "category": "pathway_component",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "extracellular to intracellular",
+          "converges on Fe2+"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "ferritin storage complex",
+        "category": "protein",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "FTH1/FTL complex",
+          "iron storage"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "ferritinophagy route",
+        "category": "pathway_component",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "NCOA4 linked",
+          "releases iron"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "reactive oxygen species cascade",
+        "category": "pathway_component",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "O2 to radicals",
+          "Fenton chemistry"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "lipid peroxidation pathway",
+        "category": "pathway_component",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "PUFA processing",
+          "to lipid hydroperoxide"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "glutathione antioxidant pathway",
+        "category": "pathway_component",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "system xc−",
+          "GSH-GPX4 defense"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "directional arrows",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 20,
+        "key_attributes": [
+          "flow arrows",
+          "activation/transport"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v10",
+        "entity_type": "visual",
+        "name": "color legend swatches",
+        "category": "legend_key",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "orange anti-ferroptotic",
+          "blue pro-ferroptotic"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v11",
+        "entity_type": "visual",
+        "name": "exosome branch",
+        "category": "pathway_component",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "Prominin 2",
+          "iron export route"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "anti-ferroptotic legend",
+        "category": "legend_text",
+        "surface_text": "Antiferroptotic proteins/inhibitors of ferroptosis",
+        "normalized_text": "antiferroptotic proteins/inhibitors of ferroptosis",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "orange class"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "pro-ferroptotic legend",
+        "category": "legend_text",
+        "surface_text": "Proferroptotic proteins/inducers of ferroptosis",
+        "normalized_text": "proferroptotic proteins/inducers of ferroptosis",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "blue class"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "TFRC label",
+        "category": "scientific_label",
+        "surface_text": "TFRC",
+        "normalized_text": "TFRC",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "transferrin receptor"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "SLC40A1 label",
+        "category": "scientific_label",
+        "surface_text": "SLC40A1",
+        "normalized_text": "SLC40A1",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "iron export"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "ferritin heavy chain label",
+        "category": "scientific_label",
+        "surface_text": "FTH1",
+        "normalized_text": "FTH1",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "ferritin storage"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "ferritin light chain label",
+        "category": "scientific_label",
+        "surface_text": "FTL",
+        "normalized_text": "FTL",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "ferritin storage"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "Fe3+ label",
+        "category": "scientific_label",
+        "surface_text": "Fe3+",
+        "normalized_text": "Fe3+",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "extracellular iron"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "Fe2+ label",
+        "category": "scientific_label",
+        "surface_text": "Fe2+",
+        "normalized_text": "Fe2+",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "labile iron pool"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "Serotransferrin label",
+        "category": "scientific_label",
+        "surface_text": "Serotransferrin",
+        "normalized_text": "Serotransferrin",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "iron carrier"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "Lactotransferrin label",
+        "category": "scientific_label",
+        "surface_text": "Lactotransferrin",
+        "normalized_text": "Lactotransferrin",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "alternative iron uptake"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "SLC11A2 label",
+        "category": "scientific_label",
+        "surface_text": "SLC11A2",
+        "normalized_text": "SLC11A2",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "iron import"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "ferritinophagy label",
+        "category": "annotation_text",
+        "surface_text": "Ferritinophagy",
+        "normalized_text": "ferritinophagy",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "iron release route"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "NCOA4 label",
+        "category": "scientific_label",
+        "surface_text": "NCOA4",
+        "normalized_text": "NCOA4",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "ferritinophagy mediator"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t14",
+        "entity_type": "text",
+        "name": "HMOX1 label",
+        "category": "scientific_label",
+        "surface_text": "HMOX1",
+        "normalized_text": "HMOX1",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "heme breakdown"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t15",
+        "entity_type": "text",
+        "name": "haem label",
+        "category": "scientific_label",
+        "surface_text": "Haem",
+        "normalized_text": "Haem",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "heme-related process"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t16",
+        "entity_type": "text",
+        "name": "ETC label",
+        "category": "scientific_label",
+        "surface_text": "ETC",
+        "normalized_text": "ETC",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "mitochondrial ROS"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t17",
+        "entity_type": "text",
+        "name": "NOXs label",
+        "category": "scientific_label",
+        "surface_text": "NOXs",
+        "normalized_text": "NOXs",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "oxidase system"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t18",
+        "entity_type": "text",
+        "name": "CYP label",
+        "category": "scientific_label",
+        "surface_text": "CYP",
+        "normalized_text": "CYP",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "oxidase system"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t19",
+        "entity_type": "text",
+        "name": "POR label",
+        "category": "scientific_label",
+        "surface_text": "POR",
+        "normalized_text": "POR",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "oxidase system"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t20",
+        "entity_type": "text",
+        "name": "O2 label",
+        "category": "scientific_label",
+        "surface_text": "O2",
+        "normalized_text": "O2",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "ROS precursor"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t21",
+        "entity_type": "text",
+        "name": "superoxide label",
+        "category": "scientific_label",
+        "surface_text": "O2•−",
+        "normalized_text": "O2•−",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "reactive oxygen species"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t22",
+        "entity_type": "text",
+        "name": "hydrogen peroxide label",
+        "category": "scientific_label",
+        "surface_text": "H2O2",
+        "normalized_text": "H2O2",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "Fenton substrate"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t23",
+        "entity_type": "text",
+        "name": "hydroxyl radical label",
+        "category": "scientific_label",
+        "surface_text": "•OH",
+        "normalized_text": "•OH",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "Fenton product"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t24",
+        "entity_type": "text",
+        "name": "system xc− label",
+        "category": "scientific_label",
+        "surface_text": "System xc−",
+        "normalized_text": "System xc−",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "cystine import"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t25",
+        "entity_type": "text",
+        "name": "SLC7A11 label",
+        "category": "scientific_label",
+        "surface_text": "SLC7A11",
+        "normalized_text": "SLC7A11",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "system xc− subunit"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t26",
+        "entity_type": "text",
+        "name": "SLC3A2 label",
+        "category": "scientific_label",
+        "surface_text": "SLC3A2",
+        "normalized_text": "SLC3A2",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "system xc− subunit"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t27",
+        "entity_type": "text",
+        "name": "Cys2 label",
+        "category": "scientific_label",
+        "surface_text": "Cys2",
+        "normalized_text": "Cys2",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "cystine"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t28",
+        "entity_type": "text",
+        "name": "Cys label",
+        "category": "scientific_label",
+        "surface_text": "Cys",
+        "normalized_text": "Cys",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "cysteine"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t29",
+        "entity_type": "text",
+        "name": "GCL label",
+        "category": "scientific_label",
+        "surface_text": "GCL",
+        "normalized_text": "GCL",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "GSH synthesis"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t30",
+        "entity_type": "text",
+        "name": "GSS label",
+        "category": "scientific_label",
+        "surface_text": "GSS",
+        "normalized_text": "GSS",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "GSH synthesis"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t31",
+        "entity_type": "text",
+        "name": "GSH label",
+        "category": "scientific_label",
+        "surface_text": "GSH",
+        "normalized_text": "GSH",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "glutathione"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t32",
+        "entity_type": "text",
+        "name": "GPX4 label",
+        "category": "scientific_label",
+        "surface_text": "GPX4",
+        "normalized_text": "GPX4",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "lipid peroxide detox"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t33",
+        "entity_type": "text",
+        "name": "ACSL4 label",
+        "category": "scientific_label",
+        "surface_text": "ACSL4",
+        "normalized_text": "ACSL4",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "PUFA activation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t34",
+        "entity_type": "text",
+        "name": "PUFA label",
+        "category": "scientific_label",
+        "surface_text": "PUFA",
+        "normalized_text": "PUFA",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "lipid substrate"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t35",
+        "entity_type": "text",
+        "name": "PUFA-CoA label",
+        "category": "scientific_label",
+        "surface_text": "PUFA–CoA",
+        "normalized_text": "PUFA-CoA",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "activated PUFA"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t36",
+        "entity_type": "text",
+        "name": "LPCAT3 label",
+        "category": "scientific_label",
+        "surface_text": "LPCAT3",
+        "normalized_text": "LPCAT3",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "phospholipid incorporation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t37",
+        "entity_type": "text",
+        "name": "PUFA-PL label",
+        "category": "scientific_label",
+        "surface_text": "PUFA–PL",
+        "normalized_text": "PUFA-PL",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "membrane phospholipid"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t38",
+        "entity_type": "text",
+        "name": "ALOXs label",
+        "category": "scientific_label",
+        "surface_text": "ALOXs",
+        "normalized_text": "ALOXs",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "lipid oxidation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t39",
+        "entity_type": "text",
+        "name": "lipid hydroperoxide label",
+        "category": "scientific_label",
+        "surface_text": "PL–PUFA–OOH",
+        "normalized_text": "PL-PUFA-OOH",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "toxic lipid peroxide"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t40",
+        "entity_type": "text",
+        "name": "mitochondrion label",
+        "category": "annotation_text",
+        "surface_text": "Mitochondrion",
+        "normalized_text": "mitochondrion",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "organelle annotation"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t41",
+        "entity_type": "text",
+        "name": "CISD1 label",
+        "category": "scientific_label",
+        "surface_text": "CISD1",
+        "normalized_text": "CISD1",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "mitochondrial iron regulation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t42",
+        "entity_type": "text",
+        "name": "CISD2 label",
+        "category": "scientific_label",
+        "surface_text": "CISD2",
+        "normalized_text": "CISD2",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "mitochondrial iron regulation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t43",
+        "entity_type": "text",
+        "name": "NFS1 label",
+        "category": "scientific_label",
+        "surface_text": "NFS1",
+        "normalized_text": "NFS1",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "Fe-S biogenesis"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t44",
+        "entity_type": "text",
+        "name": "ISCU label",
+        "category": "scientific_label",
+        "surface_text": "ISCU",
+        "normalized_text": "ISCU",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "Fe-S biogenesis"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t45",
+        "entity_type": "text",
+        "name": "Fe-S label",
+        "category": "scientific_label",
+        "surface_text": "Fe–S",
+        "normalized_text": "Fe-S",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "iron-sulfur cluster"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t46",
+        "entity_type": "text",
+        "name": "ACO1 label",
+        "category": "scientific_label",
+        "surface_text": "ACO1",
+        "normalized_text": "ACO1",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "citrate-related protein"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t47",
+        "entity_type": "text",
+        "name": "IREB2 label",
+        "category": "scientific_label",
+        "surface_text": "IREB2",
+        "normalized_text": "IREB2",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "iron regulation"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t48",
+        "entity_type": "text",
+        "name": "FBXL5 label",
+        "category": "scientific_label",
+        "surface_text": "FBXL5",
+        "normalized_text": "FBXL5",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "iron regulation"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t49",
+        "entity_type": "text",
+        "name": "translation regulation note",
+        "category": "annotation_text",
+        "surface_text": "Translation regulation",
+        "normalized_text": "translation regulation",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "regulatory box"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t50",
+        "entity_type": "text",
+        "name": "uptake label",
+        "category": "annotation_text",
+        "surface_text": "Uptake",
+        "normalized_text": "uptake",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "process annotation"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t51",
+        "entity_type": "text",
+        "name": "export label",
+        "category": "annotation_text",
+        "surface_text": "Export",
+        "normalized_text": "export",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "process annotation"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t52",
+        "entity_type": "text",
+        "name": "storage label",
+        "category": "annotation_text",
+        "surface_text": "Storage",
+        "normalized_text": "storage",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "process annotation"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t53",
+        "entity_type": "text",
+        "name": "Prominin 2 label",
+        "category": "scientific_label",
+        "surface_text": "Prominin 2",
+        "normalized_text": "Prominin 2",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "exosome-linked export"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t54",
+        "entity_type": "text",
+        "name": "Exosome label",
+        "category": "annotation_text",
+        "surface_text": "Exosome",
+        "normalized_text": "exosome",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "export vesicle"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t1",
+        "target_entity_id": "v10",
+        "relation_type": "legend_for",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t2",
+        "target_entity_id": "v10",
+        "relation_type": "legend_for",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t3",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t4",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "t5",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "t6",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "t12",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "t13",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "t40",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "t8",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "t15",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "t17",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "t22",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "t23",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "t24",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "t25",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "t31",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "t32",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "t33",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "t36",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "t38",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "t39",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r23",
+        "source_entity_id": "t53",
+        "target_entity_id": "v11",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r24",
+        "source_entity_id": "t54",
+        "target_entity_id": "v11",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r25",
+        "source_entity_id": "v3",
+        "target_entity_id": "t8",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r26",
+        "source_entity_id": "v4",
+        "target_entity_id": "t8",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r27",
+        "source_entity_id": "v5",
+        "target_entity_id": "t8",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r28",
+        "source_entity_id": "t4",
+        "target_entity_id": "t8",
+        "relation_type": "inhibits",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r29",
+        "source_entity_id": "t8",
+        "target_entity_id": "v2",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r30",
+        "source_entity_id": "t8",
+        "target_entity_id": "v6",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r31",
+        "source_entity_id": "v6",
+        "target_entity_id": "v7",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r32",
+        "source_entity_id": "t17",
+        "target_entity_id": "v7",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r33",
+        "source_entity_id": "t34",
+        "target_entity_id": "t37",
+        "relation_type": "transforms_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r34",
+        "source_entity_id": "t33",
+        "target_entity_id": "t37",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r35",
+        "source_entity_id": "t36",
+        "target_entity_id": "t37",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r36",
+        "source_entity_id": "t38",
+        "target_entity_id": "t39",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r37",
+        "source_entity_id": "t37",
+        "target_entity_id": "t39",
+        "relation_type": "transforms_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r38",
+        "source_entity_id": "t24",
+        "target_entity_id": "t27",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r39",
+        "source_entity_id": "t27",
+        "target_entity_id": "t28",
+        "relation_type": "transforms_to",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r40",
+        "source_entity_id": "t28",
+        "target_entity_id": "t31",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r41",
+        "source_entity_id": "t31",
+        "target_entity_id": "t32",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r42",
+        "source_entity_id": "t32",
+        "target_entity_id": "t39",
+        "relation_type": "inhibits",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r43",
+        "source_entity_id": "t41",
+        "target_entity_id": "v2",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r44",
+        "source_entity_id": "t42",
+        "target_entity_id": "v2",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r45",
+        "source_entity_id": "t43",
+        "target_entity_id": "v2",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r46",
+        "source_entity_id": "t44",
+        "target_entity_id": "v2",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r47",
+        "source_entity_id": "t45",
+        "target_entity_id": "v2",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r48",
+        "source_entity_id": "t46",
+        "target_entity_id": "v2",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r49",
+        "source_entity_id": "v3",
+        "target_entity_id": "v7",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r50",
+        "source_entity_id": "v7",
+        "target_entity_id": "v8",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r51",
+        "source_entity_id": "v10",
+        "target_entity_id": "v1",
+        "relation_type": "above",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      }
+    ]
+  }
+}

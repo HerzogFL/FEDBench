@@ -1,0 +1,635 @@
+{
+  "image_name": "15c4e0e21d9a310b72ab5fa5de21f43f.png",
+  "prompt_text": "The figure contrasts two ways of thinking about land carbon storage: a “silo” view and a broader “haystack” view. The silo side represents a constrained estimate, showing carbon uptake as limited mainly to refilling a relatively small storage space, around 100 GtCO2. The haystack side shows a much larger and still expanding potential, reaching on the order of 1,000 GtCO2, implying that land carbon storage could increase beyond what has historically been observed.\n\nThe comparison is organized around three drivers. In biogeography, the silo view assumes ecosystems have limited ability to shift toward higher-carbon vegetation, whereas the haystack view emphasizes substantial gains through vegetation change, such as afforestation of grasslands. In biogeochemistry, the limited view suggests CO2, nitrogen, and phosphorus inputs eventually slow or saturate, while the broader view suggests these effects can continue or grow. Under management choices, the silo perspective focuses on regrowth and reforestation but also highlights losses from disturbance and mortality as temperatures rise. The haystack perspective instead shows that large-scale plantations, afforestation, and improved management or fire suppression could maintain or increase carbon stocks.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "silo icon",
+        "category": "material_structure",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "industrial silo",
+          "left column",
+          "small storage metaphor"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "haystack icon",
+        "category": "material_structure",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "haystack",
+          "right column",
+          "large storage metaphor"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "expanding capacity wedge",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "left-to-right widening",
+          "capacity comparison",
+          "gray trapezoid"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "biogeography section band",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "section header band",
+          "first driver row",
+          "spans both columns"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "biogeochemistry section band",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "section header band",
+          "second driver row",
+          "spans both columns"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "management choices section band",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "section header band",
+          "third driver row",
+          "spans both columns"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "left comparison column background",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "gray background",
+          "silo side",
+          "left half"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "right comparison column background",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "beige background",
+          "haystack side",
+          "right half"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "Silo",
+        "category": "scientific_label",
+        "surface_text": "Silo",
+        "normalized_text": "silo",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "left title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "Limited to refilling",
+        "category": "annotation_text",
+        "surface_text": "Limited to refilling",
+        "normalized_text": "limited to refilling",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "silo description"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "Haystack",
+        "category": "scientific_label",
+        "surface_text": "Haystack",
+        "normalized_text": "haystack",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "right title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "Increasing beyond historical bounds",
+        "category": "annotation_text",
+        "surface_text": "Increasing beyond historical bounds",
+        "normalized_text": "increasing beyond historical bounds",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "haystack description"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "~100 GtCO2",
+        "category": "number",
+        "surface_text": "~100 GtCO₂",
+        "normalized_text": "~100 GtCO2",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "left magnitude"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "~1,000 GtCO2",
+        "category": "number",
+        "surface_text": "~1,000 GtCO₂",
+        "normalized_text": "~1,000 GtCO2",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "right magnitude"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "Biogeography",
+        "category": "scientific_label",
+        "surface_text": "Biogeography",
+        "normalized_text": "biogeography",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "driver heading"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "Limited ability to shift ecosystems to higher carbon vegetation",
+        "category": "annotation_text",
+        "surface_text": "Limited ability to shift ecosystems to higher carbon vegetation",
+        "normalized_text": "limited ability to shift ecosystems to higher carbon vegetation",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "silo biogeography"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "Significant ability to increase carbon storage via vegetation change (such as grassland afforestation)",
+        "category": "annotation_text",
+        "surface_text": "Significant ability to increase carbon storage via vegetation change (such as grassland afforestation)",
+        "normalized_text": "significant ability to increase carbon storage via vegetation change (such as grassland afforestation)",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "haystack biogeography"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "Biogeochemistry",
+        "category": "scientific_label",
+        "surface_text": "Biogeochemistry",
+        "normalized_text": "biogeochemistry",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "driver heading"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "CO2, nitrogen and phosphorus inputs slow and/or fertilization effects saturate",
+        "category": "annotation_text",
+        "surface_text": "CO₂, nitrogen and phosphorus inputs slow and/or fertilization effects saturate",
+        "normalized_text": "CO2, nitrogen and phosphorus inputs slow and/or fertilization effects saturate",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "silo biogeochemistry"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "CO2, nitrogen and phosphorus inputs and/or fertilization effects continue or increase",
+        "category": "annotation_text",
+        "surface_text": "CO₂, nitrogen and phosphorus inputs and/or fertilization effects continue or increase",
+        "normalized_text": "CO2, nitrogen and phosphorus inputs and/or fertilization effects continue or increase",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "haystack biogeochemistry"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "Management choices",
+        "category": "scientific_label",
+        "surface_text": "Management choices",
+        "normalized_text": "management choices",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "driver heading"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t14",
+        "entity_type": "text",
+        "name": "Carbon storage limited to regrowth and reforestation",
+        "category": "annotation_text",
+        "surface_text": "Carbon storage limited to regrowth and reforestation",
+        "normalized_text": "carbon storage limited to regrowth and reforestation",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "silo management"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t15",
+        "entity_type": "text",
+        "name": "Large-scale plantations or afforestation can increase carbon storage",
+        "category": "annotation_text",
+        "surface_text": "Large-scale plantations or afforestation can increase carbon storage",
+        "normalized_text": "large-scale plantations or afforestation can increase carbon storage",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "haystack management"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t16",
+        "entity_type": "text",
+        "name": "Carbon loss from increased disturbance and mortality as temperatures rise and emissions decrease",
+        "category": "annotation_text",
+        "surface_text": "Carbon loss from increased disturbance and mortality as temperatures rise and emissions decrease",
+        "normalized_text": "carbon loss from increased disturbance and mortality as temperatures rise and emissions decrease",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "silo management loss"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t17",
+        "entity_type": "text",
+        "name": "Improved management and/or fire suppression maintains or increases carbon stocks",
+        "category": "annotation_text",
+        "surface_text": "Improved management and/or fire suppression maintains or increases carbon stocks",
+        "normalized_text": "improved management and/or fire suppression maintains or increases carbon stocks",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "haystack management gain"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t1",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t3",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t2",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t4",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "t5",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "t6",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "v1",
+        "target_entity_id": "v2",
+        "relation_type": "left_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "v3",
+        "target_entity_id": "v1",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "v3",
+        "target_entity_id": "v2",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "t5",
+        "target_entity_id": "t6",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "t7",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "t10",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "t13",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "t8",
+        "target_entity_id": "v4",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "t9",
+        "target_entity_id": "v4",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "t11",
+        "target_entity_id": "v5",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "t12",
+        "target_entity_id": "v5",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "t14",
+        "target_entity_id": "v6",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "t15",
+        "target_entity_id": "v6",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "t16",
+        "target_entity_id": "v6",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "t17",
+        "target_entity_id": "v6",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "t8",
+        "target_entity_id": "t9",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r23",
+        "source_entity_id": "t11",
+        "target_entity_id": "t12",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r24",
+        "source_entity_id": "t14",
+        "target_entity_id": "t15",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r25",
+        "source_entity_id": "t16",
+        "target_entity_id": "t17",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      }
+    ]
+  }
+}

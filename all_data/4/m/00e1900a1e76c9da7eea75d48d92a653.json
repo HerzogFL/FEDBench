@@ -1,0 +1,1399 @@
+{
+  "image_name": "00e1900a1e76c9da7eea75d48d92a653.png",
+  "prompt_text": "The figure summarizes how fibroblast growth factor receptors (FGFRs) are activated, signal inside cells, are trafficked, and become altered in cancer. Overall, it shows that ligand binding at the plasma membrane drives FGFR dimerization and phosphorylation, which then triggers several downstream pathways, including PLCγ, RAS–ERK, and PI3K–AKT signaling. A structural inset highlights the kinase domain of FGFR, with key regions such as the N and C lobes, activation loop, hinge, and αC helix, and marks several mutation hotspots that appear to affect receptor activation.\n\nThe figure also emphasizes receptor trafficking after activation. Activated FGFRs are internalized through endocytosis into early endosomes, where they may either recycle back to the cell surface, move retrogradely toward the Golgi, or be sorted by ESCRT machinery into late endosomes for lysosomal degradation. This suggests that signaling strength and duration depend not only on activation but also on intracellular routing.\n\nAt the bottom, the figure compares major oncogenic FGFR alterations. These include gene fusions involving FGFR1, FGFR2, or FGFR3, activating point mutations in different FGFR family members, and amplification or overexpression. Together, the panels convey that cancer can exploit FGFR signaling through multiple molecular mechanisms.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "FGFR receptor dimer at plasma membrane",
+        "category": "protein",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "membrane-spanning dimer",
+          "ligand-bound",
+          "phosphorylated tails"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "FGF ligand molecules",
+        "category": "molecule",
+        "panel": "a",
+        "count": 2,
+        "key_attributes": [
+          "extracellular",
+          "bound to receptor"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "plasma membrane bilayer",
+        "category": "membrane",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "horizontal boundary",
+          "cell surface"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "downstream signaling network from activated FGFR",
+        "category": "pathway_component",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "branched cascade",
+          "cytoplasmic adaptors",
+          "multiple outputs"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "kinase domain structural inset",
+        "category": "protein",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "ribbon structure",
+          "domain inset",
+          "mutation sites marked"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "mutation hotspot markers on kinase domain",
+        "category": "region",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "labeled residues",
+          "activation-related"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "inactive and activated FGFR receptors at cell surface",
+        "category": "protein",
+        "panel": "b",
+        "count": 2,
+        "key_attributes": [
+          "inactive monomer",
+          "activated phosphorylated form"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "endocytic internalization route",
+        "category": "arrow",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "cell surface to endosome",
+          "downward routing"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "early endosome",
+        "category": "organelle",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "oval vesicle",
+          "sorting compartment"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v10",
+        "entity_type": "visual",
+        "name": "recycling or retrograde route toward Golgi",
+        "category": "arrow",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "from early endosome",
+          "toward Golgi/cell surface"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v11",
+        "entity_type": "visual",
+        "name": "Golgi apparatus",
+        "category": "organelle",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "stacked membranes",
+          "retrograde destination"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v12",
+        "entity_type": "visual",
+        "name": "ESCRT sorting machinery",
+        "category": "pathway_component",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "endosomal sorting",
+          "toward degradation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v13",
+        "entity_type": "visual",
+        "name": "late endosome or multivesicular body",
+        "category": "organelle",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "internal vesicles",
+          "post-ESCRT"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v14",
+        "entity_type": "visual",
+        "name": "lysosomal degradation route",
+        "category": "arrow",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "late endosome to degradation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v15",
+        "entity_type": "visual",
+        "name": "fusion alteration schematics",
+        "category": "protein",
+        "panel": "c",
+        "count": 4,
+        "key_attributes": [
+          "Type I",
+          "Type IIa",
+          "Type IIb"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v16",
+        "entity_type": "visual",
+        "name": "gain-of-function mutation receptor schematics",
+        "category": "protein",
+        "panel": "c",
+        "count": 4,
+        "key_attributes": [
+          "point mutation marks",
+          "multiple FGFR family members"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v17",
+        "entity_type": "visual",
+        "name": "amplification or overexpression receptor array",
+        "category": "protein",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "multiple receptors",
+          "increased abundance"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "panel label a",
+        "category": "panel_label",
+        "surface_text": "a",
+        "normalized_text": "a",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "FGFRs",
+        "category": "scientific_label",
+        "surface_text": "FGFRs",
+        "normalized_text": "FGFRs",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "receptor family"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "FGF",
+        "category": "scientific_label",
+        "surface_text": "FGF",
+        "normalized_text": "FGF",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "ligand"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "Plasma membrane",
+        "category": "annotation_text",
+        "surface_text": "Plasma membrane",
+        "normalized_text": "plasma membrane",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "PLCγ",
+        "category": "scientific_label",
+        "surface_text": "PLCγ",
+        "normalized_text": "PLCγ",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "downstream pathway"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "RAS",
+        "category": "scientific_label",
+        "surface_text": "RAS",
+        "normalized_text": "RAS",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "MAPK branch"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "ERK",
+        "category": "scientific_label",
+        "surface_text": "ERK",
+        "normalized_text": "ERK",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "MAPK output"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "PI3K",
+        "category": "scientific_label",
+        "surface_text": "PI3K",
+        "normalized_text": "PI3K",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "AKT branch"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "AKT",
+        "category": "scientific_label",
+        "surface_text": "AKT",
+        "normalized_text": "AKT",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "survival pathway"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "N lobe",
+        "category": "annotation_text",
+        "surface_text": "N lobe",
+        "normalized_text": "N lobe",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "kinase domain region"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "C lobe",
+        "category": "annotation_text",
+        "surface_text": "C lobe",
+        "normalized_text": "C lobe",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "kinase domain region"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "Hinge",
+        "category": "annotation_text",
+        "surface_text": "Hinge",
+        "normalized_text": "hinge",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "kinase domain region"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "αC helix",
+        "category": "annotation_text",
+        "surface_text": "αC helix",
+        "normalized_text": "alpha C helix",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "kinase domain helix"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t14",
+        "entity_type": "text",
+        "name": "A loop",
+        "category": "annotation_text",
+        "surface_text": "A loop",
+        "normalized_text": "activation loop",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "activation loop"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t15",
+        "entity_type": "text",
+        "name": "mutation hotspot labels",
+        "category": "scientific_label",
+        "surface_text": "N546; V561; E562; K638; K656; Y653 and Y654; Y730; Y766",
+        "normalized_text": "N546, V561, E562, K638, K656, Y653/Y654, Y730, Y766",
+        "panel": "a",
+        "count": 8,
+        "key_attributes": [
+          "residue positions",
+          "hotspot labels"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t16",
+        "entity_type": "text",
+        "name": "panel label b",
+        "category": "panel_label",
+        "surface_text": "b",
+        "normalized_text": "b",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t17",
+        "entity_type": "text",
+        "name": "Inactive FGFRs",
+        "category": "annotation_text",
+        "surface_text": "Inactive FGFRs",
+        "normalized_text": "inactive FGFRs",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t18",
+        "entity_type": "text",
+        "name": "Activated FGFRs",
+        "category": "annotation_text",
+        "surface_text": "Activated FGFRs",
+        "normalized_text": "activated FGFRs",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t19",
+        "entity_type": "text",
+        "name": "Clathrin-dependent or independent endocytosis",
+        "category": "annotation_text",
+        "surface_text": "Clathrin-dependent or independent endocytosis",
+        "normalized_text": "clathrin-dependent or independent endocytosis",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "internalization route"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t20",
+        "entity_type": "text",
+        "name": "Early endosome",
+        "category": "annotation_text",
+        "surface_text": "Early endosome",
+        "normalized_text": "early endosome",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "sorting compartment"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t21",
+        "entity_type": "text",
+        "name": "ESCRT complexes",
+        "category": "annotation_text",
+        "surface_text": "ESCRT complexes",
+        "normalized_text": "ESCRT complexes",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "sorting machinery"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t22",
+        "entity_type": "text",
+        "name": "retrograde transport to Golgi and recycling",
+        "category": "annotation_text",
+        "surface_text": "Retrograde transport to Golgi apparatus for recycling to cell surface",
+        "normalized_text": "retrograde transport to Golgi apparatus for recycling to cell surface",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "recycling route"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t23",
+        "entity_type": "text",
+        "name": "Golgi",
+        "category": "annotation_text",
+        "surface_text": "Golgi",
+        "normalized_text": "Golgi",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t24",
+        "entity_type": "text",
+        "name": "Late endosome",
+        "category": "annotation_text",
+        "surface_text": "Late endosome",
+        "normalized_text": "late endosome",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "degradative route"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t25",
+        "entity_type": "text",
+        "name": "Lysosomal degradation",
+        "category": "annotation_text",
+        "surface_text": "Lysosomal degradation",
+        "normalized_text": "lysosomal degradation",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "terminal fate"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t26",
+        "entity_type": "text",
+        "name": "panel label c",
+        "category": "panel_label",
+        "surface_text": "c",
+        "normalized_text": "c",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t27",
+        "entity_type": "text",
+        "name": "Fusions",
+        "category": "legend_text",
+        "surface_text": "Fusions:",
+        "normalized_text": "fusions",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "alteration class"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t28",
+        "entity_type": "text",
+        "name": "Type I",
+        "category": "legend_text",
+        "surface_text": "Type I",
+        "normalized_text": "Type I",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "fusion subtype"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t29",
+        "entity_type": "text",
+        "name": "Type IIa",
+        "category": "legend_text",
+        "surface_text": "Type IIa",
+        "normalized_text": "Type IIa",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "fusion subtype"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t30",
+        "entity_type": "text",
+        "name": "Type IIb",
+        "category": "legend_text",
+        "surface_text": "Type IIb",
+        "normalized_text": "Type IIb",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "fusion subtype"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t31",
+        "entity_type": "text",
+        "name": "Gain-of-function mutations",
+        "category": "legend_text",
+        "surface_text": "Gain-of-function mutations",
+        "normalized_text": "gain-of-function mutations",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "alteration class"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t32",
+        "entity_type": "text",
+        "name": "Amplification and/or overexpression",
+        "category": "legend_text",
+        "surface_text": "Amplification and/or overexpression",
+        "normalized_text": "amplification and/or overexpression",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "alteration class"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t33",
+        "entity_type": "text",
+        "name": "FGFR1",
+        "category": "scientific_label",
+        "surface_text": "FGFR1",
+        "normalized_text": "FGFR1",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "family member"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t34",
+        "entity_type": "text",
+        "name": "FGFR2",
+        "category": "scientific_label",
+        "surface_text": "FGFR2",
+        "normalized_text": "FGFR2",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "family member"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t35",
+        "entity_type": "text",
+        "name": "FGFR3",
+        "category": "scientific_label",
+        "surface_text": "FGFR3",
+        "normalized_text": "FGFR3",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "family member"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t36",
+        "entity_type": "text",
+        "name": "FGFR4",
+        "category": "scientific_label",
+        "surface_text": "FGFR4",
+        "normalized_text": "FGFR4",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "family member"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t37",
+        "entity_type": "text",
+        "name": "fusion partner examples",
+        "category": "scientific_label",
+        "surface_text": "BCR–FGFR1; FGFR2–BICC1; FN1–FGFR3",
+        "normalized_text": "BCR-FGFR1, FGFR2-BICC1, FN1-FGFR3",
+        "panel": "c",
+        "count": 3,
+        "key_attributes": [
+          "fusion examples"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t38",
+        "entity_type": "text",
+        "name": "example FGFR1 mutations",
+        "category": "scientific_label",
+        "surface_text": "N546K and K656E",
+        "normalized_text": "N546K and K656E",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "FGFR1 mutation examples"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t39",
+        "entity_type": "text",
+        "name": "example FGFR2 mutations",
+        "category": "scientific_label",
+        "surface_text": "S252W, C382R, N549K and K659E",
+        "normalized_text": "S252W, C382R, N549K and K659E",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "FGFR2 mutation examples"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t40",
+        "entity_type": "text",
+        "name": "example FGFR3 mutations",
+        "category": "scientific_label",
+        "surface_text": "S249C, Y373C and K650E",
+        "normalized_text": "S249C, Y373C and K650E",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "FGFR3 mutation examples"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t2",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t3",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t4",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "v2",
+        "target_entity_id": "v1",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "v1",
+        "target_entity_id": "v3",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "v2",
+        "target_entity_id": "v3",
+        "relation_type": "above",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "v1",
+        "target_entity_id": "v4",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "t5",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "t6",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "t7",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "t8",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "t9",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "t6",
+        "target_entity_id": "t7",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "t8",
+        "target_entity_id": "t9",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "t10",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "t11",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "t12",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "t13",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "t14",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "v6",
+        "target_entity_id": "v5",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "t15",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "t17",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r23",
+        "source_entity_id": "t18",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r24",
+        "source_entity_id": "t19",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r25",
+        "source_entity_id": "v7",
+        "target_entity_id": "v8",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r26",
+        "source_entity_id": "v8",
+        "target_entity_id": "v9",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r27",
+        "source_entity_id": "t20",
+        "target_entity_id": "v9",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r28",
+        "source_entity_id": "t22",
+        "target_entity_id": "v10",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r29",
+        "source_entity_id": "v9",
+        "target_entity_id": "v10",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r30",
+        "source_entity_id": "v10",
+        "target_entity_id": "v11",
+        "relation_type": "flows_to",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r31",
+        "source_entity_id": "t23",
+        "target_entity_id": "v11",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r32",
+        "source_entity_id": "t21",
+        "target_entity_id": "v12",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r33",
+        "source_entity_id": "v9",
+        "target_entity_id": "v12",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r34",
+        "source_entity_id": "v12",
+        "target_entity_id": "v13",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r35",
+        "source_entity_id": "t24",
+        "target_entity_id": "v13",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r36",
+        "source_entity_id": "t25",
+        "target_entity_id": "v14",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r37",
+        "source_entity_id": "v13",
+        "target_entity_id": "v14",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r38",
+        "source_entity_id": "t27",
+        "target_entity_id": "v15",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r39",
+        "source_entity_id": "t28",
+        "target_entity_id": "v15",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r40",
+        "source_entity_id": "t29",
+        "target_entity_id": "v15",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r41",
+        "source_entity_id": "t30",
+        "target_entity_id": "v15",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r42",
+        "source_entity_id": "t31",
+        "target_entity_id": "v16",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r43",
+        "source_entity_id": "t32",
+        "target_entity_id": "v17",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r44",
+        "source_entity_id": "t33",
+        "target_entity_id": "v15",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r45",
+        "source_entity_id": "t34",
+        "target_entity_id": "v15",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r46",
+        "source_entity_id": "t35",
+        "target_entity_id": "v15",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r47",
+        "source_entity_id": "t33",
+        "target_entity_id": "v16",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r48",
+        "source_entity_id": "t34",
+        "target_entity_id": "v16",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r49",
+        "source_entity_id": "t35",
+        "target_entity_id": "v16",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r50",
+        "source_entity_id": "t36",
+        "target_entity_id": "v16",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r51",
+        "source_entity_id": "t37",
+        "target_entity_id": "v15",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r52",
+        "source_entity_id": "t38",
+        "target_entity_id": "v16",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r53",
+        "source_entity_id": "t39",
+        "target_entity_id": "v16",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r54",
+        "source_entity_id": "t40",
+        "target_entity_id": "v16",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r55",
+        "source_entity_id": "v15",
+        "target_entity_id": "v16",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r56",
+        "source_entity_id": "v16",
+        "target_entity_id": "v17",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      }
+    ]
+  }
+}

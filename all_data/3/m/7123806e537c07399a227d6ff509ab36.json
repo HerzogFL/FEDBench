@@ -1,0 +1,776 @@
+{
+  "image_name": "7123806e537c07399a227d6ff509ab36.png",
+  "prompt_text": "The figure compares how ocean redox conditions and the nitrogen cycle changed from the Tonian through the Ediacaran. Across all panels, a coastal-to-deep-ocean cross section is shown with arrows linking N2, NH4+, NO3−, and organic nitrogen, alongside changing oxygenated versus anoxic water masses and sedimentary nitrogen isotope values.\n\nOverall, it suggests that the extent of anoxia and ice cover strongly affected which nitrogen forms dominated and how much nitrate was available. In the Tonian, shallow waters appear largely anoxic, with reduced species such as Fe2+ or H2S present and relatively low sediment δ15N values around 1–3‰. During the Cryogenian “Snowball Earth” stage, an ice sheet covers much of the ocean, and the figure contrasts very low δ15N under total ice cover with higher values in open-water settings, implying stronger nitrate-based cycling there. In the interglacial phase, surface waters become oxygenated while deeper waters remain anoxic, and nitrate production and recycling appear more developed, with δ15N rising to about 4–6‰. By the Ediacaran, oxygenated surface water persists above an anoxic deep ocean, and intermediate δ15N values of roughly 3–5‰ indicate a more stratified but still redox-sensitive marine nitrogen cycle.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "coastal-to-deep-ocean cross section",
+        "category": "region",
+        "panel": "all_panels",
+        "count": 4,
+        "key_attributes": [
+          "shore to basin",
+          "water over sediment",
+          "sloping seafloor"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "oxygenated surface water mass",
+        "category": "region",
+        "panel": "c,d",
+        "count": 2,
+        "key_attributes": [
+          "upper water layer",
+          "blue band",
+          "oxic surface"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "anoxic water mass",
+        "category": "region",
+        "panel": "all_panels",
+        "count": 4,
+        "key_attributes": [
+          "subsurface/deep water",
+          "teal region",
+          "redox stratification"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "sediment seafloor layer",
+        "category": "layer",
+        "panel": "all_panels",
+        "count": 4,
+        "key_attributes": [
+          "brown substrate",
+          "continental slope",
+          "sediment reservoir"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "nitrogen-cycle arrows",
+        "category": "arrow",
+        "panel": "all_panels",
+        "count": 12,
+        "key_attributes": [
+          "links N species",
+          "curved dark arrows",
+          "cycling fluxes"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "red dashed redox boundary",
+        "category": "arrow",
+        "panel": "a,c,d",
+        "count": 3,
+        "key_attributes": [
+          "dashed red line",
+          "chemocline",
+          "boundary shape varies"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "ice sheet cover",
+        "category": "layer",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "white cap",
+          "ocean cover",
+          "Snowball Earth"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "panel markers",
+        "category": "panel_marker",
+        "panel": "all_panels",
+        "count": 4,
+        "key_attributes": [
+          "a–d labels",
+          "top-left",
+          "panel identification"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "Tonian panel title",
+        "category": "scientific_label",
+        "surface_text": "Tonian (~1,000–720 Ma)",
+        "normalized_text": "Tonian (~1,000–720 Ma)",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "time interval",
+          "panel title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "Synglacial panel title",
+        "category": "scientific_label",
+        "surface_text": "Synglacial (~720–635 Ma)",
+        "normalized_text": "Synglacial (~720–635 Ma)",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "Cryogenian stage",
+          "panel title"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "Interglacial panel title",
+        "category": "scientific_label",
+        "surface_text": "Interglacial (~661–650 Ma)",
+        "normalized_text": "Interglacial (~661–650 Ma)",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "interglacial stage",
+          "panel title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "Ediacaran panel title",
+        "category": "scientific_label",
+        "surface_text": "Ediacaran (~630–541 Ma)",
+        "normalized_text": "Ediacaran (~630–541 Ma)",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "time interval",
+          "panel title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "N2 label",
+        "category": "scientific_label",
+        "surface_text": "N2",
+        "normalized_text": "N2",
+        "panel": "all_panels",
+        "count": 4,
+        "key_attributes": [
+          "nitrogen gas",
+          "cycle node"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "NH4+ label",
+        "category": "scientific_label",
+        "surface_text": "NH4+",
+        "normalized_text": "NH4+",
+        "panel": "all_panels",
+        "count": 4,
+        "key_attributes": [
+          "ammonium",
+          "cycle node"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "NO3− label",
+        "category": "scientific_label",
+        "surface_text": "NO3−",
+        "normalized_text": "NO3−",
+        "panel": "all_panels",
+        "count": 4,
+        "key_attributes": [
+          "nitrate",
+          "cycle node"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "organic nitrogen label",
+        "category": "scientific_label",
+        "surface_text": "Norg",
+        "normalized_text": "Norg",
+        "panel": "all_panels",
+        "count": 4,
+        "key_attributes": [
+          "organic nitrogen",
+          "cycle node"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "Anoxic label",
+        "category": "annotation_text",
+        "surface_text": "Anoxic",
+        "normalized_text": "Anoxic",
+        "panel": "all_panels",
+        "count": 4,
+        "key_attributes": [
+          "water mass state",
+          "redox condition"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "oxygen label",
+        "category": "scientific_label",
+        "surface_text": "O2",
+        "normalized_text": "O2",
+        "panel": "c,d",
+        "count": 2,
+        "key_attributes": [
+          "oxygenated surface",
+          "oxic water"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "reduced species label",
+        "category": "scientific_label",
+        "surface_text": "Fe2+ or H2S",
+        "normalized_text": "Fe2+ or H2S",
+        "panel": "a,c",
+        "count": 2,
+        "key_attributes": [
+          "reduced species",
+          "anoxic indicator"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "Fe2+ label",
+        "category": "scientific_label",
+        "surface_text": "Fe2+",
+        "normalized_text": "Fe2+",
+        "panel": "a,b",
+        "count": 2,
+        "key_attributes": [
+          "reduced iron",
+          "anoxic indicator"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "ice sheet label",
+        "category": "annotation_text",
+        "surface_text": "Ice sheet",
+        "normalized_text": "Ice sheet",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "cryogenic cover",
+          "surface cap"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t14",
+        "entity_type": "text",
+        "name": "uncertain oxygen label",
+        "category": "scientific_label",
+        "surface_text": "O2 (?)",
+        "normalized_text": "O2 (?)",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "uncertain oxygen",
+          "synglacial setting"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t15",
+        "entity_type": "text",
+        "name": "Tonian sediment nitrogen isotope value",
+        "category": "equation",
+        "surface_text": "δ15Nsediment = 1–3‰",
+        "normalized_text": "δ15N sediment = 1–3‰",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "low isotope value",
+          "sediment value"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t16",
+        "entity_type": "text",
+        "name": "Synglacial baseline isotope value",
+        "category": "equation",
+        "surface_text": "δ15Nsediment = 1–3‰",
+        "normalized_text": "δ15N sediment = 1–3‰",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "panel annotation",
+          "sediment value"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t17",
+        "entity_type": "text",
+        "name": "total ice cover isotope range",
+        "category": "legend_text",
+        "surface_text": "Total ice cover = 0–2‰",
+        "normalized_text": "Total ice cover = 0–2‰",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "very low δ15N",
+          "ice-covered setting"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t18",
+        "entity_type": "text",
+        "name": "open water isotope range",
+        "category": "legend_text",
+        "surface_text": "Open water = 4–6‰",
+        "normalized_text": "Open water = 4–6‰",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "higher δ15N",
+          "open-water setting"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t19",
+        "entity_type": "text",
+        "name": "Interglacial sediment nitrogen isotope value",
+        "category": "equation",
+        "surface_text": "δ15Nsediment = 4–6‰",
+        "normalized_text": "δ15N sediment = 4–6‰",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "elevated isotope value",
+          "sediment value"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t20",
+        "entity_type": "text",
+        "name": "Ediacaran sediment nitrogen isotope value",
+        "category": "equation",
+        "surface_text": "δ15Nsediment = 3–5‰",
+        "normalized_text": "δ15N sediment = 3–5‰",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "intermediate isotope value",
+          "sediment value"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t21",
+        "entity_type": "text",
+        "name": "panel label a",
+        "category": "panel_label",
+        "surface_text": "a",
+        "normalized_text": "a",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "panel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t22",
+        "entity_type": "text",
+        "name": "panel label b",
+        "category": "panel_label",
+        "surface_text": "b",
+        "normalized_text": "b",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "panel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t23",
+        "entity_type": "text",
+        "name": "panel label c",
+        "category": "panel_label",
+        "surface_text": "c",
+        "normalized_text": "c",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "panel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t24",
+        "entity_type": "text",
+        "name": "panel label d",
+        "category": "panel_label",
+        "surface_text": "d",
+        "normalized_text": "d",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "panel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t1",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t2",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t3",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t4",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "t9",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "t10",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "t13",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "t15",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "t19",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "t20",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "t17",
+        "target_entity_id": "v7",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "t18",
+        "target_entity_id": "v7",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "v7",
+        "target_entity_id": "v3",
+        "relation_type": "above",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "v2",
+        "target_entity_id": "v3",
+        "relation_type": "above",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "v3",
+        "target_entity_id": "v4",
+        "relation_type": "above",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "t11",
+        "target_entity_id": "v3",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "t12",
+        "target_entity_id": "v3",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "t5",
+        "target_entity_id": "v2",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "t5",
+        "target_entity_id": "v3",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "t6",
+        "target_entity_id": "v3",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "t7",
+        "target_entity_id": "v2",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "t8",
+        "target_entity_id": "v3",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r23",
+        "source_entity_id": "t5",
+        "target_entity_id": "t6",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r24",
+        "source_entity_id": "t6",
+        "target_entity_id": "t7",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r25",
+        "source_entity_id": "t7",
+        "target_entity_id": "t8",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r26",
+        "source_entity_id": "t6",
+        "target_entity_id": "t8",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "global"
+      }
+    ]
+  }
+}

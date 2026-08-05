@@ -1,0 +1,985 @@
+{
+  "image_name": "66afa58830b4bd4998facf0932f27f88.png",
+  "prompt_text": "The figure summarizes the global mercury budget between land and ocean, emphasizing how much mercury is emitted to the atmosphere, redeposited to land, and exchanged with the sea. On land, total terrestrial emissions are shown as about 4,120 Mg per year, with the largest contribution from anthropogenic sources (about 2,220), followed by geogenic and legacy soils/vegetation (about 1,300), and biomass burning (about 600). These upward arrows indicate mercury release from the land surface and human activities back to the atmosphere.\n\nTerrestrial deposition is smaller, around 2,800 Mg per year overall, and is split into dry deposition and wet deposition. Dry deposition appears to dominate, accounting for roughly 62–74% of the total, while wet deposition contributes about 26–38%. Most dry deposition goes to vegetation rather than non-vegetated surfaces, and the vegetation pathway is mainly elemental mercury, Hg(0), with a smaller fraction as Hg(II).\n\nThe lower part of the graphic highlights soil and ocean mercury pools as major reservoirs. Over the ocean, deposition exceeds evasion: about 3,600 Mg per year is deposited to the ocean while about 2,300 escapes back to the atmosphere, yielding a net ocean deposition of roughly 1,300 Mg per year.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "land-atmosphere emission arrows",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 3,
+        "key_attributes": [
+          "upward",
+          "land sources",
+          "to atmosphere"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "terrestrial deposition arrows",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 4,
+        "key_attributes": [
+          "downward",
+          "dry and wet",
+          "to land"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "ocean flux arrows",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "evasion up",
+          "deposition down",
+          "air-sea exchange"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "soil mercury pool region",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "green land surface",
+          "major reservoir",
+          "lower graphic"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "ocean mercury pool region",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "blue ocean water",
+          "major reservoir",
+          "lower right"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "vegetation dry deposition branch",
+        "category": "pathway_component",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "dominant dry deposition",
+          "vegetation pathway",
+          "branch split"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "non-vegetation dry deposition branch",
+        "category": "pathway_component",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "minor dry deposition",
+          "non-vegetated surfaces",
+          "downward arrow"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "wet deposition rain cloud",
+        "category": "pathway_component",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "cloud with rain",
+          "wet deposition",
+          "atmospheric input"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "geogenic and legacy source illustration",
+        "category": "geological_structure",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "volcano",
+          "tree",
+          "natural/legacy source"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v10",
+        "entity_type": "visual",
+        "name": "anthropogenic source illustration",
+        "category": "device_component",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "factory",
+          "smokestacks",
+          "human activity"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v11",
+        "entity_type": "visual",
+        "name": "biomass burning source illustration",
+        "category": "pathway_component",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "burning tree",
+          "fire",
+          "land emission source"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "terrestrial emissions total",
+        "category": "scientific_label",
+        "surface_text": "Terrestrial emissions (4,120 Mg per year)",
+        "normalized_text": "terrestrial emissions 4,120 Mg per year",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "total land emissions",
+          "annual flux"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "geogenic and legacy soils and vegetation label",
+        "category": "scientific_label",
+        "surface_text": "Geogenic and legacy soils and vegetation",
+        "normalized_text": "geogenic and legacy soils and vegetation",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "terrestrial source",
+          "natural and legacy"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "anthropogenic label",
+        "category": "scientific_label",
+        "surface_text": "Anthropogenic",
+        "normalized_text": "anthropogenic",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "largest source",
+          "human-caused"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "biomass burning label",
+        "category": "scientific_label",
+        "surface_text": "Biomass burning",
+        "normalized_text": "biomass burning",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "terrestrial source",
+          "fire-related"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "geogenic and legacy emission value",
+        "category": "number",
+        "surface_text": "1,300 (950–1,594)",
+        "normalized_text": "1300",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "source magnitude"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "anthropogenic emission value",
+        "category": "number",
+        "surface_text": "2,220 (2,000–3,000)",
+        "normalized_text": "2220",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "largest source magnitude"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "biomass burning emission value",
+        "category": "number",
+        "surface_text": "600 (220–612)",
+        "normalized_text": "600",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "source magnitude"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "terrestrial deposition total",
+        "category": "scientific_label",
+        "surface_text": "Terrestrial deposition 2,800 Mg per year (2,200–3,600)",
+        "normalized_text": "terrestrial deposition 2,800 Mg per year",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "total land deposition",
+          "annual flux"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "dry deposition label and value",
+        "category": "scientific_label",
+        "surface_text": "Dry (62–74%) 1,730–2,070",
+        "normalized_text": "dry deposition 62–74% 1,730–2,070",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "dominant deposition",
+          "percentage split"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "wet deposition label",
+        "category": "scientific_label",
+        "surface_text": "Wet (26–38%)",
+        "normalized_text": "wet deposition 26–38%",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "minor deposition",
+          "percentage split"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "vegetation deposition branch label",
+        "category": "scientific_label",
+        "surface_text": "Vegetation (76%)",
+        "normalized_text": "vegetation 76%",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "dry deposition target",
+          "major branch"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "non-vegetation deposition branch label",
+        "category": "scientific_label",
+        "surface_text": "Non-vegetation (24%)",
+        "normalized_text": "non-vegetation 24%",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "dry deposition target",
+          "minor branch"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "vegetation branch flux value",
+        "category": "number",
+        "surface_text": "1,310–1,570",
+        "normalized_text": "1310–1570",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "branch magnitude"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t14",
+        "entity_type": "text",
+        "name": "Hg0 label",
+        "category": "scientific_label",
+        "surface_text": "Hg(0) (90%)",
+        "normalized_text": "Hg(0) 90%",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "elemental mercury",
+          "main vegetation pathway"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t15",
+        "entity_type": "text",
+        "name": "Hg0 flux value",
+        "category": "number",
+        "surface_text": "1,180–1,410",
+        "normalized_text": "1180–1410",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "pathway magnitude"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t16",
+        "entity_type": "text",
+        "name": "HgII label",
+        "category": "scientific_label",
+        "surface_text": "Hg(II) (10%)",
+        "normalized_text": "Hg(II) 10%",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "oxidized mercury",
+          "minor vegetation pathway"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t17",
+        "entity_type": "text",
+        "name": "HgII flux value",
+        "category": "number",
+        "surface_text": "130–160",
+        "normalized_text": "130–160",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "pathway magnitude"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t18",
+        "entity_type": "text",
+        "name": "non-vegetation dry deposition value",
+        "category": "number",
+        "surface_text": "420–500",
+        "normalized_text": "420–500",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "branch magnitude"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t19",
+        "entity_type": "text",
+        "name": "wet deposition value",
+        "category": "number",
+        "surface_text": "730–1,070",
+        "normalized_text": "730–1070",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "wet flux magnitude"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t20",
+        "entity_type": "text",
+        "name": "ocean fluxes title",
+        "category": "scientific_label",
+        "surface_text": "Ocean fluxes",
+        "normalized_text": "ocean fluxes",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "ocean section"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t21",
+        "entity_type": "text",
+        "name": "net deposition label",
+        "category": "scientific_label",
+        "surface_text": "Net deposition",
+        "normalized_text": "net deposition",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "ocean balance"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t22",
+        "entity_type": "text",
+        "name": "net ocean deposition value",
+        "category": "number",
+        "surface_text": "1,300 (400–1,700)",
+        "normalized_text": "1300",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "deposition minus evasion"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t23",
+        "entity_type": "text",
+        "name": "ocean evasion label",
+        "category": "scientific_label",
+        "surface_text": "Evasion",
+        "normalized_text": "evasion",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "ocean to atmosphere"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t24",
+        "entity_type": "text",
+        "name": "ocean deposition label",
+        "category": "scientific_label",
+        "surface_text": "Deposition",
+        "normalized_text": "deposition",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "atmosphere to ocean"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t25",
+        "entity_type": "text",
+        "name": "ocean evasion value",
+        "category": "number",
+        "surface_text": "2,300 (2,681–3,400)",
+        "normalized_text": "2300",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "ocean flux magnitude"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t26",
+        "entity_type": "text",
+        "name": "ocean deposition value",
+        "category": "number",
+        "surface_text": "3,600 (3,800–4,600)",
+        "normalized_text": "3600",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "ocean flux magnitude"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t27",
+        "entity_type": "text",
+        "name": "soil Hg pool label",
+        "category": "scientific_label",
+        "surface_text": "Soil Hg pool",
+        "normalized_text": "soil Hg pool",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "terrestrial reservoir"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t28",
+        "entity_type": "text",
+        "name": "ocean Hg pool label",
+        "category": "scientific_label",
+        "surface_text": "Ocean Hg pool",
+        "normalized_text": "ocean Hg pool",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "marine reservoir"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t29",
+        "entity_type": "text",
+        "name": "unit label",
+        "category": "unit",
+        "surface_text": "Mg per year",
+        "normalized_text": "Mg per year",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "annual mass flux unit"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t1",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t2",
+        "target_entity_id": "v9",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t3",
+        "target_entity_id": "v10",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t4",
+        "target_entity_id": "v11",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "t5",
+        "target_entity_id": "v9",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "t6",
+        "target_entity_id": "v10",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "t7",
+        "target_entity_id": "v11",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "t8",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "t9",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "t10",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "t11",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "t12",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "t13",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "t14",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "t15",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "t16",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "t17",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "t18",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "t19",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "t20",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "t21",
+        "target_entity_id": "t22",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "t23",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r23",
+        "source_entity_id": "t24",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r24",
+        "source_entity_id": "t25",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r25",
+        "source_entity_id": "t26",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r26",
+        "source_entity_id": "t27",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r27",
+        "source_entity_id": "t28",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r28",
+        "source_entity_id": "v1",
+        "target_entity_id": "v4",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r29",
+        "source_entity_id": "v2",
+        "target_entity_id": "v4",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r30",
+        "source_entity_id": "v3",
+        "target_entity_id": "v5",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r31",
+        "source_entity_id": "v6",
+        "target_entity_id": "v4",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r32",
+        "source_entity_id": "v7",
+        "target_entity_id": "v4",
+        "relation_type": "flows_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r33",
+        "source_entity_id": "v8",
+        "target_entity_id": "v4",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r34",
+        "source_entity_id": "v6",
+        "target_entity_id": "v7",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r35",
+        "source_entity_id": "v4",
+        "target_entity_id": "v5",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r36",
+        "source_entity_id": "v4",
+        "target_entity_id": "v1",
+        "relation_type": "above",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      }
+    ]
+  }
+}

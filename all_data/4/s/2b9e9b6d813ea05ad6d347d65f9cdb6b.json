@@ -1,0 +1,417 @@
+{
+  "image_name": "2b9e9b6d813ea05ad6d347d65f9cdb6b.jpg",
+  "prompt_text": "The figure illustrates how infused tumour cells travel through the body and reach a target tumour via the circulation. It contrasts two transport mechanisms, shown by different arrows: bulk blood flow (“convection”) moves cells over long distances through vessels, while local “diffusion” represents shorter-range spreading once cells are near or within tumour tissue.\n\nCells are introduced into the bloodstream at an infusion site, then carried to the heart and pumped through the lungs and systemic circulation. The looping vessels emphasize that the cells must pass through the cardiopulmonary system before reaching peripheral tissues. Near the target tumour site, a magnified view shows the transition from vessel-based transport to movement within the tumour microenvironment. In this inset, tumour cells appear to leave or approach the vasculature and then disperse among surrounding cells, where movement seems less directed and more limited than in the bloodstream.\n\nOverall, the image conveys that delivery of therapeutic or circulating tumour cells depends first on efficient vascular transport through the heart and lungs, and then on local penetration and spread in the tumour tissue itself, where distribution may become more constrained.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "tumour cells",
+        "category": "cell",
+        "panel": "single_panel",
+        "count": 8,
+        "key_attributes": [
+          "blue cells",
+          "within tumour inset",
+          "surround vessel"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "blood vessels / circulation path",
+        "category": "membrane",
+        "panel": "single_panel",
+        "count": 6,
+        "key_attributes": [
+          "looping tubular vessels",
+          "systemic path",
+          "connects organs"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "heart",
+        "category": "organelle",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "central pump organ",
+          "connected to vessels"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "lungs",
+        "category": "organelle",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "paired lobes",
+          "above heart"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "convection arrows",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 6,
+        "key_attributes": [
+          "solid arrows",
+          "long-distance flow",
+          "directed transport"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "diffusion arrows",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 5,
+        "key_attributes": [
+          "dashed arrows",
+          "local spread",
+          "less directed"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "infusion site vessel entry",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "left-side vessel",
+          "entry point into bloodstream"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "target tumour site inset",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "dashed zoom box",
+          "magnified microenvironment",
+          "near vessel"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "legend arrows",
+        "category": "legend_key",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "solid key",
+          "dashed key"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "Convection",
+        "category": "legend_text",
+        "surface_text": "Convection",
+        "normalized_text": "convection",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "legend label",
+          "solid-arrow transport"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "Diffusion",
+        "category": "legend_text",
+        "surface_text": "Diffusion",
+        "normalized_text": "diffusion",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "legend label",
+          "dashed-arrow transport"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "Lungs",
+        "category": "scientific_label",
+        "surface_text": "Lungs",
+        "normalized_text": "lungs",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "organ label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "Infusion site",
+        "category": "annotation_text",
+        "surface_text": "Infusion site",
+        "normalized_text": "infusion site",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "entry annotation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "Heart",
+        "category": "scientific_label",
+        "surface_text": "Heart",
+        "normalized_text": "heart",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "organ label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "Tumour cells",
+        "category": "annotation_text",
+        "surface_text": "Tumour cells",
+        "normalized_text": "tumour cells",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "cell annotation"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "Target tumour site",
+        "category": "annotation_text",
+        "surface_text": "Target tumour site",
+        "normalized_text": "target tumour site",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "destination annotation"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t1",
+        "target_entity_id": "v9",
+        "relation_type": "legend_for",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t2",
+        "target_entity_id": "v9",
+        "relation_type": "legend_for",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t3",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t4",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "t5",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "t6",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "t7",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "v7",
+        "target_entity_id": "v3",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "v3",
+        "target_entity_id": "v4",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "v4",
+        "target_entity_id": "v8",
+        "relation_type": "flows_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "v1",
+        "target_entity_id": "v2",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "v1",
+        "target_entity_id": "v8",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "v5",
+        "target_entity_id": "v2",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "v6",
+        "target_entity_id": "v8",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "v8",
+        "target_entity_id": "v2",
+        "relation_type": "part_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "v4",
+        "target_entity_id": "v3",
+        "relation_type": "above",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "v7",
+        "target_entity_id": "v3",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      }
+    ]
+  }
+}

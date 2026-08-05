@@ -1,0 +1,701 @@
+{
+  "image_name": "6843918126bdee5c14b5d2a4b04a2923.png",
+  "prompt_text": "The figure is a schematic overview of the catalytic scope of a single particle or catalyst, shown as a large yellow sphere in the center, with arrows linking it to many different organic transformations. Rather than giving data, it summarizes how one catalyst can convert a wide range of feedstocks into useful products.\n\nOn the left, syngas conversion is highlighted through Fischer–Tropsch chemistry, where CO and H₂ lead to mixtures such as olefins, paraffins, and oxygenates. At the bottom, the same catalyst is associated with CO₂ hydrogenation, producing products that appear to include methane and formic acid. Other arrows indicate hydrogenation or related upgrading of arenes, converting aromatic rings into saturated cyclic products.\n\nAcross the top and right, the catalyst is connected to selective functional-group transformations: nitro compounds to amines, alkynes to alkenes, and reactions involving biomass-derived sugars or polyols. The sugar drawings suggest hydrogenation or deoxygenation of highly oxygenated molecules. Overall, the image conveys a versatile catalytic platform able to process fossil- and biomass-derived molecules, as well as small carbon sources like CO and CO₂, into fuels and value-added chemicals.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "central catalyst particle",
+        "category": "material_structure",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "large yellow sphere",
+          "centered",
+          "hub of scheme"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "linking reaction arrows",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 8,
+        "key_attributes": [
+          "curved arrows",
+          "radial connections",
+          "from catalyst"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "nitro-to-amine aromatic transformation",
+        "category": "molecule",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "aromatic ring pair",
+          "NO2 to NH2",
+          "aryl chloride shown"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "alkyne-to-alkene transformation",
+        "category": "molecule",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "triple bond substrate",
+          "double bond product",
+          "selective hydrogenation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "syngas Fischer–Tropsch conversion scheme",
+        "category": "pathway_component",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "CO and H2 feed",
+          "product class list",
+          "left side"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "arene hydrogenation scheme",
+        "category": "molecule",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "benzene ring",
+          "cyclohexane product",
+          "R substituent"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "CO2 hydrogenation scheme",
+        "category": "pathway_component",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "CO2 feed",
+          "CH4 product",
+          "formic acid product"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "sugar or polyol transformation scheme",
+        "category": "molecule",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "highly oxygenated chains",
+          "biomass-derived",
+          "right side"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "sphere highlight shading",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "light oval highlight",
+          "inside sphere"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "amine label",
+        "category": "scientific_label",
+        "surface_text": "NH2",
+        "normalized_text": "NH2",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "product functionality"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "nitro label",
+        "category": "scientific_label",
+        "surface_text": "NO2",
+        "normalized_text": "NO2",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "substrate functionality"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "aryl chloride label",
+        "category": "scientific_label",
+        "surface_text": "Cl",
+        "normalized_text": "Cl",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "ring substituent"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "generic amine transformation label",
+        "category": "scientific_label",
+        "surface_text": "R–NH2",
+        "normalized_text": "R-NH2",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "generic product"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "generic nitro transformation label",
+        "category": "scientific_label",
+        "surface_text": "R–NO2",
+        "normalized_text": "R-NO2",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "generic substrate"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "syngas feed label",
+        "category": "equation",
+        "surface_text": "CO + H2",
+        "normalized_text": "CO + H2",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "feed gases"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "Fischer–Tropsch label",
+        "category": "scientific_label",
+        "surface_text": "Fischer-Tropsch",
+        "normalized_text": "Fischer-Tropsch",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "reaction class"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "olefins product label",
+        "category": "legend_text",
+        "surface_text": "Olefins",
+        "normalized_text": "Olefins",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "Fischer-Tropsch product class"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "paraffins product label",
+        "category": "legend_text",
+        "surface_text": "Paraffins",
+        "normalized_text": "Paraffins",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "Fischer-Tropsch product class"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "oxygenates product label",
+        "category": "legend_text",
+        "surface_text": "Oxygenates",
+        "normalized_text": "Oxygenates",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "Fischer-Tropsch product class"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "arenes label",
+        "category": "scientific_label",
+        "surface_text": "Arenes",
+        "normalized_text": "Arenes",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "substrate class"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "generic substituent label",
+        "category": "scientific_label",
+        "surface_text": "R",
+        "normalized_text": "R",
+        "panel": "single_panel",
+        "count": 3,
+        "key_attributes": [
+          "generic substituent"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "carbon dioxide label",
+        "category": "scientific_label",
+        "surface_text": "CO2",
+        "normalized_text": "CO2",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "feedstock"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t14",
+        "entity_type": "text",
+        "name": "methane label",
+        "category": "scientific_label",
+        "surface_text": "CH4",
+        "normalized_text": "CH4",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "hydrogenation product"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t15",
+        "entity_type": "text",
+        "name": "CO2 hydrogenation label",
+        "category": "scientific_label",
+        "surface_text": "CO2 hydrogenation",
+        "normalized_text": "CO2 hydrogenation",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "reaction class"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t16",
+        "entity_type": "text",
+        "name": "alkynes label",
+        "category": "scientific_label",
+        "surface_text": "Alkynes",
+        "normalized_text": "Alkynes",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "substrate class"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t17",
+        "entity_type": "text",
+        "name": "alkenes label",
+        "category": "scientific_label",
+        "surface_text": "Alkenes",
+        "normalized_text": "Alkenes",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "product class"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t18",
+        "entity_type": "text",
+        "name": "hydroxyl labels",
+        "category": "scientific_label",
+        "surface_text": "HO / OH",
+        "normalized_text": "HO/OH",
+        "panel": "single_panel",
+        "count": 8,
+        "key_attributes": [
+          "polyol functionality",
+          "sugar structures"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t19",
+        "entity_type": "text",
+        "name": "sugars label",
+        "category": "scientific_label",
+        "surface_text": "Sugars",
+        "normalized_text": "Sugars",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "biomass-derived feedstock"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "v2",
+        "target_entity_id": "v1",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "v1",
+        "target_entity_id": "v3",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "v1",
+        "target_entity_id": "v4",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "v1",
+        "target_entity_id": "v5",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "v1",
+        "target_entity_id": "v6",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "v1",
+        "target_entity_id": "v7",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "v1",
+        "target_entity_id": "v8",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "v5",
+        "target_entity_id": "t6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "t7",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "t8",
+        "target_entity_id": "v5",
+        "relation_type": "legend_for",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "t9",
+        "target_entity_id": "v5",
+        "relation_type": "legend_for",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "t10",
+        "target_entity_id": "v5",
+        "relation_type": "legend_for",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "t11",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "t13",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "t14",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "t15",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "t16",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "t17",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "t19",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "t5",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "t4",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "v3",
+        "target_entity_id": "v1",
+        "relation_type": "above",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r23",
+        "source_entity_id": "v5",
+        "target_entity_id": "v1",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r24",
+        "source_entity_id": "v7",
+        "target_entity_id": "v1",
+        "relation_type": "above",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r25",
+        "source_entity_id": "v1",
+        "target_entity_id": "v8",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r26",
+        "source_entity_id": "v4",
+        "target_entity_id": "v8",
+        "relation_type": "above",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r27",
+        "source_entity_id": "v9",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1556 @@
+{
+  "image_name": "2d7e2c211da2704d25bba5dbd3f63930.png",
+  "prompt_text": "The figure compares how a neuromorphic system can implement neuron and synapse functions using circuit elements, likely involving FeFET devices. On the left, the neuron is shown as a leaky integrate-and-fire unit: input current charges a capacitor, the membrane voltage rises over time, and once it crosses a threshold it generates a spike sent to the synapse before resetting. The accompanying circuit sketch highlights the resistor-capacitor dynamics and threshold behavior that produce this pulse-like output.\n\nOn the right, the synapse is depicted as an array of programmable weight cells organized by word lines, bit lines, and selection lines. This structure supports cell programming and multiply-accumulate computation. Two operating modes are emphasized: a current-domain mode, where output current is the sum of weighted voltages, and a time-domain mode, where delay or pulse width accumulates with input-weight contributions. The array therefore acts as a memory-compute block for synaptic weighting.\n\nThe bottom row connects these concepts to hardware realizations. The neuron appears to combine excitatory and inhibitory inputs, while the synapse is implemented as a crossbar-like weight cell array and a time-domain output circuit. Overall, the figure links abstract neural functions to practical FeFET-based neuromorphic circuitry.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "leaky integrate-and-fire neuron schematic",
+        "category": "device_component",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "RC circuit",
+          "threshold trigger",
+          "spike output"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "membrane voltage charging curve",
+        "category": "pathway_component",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "rising trace",
+          "threshold crossing",
+          "reset drop"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "threshold decision block",
+        "category": "region",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "comparison condition",
+          "red highlight",
+          "spike generation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "spike pulse to synapse",
+        "category": "arrow",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "pulse waveform",
+          "output signaling",
+          "to synapse"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "resistor element",
+        "category": "device_component",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "leak path",
+          "R element"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "capacitor element",
+        "category": "device_component",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "integration node",
+          "C element"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "synaptic weight-cell array",
+        "category": "device_component",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "crossbar-like grid",
+          "programmable cells",
+          "array organization"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "weight cells",
+        "category": "cell",
+        "panel": "c",
+        "count": 4,
+        "key_attributes": [
+          "rectangular cells",
+          "programmable weights"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "word line network",
+        "category": "pathway_component",
+        "panel": "c",
+        "count": 2,
+        "key_attributes": [
+          "horizontal routing",
+          "WL lines"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v10",
+        "entity_type": "visual",
+        "name": "selection line network",
+        "category": "pathway_component",
+        "panel": "c",
+        "count": 2,
+        "key_attributes": [
+          "side routing",
+          "SL lines"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v11",
+        "entity_type": "visual",
+        "name": "bit line network",
+        "category": "pathway_component",
+        "panel": "c",
+        "count": 2,
+        "key_attributes": [
+          "output routing",
+          "BL lines"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v12",
+        "entity_type": "visual",
+        "name": "cell programming band",
+        "category": "region",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "top blue band",
+          "programming mode"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v13",
+        "entity_type": "visual",
+        "name": "cell selection band",
+        "category": "region",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "left gray band",
+          "selection mode"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v14",
+        "entity_type": "visual",
+        "name": "cell motivation band",
+        "category": "region",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "right pink band",
+          "drive/output side"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v15",
+        "entity_type": "visual",
+        "name": "multiply-accumulate output arrows",
+        "category": "arrow",
+        "panel": "c",
+        "count": 2,
+        "key_attributes": [
+          "downward outputs",
+          "current/time modes"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v16",
+        "entity_type": "visual",
+        "name": "FeFET neuron realization circuit",
+        "category": "device_component",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "FeFET device",
+          "two inputs",
+          "hardware neuron"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v17",
+        "entity_type": "visual",
+        "name": "inhibitory input branch",
+        "category": "arrow",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "upper input",
+          "negative contribution"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v18",
+        "entity_type": "visual",
+        "name": "excitatory input branch",
+        "category": "arrow",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "lower input",
+          "positive contribution"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v19",
+        "entity_type": "visual",
+        "name": "FeFET crossbar-like synapse realization",
+        "category": "device_component",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "stacked array",
+          "WL/SL/BL",
+          "current output"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v20",
+        "entity_type": "visual",
+        "name": "time-domain output circuit",
+        "category": "device_component",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "IN to OUT",
+          "pulse timing",
+          "FeFET-based"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "Neuron",
+        "category": "scientific_label",
+        "surface_text": "Neuron",
+        "normalized_text": "neuron",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "column header"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "Synapse",
+        "category": "scientific_label",
+        "surface_text": "Synapse",
+        "normalized_text": "synapse",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "column header"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "Leak, integrate and fire",
+        "category": "scientific_label",
+        "surface_text": "Leak, integrate and fire",
+        "normalized_text": "leak, integrate and fire",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "neuron model"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "Vc",
+        "category": "scientific_label",
+        "surface_text": "Vc",
+        "normalized_text": "Vc",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "capacitor voltage"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "If Vc≥Vth",
+        "category": "annotation_text",
+        "surface_text": "If Vc≥Vth",
+        "normalized_text": "if Vc >= Vth",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "threshold condition"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "Vth",
+        "category": "scientific_label",
+        "surface_text": "Vth",
+        "normalized_text": "Vth",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "threshold voltage"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "To synapse",
+        "category": "annotation_text",
+        "surface_text": "To synapse",
+        "normalized_text": "to synapse",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "output destination"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "Idc",
+        "category": "scientific_label",
+        "surface_text": "Idc",
+        "normalized_text": "Idc",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "input current"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "R",
+        "category": "scientific_label",
+        "surface_text": "R",
+        "normalized_text": "R",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "resistor"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "C",
+        "category": "scientific_label",
+        "surface_text": "C",
+        "normalized_text": "C",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "capacitor"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "C dV/dt = - g (V - E) + I",
+        "category": "equation",
+        "surface_text": "C dV/dt = - g (V - E) + I",
+        "normalized_text": "C dV/dt = -g(V - E) + I",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "LIF equation"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "Cell programming",
+        "category": "scientific_label",
+        "surface_text": "Cell programming",
+        "normalized_text": "cell programming",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "programming mode"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "WL1",
+        "category": "scientific_label",
+        "surface_text": "WL1",
+        "normalized_text": "WL1",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "word line"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t14",
+        "entity_type": "text",
+        "name": "WL2",
+        "category": "scientific_label",
+        "surface_text": "WL2",
+        "normalized_text": "WL2",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "word line"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t15",
+        "entity_type": "text",
+        "name": "SL1",
+        "category": "scientific_label",
+        "surface_text": "SL1",
+        "normalized_text": "SL1",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "selection line"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t16",
+        "entity_type": "text",
+        "name": "SL2",
+        "category": "scientific_label",
+        "surface_text": "SL2",
+        "normalized_text": "SL2",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "selection line"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t17",
+        "entity_type": "text",
+        "name": "BL1",
+        "category": "scientific_label",
+        "surface_text": "BL1",
+        "normalized_text": "BL1",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "bit line"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t18",
+        "entity_type": "text",
+        "name": "BL2",
+        "category": "scientific_label",
+        "surface_text": "BL2",
+        "normalized_text": "BL2",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "bit line"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t19",
+        "entity_type": "text",
+        "name": "Weight cell",
+        "category": "scientific_label",
+        "surface_text": "Weight cell",
+        "normalized_text": "weight cell",
+        "panel": "c",
+        "count": 4,
+        "key_attributes": [
+          "programmable cell"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t20",
+        "entity_type": "text",
+        "name": "Cell selection",
+        "category": "scientific_label",
+        "surface_text": "Cell selection",
+        "normalized_text": "cell selection",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "selection mode"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t21",
+        "entity_type": "text",
+        "name": "Cell motivation",
+        "category": "scientific_label",
+        "surface_text": "Cell motivation",
+        "normalized_text": "cell motivation",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "drive side"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t22",
+        "entity_type": "text",
+        "name": "Multiply-accumulate computation output",
+        "category": "annotation_text",
+        "surface_text": "Multiply-accumulate computation output",
+        "normalized_text": "multiply-accumulate computation output",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "MAC output"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t23",
+        "entity_type": "text",
+        "name": "Current domain",
+        "category": "scientific_label",
+        "surface_text": "Current domain",
+        "normalized_text": "current domain",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "operating mode"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t24",
+        "entity_type": "text",
+        "name": "Time domain",
+        "category": "scientific_label",
+        "surface_text": "Time domain",
+        "normalized_text": "time domain",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "operating mode"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t25",
+        "entity_type": "text",
+        "name": "I0 = Σ gV",
+        "category": "equation",
+        "surface_text": "I0 = Σ gV",
+        "normalized_text": "I0 = Σ gV",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "current summation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t26",
+        "entity_type": "text",
+        "name": "ΔT = Σ χt",
+        "category": "equation",
+        "surface_text": "ΔT = Σ χt",
+        "normalized_text": "ΔT = Σ χt",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "time accumulation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t27",
+        "entity_type": "text",
+        "name": "Inhibitory input",
+        "category": "scientific_label",
+        "surface_text": "Inhibitory input",
+        "normalized_text": "inhibitory input",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "upper input"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t28",
+        "entity_type": "text",
+        "name": "Excitatory input",
+        "category": "scientific_label",
+        "surface_text": "Excitatory input",
+        "normalized_text": "excitatory input",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "lower input"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t29",
+        "entity_type": "text",
+        "name": "FeFET",
+        "category": "scientific_label",
+        "surface_text": "FeFET",
+        "normalized_text": "FeFET",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "hardware device"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t30",
+        "entity_type": "text",
+        "name": "WL",
+        "category": "scientific_label",
+        "surface_text": "WL",
+        "normalized_text": "WL",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "word line"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t31",
+        "entity_type": "text",
+        "name": "SL",
+        "category": "scientific_label",
+        "surface_text": "SL",
+        "normalized_text": "SL",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "selection line"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t32",
+        "entity_type": "text",
+        "name": "BL",
+        "category": "scientific_label",
+        "surface_text": "BL",
+        "normalized_text": "BL",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "bit line"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t33",
+        "entity_type": "text",
+        "name": "FeFET",
+        "category": "scientific_label",
+        "surface_text": "FeFET",
+        "normalized_text": "FeFET",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "weight device"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t34",
+        "entity_type": "text",
+        "name": "I0",
+        "category": "scientific_label",
+        "surface_text": "I0",
+        "normalized_text": "I0",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "current output"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t35",
+        "entity_type": "text",
+        "name": "IN",
+        "category": "scientific_label",
+        "surface_text": "IN",
+        "normalized_text": "IN",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "input pulse"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t36",
+        "entity_type": "text",
+        "name": "OUT",
+        "category": "scientific_label",
+        "surface_text": "OUT",
+        "normalized_text": "OUT",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "output pulse"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t37",
+        "entity_type": "text",
+        "name": "X-input",
+        "category": "scientific_label",
+        "surface_text": "X-input",
+        "normalized_text": "X-input",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "control input"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t38",
+        "entity_type": "text",
+        "name": "FeFET",
+        "category": "scientific_label",
+        "surface_text": "FeFET",
+        "normalized_text": "FeFET",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "timing device"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t39",
+        "entity_type": "text",
+        "name": "Functional unit",
+        "category": "scientific_label",
+        "surface_text": "Functional unit",
+        "normalized_text": "functional unit",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "table header"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t40",
+        "entity_type": "text",
+        "name": "Topological structure",
+        "category": "scientific_label",
+        "surface_text": "Topological structure",
+        "normalized_text": "topological structure",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "row header"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t41",
+        "entity_type": "text",
+        "name": "Physical model",
+        "category": "scientific_label",
+        "surface_text": "Physical model",
+        "normalized_text": "physical model",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "row header"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t42",
+        "entity_type": "text",
+        "name": "Realization",
+        "category": "scientific_label",
+        "surface_text": "Realization",
+        "normalized_text": "realization",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "row header"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t43",
+        "entity_type": "text",
+        "name": "a",
+        "category": "panel_label",
+        "surface_text": "a",
+        "normalized_text": "a",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "panel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t44",
+        "entity_type": "text",
+        "name": "b",
+        "category": "panel_label",
+        "surface_text": "b",
+        "normalized_text": "b",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "panel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t45",
+        "entity_type": "text",
+        "name": "c",
+        "category": "panel_label",
+        "surface_text": "c",
+        "normalized_text": "c",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "panel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t46",
+        "entity_type": "text",
+        "name": "d",
+        "category": "panel_label",
+        "surface_text": "d",
+        "normalized_text": "d",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "panel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t47",
+        "entity_type": "text",
+        "name": "e",
+        "category": "panel_label",
+        "surface_text": "e",
+        "normalized_text": "e",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "panel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t1",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t2",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t3",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t5",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "t6",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "t7",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "t8",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "t9",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "t10",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "v5",
+        "target_entity_id": "v1",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "v6",
+        "target_entity_id": "v1",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "v2",
+        "target_entity_id": "v3",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "v3",
+        "target_entity_id": "v4",
+        "relation_type": "transforms_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "v4",
+        "target_entity_id": "v7",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "t12",
+        "target_entity_id": "v12",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "t13",
+        "target_entity_id": "v9",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "t14",
+        "target_entity_id": "v9",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "t15",
+        "target_entity_id": "v10",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "t16",
+        "target_entity_id": "v10",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "t17",
+        "target_entity_id": "v11",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "t18",
+        "target_entity_id": "v11",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "t19",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r23",
+        "source_entity_id": "t20",
+        "target_entity_id": "v13",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r24",
+        "source_entity_id": "t21",
+        "target_entity_id": "v14",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r25",
+        "source_entity_id": "t22",
+        "target_entity_id": "v15",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r26",
+        "source_entity_id": "t23",
+        "target_entity_id": "t25",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r27",
+        "source_entity_id": "t24",
+        "target_entity_id": "t26",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r28",
+        "source_entity_id": "v8",
+        "target_entity_id": "v7",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r29",
+        "source_entity_id": "v9",
+        "target_entity_id": "v7",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r30",
+        "source_entity_id": "v10",
+        "target_entity_id": "v7",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r31",
+        "source_entity_id": "v11",
+        "target_entity_id": "v7",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r32",
+        "source_entity_id": "v12",
+        "target_entity_id": "v7",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r33",
+        "source_entity_id": "v13",
+        "target_entity_id": "v7",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r34",
+        "source_entity_id": "v14",
+        "target_entity_id": "v7",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r35",
+        "source_entity_id": "v7",
+        "target_entity_id": "v15",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r36",
+        "source_entity_id": "t27",
+        "target_entity_id": "v17",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r37",
+        "source_entity_id": "t28",
+        "target_entity_id": "v18",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r38",
+        "source_entity_id": "t29",
+        "target_entity_id": "v16",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r39",
+        "source_entity_id": "v17",
+        "target_entity_id": "v16",
+        "relation_type": "inhibits",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r40",
+        "source_entity_id": "v18",
+        "target_entity_id": "v16",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r41",
+        "source_entity_id": "v16",
+        "target_entity_id": "v1",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r42",
+        "source_entity_id": "t30",
+        "target_entity_id": "v19",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r43",
+        "source_entity_id": "t31",
+        "target_entity_id": "v19",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r44",
+        "source_entity_id": "t32",
+        "target_entity_id": "v19",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r45",
+        "source_entity_id": "t33",
+        "target_entity_id": "v19",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r46",
+        "source_entity_id": "v19",
+        "target_entity_id": "v7",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r47",
+        "source_entity_id": "t35",
+        "target_entity_id": "v20",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r48",
+        "source_entity_id": "t36",
+        "target_entity_id": "v20",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r49",
+        "source_entity_id": "t38",
+        "target_entity_id": "v20",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r50",
+        "source_entity_id": "v20",
+        "target_entity_id": "v7",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r51",
+        "source_entity_id": "v20",
+        "target_entity_id": "t24",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r52",
+        "source_entity_id": "t1",
+        "target_entity_id": "t2",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r53",
+        "source_entity_id": "v1",
+        "target_entity_id": "v7",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r54",
+        "source_entity_id": "v17",
+        "target_entity_id": "v18",
+        "relation_type": "above",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      }
+    ]
+  }
+}

@@ -1,0 +1,742 @@
+{
+  "image_name": "0fae2fa48f715120e47c7d041b3d23c1.jpg",
+  "prompt_text": "The figure illustrates how therapeutic antibodies work in the bloodstream and why humanized antibodies can trigger unwanted immune responses. On the left, it contrasts a fully human antibody with a humanized antibody, which is mostly human but still contains small murine-derived regions.\n\nIn the upper bloodstream scene, a therapeutic antibody binds the circulating target PCSK9, including PCSK9 associated with LDL particles, showing the intended drug action of neutralizing the target in blood. Red blood cells and white blood cells provide the vascular context, while the antibody–antigen complexes remain soluble.\n\nThe lower scene shows the same general setting but adds a second class of antibodies, labeled neutralizing antibodies, directed against the therapeutic antibody itself. These anti-drug antibodies recognize exposed nonhuman regions on the humanized therapeutic antibody and bind to it, sometimes while it is also bound to PCSK9. This visually conveys immunogenicity: the patient’s immune system can mount antibodies against the therapy, potentially blocking its interaction with PCSK9 or forming larger immune complexes.\n\nOverall, the main message is that antibody drugs can effectively neutralize circulating targets such as PCSK9, but nonhuman antibody elements may provoke neutralizing anti-drug antibodies that reduce treatment efficacy.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "fully human antibody schematic",
+        "category": "protein",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "Y-shaped",
+          "all human",
+          "blue outline"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "humanized antibody schematic",
+        "category": "protein",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "Y-shaped",
+          "small murine regions",
+          "blue with red segments"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "murine-derived antibody regions",
+        "category": "region",
+        "panel": "a",
+        "count": 4,
+        "key_attributes": [
+          "small red segments",
+          "on humanized antibody",
+          "nonhuman inserts"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "therapeutic antibodies in bloodstream",
+        "category": "protein",
+        "panel": "b",
+        "count": 4,
+        "key_attributes": [
+          "blue Y-shaped",
+          "circulating",
+          "binds PCSK9"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "PCSK9 molecules",
+        "category": "protein",
+        "panel": "b",
+        "count": 5,
+        "key_attributes": [
+          "green curved chain",
+          "circulating target",
+          "soluble"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "LDL particles",
+        "category": "molecule",
+        "panel": "b",
+        "count": 3,
+        "key_attributes": [
+          "yellow spheres",
+          "lipoprotein particle",
+          "some PCSK9-associated"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "PCSK9 associated with LDL",
+        "category": "pathway_component",
+        "panel": "b",
+        "count": 3,
+        "key_attributes": [
+          "green PCSK9 on yellow LDL",
+          "complexed target",
+          "antibody-accessible"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "therapeutic antibody-PCSK9 complexes",
+        "category": "pathway_component",
+        "panel": "b",
+        "count": 4,
+        "key_attributes": [
+          "bound complexes",
+          "soluble",
+          "neutralization"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "red blood cells",
+        "category": "cell",
+        "panel": "b",
+        "count": 18,
+        "key_attributes": [
+          "pink biconcave discs",
+          "vascular context",
+          "background cells"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v10",
+        "entity_type": "visual",
+        "name": "white blood cells",
+        "category": "cell",
+        "panel": "b",
+        "count": 6,
+        "key_attributes": [
+          "blue round cells",
+          "vascular context",
+          "scattered"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v11",
+        "entity_type": "visual",
+        "name": "humanized therapeutic antibodies in bloodstream",
+        "category": "protein",
+        "panel": "c",
+        "count": 3,
+        "key_attributes": [
+          "blue Y-shaped",
+          "red murine patches",
+          "drug target"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v12",
+        "entity_type": "visual",
+        "name": "neutralizing anti-drug antibodies",
+        "category": "protein",
+        "panel": "c",
+        "count": 2,
+        "key_attributes": [
+          "gray Y-shaped",
+          "bind therapeutic antibody",
+          "anti-drug"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v13",
+        "entity_type": "visual",
+        "name": "anti-drug antibody bound to therapeutic antibody",
+        "category": "pathway_component",
+        "panel": "c",
+        "count": 2,
+        "key_attributes": [
+          "immune complex",
+          "recognizes murine region",
+          "blocks therapy"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v14",
+        "entity_type": "visual",
+        "name": "triple complex of neutralizing antibody, therapeutic antibody, and PCSK9",
+        "category": "pathway_component",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "larger immune complex",
+          "therapeutic still bound to PCSK9",
+          "immunogenicity"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v15",
+        "entity_type": "visual",
+        "name": "free PCSK9 molecules",
+        "category": "protein",
+        "panel": "c",
+        "count": 4,
+        "key_attributes": [
+          "green curved chain",
+          "circulating",
+          "some unbound"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v16",
+        "entity_type": "visual",
+        "name": "LDL particles in lower bloodstream scene",
+        "category": "molecule",
+        "panel": "c",
+        "count": 3,
+        "key_attributes": [
+          "yellow spheres",
+          "bloodstream context",
+          "with or without PCSK9"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v17",
+        "entity_type": "visual",
+        "name": "red blood cells lower scene",
+        "category": "cell",
+        "panel": "c",
+        "count": 18,
+        "key_attributes": [
+          "pink biconcave discs",
+          "vascular context",
+          "background cells"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v18",
+        "entity_type": "visual",
+        "name": "white blood cells lower scene",
+        "category": "cell",
+        "panel": "c",
+        "count": 4,
+        "key_attributes": [
+          "blue round cells",
+          "vascular context",
+          "background cells"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "panel a label",
+        "category": "panel_label",
+        "surface_text": "a",
+        "normalized_text": "a",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "panel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "Human antibody label",
+        "category": "scientific_label",
+        "surface_text": "Human antibody",
+        "normalized_text": "human antibody",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "fully human form"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "Human label",
+        "category": "scientific_label",
+        "surface_text": "Human",
+        "normalized_text": "human",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "species source"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "Murine label",
+        "category": "scientific_label",
+        "surface_text": "Murine",
+        "normalized_text": "murine",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "nonhuman source"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "Humanized antibody label",
+        "category": "scientific_label",
+        "surface_text": "Humanized antibody",
+        "normalized_text": "humanized antibody",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "mixed-origin antibody"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "panel b label",
+        "category": "panel_label",
+        "surface_text": "b",
+        "normalized_text": "b",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "panel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "Therapeutic antibody label",
+        "category": "scientific_label",
+        "surface_text": "Therapeutic antibody",
+        "normalized_text": "therapeutic antibody",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "drug antibody"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "PCSK9 label",
+        "category": "scientific_label",
+        "surface_text": "PCSK9",
+        "normalized_text": "PCSK9",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "circulating target"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "LDL label",
+        "category": "scientific_label",
+        "surface_text": "LDL",
+        "normalized_text": "LDL",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "lipoprotein particle"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "panel c label",
+        "category": "panel_label",
+        "surface_text": "c",
+        "normalized_text": "c",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "panel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "Therapeutic antibody label lower panel",
+        "category": "scientific_label",
+        "surface_text": "Therapeutic antibody",
+        "normalized_text": "therapeutic antibody",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "drug antibody"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "Neutralizing antibody label",
+        "category": "scientific_label",
+        "surface_text": "Neutralizing antibody",
+        "normalized_text": "neutralizing antibody",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "anti-drug antibody"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t2",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t5",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t3",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t4",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "v3",
+        "target_entity_id": "v2",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "v1",
+        "target_entity_id": "v2",
+        "relation_type": "above",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "t7",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "t8",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "t9",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "v7",
+        "target_entity_id": "v6",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "v5",
+        "target_entity_id": "v6",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "v4",
+        "target_entity_id": "v5",
+        "relation_type": "inhibits",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "v4",
+        "target_entity_id": "v7",
+        "relation_type": "inhibits",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "v8",
+        "target_entity_id": "v4",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "v8",
+        "target_entity_id": "v5",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "v9",
+        "target_entity_id": "v4",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "v10",
+        "target_entity_id": "v4",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "t11",
+        "target_entity_id": "v11",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "t12",
+        "target_entity_id": "v12",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "v12",
+        "target_entity_id": "v11",
+        "relation_type": "inhibits",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "v13",
+        "target_entity_id": "v12",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "v13",
+        "target_entity_id": "v11",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r23",
+        "source_entity_id": "v14",
+        "target_entity_id": "v12",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r24",
+        "source_entity_id": "v14",
+        "target_entity_id": "v11",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r25",
+        "source_entity_id": "v14",
+        "target_entity_id": "v15",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r26",
+        "source_entity_id": "v12",
+        "target_entity_id": "v3",
+        "relation_type": "points_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r27",
+        "source_entity_id": "v17",
+        "target_entity_id": "v11",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r28",
+        "source_entity_id": "v18",
+        "target_entity_id": "v11",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      }
+    ]
+  }
+}

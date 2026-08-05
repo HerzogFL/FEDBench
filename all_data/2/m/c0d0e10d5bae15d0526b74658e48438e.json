@@ -1,0 +1,459 @@
+{
+  "image_name": "c0d0e10d5bae15d0526b74658e48438e.png",
+  "prompt_text": "The figure contrasts how lithium metal cycling behaves at ultra-low temperature depending on solvent–ion interaction strength. In both schematics, a negatively polarized electrode sits on the left and a solvated positive ion approaches from the electrolyte. The blue shapes represent surrounding solvent molecules, while gray spheres indicate deposited lithium on the electrode surface.\n\nThe main message is that weak solvent–ion interactions favor cleaner lithium deposition. In the left panel, the solvated ion appears to release lithium more directly at the electrode, producing a relatively compact, uniform layer of deposited particles.\n\nIn the right panel, a thermometer and snowflake symbols indicate much colder conditions. Here, strong solvent–ion interactions keep the ion more tightly coordinated by solvent molecules. Curved arrows suggest slower or more complicated interfacial motion and desolvation before lithium can deposit. The resulting gray deposits near the electrode look more irregular and clustered, implying less controlled plating.\n\nOverall, the visual argues that under ultra-low-temperature operation, the strength of solvent binding to lithium is a key factor: weaker interactions make ion transfer and deposition easier, whereas stronger interactions hinder the process and promote uneven lithium growth.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "negative electrode",
+        "category": "device_component",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "left-side slab",
+          "negative terminal",
+          "gray rectangular electrode"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "solvated positive ion",
+        "category": "molecule",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "yellow central ion",
+          "plus sign",
+          "approaching electrode"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "solvent molecules",
+        "category": "molecule",
+        "panel": "a",
+        "count": 6,
+        "key_attributes": [
+          "blue polygonal shapes",
+          "surround ion",
+          "solvation shell"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "deposited lithium particles",
+        "category": "material_structure",
+        "panel": "a",
+        "count": 5,
+        "key_attributes": [
+          "gray spheres",
+          "compact row",
+          "on electrode surface"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "direct deposition arrow",
+        "category": "arrow",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "straight leftward arrow",
+          "toward electrode",
+          "direct transfer"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "negative electrode",
+        "category": "device_component",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "left-side slab",
+          "negative terminal",
+          "gray rectangular electrode"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "solvated positive ion",
+        "category": "molecule",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "yellow central ion",
+          "plus sign",
+          "tightly coordinated"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "solvent molecules",
+        "category": "molecule",
+        "panel": "b",
+        "count": 6,
+        "key_attributes": [
+          "blue polygonal shapes",
+          "close coordination",
+          "around ion"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "irregular lithium deposits",
+        "category": "material_structure",
+        "panel": "b",
+        "count": 2,
+        "key_attributes": [
+          "gray clustered chains",
+          "uneven plating",
+          "near electrode"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v10",
+        "entity_type": "visual",
+        "name": "interfacial motion arrows",
+        "category": "arrow",
+        "panel": "b",
+        "count": 3,
+        "key_attributes": [
+          "curved arrows",
+          "slower motion",
+          "complicated desolvation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v11",
+        "entity_type": "visual",
+        "name": "thermometer",
+        "category": "device_component",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "cold indicator",
+          "blue fill",
+          "upper left of panel"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v12",
+        "entity_type": "visual",
+        "name": "snowflakes",
+        "category": "annotation_text",
+        "panel": "b",
+        "count": 3,
+        "key_attributes": [
+          "blue snowflake symbols",
+          "cold condition",
+          "near thermometer"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "figure title",
+        "category": "annotation_text",
+        "surface_text": "Cycling Li metal at ultra-low temperatures",
+        "normalized_text": "Cycling Li metal at ultra-low temperatures",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "top title",
+          "topic summary"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "panel label a",
+        "category": "panel_label",
+        "surface_text": "a",
+        "normalized_text": "a",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "left panel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "weak interaction label",
+        "category": "annotation_text",
+        "surface_text": "Weak",
+        "normalized_text": "Weak",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "bold qualifier"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "solvent-ion interaction label panel a",
+        "category": "scientific_label",
+        "surface_text": "Solvent–ion interactions",
+        "normalized_text": "Solvent-ion interactions",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "interaction descriptor"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "panel label b",
+        "category": "panel_label",
+        "surface_text": "b",
+        "normalized_text": "b",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "right panel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "strong interaction label",
+        "category": "annotation_text",
+        "surface_text": "Strong",
+        "normalized_text": "Strong",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "bold qualifier"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "solvent-ion interaction label panel b",
+        "category": "scientific_label",
+        "surface_text": "Solvent–ion interactions",
+        "normalized_text": "Solvent-ion interactions",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "interaction descriptor"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t3",
+        "target_entity_id": "t4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t6",
+        "target_entity_id": "t7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "v3",
+        "target_entity_id": "v2",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "v8",
+        "target_entity_id": "v7",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "v2",
+        "target_entity_id": "v1",
+        "relation_type": "points_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "v7",
+        "target_entity_id": "v6",
+        "relation_type": "points_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "v4",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "v9",
+        "target_entity_id": "v6",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "v5",
+        "target_entity_id": "v1",
+        "relation_type": "points_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "v10",
+        "target_entity_id": "v6",
+        "relation_type": "points_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "v12",
+        "target_entity_id": "v11",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "v1",
+        "target_entity_id": "v2",
+        "relation_type": "left_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "v6",
+        "target_entity_id": "v7",
+        "relation_type": "left_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "v1",
+        "target_entity_id": "v4",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "v6",
+        "target_entity_id": "v9",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "v11",
+        "target_entity_id": "v6",
+        "relation_type": "above",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      }
+    ]
+  }
+}

@@ -1,0 +1,976 @@
+{
+  "image_name": "0b747c53621c3d53260ef2a48cd1236f.png",
+  "prompt_text": "This figure summarizes how telomeres are elongated during the cell cycle and how that reaction is shut off. In S phase, shelterin proteins bound at the chromosome end recruit telomerase through the TPP1–POT1 region, with TPP1 shown contacting telomerase and helping position it at the single-stranded telomeric overhang. Telomerase is depicted as an RNA–protein complex whose RNA template aligns with the chromosome end.\n\nOnce recruited, telomerase extends the 3′ G-rich strand by adding repeated telomeric DNA. The diagram emphasizes increased processivity during this extension step, meaning multiple repeats can be added before telomerase dissociates. Shelterin remains associated with the telomere during this synthesis, suggesting it supports efficient repeat addition rather than simply marking the site.\n\nIn late S/G2 phase, the extension reaction is terminated and telomerase is no longer active at the end. A CST complex containing CTC1, STN1, and TEN1 is then recruited, where it appears to block further telomerase action and promote fill-in synthesis by DNA polymerase α–primase. This final step restores the complementary C-strand, leaving a regulated telomeric overhang after elongation.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "telomeric DNA end",
+        "category": "molecule",
+        "panel": "single_panel",
+        "count": 3,
+        "key_attributes": [
+          "double-stranded repeat tract",
+          "3′ G-rich overhang",
+          "chromosome end"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "shelterin complex",
+        "category": "protein",
+        "panel": "single_panel",
+        "count": 3,
+        "key_attributes": [
+          "bound at telomere",
+          "multi-subunit cartoon",
+          "remains during extension"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "TPP1-POT1 region",
+        "category": "protein",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "contacts telomerase",
+          "at overhang",
+          "shelterin subcomplex"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "telomerase ribonucleoprotein",
+        "category": "protein",
+        "panel": "single_panel",
+        "count": 3,
+        "key_attributes": [
+          "RNA-protein complex",
+          "RNA stem-loop",
+          "bound near overhang"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "telomerase RNA template alignment",
+        "category": "molecule",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "RNA base-paired to DNA end",
+          "template positioning",
+          "inside telomerase"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "extension of 3′ G-rich strand",
+        "category": "pathway_component",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "elongated overhang",
+          "repeat addition",
+          "telomerase action"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "processivity arrow",
+        "category": "arrow",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "curved arrow",
+          "repeat addition",
+          "ongoing extension"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "CST complex",
+        "category": "protein",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "three-subunit complex",
+          "recruited in late S/G2",
+          "blocks telomerase"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "DNA polymerase alpha-primase",
+        "category": "protein",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "fill-in synthesis",
+          "C-strand restoration",
+          "associated arrow"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v10",
+        "entity_type": "visual",
+        "name": "termination/inhibition of telomerase",
+        "category": "arrow",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "inhibitory symbol",
+          "CST to telomerase",
+          "shutdown step"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v11",
+        "entity_type": "visual",
+        "name": "fill-in synthesis arrow",
+        "category": "arrow",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "leftward arrow",
+          "complementary strand synthesis",
+          "polymerase action"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v12",
+        "entity_type": "visual",
+        "name": "TCAB1-associated telomerase RNA features",
+        "category": "molecule",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "RNA stem loops",
+          "RNA motifs labeled",
+          "telomerase substructure"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v13",
+        "entity_type": "visual",
+        "name": "panel markers",
+        "category": "panel_marker",
+        "panel": "single_panel",
+        "count": 3,
+        "key_attributes": [
+          "a b c",
+          "section labels",
+          "left aligned"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "S phase",
+        "category": "scientific_label",
+        "surface_text": "S phase",
+        "normalized_text": "S phase",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "cell-cycle stage"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "Late S/G2 phase",
+        "category": "scientific_label",
+        "surface_text": "Late S/G2 phase",
+        "normalized_text": "Late S/G2 phase",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "cell-cycle stage"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "Recruitment",
+        "category": "annotation_text",
+        "surface_text": "Recruitment",
+        "normalized_text": "Recruitment",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "step title"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "Extension",
+        "category": "annotation_text",
+        "surface_text": "Extension",
+        "normalized_text": "Extension",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "step title"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "Termination and fill-in",
+        "category": "annotation_text",
+        "surface_text": "Termination and fill-in",
+        "normalized_text": "Termination and fill-in",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "step title"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "Shelterin",
+        "category": "scientific_label",
+        "surface_text": "Shelterin",
+        "normalized_text": "Shelterin",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "telomere-bound complex"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "TPP1",
+        "category": "scientific_label",
+        "surface_text": "TPP1",
+        "normalized_text": "TPP1",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "shelterin subunit"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "POT1",
+        "category": "scientific_label",
+        "surface_text": "POT1",
+        "normalized_text": "POT1",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "shelterin subunit"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "Telomerase",
+        "category": "scientific_label",
+        "surface_text": "Telomerase",
+        "normalized_text": "Telomerase",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "enzyme complex"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "Promotes processivity",
+        "category": "annotation_text",
+        "surface_text": "Promotes processivity",
+        "normalized_text": "Promotes processivity",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "extension behavior"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "CST complex",
+        "category": "scientific_label",
+        "surface_text": "CST complex",
+        "normalized_text": "CST complex",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "termination factor"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "TEN1",
+        "category": "scientific_label",
+        "surface_text": "TEN1",
+        "normalized_text": "TEN1",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "CST subunit"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "CTC1",
+        "category": "scientific_label",
+        "surface_text": "CTC1",
+        "normalized_text": "CTC1",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "CST subunit"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t14",
+        "entity_type": "text",
+        "name": "STN1",
+        "category": "scientific_label",
+        "surface_text": "STN1",
+        "normalized_text": "STN1",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "CST subunit"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t15",
+        "entity_type": "text",
+        "name": "Polymerase α-primase",
+        "category": "scientific_label",
+        "surface_text": "Polymerase α-primase",
+        "normalized_text": "Polymerase α-primase",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "fill-in enzyme"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t16",
+        "entity_type": "text",
+        "name": "Primer",
+        "category": "scientific_label",
+        "surface_text": "Primer",
+        "normalized_text": "Primer",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "DNA synthesis intermediate"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t17",
+        "entity_type": "text",
+        "name": "telomeric G-strand sequence",
+        "category": "scientific_label",
+        "surface_text": "TTAGGGTTAGGGTTAGGGTTAGGG 3′",
+        "normalized_text": "TTAGGG repeats 3′",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "G-rich strand",
+          "3′ overhang"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t18",
+        "entity_type": "text",
+        "name": "telomeric C-strand sequence",
+        "category": "scientific_label",
+        "surface_text": "AATCCCAATCCCAATCCCAATCCC 5′",
+        "normalized_text": "AATCCC repeats 5′",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "complementary strand",
+          "5′ end"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t19",
+        "entity_type": "text",
+        "name": "OB",
+        "category": "scientific_label",
+        "surface_text": "OB",
+        "normalized_text": "OB",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "protein domain"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t20",
+        "entity_type": "text",
+        "name": "TEN",
+        "category": "scientific_label",
+        "surface_text": "TEN",
+        "normalized_text": "TEN",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "protein domain"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t21",
+        "entity_type": "text",
+        "name": "P6.1",
+        "category": "scientific_label",
+        "surface_text": "P6.1",
+        "normalized_text": "P6.1",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "telomerase RNA feature"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t22",
+        "entity_type": "text",
+        "name": "P6b",
+        "category": "scientific_label",
+        "surface_text": "P6b",
+        "normalized_text": "P6b",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "telomerase RNA feature"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t23",
+        "entity_type": "text",
+        "name": "TCAB1",
+        "category": "scientific_label",
+        "surface_text": "TCAB1",
+        "normalized_text": "TCAB1",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "telomerase-associated factor"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t24",
+        "entity_type": "text",
+        "name": "CAB box",
+        "category": "scientific_label",
+        "surface_text": "CAB box",
+        "normalized_text": "CAB box",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "RNA motif"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t25",
+        "entity_type": "text",
+        "name": "panel label a",
+        "category": "panel_label",
+        "surface_text": "a",
+        "normalized_text": "a",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "panel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t26",
+        "entity_type": "text",
+        "name": "panel label b",
+        "category": "panel_label",
+        "surface_text": "b",
+        "normalized_text": "b",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "panel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t27",
+        "entity_type": "text",
+        "name": "panel label c",
+        "category": "panel_label",
+        "surface_text": "c",
+        "normalized_text": "c",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "panel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t6",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t7",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t8",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t9",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "t11",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "t12",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "t13",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "t14",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "t15",
+        "target_entity_id": "v9",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "t3",
+        "target_entity_id": "v3",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "t4",
+        "target_entity_id": "v6",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "t5",
+        "target_entity_id": "v10",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "t5",
+        "target_entity_id": "v11",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "t1",
+        "target_entity_id": "v3",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "t1",
+        "target_entity_id": "v6",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "t2",
+        "target_entity_id": "v8",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "t2",
+        "target_entity_id": "v9",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "v2",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "v3",
+        "target_entity_id": "v2",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "v3",
+        "target_entity_id": "v4",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "v4",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "v5",
+        "target_entity_id": "v4",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r23",
+        "source_entity_id": "v5",
+        "target_entity_id": "v1",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r24",
+        "source_entity_id": "v4",
+        "target_entity_id": "v6",
+        "relation_type": "transforms_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r25",
+        "source_entity_id": "v7",
+        "target_entity_id": "v6",
+        "relation_type": "points_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r26",
+        "source_entity_id": "v2",
+        "target_entity_id": "v6",
+        "relation_type": "connected_to",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r27",
+        "source_entity_id": "t10",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r28",
+        "source_entity_id": "v8",
+        "target_entity_id": "v4",
+        "relation_type": "inhibits",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r29",
+        "source_entity_id": "v10",
+        "target_entity_id": "v4",
+        "relation_type": "inhibits",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r30",
+        "source_entity_id": "v10",
+        "target_entity_id": "v8",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r31",
+        "source_entity_id": "v8",
+        "target_entity_id": "v9",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r32",
+        "source_entity_id": "v11",
+        "target_entity_id": "v1",
+        "relation_type": "points_to",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r33",
+        "source_entity_id": "v9",
+        "target_entity_id": "v11",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r34",
+        "source_entity_id": "v6",
+        "target_entity_id": "v11",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r35",
+        "source_entity_id": "v1",
+        "target_entity_id": "v4",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r36",
+        "source_entity_id": "v1",
+        "target_entity_id": "v8",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      }
+    ]
+  }
+}

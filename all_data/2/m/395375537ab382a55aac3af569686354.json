@@ -1,0 +1,582 @@
+{
+  "image_name": "395375537ab382a55aac3af569686354.png",
+  "prompt_text": "The figure compares several modular multilevel inverter topologies for generating three-phase outputs \\(V_a\\), \\(V_b\\), and \\(V_c\\) from DC sources. Across all panels, repeated shaded blocks indicate stacked converter cells used in each phase leg to synthesize multilevel AC waveforms.\n\nThe first two schematics show single-switching-cell approaches. One uses a half-bridge submodule with a capacitor and two switches, while the other uses a neutral-point-clamped style cell with four switches, two capacitors, and diodes, suggesting different ways to create stepped voltage levels from the same DC link.\n\nThe larger central diagram focuses on a generic “SM” submodule and shows two possible internal implementations: a four-switch full bridge or a simpler two-switch variant. Many of these submodules are connected in series in upper and lower arms, each arm including an inductor, which is characteristic of a modular multilevel converter structure.\n\nThe rightmost diagram presents a cascaded H-bridge arrangement. Here, separate isolated DC sources feed individual H-bridge cells labeled HB1 to HB\\(n\\), which are stacked to build the phase voltage. Overall, the figure emphasizes how different cell designs and energy-source arrangements can realize multilevel three-phase power conversion.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "stacked shaded converter cells",
+        "category": "cell",
+        "panel": "all_panels",
+        "count": 4,
+        "key_attributes": [
+          "repeated shaded blocks",
+          "stacked in phase legs",
+          "multilevel synthesis"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "half-bridge submodule",
+        "category": "cell",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "two switches",
+          "one capacitor",
+          "single cell"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "neutral-point-clamped style cell",
+        "category": "cell",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "four switches",
+          "two capacitors",
+          "diodes"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "generic SM submodule block",
+        "category": "cell",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "submodule concept",
+          "series stack",
+          "MMC arm element"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "full-bridge SM implementation",
+        "category": "cell",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "four switches",
+          "inside dashed inset",
+          "alternative implementation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "two-switch SM implementation",
+        "category": "cell",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "two switches",
+          "inside dashed inset",
+          "simpler variant"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "upper and lower converter arms with inductors",
+        "category": "pathway_component",
+        "panel": "c",
+        "count": 2,
+        "key_attributes": [
+          "series SM blocks",
+          "arm inductors",
+          "MMC structure"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "cascaded H-bridge arrangement",
+        "category": "cell",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "stacked H-bridge cells",
+          "isolated DC sources",
+          "phase synthesis"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "isolated DC source symbols",
+        "category": "device_component",
+        "panel": "d",
+        "count": 3,
+        "key_attributes": [
+          "separate sources",
+          "plus-minus terminals",
+          "feed H-bridge cells"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v10",
+        "entity_type": "visual",
+        "name": "three-phase output connection nodes",
+        "category": "pathway_component",
+        "panel": "all_panels",
+        "count": 3,
+        "key_attributes": [
+          "three outputs",
+          "phase terminals",
+          "right-side nodes"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v11",
+        "entity_type": "visual",
+        "name": "capacitors in submodules",
+        "category": "device_component",
+        "panel": "a,b,c",
+        "count": 4,
+        "key_attributes": [
+          "energy storage",
+          "cell capacitor",
+          "DC-link split"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v12",
+        "entity_type": "visual",
+        "name": "dashed inset boxes",
+        "category": "region",
+        "panel": "c,d",
+        "count": 2,
+        "key_attributes": [
+          "highlight internal cell",
+          "comparison inset",
+          "dashed border"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "phase voltage Va",
+        "category": "scientific_label",
+        "surface_text": "V_a",
+        "normalized_text": "Va",
+        "panel": "all_panels",
+        "count": 4,
+        "key_attributes": [
+          "phase output",
+          "top output label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "phase voltage Vb",
+        "category": "scientific_label",
+        "surface_text": "V_b",
+        "normalized_text": "Vb",
+        "panel": "all_panels",
+        "count": 4,
+        "key_attributes": [
+          "phase output",
+          "middle output label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "phase voltage Vc",
+        "category": "scientific_label",
+        "surface_text": "V_c",
+        "normalized_text": "Vc",
+        "panel": "all_panels",
+        "count": 4,
+        "key_attributes": [
+          "phase output",
+          "bottom output label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "SM label",
+        "category": "scientific_label",
+        "surface_text": "SM",
+        "normalized_text": "SM",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "submodule name",
+          "central topology"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "HB1 label",
+        "category": "scientific_label",
+        "surface_text": "HB 1",
+        "normalized_text": "HB1",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "first H-bridge cell"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "HBn label",
+        "category": "scientific_label",
+        "surface_text": "HB n",
+        "normalized_text": "HBn",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "nth H-bridge cell"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "DC source label",
+        "category": "scientific_label",
+        "surface_text": "V_dc",
+        "normalized_text": "Vdc",
+        "panel": "a,b,c,d",
+        "count": 5,
+        "key_attributes": [
+          "DC source",
+          "input voltage"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "panel label b",
+        "category": "panel_label",
+        "surface_text": "b",
+        "normalized_text": "b",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "panel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "panel labels",
+        "category": "panel_label",
+        "surface_text": "a, c, d",
+        "normalized_text": "a c d",
+        "panel": "a,c,d",
+        "count": 3,
+        "key_attributes": [
+          "panel markers"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "SM repeated labels",
+        "category": "scientific_label",
+        "surface_text": "SM 1, SM 2, SM n",
+        "normalized_text": "SM1 SM2 SMn",
+        "panel": "c",
+        "count": 6,
+        "key_attributes": [
+          "series submodules",
+          "upper and lower arms"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "HB2 label",
+        "category": "scientific_label",
+        "surface_text": "HB 2",
+        "normalized_text": "HB2",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "second H-bridge cell"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t1",
+        "target_entity_id": "v10",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t2",
+        "target_entity_id": "v10",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t3",
+        "target_entity_id": "v10",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "v1",
+        "target_entity_id": "v10",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "v2",
+        "target_entity_id": "v11",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "v3",
+        "target_entity_id": "v11",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "t4",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "v5",
+        "target_entity_id": "v4",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "v6",
+        "target_entity_id": "v4",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "v4",
+        "target_entity_id": "v7",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "v7",
+        "target_entity_id": "v10",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "v9",
+        "target_entity_id": "v8",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "t5",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "t6",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "v8",
+        "target_entity_id": "v10",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "v2",
+        "target_entity_id": "v3",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "v3",
+        "target_entity_id": "v4",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "v4",
+        "target_entity_id": "v8",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "t10",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "t11",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "v5",
+        "target_entity_id": "v12",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "v6",
+        "target_entity_id": "v12",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      }
+    ]
+  }
+}

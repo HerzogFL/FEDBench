@@ -1,0 +1,498 @@
+{
+  "image_name": "bb50b3200d4dcf704d478a49baa30aab.png",
+  "prompt_text": "The figure summarizes several routes to flatten electronic bands in a crystal. At the top, a square lattice is used to illustrate destructive interference: hopping paths with opposite sign cancel, effectively trapping electrons and producing a nearly dispersionless, or flat, band. This idea is paired with a schematic band diagram in which a flat band intersects more dispersive bands.\n\nThe middle part shows another mechanism based on a superlattice. A periodic modulation enlarges the real-space lattice and correspondingly shrinks the Brillouin zone. The original bands are folded into the smaller superlattice zone, creating multiple crossings and hybridization points. The highlighted bands become flatter after folding, suggesting reduced bandwidth due to the new longer-period structure.\n\nThe bottom panel depicts Landau levels. Electrons move in closed cyclotron-like orbits on a two-dimensional plane, indicating quantization under a magnetic field. This also leads to highly degenerate, flat energy levels.\n\nTaken together, the image compares three visually distinct ways to obtain flat electronic states: interference on a lattice, band folding in a superlattice, and magnetic-field-induced Landau quantization. The overall message is that flat bands can arise from geometry, added periodicity, or magnetic effects.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "square lattice with sites",
+        "category": "material_structure",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "square plaquette",
+          "circular sites",
+          "hopping path schematic"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "opposite-sign hopping arrows",
+        "category": "arrow",
+        "panel": "a",
+        "count": 2,
+        "key_attributes": [
+          "red downward",
+          "blue leftward",
+          "sign-canceling paths"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "flat band intersecting dispersive bands",
+        "category": "pathway_component",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "horizontal flat band",
+          "crossing cones",
+          "band schematic"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "original band structure plot",
+        "category": "pathway_component",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "dispersive bands",
+          "axes E and k",
+          "wide BZ"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "folded superlattice band structure plot",
+        "category": "pathway_component",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "band folding",
+          "multiple crossings",
+          "flatter highlighted bands"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "Brillouin zone width indicators",
+        "category": "arrow",
+        "panel": "b",
+        "count": 2,
+        "key_attributes": [
+          "double-headed arrows",
+          "original BZ",
+          "superlattice BZ"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "lattice modulation traces",
+        "category": "material_structure",
+        "panel": "b",
+        "count": 2,
+        "key_attributes": [
+          "red periodic waves",
+          "different periods",
+          "real-space lattice"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "two-dimensional plane",
+        "category": "region",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "tilted surface",
+          "2D sheet",
+          "background plane"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "cyclotron orbits",
+        "category": "arrow",
+        "panel": "c",
+        "count": 6,
+        "key_attributes": [
+          "closed loops",
+          "curved arrows",
+          "electron motion"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "panel a label",
+        "category": "panel_label",
+        "surface_text": "a",
+        "normalized_text": "a",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "Destructive interference",
+        "category": "scientific_label",
+        "surface_text": "Destructive interference",
+        "normalized_text": "destructive interference",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "mechanism title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "plus sign",
+        "category": "annotation_text",
+        "surface_text": "+",
+        "normalized_text": "+",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "path sign"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "zero annotation",
+        "category": "number",
+        "surface_text": "0",
+        "normalized_text": "0",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "cancellation result"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "Flat band",
+        "category": "scientific_label",
+        "surface_text": "Flat band",
+        "normalized_text": "flat band",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "band label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "panel b label",
+        "category": "panel_label",
+        "surface_text": "b",
+        "normalized_text": "b",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "Superlattice",
+        "category": "scientific_label",
+        "surface_text": "Superlattice",
+        "normalized_text": "superlattice",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "mechanism title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "energy axis label",
+        "category": "scientific_label",
+        "surface_text": "E",
+        "normalized_text": "E",
+        "panel": "b",
+        "count": 2,
+        "key_attributes": [
+          "vertical axis"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "momentum axis label",
+        "category": "scientific_label",
+        "surface_text": "k",
+        "normalized_text": "k",
+        "panel": "b",
+        "count": 2,
+        "key_attributes": [
+          "horizontal axis"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "Original BZ",
+        "category": "scientific_label",
+        "surface_text": "Original BZ",
+        "normalized_text": "original BZ",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "zone label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "Superlattice BZ",
+        "category": "scientific_label",
+        "surface_text": "Superlattice BZ",
+        "normalized_text": "superlattice BZ",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "zone label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "Lattice",
+        "category": "scientific_label",
+        "surface_text": "Lattice",
+        "normalized_text": "lattice",
+        "panel": "b",
+        "count": 2,
+        "key_attributes": [
+          "real-space label"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "panel c label",
+        "category": "panel_label",
+        "surface_text": "c",
+        "normalized_text": "c",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t14",
+        "entity_type": "text",
+        "name": "Landau levels",
+        "category": "scientific_label",
+        "surface_text": "Landau levels",
+        "normalized_text": "Landau levels",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "mechanism title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t2",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "v2",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "v2",
+        "target_entity_id": "v3",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t5",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "v1",
+        "target_entity_id": "v3",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "t7",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "v4",
+        "target_entity_id": "v5",
+        "relation_type": "transforms_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "t10",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "t11",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "v6",
+        "target_entity_id": "v4",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "v6",
+        "target_entity_id": "v5",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "v7",
+        "target_entity_id": "v5",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "t14",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "v9",
+        "target_entity_id": "v8",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      }
+    ]
+  }
+}

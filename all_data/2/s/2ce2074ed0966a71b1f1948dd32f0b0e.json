@@ -1,0 +1,469 @@
+{
+  "image_name": "2ce2074ed0966a71b1f1948dd32f0b0e.png",
+  "prompt_text": "The figure summarizes four common strategies for attaching or localizing small circular objects, likely particles or vesicles, within a soft network-like material. Across all panels, the same mesh-like matrix is shown, while the mode of interaction changes.\n\nOne approach uses simple electrostatic attraction: positively charged domains in the matrix attract the particles without a specific chemical bond. Two panels then show covalent-style attachment chemistries. In the imine-bonding example, particles appear linked through reversible imine formation involving o-nitrobenzyl-containing groups. In the click-chemistry example, azide and DBCO groups are used for bioorthogonal coupling, indicating a more specific and stable chemical conjugation between the particles and the surrounding material.\n\nThe final strategy relies on biological recognition rather than generic charge or synthetic chemistry. Here, peptide ligands on the particle surface bind to integrins in the matrix, creating sequence-specific interactions. Compared with the other panels, this emphasizes selective, receptor-like binding.\n\nOverall, the figure contrasts noncovalent, covalent, and biomolecular recognition mechanisms for integrating particles into a hydrogel or polymer scaffold, highlighting increasing specificity from electrostatic interactions to sequence-specific peptide–integrin binding.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "hydrogel/polymer mesh matrix",
+        "category": "material_structure",
+        "panel": "single_panel",
+        "count": 4,
+        "key_attributes": [
+          "mesh-like network",
+          "circular panel interior",
+          "repeated across panels"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "small circular particles or vesicles",
+        "category": "molecule",
+        "panel": "single_panel",
+        "count": 10,
+        "key_attributes": [
+          "small blue-outlined circles",
+          "embedded in matrix",
+          "interaction target"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "positively charged domains",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 5,
+        "key_attributes": [
+          "red circular marks",
+          "plus symbols",
+          "electrostatic attraction"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "o-nitrobenzyl functional groups / imine linkage chemistry",
+        "category": "molecule",
+        "panel": "single_panel",
+        "count": 3,
+        "key_attributes": [
+          "chemical structures",
+          "attached near particles",
+          "imine-bonding panel"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "azide and DBCO click-coupling chemistry",
+        "category": "molecule",
+        "panel": "single_panel",
+        "count": 3,
+        "key_attributes": [
+          "chemical structures",
+          "bioorthogonal coupling",
+          "click-chemistry panel"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "integrin receptors",
+        "category": "protein",
+        "panel": "single_panel",
+        "count": 3,
+        "key_attributes": [
+          "gray oval receptors",
+          "embedded in matrix",
+          "bind peptide ligands"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "peptide ligands on particle surface",
+        "category": "molecule",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "teal tether",
+          "surface ligand",
+          "recognition interaction"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "Electrostatic interactions",
+        "category": "scientific_label",
+        "surface_text": "Electrostatic interactions",
+        "normalized_text": "electrostatic interactions",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "panel title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "Imine bonding",
+        "category": "scientific_label",
+        "surface_text": "Imine bonding",
+        "normalized_text": "imine bonding",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "panel title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "Click chemistry",
+        "category": "scientific_label",
+        "surface_text": "Click chemistry",
+        "normalized_text": "click chemistry",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "panel title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "Sequence-specific interactions",
+        "category": "scientific_label",
+        "surface_text": "Sequence-specific interactions",
+        "normalized_text": "sequence-specific interactions",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "panel title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "Charged domains",
+        "category": "annotation_text",
+        "surface_text": "+ Charged domains",
+        "normalized_text": "charged domains",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "electrostatic panel annotation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "o-Nitrobenzyl",
+        "category": "scientific_label",
+        "surface_text": "o-Nitrobenzyl",
+        "normalized_text": "o-nitrobenzyl",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "chemical group label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "DBCO",
+        "category": "scientific_label",
+        "surface_text": "DBCO",
+        "normalized_text": "DBCO",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "click chemistry label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "Azide",
+        "category": "scientific_label",
+        "surface_text": "Azide",
+        "normalized_text": "azide",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "click chemistry label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "Integrins",
+        "category": "scientific_label",
+        "surface_text": "Integrins",
+        "normalized_text": "integrins",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "receptor label"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "Peptide",
+        "category": "scientific_label",
+        "surface_text": "Peptide",
+        "normalized_text": "peptide",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "ligand label"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "ON",
+        "category": "annotation_text",
+        "surface_text": "ON",
+        "normalized_text": "ON",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "small chemical annotation"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t1",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t5",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "v3",
+        "target_entity_id": "v2",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "v2",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "t2",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "t6",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "v4",
+        "target_entity_id": "v2",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "v4",
+        "target_entity_id": "v1",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "t3",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "t7",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "t8",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "v5",
+        "target_entity_id": "v2",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "v5",
+        "target_entity_id": "v1",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "t4",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "t9",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "t10",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "v7",
+        "target_entity_id": "v2",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "v7",
+        "target_entity_id": "v6",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "v6",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      }
+    ]
+  }
+}

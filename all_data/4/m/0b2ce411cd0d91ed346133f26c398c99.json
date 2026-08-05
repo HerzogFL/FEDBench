@@ -1,0 +1,710 @@
+{
+  "image_name": "0b2ce411cd0d91ed346133f26c398c99.png",
+  "prompt_text": "The figure summarizes viral strategies for mapping neural connections, organized by tracing direction and how far the label spreads. The top row shows anterograde tracing, following signals from an injected neuron toward downstream partners. A circuit-specific approach uses two fluorescent AAV labels to mark projections to selected target regions. A monosynaptic method with AAV1 appears to move one synapse forward, labeling immediate postsynaptic target cell types. A polysynaptic approach using HSV-H129 spreads across multiple downstream neurons, illustrating stepwise transmission through a chain of connected cells.\n\nThe bottom row shows retrograde tracing, moving from axon terminals back to upstream neurons. A circuit-specific method uses viruses such as PRV, rabies, HSV, AAVrg, or CAV to label neurons projecting into a target region. A monosynaptic retrograde strategy combines helper AAVs with EnvA-pseudotyped rabies, restricting spread to a defined starter cell type and then to its direct presynaptic inputs. A polysynaptic retrograde method with PRV-Bartha spreads backward through several connected neurons, revealing broader upstream cell-type networks.\n\nOverall, the figure compares directionality, synaptic specificity, and the kinds of targets each viral tracing method can reveal.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "neuronal tracing schematic set",
+        "category": "cell",
+        "panel": "single_panel",
+        "count": 6,
+        "key_attributes": [
+          "stylized neurons",
+          "green/red/blue cells",
+          "one per method"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "anterograde direction arrows",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 5,
+        "key_attributes": [
+          "downward",
+          "top row",
+          "signal flow"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "retrograde direction arrows",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 5,
+        "key_attributes": [
+          "upward",
+          "bottom row",
+          "signal flow"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "virus particle clusters",
+        "category": "molecule",
+        "panel": "single_panel",
+        "count": 5,
+        "key_attributes": [
+          "small dots",
+          "released at synapses",
+          "green or red"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "syringes for viral injection",
+        "category": "device_component",
+        "panel": "single_panel",
+        "count": 6,
+        "key_attributes": [
+          "injection icons",
+          "angled needles",
+          "one per method"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "target regions",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "blue diffuse area",
+          "projection target",
+          "circuit-specific panels"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "target cell type markers",
+        "category": "cell",
+        "panel": "single_panel",
+        "count": 3,
+        "key_attributes": [
+          "postsynaptic or starter cell",
+          "highlighted endpoint",
+          "monosynaptic panels"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "multi-step neuron chains",
+        "category": "pathway_component",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "serial connected cells",
+          "polysynaptic spread",
+          "stepwise transmission"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "Circuit-specific",
+        "category": "scientific_label",
+        "surface_text": "Circuit-specific",
+        "normalized_text": "circuit-specific",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "column title",
+          "appears twice"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "Monosynaptic",
+        "category": "scientific_label",
+        "surface_text": "Monosynaptic",
+        "normalized_text": "monosynaptic",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "column title",
+          "appears twice"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "Polysynaptic",
+        "category": "scientific_label",
+        "surface_text": "Polysynaptic",
+        "normalized_text": "polysynaptic",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "column title",
+          "appears twice"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "Anterograde tracing",
+        "category": "annotation_text",
+        "surface_text": "Anterograde tracing",
+        "normalized_text": "anterograde tracing",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "row label",
+          "top row"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "Retrograde tracing",
+        "category": "annotation_text",
+        "surface_text": "Retrograde tracing",
+        "normalized_text": "retrograde tracing",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "row label",
+          "bottom row"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "AAV-GFP",
+        "category": "scientific_label",
+        "surface_text": "AAV-GFP",
+        "normalized_text": "AAV-GFP",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "anterograde circuit-specific",
+          "green label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "AAV-SynP-mCherry",
+        "category": "scientific_label",
+        "surface_text": "AAV-SynP-mCherry",
+        "normalized_text": "AAV-SynP-mCherry",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "anterograde circuit-specific",
+          "red label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "AAV1-GFP",
+        "category": "scientific_label",
+        "surface_text": "AAV1-GFP",
+        "normalized_text": "AAV1-GFP",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "anterograde monosynaptic"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "HSV-H129-GFP",
+        "category": "scientific_label",
+        "surface_text": "HSV-H129-GFP",
+        "normalized_text": "HSV-H129-GFP",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "anterograde polysynaptic"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "PRV/RbV/HSV/AAVrg/CAV-mCherry",
+        "category": "scientific_label",
+        "surface_text": "PRV/RbV/HSV/AAVrg/CAV-mCherry",
+        "normalized_text": "PRV/RbV/HSV/AAVrg/CAV-mCherry",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "retrograde circuit-specific",
+          "virus set"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "AAV-TVA/RG-mCherry",
+        "category": "scientific_label",
+        "surface_text": "AAV-TVA/RG-mCherry",
+        "normalized_text": "AAV-TVA/RG-mCherry",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "retrograde monosynaptic helper AAV"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "RbV(EnvA)-GFP",
+        "category": "scientific_label",
+        "surface_text": "RbV(EnvA)-GFP",
+        "normalized_text": "RbV(EnvA)-GFP",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "retrograde monosynaptic rabies"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "PRV(Bartha)-GFP",
+        "category": "scientific_label",
+        "surface_text": "PRV(Bartha)-GFP",
+        "normalized_text": "PRV(Bartha)-GFP",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "retrograde polysynaptic"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t14",
+        "entity_type": "text",
+        "name": "(PRV-152)",
+        "category": "annotation_text",
+        "surface_text": "(PRV-152)",
+        "normalized_text": "PRV-152",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "alternate designation"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t15",
+        "entity_type": "text",
+        "name": "Virus particles",
+        "category": "annotation_text",
+        "surface_text": "Virus particles",
+        "normalized_text": "virus particles",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "callout label"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t16",
+        "entity_type": "text",
+        "name": "Target region(s)",
+        "category": "annotation_text",
+        "surface_text": "Target region(s)",
+        "normalized_text": "target region(s)",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "top-left target"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t17",
+        "entity_type": "text",
+        "name": "Target cell type(s)",
+        "category": "annotation_text",
+        "surface_text": "Target cell type(s)",
+        "normalized_text": "target cell type(s)",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "top-middle target"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t18",
+        "entity_type": "text",
+        "name": "Target region",
+        "category": "annotation_text",
+        "surface_text": "Target region",
+        "normalized_text": "target region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "bottom-left target"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t19",
+        "entity_type": "text",
+        "name": "Target cell type",
+        "category": "annotation_text",
+        "surface_text": "Target cell type",
+        "normalized_text": "target cell type",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "bottom-middle target"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t20",
+        "entity_type": "text",
+        "name": "Target cell types",
+        "category": "annotation_text",
+        "surface_text": "Target cell types",
+        "normalized_text": "target cell types",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "polysynaptic targets",
+          "appears twice"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t4",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t5",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t1",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t2",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "t3",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "t16",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "t17",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "t18",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "t19",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "t20",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "t6",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "t7",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "t8",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "t9",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "t10",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "t11",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "t12",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "t13",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "t15",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "v2",
+        "target_entity_id": "v7",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "v2",
+        "target_entity_id": "v8",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "v3",
+        "target_entity_id": "v7",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r23",
+        "source_entity_id": "v3",
+        "target_entity_id": "v8",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r24",
+        "source_entity_id": "v1",
+        "target_entity_id": "v6",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r25",
+        "source_entity_id": "v1",
+        "target_entity_id": "v7",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r26",
+        "source_entity_id": "v1",
+        "target_entity_id": "v8",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r27",
+        "source_entity_id": "v4",
+        "target_entity_id": "v8",
+        "relation_type": "flows_to",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      }
+    ]
+  }
+}

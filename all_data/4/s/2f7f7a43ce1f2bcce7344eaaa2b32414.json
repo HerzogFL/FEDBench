@@ -1,0 +1,1196 @@
+{
+  "image_name": "2f7f7a43ce1f2bcce7344eaaa2b32414.jpg",
+  "prompt_text": "This figure summarizes how different immune cell populations are recruited from the blood into the tumor microenvironment and then help tumors grow. At the top, several suppressive or tumor-promoting cell types are shown with their chemokine receptors, including granulocytic and monocytic MDSCs, Treg cells, TH22 cells, IL-22–producing ILCs, and pDCs. Each is linked to matching chemokines that appear to guide recruitment into tumors, such as CXCL8, CCL2, CXCL5, CXCL12, CCL22, CCL28, and CCL20.\n\nIn the tumor environment below, these recruited cells collectively shift immunity away from antitumor activity. They inhibit key effector cells, especially CD8+ T cells and NK cells, and alter helper T-cell responses. The diagram highlights several consequences of this immune reshaping: promotion of cancer stemness, local suppression of the antitumor immune response, and stimulation of angiogenesis. These effects feed back to support the tumor cell mass.\n\nOverall, the image presents a model in which chemokine-driven trafficking of specific immune subsets into tumors creates an immunosuppressive niche that weakens tumor-killing responses and fosters tumor expansion and cancer progression. Some receptor–ligand details are small, but the central message is clear.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "blood vessel compartment",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "top horizontal band",
+          "source compartment"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "granulocytic MDSC",
+        "category": "cell",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "blue immune cell",
+          "recruited from blood"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "monocyte or monocytic MDSC",
+        "category": "cell",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "blue myeloid cell",
+          "recruited from blood"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "Treg cell",
+        "category": "cell",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "purple lymphocyte",
+          "suppressive"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "TH22 cell",
+        "category": "cell",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "green lymphocyte",
+          "helper T cell subtype"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "IL-22-producing ILC",
+        "category": "cell",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "pink immune cell",
+          "IL-22 producing"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "pDC",
+        "category": "cell",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "green plasmacytoid cell",
+          "recruited from blood"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "tumour microenvironment region",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "lower grey field",
+          "tumour niche"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "tumour cell mass",
+        "category": "cell",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "cluster of blue cells",
+          "left and right masses"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v10",
+        "entity_type": "visual",
+        "name": "CD8+ T cell",
+        "category": "cell",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "red T cell",
+          "effector cell"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v11",
+        "entity_type": "visual",
+        "name": "NK cell",
+        "category": "cell",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "speckled orange cell",
+          "effector cell"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v12",
+        "entity_type": "visual",
+        "name": "TH1 cell",
+        "category": "cell",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "green helper T cell",
+          "antitumour-associated"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v13",
+        "entity_type": "visual",
+        "name": "TH17 cell",
+        "category": "cell",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "green helper T cell",
+          "altered helper response"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v14",
+        "entity_type": "visual",
+        "name": "recruitment arrows from blood to tumour",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 6,
+        "key_attributes": [
+          "downward arrows",
+          "cell trafficking"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v15",
+        "entity_type": "visual",
+        "name": "inhibitory interaction bars and arrows",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 6,
+        "key_attributes": [
+          "suppression links",
+          "toward effector cells"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v16",
+        "entity_type": "visual",
+        "name": "large progression arrow",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "curved blue arrow",
+          "toward larger tumour"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "Blood vessel label",
+        "category": "scientific_label",
+        "surface_text": "Blood vessel",
+        "normalized_text": "blood vessel",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "top compartment label"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "Granulocytic MDSC label",
+        "category": "scientific_label",
+        "surface_text": "Granulocytic MDSC",
+        "normalized_text": "granulocytic MDSC",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "cell identity"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "Monocyte or monocytic MDSC label",
+        "category": "scientific_label",
+        "surface_text": "Monocyte or monocytic MDSC",
+        "normalized_text": "monocyte or monocytic MDSC",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "cell identity"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "Treg cell label",
+        "category": "scientific_label",
+        "surface_text": "Treg cell",
+        "normalized_text": "Treg cell",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "cell identity"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "TH22 cell label",
+        "category": "scientific_label",
+        "surface_text": "TH22 cell",
+        "normalized_text": "TH22 cell",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "cell identity"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "IL-22-producing ILC label",
+        "category": "scientific_label",
+        "surface_text": "IL-22-producing ILC",
+        "normalized_text": "IL-22-producing ILC",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "cell identity"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "pDC label",
+        "category": "scientific_label",
+        "surface_text": "pDC",
+        "normalized_text": "pDC",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "cell identity"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "CXCR1 receptor label",
+        "category": "scientific_label",
+        "surface_text": "CXCR1",
+        "normalized_text": "CXCR1",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "chemokine receptor"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "CXCR2 receptor label",
+        "category": "scientific_label",
+        "surface_text": "CXCR2",
+        "normalized_text": "CXCR2",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "chemokine receptor"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "CCR2 receptor label",
+        "category": "scientific_label",
+        "surface_text": "CCR2",
+        "normalized_text": "CCR2",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "chemokine receptor"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "CXCR4 receptor label",
+        "category": "scientific_label",
+        "surface_text": "CXCR4",
+        "normalized_text": "CXCR4",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "chemokine receptor"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "CCR4 receptor label",
+        "category": "scientific_label",
+        "surface_text": "CCR4",
+        "normalized_text": "CCR4",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "chemokine receptor"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "CCR10 receptor label",
+        "category": "scientific_label",
+        "surface_text": "CCR10",
+        "normalized_text": "CCR10",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "chemokine receptor"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t14",
+        "entity_type": "text",
+        "name": "CCL20 ligand label",
+        "category": "scientific_label",
+        "surface_text": "CCL20",
+        "normalized_text": "CCL20",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "chemokine ligand"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t15",
+        "entity_type": "text",
+        "name": "CCR6 receptor label",
+        "category": "scientific_label",
+        "surface_text": "CCR6",
+        "normalized_text": "CCR6",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "chemokine receptor"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t16",
+        "entity_type": "text",
+        "name": "Recruited by CXCL8 annotation",
+        "category": "annotation_text",
+        "surface_text": "Recruited by CXCL8",
+        "normalized_text": "recruited by CXCL8",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "chemokine recruitment"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t17",
+        "entity_type": "text",
+        "name": "Recruited by CCL2, CXCL5 and CXCL12 annotation",
+        "category": "annotation_text",
+        "surface_text": "Recruited by CCL2, CXCL5 and CXCL12",
+        "normalized_text": "recruited by CCL2, CXCL5 and CXCL12",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "chemokine recruitment"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t18",
+        "entity_type": "text",
+        "name": "Recruited by CCL22 and CCL28 annotation",
+        "category": "annotation_text",
+        "surface_text": "Recruited by CCL22 and CCL28",
+        "normalized_text": "recruited by CCL22 and CCL28",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "chemokine recruitment"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t19",
+        "entity_type": "text",
+        "name": "Recruited by CCL20 annotation",
+        "category": "annotation_text",
+        "surface_text": "Recruited by CCL20",
+        "normalized_text": "recruited by CCL20",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "chemokine recruitment"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t20",
+        "entity_type": "text",
+        "name": "Unknown recruitment annotation",
+        "category": "annotation_text",
+        "surface_text": "?",
+        "normalized_text": "?",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "unknown factor"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t21",
+        "entity_type": "text",
+        "name": "Recruited by CXCL12 annotation",
+        "category": "annotation_text",
+        "surface_text": "Recruited by CXCL12",
+        "normalized_text": "recruited by CXCL12",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "chemokine recruitment"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t22",
+        "entity_type": "text",
+        "name": "Promote cancer stemness annotation",
+        "category": "annotation_text",
+        "surface_text": "Promote cancer stemness",
+        "normalized_text": "promote cancer stemness",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "downstream effect"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t23",
+        "entity_type": "text",
+        "name": "Local suppression annotation",
+        "category": "annotation_text",
+        "surface_text": "Local suppression of the antitumour immune response",
+        "normalized_text": "local suppression of the antitumour immune response",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "downstream effect"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t24",
+        "entity_type": "text",
+        "name": "Promotes angiogenesis annotation",
+        "category": "annotation_text",
+        "surface_text": "Promotes angiogenesis",
+        "normalized_text": "promotes angiogenesis",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "downstream effect"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t25",
+        "entity_type": "text",
+        "name": "Tumour cell label",
+        "category": "scientific_label",
+        "surface_text": "Tumour cell",
+        "normalized_text": "tumour cell",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "cell identity"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t26",
+        "entity_type": "text",
+        "name": "Tumour microenvironment label",
+        "category": "scientific_label",
+        "surface_text": "Tumour microenvironment",
+        "normalized_text": "tumour microenvironment",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "region identity"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t27",
+        "entity_type": "text",
+        "name": "CD8+ T cell label",
+        "category": "scientific_label",
+        "surface_text": "CD8+ T cell",
+        "normalized_text": "CD8+ T cell",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "effector cell identity"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t28",
+        "entity_type": "text",
+        "name": "NK cell label",
+        "category": "scientific_label",
+        "surface_text": "NK cell",
+        "normalized_text": "NK cell",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "effector cell identity"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t29",
+        "entity_type": "text",
+        "name": "TH1 cell label",
+        "category": "scientific_label",
+        "surface_text": "TH1 cell",
+        "normalized_text": "TH1 cell",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "helper T-cell identity"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t30",
+        "entity_type": "text",
+        "name": "TH17 cell label",
+        "category": "scientific_label",
+        "surface_text": "TH17 cell",
+        "normalized_text": "TH17 cell",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "helper T-cell identity"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t31",
+        "entity_type": "text",
+        "name": "Cancer progression annotation",
+        "category": "annotation_text",
+        "surface_text": "Cancer progression",
+        "normalized_text": "cancer progression",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "final outcome"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t1",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t2",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t3",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t4",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "t5",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "t6",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "t7",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "t26",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "t27",
+        "target_entity_id": "v10",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "t28",
+        "target_entity_id": "v11",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "t29",
+        "target_entity_id": "v12",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "t30",
+        "target_entity_id": "v13",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "t25",
+        "target_entity_id": "v9",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "v2",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "v3",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "v4",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "v5",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "v6",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "v7",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "v10",
+        "target_entity_id": "v8",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "v11",
+        "target_entity_id": "v8",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "v12",
+        "target_entity_id": "v8",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r23",
+        "source_entity_id": "v13",
+        "target_entity_id": "v8",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r24",
+        "source_entity_id": "v9",
+        "target_entity_id": "v8",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r25",
+        "source_entity_id": "v1",
+        "target_entity_id": "v8",
+        "relation_type": "above",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r26",
+        "source_entity_id": "t16",
+        "target_entity_id": "v2",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r27",
+        "source_entity_id": "t17",
+        "target_entity_id": "v3",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r28",
+        "source_entity_id": "t18",
+        "target_entity_id": "v4",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r29",
+        "source_entity_id": "t19",
+        "target_entity_id": "v5",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r30",
+        "source_entity_id": "t21",
+        "target_entity_id": "v7",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r31",
+        "source_entity_id": "v2",
+        "target_entity_id": "v8",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r32",
+        "source_entity_id": "v3",
+        "target_entity_id": "v8",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r33",
+        "source_entity_id": "v4",
+        "target_entity_id": "v8",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r34",
+        "source_entity_id": "v5",
+        "target_entity_id": "v8",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r35",
+        "source_entity_id": "v6",
+        "target_entity_id": "v8",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r36",
+        "source_entity_id": "v7",
+        "target_entity_id": "v8",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r37",
+        "source_entity_id": "v2",
+        "target_entity_id": "v10",
+        "relation_type": "inhibits",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r38",
+        "source_entity_id": "v3",
+        "target_entity_id": "v11",
+        "relation_type": "inhibits",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r39",
+        "source_entity_id": "v4",
+        "target_entity_id": "v11",
+        "relation_type": "inhibits",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r40",
+        "source_entity_id": "v7",
+        "target_entity_id": "v10",
+        "relation_type": "inhibits",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r41",
+        "source_entity_id": "v7",
+        "target_entity_id": "v11",
+        "relation_type": "inhibits",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r42",
+        "source_entity_id": "v5",
+        "target_entity_id": "v12",
+        "relation_type": "inhibits",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r43",
+        "source_entity_id": "v6",
+        "target_entity_id": "v13",
+        "relation_type": "activates",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r44",
+        "source_entity_id": "t22",
+        "target_entity_id": "v9",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r45",
+        "source_entity_id": "t23",
+        "target_entity_id": "v10",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r46",
+        "source_entity_id": "t23",
+        "target_entity_id": "v11",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r47",
+        "source_entity_id": "t24",
+        "target_entity_id": "v9",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r48",
+        "source_entity_id": "v8",
+        "target_entity_id": "v9",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r49",
+        "source_entity_id": "t31",
+        "target_entity_id": "v16",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r50",
+        "source_entity_id": "v9",
+        "target_entity_id": "v16",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      }
+    ]
+  }
+}

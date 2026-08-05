@@ -1,0 +1,1170 @@
+{
+  "image_name": "42742f94522dbc24a47f2cdebd56fe73.png",
+  "prompt_text": "The figure summarizes battery recycling pathways from whole packs down to separated electrode materials, contrasting today’s industrial practice with more selective, laboratory-scale approaches. It begins with received batteries being tested and triaged to decide whether modules can be reused, remanufactured, or sent to recycling. In common industrial routes, batteries are discharged and usually enter comminution, where packs or modules are manually opened only as needed and then shredded. Because manual disassembly is risky and labor intensive, most packs are reduced to smaller units before shredding, sometimes after thermal pretreatment or cooling measures to limit fire risk.\n\nShredding produces mixed outputs that are then physically separated into streams such as electrolyte, polymer-rich shreds, mixed black mass, and copper and aluminum fractions. Advanced separation can further refine these materials.\n\nAlongside this, the figure highlights a more targeted disassembly route. If cell type and pack configuration are known, packs can be dismantled into modules and cells, and cells can be split into anode, separator, and cathode layers. Binder removal and delamination then allow recovery of cleaner anode and cathode materials and metal foils. The overall message is that current recycling is dominated by shredding, while better pack design, data access, and automation could enable cleaner, higher-value material recovery.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "battery pack",
+        "category": "device_component",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "rectangular pack",
+          "entry item",
+          "workflow node"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "battery module",
+        "category": "device_component",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "intermediate unit",
+          "between pack and cell"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "battery cell",
+        "category": "cell",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "single cell unit",
+          "feeds layer separation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "shredding/comminution unit",
+        "category": "device_component",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "roller shredder",
+          "industrial route"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "shredded material stream",
+        "category": "material_structure",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "mixed fragments",
+          "post-shredding output"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "physical separation outputs",
+        "category": "pathway_component",
+        "panel": "single_panel",
+        "count": 5,
+        "key_attributes": [
+          "multiple product streams",
+          "after shredding"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "electrode layer set",
+        "category": "layer",
+        "panel": "single_panel",
+        "count": 3,
+        "key_attributes": [
+          "anode",
+          "separator",
+          "cathode"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "binder removal and delamination process",
+        "category": "pathway_component",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "post-separation treatment",
+          "clean material recovery"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "clean recovered electrode materials and foils",
+        "category": "material_structure",
+        "panel": "single_panel",
+        "count": 4,
+        "key_attributes": [
+          "anode material",
+          "cathode material",
+          "metal foils"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v10",
+        "entity_type": "visual",
+        "name": "workflow arrows",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 20,
+        "key_attributes": [
+          "branching flow",
+          "process direction"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v11",
+        "entity_type": "visual",
+        "name": "industry-scale region",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "left side",
+          "industrial practice"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v12",
+        "entity_type": "visual",
+        "name": "laboratory-scale region",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "right side",
+          "selective approach"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v13",
+        "entity_type": "visual",
+        "name": "gateway testing and triage node",
+        "category": "pathway_component",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "decision stage",
+          "upstream sorting"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v14",
+        "entity_type": "visual",
+        "name": "advanced separation processes node",
+        "category": "pathway_component",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "refinement step",
+          "lab-scale branch"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v15",
+        "entity_type": "visual",
+        "name": "warning and handling icons",
+        "category": "legend_key",
+        "panel": "single_panel",
+        "count": 6,
+        "key_attributes": [
+          "risk icons",
+          "illustrative callouts"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "Comminution (shredding)",
+        "category": "scientific_label",
+        "surface_text": "Comminution (shredding)",
+        "normalized_text": "comminution (shredding)",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "process title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "Gateway testing and triage",
+        "category": "scientific_label",
+        "surface_text": "Gateway testing and triage",
+        "normalized_text": "gateway testing and triage",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "decision stage"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "Disassembly (robotics, automation)",
+        "category": "scientific_label",
+        "surface_text": "Disassembly (robotics, automation)",
+        "normalized_text": "disassembly (robotics, automation)",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "selective route"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "Industry scale",
+        "category": "scientific_label",
+        "surface_text": "Industry scale",
+        "normalized_text": "industry scale",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "left branch header"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "Laboratory scale",
+        "category": "scientific_label",
+        "surface_text": "Laboratory scale",
+        "normalized_text": "laboratory scale",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "right branch header"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "Pack",
+        "category": "scientific_label",
+        "surface_text": "Pack",
+        "normalized_text": "pack",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "device level"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "Module",
+        "category": "scientific_label",
+        "surface_text": "Module",
+        "normalized_text": "module",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "device level"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "Cell",
+        "category": "scientific_label",
+        "surface_text": "Cell",
+        "normalized_text": "cell",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "device level"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "Shredded material",
+        "category": "scientific_label",
+        "surface_text": "Shredded material",
+        "normalized_text": "shredded material",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "mixed output"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "Physical separation processes",
+        "category": "scientific_label",
+        "surface_text": "Physical separation processes",
+        "normalized_text": "physical separation processes",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "post-shredding step"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "Electrolyte",
+        "category": "scientific_label",
+        "surface_text": "Electrolyte",
+        "normalized_text": "electrolyte",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "separation product"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "Polymeric shreds",
+        "category": "scientific_label",
+        "surface_text": "Polymeric shreds",
+        "normalized_text": "polymeric shreds",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "separation product"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "Mixed black mass",
+        "category": "scientific_label",
+        "surface_text": "Mixed black mass",
+        "normalized_text": "mixed black mass",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "separation product"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t14",
+        "entity_type": "text",
+        "name": "Copper shreds",
+        "category": "scientific_label",
+        "surface_text": "Copper shreds",
+        "normalized_text": "copper shreds",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "metal fraction"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t15",
+        "entity_type": "text",
+        "name": "Aluminium shreds",
+        "category": "scientific_label",
+        "surface_text": "Aluminium shreds",
+        "normalized_text": "aluminium shreds",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "metal fraction"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t16",
+        "entity_type": "text",
+        "name": "Advanced separation processes",
+        "category": "scientific_label",
+        "surface_text": "Advanced separation processes",
+        "normalized_text": "advanced separation processes",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "refinement step"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t17",
+        "entity_type": "text",
+        "name": "Highly separated battery materials",
+        "category": "scientific_label",
+        "surface_text": "Highly separated battery materials",
+        "normalized_text": "highly separated battery materials",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "refined products"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t18",
+        "entity_type": "text",
+        "name": "Anode",
+        "category": "scientific_label",
+        "surface_text": "Anode",
+        "normalized_text": "anode",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "electrode layer"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t19",
+        "entity_type": "text",
+        "name": "Separator",
+        "category": "scientific_label",
+        "surface_text": "Separator",
+        "normalized_text": "separator",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "cell layer"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t20",
+        "entity_type": "text",
+        "name": "Cathode",
+        "category": "scientific_label",
+        "surface_text": "Cathode",
+        "normalized_text": "cathode",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "electrode layer"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t21",
+        "entity_type": "text",
+        "name": "Separated electrodes",
+        "category": "scientific_label",
+        "surface_text": "Separated electrodes",
+        "normalized_text": "separated electrodes",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "group label"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t22",
+        "entity_type": "text",
+        "name": "Polymeric components",
+        "category": "scientific_label",
+        "surface_text": "Polymeric components",
+        "normalized_text": "polymeric components",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "cell-derived fraction"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t23",
+        "entity_type": "text",
+        "name": "Binder removal and delamination process",
+        "category": "scientific_label",
+        "surface_text": "Binder removal and delamination process",
+        "normalized_text": "binder removal and delamination process",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "cleaning step"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t24",
+        "entity_type": "text",
+        "name": "Clearly separated anode material",
+        "category": "scientific_label",
+        "surface_text": "Clearly separated anode material",
+        "normalized_text": "clearly separated anode material",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "clean product"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t25",
+        "entity_type": "text",
+        "name": "Copper anode foils",
+        "category": "scientific_label",
+        "surface_text": "Copper anode foils",
+        "normalized_text": "copper anode foils",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "metal foil product"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t26",
+        "entity_type": "text",
+        "name": "Clearly separated cathode material",
+        "category": "scientific_label",
+        "surface_text": "Clearly separated cathode material",
+        "normalized_text": "clearly separated cathode material",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "clean product"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t27",
+        "entity_type": "text",
+        "name": "Aluminium cathode foils",
+        "category": "scientific_label",
+        "surface_text": "Aluminium cathode foils",
+        "normalized_text": "aluminium cathode foils",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "metal foil product"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t28",
+        "entity_type": "text",
+        "name": "Most batteries currently enter comminution and shredding processes.",
+        "category": "annotation_text",
+        "surface_text": "Most batteries currently enter comminution and shredding processes.",
+        "normalized_text": "most batteries currently enter comminution and shredding processes.",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "dominant practice"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t29",
+        "entity_type": "text",
+        "name": "Received batteries are tested to determine which cells and modules are suitable for repair, remanufacture, reuse or recycling.",
+        "category": "annotation_text",
+        "surface_text": "Received batteries are tested to determine which cells and modules are suitable for repair, remanufacture, reuse or recycling. Cells and modules with no further economic use pass into the recycling process.",
+        "normalized_text": "received batteries are tested to determine which cells and modules are suitable for repair, remanufacture, reuse or recycling. cells and modules with no further economic use pass into the recycling process.",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "triage explanation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t30",
+        "entity_type": "text",
+        "name": "Discharge before recycling",
+        "category": "annotation_text",
+        "surface_text": "In many recycling processes, batteries are first discharged through brine discharge or ohmic discharge.",
+        "normalized_text": "in many recycling processes, batteries are first discharged through brine discharge or ohmic discharge.",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "discharge step"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t31",
+        "entity_type": "text",
+        "name": "Manual disassembly risk",
+        "category": "annotation_text",
+        "surface_text": "Manual disassembly exposes operatives to risks and is labour intensive.",
+        "normalized_text": "manual disassembly exposes operatives to risks and is labour intensive.",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "risk note"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t32",
+        "entity_type": "text",
+        "name": "Smaller units before comminution",
+        "category": "annotation_text",
+        "surface_text": "Most packs are disassembled into smaller units for comminution in smaller shredders.",
+        "normalized_text": "most packs are disassembled into smaller units for comminution in smaller shredders.",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "pre-shredding reduction"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t33",
+        "entity_type": "text",
+        "name": "Thermal pretreatment before shredding",
+        "category": "annotation_text",
+        "surface_text": "Some recyclers use thermal pretreatment before shredding.",
+        "normalized_text": "some recyclers use thermal pretreatment before shredding.",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "fire-risk mitigation"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t34",
+        "entity_type": "text",
+        "name": "Safe shredding measures",
+        "category": "annotation_text",
+        "surface_text": "Techniques such as shredding under water spray, shredding in an oxygen-free environment, and cryogenic shredding are used to remove heat and reduce the risk of fire during shredding.",
+        "normalized_text": "techniques such as shredding under water spray, shredding in an oxygen-free environment, and cryogenic shredding are used to remove heat and reduce the risk of fire during shredding.",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "cooling measures"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t35",
+        "entity_type": "text",
+        "name": "Pack identification before disassembly",
+        "category": "annotation_text",
+        "surface_text": "The cell type, chemistry and pack configuration must be identified before a pack can be disassembled.",
+        "normalized_text": "the cell type, chemistry and pack configuration must be identified before a pack can be disassembled.",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "prerequisite info"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t36",
+        "entity_type": "text",
+        "name": "Laboratory-scale process explanation",
+        "category": "annotation_text",
+        "surface_text": "Laboratory-scale recycling processes focus on either disassembly of cells for cleaner separation, or taking shredded material and applying more advanced separation techniques that are currently used by industry. Disassembly at scale could unlock different approaches to recycling in the future.",
+        "normalized_text": "laboratory-scale recycling processes focus on either disassembly of cells for cleaner separation, or taking shredded material and applying more advanced separation techniques that are currently used by industry. disassembly at scale could unlock different approaches to recycling in the future.",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "future direction"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t37",
+        "entity_type": "text",
+        "name": "Automation challenge",
+        "category": "annotation_text",
+        "surface_text": "Currently, the dismantling of battery packs takes place at small scale. To be economical at scale, the process needs to be automated, but robotic disassembly is challenging given the variety of battery packs on the market.",
+        "normalized_text": "currently, the dismantling of battery packs takes place at small scale. to be economical at scale, the process needs to be automated, but robotic disassembly is challenging given the variety of battery packs on the market.",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "robotic challenge"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t38",
+        "entity_type": "text",
+        "name": "Digital blueprints and data exchange",
+        "category": "annotation_text",
+        "surface_text": "Digital blueprints, embedded sensing and data exchange could aid the future automation of battery testing and disassembly.",
+        "normalized_text": "digital blueprints, embedded sensing and data exchange could aid the future automation of battery testing and disassembly.",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "data access",
+          "future automation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t39",
+        "entity_type": "text",
+        "name": "Design for disassembly note",
+        "category": "annotation_text",
+        "surface_text": "Glues and adhesives used in existing pack and module design make automated disassembly difficult. Considering end-of-life when designing battery packs could make batteries easier to recycle in the future.",
+        "normalized_text": "glues and adhesives used in existing pack and module design make automated disassembly difficult. considering end-of-life when designing battery packs could make batteries easier to recycle in the future.",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "pack design",
+          "future recycling"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t1",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t2",
+        "target_entity_id": "v13",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t4",
+        "target_entity_id": "v11",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t5",
+        "target_entity_id": "v12",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "t6",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "t7",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "t8",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "t9",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "t10",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "t16",
+        "target_entity_id": "v14",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "t18",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "t19",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "t20",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "t23",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "v1",
+        "target_entity_id": "v13",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "v13",
+        "target_entity_id": "v2",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "v2",
+        "target_entity_id": "v3",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "v2",
+        "target_entity_id": "v4",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "v4",
+        "target_entity_id": "v5",
+        "relation_type": "transforms_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "v5",
+        "target_entity_id": "v6",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "v5",
+        "target_entity_id": "v14",
+        "relation_type": "flows_to",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "v3",
+        "target_entity_id": "v7",
+        "relation_type": "transforms_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r23",
+        "source_entity_id": "v7",
+        "target_entity_id": "v8",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r24",
+        "source_entity_id": "v8",
+        "target_entity_id": "v9",
+        "relation_type": "transforms_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r25",
+        "source_entity_id": "v1",
+        "target_entity_id": "v11",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r26",
+        "source_entity_id": "v4",
+        "target_entity_id": "v11",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r27",
+        "source_entity_id": "v5",
+        "target_entity_id": "v11",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r28",
+        "source_entity_id": "v6",
+        "target_entity_id": "v11",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r29",
+        "source_entity_id": "v3",
+        "target_entity_id": "v12",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r30",
+        "source_entity_id": "v7",
+        "target_entity_id": "v12",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r31",
+        "source_entity_id": "v8",
+        "target_entity_id": "v12",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r32",
+        "source_entity_id": "v9",
+        "target_entity_id": "v12",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r33",
+        "source_entity_id": "v11",
+        "target_entity_id": "v12",
+        "relation_type": "left_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r34",
+        "source_entity_id": "v4",
+        "target_entity_id": "v14",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      }
+    ]
+  }
+}

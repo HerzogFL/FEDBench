@@ -1,0 +1,1113 @@
+{
+  "image_name": "1bc1eb35a286871afe7e2be214177004.png",
+  "prompt_text": "The figure summarizes how altered fatty acid metabolism in a cancer cell promotes immune evasion in the tumor microenvironment. It highlights several linked routes: increased fatty acid oxidation in mitochondria, increased fatty acid synthesis, greater uptake of external fatty acids, and accumulation of intracellular lipids and lipid droplets.\n\nOn the left, mitochondrial fatty acid oxidation involving CPT1 is associated with higher MHC class I expression and higher CD47 expression, while ARF1 appears linked to reduced immunogenic stress and cell death. These changes affect nearby immune cells differently, with increased CTL activation but reduced phagocytosis by tumor-associated macrophages and lower dendritic cell activation.\n\nIn the center and right, enhanced FASN-driven synthesis and fatty acid transporter-mediated uptake enlarge the intracellular fatty acid pool and lipid droplets. In the tumor microenvironment, CD36-mediated fatty acid uptake is shown to suppress antitumor immunity: CTLs become less active, dendritic cells show poorer CTL priming, and regulatory T cells gain function. Lipid droplets and COX2 are also connected to increased eicosanoid synthesis, which further weakens CTL and NK cell killing, reduces dendritic cell activation, and increases macrophage-mediated immunosuppression.\n\nOverall, the image depicts lipid metabolism as a major driver of tumor immune suppression.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "cancer cell",
+        "category": "cell",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "large cell boundary",
+          "upper compartment",
+          "contains lipid metabolism routes"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "tumor microenvironment region",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "lower outside region",
+          "immune cells",
+          "labeled TME"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "mitochondrion",
+        "category": "organelle",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "left side",
+          "fatty acid oxidation",
+          "contains CPT1"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "fatty acid transporter at membrane",
+        "category": "protein",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "membrane-localized",
+          "imports fatty acids",
+          "top right"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "lipid droplets",
+        "category": "molecule",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "yellow cluster",
+          "intracellular lipids",
+          "right side"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "CTL cells",
+        "category": "cell",
+        "panel": "single_panel",
+        "count": 3,
+        "key_attributes": [
+          "round lymphocytes",
+          "multiple outcome branches",
+          "antitumor immunity"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "tumor-associated macrophages",
+        "category": "cell",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "amoeboid cells",
+          "phagocytosis branch",
+          "immunosuppression branch"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "dendritic cells",
+        "category": "cell",
+        "panel": "single_panel",
+        "count": 3,
+        "key_attributes": [
+          "stellate cells",
+          "activation branch",
+          "CTL priming branch"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "regulatory T cell",
+        "category": "cell",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "purple lymphocyte",
+          "Treg branch",
+          "increased function"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v10",
+        "entity_type": "visual",
+        "name": "NK cell",
+        "category": "cell",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "round immune cell",
+          "cytotoxicity branch",
+          "eicosanoid-associated"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v11",
+        "entity_type": "visual",
+        "name": "arrows linking metabolic routes to immune outcomes",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "solid and dashed",
+          "cause-effect links",
+          "branched flows"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v12",
+        "entity_type": "visual",
+        "name": "cell membrane boundary",
+        "category": "membrane",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "rounded rectangle",
+          "encloses cancer cell",
+          "separates TME"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "fatty acid uptake",
+        "category": "annotation_text",
+        "surface_text": "↑ Fatty acid uptake",
+        "normalized_text": "increased fatty acid uptake",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "uptake route",
+          "upregulated",
+          "top right"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "fatty acid transporter",
+        "category": "scientific_label",
+        "surface_text": "Fatty acid transporter",
+        "normalized_text": "fatty acid transporter",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "uptake protein",
+          "membrane label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "fatty acid oxidation",
+        "category": "annotation_text",
+        "surface_text": "Fatty acid oxidation",
+        "normalized_text": "fatty acid oxidation",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "mitochondrial route",
+          "left side"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "FASN-mediated fatty acid synthesis",
+        "category": "annotation_text",
+        "surface_text": "↑ FASN-mediated fatty acid synthesis",
+        "normalized_text": "increased FASN-mediated fatty acid synthesis",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "synthesis route",
+          "upregulated"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "CPT1",
+        "category": "scientific_label",
+        "surface_text": "CPT1",
+        "normalized_text": "CPT1",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "oxidation-associated",
+          "mitochondrial"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "ARF1",
+        "category": "scientific_label",
+        "surface_text": "ARF1",
+        "normalized_text": "ARF1",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "left pathway",
+          "stress/death branch"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "MHC class I expression",
+        "category": "annotation_text",
+        "surface_text": "↑ MHC class I expression",
+        "normalized_text": "increased MHC class I expression",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "left outcome",
+          "upregulated"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "CD47 expression",
+        "category": "annotation_text",
+        "surface_text": "↑ CD47 expression",
+        "normalized_text": "increased CD47 expression",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "left outcome",
+          "upregulated"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "immunogenic stress and death",
+        "category": "annotation_text",
+        "surface_text": "↓ Immunogenic stress and death",
+        "normalized_text": "decreased immunogenic stress and death",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "ARF1-linked",
+          "decreased"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "intracellular fatty acid pool",
+        "category": "annotation_text",
+        "surface_text": "↑ Intracellular fatty acid pool",
+        "normalized_text": "increased intracellular fatty acid pool",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "central pool",
+          "upregulated"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "lipid droplets",
+        "category": "scientific_label",
+        "surface_text": "Lipid droplets",
+        "normalized_text": "lipid droplets",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "intracellular storage",
+          "right side"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "COX2",
+        "category": "scientific_label",
+        "surface_text": "COX2",
+        "normalized_text": "COX2",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "eicosanoid branch",
+          "right side"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "cancer cell label",
+        "category": "scientific_label",
+        "surface_text": "Cancer cell",
+        "normalized_text": "cancer cell",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "upper compartment label"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t14",
+        "entity_type": "text",
+        "name": "CD36-mediated fatty acid uptake in the TME",
+        "category": "annotation_text",
+        "surface_text": "CD36-mediated fatty acid uptake in the TME",
+        "normalized_text": "CD36-mediated fatty acid uptake in the tumor microenvironment",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "TME uptake route",
+          "CD36-mediated"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t15",
+        "entity_type": "text",
+        "name": "eicosanoid synthesis",
+        "category": "annotation_text",
+        "surface_text": "↑ Eicosanoid synthesis",
+        "normalized_text": "increased eicosanoid synthesis",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "right pathway",
+          "upregulated"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t16",
+        "entity_type": "text",
+        "name": "TME",
+        "category": "scientific_label",
+        "surface_text": "TME",
+        "normalized_text": "tumor microenvironment",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "region label"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t17",
+        "entity_type": "text",
+        "name": "CTL",
+        "category": "scientific_label",
+        "surface_text": "CTL",
+        "normalized_text": "cytotoxic T lymphocyte",
+        "panel": "single_panel",
+        "count": 3,
+        "key_attributes": [
+          "immune cell label",
+          "multiple branches"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t18",
+        "entity_type": "text",
+        "name": "TAM",
+        "category": "scientific_label",
+        "surface_text": "TAM",
+        "normalized_text": "tumor-associated macrophage",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "immune cell label",
+          "macrophage branches"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t19",
+        "entity_type": "text",
+        "name": "DC",
+        "category": "scientific_label",
+        "surface_text": "DC",
+        "normalized_text": "dendritic cell",
+        "panel": "single_panel",
+        "count": 3,
+        "key_attributes": [
+          "immune cell label",
+          "activation and priming branches"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t20",
+        "entity_type": "text",
+        "name": "Treg cell",
+        "category": "scientific_label",
+        "surface_text": "Treg cell",
+        "normalized_text": "regulatory T cell",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "immune cell label",
+          "suppressive branch"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t21",
+        "entity_type": "text",
+        "name": "NK cell",
+        "category": "scientific_label",
+        "surface_text": "NK cell",
+        "normalized_text": "natural killer cell",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "immune cell label",
+          "cytotoxicity branch"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t22",
+        "entity_type": "text",
+        "name": "activation increase",
+        "category": "annotation_text",
+        "surface_text": "↑ Activation",
+        "normalized_text": "increased activation",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "left CTL outcome"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t23",
+        "entity_type": "text",
+        "name": "phagocytosis decrease",
+        "category": "annotation_text",
+        "surface_text": "↓ Phagocytosis",
+        "normalized_text": "decreased phagocytosis",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "TAM outcome"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t24",
+        "entity_type": "text",
+        "name": "activation decrease",
+        "category": "annotation_text",
+        "surface_text": "↓ Activation",
+        "normalized_text": "decreased activation",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "DC outcomes",
+          "appears twice"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t25",
+        "entity_type": "text",
+        "name": "impaired activation",
+        "category": "annotation_text",
+        "surface_text": "Impaired activation",
+        "normalized_text": "impaired activation",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "central CTL outcome"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t26",
+        "entity_type": "text",
+        "name": "CTL priming decrease",
+        "category": "annotation_text",
+        "surface_text": "↓ CTL priming",
+        "normalized_text": "decreased CTL priming",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "DC outcome",
+          "central branch"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t27",
+        "entity_type": "text",
+        "name": "function increase",
+        "category": "annotation_text",
+        "surface_text": "↑ Function",
+        "normalized_text": "increased function",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "Treg outcome"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t28",
+        "entity_type": "text",
+        "name": "cytotoxicity decrease",
+        "category": "annotation_text",
+        "surface_text": "↓ Cytotoxicity",
+        "normalized_text": "decreased cytotoxicity",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "CTL/NK outcome",
+          "right branch"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t29",
+        "entity_type": "text",
+        "name": "immunosuppression increase",
+        "category": "annotation_text",
+        "surface_text": "↑ Immunosuppression",
+        "normalized_text": "increased immunosuppression",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "TAM outcome",
+          "right branch"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t13",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t16",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "v3",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "v4",
+        "target_entity_id": "v12",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "v5",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "v6",
+        "target_entity_id": "v2",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "v7",
+        "target_entity_id": "v2",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "v8",
+        "target_entity_id": "v2",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "v9",
+        "target_entity_id": "v2",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "v10",
+        "target_entity_id": "v2",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "t2",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "t3",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "t5",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "t11",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "t17",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "t18",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "t19",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "t20",
+        "target_entity_id": "v9",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "t21",
+        "target_entity_id": "v10",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "t1",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "t4",
+        "target_entity_id": "t10",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "t1",
+        "target_entity_id": "t10",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r23",
+        "source_entity_id": "t10",
+        "target_entity_id": "t11",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r24",
+        "source_entity_id": "t10",
+        "target_entity_id": "t14",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r25",
+        "source_entity_id": "t11",
+        "target_entity_id": "t15",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r26",
+        "source_entity_id": "t12",
+        "target_entity_id": "t15",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r27",
+        "source_entity_id": "t3",
+        "target_entity_id": "t7",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r28",
+        "source_entity_id": "t3",
+        "target_entity_id": "t8",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r29",
+        "source_entity_id": "t6",
+        "target_entity_id": "t9",
+        "relation_type": "inhibits",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r30",
+        "source_entity_id": "t7",
+        "target_entity_id": "t22",
+        "relation_type": "activates",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r31",
+        "source_entity_id": "t8",
+        "target_entity_id": "t23",
+        "relation_type": "inhibits",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r32",
+        "source_entity_id": "t9",
+        "target_entity_id": "t24",
+        "relation_type": "inhibits",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r33",
+        "source_entity_id": "t14",
+        "target_entity_id": "t25",
+        "relation_type": "inhibits",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r34",
+        "source_entity_id": "t14",
+        "target_entity_id": "t26",
+        "relation_type": "inhibits",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r35",
+        "source_entity_id": "t14",
+        "target_entity_id": "t27",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r36",
+        "source_entity_id": "t15",
+        "target_entity_id": "t28",
+        "relation_type": "inhibits",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r37",
+        "source_entity_id": "t15",
+        "target_entity_id": "t24",
+        "relation_type": "inhibits",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r38",
+        "source_entity_id": "t15",
+        "target_entity_id": "t29",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r39",
+        "source_entity_id": "t22",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r40",
+        "source_entity_id": "t23",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r41",
+        "source_entity_id": "t24",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r42",
+        "source_entity_id": "t25",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r43",
+        "source_entity_id": "t26",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r44",
+        "source_entity_id": "t27",
+        "target_entity_id": "v9",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r45",
+        "source_entity_id": "t28",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r46",
+        "source_entity_id": "t28",
+        "target_entity_id": "v10",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r47",
+        "source_entity_id": "t29",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      }
+    ]
+  }
+}

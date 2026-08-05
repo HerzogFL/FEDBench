@@ -1,0 +1,1019 @@
+{
+  "image_name": "0e07ef2c0c8beb9c34c9d4c68aa0fffa.jpg",
+  "prompt_text": "The figure uses a “mobile medical unit” as a visual metaphor for the full workflow of field-based pathogen genomics, showing how many linked factors affect whether sequencing leads to useful clinical or public health decisions. A patient and healthcare worker at one side represent the starting conditions: the host, the pathogen, and the sample itself. Visible labels emphasize variables such as genome size, phase of infection, pathogen levels, sample type, and preservation, suggesting that biological context strongly shapes what can be detected.\n\nInside the tent, the process moves through laboratory handling and sequencing. Bench work highlights sample processing issues, including extraction efficiency, enrichment, library preparation, and contamination. A second station with a computer and sequencer points to technical trade-offs in sequencing, such as cost, portability, instrument performance, and coverage depth.\n\nThe workflow then extends into bioinformatics, where computing power, internet access, reference databases, related species, analysis pipeline performance, and confidence thresholds influence interpretation. Finally, a clinician holding a clipboard symbolizes the end goal: an interpretable report that supports clear clinical or epidemiological action. Overall, the image stresses that successful mobile sequencing depends on the entire chain, not just the sequencing device.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "mobile medical unit tent",
+        "category": "device_component",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "canopy tent",
+          "workflow container",
+          "field setting"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "patient figure",
+        "category": "pathway_component",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "left side",
+          "source context",
+          "human subject"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "healthcare worker figure",
+        "category": "pathway_component",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "with patient",
+          "sampling context",
+          "clinical staff"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "laboratory bench station",
+        "category": "device_component",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "inside tent",
+          "sample handling",
+          "bench work"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "test tubes / sample tubes",
+        "category": "device_component",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "on bench",
+          "sample processing",
+          "lab consumables"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "worker at bench",
+        "category": "pathway_component",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "processing station",
+          "lab worker",
+          "manual handling"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "computer workstation",
+        "category": "device_component",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "monitor",
+          "informatics",
+          "analysis station"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "sequencer device",
+        "category": "device_component",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "on desk",
+          "sequencing station",
+          "instrument"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "worker at sequencing/informatics station",
+        "category": "pathway_component",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "seated",
+          "computer use",
+          "analysis step"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v10",
+        "entity_type": "visual",
+        "name": "clinician with clipboard",
+        "category": "pathway_component",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "right side",
+          "report recipient",
+          "decision making"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "Pathogen",
+        "category": "scientific_label",
+        "surface_text": "Pathogen",
+        "normalized_text": "Pathogen",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "section header"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "Genome size",
+        "category": "scientific_label",
+        "surface_text": "Genome size",
+        "normalized_text": "Genome size",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "pathogen variable"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "Host",
+        "category": "scientific_label",
+        "surface_text": "Host",
+        "normalized_text": "Host",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "section header"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "Phase of infection",
+        "category": "scientific_label",
+        "surface_text": "Phase of infection",
+        "normalized_text": "Phase of infection",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "host variable"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "Pathogen titres",
+        "category": "scientific_label",
+        "surface_text": "Pathogen titres",
+        "normalized_text": "Pathogen titres",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "host/sample variable"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "Sample",
+        "category": "scientific_label",
+        "surface_text": "Sample",
+        "normalized_text": "Sample",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "section header"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "Sample type",
+        "category": "scientific_label",
+        "surface_text": "Sample type",
+        "normalized_text": "Sample type",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "sample variable"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "Preservation",
+        "category": "scientific_label",
+        "surface_text": "Preservation",
+        "normalized_text": "Preservation",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "sample variable"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "Processing",
+        "category": "scientific_label",
+        "surface_text": "Processing",
+        "normalized_text": "Processing",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "section header"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "Extraction efficiency",
+        "category": "scientific_label",
+        "surface_text": "Extraction efficiency",
+        "normalized_text": "Extraction efficiency",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "processing variable"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "Physical enrichment",
+        "category": "scientific_label",
+        "surface_text": "Physical enrichment",
+        "normalized_text": "Physical enrichment",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "processing variable"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "Library preparation",
+        "category": "scientific_label",
+        "surface_text": "Library preparation",
+        "normalized_text": "Library preparation",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "processing variable"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "Contamination",
+        "category": "scientific_label",
+        "surface_text": "Contamination",
+        "normalized_text": "Contamination",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "processing variable"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t14",
+        "entity_type": "text",
+        "name": "Sequencing",
+        "category": "scientific_label",
+        "surface_text": "Sequencing",
+        "normalized_text": "Sequencing",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "section header"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t15",
+        "entity_type": "text",
+        "name": "Cost",
+        "category": "scientific_label",
+        "surface_text": "Cost",
+        "normalized_text": "Cost",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "sequencing trade-off"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t16",
+        "entity_type": "text",
+        "name": "Portability",
+        "category": "scientific_label",
+        "surface_text": "Portability",
+        "normalized_text": "Portability",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "sequencing trade-off"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t17",
+        "entity_type": "text",
+        "name": "Sequencer performance",
+        "category": "scientific_label",
+        "surface_text": "Sequencer performance",
+        "normalized_text": "Sequencer performance",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "instrument variable"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t18",
+        "entity_type": "text",
+        "name": "Depth of coverage",
+        "category": "scientific_label",
+        "surface_text": "Depth of coverage",
+        "normalized_text": "Depth of coverage",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "sequencing variable"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t19",
+        "entity_type": "text",
+        "name": "Informatics",
+        "category": "scientific_label",
+        "surface_text": "Informatics",
+        "normalized_text": "Informatics",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "section header"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t20",
+        "entity_type": "text",
+        "name": "Computer power",
+        "category": "scientific_label",
+        "surface_text": "Computer power",
+        "normalized_text": "Computer power",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "informatics factor"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t21",
+        "entity_type": "text",
+        "name": "Internet connection",
+        "category": "scientific_label",
+        "surface_text": "Internet connection",
+        "normalized_text": "Internet connection",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "informatics factor"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t22",
+        "entity_type": "text",
+        "name": "Reference databases",
+        "category": "scientific_label",
+        "surface_text": "Reference databases",
+        "normalized_text": "Reference databases",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "informatics factor"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t23",
+        "entity_type": "text",
+        "name": "Closely related species",
+        "category": "scientific_label",
+        "surface_text": "Closely related species",
+        "normalized_text": "Closely related species",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "interpretation factor"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t24",
+        "entity_type": "text",
+        "name": "Pipeline performance",
+        "category": "scientific_label",
+        "surface_text": "Pipeline performance",
+        "normalized_text": "Pipeline performance",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "informatics factor"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t25",
+        "entity_type": "text",
+        "name": "Confidence thresholds",
+        "category": "scientific_label",
+        "surface_text": "Confidence thresholds",
+        "normalized_text": "Confidence thresholds",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "interpretation factor"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t26",
+        "entity_type": "text",
+        "name": "Action",
+        "category": "annotation_text",
+        "surface_text": "Action",
+        "normalized_text": "Action",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "section header"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t27",
+        "entity_type": "text",
+        "name": "Interpretable report",
+        "category": "annotation_text",
+        "surface_text": "Interpretable report",
+        "normalized_text": "Interpretable report",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "decision output"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t28",
+        "entity_type": "text",
+        "name": "Clear clinical or epidemiological action",
+        "category": "annotation_text",
+        "surface_text": "Clear clinical or epidemiological action",
+        "normalized_text": "Clear clinical or epidemiological action",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "decision outcome"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t29",
+        "entity_type": "text",
+        "name": "MOBILE MEDICAL UNIT",
+        "category": "annotation_text",
+        "surface_text": "MOBILE MEDICAL UNIT",
+        "normalized_text": "Mobile medical unit",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "tent title"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t30",
+        "entity_type": "text",
+        "name": "MOBILE MESSAGES",
+        "category": "annotation_text",
+        "surface_text": "MOBILE MESSAGES",
+        "normalized_text": "Mobile messages",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "faint tent text"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t1",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t3",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t6",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t9",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "t14",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "t19",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "t26",
+        "target_entity_id": "v10",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "t2",
+        "target_entity_id": "t1",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "t4",
+        "target_entity_id": "t3",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "t5",
+        "target_entity_id": "t3",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "t7",
+        "target_entity_id": "t6",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "t8",
+        "target_entity_id": "t6",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "t10",
+        "target_entity_id": "t9",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "t11",
+        "target_entity_id": "t9",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "t12",
+        "target_entity_id": "t9",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "t13",
+        "target_entity_id": "t9",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "t15",
+        "target_entity_id": "t14",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "t16",
+        "target_entity_id": "t14",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "t17",
+        "target_entity_id": "t14",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "t18",
+        "target_entity_id": "t14",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "t20",
+        "target_entity_id": "t19",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "t21",
+        "target_entity_id": "t19",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r23",
+        "source_entity_id": "t22",
+        "target_entity_id": "t19",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r24",
+        "source_entity_id": "t23",
+        "target_entity_id": "t19",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r25",
+        "source_entity_id": "t24",
+        "target_entity_id": "t19",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r26",
+        "source_entity_id": "t25",
+        "target_entity_id": "t19",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r27",
+        "source_entity_id": "t27",
+        "target_entity_id": "t26",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r28",
+        "source_entity_id": "t28",
+        "target_entity_id": "t26",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r29",
+        "source_entity_id": "v2",
+        "target_entity_id": "v4",
+        "relation_type": "flows_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r30",
+        "source_entity_id": "v4",
+        "target_entity_id": "v8",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r31",
+        "source_entity_id": "v8",
+        "target_entity_id": "v7",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r32",
+        "source_entity_id": "v7",
+        "target_entity_id": "v10",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r33",
+        "source_entity_id": "v4",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r34",
+        "source_entity_id": "v7",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r35",
+        "source_entity_id": "v8",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r36",
+        "source_entity_id": "v5",
+        "target_entity_id": "v4",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r37",
+        "source_entity_id": "v6",
+        "target_entity_id": "v4",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r38",
+        "source_entity_id": "v9",
+        "target_entity_id": "v7",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r39",
+        "source_entity_id": "v2",
+        "target_entity_id": "v4",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r40",
+        "source_entity_id": "v4",
+        "target_entity_id": "v7",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r41",
+        "source_entity_id": "v7",
+        "target_entity_id": "v10",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      }
+    ]
+  }
+}

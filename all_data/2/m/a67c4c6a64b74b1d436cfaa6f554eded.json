@@ -1,0 +1,907 @@
+{
+  "image_name": "a67c4c6a64b74b1d436cfaa6f554eded.png",
+  "prompt_text": "The figure summarizes how the dynamics of reversible polymer networks must match processing time for different manufacturing methods. Across injection/spraying, printing/moulding, and reprocessable plastics, the key comparison is the Deborah number, De, and the network relaxation time, τR. At low De, the material behaves more liquid-like and can flow quickly, which suits injection or spraying. At intermediate De, roughly around 1, the material seems balanced between flow and solidity, enabling controlled shape retention during printing or moulding. At high De, with very long relaxation times, the material behaves more solid-like in use, which is useful for durable plastic objects that can later be recycled or thermally reprocessed.\n\nThe circular insets suggest the underlying mechanism: reversible bonds within the polymer network rearrange at different rates, changing how easily chains move during processing. The lower row emphasizes failure modes when the timescale is mismatched. If relaxation is too fast, the material spreads, drips, or deforms after deposition. If relaxation is too slow, it cannot be injected or printed properly, and in the recycling case may become effectively non-reprocessable. Overall, the figure shows that successful processing requires tuning bond exchange kinetics to the intended fabrication method.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "injection/spraying process schematic",
+        "category": "device_component",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "syringe/nozzle",
+          "material deposition",
+          "liquid-like flow"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "printing/moulding process schematic",
+        "category": "device_component",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "printer nozzle",
+          "deposited strands",
+          "shape retention"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "reprocessable plastics use and recycling schematic",
+        "category": "pathway_component",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "bottle use",
+          "recycling symbol",
+          "thermal reprocessing"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "polymer network circular inset with reversible bonds",
+        "category": "molecule",
+        "panel": "all",
+        "count": 6,
+        "key_attributes": [
+          "circular magnified inset",
+          "polymer chains",
+          "reversible bond motifs"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "dashed connector lines to molecular insets",
+        "category": "arrow",
+        "panel": "all",
+        "count": 6,
+        "key_attributes": [
+          "dashed lines",
+          "zoom linkage",
+          "process-to-network mapping"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "too fast failure illustrations",
+        "category": "region",
+        "panel": "all",
+        "count": 3,
+        "key_attributes": [
+          "spread/drip/deform",
+          "lower-left box",
+          "mismatched fast relaxation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "too slow failure illustrations",
+        "category": "region",
+        "panel": "all",
+        "count": 3,
+        "key_attributes": [
+          "blocked processing",
+          "lower-right box",
+          "mismatched slow relaxation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "process/recycling directional arrows",
+        "category": "arrow",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "rightward arrow",
+          "use to recyclate",
+          "process progression"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "panel markers",
+        "category": "panel_marker",
+        "panel": "all",
+        "count": 3,
+        "key_attributes": [
+          "a b c",
+          "top-left labels",
+          "panel identification"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "panel a label",
+        "category": "panel_label",
+        "surface_text": "a",
+        "normalized_text": "a",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "panel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "Injection and spraying",
+        "category": "scientific_label",
+        "surface_text": "Injection and spraying",
+        "normalized_text": "Injection and spraying",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "manufacturing method"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "De less than one",
+        "category": "equation",
+        "surface_text": "De < 1",
+        "normalized_text": "De < 1",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "Deborah number",
+          "low De"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "tau R range for injection and spraying",
+        "category": "equation",
+        "surface_text": "τR ~ 0.1–100 s",
+        "normalized_text": "τR ~ 0.1–100 s",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "relaxation time",
+          "seconds"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "Too fast in panel a",
+        "category": "annotation_text",
+        "surface_text": "Too fast",
+        "normalized_text": "Too fast",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "failure mode"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "De much less than one",
+        "category": "equation",
+        "surface_text": "De << 1",
+        "normalized_text": "De << 1",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "very low De"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "tau R very fast in panel a",
+        "category": "equation",
+        "surface_text": "τR ~ 0.01 s",
+        "normalized_text": "τR ~ 0.01 s",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "very short relaxation",
+          "seconds"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "Too slow in panel a",
+        "category": "annotation_text",
+        "surface_text": "Too slow",
+        "normalized_text": "Too slow",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "failure mode"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "De greater than one in panel a failure",
+        "category": "equation",
+        "surface_text": "De > 1",
+        "normalized_text": "De > 1",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "high De"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "tau R very slow in panel a failure",
+        "category": "equation",
+        "surface_text": "τR ~ 1,000+ s",
+        "normalized_text": "τR ~ 1,000+ s",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "long relaxation",
+          "seconds"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "panel b label",
+        "category": "panel_label",
+        "surface_text": "b",
+        "normalized_text": "b",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "panel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "Printing and moulding",
+        "category": "scientific_label",
+        "surface_text": "Printing and moulding",
+        "normalized_text": "Printing and moulding",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "manufacturing method"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "De approximately one",
+        "category": "equation",
+        "surface_text": "De ~ 1",
+        "normalized_text": "De ~ 1",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "Deborah number",
+          "intermediate De"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t14",
+        "entity_type": "text",
+        "name": "tau R range for printing and moulding",
+        "category": "equation",
+        "surface_text": "τR ~ 10–1,000 s",
+        "normalized_text": "τR ~ 10–1,000 s",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "relaxation time",
+          "seconds"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t15",
+        "entity_type": "text",
+        "name": "Too fast in panel b",
+        "category": "annotation_text",
+        "surface_text": "Too fast",
+        "normalized_text": "Too fast",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "failure mode"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t16",
+        "entity_type": "text",
+        "name": "De less than one in panel b failure",
+        "category": "equation",
+        "surface_text": "De < 1",
+        "normalized_text": "De < 1",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "low De"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t17",
+        "entity_type": "text",
+        "name": "tau R less than ten seconds in panel b failure",
+        "category": "equation",
+        "surface_text": "τR < 10 s",
+        "normalized_text": "τR < 10 s",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "short relaxation",
+          "seconds"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t18",
+        "entity_type": "text",
+        "name": "Too slow in panel b",
+        "category": "annotation_text",
+        "surface_text": "Too slow",
+        "normalized_text": "Too slow",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "failure mode"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t19",
+        "entity_type": "text",
+        "name": "De much greater than one in panel b failure",
+        "category": "equation",
+        "surface_text": "De >> 1",
+        "normalized_text": "De >> 1",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "very high De"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t20",
+        "entity_type": "text",
+        "name": "tau R very long in panel b failure",
+        "category": "equation",
+        "surface_text": "τR ~ 10,000+ s",
+        "normalized_text": "τR ~ 10,000+ s",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "very long relaxation",
+          "seconds"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t21",
+        "entity_type": "text",
+        "name": "panel c label",
+        "category": "panel_label",
+        "surface_text": "c",
+        "normalized_text": "c",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "panel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t22",
+        "entity_type": "text",
+        "name": "Reprocessable plastics",
+        "category": "scientific_label",
+        "surface_text": "Reprocessable plastics",
+        "normalized_text": "Reprocessable plastics",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "material use case"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t23",
+        "entity_type": "text",
+        "name": "De greater than one",
+        "category": "equation",
+        "surface_text": "De > 1",
+        "normalized_text": "De > 1",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "Deborah number",
+          "high De"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t24",
+        "entity_type": "text",
+        "name": "tau R range for reprocessable plastics",
+        "category": "equation",
+        "surface_text": "τR ~ 1,000+ s",
+        "normalized_text": "τR ~ 1,000+ s",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "long relaxation",
+          "seconds"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t25",
+        "entity_type": "text",
+        "name": "Too fast in panel c",
+        "category": "annotation_text",
+        "surface_text": "Too fast",
+        "normalized_text": "Too fast",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "failure mode"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t26",
+        "entity_type": "text",
+        "name": "De approximately one in panel c failure",
+        "category": "equation",
+        "surface_text": "De ~ 1",
+        "normalized_text": "De ~ 1",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "intermediate De"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t27",
+        "entity_type": "text",
+        "name": "tau R less than one thousand seconds in panel c failure",
+        "category": "equation",
+        "surface_text": "τR < 1,000 s",
+        "normalized_text": "τR < 1,000 s",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "shorter relaxation",
+          "seconds"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t28",
+        "entity_type": "text",
+        "name": "Too slow in panel c",
+        "category": "annotation_text",
+        "surface_text": "Too slow",
+        "normalized_text": "Too slow",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "failure mode"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t29",
+        "entity_type": "text",
+        "name": "De much greater than one in panel c failure",
+        "category": "equation",
+        "surface_text": "De >> 1",
+        "normalized_text": "De >> 1",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "very high De"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t30",
+        "entity_type": "text",
+        "name": "tau R tends to infinity",
+        "category": "equation",
+        "surface_text": "τR → ∞",
+        "normalized_text": "τR → ∞",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "non-reprocessable limit",
+          "infinite relaxation"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t2",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t3",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t4",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "v5",
+        "target_entity_id": "v4",
+        "relation_type": "points_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "v4",
+        "target_entity_id": "v1",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "t5",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "t8",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "v6",
+        "target_entity_id": "v1",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "v7",
+        "target_entity_id": "v1",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "v6",
+        "target_entity_id": "v7",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "t12",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "t13",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "t14",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "v4",
+        "target_entity_id": "v2",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "t15",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "t18",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "v6",
+        "target_entity_id": "v2",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "v7",
+        "target_entity_id": "v2",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "t22",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "t23",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "t24",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "v4",
+        "target_entity_id": "v3",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r23",
+        "source_entity_id": "v8",
+        "target_entity_id": "v3",
+        "relation_type": "flows_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r24",
+        "source_entity_id": "t25",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r25",
+        "source_entity_id": "t28",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r26",
+        "source_entity_id": "v6",
+        "target_entity_id": "v3",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r27",
+        "source_entity_id": "v7",
+        "target_entity_id": "v3",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r28",
+        "source_entity_id": "v1",
+        "target_entity_id": "v2",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r29",
+        "source_entity_id": "v2",
+        "target_entity_id": "v3",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "global"
+      }
+    ]
+  }
+}

@@ -1,0 +1,300 @@
+{
+  "image_name": "0d095d1d80198a4c3fe5a3ee9803d600.png",
+  "prompt_text": "The figure summarizes several kinds of behavioral and cognitive experiments used in animals, especially rodents and monkeys, and links them to tasks shown on a computer. Across the panels, animals are placed in controlled boxes or arenas and exposed to stimuli while researchers measure their responses. One set of images shows a mouse before and after an aversive event, suggesting fear or pain-related conditioning with sound or shock cues. Another shows a monkey viewing a snake, emphasizing visual presentation of biologically important stimuli and the animal’s reaction.\n\nA separate panel depicts a human-like observer watching the animal image on a monitor, implying video-based stimulus presentation or observation of social or emotional cues. The maze-like arena with a mouse indicates navigation or movement tracking before and after an aversive stimulus. The two monkeys sharing space near a bowl of food illustrate social decision-making or reward-related interactions between individuals. Finally, the computer screen labeled with another’s choice suggests a task in which one subject responds based on the decision of a partner, pointing to social learning, observational choice, or other-regarding behavior.\n\nOverall, the figure conveys a toolbox of paradigms for studying emotion, perception, learning, and social cognition across species.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "mouse in conditioning box",
+        "category": "device_component",
+        "panel": "a",
+        "count": 2,
+        "key_attributes": [
+          "mouse",
+          "transparent box",
+          "before/after states"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "aversive cue symbols",
+        "category": "arrow",
+        "panel": "a",
+        "count": 2,
+        "key_attributes": [
+          "red lightning",
+          "speaker icon",
+          "shock/sound cue"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "monkey viewing snake stimulus",
+        "category": "device_component",
+        "panel": "b",
+        "count": 3,
+        "key_attributes": [
+          "monkey",
+          "snake",
+          "linked views"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "observer watching animal on monitor",
+        "category": "device_component",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "human-like observer",
+          "computer monitor",
+          "animal image displayed"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "maze-like arena with mouse",
+        "category": "region",
+        "panel": "d",
+        "count": 2,
+        "key_attributes": [
+          "rectangular arena",
+          "mouse trajectory context",
+          "before/after states"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "aversive event in arena",
+        "category": "arrow",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "red lightning",
+          "post-stimulus",
+          "fear/pain context"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "two monkeys with food bowl",
+        "category": "device_component",
+        "panel": "e",
+        "count": 3,
+        "key_attributes": [
+          "two monkeys",
+          "shared bowl",
+          "social interaction"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "computer choice task setup",
+        "category": "device_component",
+        "panel": "f",
+        "count": 3,
+        "key_attributes": [
+          "monitor",
+          "keyboard",
+          "pointing hand"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "choice icons on monitor",
+        "category": "legend_key",
+        "panel": "f",
+        "count": 2,
+        "key_attributes": [
+          "two option boxes",
+          "one crossed option",
+          "decision display"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "panel label a",
+        "category": "panel_label",
+        "surface_text": "a",
+        "normalized_text": "a",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "panel label b",
+        "category": "panel_label",
+        "surface_text": "b",
+        "normalized_text": "b",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "panel label c",
+        "category": "panel_label",
+        "surface_text": "c",
+        "normalized_text": "c",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "panel label d",
+        "category": "panel_label",
+        "surface_text": "d",
+        "normalized_text": "d",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "panel label e",
+        "category": "panel_label",
+        "surface_text": "e",
+        "normalized_text": "e",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "panel label f",
+        "category": "panel_label",
+        "surface_text": "f",
+        "normalized_text": "f",
+        "panel": "f",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "Other's choice label",
+        "category": "annotation_text",
+        "surface_text": "Other’s choice",
+        "normalized_text": "Other's choice",
+        "panel": "f",
+        "count": 1,
+        "key_attributes": [
+          "monitor label",
+          "social choice task"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "v2",
+        "target_entity_id": "v1",
+        "relation_type": "points_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "v6",
+        "target_entity_id": "v5",
+        "relation_type": "points_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t7",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "v9",
+        "target_entity_id": "v8",
+        "relation_type": "part_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "v7",
+        "target_entity_id": "v8",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "cross_panel"
+      }
+    ]
+  }
+}

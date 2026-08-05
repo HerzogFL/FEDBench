@@ -1,0 +1,1059 @@
+{
+  "image_name": "0f7ae6183e9164b85b0c70133b112965.jpg",
+  "prompt_text": "This figure summarizes bile acid metabolism across the liver, intestine, and circulation, emphasizing how host enzymes and gut microbes jointly shape the bile acid pool. In hepatocytes, cholesterol is converted through classical and alternative pathways into primary bile acids, mainly cholic acid and chenodeoxycholic acid, then conjugated before secretion into bile. Transporters at the canalicular and sinusoidal membranes mediate export into bile and reuptake from portal blood, illustrating enterohepatic circulation.\n\nIn the intestinal lumen, microbial communities modify these bile acids through several key reactions. Conjugated bile acids are first deconjugated by bacterial bile salt hydrolase activity. Other microbes then carry out epimerization and 7α-dehydroxylation, generating a broader range of secondary bile acids such as deoxycholic acid, lithocholic acid, and ursodeoxycholic acid. The diagram also highlights muricholic acid species and their conversion into related derivatives, suggesting a prominent role for these compounds in this system.\n\nOverall, the image shows a dynamic loop: the liver synthesizes and conjugates bile acids, the intestine and microbiota transform them, and transporters return them to the liver through the portal vein and systemic circulation.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "hepatocyte compartment",
+        "category": "cell",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "top compartment",
+          "bile acid synthesis",
+          "transporters shown"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "enterocyte compartment",
+        "category": "cell",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "intestinal epithelium",
+          "lower layer",
+          "uptake/export shown"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "intestinal lumen region",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "microbial reactions",
+          "middle-lower region",
+          "bile acid transformations"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "microbiota region",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "gut microbes",
+          "reaction annotations",
+          "intestinal transformation zone"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "canalicular membrane transport interface",
+        "category": "membrane",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "bile export side",
+          "hepatocyte boundary",
+          "BSEP/MRP2 location"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "sinusoidal/basolateral membrane transport interface",
+        "category": "membrane",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "portal blood side",
+          "reuptake interface",
+          "NTCP/OATP1 location"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "portal vein circulation path",
+        "category": "pathway_component",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "return to liver",
+          "right-side loop",
+          "enterohepatic circulation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "systemic circulation path",
+        "category": "pathway_component",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "right upper outlet",
+          "circulatory branch",
+          "extrahepatic route"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "bile compartment",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "between liver and intestine",
+          "secreted bile acids",
+          "canaliculus connection"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v10",
+        "entity_type": "visual",
+        "name": "reaction/flow arrows",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "directional metabolism",
+          "transport flow",
+          "circulation loop"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "Hepatocyte",
+        "category": "scientific_label",
+        "surface_text": "Hepatocyte",
+        "normalized_text": "hepatocyte",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "host cell compartment"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "Alternative pathway",
+        "category": "scientific_label",
+        "surface_text": "Alternative pathway",
+        "normalized_text": "alternative pathway",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "hepatic synthesis route"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "Classical pathway",
+        "category": "scientific_label",
+        "surface_text": "Classical pathway",
+        "normalized_text": "classical pathway",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "hepatic synthesis route"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "Cholesterol",
+        "category": "scientific_label",
+        "surface_text": "Cholesterol",
+        "normalized_text": "cholesterol",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "precursor molecule"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "CA",
+        "category": "scientific_label",
+        "surface_text": "CA",
+        "normalized_text": "cholic acid",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "primary bile acid"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "CDCA",
+        "category": "scientific_label",
+        "surface_text": "CDCA",
+        "normalized_text": "chenodeoxycholic acid",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "primary bile acid"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "α-MCA",
+        "category": "scientific_label",
+        "surface_text": "α-MCA",
+        "normalized_text": "alpha-muricholic acid",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "muricholic acid species"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "β-MCA",
+        "category": "scientific_label",
+        "surface_text": "β-MCA",
+        "normalized_text": "beta-muricholic acid",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "muricholic acid species"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "Bile",
+        "category": "scientific_label",
+        "surface_text": "Bile",
+        "normalized_text": "bile",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "secreted compartment"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "Portal vein",
+        "category": "scientific_label",
+        "surface_text": "Portal vein",
+        "normalized_text": "portal vein",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "hepatic return route"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "Systemic circulation",
+        "category": "scientific_label",
+        "surface_text": "Systemic circulation",
+        "normalized_text": "systemic circulation",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "circulatory branch"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "Intestinal lumen",
+        "category": "scientific_label",
+        "surface_text": "Intestinal lumen",
+        "normalized_text": "intestinal lumen",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "microbial compartment"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "Enterocyte",
+        "category": "scientific_label",
+        "surface_text": "Enterocyte",
+        "normalized_text": "enterocyte",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "intestinal epithelial cell"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t14",
+        "entity_type": "text",
+        "name": "Microbiota",
+        "category": "scientific_label",
+        "surface_text": "Microbiota",
+        "normalized_text": "microbiota",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "gut microbial community"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t15",
+        "entity_type": "text",
+        "name": "BSH deconjugation",
+        "category": "annotation_text",
+        "surface_text": "BSH deconjugation",
+        "normalized_text": "bsh deconjugation",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "microbial reaction"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t16",
+        "entity_type": "text",
+        "name": "C-7 epimerization",
+        "category": "annotation_text",
+        "surface_text": "C-7 epimerization",
+        "normalized_text": "c-7 epimerization",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "microbial reaction"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t17",
+        "entity_type": "text",
+        "name": "7α-dehydroxylation",
+        "category": "annotation_text",
+        "surface_text": "7α-dehydroxylation",
+        "normalized_text": "7alpha-dehydroxylation",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "microbial reaction",
+          "secondary bile acids"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t18",
+        "entity_type": "text",
+        "name": "UDCA",
+        "category": "scientific_label",
+        "surface_text": "UDCA",
+        "normalized_text": "ursodeoxycholic acid",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "secondary bile acid"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t19",
+        "entity_type": "text",
+        "name": "DCA",
+        "category": "scientific_label",
+        "surface_text": "DCA",
+        "normalized_text": "deoxycholic acid",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "secondary bile acid"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t20",
+        "entity_type": "text",
+        "name": "LCA",
+        "category": "scientific_label",
+        "surface_text": "LCA",
+        "normalized_text": "lithocholic acid",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "secondary bile acid"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t21",
+        "entity_type": "text",
+        "name": "BSEP",
+        "category": "scientific_label",
+        "surface_text": "BSEP",
+        "normalized_text": "BSEP",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "canalicular transporter"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t22",
+        "entity_type": "text",
+        "name": "NTCP",
+        "category": "scientific_label",
+        "surface_text": "NTCP",
+        "normalized_text": "NTCP",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "sinusoidal transporter"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t23",
+        "entity_type": "text",
+        "name": "OATP1",
+        "category": "scientific_label",
+        "surface_text": "OATP1",
+        "normalized_text": "OATP1",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "sinusoidal transporter"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t24",
+        "entity_type": "text",
+        "name": "ASBT",
+        "category": "scientific_label",
+        "surface_text": "ASBT",
+        "normalized_text": "ASBT",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "intestinal uptake transporter"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t25",
+        "entity_type": "text",
+        "name": "OSTα",
+        "category": "scientific_label",
+        "surface_text": "OSTα",
+        "normalized_text": "OST alpha",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "export transporter"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t26",
+        "entity_type": "text",
+        "name": "OSTβ",
+        "category": "scientific_label",
+        "surface_text": "OSTβ",
+        "normalized_text": "OST beta",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "export transporter"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t27",
+        "entity_type": "text",
+        "name": "Unconjugated BAs",
+        "category": "scientific_label",
+        "surface_text": "Unconjugated BAs",
+        "normalized_text": "unconjugated bile acids",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "intestinal pool state"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t28",
+        "entity_type": "text",
+        "name": "TCA",
+        "category": "scientific_label",
+        "surface_text": "TCA",
+        "normalized_text": "taurocholic acid",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "conjugated bile acid"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t29",
+        "entity_type": "text",
+        "name": "GCA",
+        "category": "scientific_label",
+        "surface_text": "GCA",
+        "normalized_text": "glycocholic acid",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "conjugated bile acid"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t30",
+        "entity_type": "text",
+        "name": "TCDCA",
+        "category": "scientific_label",
+        "surface_text": "TCDCA",
+        "normalized_text": "taurochenodeoxycholic acid",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "conjugated bile acid"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t31",
+        "entity_type": "text",
+        "name": "GCDCA",
+        "category": "scientific_label",
+        "surface_text": "GCDCA",
+        "normalized_text": "glycochenodeoxycholic acid",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "conjugated bile acid"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t32",
+        "entity_type": "text",
+        "name": "T α-MCA",
+        "category": "scientific_label",
+        "surface_text": "T α-MCA",
+        "normalized_text": "tauro-alpha-muricholic acid",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "conjugated muricholic acid"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t33",
+        "entity_type": "text",
+        "name": "T β-MCA",
+        "category": "scientific_label",
+        "surface_text": "T β-MCA",
+        "normalized_text": "tauro-beta-muricholic acid",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "conjugated muricholic acid"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t1",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t12",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t13",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t14",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "t9",
+        "target_entity_id": "v9",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "t10",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "t11",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "t4",
+        "target_entity_id": "t5",
+        "relation_type": "transforms_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "t4",
+        "target_entity_id": "t6",
+        "relation_type": "transforms_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "t4",
+        "target_entity_id": "t7",
+        "relation_type": "transforms_to",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "t4",
+        "target_entity_id": "t8",
+        "relation_type": "transforms_to",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "t2",
+        "target_entity_id": "t6",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "t3",
+        "target_entity_id": "t5",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "v5",
+        "target_entity_id": "v1",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "v6",
+        "target_entity_id": "v1",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "t21",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "t22",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "t23",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "v1",
+        "target_entity_id": "v9",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "v9",
+        "target_entity_id": "v3",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "v3",
+        "target_entity_id": "v7",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "v7",
+        "target_entity_id": "v1",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r23",
+        "source_entity_id": "v7",
+        "target_entity_id": "v8",
+        "relation_type": "connected_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r24",
+        "source_entity_id": "t15",
+        "target_entity_id": "v4",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r25",
+        "source_entity_id": "t16",
+        "target_entity_id": "v4",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r26",
+        "source_entity_id": "t17",
+        "target_entity_id": "v4",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r27",
+        "source_entity_id": "t28",
+        "target_entity_id": "t27",
+        "relation_type": "transforms_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r28",
+        "source_entity_id": "t29",
+        "target_entity_id": "t27",
+        "relation_type": "transforms_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r29",
+        "source_entity_id": "t30",
+        "target_entity_id": "t27",
+        "relation_type": "transforms_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r30",
+        "source_entity_id": "t31",
+        "target_entity_id": "t27",
+        "relation_type": "transforms_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r31",
+        "source_entity_id": "t32",
+        "target_entity_id": "t7",
+        "relation_type": "transforms_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r32",
+        "source_entity_id": "t33",
+        "target_entity_id": "t8",
+        "relation_type": "transforms_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r33",
+        "source_entity_id": "t6",
+        "target_entity_id": "t18",
+        "relation_type": "transforms_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r34",
+        "source_entity_id": "t5",
+        "target_entity_id": "t19",
+        "relation_type": "transforms_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r35",
+        "source_entity_id": "t6",
+        "target_entity_id": "t20",
+        "relation_type": "transforms_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r36",
+        "source_entity_id": "t24",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r37",
+        "source_entity_id": "t25",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r38",
+        "source_entity_id": "t26",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r39",
+        "source_entity_id": "v4",
+        "target_entity_id": "v3",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r40",
+        "source_entity_id": "v2",
+        "target_entity_id": "v3",
+        "relation_type": "below",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      }
+    ]
+  }
+}

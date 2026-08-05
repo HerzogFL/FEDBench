@@ -1,0 +1,1597 @@
+{
+  "image_name": "1e655827819f8ea3c44687e8f8ef8348.png",
+  "prompt_text": "The figure summarizes several ways CDK4/6 inhibition can affect cancer cells and the tumour environment, showing that its consequences extend beyond the classic RB–E2F pathway. A central theme is that blocking Cyclin D–CDK4/6 prevents RB inactivation, thereby restraining E2F-driven programs and causing loss of proliferative signals. This is linked to outcomes such as proliferative arrest, DNA damage responses, chromatin remodeling, metabolic changes, differentiation, and sometimes apoptosis.\n\nThe diagram also emphasizes broader effects. In senescence, CDK4/6 inhibition appears to cooperate with additional targets and p53-related pathways to drive cell-cycle withdrawal, chromatin changes, metabolic dysregulation, apoptosis resistance, and the SASP. In apoptosis and cytostasis, the figure contrasts solid tumours, where CDK4–Cyclin D1 acts mainly through RB and E2F to produce cytostasis, with haematological malignancies, where CDK6–Cyclin D3 seems to regulate metabolic enzymes, altered metabolism, and increased ROS, leading more directly to apoptosis.\n\nOther panels highlight non-canonical RB functions, including recruitment of histone modifiers and activation of other transcription factors, as well as non-RB substrates unique to CDK4 or CDK6. Finally, the figure suggests these drugs can influence lymphocytes, fibroblasts, and endothelial cells, shaping overall clinical response.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "panel marker set",
+        "category": "panel_marker",
+        "panel": "all",
+        "count": 6,
+        "key_attributes": [
+          "a-f labels",
+          "top-left of panels"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "CDK-cyclin inhibitory pathway arrows",
+        "category": "arrow",
+        "panel": "a",
+        "count": 4,
+        "key_attributes": [
+          "vertical flow",
+          "inhibitory mark",
+          "downstream outcomes"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "outcome list box",
+        "category": "region",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "beige box",
+          "bullet list"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "senescence pathway arrows",
+        "category": "arrow",
+        "panel": "b",
+        "count": 6,
+        "key_attributes": [
+          "branching inputs",
+          "RB and p53 arms",
+          "downstream senescence outputs"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "other targets box",
+        "category": "pathway_component",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "pink rectangle",
+          "parallel pathway"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "senescence outcome list box",
+        "category": "region",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "beige box",
+          "bullet list"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "solid tumour pathway",
+        "category": "arrow",
+        "panel": "c",
+        "count": 4,
+        "key_attributes": [
+          "CDK4-Cyclin D1 arm",
+          "RB-E2F route",
+          "cytostasis endpoint"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "haematological malignancy pathway",
+        "category": "arrow",
+        "panel": "c",
+        "count": 4,
+        "key_attributes": [
+          "CDK6-Cyclin D3 arm",
+          "metabolic enzyme box",
+          "apoptosis endpoint"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "metabolic enzymes box",
+        "category": "pathway_component",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "pink rectangle",
+          "metabolic node"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v10",
+        "entity_type": "visual",
+        "name": "non-canonical RB pathway arrows",
+        "category": "arrow",
+        "panel": "d",
+        "count": 5,
+        "key_attributes": [
+          "RB to E2F side link",
+          "other targets branch",
+          "downstream functions"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v11",
+        "entity_type": "visual",
+        "name": "other targets box",
+        "category": "pathway_component",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "pink rectangle",
+          "RB-associated outputs"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v12",
+        "entity_type": "visual",
+        "name": "overlapping target sets",
+        "category": "region",
+        "panel": "e",
+        "count": 2,
+        "key_attributes": [
+          "overlapping circles",
+          "CDK6 vs CDK4 targets"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v13",
+        "entity_type": "visual",
+        "name": "non-RB substrate input arrows",
+        "category": "arrow",
+        "panel": "e",
+        "count": 3,
+        "key_attributes": [
+          "two top inputs",
+          "inhibitory marks",
+          "downstream function box"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v14",
+        "entity_type": "visual",
+        "name": "lymphocytes",
+        "category": "cell",
+        "panel": "f",
+        "count": 5,
+        "key_attributes": [
+          "round blue cells",
+          "immune cells"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v15",
+        "entity_type": "visual",
+        "name": "fibroblasts",
+        "category": "cell",
+        "panel": "f",
+        "count": 3,
+        "key_attributes": [
+          "spindle-shaped",
+          "stromal cells"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v16",
+        "entity_type": "visual",
+        "name": "endothelial cell layer",
+        "category": "layer",
+        "panel": "f",
+        "count": 2,
+        "key_attributes": [
+          "pink rows",
+          "vascular-like lining"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v17",
+        "entity_type": "visual",
+        "name": "clinical response arrow",
+        "category": "arrow",
+        "panel": "f",
+        "count": 1,
+        "key_attributes": [
+          "downward arrow",
+          "toward outcome box"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "panel a label",
+        "category": "panel_label",
+        "surface_text": "a",
+        "normalized_text": "a",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "RB-dependent E2F target depletion",
+        "category": "scientific_label",
+        "surface_text": "RB-dependent E2F target depletion",
+        "normalized_text": "RB-dependent E2F target depletion",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "panel title"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "CDK4/6",
+        "category": "scientific_label",
+        "surface_text": "CDK4/6",
+        "normalized_text": "CDK4/6",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "Cyclin D",
+        "category": "scientific_label",
+        "surface_text": "Cyclin D",
+        "normalized_text": "Cyclin D",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "RB",
+        "category": "scientific_label",
+        "surface_text": "RB",
+        "normalized_text": "RB",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "E2F",
+        "category": "scientific_label",
+        "surface_text": "E2F",
+        "normalized_text": "E2F",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "Proliferative arrest",
+        "category": "annotation_text",
+        "surface_text": "Proliferative arrest",
+        "normalized_text": "Proliferative arrest",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "outcome"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "DNA damage response",
+        "category": "annotation_text",
+        "surface_text": "DNA damage response",
+        "normalized_text": "DNA damage response",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "outcome"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "Chromatin remodelling",
+        "category": "annotation_text",
+        "surface_text": "Chromatin remodelling",
+        "normalized_text": "Chromatin remodelling",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "outcome"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "Metabolism",
+        "category": "annotation_text",
+        "surface_text": "Metabolism",
+        "normalized_text": "Metabolism",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "outcome"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "Differentiation",
+        "category": "annotation_text",
+        "surface_text": "Differentiation",
+        "normalized_text": "Differentiation",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "outcome"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "Apoptosis",
+        "category": "annotation_text",
+        "surface_text": "Apoptosis",
+        "normalized_text": "Apoptosis",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "outcome"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "panel b label",
+        "category": "panel_label",
+        "surface_text": "b",
+        "normalized_text": "b",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t14",
+        "entity_type": "text",
+        "name": "Senescence",
+        "category": "scientific_label",
+        "surface_text": "Senescence",
+        "normalized_text": "Senescence",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "panel title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t15",
+        "entity_type": "text",
+        "name": "Other targets",
+        "category": "scientific_label",
+        "surface_text": "Other targets",
+        "normalized_text": "Other targets",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "parallel pathway"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t16",
+        "entity_type": "text",
+        "name": "p53",
+        "category": "scientific_label",
+        "surface_text": "p53",
+        "normalized_text": "p53",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t17",
+        "entity_type": "text",
+        "name": "Cell cycle withdrawal",
+        "category": "annotation_text",
+        "surface_text": "Cell cycle withdrawal",
+        "normalized_text": "Cell cycle withdrawal",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "senescence output"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t18",
+        "entity_type": "text",
+        "name": "Metabolic dysregulation",
+        "category": "annotation_text",
+        "surface_text": "Metabolic dysregulation",
+        "normalized_text": "Metabolic dysregulation",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "senescence output"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t19",
+        "entity_type": "text",
+        "name": "Apoptosis resistance",
+        "category": "annotation_text",
+        "surface_text": "Apoptosis resistance",
+        "normalized_text": "Apoptosis resistance",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "senescence output"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t20",
+        "entity_type": "text",
+        "name": "SASP",
+        "category": "annotation_text",
+        "surface_text": "SASP",
+        "normalized_text": "SASP",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "senescence output"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t21",
+        "entity_type": "text",
+        "name": "panel c label",
+        "category": "panel_label",
+        "surface_text": "c",
+        "normalized_text": "c",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t22",
+        "entity_type": "text",
+        "name": "Apoptosis and cytostasis",
+        "category": "scientific_label",
+        "surface_text": "Apoptosis and cytostasis",
+        "normalized_text": "Apoptosis and cytostasis",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "panel title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t23",
+        "entity_type": "text",
+        "name": "Solid tumours",
+        "category": "scientific_label",
+        "surface_text": "Solid tumours",
+        "normalized_text": "Solid tumours",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "left subgroup"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t24",
+        "entity_type": "text",
+        "name": "Haematological malignancies",
+        "category": "scientific_label",
+        "surface_text": "Haematological malignancies",
+        "normalized_text": "Haematological malignancies",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "right subgroup"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t25",
+        "entity_type": "text",
+        "name": "CDK4",
+        "category": "scientific_label",
+        "surface_text": "CDK4",
+        "normalized_text": "CDK4",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t26",
+        "entity_type": "text",
+        "name": "Cyclin D1",
+        "category": "scientific_label",
+        "surface_text": "Cyclin D1",
+        "normalized_text": "Cyclin D1",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t27",
+        "entity_type": "text",
+        "name": "Cytostasis",
+        "category": "annotation_text",
+        "surface_text": "Cytostasis",
+        "normalized_text": "Cytostasis",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "left endpoint"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t28",
+        "entity_type": "text",
+        "name": "CDK6",
+        "category": "scientific_label",
+        "surface_text": "CDK6",
+        "normalized_text": "CDK6",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t29",
+        "entity_type": "text",
+        "name": "Cyclin D3",
+        "category": "scientific_label",
+        "surface_text": "Cyclin D3",
+        "normalized_text": "Cyclin D3",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t30",
+        "entity_type": "text",
+        "name": "Metabolic enzymes",
+        "category": "scientific_label",
+        "surface_text": "Metabolic enzymes",
+        "normalized_text": "Metabolic enzymes",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "right pathway node"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t31",
+        "entity_type": "text",
+        "name": "Altered metabolism",
+        "category": "annotation_text",
+        "surface_text": "Altered metabolism",
+        "normalized_text": "Altered metabolism",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "right pathway output"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t32",
+        "entity_type": "text",
+        "name": "increased ROS",
+        "category": "annotation_text",
+        "surface_text": "↑ROS",
+        "normalized_text": "increased ROS",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "right pathway output"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t33",
+        "entity_type": "text",
+        "name": "Apoptosis",
+        "category": "annotation_text",
+        "surface_text": "Apoptosis",
+        "normalized_text": "Apoptosis",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "right endpoint"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t34",
+        "entity_type": "text",
+        "name": "panel d label",
+        "category": "panel_label",
+        "surface_text": "d",
+        "normalized_text": "d",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t35",
+        "entity_type": "text",
+        "name": "Non-canonical RB functions",
+        "category": "scientific_label",
+        "surface_text": "Non-canonical RB functions",
+        "normalized_text": "Non-canonical RB functions",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "panel title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t36",
+        "entity_type": "text",
+        "name": "Recruitment of histone modifiers",
+        "category": "annotation_text",
+        "surface_text": "Recruitment of histone modifiers",
+        "normalized_text": "Recruitment of histone modifiers",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "RB function"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t37",
+        "entity_type": "text",
+        "name": "Activation of other transcription factors",
+        "category": "annotation_text",
+        "surface_text": "Activation of other transcription factors",
+        "normalized_text": "Activation of other transcription factors",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "RB function"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t38",
+        "entity_type": "text",
+        "name": "panel e label",
+        "category": "panel_label",
+        "surface_text": "e",
+        "normalized_text": "e",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t39",
+        "entity_type": "text",
+        "name": "Non-RB substrates",
+        "category": "scientific_label",
+        "surface_text": "Non-RB substrates",
+        "normalized_text": "Non-RB substrates",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "panel title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t40",
+        "entity_type": "text",
+        "name": "CDK6 targets",
+        "category": "scientific_label",
+        "surface_text": "CDK6 targets",
+        "normalized_text": "CDK6 targets",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "left target set"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t41",
+        "entity_type": "text",
+        "name": "CDK4 targets",
+        "category": "scientific_label",
+        "surface_text": "CDK4 targets",
+        "normalized_text": "CDK4 targets",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "right target set"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t42",
+        "entity_type": "text",
+        "name": "Multiple biological functions, e.g.",
+        "category": "annotation_text",
+        "surface_text": "Multiple biological functions, e.g.",
+        "normalized_text": "Multiple biological functions, e.g.",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "function list header"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t43",
+        "entity_type": "text",
+        "name": "Senescence",
+        "category": "annotation_text",
+        "surface_text": "Senescence",
+        "normalized_text": "Senescence",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "example function"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t44",
+        "entity_type": "text",
+        "name": "Apoptosis",
+        "category": "annotation_text",
+        "surface_text": "Apoptosis",
+        "normalized_text": "Apoptosis",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "example function"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t45",
+        "entity_type": "text",
+        "name": "Immunogenicity",
+        "category": "annotation_text",
+        "surface_text": "Immunogenicity",
+        "normalized_text": "Immunogenicity",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "example function"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t46",
+        "entity_type": "text",
+        "name": "panel f label",
+        "category": "panel_label",
+        "surface_text": "f",
+        "normalized_text": "f",
+        "panel": "f",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t47",
+        "entity_type": "text",
+        "name": "Effects on other cell types",
+        "category": "scientific_label",
+        "surface_text": "Effects on other cell types",
+        "normalized_text": "Effects on other cell types",
+        "panel": "f",
+        "count": 1,
+        "key_attributes": [
+          "panel title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t48",
+        "entity_type": "text",
+        "name": "Lymphocyte",
+        "category": "scientific_label",
+        "surface_text": "Lymphocyte",
+        "normalized_text": "Lymphocyte",
+        "panel": "f",
+        "count": 1,
+        "key_attributes": [
+          "cell type"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t49",
+        "entity_type": "text",
+        "name": "Fibroblast",
+        "category": "scientific_label",
+        "surface_text": "Fibroblast",
+        "normalized_text": "Fibroblast",
+        "panel": "f",
+        "count": 1,
+        "key_attributes": [
+          "cell type"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t50",
+        "entity_type": "text",
+        "name": "Endothelial cell",
+        "category": "scientific_label",
+        "surface_text": "Endothelial cell",
+        "normalized_text": "Endothelial cell",
+        "panel": "f",
+        "count": 1,
+        "key_attributes": [
+          "cell type"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t51",
+        "entity_type": "text",
+        "name": "Impact on clinical response",
+        "category": "annotation_text",
+        "surface_text": "Impact on clinical response",
+        "normalized_text": "Impact on clinical response",
+        "panel": "f",
+        "count": 1,
+        "key_attributes": [
+          "downstream consequence"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t2",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t3",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t4",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t5",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "t6",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "t3",
+        "target_entity_id": "t5",
+        "relation_type": "inhibits",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "t4",
+        "target_entity_id": "t3",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "t5",
+        "target_entity_id": "t6",
+        "relation_type": "inhibits",
+        "importance": "required",
+        "prompt_status": "explicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "t6",
+        "target_entity_id": "t7",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "t6",
+        "target_entity_id": "t8",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "t6",
+        "target_entity_id": "t9",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "t6",
+        "target_entity_id": "t10",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "t6",
+        "target_entity_id": "t11",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "t6",
+        "target_entity_id": "t12",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "t14",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "t15",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "t16",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "v5",
+        "target_entity_id": "t17",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "t16",
+        "target_entity_id": "t17",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "v5",
+        "target_entity_id": "t18",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "v5",
+        "target_entity_id": "t19",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "v5",
+        "target_entity_id": "t20",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r23",
+        "source_entity_id": "t22",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r24",
+        "source_entity_id": "t22",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r25",
+        "source_entity_id": "t23",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r26",
+        "source_entity_id": "t24",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r27",
+        "source_entity_id": "t25",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r28",
+        "source_entity_id": "t26",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r29",
+        "source_entity_id": "t28",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r30",
+        "source_entity_id": "t29",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r31",
+        "source_entity_id": "t30",
+        "target_entity_id": "v9",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r32",
+        "source_entity_id": "t25",
+        "target_entity_id": "t27",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r33",
+        "source_entity_id": "t26",
+        "target_entity_id": "t25",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r34",
+        "source_entity_id": "t28",
+        "target_entity_id": "v9",
+        "relation_type": "inhibits",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r35",
+        "source_entity_id": "t29",
+        "target_entity_id": "t28",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r36",
+        "source_entity_id": "v9",
+        "target_entity_id": "t31",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r37",
+        "source_entity_id": "v9",
+        "target_entity_id": "t32",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r38",
+        "source_entity_id": "t31",
+        "target_entity_id": "t33",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r39",
+        "source_entity_id": "t32",
+        "target_entity_id": "t33",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r40",
+        "source_entity_id": "t23",
+        "target_entity_id": "t24",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r41",
+        "source_entity_id": "t35",
+        "target_entity_id": "v10",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r42",
+        "source_entity_id": "t36",
+        "target_entity_id": "v10",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r43",
+        "source_entity_id": "t37",
+        "target_entity_id": "v10",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r44",
+        "source_entity_id": "t39",
+        "target_entity_id": "v13",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r45",
+        "source_entity_id": "t40",
+        "target_entity_id": "v12",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r46",
+        "source_entity_id": "t41",
+        "target_entity_id": "v12",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r47",
+        "source_entity_id": "t40",
+        "target_entity_id": "t41",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r48",
+        "source_entity_id": "v12",
+        "target_entity_id": "t42",
+        "relation_type": "flows_to",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r49",
+        "source_entity_id": "v12",
+        "target_entity_id": "t43",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r50",
+        "source_entity_id": "v12",
+        "target_entity_id": "t44",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r51",
+        "source_entity_id": "v12",
+        "target_entity_id": "t45",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r52",
+        "source_entity_id": "t47",
+        "target_entity_id": "v14",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r53",
+        "source_entity_id": "t47",
+        "target_entity_id": "v15",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r54",
+        "source_entity_id": "t47",
+        "target_entity_id": "v16",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r55",
+        "source_entity_id": "t48",
+        "target_entity_id": "v14",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r56",
+        "source_entity_id": "t49",
+        "target_entity_id": "v15",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r57",
+        "source_entity_id": "t50",
+        "target_entity_id": "v16",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r58",
+        "source_entity_id": "v14",
+        "target_entity_id": "t51",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r59",
+        "source_entity_id": "v15",
+        "target_entity_id": "t51",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r60",
+        "source_entity_id": "v16",
+        "target_entity_id": "t51",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1042 @@
+{
+  "image_name": "04d4308853b75b57c858bf7643980901.png",
+  "prompt_text": "This figure summarizes how rice management and soil carbon alter methane emissions by shifting root inputs, oxygen status, and microbial activity in flooded soils. The top half contrasts continuous flooding with intermittent irrigation in terms of increasing harvest index. Under continuous flooding, methane production appears suppressed overall, with reduced rhizodeposition and fewer methanogens. Under intermittent irrigation, added oxygen enters the soil, raising redox conditions and limiting methanogens, so methane release remains roughly unchanged or only slightly affected despite the same reduced rhizodeposition.\n\nThe bottom half focuses on increasing plant biomass and compares low- versus high-carbon soils. In both cases, larger plants increase rhizodeposition and root oxygen transport. In low-carbon soil, the extra plant-derived substrates stimulate methanogens and methane formation more strongly than methane oxidation, leading to higher methane emissions. In high-carbon soil, methanotrophs appear to become more important, likely because oxygen availability near roots supports oxidation, so methane emissions decline or stay lower even though rhizodeposition is increased.\n\nOverall, the diagram highlights that methane outcomes in rice fields depend on the balance between carbon supplied by roots, oxygen entering the rhizosphere, and the relative activity of methanogens versus methanotrophs under different water and soil-carbon conditions.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "rice plant",
+        "category": "cell",
+        "panel": "a",
+        "count": 2,
+        "key_attributes": [
+          "above flooded soil",
+          "roots shown",
+          "contrasting management"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "rice plant",
+        "category": "cell",
+        "panel": "b",
+        "count": 2,
+        "key_attributes": [
+          "larger biomass comparison",
+          "roots shown",
+          "low vs high carbon"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "flooded soil profile",
+        "category": "layer",
+        "panel": "a",
+        "count": 2,
+        "key_attributes": [
+          "water layer",
+          "soil layer",
+          "flooded field"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "soil carbon setting",
+        "category": "layer",
+        "panel": "b",
+        "count": 2,
+        "key_attributes": [
+          "low vs high carbon",
+          "soil background",
+          "comparative context"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "methanogen microbes",
+        "category": "molecule",
+        "panel": "a",
+        "count": 2,
+        "key_attributes": [
+          "soil microbes",
+          "production side",
+          "relative abundance changes"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "methanogen microbes",
+        "category": "molecule",
+        "panel": "b",
+        "count": 2,
+        "key_attributes": [
+          "soil microbes",
+          "substrate response",
+          "relative abundance changes"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "methanotroph microbes",
+        "category": "molecule",
+        "panel": "b",
+        "count": 2,
+        "key_attributes": [
+          "oxidation side",
+          "blue cocci nearby",
+          "more important in high carbon"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "methane symbols",
+        "category": "molecule",
+        "panel": "a",
+        "count": 6,
+        "key_attributes": [
+          "blue gas icons",
+          "emission/product",
+          "multiple locations"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "methane symbols",
+        "category": "molecule",
+        "panel": "b",
+        "count": 8,
+        "key_attributes": [
+          "blue gas icons",
+          "emission/product",
+          "multiple locations"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v10",
+        "entity_type": "visual",
+        "name": "oxygen arrows and symbols",
+        "category": "arrow",
+        "panel": "a",
+        "count": 3,
+        "key_attributes": [
+          "oxygen entry",
+          "downward arrows",
+          "intermittent irrigation side"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v11",
+        "entity_type": "visual",
+        "name": "oxygen transport arrows and symbols",
+        "category": "arrow",
+        "panel": "b",
+        "count": 4,
+        "key_attributes": [
+          "root oxygen transport",
+          "curved inward arrows",
+          "both soil carbon cases"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v12",
+        "entity_type": "visual",
+        "name": "process flow arrows",
+        "category": "arrow",
+        "panel": "a",
+        "count": 6,
+        "key_attributes": [
+          "blue curved arrows",
+          "causal flow",
+          "rhizosphere cycling"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v13",
+        "entity_type": "visual",
+        "name": "process flow arrows",
+        "category": "arrow",
+        "panel": "b",
+        "count": 8,
+        "key_attributes": [
+          "blue curved arrows",
+          "causal flow",
+          "substrate and oxidation pathways"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v14",
+        "entity_type": "visual",
+        "name": "high oxygen/high redox region box",
+        "category": "region",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "boxed callout",
+          "intermittent irrigation",
+          "oxidized soil zone"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v15",
+        "entity_type": "visual",
+        "name": "vertical dashed divider",
+        "category": "panel_marker",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "left-right split",
+          "condition separator",
+          "dashed line"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "v16",
+        "entity_type": "visual",
+        "name": "vertical dashed divider",
+        "category": "panel_marker",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "left-right split",
+          "condition separator",
+          "dashed line"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "panel label a",
+        "category": "panel_label",
+        "surface_text": "a",
+        "normalized_text": "a",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "panel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "Increasing harvest index",
+        "category": "annotation_text",
+        "surface_text": "Increasing harvest index",
+        "normalized_text": "Increasing harvest index",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "panel theme"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "Continuous flooding",
+        "category": "annotation_text",
+        "surface_text": "Continuous flooding",
+        "normalized_text": "Continuous flooding",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "left condition"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "Intermittent irrigation",
+        "category": "annotation_text",
+        "surface_text": "Intermittent irrigation",
+        "normalized_text": "Intermittent irrigation",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "right condition"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "Rhizodeposition decrease",
+        "category": "scientific_label",
+        "surface_text": "Rhizodeposition(−)",
+        "normalized_text": "Rhizodeposition (-)",
+        "panel": "a",
+        "count": 2,
+        "key_attributes": [
+          "decrease",
+          "both management conditions"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "Methane decrease in panel a",
+        "category": "scientific_label",
+        "surface_text": "CH4(−)",
+        "normalized_text": "CH4 (-)",
+        "panel": "a",
+        "count": 2,
+        "key_attributes": [
+          "decrease",
+          "continuous flooding and pathway labels"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "Methane approximately unchanged in panel a",
+        "category": "scientific_label",
+        "surface_text": "CH4(≈)",
+        "normalized_text": "CH4 (≈)",
+        "panel": "a",
+        "count": 2,
+        "key_attributes": [
+          "approximately unchanged",
+          "intermittent irrigation side"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "Methanogens decrease",
+        "category": "scientific_label",
+        "surface_text": "Methanogens (−)",
+        "normalized_text": "Methanogens (-)",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "decrease",
+          "continuous flooding"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "Methanogens approximately unchanged",
+        "category": "scientific_label",
+        "surface_text": "Methanogens (≈)",
+        "normalized_text": "Methanogens (≈)",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "approximately unchanged",
+          "intermittent irrigation"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "O2",
+        "category": "scientific_label",
+        "surface_text": "O2",
+        "normalized_text": "O2",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "oxygen input"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "High O2",
+        "category": "scientific_label",
+        "surface_text": "High O2",
+        "normalized_text": "High O2",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "oxidized zone"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "High Eh",
+        "category": "scientific_label",
+        "surface_text": "High Eh",
+        "normalized_text": "High Eh",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "high redox"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "Limit",
+        "category": "annotation_text",
+        "surface_text": "Limit",
+        "normalized_text": "Limit",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "limits methanogens"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t14",
+        "entity_type": "text",
+        "name": "panel label b",
+        "category": "panel_label",
+        "surface_text": "b",
+        "normalized_text": "b",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "panel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t15",
+        "entity_type": "text",
+        "name": "Increasing plant biomass",
+        "category": "annotation_text",
+        "surface_text": "Increasing plant biomass",
+        "normalized_text": "Increasing plant biomass",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "panel theme"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t16",
+        "entity_type": "text",
+        "name": "Low soil carbon",
+        "category": "annotation_text",
+        "surface_text": "Low soil carbon",
+        "normalized_text": "Low soil carbon",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "left condition"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t17",
+        "entity_type": "text",
+        "name": "High soil carbon",
+        "category": "annotation_text",
+        "surface_text": "High soil carbon",
+        "normalized_text": "High soil carbon",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "right condition"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t18",
+        "entity_type": "text",
+        "name": "Oxygen increase in panel b",
+        "category": "scientific_label",
+        "surface_text": "O2(+)",
+        "normalized_text": "O2 (+)",
+        "panel": "b",
+        "count": 4,
+        "key_attributes": [
+          "increase",
+          "root oxygen transport"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t19",
+        "entity_type": "text",
+        "name": "Rhizodeposition increase",
+        "category": "scientific_label",
+        "surface_text": "Rhizodeposition(+)",
+        "normalized_text": "Rhizodeposition (+)",
+        "panel": "b",
+        "count": 2,
+        "key_attributes": [
+          "increase",
+          "both soil carbon conditions"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t20",
+        "entity_type": "text",
+        "name": "Substrates labels",
+        "category": "scientific_label",
+        "surface_text": "Substrates (+) / Substrates (≈)",
+        "normalized_text": "Substrates (+)/(≈)",
+        "panel": "b",
+        "count": 2,
+        "key_attributes": [
+          "plant-derived substrates",
+          "left vs right difference"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t21",
+        "entity_type": "text",
+        "name": "Methanogens increase",
+        "category": "scientific_label",
+        "surface_text": "Methanogens (+)",
+        "normalized_text": "Methanogens (+)",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "low soil carbon"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t22",
+        "entity_type": "text",
+        "name": "Methanogens approximately unchanged in high carbon",
+        "category": "scientific_label",
+        "surface_text": "Methanogens (≈)",
+        "normalized_text": "Methanogens (≈)",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "high soil carbon"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t23",
+        "entity_type": "text",
+        "name": "Methanotrophs approximately unchanged",
+        "category": "scientific_label",
+        "surface_text": "Methanotrophs (≈)",
+        "normalized_text": "Methanotrophs (≈)",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "low soil carbon"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t24",
+        "entity_type": "text",
+        "name": "Methanotrophs increase",
+        "category": "scientific_label",
+        "surface_text": "Methanotrophs (+)",
+        "normalized_text": "Methanotrophs (+)",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "high soil carbon"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t25",
+        "entity_type": "text",
+        "name": "Methane increase labels in low carbon",
+        "category": "scientific_label",
+        "surface_text": "CH4(+) / CH4(++)",
+        "normalized_text": "CH4 (+)/(++)",
+        "panel": "b",
+        "count": 3,
+        "key_attributes": [
+          "higher methane",
+          "low carbon case"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t26",
+        "entity_type": "text",
+        "name": "Methane decrease labels in high carbon",
+        "category": "scientific_label",
+        "surface_text": "CH4(−)",
+        "normalized_text": "CH4 (-)",
+        "panel": "b",
+        "count": 3,
+        "key_attributes": [
+          "lower methane",
+          "high carbon case"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t27",
+        "entity_type": "text",
+        "name": "Methane approximately unchanged in high carbon",
+        "category": "scientific_label",
+        "surface_text": "CH4(≈)",
+        "normalized_text": "CH4 (≈)",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "near unchanged outcome",
+          "high carbon case"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t2",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t3",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t4",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "v1",
+        "target_entity_id": "v3",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "t5",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "t8",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "t9",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "t6",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "t7",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "t10",
+        "target_entity_id": "v10",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "t11",
+        "target_entity_id": "v14",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "t12",
+        "target_entity_id": "v14",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "v10",
+        "target_entity_id": "v14",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "v14",
+        "target_entity_id": "v5",
+        "relation_type": "inhibits",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "t13",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "t15",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "t16",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "t17",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "v2",
+        "target_entity_id": "v4",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "t19",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "t18",
+        "target_entity_id": "v11",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "v11",
+        "target_entity_id": "v2",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r23",
+        "source_entity_id": "t20",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r24",
+        "source_entity_id": "t21",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r25",
+        "source_entity_id": "t22",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r26",
+        "source_entity_id": "t23",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r27",
+        "source_entity_id": "t24",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r28",
+        "source_entity_id": "t25",
+        "target_entity_id": "v9",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r29",
+        "source_entity_id": "t26",
+        "target_entity_id": "v9",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r30",
+        "source_entity_id": "t27",
+        "target_entity_id": "v9",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r31",
+        "source_entity_id": "t19",
+        "target_entity_id": "t20",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r32",
+        "source_entity_id": "t20",
+        "target_entity_id": "v6",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r33",
+        "source_entity_id": "v11",
+        "target_entity_id": "v7",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r34",
+        "source_entity_id": "v7",
+        "target_entity_id": "v9",
+        "relation_type": "inhibits",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r35",
+        "source_entity_id": "t3",
+        "target_entity_id": "t4",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r36",
+        "source_entity_id": "t16",
+        "target_entity_id": "t17",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r37",
+        "source_entity_id": "t2",
+        "target_entity_id": "t15",
+        "relation_type": "above",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "cross_panel"
+      }
+    ]
+  }
+}

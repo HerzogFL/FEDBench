@@ -1,0 +1,851 @@
+{
+  "image_name": "501ba2d9a383c8a2b2d313a3aa025ab1.png",
+  "prompt_text": "The figure presents a conceptual sequence for how mineral-associated organic matter (MOAs) in soil is broken down and rebuilt. On the left, “original MOAs” are shown as organic matter attached to different minerals, with protection occurring through both chemical interactions and physical protection. The minerals include clay, iron oxides, and larger silicate particles such as quartz or feldspar.\n\nIn the middle, these original associations are transformed during microbial processing. Microorganisms and mineral surfaces interact with the old organic matter, producing transformed organic matter and microbial necromass. Between stages, Fe redox cycling is highlighted, with iron switching between Fe(III) and Fe(II), suggesting that changing iron oxidation state helps destabilize old associations and alter mineral-organic interactions.\n\nOn the right, new MOAs form when the newly produced organic matter and microbial residues become protected again on mineral surfaces. The diagram emphasizes that both transformed organic matter and necromass can become stabilized, creating “newly formed OM” associated with minerals.\n\nOverall, the image conveys a dynamic soil carbon cycle: mineral-bound organic matter is not static, but continually decomposed, microbially reworked, and reprotected through mineral interactions and iron redox processes.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "original mineral-associated organic matter cluster",
+        "category": "region",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "mineral-bound OM",
+          "left stage",
+          "mixed minerals"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "chemical protection interaction",
+        "category": "region",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "surface association",
+          "protected OM",
+          "top callout"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "physical protection interaction",
+        "category": "region",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "occluded OM",
+          "protected aggregate",
+          "bottom callout"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "clay mineral particles",
+        "category": "material_structure",
+        "panel": "single_panel",
+        "count": 3,
+        "key_attributes": [
+          "beige layered",
+          "sheet-like",
+          "mineral surface"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "iron (oxyhydr)oxide particles",
+        "category": "material_structure",
+        "panel": "single_panel",
+        "count": 4,
+        "key_attributes": [
+          "pink angular",
+          "iron mineral",
+          "triangular facets"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "quartz and feldspar particles",
+        "category": "material_structure",
+        "panel": "single_panel",
+        "count": 6,
+        "key_attributes": [
+          "blue irregular",
+          "larger silicates",
+          "mineral grains"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "organic matter strands",
+        "category": "molecule",
+        "panel": "single_panel",
+        "count": 8,
+        "key_attributes": [
+          "brown squiggles",
+          "surface-associated",
+          "OM"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "microorganisms",
+        "category": "cell",
+        "panel": "single_panel",
+        "count": 5,
+        "key_attributes": [
+          "rod-shaped",
+          "microbial processing",
+          "tan cells"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "microbial debris and necromass fragments",
+        "category": "molecule",
+        "panel": "b",
+        "count": 6,
+        "key_attributes": [
+          "blue fragments",
+          "cell remnants",
+          "necromass"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v10",
+        "entity_type": "visual",
+        "name": "transformed organic matter pool",
+        "category": "region",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "reworked OM",
+          "middle stage",
+          "microbial alteration"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v11",
+        "entity_type": "visual",
+        "name": "new mineral-associated organic matter cluster",
+        "category": "region",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "newly formed OM",
+          "reprotected",
+          "right stage"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v12",
+        "entity_type": "visual",
+        "name": "Fe redox cycling arrows",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "blue/red curved arrows",
+          "Fe(III)/Fe(II)",
+          "between stages"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v13",
+        "entity_type": "visual",
+        "name": "stage transition arrows",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "horizontal arrows",
+          "left-to-right flow",
+          "process sequence"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v14",
+        "entity_type": "visual",
+        "name": "legend box and symbol row",
+        "category": "legend_key",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "bottom legend",
+          "symbol mapping",
+          "boxed"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "panel a label",
+        "category": "panel_label",
+        "surface_text": "a",
+        "normalized_text": "a",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "panel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "Original MOAs",
+        "category": "scientific_label",
+        "surface_text": "Original MOAs",
+        "normalized_text": "original MOAs",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "left stage",
+          "title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "Chemical protection",
+        "category": "scientific_label",
+        "surface_text": "Chemical protection",
+        "normalized_text": "chemical protection",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "protection mechanism"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "Physical protection",
+        "category": "scientific_label",
+        "surface_text": "Physical protection",
+        "normalized_text": "physical protection",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "protection mechanism"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "Fe(III)",
+        "category": "scientific_label",
+        "surface_text": "Fe(III)",
+        "normalized_text": "Fe(III)",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "oxidized iron",
+          "redox state"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "Fe(II)",
+        "category": "scientific_label",
+        "surface_text": "Fe(II)",
+        "normalized_text": "Fe(II)",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "reduced iron",
+          "redox state"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "panel b label",
+        "category": "panel_label",
+        "surface_text": "b",
+        "normalized_text": "b",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "panel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "Necromass formation",
+        "category": "scientific_label",
+        "surface_text": "Necromass formation",
+        "normalized_text": "necromass formation",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "middle stage",
+          "title"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "Microbial necromass",
+        "category": "scientific_label",
+        "surface_text": "Microbial necromass",
+        "normalized_text": "microbial necromass",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "necromass label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "Transformed OM",
+        "category": "scientific_label",
+        "surface_text": "Transformed OM",
+        "normalized_text": "transformed organic matter",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "reworked OM"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "panel c label",
+        "category": "panel_label",
+        "surface_text": "c",
+        "normalized_text": "c",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "panel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "New MOAs formation",
+        "category": "scientific_label",
+        "surface_text": "New MOAs formation",
+        "normalized_text": "new MOAs formation",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "right stage",
+          "title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "Protection of newly formed OM",
+        "category": "scientific_label",
+        "surface_text": "Protection of newly formed OM",
+        "normalized_text": "protection of newly formed organic matter",
+        "panel": "c",
+        "count": 2,
+        "key_attributes": [
+          "reprotection",
+          "callout"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t14",
+        "entity_type": "text",
+        "name": "Clay mineral",
+        "category": "legend_text",
+        "surface_text": "Clay mineral",
+        "normalized_text": "clay mineral",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "legend entry"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t15",
+        "entity_type": "text",
+        "name": "Iron (oxyhydr)oxide",
+        "category": "legend_text",
+        "surface_text": "Iron (oxyhydr)oxide",
+        "normalized_text": "iron (oxyhydr)oxide",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "legend entry"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t16",
+        "entity_type": "text",
+        "name": "Quartz and feldspar",
+        "category": "legend_text",
+        "surface_text": "Quartz and feldspar",
+        "normalized_text": "quartz and feldspar",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "legend entry"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t17",
+        "entity_type": "text",
+        "name": "Organic matter",
+        "category": "legend_text",
+        "surface_text": "Organic matter",
+        "normalized_text": "organic matter",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "legend entry"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t18",
+        "entity_type": "text",
+        "name": "Microorganism",
+        "category": "legend_text",
+        "surface_text": "Microorganism",
+        "normalized_text": "microorganism",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "legend entry"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t19",
+        "entity_type": "text",
+        "name": "Microbial debris and necromass",
+        "category": "legend_text",
+        "surface_text": "Microbal debris and necromass",
+        "normalized_text": "microbial debris and necromass",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "legend entry",
+          "OCR typo corrected"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t2",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t3",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t4",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t9",
+        "target_entity_id": "v9",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "t10",
+        "target_entity_id": "v10",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "t12",
+        "target_entity_id": "v11",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "t13",
+        "target_entity_id": "v11",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "t14",
+        "target_entity_id": "v4",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "t15",
+        "target_entity_id": "v5",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "t16",
+        "target_entity_id": "v6",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "t17",
+        "target_entity_id": "v7",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "t18",
+        "target_entity_id": "v8",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "t19",
+        "target_entity_id": "v9",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "v7",
+        "target_entity_id": "v1",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "v4",
+        "target_entity_id": "v1",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "v5",
+        "target_entity_id": "v1",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "v6",
+        "target_entity_id": "v1",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "v2",
+        "target_entity_id": "v1",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "v3",
+        "target_entity_id": "v1",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "v8",
+        "target_entity_id": "v10",
+        "relation_type": "transforms_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "v8",
+        "target_entity_id": "v9",
+        "relation_type": "transforms_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "v1",
+        "target_entity_id": "v10",
+        "relation_type": "transforms_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r23",
+        "source_entity_id": "v10",
+        "target_entity_id": "v11",
+        "relation_type": "transforms_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r24",
+        "source_entity_id": "v9",
+        "target_entity_id": "v11",
+        "relation_type": "transforms_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r25",
+        "source_entity_id": "v13",
+        "target_entity_id": "v10",
+        "relation_type": "flows_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r26",
+        "source_entity_id": "v13",
+        "target_entity_id": "v11",
+        "relation_type": "flows_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r27",
+        "source_entity_id": "t5",
+        "target_entity_id": "v12",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r28",
+        "source_entity_id": "t6",
+        "target_entity_id": "v12",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r29",
+        "source_entity_id": "v12",
+        "target_entity_id": "v5",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r30",
+        "source_entity_id": "v12",
+        "target_entity_id": "v1",
+        "relation_type": "connected_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r31",
+        "source_entity_id": "v12",
+        "target_entity_id": "v10",
+        "relation_type": "connected_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r32",
+        "source_entity_id": "v12",
+        "target_entity_id": "v11",
+        "relation_type": "connected_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r33",
+        "source_entity_id": "v1",
+        "target_entity_id": "v10",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r34",
+        "source_entity_id": "v10",
+        "target_entity_id": "v11",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "global"
+      }
+    ]
+  }
+}

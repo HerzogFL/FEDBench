@@ -1,0 +1,833 @@
+{
+  "image_name": "1daf1b6342453cb788c700dbca870d7b.png",
+  "prompt_text": "This figure compares two forms of pulmonary aspergillosis in the setting of severe viral lung infection. Across the center, fungal conidia and hyphae are shown in the alveolar space above the alveolar epithelium, with macrophages and neutrophils as the main host cells. The left side, labeled CAPA, emphasizes a later ICU presentation associated with corticosteroid use, prominent neutrophil extracellular trap formation, and fungal invasion into lung tissue. Neutrophils are shown releasing NETs around hyphae, suggesting an intense but possibly damaging inflammatory response.\n\nThe right side, labeled IAPA, depicts an earlier ICU presentation with reduced interferon signaling, impaired neutrophil activity, and more aggressive fungal growth. Here the hyphae appear denser and extend through the alveolar barrier into the interstitial space and then into the blood vessel, highlighting angioinvasion. This suggests a shift from mainly tissue invasion in CAPA to deeper vascular invasion in IAPA.\n\nOverall, the image conveys that aspergillosis complicating viral pneumonia can follow different immune-pathology patterns depending on the viral context, with differences in timing, neutrophil behavior, and the extent of fungal spread through the lung and vasculature.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "fungal conidia",
+        "category": "molecule",
+        "panel": "single_panel",
+        "count": 7,
+        "key_attributes": [
+          "small blue spores",
+          "alveolar space",
+          "between CAPA and IAPA"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "fungal hyphae",
+        "category": "pathway_component",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "branching blue filaments",
+          "left and right fungal masses",
+          "invasive growth"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "neutrophils",
+        "category": "cell",
+        "panel": "single_panel",
+        "count": 6,
+        "key_attributes": [
+          "pink immune cells",
+          "near hyphae",
+          "some releasing NETs"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "alveolar macrophages",
+        "category": "cell",
+        "panel": "single_panel",
+        "count": 3,
+        "key_attributes": [
+          "tan phagocytes",
+          "alveolar space",
+          "host cells"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "alveolar epithelium",
+        "category": "layer",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "cellular barrier",
+          "between alveolar and interstitial spaces",
+          "horizontal layer"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "alveolar space",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "upper airspace",
+          "above epithelium",
+          "contains conidia and hyphae"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "interstitial space",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "middle lower tissue region",
+          "below epithelium",
+          "hyphal extension path"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "blood vessel",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "bottom vascular channel",
+          "red blood cells present",
+          "site of angioinvasion"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "neutrophil extracellular traps",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 3,
+        "key_attributes": [
+          "pink web-like strands",
+          "around hyphae",
+          "prominent on CAPA side"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v10",
+        "entity_type": "visual",
+        "name": "tissue invasion pattern",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "hyphae crossing epithelium",
+          "left-predominant invasion",
+          "into lung tissue"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v11",
+        "entity_type": "visual",
+        "name": "angioinvasion pattern",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "hyphae extend to vessel",
+          "right-predominant",
+          "vascular invasion"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v12",
+        "entity_type": "visual",
+        "name": "dense hyphal network in IAPA",
+        "category": "pathway_component",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "denser branching",
+          "right side",
+          "more aggressive growth"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v13",
+        "entity_type": "visual",
+        "name": "lungs icon",
+        "category": "organelle",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "top center",
+          "context icon",
+          "respiratory system"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "v14",
+        "entity_type": "visual",
+        "name": "virus icons",
+        "category": "molecule",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "top center",
+          "viral context",
+          "decorative overview"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "CAPA label",
+        "category": "scientific_label",
+        "surface_text": "CAPA",
+        "normalized_text": "CAPA",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "left heading"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "Late in ICU stay",
+        "category": "legend_text",
+        "surface_text": "• Late in ICU stay",
+        "normalized_text": "Late in ICU stay",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "CAPA bullet"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "Corticosteroids",
+        "category": "legend_text",
+        "surface_text": "• Corticosteroids",
+        "normalized_text": "Corticosteroids",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "CAPA bullet"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "NETosis important",
+        "category": "legend_text",
+        "surface_text": "• NETosis important",
+        "normalized_text": "NETosis important",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "CAPA bullet"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "Tissue-invasion",
+        "category": "legend_text",
+        "surface_text": "• Tissue-invasion",
+        "normalized_text": "Tissue invasion",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "CAPA bullet"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "IAPA label",
+        "category": "scientific_label",
+        "surface_text": "IAPA",
+        "normalized_text": "IAPA",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "right heading"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "Early in ICU stay",
+        "category": "legend_text",
+        "surface_text": "• Early in ICU stay",
+        "normalized_text": "Early in ICU stay",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "IAPA bullet"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "Decreased IFNγ signalling and LAP",
+        "category": "legend_text",
+        "surface_text": "• Decreased IFNγ signalling and LAP",
+        "normalized_text": "Decreased IFNγ signalling and LAP",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "IAPA bullet"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "Hampered neutrophil functions",
+        "category": "legend_text",
+        "surface_text": "• Hampered neutrophil functions",
+        "normalized_text": "Hampered neutrophil functions",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "IAPA bullet"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "Tissue-invasion and angio-invasion",
+        "category": "legend_text",
+        "surface_text": "• Tissue-invasion and angio-invasion",
+        "normalized_text": "Tissue invasion and angio-invasion",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "IAPA bullet"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "NET production label",
+        "category": "annotation_text",
+        "surface_text": "NET production",
+        "normalized_text": "NET production",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "left annotation"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "Conidia label",
+        "category": "scientific_label",
+        "surface_text": "Conidia",
+        "normalized_text": "Conidia",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "center label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "Hyphae label",
+        "category": "scientific_label",
+        "surface_text": "Hyphae",
+        "normalized_text": "Hyphae",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "center label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t14",
+        "entity_type": "text",
+        "name": "Neutrophil label",
+        "category": "scientific_label",
+        "surface_text": "Neutrophil",
+        "normalized_text": "Neutrophil",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "right-center label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t15",
+        "entity_type": "text",
+        "name": "Alveolar macrophage label",
+        "category": "scientific_label",
+        "surface_text": "Alveolar macrophage",
+        "normalized_text": "Alveolar macrophage",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "center-right label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t16",
+        "entity_type": "text",
+        "name": "Alveolar space label",
+        "category": "scientific_label",
+        "surface_text": "Alveolar space",
+        "normalized_text": "Alveolar space",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "region label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t17",
+        "entity_type": "text",
+        "name": "Alveolar epithelium label",
+        "category": "scientific_label",
+        "surface_text": "Alveolar epithelium",
+        "normalized_text": "Alveolar epithelium",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "barrier label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t18",
+        "entity_type": "text",
+        "name": "Interstitial space label",
+        "category": "scientific_label",
+        "surface_text": "Interstitial space",
+        "normalized_text": "Interstitial space",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "region label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t19",
+        "entity_type": "text",
+        "name": "Blood vessel label",
+        "category": "scientific_label",
+        "surface_text": "Blood vessel",
+        "normalized_text": "Blood vessel",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "bottom label"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t20",
+        "entity_type": "text",
+        "name": "Angioinvasion label",
+        "category": "annotation_text",
+        "surface_text": "Angioinvasion",
+        "normalized_text": "Angioinvasion",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "bottom-right annotation"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t12",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t13",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t14",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t15",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "t16",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "t17",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "t18",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "t19",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "t11",
+        "target_entity_id": "v9",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "t20",
+        "target_entity_id": "v11",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "t1",
+        "target_entity_id": "t2",
+        "relation_type": "legend_for",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "t1",
+        "target_entity_id": "t3",
+        "relation_type": "legend_for",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "t1",
+        "target_entity_id": "t4",
+        "relation_type": "legend_for",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "t1",
+        "target_entity_id": "t5",
+        "relation_type": "legend_for",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "t6",
+        "target_entity_id": "t7",
+        "relation_type": "legend_for",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "t6",
+        "target_entity_id": "t8",
+        "relation_type": "legend_for",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "t6",
+        "target_entity_id": "t9",
+        "relation_type": "legend_for",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "t6",
+        "target_entity_id": "t10",
+        "relation_type": "legend_for",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "v1",
+        "target_entity_id": "v6",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "v2",
+        "target_entity_id": "v6",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "v4",
+        "target_entity_id": "v6",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "v6",
+        "target_entity_id": "v5",
+        "relation_type": "above",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r23",
+        "source_entity_id": "v5",
+        "target_entity_id": "v7",
+        "relation_type": "above",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r24",
+        "source_entity_id": "v7",
+        "target_entity_id": "v8",
+        "relation_type": "above",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r25",
+        "source_entity_id": "v9",
+        "target_entity_id": "v2",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r26",
+        "source_entity_id": "v3",
+        "target_entity_id": "v9",
+        "relation_type": "transforms_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r27",
+        "source_entity_id": "v10",
+        "target_entity_id": "v7",
+        "relation_type": "points_to",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r28",
+        "source_entity_id": "v11",
+        "target_entity_id": "v8",
+        "relation_type": "points_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r29",
+        "source_entity_id": "v2",
+        "target_entity_id": "v5",
+        "relation_type": "flows_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r30",
+        "source_entity_id": "v12",
+        "target_entity_id": "v8",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r31",
+        "source_entity_id": "t1",
+        "target_entity_id": "t6",
+        "relation_type": "left_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "global"
+      }
+    ]
+  }
+}

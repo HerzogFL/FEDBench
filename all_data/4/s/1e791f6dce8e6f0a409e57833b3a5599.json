@@ -1,0 +1,1003 @@
+{
+  "image_name": "1e791f6dce8e6f0a409e57833b3a5599.png",
+  "prompt_text": "The figure summarizes how ALDH2 deficiency may drive vascular disease through two related pathways. On the left, deficient ALDH2 increases the aldehyde 4‑HNE, which activates signaling molecules including NF‑κB, HIF1α, ERK1/2, and Beclin. These pathways promote mitochondrial damage responses, especially DRP1 phosphorylation–linked mitochondrial fission and autophagosome formation, along with induction of MMP2 and MMP9. The overall effect is increased proliferation of pulmonary artery smooth muscle cells (PASMCs), shown as thickening of the vessel wall and narrowing of the lumen, leading to pulmonary arterial hypertension.\n\nOn the right, ALDH2 deficiency appears to alter smooth muscle cell gene regulation in the aorta. A dashed connection points to Max, which suppresses pre‑microRNA‑31, while blocked processing of the pre‑microRNA‑31 duplex is also indicated. This relieves inhibition of MYOCD, allowing MYOCD together with SRF to increase expression of contractile genes such as calponin, SM22α, and αSMA. The diagram links this transcriptional program to smooth muscle phenotypic switching between synthetic and contractile states and to aortic aneurysm or dissection. Overall, the image connects mitochondrial/aldehyde stress with smooth muscle remodeling in pulmonary and aortic disease.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "mitochondrion with ALDH2 deficiency",
+        "category": "organelle",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "top center",
+          "mitochondrion icon",
+          "source node"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "signaling arrows from ALDH2 deficiency to downstream pathways",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "branching",
+          "left and right outputs",
+          "causal flow"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "mitochondrial fission illustration",
+        "category": "organelle",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "split mitochondria",
+          "left pathway",
+          "damage response"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "autophagosome vesicle",
+        "category": "organelle",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "double-membrane vesicle",
+          "left pathway",
+          "autophagy"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "pulmonary artery cross-sections showing wall thickening and lumen narrowing",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "before/after vessel",
+          "thickened wall",
+          "narrowed lumen"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "smooth muscle cell nucleus/gene regulation region",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "right half",
+          "nuclear arc",
+          "gene regulation"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "dashed connection from ALDH2 deficiency to Max pathway",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "dashed",
+          "cross-compartment",
+          "to Max"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "inhibitory red X marks on microRNA processing pathway",
+        "category": "pathway_component",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "red X",
+          "blocked processing",
+          "inhibition"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "DNA/gene track with MYOCD and SRF transcription complexes",
+        "category": "pathway_component",
+        "panel": "single_panel",
+        "count": 3,
+        "key_attributes": [
+          "DNA helix baseline",
+          "MYOCD/SRF",
+          "contractile genes"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v10",
+        "entity_type": "visual",
+        "name": "contractile smooth muscle cells",
+        "category": "cell",
+        "panel": "single_panel",
+        "count": 3,
+        "key_attributes": [
+          "elongated pink cells",
+          "contractile state",
+          "left of switch"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v11",
+        "entity_type": "visual",
+        "name": "synthetic smooth muscle cells",
+        "category": "cell",
+        "panel": "single_panel",
+        "count": 3,
+        "key_attributes": [
+          "stellate pink cells",
+          "synthetic state",
+          "right of switch"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v12",
+        "entity_type": "visual",
+        "name": "aorta silhouette",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "red vessel icon",
+          "bottom right",
+          "disease endpoint"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "ALDH2 deficiency",
+        "category": "scientific_label",
+        "surface_text": "ALDH2 deficiency",
+        "normalized_text": "ALDH2 deficiency",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "upstream cause"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "4-HNE",
+        "category": "scientific_label",
+        "surface_text": "4-HNE",
+        "normalized_text": "4-HNE",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "aldehyde mediator"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "NF-κB",
+        "category": "scientific_label",
+        "surface_text": "NF-κB",
+        "normalized_text": "NF-κB",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "signaling molecule"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "HIF1α",
+        "category": "scientific_label",
+        "surface_text": "HIF1α",
+        "normalized_text": "HIF1α",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "signaling molecule"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "ERK1/2",
+        "category": "scientific_label",
+        "surface_text": "ERK1/2",
+        "normalized_text": "ERK1/2",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "signaling molecule"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "Beclin",
+        "category": "scientific_label",
+        "surface_text": "Beclin",
+        "normalized_text": "Beclin",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "autophagy regulator"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "MMP2",
+        "category": "scientific_label",
+        "surface_text": "MMP2",
+        "normalized_text": "MMP2",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "matrix metalloproteinase"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "MMP9",
+        "category": "scientific_label",
+        "surface_text": "MMP9",
+        "normalized_text": "MMP9",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "matrix metalloproteinase"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "DRP1",
+        "category": "scientific_label",
+        "surface_text": "DRP1",
+        "normalized_text": "DRP1",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "fission regulator"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "mitochondrial fission",
+        "category": "annotation_text",
+        "surface_text": "Mitochondrial fission",
+        "normalized_text": "Mitochondrial fission",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "damage response"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "Autophagosome",
+        "category": "annotation_text",
+        "surface_text": "Autophagosome",
+        "normalized_text": "Autophagosome",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "autophagy structure"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "PASMC proliferation",
+        "category": "annotation_text",
+        "surface_text": "PASMC proliferation",
+        "normalized_text": "PASMC proliferation",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "cell growth outcome"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "Lumen",
+        "category": "annotation_text",
+        "surface_text": "Lumen",
+        "normalized_text": "Lumen",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "vessel interior"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t14",
+        "entity_type": "text",
+        "name": "PASMC",
+        "category": "scientific_label",
+        "surface_text": "PASMC",
+        "normalized_text": "PASMC",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "smooth muscle cell"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t15",
+        "entity_type": "text",
+        "name": "Pre-microRNA-31 duplex",
+        "category": "scientific_label",
+        "surface_text": "Pre-microRNA-31 duplex",
+        "normalized_text": "pre-microRNA-31 duplex",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "blocked processing"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t16",
+        "entity_type": "text",
+        "name": "Pre-microRNA-31",
+        "category": "scientific_label",
+        "surface_text": "Pre-microRNA-31",
+        "normalized_text": "pre-microRNA-31",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "Max target"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t17",
+        "entity_type": "text",
+        "name": "MYOCD",
+        "category": "scientific_label",
+        "surface_text": "MYOCD",
+        "normalized_text": "MYOCD",
+        "panel": "single_panel",
+        "count": 4,
+        "key_attributes": [
+          "transcription cofactor"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t18",
+        "entity_type": "text",
+        "name": "Max",
+        "category": "scientific_label",
+        "surface_text": "Max",
+        "normalized_text": "Max",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "dashed connection target"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t19",
+        "entity_type": "text",
+        "name": "SRF",
+        "category": "scientific_label",
+        "surface_text": "SRF",
+        "normalized_text": "SRF",
+        "panel": "single_panel",
+        "count": 3,
+        "key_attributes": [
+          "transcription factor"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t20",
+        "entity_type": "text",
+        "name": "Upregulation of contractile genes",
+        "category": "annotation_text",
+        "surface_text": "Upregulation of contractile genes",
+        "normalized_text": "Upregulation of contractile genes",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "transcriptional program"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t21",
+        "entity_type": "text",
+        "name": "Calponin",
+        "category": "scientific_label",
+        "surface_text": "Calponin",
+        "normalized_text": "Calponin",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "contractile gene"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t22",
+        "entity_type": "text",
+        "name": "SM22α",
+        "category": "scientific_label",
+        "surface_text": "SM22α",
+        "normalized_text": "SM22α",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "contractile gene"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t23",
+        "entity_type": "text",
+        "name": "αSMA",
+        "category": "scientific_label",
+        "surface_text": "αSMA",
+        "normalized_text": "αSMA",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "contractile gene"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t24",
+        "entity_type": "text",
+        "name": "Contractile SMCs",
+        "category": "annotation_text",
+        "surface_text": "Contractile SMCs",
+        "normalized_text": "Contractile SMCs",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "phenotypic state"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t25",
+        "entity_type": "text",
+        "name": "Synthetic SMCs",
+        "category": "annotation_text",
+        "surface_text": "Synthetic SMCs",
+        "normalized_text": "Synthetic SMCs",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "phenotypic state"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t26",
+        "entity_type": "text",
+        "name": "Pulmonary arterial hypertension",
+        "category": "annotation_text",
+        "surface_text": "Pulmonary arterial hypertension",
+        "normalized_text": "Pulmonary arterial hypertension",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "left disease outcome"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t27",
+        "entity_type": "text",
+        "name": "Aortic aneurysm or dissection",
+        "category": "annotation_text",
+        "surface_text": "Aortic aneurysm or dissection",
+        "normalized_text": "Aortic aneurysm or dissection",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "right disease outcome"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t1",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "v1",
+        "target_entity_id": "t2",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t2",
+        "target_entity_id": "t3",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t2",
+        "target_entity_id": "t4",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "t2",
+        "target_entity_id": "t5",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "t2",
+        "target_entity_id": "t6",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "t3",
+        "target_entity_id": "t7",
+        "relation_type": "activates",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "t3",
+        "target_entity_id": "t8",
+        "relation_type": "activates",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "t4",
+        "target_entity_id": "t9",
+        "relation_type": "activates",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "t9",
+        "target_entity_id": "v3",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "t10",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "t6",
+        "target_entity_id": "v4",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "t11",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "v3",
+        "target_entity_id": "t12",
+        "relation_type": "flows_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "v4",
+        "target_entity_id": "t12",
+        "relation_type": "flows_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "t12",
+        "target_entity_id": "v5",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "t14",
+        "target_entity_id": "v5",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "t13",
+        "target_entity_id": "v5",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "v5",
+        "target_entity_id": "t26",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "v7",
+        "target_entity_id": "t18",
+        "relation_type": "points_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "v1",
+        "target_entity_id": "v7",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "t18",
+        "target_entity_id": "t16",
+        "relation_type": "inhibits",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r23",
+        "source_entity_id": "t16",
+        "target_entity_id": "t15",
+        "relation_type": "transforms_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r24",
+        "source_entity_id": "v8",
+        "target_entity_id": "t15",
+        "relation_type": "inhibits",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r25",
+        "source_entity_id": "t15",
+        "target_entity_id": "t17",
+        "relation_type": "inhibits",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r26",
+        "source_entity_id": "t17",
+        "target_entity_id": "t19",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r27",
+        "source_entity_id": "t17",
+        "target_entity_id": "t20",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r28",
+        "source_entity_id": "t19",
+        "target_entity_id": "t20",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r29",
+        "source_entity_id": "t20",
+        "target_entity_id": "t21",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r30",
+        "source_entity_id": "t20",
+        "target_entity_id": "t22",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r31",
+        "source_entity_id": "t20",
+        "target_entity_id": "t23",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r32",
+        "source_entity_id": "v9",
+        "target_entity_id": "t21",
+        "relation_type": "points_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r33",
+        "source_entity_id": "v9",
+        "target_entity_id": "t22",
+        "relation_type": "points_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r34",
+        "source_entity_id": "v9",
+        "target_entity_id": "t23",
+        "relation_type": "points_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r35",
+        "source_entity_id": "t24",
+        "target_entity_id": "v10",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r36",
+        "source_entity_id": "t25",
+        "target_entity_id": "v11",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r37",
+        "source_entity_id": "v10",
+        "target_entity_id": "v11",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r38",
+        "source_entity_id": "t20",
+        "target_entity_id": "v10",
+        "relation_type": "flows_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r39",
+        "source_entity_id": "v10",
+        "target_entity_id": "t27",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r40",
+        "source_entity_id": "v11",
+        "target_entity_id": "t27",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r41",
+        "source_entity_id": "t27",
+        "target_entity_id": "v12",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      }
+    ]
+  }
+}

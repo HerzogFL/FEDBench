@@ -1,0 +1,996 @@
+{
+  "image_name": "62e372f3c1232e1c8ca384ad376b59d7.png",
+  "prompt_text": "The figure presents an energy-level picture of a molecular layer on a metal and explains how the vacuum-level shift at the interface is built from several contributions. Overall, it shows that when molecules adsorb on a metal, the original metal work function is modified by chemisorption and by interfacial dipoles, while the molecular ionization potential, electron affinity, and transport gap are referenced to a shifted vacuum level.\n\nThe main schematic compares a clean metal surface with a chemisorbed layer and illustrates frontier states associated with positive and negative integer charge transfer near the metal Fermi level. A formula at the top indicates that the total shift is decomposed into pushback, chemical, interface-dipole, and double-dipole terms, with a separate charge-transfer contribution.\n\nA second part highlights the origin of the double-dipole term: cations and anions distributed across the metal and surface layer create dipoles whose orientation changes the vacuum level upward or downward depending on which side carries positive or negative charge.\n\nThe last part suggests a design strategy: inserting a thin spacer between the metal and the molecular layer weakens direct coupling, alters the interface dipole pattern, and helps preserve the molecular electronic levels relative to the metal.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "clean metal surface region",
+        "category": "region",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "left slab",
+          "metal substrate",
+          "before adsorption"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "chemisorbed molecular layer region",
+        "category": "layer",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "adjacent to metal",
+          "adsorbed layer",
+          "interface formed"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "vacuum level line",
+        "category": "pathway_component",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "top energy line",
+          "shifted reference",
+          "horizontal"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "metal Fermi level line",
+        "category": "pathway_component",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "dashed line",
+          "EF reference",
+          "near frontier states"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "negative integer charge transfer frontier states",
+        "category": "molecule",
+        "panel": "a",
+        "count": 5,
+        "key_attributes": [
+          "blue states",
+          "near VL",
+          "EICT− manifold"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "positive integer charge transfer frontier states",
+        "category": "molecule",
+        "panel": "a",
+        "count": 5,
+        "key_attributes": [
+          "orange states",
+          "near EF",
+          "EICT+ manifold"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "double-dipole charge distribution schematic",
+        "category": "region",
+        "panel": "b",
+        "count": 2,
+        "key_attributes": [
+          "metal and surface layer",
+          "cation/anion pairs",
+          "opposite orientations"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "cations",
+        "category": "molecule",
+        "panel": "b",
+        "count": 4,
+        "key_attributes": [
+          "positive circles",
+          "dipole source",
+          "two examples"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "anions",
+        "category": "molecule",
+        "panel": "b",
+        "count": 4,
+        "key_attributes": [
+          "negative circles",
+          "dipole source",
+          "two examples"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v10",
+        "entity_type": "visual",
+        "name": "double-dipole vacuum-level shift profiles",
+        "category": "pathway_component",
+        "panel": "b",
+        "count": 2,
+        "key_attributes": [
+          "upward/downward VL change",
+          "Δddp examples",
+          "piecewise line"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v11",
+        "entity_type": "visual",
+        "name": "spacer layer inserted between metal and molecular layer",
+        "category": "layer",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "thin intermediate slab",
+          "decoupling layer",
+          "between metal and molecules"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v12",
+        "entity_type": "visual",
+        "name": "design strategy comparison arrow",
+        "category": "arrow",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "left-to-right transition",
+          "before/after spacer",
+          "gray arrow"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v13",
+        "entity_type": "visual",
+        "name": "panel marker a",
+        "category": "panel_marker",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "panel id"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "v14",
+        "entity_type": "visual",
+        "name": "panel marker b",
+        "category": "panel_marker",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "panel id"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "v15",
+        "entity_type": "visual",
+        "name": "panel marker c",
+        "category": "panel_marker",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "panel id"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "panel label a",
+        "category": "panel_label",
+        "surface_text": "a",
+        "normalized_text": "a",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "panel id"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "vacuum shift decomposition equation",
+        "category": "equation",
+        "surface_text": "Δ′ = Δpb + Δchem + Δintdp + Δddp",
+        "normalized_text": "Δ' = Δpb + Δchem + Δintdp + Δddp",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "top formula",
+          "decomposition",
+          "interface terms"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "charge-transfer contribution equation",
+        "category": "equation",
+        "surface_text": "Δ″ = ΔICT",
+        "normalized_text": "Δ'' = ΔICT",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "separate term",
+          "charge transfer",
+          "top formula"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "metal work function label",
+        "category": "scientific_label",
+        "surface_text": "Φmet",
+        "normalized_text": "Φmet",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "work function"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "clean metal surface label",
+        "category": "scientific_label",
+        "surface_text": "Clean metal surface",
+        "normalized_text": "Clean metal surface",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "metal side"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "chemisorbed layer label",
+        "category": "scientific_label",
+        "surface_text": "Chemisorbed layer",
+        "normalized_text": "Chemisorbed layer",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "adsorbed layer"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "vacuum level label panel a",
+        "category": "scientific_label",
+        "surface_text": "VL",
+        "normalized_text": "VL",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "vacuum level"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "electron affinity label",
+        "category": "scientific_label",
+        "surface_text": "EA",
+        "normalized_text": "EA",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "molecular level reference"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "ionization potential label panel a",
+        "category": "scientific_label",
+        "surface_text": "IP",
+        "normalized_text": "IP",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "molecular level reference"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "negative ICT state label",
+        "category": "scientific_label",
+        "surface_text": "EICT−",
+        "normalized_text": "EICT−",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "frontier state",
+          "negative ICT"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "positive ICT state label",
+        "category": "scientific_label",
+        "surface_text": "EICT+",
+        "normalized_text": "EICT+",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "frontier state",
+          "positive ICT"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "transport gap label",
+        "category": "scientific_label",
+        "surface_text": "Eg",
+        "normalized_text": "Eg",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "transport gap"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "Fermi level label panel a",
+        "category": "scientific_label",
+        "surface_text": "EF",
+        "normalized_text": "EF",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "metal Fermi level"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t14",
+        "entity_type": "text",
+        "name": "panel label b",
+        "category": "panel_label",
+        "surface_text": "b",
+        "normalized_text": "b",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "panel id"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t15",
+        "entity_type": "text",
+        "name": "energy axis label",
+        "category": "scientific_label",
+        "surface_text": "E",
+        "normalized_text": "E",
+        "panel": "b",
+        "count": 2,
+        "key_attributes": [
+          "vertical axis"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t16",
+        "entity_type": "text",
+        "name": "dipole moment label",
+        "category": "scientific_label",
+        "surface_text": "μ",
+        "normalized_text": "μ",
+        "panel": "b",
+        "count": 2,
+        "key_attributes": [
+          "horizontal arrow",
+          "dipole orientation"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t17",
+        "entity_type": "text",
+        "name": "metal label panel b",
+        "category": "scientific_label",
+        "surface_text": "Metal",
+        "normalized_text": "Metal",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "left region"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t18",
+        "entity_type": "text",
+        "name": "surface layer label panel b",
+        "category": "scientific_label",
+        "surface_text": "Surface layer",
+        "normalized_text": "Surface layer",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "right region"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t19",
+        "entity_type": "text",
+        "name": "cation legend label",
+        "category": "legend_text",
+        "surface_text": "Cation",
+        "normalized_text": "Cation",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "positive ion"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t20",
+        "entity_type": "text",
+        "name": "anion legend label",
+        "category": "legend_text",
+        "surface_text": "Anion",
+        "normalized_text": "Anion",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "negative ion"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t21",
+        "entity_type": "text",
+        "name": "vacuum level label panel b",
+        "category": "scientific_label",
+        "surface_text": "VL",
+        "normalized_text": "VL",
+        "panel": "b",
+        "count": 2,
+        "key_attributes": [
+          "vacuum level"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t22",
+        "entity_type": "text",
+        "name": "double-dipole shift label",
+        "category": "scientific_label",
+        "surface_text": "Δddp",
+        "normalized_text": "Δddp",
+        "panel": "b",
+        "count": 2,
+        "key_attributes": [
+          "double-dipole term"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t23",
+        "entity_type": "text",
+        "name": "panel label c",
+        "category": "panel_label",
+        "surface_text": "c",
+        "normalized_text": "c",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "panel id"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t24",
+        "entity_type": "text",
+        "name": "metal work function label panel c",
+        "category": "scientific_label",
+        "surface_text": "Φmet",
+        "normalized_text": "Φmet",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "work function"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t25",
+        "entity_type": "text",
+        "name": "Fermi level label panel c",
+        "category": "scientific_label",
+        "surface_text": "EF",
+        "normalized_text": "EF",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "metal Fermi level"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t26",
+        "entity_type": "text",
+        "name": "vacuum level label panel c",
+        "category": "scientific_label",
+        "surface_text": "VL",
+        "normalized_text": "VL",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "vacuum level"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t27",
+        "entity_type": "text",
+        "name": "ionization potential label panel c",
+        "category": "scientific_label",
+        "surface_text": "IP",
+        "normalized_text": "IP",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "molecular level reference"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t28",
+        "entity_type": "text",
+        "name": "spacer label",
+        "category": "scientific_label",
+        "surface_text": "Spacer",
+        "normalized_text": "Spacer",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "inserted layer"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t5",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t6",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t7",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t13",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "t10",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "t11",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "t4",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "t8",
+        "target_entity_id": "v3",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "t9",
+        "target_entity_id": "v3",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "t12",
+        "target_entity_id": "v5",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "t12",
+        "target_entity_id": "v6",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "v1",
+        "target_entity_id": "v2",
+        "relation_type": "left_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "v5",
+        "target_entity_id": "v6",
+        "relation_type": "above",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "v5",
+        "target_entity_id": "v2",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "v6",
+        "target_entity_id": "v2",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "v4",
+        "target_entity_id": "v5",
+        "relation_type": "below",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "v3",
+        "target_entity_id": "v4",
+        "relation_type": "above",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "t17",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "t18",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "t19",
+        "target_entity_id": "v8",
+        "relation_type": "legend_for",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "t20",
+        "target_entity_id": "v9",
+        "relation_type": "legend_for",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "t21",
+        "target_entity_id": "v10",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r23",
+        "source_entity_id": "t22",
+        "target_entity_id": "v10",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r24",
+        "source_entity_id": "v8",
+        "target_entity_id": "v7",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r25",
+        "source_entity_id": "v9",
+        "target_entity_id": "v7",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r26",
+        "source_entity_id": "v7",
+        "target_entity_id": "v10",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r27",
+        "source_entity_id": "t28",
+        "target_entity_id": "v11",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r28",
+        "source_entity_id": "t24",
+        "target_entity_id": "v11",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r29",
+        "source_entity_id": "t25",
+        "target_entity_id": "v11",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r30",
+        "source_entity_id": "t26",
+        "target_entity_id": "v11",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r31",
+        "source_entity_id": "t27",
+        "target_entity_id": "v11",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r32",
+        "source_entity_id": "v11",
+        "target_entity_id": "v2",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r33",
+        "source_entity_id": "v12",
+        "target_entity_id": "v11",
+        "relation_type": "points_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      }
+    ]
+  }
+}

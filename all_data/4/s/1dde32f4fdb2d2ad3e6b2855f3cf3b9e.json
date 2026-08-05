@@ -1,0 +1,232 @@
+{
+  "image_name": "1dde32f4fdb2d2ad3e6b2855f3cf3b9e.jpg",
+  "prompt_text": "The figure is a simple schematic of DNA replication encountering a secondary DNA structure. A replication fork is shown moving to the right, with the replisome positioned at the fork junction. The parental DNA separates into two strands, labeled as lagging strands above and below, while a dashed line appears to represent newly synthesized DNA on one side.\n\nAhead of the replisome on the right, the DNA contains a small looped structure labeled “intramolecular G4,” indicating a G-quadruplex formed within a single DNA strand. The placement of this structure directly in front of the advancing fork suggests that it acts as an obstacle during replication. The overall message is that as the replication machinery progresses along DNA, it can encounter stable noncanonical structures such as G4s that may impede fork movement or require special processing.\n\nVisually, the emphasis is on the spatial relationship between fork progression, the replisome, and the folded DNA structure rather than on molecular detail. The diagram therefore illustrates a replication challenge caused by an intramolecular G-quadruplex on the template ahead of the replication fork.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "replication fork DNA",
+        "category": "pathway_component",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "fork opens rightward",
+          "two parental strands",
+          "linear duplex ahead"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "replisome complex",
+        "category": "protein",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "blue globular complex",
+          "at fork junction"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "intramolecular G4 structure",
+        "category": "material_structure",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "small looped structure",
+          "ahead of fork",
+          "on single strand"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "fork progression arrow",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "points right",
+          "indicates movement"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "newly synthesized DNA dashed strand",
+        "category": "pathway_component",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "green dashed line",
+          "one daughter strand"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "lagging strand label",
+        "category": "scientific_label",
+        "surface_text": "Lagging strand",
+        "normalized_text": "lagging strand",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "appears twice"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "fork progression annotation",
+        "category": "annotation_text",
+        "surface_text": "Direction of fork progression",
+        "normalized_text": "direction of fork progression",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "movement annotation"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "intramolecular G4 label",
+        "category": "scientific_label",
+        "surface_text": "Intramolecular G4",
+        "normalized_text": "intramolecular G4",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "obstacle label"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "replisome label",
+        "category": "scientific_label",
+        "surface_text": "Replisome",
+        "normalized_text": "replisome",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "fork complex label"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t4",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t3",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t1",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "v2",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "v4",
+        "target_entity_id": "v1",
+        "relation_type": "points_to",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "v2",
+        "target_entity_id": "v3",
+        "relation_type": "left_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "v3",
+        "target_entity_id": "v1",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "v5",
+        "target_entity_id": "v1",
+        "relation_type": "part_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "t2",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1344 @@
+{
+  "image_name": "42c12962f76b7341a9cafc0108281251.png",
+  "prompt_text": "The figure compares three advanced oxidation routes for degrading contaminants and shows that they all work by generating highly reactive oxygen species that convert pollutants into intermediates and, ultimately, mineralized products such as CO2 and H2O.\n\nOn the left, chemical-mediated AOPs are divided into homogeneous and heterogeneous reactions. In the homogeneous case, dissolved metal catalysts cycle through oxidation states to activate hydrogen peroxide, ozone, or persulfate, producing radicals such as hydroxyl and sulfate radicals. The heterogeneous version shows similar chemistry occurring on a solid catalyst surface, with electron transfer at the surface helping generate the same oxidizing species.\n\nThe middle schematic summarizes photocatalysis. Under ultraviolet or visible light, a semiconductor-like photocatalyst creates electron–hole pairs. Some carriers recombine, but the useful ones react with oxygen and water to form superoxide- and hydroxyl-type species that attack pollutants.\n\nThe right panel shows electrocatalysis driven by direct current between anode and cathode. It distinguishes direct electro-oxidation at the electrode from indirect oxidation, where precursor molecules like water, hydrogen peroxide, ozone, or persulfate are activated to form radicals. Overall, the figure emphasizes different energy inputs—chemical, light, and electricity—but a common oxidative degradation mechanism.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "chemical-mediated AOPs schematic",
+        "category": "pathway_component",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "left panel",
+          "chemical input",
+          "oxidative degradation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "homogeneous catalyst cycle",
+        "category": "pathway_component",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "dissolved metals",
+          "oxidation-state cycle",
+          "radical generation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "heterogeneous catalyst surface reaction",
+        "category": "material_structure",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "solid catalyst",
+          "surface electron transfer",
+          "radical generation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "photocatalyst particle",
+        "category": "material_structure",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "semiconductor-like",
+          "electron-hole pairs",
+          "oval particle"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "light irradiation",
+        "category": "arrow",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "sun symbol",
+          "lightning bolt",
+          "energy input"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "electrochemical cell setup",
+        "category": "device_component",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "anode-cathode pair",
+          "external circuit",
+          "direct current"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "anode electrode",
+        "category": "device_component",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "left electrode",
+          "oxidation side",
+          "blue bar"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "cathode electrode",
+        "category": "device_component",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "right electrode",
+          "reduction side",
+          "gray bar"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "electron transfer arrows",
+        "category": "arrow",
+        "panel": "all",
+        "count": 6,
+        "key_attributes": [
+          "curved arrows",
+          "mechanistic flow",
+          "electron movement"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v10",
+        "entity_type": "visual",
+        "name": "reactive oxygen species radicals",
+        "category": "molecule",
+        "panel": "all",
+        "count": 8,
+        "key_attributes": [
+          "red and blue circles",
+          "HO·/SO4·−/O2·−",
+          "oxidants"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v11",
+        "entity_type": "visual",
+        "name": "pollutant/intermediate spheres",
+        "category": "molecule",
+        "panel": "all",
+        "count": 6,
+        "key_attributes": [
+          "purple spheres",
+          "degradation target",
+          "intermediate stage"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v12",
+        "entity_type": "visual",
+        "name": "product boxes",
+        "category": "region",
+        "panel": "all",
+        "count": 6,
+        "key_attributes": [
+          "red/blue rectangles",
+          "intermediate and products",
+          "CO2/H2O outcome"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v13",
+        "entity_type": "visual",
+        "name": "panel marker letters",
+        "category": "panel_marker",
+        "panel": "all",
+        "count": 3,
+        "key_attributes": [
+          "a b c",
+          "top-left markers",
+          "panel indexing"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "panel a label",
+        "category": "panel_label",
+        "surface_text": "a",
+        "normalized_text": "a",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "panel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "Chemical-mediated AOPs",
+        "category": "scientific_label",
+        "surface_text": "Chemical-mediated AOPs",
+        "normalized_text": "chemical-mediated AOPs",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "panel title",
+          "chemical route"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "Homogeneous reaction",
+        "category": "scientific_label",
+        "surface_text": "Homogeneous reaction",
+        "normalized_text": "homogeneous reaction",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "subsection title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "Heterogeneous reaction",
+        "category": "scientific_label",
+        "surface_text": "Heterogeneous reaction",
+        "normalized_text": "heterogeneous reaction",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "subsection title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "Homogeneous catalysts",
+        "category": "scientific_label",
+        "surface_text": "Homogeneous catalysts",
+        "normalized_text": "homogeneous catalysts",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "dissolved catalyst set"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "Heterogeneous catalysts",
+        "category": "scientific_label",
+        "surface_text": "Heterogeneous catalysts",
+        "normalized_text": "heterogeneous catalysts",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "solid catalyst set"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "H2O2 or O3-mediated",
+        "category": "scientific_label",
+        "surface_text": "H2O2 or O3-mediated",
+        "normalized_text": "H2O2 or O3-mediated",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "oxidant branch"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "PS-mediated",
+        "category": "scientific_label",
+        "surface_text": "PS-mediated",
+        "normalized_text": "PS-mediated",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "persulfate branch"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "HO radical",
+        "category": "scientific_label",
+        "surface_text": "HO·",
+        "normalized_text": "HO·",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "hydroxyl radical"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "sulfate radical",
+        "category": "scientific_label",
+        "surface_text": "SO4·−",
+        "normalized_text": "SO4·−",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "sulfate radical"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "persulfate",
+        "category": "scientific_label",
+        "surface_text": "S2O8^2−",
+        "normalized_text": "S2O8^2−",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "oxidant precursor"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "electron",
+        "category": "scientific_label",
+        "surface_text": "e−",
+        "normalized_text": "e−",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "surface transfer"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "products",
+        "category": "annotation_text",
+        "surface_text": "Products",
+        "normalized_text": "products",
+        "panel": "a",
+        "count": 2,
+        "key_attributes": [
+          "final outcome"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t14",
+        "entity_type": "text",
+        "name": "intermediate and mineralized products",
+        "category": "annotation_text",
+        "surface_text": "(CO2, H2O)\nIntermediate",
+        "normalized_text": "intermediate; (CO2, H2O)",
+        "panel": "a",
+        "count": 2,
+        "key_attributes": [
+          "intermediate stage",
+          "CO2/H2O products"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t15",
+        "entity_type": "text",
+        "name": "panel b label",
+        "category": "panel_label",
+        "surface_text": "b",
+        "normalized_text": "b",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "panel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t16",
+        "entity_type": "text",
+        "name": "Photocatalysis",
+        "category": "scientific_label",
+        "surface_text": "Photocatalysis",
+        "normalized_text": "photocatalysis",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "panel title",
+          "light-driven route"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t17",
+        "entity_type": "text",
+        "name": "Ultraviolet or visible light",
+        "category": "scientific_label",
+        "surface_text": "Ultraviolet or visible light",
+        "normalized_text": "ultraviolet or visible light",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "energy input"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t18",
+        "entity_type": "text",
+        "name": "Photocatalyst",
+        "category": "scientific_label",
+        "surface_text": "Photocatalyst",
+        "normalized_text": "photocatalyst",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "semiconductor catalyst"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t19",
+        "entity_type": "text",
+        "name": "electron label",
+        "category": "scientific_label",
+        "surface_text": "e−",
+        "normalized_text": "e−",
+        "panel": "b",
+        "count": 3,
+        "key_attributes": [
+          "conduction carrier"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t20",
+        "entity_type": "text",
+        "name": "hole label",
+        "category": "scientific_label",
+        "surface_text": "h+",
+        "normalized_text": "h+",
+        "panel": "b",
+        "count": 3,
+        "key_attributes": [
+          "valence carrier"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t21",
+        "entity_type": "text",
+        "name": "Recombination",
+        "category": "annotation_text",
+        "surface_text": "Recombination",
+        "normalized_text": "recombination",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "carrier loss process"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t22",
+        "entity_type": "text",
+        "name": "photon symbol",
+        "category": "scientific_label",
+        "surface_text": "hν",
+        "normalized_text": "hν",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "photon excitation"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t23",
+        "entity_type": "text",
+        "name": "oxygen",
+        "category": "scientific_label",
+        "surface_text": "O2",
+        "normalized_text": "O2",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "electron acceptor"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t24",
+        "entity_type": "text",
+        "name": "superoxide radical",
+        "category": "scientific_label",
+        "surface_text": "O2·−",
+        "normalized_text": "O2·−",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "reactive oxygen species"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t25",
+        "entity_type": "text",
+        "name": "hydroxyl radical",
+        "category": "scientific_label",
+        "surface_text": "HO·",
+        "normalized_text": "HO·",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "reactive oxygen species"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t26",
+        "entity_type": "text",
+        "name": "water",
+        "category": "scientific_label",
+        "surface_text": "H2O",
+        "normalized_text": "H2O",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "precursor molecule"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t27",
+        "entity_type": "text",
+        "name": "products",
+        "category": "annotation_text",
+        "surface_text": "Products",
+        "normalized_text": "products",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "final outcome"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t28",
+        "entity_type": "text",
+        "name": "intermediate and mineralized products",
+        "category": "annotation_text",
+        "surface_text": "(CO2, H2O)\nIntermediate",
+        "normalized_text": "intermediate; (CO2, H2O)",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "intermediate stage",
+          "CO2/H2O products"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t29",
+        "entity_type": "text",
+        "name": "panel c label",
+        "category": "panel_label",
+        "surface_text": "c",
+        "normalized_text": "c",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "panel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t30",
+        "entity_type": "text",
+        "name": "Electrocatalysis",
+        "category": "scientific_label",
+        "surface_text": "Electrocatalysis",
+        "normalized_text": "electrocatalysis",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "panel title",
+          "electricity-driven route"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t31",
+        "entity_type": "text",
+        "name": "Direct current",
+        "category": "annotation_text",
+        "surface_text": "Direct current",
+        "normalized_text": "direct current",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "power input"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t32",
+        "entity_type": "text",
+        "name": "Anode",
+        "category": "scientific_label",
+        "surface_text": "Anode",
+        "normalized_text": "anode",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "left electrode"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t33",
+        "entity_type": "text",
+        "name": "Cathode",
+        "category": "scientific_label",
+        "surface_text": "Cathode",
+        "normalized_text": "cathode",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "right electrode"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t34",
+        "entity_type": "text",
+        "name": "electron label",
+        "category": "scientific_label",
+        "surface_text": "e−",
+        "normalized_text": "e−",
+        "panel": "c",
+        "count": 2,
+        "key_attributes": [
+          "electron flow"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t35",
+        "entity_type": "text",
+        "name": "intermediate and mineralized products",
+        "category": "annotation_text",
+        "surface_text": "(CO2, H2O)\nIntermediate",
+        "normalized_text": "intermediate; (CO2, H2O)",
+        "panel": "c",
+        "count": 2,
+        "key_attributes": [
+          "intermediate stage",
+          "CO2/H2O products"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t36",
+        "entity_type": "text",
+        "name": "products",
+        "category": "annotation_text",
+        "surface_text": "Products",
+        "normalized_text": "products",
+        "panel": "c",
+        "count": 2,
+        "key_attributes": [
+          "final outcome"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t37",
+        "entity_type": "text",
+        "name": "Direct EO",
+        "category": "scientific_label",
+        "surface_text": "Direct EO",
+        "normalized_text": "direct EO",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "direct electro-oxidation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t38",
+        "entity_type": "text",
+        "name": "HO and sulfate radicals",
+        "category": "scientific_label",
+        "surface_text": "HO·, SO4·−",
+        "normalized_text": "HO·, SO4·−",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "indirect oxidants"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t39",
+        "entity_type": "text",
+        "name": "Indirect EO",
+        "category": "scientific_label",
+        "surface_text": "Indirect EO",
+        "normalized_text": "indirect EO",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "indirect electro-oxidation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t40",
+        "entity_type": "text",
+        "name": "Oxidant precursor",
+        "category": "scientific_label",
+        "surface_text": "Oxidant precursor",
+        "normalized_text": "oxidant precursor",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "precursor source"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t41",
+        "entity_type": "text",
+        "name": "precursor examples",
+        "category": "scientific_label",
+        "surface_text": "(H2O, H2O2, O3 and PS)",
+        "normalized_text": "H2O, H2O2, O3 and PS",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "water peroxide ozone persulfate"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t42",
+        "entity_type": "text",
+        "name": "hydrogen gas",
+        "category": "scientific_label",
+        "surface_text": "H2",
+        "normalized_text": "H2",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "cathodic product"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t43",
+        "entity_type": "text",
+        "name": "proton",
+        "category": "scientific_label",
+        "surface_text": "H+",
+        "normalized_text": "H+",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "cathodic species"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t2",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t3",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t4",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "v2",
+        "target_entity_id": "v1",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "v3",
+        "target_entity_id": "v1",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "t5",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "t6",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "t7",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "t8",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "t8",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "t9",
+        "target_entity_id": "v10",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "t10",
+        "target_entity_id": "v10",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "t11",
+        "target_entity_id": "t10",
+        "relation_type": "transforms_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "t12",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "v10",
+        "target_entity_id": "v11",
+        "relation_type": "points_to",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "v11",
+        "target_entity_id": "v12",
+        "relation_type": "transforms_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "t13",
+        "target_entity_id": "v12",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "t14",
+        "target_entity_id": "v12",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "t16",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "t17",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "v5",
+        "target_entity_id": "v4",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "t18",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r23",
+        "source_entity_id": "t21",
+        "target_entity_id": "v9",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r24",
+        "source_entity_id": "t23",
+        "target_entity_id": "t24",
+        "relation_type": "transforms_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r25",
+        "source_entity_id": "t26",
+        "target_entity_id": "t25",
+        "relation_type": "transforms_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r26",
+        "source_entity_id": "t24",
+        "target_entity_id": "v10",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r27",
+        "source_entity_id": "t25",
+        "target_entity_id": "v10",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r28",
+        "source_entity_id": "t27",
+        "target_entity_id": "v12",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r29",
+        "source_entity_id": "t28",
+        "target_entity_id": "v12",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r30",
+        "source_entity_id": "t30",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r31",
+        "source_entity_id": "t31",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r32",
+        "source_entity_id": "v7",
+        "target_entity_id": "v6",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r33",
+        "source_entity_id": "v8",
+        "target_entity_id": "v6",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r34",
+        "source_entity_id": "t32",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r35",
+        "source_entity_id": "t33",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r36",
+        "source_entity_id": "v7",
+        "target_entity_id": "v8",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r37",
+        "source_entity_id": "t37",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r38",
+        "source_entity_id": "t39",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r39",
+        "source_entity_id": "t40",
+        "target_entity_id": "t38",
+        "relation_type": "transforms_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r40",
+        "source_entity_id": "t41",
+        "target_entity_id": "t40",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r41",
+        "source_entity_id": "t38",
+        "target_entity_id": "v10",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r42",
+        "source_entity_id": "t35",
+        "target_entity_id": "v12",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r43",
+        "source_entity_id": "t36",
+        "target_entity_id": "v12",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r44",
+        "source_entity_id": "v1",
+        "target_entity_id": "v4",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r45",
+        "source_entity_id": "v4",
+        "target_entity_id": "v6",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r46",
+        "source_entity_id": "v1",
+        "target_entity_id": "v10",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r47",
+        "source_entity_id": "v4",
+        "target_entity_id": "v10",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r48",
+        "source_entity_id": "v6",
+        "target_entity_id": "v10",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "global"
+      }
+    ]
+  }
+}

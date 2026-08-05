@@ -1,0 +1,1464 @@
+{
+  "image_name": "4e5eae619c4a041966e7e38f19aa8654.png",
+  "prompt_text": "The figure is a visual overview of major fluorescence microscopy modes, organized by how illumination is delivered and how resolution is improved. It compares point-scanning methods, full-field imaging, and light-sheet approaches, then summarizes several super-resolution strategies.\n\nAcross the top, focused beam methods scan either one spot or many spots through the sample. Conventional confocal/spinning-disk imaging is contrasted with nonlinear 2P/3P excitation and with STED/RESOLFT, where a patterned depletion beam narrows the effective fluorescent region. The middle row shows full-field approaches: wide-field illumination excites the whole area at once, TIRF/HILO restricts excitation near the coverslip using an evanescent or inclined beam, and SIM uses striped illumination patterns to encode finer detail.\n\nThe next row highlights light-sheet geometries, where excitation is confined to a thin plane from the side or at an angle, including lattice or Gaussian sheets and reflected-sheet variants. These schemes reduce out-of-focus excitation compared with standard epi-illumination.\n\nThe bottom row explains resolution concepts. A diffraction-limited point spread function produces blur, while super-resolution methods overcome this in different ways: STED shrinks the emitting spot, SMLM localizes single molecules over time to reconstruct positions or trajectories, and SIM combines multiple patterned images to recover higher spatial detail.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "focused excitation beam scanning through sample",
+        "category": "arrow",
+        "panel": "a",
+        "count": 3,
+        "key_attributes": [
+          "focused cone beam",
+          "scanning illumination",
+          "through sample"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "sample slab",
+        "category": "region",
+        "panel": "a",
+        "count": 3,
+        "key_attributes": [
+          "rectangular sample",
+          "above coverslip",
+          "intersected by beam"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "coverslip or objective-side interface",
+        "category": "layer",
+        "panel": "a",
+        "count": 3,
+        "key_attributes": [
+          "horizontal layer",
+          "below sample",
+          "microscope interface"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "scanning spot or multipoint illumination pattern",
+        "category": "pathway_component",
+        "panel": "a",
+        "count": 3,
+        "key_attributes": [
+          "single spot or grid",
+          "top inset",
+          "illumination pattern"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "patterned depletion beam narrowing fluorescent region",
+        "category": "arrow",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "doughnut pattern",
+          "STED/RESOLFT",
+          "narrowed center"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "full-field illumination over entire area",
+        "category": "region",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "broad illumination",
+          "whole field",
+          "wide-field"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "evanescent or inclined beam near coverslip",
+        "category": "arrow",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "surface-confined excitation",
+          "angled beam",
+          "near coverslip"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "striped SIM illumination pattern",
+        "category": "pathway_component",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "vertical stripes",
+          "patterned illumination",
+          "SIM"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "light sheet entering from the side",
+        "category": "layer",
+        "panel": "c",
+        "count": 3,
+        "key_attributes": [
+          "thin plane",
+          "side illumination",
+          "sheet geometry"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v10",
+        "entity_type": "visual",
+        "name": "lattice or Gaussian light-sheet variants",
+        "category": "pathway_component",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "lattice sheet",
+          "Gaussian sheet",
+          "sheet inset"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v11",
+        "entity_type": "visual",
+        "name": "reflected light-sheet geometry",
+        "category": "material_structure",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "reflecting surface",
+          "bent sheet path",
+          "soSPIM"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v12",
+        "entity_type": "visual",
+        "name": "tilted light-sheet geometry",
+        "category": "layer",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "angled sheet",
+          "tilted entry",
+          "oblique plane"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v13",
+        "entity_type": "visual",
+        "name": "diffraction-limited blur schematic",
+        "category": "pathway_component",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "object to PSF",
+          "blurred image",
+          "resolution limit"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v14",
+        "entity_type": "visual",
+        "name": "STED excitation and depletion overlap",
+        "category": "pathway_component",
+        "panel": "d",
+        "count": 2,
+        "key_attributes": [
+          "excitation spot",
+          "depletion donut",
+          "shrunk emitting spot"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v15",
+        "entity_type": "visual",
+        "name": "SMLM sequential localizations and tracks",
+        "category": "molecule",
+        "panel": "d",
+        "count": 2,
+        "key_attributes": [
+          "single emitters over time",
+          "localization points",
+          "trajectories"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v16",
+        "entity_type": "visual",
+        "name": "SIM reconstruction from multiple patterned images",
+        "category": "pathway_component",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "multiple stripe phases",
+          "combined reconstruction",
+          "higher detail"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v17",
+        "entity_type": "visual",
+        "name": "panel markers",
+        "category": "panel_marker",
+        "panel": "all",
+        "count": 9,
+        "key_attributes": [
+          "A-D",
+          "Da-De",
+          "subpanel markers"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "A",
+        "category": "panel_label",
+        "surface_text": "A",
+        "normalized_text": "A",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "panel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "Point scanning",
+        "category": "scientific_label",
+        "surface_text": "Point scanning",
+        "normalized_text": "point scanning",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "section title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "CLSM/spinning disk",
+        "category": "scientific_label",
+        "surface_text": "CLSM/spinning disk",
+        "normalized_text": "CLSM/spinning disk",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "confocal mode"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "2P/3P",
+        "category": "scientific_label",
+        "surface_text": "2P/3P",
+        "normalized_text": "2P/3P",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "nonlinear excitation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "STED/RESOLFT",
+        "category": "scientific_label",
+        "surface_text": "STED/RESOLFT",
+        "normalized_text": "STED/RESOLFT",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "depletion strategy"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "Scanning pattern",
+        "category": "annotation_text",
+        "surface_text": "Scanning pattern",
+        "normalized_text": "scanning pattern",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "inset label"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "Multipoint pattern",
+        "category": "annotation_text",
+        "surface_text": "Multipoint pattern",
+        "normalized_text": "multipoint pattern",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "inset label"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "Sample",
+        "category": "annotation_text",
+        "surface_text": "Sample",
+        "normalized_text": "sample",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "sample region"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "Coverslip",
+        "category": "annotation_text",
+        "surface_text": "Coverslip",
+        "normalized_text": "coverslip",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "interface label"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "Excitation beam",
+        "category": "annotation_text",
+        "surface_text": "Excitation beam",
+        "normalized_text": "excitation beam",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "beam label"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "Focal plane",
+        "category": "annotation_text",
+        "surface_text": "Focal plane",
+        "normalized_text": "focal plane",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "plane label"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "B",
+        "category": "panel_label",
+        "surface_text": "B",
+        "normalized_text": "B",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "panel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "Full field",
+        "category": "scientific_label",
+        "surface_text": "Full field",
+        "normalized_text": "full field",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "section title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t14",
+        "entity_type": "text",
+        "name": "Wide field",
+        "category": "scientific_label",
+        "surface_text": "Wide field",
+        "normalized_text": "wide field",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "whole-area excitation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t15",
+        "entity_type": "text",
+        "name": "TIRF/HILO",
+        "category": "scientific_label",
+        "surface_text": "TIRF/HILO",
+        "normalized_text": "TIRF/HILO",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "surface or inclined illumination"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t16",
+        "entity_type": "text",
+        "name": "SIM",
+        "category": "scientific_label",
+        "surface_text": "SIM",
+        "normalized_text": "SIM",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "structured illumination"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t17",
+        "entity_type": "text",
+        "name": "Evanescent wave",
+        "category": "annotation_text",
+        "surface_text": "Evanescent wave",
+        "normalized_text": "evanescent wave",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "beam annotation"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t18",
+        "entity_type": "text",
+        "name": "TIRF",
+        "category": "scientific_label",
+        "surface_text": "TIRF",
+        "normalized_text": "TIRF",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "mode label"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t19",
+        "entity_type": "text",
+        "name": "C",
+        "category": "panel_label",
+        "surface_text": "C",
+        "normalized_text": "C",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "panel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t20",
+        "entity_type": "text",
+        "name": "Light sheet",
+        "category": "scientific_label",
+        "surface_text": "Light sheet",
+        "normalized_text": "light sheet",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "section title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t21",
+        "entity_type": "text",
+        "name": "Lattice light sheet",
+        "category": "annotation_text",
+        "surface_text": "Lattice light sheet",
+        "normalized_text": "lattice light sheet",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "sheet variant"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t22",
+        "entity_type": "text",
+        "name": "Gaussian light sheet",
+        "category": "annotation_text",
+        "surface_text": "Gaussian light sheet",
+        "normalized_text": "gaussian light sheet",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "sheet variant"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t23",
+        "entity_type": "text",
+        "name": "SPIM/LLSM",
+        "category": "scientific_label",
+        "surface_text": "SPIM/LLSM",
+        "normalized_text": "SPIM/LLSM",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "side-illumination mode"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t24",
+        "entity_type": "text",
+        "name": "Reflecting surface",
+        "category": "annotation_text",
+        "surface_text": "Reflecting surface",
+        "normalized_text": "reflecting surface",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "mirror element"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t25",
+        "entity_type": "text",
+        "name": "Reflected light sheet",
+        "category": "annotation_text",
+        "surface_text": "Reflected light sheet",
+        "normalized_text": "reflected light sheet",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "sheet geometry"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t26",
+        "entity_type": "text",
+        "name": "soSPIM",
+        "category": "scientific_label",
+        "surface_text": "soSPIM",
+        "normalized_text": "soSPIM",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "reflected-sheet mode"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t27",
+        "entity_type": "text",
+        "name": "Tilted light sheet",
+        "category": "scientific_label",
+        "surface_text": "Tilted light sheet",
+        "normalized_text": "tilted light sheet",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "angled sheet geometry"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t28",
+        "entity_type": "text",
+        "name": "D",
+        "category": "panel_label",
+        "surface_text": "D",
+        "normalized_text": "D",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "panel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t29",
+        "entity_type": "text",
+        "name": "Super-resolution",
+        "category": "scientific_label",
+        "surface_text": "Super-resolution",
+        "normalized_text": "super-resolution",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "section title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t30",
+        "entity_type": "text",
+        "name": "Da",
+        "category": "panel_label",
+        "surface_text": "Da",
+        "normalized_text": "Da",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "subpanel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t31",
+        "entity_type": "text",
+        "name": "Diffraction limited",
+        "category": "scientific_label",
+        "surface_text": "Diffraction limited",
+        "normalized_text": "diffraction limited",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "resolution concept"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t32",
+        "entity_type": "text",
+        "name": "Object",
+        "category": "annotation_text",
+        "surface_text": "Object",
+        "normalized_text": "object",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "source object"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t33",
+        "entity_type": "text",
+        "name": "PSF",
+        "category": "scientific_label",
+        "surface_text": "PSF",
+        "normalized_text": "PSF",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "point spread function"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t34",
+        "entity_type": "text",
+        "name": "Blurry image",
+        "category": "annotation_text",
+        "surface_text": "Blurry image",
+        "normalized_text": "blurry image",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "blur outcome"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t35",
+        "entity_type": "text",
+        "name": "Db",
+        "category": "panel_label",
+        "surface_text": "Db",
+        "normalized_text": "Db",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "subpanel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t36",
+        "entity_type": "text",
+        "name": "STED",
+        "category": "scientific_label",
+        "surface_text": "STED",
+        "normalized_text": "STED",
+        "panel": "d",
+        "count": 2,
+        "key_attributes": [
+          "super-resolution method"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t37",
+        "entity_type": "text",
+        "name": "Depletion",
+        "category": "annotation_text",
+        "surface_text": "Depletion",
+        "normalized_text": "depletion",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "beam type"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t38",
+        "entity_type": "text",
+        "name": "Excitation",
+        "category": "annotation_text",
+        "surface_text": "Excitation",
+        "normalized_text": "excitation",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "beam type"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t39",
+        "entity_type": "text",
+        "name": "Dc",
+        "category": "panel_label",
+        "surface_text": "Dc",
+        "normalized_text": "Dc",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "subpanel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t40",
+        "entity_type": "text",
+        "name": "Dd",
+        "category": "panel_label",
+        "surface_text": "Dd",
+        "normalized_text": "Dd",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "subpanel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t41",
+        "entity_type": "text",
+        "name": "SMLM",
+        "category": "scientific_label",
+        "surface_text": "SMLM",
+        "normalized_text": "SMLM",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "single-molecule localization"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t42",
+        "entity_type": "text",
+        "name": "Single-molecule localization sequence",
+        "category": "annotation_text",
+        "surface_text": "Single-molecule localization sequence",
+        "normalized_text": "single-molecule localization sequence",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "time sequence"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t43",
+        "entity_type": "text",
+        "name": "Localization",
+        "category": "annotation_text",
+        "surface_text": "Localization",
+        "normalized_text": "localization",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "SMLM output"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t44",
+        "entity_type": "text",
+        "name": "Tracking",
+        "category": "annotation_text",
+        "surface_text": "Tracking",
+        "normalized_text": "tracking",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "trajectory output"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t45",
+        "entity_type": "text",
+        "name": "Intensity",
+        "category": "annotation_text",
+        "surface_text": "Intensity",
+        "normalized_text": "intensity",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "localized reconstruction"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t46",
+        "entity_type": "text",
+        "name": "Trajectories",
+        "category": "annotation_text",
+        "surface_text": "Trajectories",
+        "normalized_text": "trajectories",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "tracking reconstruction"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t47",
+        "entity_type": "text",
+        "name": "De",
+        "category": "panel_label",
+        "surface_text": "De",
+        "normalized_text": "De",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "subpanel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t48",
+        "entity_type": "text",
+        "name": "SIM",
+        "category": "scientific_label",
+        "surface_text": "SIM",
+        "normalized_text": "SIM",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "super-resolution method"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t2",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t3",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t4",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t5",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "t6",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "t7",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "t8",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "t9",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "t10",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "v1",
+        "target_entity_id": "v2",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "v2",
+        "target_entity_id": "v3",
+        "relation_type": "above",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "v5",
+        "target_entity_id": "v1",
+        "relation_type": "inhibits",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "v1",
+        "target_entity_id": "v5",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "t13",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "t14",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "t15",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "t16",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "t17",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "v7",
+        "target_entity_id": "v6",
+        "relation_type": "inhibits",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "t20",
+        "target_entity_id": "v9",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "t21",
+        "target_entity_id": "v10",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "t22",
+        "target_entity_id": "v10",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r23",
+        "source_entity_id": "t24",
+        "target_entity_id": "v11",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r24",
+        "source_entity_id": "t25",
+        "target_entity_id": "v11",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r25",
+        "source_entity_id": "t27",
+        "target_entity_id": "v12",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r26",
+        "source_entity_id": "v11",
+        "target_entity_id": "v9",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r27",
+        "source_entity_id": "v12",
+        "target_entity_id": "v9",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r28",
+        "source_entity_id": "v9",
+        "target_entity_id": "v6",
+        "relation_type": "inhibits",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r29",
+        "source_entity_id": "t29",
+        "target_entity_id": "v13",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r30",
+        "source_entity_id": "t31",
+        "target_entity_id": "v13",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r31",
+        "source_entity_id": "t33",
+        "target_entity_id": "v13",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r32",
+        "source_entity_id": "t34",
+        "target_entity_id": "v13",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r33",
+        "source_entity_id": "t36",
+        "target_entity_id": "v14",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r34",
+        "source_entity_id": "t37",
+        "target_entity_id": "v14",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r35",
+        "source_entity_id": "t38",
+        "target_entity_id": "v14",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r36",
+        "source_entity_id": "t41",
+        "target_entity_id": "v15",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r37",
+        "source_entity_id": "t42",
+        "target_entity_id": "v15",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r38",
+        "source_entity_id": "t43",
+        "target_entity_id": "v15",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r39",
+        "source_entity_id": "t44",
+        "target_entity_id": "v15",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r40",
+        "source_entity_id": "t46",
+        "target_entity_id": "v15",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r41",
+        "source_entity_id": "t48",
+        "target_entity_id": "v16",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r42",
+        "source_entity_id": "v13",
+        "target_entity_id": "t34",
+        "relation_type": "transforms_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r43",
+        "source_entity_id": "v14",
+        "target_entity_id": "v13",
+        "relation_type": "inhibits",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r44",
+        "source_entity_id": "v15",
+        "target_entity_id": "t43",
+        "relation_type": "transforms_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r45",
+        "source_entity_id": "v15",
+        "target_entity_id": "t46",
+        "relation_type": "transforms_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r46",
+        "source_entity_id": "v16",
+        "target_entity_id": "v13",
+        "relation_type": "inhibits",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      }
+    ]
+  }
+}

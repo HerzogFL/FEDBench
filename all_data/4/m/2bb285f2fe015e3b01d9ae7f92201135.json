@@ -1,0 +1,1064 @@
+{
+  "image_name": "2bb285f2fe015e3b01d9ae7f92201135.png",
+  "prompt_text": "The figure summarizes how endoplasmic reticulum–associated degradation (ERAD) identifies and removes abnormal proteins from the ER membrane system. Across the diagram, newly synthesized proteins enter the ER, where they may fold correctly or become misfolded, unassembled, or unstable. These defective proteins are first recognized in a substrate-specific targeting step, apparently by distinct ERAD E3 ligase complexes such as HRD1 or other ERAD E3 assemblies.\n\nOnce selected, the substrate is brought to the membrane complex and begins moving out of the ER toward the cytoplasm, although one panel notes that the exact “dislocation” route may vary among ERAD pathways. During this step, the substrate is tagged with chains of ubiquitin by E2 and E3 enzymes. The ATPase Cdc48 then extracts the ubiquitinated protein from the membrane or lumenal interface into the cytoplasm.\n\nAfter extraction, the protein undergoes remodeling with help from ubiquitin-binding proteins, deubiquitylating enzymes, and chaperones/transport factors. It is then delivered to the 26S proteasome for degradation. An inset emphasizes that ERAD E3 complexes recognize specific degradation signals, or degrons, exposed on different substrates. Overall, the figure highlights a common quality-control pathway: recognition, ubiquitination, extraction, remodeling, and proteasomal destruction.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "ER membrane bilayer",
+        "category": "membrane",
+        "panel": "a,b,c",
+        "count": 3,
+        "key_attributes": [
+          "horizontal bilayer",
+          "separates lumen/cytoplasm",
+          "site of ERAD complexes"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "protein substrates",
+        "category": "protein",
+        "panel": "a,b,c",
+        "count": 6,
+        "key_attributes": [
+          "red polypeptides",
+          "folded or defective forms",
+          "ERAD substrates"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "translocon channel",
+        "category": "protein",
+        "panel": "a,b",
+        "count": 2,
+        "key_attributes": [
+          "membrane pore",
+          "protein import",
+          "grey channel"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "ERAD E3 ligase complex",
+        "category": "protein",
+        "panel": "a,b,c",
+        "count": 5,
+        "key_attributes": [
+          "blue membrane complex",
+          "substrate targeting",
+          "retrotranslocation-associated"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "ubiquitin chain",
+        "category": "molecule",
+        "panel": "a,b,c",
+        "count": 5,
+        "key_attributes": [
+          "small blue circles",
+          "substrate tagging",
+          "polyubiquitylation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "E2 enzyme",
+        "category": "protein",
+        "panel": "a,c",
+        "count": 2,
+        "key_attributes": [
+          "purple factor",
+          "near E3 complex",
+          "ubiquitin transfer"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "Cdc48 ATPase complex",
+        "category": "protein",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "yellow ring complex",
+          "extracts substrate",
+          "cytoplasmic side"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "deubiquitylating enzyme",
+        "category": "protein",
+        "panel": "a",
+        "count": 2,
+        "key_attributes": [
+          "teal factor",
+          "remodelling step",
+          "ubiquitin removal"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "ubiquitin-binding protein",
+        "category": "protein",
+        "panel": "a",
+        "count": 2,
+        "key_attributes": [
+          "pink factor",
+          "remodelling step",
+          "binds ubiquitin chain"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v10",
+        "entity_type": "visual",
+        "name": "26S proteasome",
+        "category": "protein",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "barrel-like complex",
+          "protein degradation",
+          "cytoplasmic"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v11",
+        "entity_type": "visual",
+        "name": "chaperones and transport factors",
+        "category": "protein",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "cytoplasmic accessory factors",
+          "post-extraction handling",
+          "delivery to proteasome"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v12",
+        "entity_type": "visual",
+        "name": "degron signal",
+        "category": "region",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "small highlighted site",
+          "on substrate",
+          "recognition signal"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v13",
+        "entity_type": "visual",
+        "name": "process arrows",
+        "category": "arrow",
+        "panel": "a,b,c",
+        "count": 12,
+        "key_attributes": [
+          "directional flow",
+          "import/extraction/degradation",
+          "step transitions"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v14",
+        "entity_type": "visual",
+        "name": "legend symbols",
+        "category": "legend_key",
+        "panel": "a",
+        "count": 4,
+        "key_attributes": [
+          "symbol-color mapping",
+          "ubiquitin and cofactors",
+          "boxed legend"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "v15",
+        "entity_type": "visual",
+        "name": "panel markers",
+        "category": "panel_marker",
+        "panel": "a,b,c",
+        "count": 3,
+        "key_attributes": [
+          "a b c labels",
+          "panel separation",
+          "layout cue"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "panel label a",
+        "category": "panel_label",
+        "surface_text": "a",
+        "normalized_text": "a",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "panel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "panel label b",
+        "category": "panel_label",
+        "surface_text": "b",
+        "normalized_text": "b",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "panel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "panel label c",
+        "category": "panel_label",
+        "surface_text": "c",
+        "normalized_text": "c",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "panel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "targeting step",
+        "category": "annotation_text",
+        "surface_text": "① Targeting (substrate-specific)",
+        "normalized_text": "Targeting (substrate-specific)",
+        "panel": "a,b",
+        "count": 2,
+        "key_attributes": [
+          "step 1",
+          "substrate recognition"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "folded protein",
+        "category": "scientific_label",
+        "surface_text": "Folded protein",
+        "normalized_text": "Folded protein",
+        "panel": "a,b",
+        "count": 2,
+        "key_attributes": [
+          "properly folded substrate"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "unfolded protein",
+        "category": "scientific_label",
+        "surface_text": "Unfolded protein",
+        "normalized_text": "Unfolded protein",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "newly synthesized state"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "misfolded protein",
+        "category": "scientific_label",
+        "surface_text": "Misfolded protein",
+        "normalized_text": "Misfolded protein",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "defective substrate"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "ER lumen",
+        "category": "scientific_label",
+        "surface_text": "ER lumen",
+        "normalized_text": "ER lumen",
+        "panel": "a,c",
+        "count": 2,
+        "key_attributes": [
+          "ER interior region"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "cytoplasm",
+        "category": "scientific_label",
+        "surface_text": "Cytoplasm",
+        "normalized_text": "Cytoplasm",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "cytosolic region"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "translocon label",
+        "category": "scientific_label",
+        "surface_text": "Translocon",
+        "normalized_text": "Translocon",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "import channel"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "import of newly synthesized proteins",
+        "category": "annotation_text",
+        "surface_text": "Import of newly synthesized proteins",
+        "normalized_text": "Import of newly synthesized proteins",
+        "panel": "a,b",
+        "count": 2,
+        "key_attributes": [
+          "entry into ER"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "retrotranslocation step",
+        "category": "annotation_text",
+        "surface_text": "② Retrotranslocation (HRD1–ERAD path)",
+        "normalized_text": "Retrotranslocation (HRD1-ERAD path)",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "step 2",
+          "HRD1 pathway"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "HRD1 E3 complex",
+        "category": "scientific_label",
+        "surface_text": "HRD1 E3 complex",
+        "normalized_text": "HRD1 E3 complex",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "specific ERAD E3 ligase"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t14",
+        "entity_type": "text",
+        "name": "E3 label",
+        "category": "scientific_label",
+        "surface_text": "E3",
+        "normalized_text": "E3",
+        "panel": "a",
+        "count": 2,
+        "key_attributes": [
+          "ligase subunit label"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t15",
+        "entity_type": "text",
+        "name": "E2 label",
+        "category": "scientific_label",
+        "surface_text": "E2",
+        "normalized_text": "E2",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "ubiquitin-conjugating enzyme"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t16",
+        "entity_type": "text",
+        "name": "ubiquitylation step",
+        "category": "annotation_text",
+        "surface_text": "③ Ubiquitylation",
+        "normalized_text": "Ubiquitylation",
+        "panel": "a,b",
+        "count": 2,
+        "key_attributes": [
+          "step 3",
+          "ubiquitin tagging"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t17",
+        "entity_type": "text",
+        "name": "remodelling step",
+        "category": "annotation_text",
+        "surface_text": "⑤ Remodelling (shared with other UPS pathways)",
+        "normalized_text": "Remodelling (shared with other UPS pathways)",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "step 5",
+          "post-extraction processing"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t18",
+        "entity_type": "text",
+        "name": "Cdc48",
+        "category": "scientific_label",
+        "surface_text": "Cdc48",
+        "normalized_text": "Cdc48",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "AAA ATPase extractor"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t19",
+        "entity_type": "text",
+        "name": "extraction step",
+        "category": "annotation_text",
+        "surface_text": "④ Extraction (shared among ERAD paths)",
+        "normalized_text": "Extraction (shared among ERAD paths)",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "step 4",
+          "substrate removal"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t20",
+        "entity_type": "text",
+        "name": "degradation step",
+        "category": "annotation_text",
+        "surface_text": "⑥ Degradation (shared with other UPS pathways)",
+        "normalized_text": "Degradation (shared with other UPS pathways)",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "step 6",
+          "proteasomal destruction"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t21",
+        "entity_type": "text",
+        "name": "26S proteasome label",
+        "category": "scientific_label",
+        "surface_text": "26S proteasome",
+        "normalized_text": "26S proteasome",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "proteolytic machine"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t22",
+        "entity_type": "text",
+        "name": "cytoplasmic chaperones and transport factors",
+        "category": "scientific_label",
+        "surface_text": "Cytoplasmic chaperones and transport factors",
+        "normalized_text": "Cytoplasmic chaperones and transport factors",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "remodelling and delivery factors"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t23",
+        "entity_type": "text",
+        "name": "dislocation step",
+        "category": "annotation_text",
+        "surface_text": "② Dislocation? (multiple ERAD paths)",
+        "normalized_text": "Dislocation? (multiple ERAD paths)",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "alternative step 2",
+          "route may vary"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t24",
+        "entity_type": "text",
+        "name": "ERAD E3 complex label",
+        "category": "scientific_label",
+        "surface_text": "ERAD E3 complex",
+        "normalized_text": "ERAD E3 complex",
+        "panel": "b,c",
+        "count": 3,
+        "key_attributes": [
+          "generic E3 assembly"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t25",
+        "entity_type": "text",
+        "name": "defective substrate description",
+        "category": "scientific_label",
+        "surface_text": "Misfolded, unassembled, or conditionally unstable protein",
+        "normalized_text": "Misfolded, unassembled, or conditionally unstable protein",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "defective protein classes"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t26",
+        "entity_type": "text",
+        "name": "cyto- or nucleoplasm",
+        "category": "scientific_label",
+        "surface_text": "Cyto- or nucleoplasm",
+        "normalized_text": "Cyto- or nucleoplasm",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "non-lumenal compartment"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t27",
+        "entity_type": "text",
+        "name": "degron",
+        "category": "scientific_label",
+        "surface_text": "Degron",
+        "normalized_text": "Degron",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "degradation signal"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t28",
+        "entity_type": "text",
+        "name": "protein exposing a degradation signal",
+        "category": "scientific_label",
+        "surface_text": "Protein exposing a degradation signal",
+        "normalized_text": "Protein exposing a degradation signal",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "substrate with exposed degron"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t29",
+        "entity_type": "text",
+        "name": "specific for each substrate",
+        "category": "annotation_text",
+        "surface_text": "Specific for each substrate",
+        "normalized_text": "Specific for each substrate",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "substrate-specific recognition"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t30",
+        "entity_type": "text",
+        "name": "ubiquitin legend text",
+        "category": "legend_text",
+        "surface_text": "Ubiquitin",
+        "normalized_text": "Ubiquitin",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "legend entry"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t31",
+        "entity_type": "text",
+        "name": "E2 enzyme legend text",
+        "category": "legend_text",
+        "surface_text": "E2 enzyme",
+        "normalized_text": "E2 enzyme",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "legend entry"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t32",
+        "entity_type": "text",
+        "name": "de-ubiquitylating enzyme legend text",
+        "category": "legend_text",
+        "surface_text": "De-ubiquitylating enzyme",
+        "normalized_text": "De-ubiquitylating enzyme",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "legend entry"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t33",
+        "entity_type": "text",
+        "name": "ubiquitin binding protein legend text",
+        "category": "legend_text",
+        "surface_text": "Ubiquitin binding protein",
+        "normalized_text": "Ubiquitin binding protein",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "legend entry"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t10",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t13",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t15",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t18",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "t21",
+        "target_entity_id": "v10",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "t22",
+        "target_entity_id": "v11",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "t24",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "t27",
+        "target_entity_id": "v12",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "t30",
+        "target_entity_id": "v5",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "t31",
+        "target_entity_id": "v6",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "t32",
+        "target_entity_id": "v8",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "t33",
+        "target_entity_id": "v9",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "v2",
+        "target_entity_id": "v3",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "v2",
+        "target_entity_id": "v4",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "v6",
+        "target_entity_id": "v5",
+        "relation_type": "transforms_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "v5",
+        "target_entity_id": "v2",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "v4",
+        "target_entity_id": "v2",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "v7",
+        "target_entity_id": "v2",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "v2",
+        "target_entity_id": "v10",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "v8",
+        "target_entity_id": "v5",
+        "relation_type": "inhibits",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "v9",
+        "target_entity_id": "v5",
+        "relation_type": "connected_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "v11",
+        "target_entity_id": "v2",
+        "relation_type": "connected_to",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r23",
+        "source_entity_id": "v12",
+        "target_entity_id": "v2",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r24",
+        "source_entity_id": "v4",
+        "target_entity_id": "v12",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r25",
+        "source_entity_id": "t4",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r26",
+        "source_entity_id": "t12",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r27",
+        "source_entity_id": "t16",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r28",
+        "source_entity_id": "t17",
+        "target_entity_id": "v11",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r29",
+        "source_entity_id": "t19",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r30",
+        "source_entity_id": "t20",
+        "target_entity_id": "v10",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r31",
+        "source_entity_id": "t23",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      }
+    ]
+  }
+}

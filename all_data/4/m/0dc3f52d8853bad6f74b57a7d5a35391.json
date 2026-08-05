@@ -1,0 +1,959 @@
+{
+  "image_name": "0dc3f52d8853bad6f74b57a7d5a35391.jpg",
+  "prompt_text": "The figure summarizes several optogenetic strategies for targeting and stimulating specific neural populations and pathways in the brain. Across all rows, the workflow is similar: a virus carrying an opsin is injected into one region, expression is established in selected neurons, and light is then delivered to activate either cell bodies or axon terminals.\n\nThe main comparison is between increasingly selective ways of controlling neurons in region B and its connections with regions A and C. In the simplest approach, a single injection labels many neurons in B, and light over B activates local somata. More selective methods restrict expression to subsets of B neurons using recombinase- or promoter-dependent opsins. Other schemes shift stimulation from cell bodies to projections, so light in A activates B axons that terminate there, helping isolate a specific pathway rather than all neurons in B.\n\nA further strategy uses transcellular recombinase or projection targeting so only B neurons that connect to A express the opsin. The final rows show combinatorial designs with multiple opsins and two laser colors, allowing independent control of mixed cell types within one area or separate inputs from A and C converging onto B. Overall, the figure illustrates how viral targeting plus light delivery can dissect neural circuits with progressively finer specificity.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "brain schematic with regions A, B, and C",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 6,
+        "key_attributes": [
+          "three labeled regions",
+          "repeated across rows",
+          "target circuit map"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "viral injection pipette",
+        "category": "device_component",
+        "panel": "single_panel",
+        "count": 8,
+        "key_attributes": [
+          "injection into region",
+          "blue pipette",
+          "left column"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "opsin-expressing neurons in region B",
+        "category": "cell",
+        "panel": "single_panel",
+        "count": 6,
+        "key_attributes": [
+          "green highlighted cells",
+          "expression in B",
+          "selected subsets in some rows"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "axonal projection pathways between regions",
+        "category": "pathway_component",
+        "panel": "single_panel",
+        "count": 6,
+        "key_attributes": [
+          "A-B-C connectivity",
+          "projection-specific targeting",
+          "curved colored tracts"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "light delivery laser beams",
+        "category": "device_component",
+        "panel": "single_panel",
+        "count": 8,
+        "key_attributes": [
+          "blue/orange beams",
+          "right column",
+          "stimulation sites"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "local soma illumination in region B",
+        "category": "region",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "light over B",
+          "cell bodies",
+          "broad activation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "projection terminal illumination in region A",
+        "category": "region",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "light over A",
+          "B axon terminals",
+          "pathway specific"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "double-injection transcellular targeting scheme",
+        "category": "pathway_component",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "A and B injections",
+          "recombinase transfer",
+          "projection-defined subset"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "dual-color local stimulation of mixed B neurons",
+        "category": "device_component",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "two lasers",
+          "mixed opsins",
+          "same region B"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v10",
+        "entity_type": "visual",
+        "name": "dual-color stimulation of A and C inputs converging on B",
+        "category": "pathway_component",
+        "panel": "f",
+        "count": 1,
+        "key_attributes": [
+          "A and C inputs",
+          "convergence on B",
+          "independent colors"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v11",
+        "entity_type": "visual",
+        "name": "cerebellum/background anatomical outline",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 6,
+        "key_attributes": [
+          "posterior outline",
+          "context anatomy"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "Injection site",
+        "category": "scientific_label",
+        "surface_text": "Injection site",
+        "normalized_text": "Injection site",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "column header"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "Viral expression",
+        "category": "scientific_label",
+        "surface_text": "Viral expression",
+        "normalized_text": "Viral expression",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "column header"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "Light delivery",
+        "category": "scientific_label",
+        "surface_text": "Light delivery",
+        "normalized_text": "Light delivery",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "column header"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "panel a label",
+        "category": "panel_label",
+        "surface_text": "a",
+        "normalized_text": "a",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "Local somata",
+        "category": "scientific_label",
+        "surface_text": "Local somata",
+        "normalized_text": "Local somata",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "strategy title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "Single viral injection into B",
+        "category": "annotation_text",
+        "surface_text": "Single viral injection into B",
+        "normalized_text": "Single viral injection into B",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "panel a workflow"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "Opsin expression throughout B",
+        "category": "annotation_text",
+        "surface_text": "Opsin expression throughout B",
+        "normalized_text": "Opsin expression throughout B",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "panel a expression"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "Illumination of B cell bodies projecting to A and C",
+        "category": "annotation_text",
+        "surface_text": "Illumination of B cell bodies projecting to A and C",
+        "normalized_text": "Illumination of B cell bodies projecting to A and C",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "panel a stimulation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "Recombinase- or promoter-dependent",
+        "category": "scientific_label",
+        "surface_text": "Recombinase- or promoter-dependent",
+        "normalized_text": "Recombinase- or promoter-dependent",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "strategy title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "Opsin expression only in neurons expressing recombinase or with active promoter in B",
+        "category": "annotation_text",
+        "surface_text": "Opsin expression only in neurons expressing recombinase or with active promoter in B",
+        "normalized_text": "Opsin expression only in neurons expressing recombinase or with active promoter in B",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "subset expression"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "Projection",
+        "category": "scientific_label",
+        "surface_text": "Projection",
+        "normalized_text": "Projection",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "strategy title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "Illumination of B axons in A but not C. Corresponding cell bodies in B may be activated.",
+        "category": "annotation_text",
+        "surface_text": "Illumination of B axons in A but not C. Corresponding cell bodies in B may be activated.",
+        "normalized_text": "Illumination of B axons in A but not C. Corresponding cell bodies in B may be activated.",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "projection stimulation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "Projection termination",
+        "category": "scientific_label",
+        "surface_text": "Projection termination",
+        "normalized_text": "Projection termination",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "strategy title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t14",
+        "entity_type": "text",
+        "name": "Double viral injection into B and A. Recombinase expressed in A moves transcellularly to cells in B.",
+        "category": "annotation_text",
+        "surface_text": "Double viral injection into B and A. Recombinase expressed in A moves transcellularly to cells in B.",
+        "normalized_text": "Double viral injection into B and A. Recombinase expressed in A moves transcellularly to cells in B.",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "double injection",
+          "transcellular recombinase"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t15",
+        "entity_type": "text",
+        "name": "Opsin expression in B neurons that project to A (also achievable with axon-transducing viruses)",
+        "category": "annotation_text",
+        "surface_text": "Opsin expression in B neurons that project to A (also achievable with axon-transducing viruses)",
+        "normalized_text": "Opsin expression in B neurons that project to A (also achievable with axon-transducing viruses)",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "projection-defined expression"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t16",
+        "entity_type": "text",
+        "name": "Combinatorial local somata",
+        "category": "scientific_label",
+        "surface_text": "Combinatorial local somata",
+        "normalized_text": "Combinatorial local somata",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "strategy title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t17",
+        "entity_type": "text",
+        "name": "Laser 1",
+        "category": "annotation_text",
+        "surface_text": "Laser 1",
+        "normalized_text": "Laser 1",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "first color"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t18",
+        "entity_type": "text",
+        "name": "Laser 2",
+        "category": "annotation_text",
+        "surface_text": "Laser 2",
+        "normalized_text": "Laser 2",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "second color"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t19",
+        "entity_type": "text",
+        "name": "Combinatorial projection",
+        "category": "scientific_label",
+        "surface_text": "Combinatorial projection",
+        "normalized_text": "Combinatorial projection",
+        "panel": "f",
+        "count": 1,
+        "key_attributes": [
+          "strategy title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t20",
+        "entity_type": "text",
+        "name": "Illumination of mixed neuronal projections in B activate independent axons from A and C",
+        "category": "annotation_text",
+        "surface_text": "Illumination of mixed neuronal projections in B activate independent axons from A and C",
+        "normalized_text": "Illumination of mixed neuronal projections in B activate independent axons from A and C",
+        "panel": "f",
+        "count": 1,
+        "key_attributes": [
+          "independent inputs",
+          "A and C to B"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t21",
+        "entity_type": "text",
+        "name": "Laser 1",
+        "category": "annotation_text",
+        "surface_text": "Laser 1",
+        "normalized_text": "Laser 1",
+        "panel": "f",
+        "count": 1,
+        "key_attributes": [
+          "first color"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t22",
+        "entity_type": "text",
+        "name": "Laser 2",
+        "category": "annotation_text",
+        "surface_text": "Laser 2",
+        "normalized_text": "Laser 2",
+        "panel": "f",
+        "count": 1,
+        "key_attributes": [
+          "second color"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t23",
+        "entity_type": "text",
+        "name": "region A label",
+        "category": "scientific_label",
+        "surface_text": "A",
+        "normalized_text": "A",
+        "panel": "single_panel",
+        "count": 6,
+        "key_attributes": [
+          "brain region"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t24",
+        "entity_type": "text",
+        "name": "region B label",
+        "category": "scientific_label",
+        "surface_text": "B",
+        "normalized_text": "B",
+        "panel": "single_panel",
+        "count": 6,
+        "key_attributes": [
+          "brain region"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t25",
+        "entity_type": "text",
+        "name": "region C label",
+        "category": "scientific_label",
+        "surface_text": "C",
+        "normalized_text": "C",
+        "panel": "single_panel",
+        "count": 6,
+        "key_attributes": [
+          "brain region"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t26",
+        "entity_type": "text",
+        "name": "Virally encoded opsin",
+        "category": "scientific_label",
+        "surface_text": "Virally encoded opsin",
+        "normalized_text": "Virally encoded opsin",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "vector label"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t27",
+        "entity_type": "text",
+        "name": "Laser",
+        "category": "annotation_text",
+        "surface_text": "Laser",
+        "normalized_text": "Laser",
+        "panel": "single_panel",
+        "count": 4,
+        "key_attributes": [
+          "light source label"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t1",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t2",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t3",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t23",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "t24",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "t25",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "v2",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "v3",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "v4",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "v5",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "v2",
+        "target_entity_id": "v3",
+        "relation_type": "transforms_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "v3",
+        "target_entity_id": "v5",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "v4",
+        "target_entity_id": "v1",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "t5",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "t6",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "t7",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "t8",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "v6",
+        "target_entity_id": "v3",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "t9",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "t10",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "t11",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "t12",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r23",
+        "source_entity_id": "v7",
+        "target_entity_id": "v4",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r24",
+        "source_entity_id": "t13",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r25",
+        "source_entity_id": "t14",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r26",
+        "source_entity_id": "t15",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r27",
+        "source_entity_id": "v8",
+        "target_entity_id": "v3",
+        "relation_type": "transforms_to",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r28",
+        "source_entity_id": "t16",
+        "target_entity_id": "v9",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r29",
+        "source_entity_id": "t17",
+        "target_entity_id": "v9",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r30",
+        "source_entity_id": "t18",
+        "target_entity_id": "v9",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r31",
+        "source_entity_id": "v9",
+        "target_entity_id": "v3",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r32",
+        "source_entity_id": "t19",
+        "target_entity_id": "v10",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r33",
+        "source_entity_id": "t20",
+        "target_entity_id": "v10",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r34",
+        "source_entity_id": "t21",
+        "target_entity_id": "v10",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r35",
+        "source_entity_id": "t22",
+        "target_entity_id": "v10",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r36",
+        "source_entity_id": "v10",
+        "target_entity_id": "v4",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r37",
+        "source_entity_id": "v2",
+        "target_entity_id": "v3",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r38",
+        "source_entity_id": "v3",
+        "target_entity_id": "v5",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "global"
+      }
+    ]
+  }
+}

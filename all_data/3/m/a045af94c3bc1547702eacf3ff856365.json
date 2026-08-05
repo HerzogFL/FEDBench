@@ -1,0 +1,529 @@
+{
+  "image_name": "a045af94c3bc1547702eacf3ff856365.png",
+  "prompt_text": "The figure summarizes several large-scale pathways by which tropical oceans and the upper atmosphere appear to influence rainfall over Africa and nearby regions. Across all panels, broad gray arrows depict an overturning tropical circulation linking the Pacific, Indian, Atlantic, and African sectors, while colored shading marks warm or cool sea-surface anomalies and blue downward arrows indicate subsiding air over Africa.\n\nThe top panel highlights a tropospheric temperature effect: warm upper-level anomalies spread eastward as Kelvin waves and are associated with sinking motion over northern tropical Africa. The lower panels compare seasonal oceanic influences. In boreal autumn, a positive Indian Ocean Dipole is shown with contrasting Indian Ocean temperature patterns and rising convection there, connected to changes over the tropical Pacific and descending branches farther west. In boreal winter, Indian Ocean basin warming appears to reorganize the circulation again, with convection over the western Indian Ocean and altered low-level flow toward Africa. In boreal summer, the Atlantic becomes the main driver: an “Atlantic Niña” cool anomaly in the equatorial Atlantic is linked to subsidence over Africa and circulation shifts spanning the Pacific and Indian Oceans.\n\nOverall, the figure emphasizes season-dependent ocean–atmosphere teleconnections that modulate African climate through convection and subsidence.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "gray overturning tropical circulation arrows",
+        "category": "arrow",
+        "panel": "all_panels",
+        "count": 1,
+        "key_attributes": [
+          "broad gray",
+          "basin-spanning",
+          "overturning circulation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "warm sea-surface or upper-level anomaly shading",
+        "category": "region",
+        "panel": "all_panels",
+        "count": 1,
+        "key_attributes": [
+          "red shading",
+          "warm anomaly",
+          "broad regions"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "cool sea-surface anomaly shading",
+        "category": "region",
+        "panel": "b,d",
+        "count": 1,
+        "key_attributes": [
+          "blue shading",
+          "cool anomaly",
+          "ocean regions"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "blue downward arrows over Africa",
+        "category": "arrow",
+        "panel": "a,d",
+        "count": 1,
+        "key_attributes": [
+          "blue",
+          "downward",
+          "subsiding air"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "Kelvin wave arrows",
+        "category": "arrow",
+        "panel": "a",
+        "count": 4,
+        "key_attributes": [
+          "pale arrows",
+          "eastward",
+          "upper troposphere"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "positive Indian Ocean Dipole anomaly pattern",
+        "category": "region",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "contrasting Indian Ocean",
+          "red west",
+          "blue east"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "convection over the Indian Ocean",
+        "category": "arrow",
+        "panel": "b,c",
+        "count": 1,
+        "key_attributes": [
+          "upward arrows",
+          "cloud stacks",
+          "rising motion"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "Indian Ocean basin warming region",
+        "category": "region",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "warm basin-wide",
+          "Indian Ocean",
+          "purple-red shading"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "altered low-level flow toward Africa",
+        "category": "arrow",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "near-surface",
+          "toward Africa",
+          "blue arrows"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v10",
+        "entity_type": "visual",
+        "name": "Atlantic Niña cool anomaly",
+        "category": "region",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "equatorial Atlantic",
+          "blue cooling",
+          "Atlantic driver"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v11",
+        "entity_type": "visual",
+        "name": "world map base",
+        "category": "region",
+        "panel": "all_panels",
+        "count": 4,
+        "key_attributes": [
+          "tropical basins",
+          "Africa-centered",
+          "schematic map"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v12",
+        "entity_type": "visual",
+        "name": "panel markers",
+        "category": "panel_marker",
+        "panel": "all_panels",
+        "count": 4,
+        "key_attributes": [
+          "a-d",
+          "left aligned",
+          "panel identifiers"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "panel a label",
+        "category": "panel_label",
+        "surface_text": "a",
+        "normalized_text": "a",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "panel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "tropospheric temperature influence title",
+        "category": "scientific_label",
+        "surface_text": "Tropospheric temperature influence",
+        "normalized_text": "tropospheric temperature influence",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "panel title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "Kelvin waves label",
+        "category": "annotation_text",
+        "surface_text": "Kelvin waves",
+        "normalized_text": "kelvin waves",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "wave annotation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "panel b label",
+        "category": "panel_label",
+        "surface_text": "b",
+        "normalized_text": "b",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "panel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "Indian Ocean influence in SON title",
+        "category": "scientific_label",
+        "surface_text": "Indian Ocean influence in SON",
+        "normalized_text": "indian ocean influence in SON",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "seasonal title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "Positive IOD label",
+        "category": "annotation_text",
+        "surface_text": "Positive IOD",
+        "normalized_text": "positive IOD",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "Indian Ocean Dipole"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "panel c label",
+        "category": "panel_label",
+        "surface_text": "c",
+        "normalized_text": "c",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "panel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "Indian Ocean influence in DJF title",
+        "category": "scientific_label",
+        "surface_text": "Indian Ocean influence in DJF",
+        "normalized_text": "indian ocean influence in DJF",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "seasonal title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "IOB warming label",
+        "category": "annotation_text",
+        "surface_text": "IOB warming",
+        "normalized_text": "IOB warming",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "basin warming"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "panel d label",
+        "category": "panel_label",
+        "surface_text": "d",
+        "normalized_text": "d",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "panel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "Atlantic Ocean influence in JJA title",
+        "category": "scientific_label",
+        "surface_text": "Atlantic Ocean influence in JJA",
+        "normalized_text": "atlantic ocean influence in JJA",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "seasonal title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "Atlantic Niña label",
+        "category": "annotation_text",
+        "surface_text": "Atlantic Niña",
+        "normalized_text": "atlantic nina",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "equatorial Atlantic cooling"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t3",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t6",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t9",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t12",
+        "target_entity_id": "v10",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "v5",
+        "target_entity_id": "v4",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "v6",
+        "target_entity_id": "v7",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "v8",
+        "target_entity_id": "v7",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "v8",
+        "target_entity_id": "v9",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "v10",
+        "target_entity_id": "v4",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "v4",
+        "target_entity_id": "v11",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "v7",
+        "target_entity_id": "v11",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "v10",
+        "target_entity_id": "v11",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "v8",
+        "target_entity_id": "v11",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "v6",
+        "target_entity_id": "v11",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "v1",
+        "target_entity_id": "v11",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "global"
+      }
+    ]
+  }
+}

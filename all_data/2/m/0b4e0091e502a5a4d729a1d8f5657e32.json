@@ -1,0 +1,526 @@
+{
+  "image_name": "0b4e0091e502a5a4d729a1d8f5657e32.png",
+  "prompt_text": "The figure contrasts a standard TEMPO-based aqueous electrolyte with an ionic-liquid-style TEMPO dimer designed to behave more like a “water-in-salt” system. On the left, conventional TEMPO is shown as a single radical molecule dissolved in water, with many free water molecules surrounding relatively few solute particles. This suggests a typical dilute “TEMPO-in-water” environment, where water remains largely unbound and the achievable capacity is low, indicated by the small battery icon of about 10 Ah L⁻¹.\n\nOn the right, the TEMPO units are chemically linked into a charged dimer with a counterion, creating a much more concentrated, ionic-liquid-like electrolyte. The accompanying cartoon shows water molecules interacting closely with ions rather than existing mostly as free water. Visually, the balance shifts from water-rich to active-material-rich, with larger yellow solute spheres and fewer freely dispersed water molecules. This composition is presented as analogous to water-in-salt behavior, but based on TEMPO species.\n\nThe overall message is that converting TEMPO into an ionic, dimeric form increases the concentration of redox-active material, changes how water is coordinated, and greatly boosts volumetric energy-storage capability, reaching roughly 100 Ah L⁻¹.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "conventional TEMPO molecule schematic",
+        "category": "molecule",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "single radical",
+          "ring structure",
+          "dilute solute"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "free water molecules around TEMPO",
+        "category": "molecule",
+        "panel": "a",
+        "count": 10,
+        "key_attributes": [
+          "many dispersed waters",
+          "mostly unbound",
+          "water-rich environment"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "small blue solute spheres",
+        "category": "molecule",
+        "panel": "a",
+        "count": 2,
+        "key_attributes": [
+          "small spheres",
+          "few solute particles",
+          "low active concentration"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "battery icon",
+        "category": "device_component",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "small capacity indicator",
+          "outlined battery",
+          "low value"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "TEMPO dimer schematic",
+        "category": "molecule",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "linked TEMPO units",
+          "dimeric structure",
+          "charged species"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "counterion near TEMPO dimer",
+        "category": "molecule",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "anion",
+          "paired with dimer",
+          "ionic liquid style"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "water molecules interacting with ions",
+        "category": "molecule",
+        "panel": "b",
+        "count": 7,
+        "key_attributes": [
+          "fewer free waters",
+          "ion-coordinated",
+          "clustered near ions"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "large yellow active-material spheres",
+        "category": "molecule",
+        "panel": "b",
+        "count": 4,
+        "key_attributes": [
+          "larger yellow spheres",
+          "active-material-rich",
+          "high concentration"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "small gray ion spheres",
+        "category": "molecule",
+        "panel": "b",
+        "count": 4,
+        "key_attributes": [
+          "small ions",
+          "mixed with waters",
+          "ionic environment"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v10",
+        "entity_type": "visual",
+        "name": "battery icon",
+        "category": "device_component",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "large capacity indicator",
+          "outlined battery",
+          "high value"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "panel label a",
+        "category": "panel_label",
+        "surface_text": "a",
+        "normalized_text": "a",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "panel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "Conventional TEMPO",
+        "category": "scientific_label",
+        "surface_text": "Conventional TEMPO",
+        "normalized_text": "Conventional TEMPO",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "left title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "TEMPO-in-water",
+        "category": "annotation_text",
+        "surface_text": "TEMPO-in-water",
+        "normalized_text": "TEMPO-in-water",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "dilute environment"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "free H2O molecules",
+        "category": "annotation_text",
+        "surface_text": "free H2O molecules",
+        "normalized_text": "free H2O molecules",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "water mostly unbound"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "low volumetric capacity",
+        "category": "number",
+        "surface_text": "~10 Ah L−1",
+        "normalized_text": "~10 Ah L^-1",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "low capacity"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "panel label b",
+        "category": "panel_label",
+        "surface_text": "b",
+        "normalized_text": "b",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "panel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "Ionic liquid mimicking TEMPO dimer",
+        "category": "scientific_label",
+        "surface_text": "Ionic liquid mimicking TEMPO dimer",
+        "normalized_text": "Ionic liquid mimicking TEMPO dimer",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "right title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "counterion label",
+        "category": "scientific_label",
+        "surface_text": "Cl−",
+        "normalized_text": "Cl^-",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "anion label"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "Similar to water-in-salt (TEMPO)",
+        "category": "annotation_text",
+        "surface_text": "Similar to water-in-salt (TEMPO)",
+        "normalized_text": "Similar to water-in-salt (TEMPO)",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "water-in-salt analogy"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "H2O molecules interact with ions",
+        "category": "annotation_text",
+        "surface_text": "H2O molecules interact with ions",
+        "normalized_text": "H2O molecules interact with ions",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "coordinated water"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "high volumetric capacity",
+        "category": "number",
+        "surface_text": "~100 Ah L−1",
+        "normalized_text": "~100 Ah L^-1",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "high capacity"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t2",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t3",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t4",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t5",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "v1",
+        "target_entity_id": "v2",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "v3",
+        "target_entity_id": "v2",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "v1",
+        "target_entity_id": "v4",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "t7",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "t8",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "t9",
+        "target_entity_id": "v5",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "t10",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "t11",
+        "target_entity_id": "v10",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "v6",
+        "target_entity_id": "v5",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "v7",
+        "target_entity_id": "v6",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "v7",
+        "target_entity_id": "v9",
+        "relation_type": "connected_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "v8",
+        "target_entity_id": "v10",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "v1",
+        "target_entity_id": "v5",
+        "relation_type": "left_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "v4",
+        "target_entity_id": "v10",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "v4",
+        "target_entity_id": "v1",
+        "relation_type": "above",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "v10",
+        "target_entity_id": "v5",
+        "relation_type": "above",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      }
+    ]
+  }
+}

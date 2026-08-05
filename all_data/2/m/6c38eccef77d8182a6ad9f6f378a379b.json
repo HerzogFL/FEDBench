@@ -1,0 +1,1210 @@
+{
+  "image_name": "6c38eccef77d8182a6ad9f6f378a379b.png",
+  "prompt_text": "The figure summarizes several microbial routes by which iron metal can corrode, and how surface chemistry can either inhibit or promote that process. Overall, it shows that microbes do not only attack iron directly; they can create local conditions, recycle oxidants, generate acids or hydrogen, and transfer electrons in ways that accelerate corrosion.\n\nOne major theme is biofilm formation. Early colonizers on Fe⁰ consume oxygen, creating anaerobic niches where corrosive anaerobes can then grow. A second theme is microbial recycling of oxidized iron or other oxidants, which helps sustain iron oxidation. The middle part emphasizes metabolism-driven corrosion: microbes using sulfur, carbon, nitrogen, or iron compounds alter surrounding chemistry, while fermentation releases organic acids, lowers pH, and favors Fe⁰ oxidation. Sulfide minerals and hydrogenases appear to stimulate hydrogen production, linking microbial metabolism to electron flow from iron.\n\nAnother mechanism shown is extracellular electron uptake from iron, either through outer-surface cytochromes, conductive minerals, or flavins that shuttle electrons. The bottom section contrasts protection versus corrosion: a Fe(III) oxide passivation layer can block acid diffusion, hydrogen formation, and direct electron transfer, limiting corrosion. But if Fe(III) reducers remove this layer, corrosive microbes regain access to the metal and corrosion proceeds.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "iron metal surface",
+        "category": "material_structure",
+        "panel": "all_panels",
+        "count": 4,
+        "key_attributes": [
+          "gray base layer",
+          "Fe0 substrate",
+          "shared surface"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "biofilm on iron",
+        "category": "region",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "surface attached",
+          "oxygen consuming",
+          "anaerobic zones"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "microbial cells on iron",
+        "category": "cell",
+        "panel": "a",
+        "count": 3,
+        "key_attributes": [
+          "Fe2+ oxidizer",
+          "heterotroph",
+          "anaerobe"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "oxidant recycling reaction scheme",
+        "category": "pathway_component",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "Xoxidized/Xreduced",
+          "microbial recycling",
+          "supports Fe0 oxidation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "metabolism-driven corrosion microbes",
+        "category": "cell",
+        "panel": "b",
+        "count": 3,
+        "key_attributes": [
+          "sulfur-carbon-nitrogen-iron metabolisms",
+          "fermentation",
+          "hydrogenase linked"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "electron uptake from iron",
+        "category": "pathway_component",
+        "panel": "c",
+        "count": 3,
+        "key_attributes": [
+          "direct or mediated",
+          "electron flow from Fe0",
+          "microbial uptake"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "outer surface cytochromes",
+        "category": "protein",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "cell surface",
+          "electron transfer",
+          "direct uptake"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "conductive minerals bridge",
+        "category": "material_structure",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "conductive particles",
+          "electron conduit",
+          "between Fe0 and cell"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "flavin shuttle",
+        "category": "molecule",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "oxidized/reduced forms",
+          "electron shuttle",
+          "mediated transfer"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v10",
+        "entity_type": "visual",
+        "name": "Fe(III) oxide passivation layer",
+        "category": "layer",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "orange coating",
+          "protective barrier",
+          "blocks corrosion routes"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v11",
+        "entity_type": "visual",
+        "name": "Fe(III) reducers removing passivation",
+        "category": "cell",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "removes oxide layer",
+          "restores access",
+          "enables corrosion"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v12",
+        "entity_type": "visual",
+        "name": "crossed-out blocked corrosion routes",
+        "category": "arrow",
+        "panel": "d",
+        "count": 4,
+        "key_attributes": [
+          "red X marks",
+          "blocked diffusion",
+          "blocked electron transfer"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v13",
+        "entity_type": "visual",
+        "name": "reaction arrows",
+        "category": "arrow",
+        "panel": "all_panels",
+        "count": 20,
+        "key_attributes": [
+          "curved arrows",
+          "electron/chemical flow",
+          "process directions"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v14",
+        "entity_type": "visual",
+        "name": "panel markers",
+        "category": "panel_marker",
+        "panel": "all_panels",
+        "count": 4,
+        "key_attributes": [
+          "a-d labels",
+          "panel organization"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "panel a label",
+        "category": "panel_label",
+        "surface_text": "a",
+        "normalized_text": "a",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "mechanism 1 title",
+        "category": "annotation_text",
+        "surface_text": "Mechanism 1: Producing an O2-consuming biofilm to provide a habitat for corrosive anaerobes",
+        "normalized_text": "Mechanism 1: Producing an O2-consuming biofilm to provide a habitat for corrosive anaerobes",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "biofilm",
+          "oxygen depletion",
+          "anaerobes"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "initial colonization annotation",
+        "category": "annotation_text",
+        "surface_text": "Initial colonization by Fe2+ oxidizers and heterotrophs",
+        "normalized_text": "Initial colonization by Fe2+ oxidizers and heterotrophs",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "early colonizers"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "oxygen depletion annotation",
+        "category": "annotation_text",
+        "surface_text": "Respiration depletes O2 in biofilm",
+        "normalized_text": "Respiration depletes O2 in biofilm",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "O2 depletion"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "anaerobic zone annotation",
+        "category": "annotation_text",
+        "surface_text": "Corrosive anaerobes grow in anaerobic zones",
+        "normalized_text": "Corrosive anaerobes grow in anaerobic zones",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "anaerobic niche"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "Fe2+ oxidizer label",
+        "category": "scientific_label",
+        "surface_text": "Fe2+ oxidizer",
+        "normalized_text": "Fe2+ oxidizer",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "heterotroph label",
+        "category": "scientific_label",
+        "surface_text": "Heterotroph",
+        "normalized_text": "Heterotroph",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "anaerobe label",
+        "category": "scientific_label",
+        "surface_text": "Anaerobe",
+        "normalized_text": "Anaerobe",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "Fe0 label panel a",
+        "category": "scientific_label",
+        "surface_text": "Fe0",
+        "normalized_text": "Fe0",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "Fe2+ label panel a",
+        "category": "scientific_label",
+        "surface_text": "Fe2+",
+        "normalized_text": "Fe2+",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "panel b label",
+        "category": "panel_label",
+        "surface_text": "b",
+        "normalized_text": "b",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "oxidized acceptors equation",
+        "category": "equation",
+        "surface_text": "Xoxidized = CO2, SO4^2-, NO3-, Fe(III), fumarate",
+        "normalized_text": "Xoxidized = CO2, SO4^2-, NO3-, Fe(III), fumarate",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "oxidants list"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "fermentation substrate label",
+        "category": "scientific_label",
+        "surface_text": "Fermentable substrate",
+        "normalized_text": "Fermentable substrate",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "fermentation input"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t14",
+        "entity_type": "text",
+        "name": "organic acids label",
+        "category": "scientific_label",
+        "surface_text": "Organic acids-COOH",
+        "normalized_text": "Organic acids-COOH",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "acid generation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t15",
+        "entity_type": "text",
+        "name": "deprotonated organic acids label",
+        "category": "scientific_label",
+        "surface_text": "Organic acids-COO-",
+        "normalized_text": "Organic acids-COO-",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "conjugate base"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t16",
+        "entity_type": "text",
+        "name": "lower pH annotation",
+        "category": "annotation_text",
+        "surface_text": "Lower pH favours Fe0 oxidation",
+        "normalized_text": "Lower pH favours Fe0 oxidation",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "acid promotes corrosion"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t17",
+        "entity_type": "text",
+        "name": "sulfide minerals annotation",
+        "category": "annotation_text",
+        "surface_text": "Sulfide minerals facilitate H2 production",
+        "normalized_text": "Sulfide minerals facilitate H2 production",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "H2 stimulation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t18",
+        "entity_type": "text",
+        "name": "reduced products equation",
+        "category": "equation",
+        "surface_text": "Xreduced = CH4, S2-, N2, Fe(II), succinate",
+        "normalized_text": "Xreduced = CH4, S2-, N2, Fe(II), succinate",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "reduced products list"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t19",
+        "entity_type": "text",
+        "name": "hydrogenase annotation",
+        "category": "annotation_text",
+        "surface_text": "Hydrogenase catalyses H2 production",
+        "normalized_text": "Hydrogenase catalyses H2 production",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "hydrogenase",
+          "H2 production"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t20",
+        "entity_type": "text",
+        "name": "panel c label",
+        "category": "panel_label",
+        "surface_text": "c",
+        "normalized_text": "c",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t21",
+        "entity_type": "text",
+        "name": "outer surface cytochromes label",
+        "category": "scientific_label",
+        "surface_text": "Outer surface cytochromes",
+        "normalized_text": "Outer surface cytochromes",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "direct uptake"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t22",
+        "entity_type": "text",
+        "name": "conductive minerals label",
+        "category": "scientific_label",
+        "surface_text": "Conductive minerals",
+        "normalized_text": "Conductive minerals",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "electron conduit"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t23",
+        "entity_type": "text",
+        "name": "flavin oxidized label",
+        "category": "scientific_label",
+        "surface_text": "Flavinoxidized",
+        "normalized_text": "Flavin oxidized",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "electron shuttle"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t24",
+        "entity_type": "text",
+        "name": "flavin reduced label",
+        "category": "scientific_label",
+        "surface_text": "Flavinreduced",
+        "normalized_text": "Flavin reduced",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "electron shuttle"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t25",
+        "entity_type": "text",
+        "name": "Fe0 label panel c",
+        "category": "scientific_label",
+        "surface_text": "Fe0",
+        "normalized_text": "Fe0",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t26",
+        "entity_type": "text",
+        "name": "Fe2+ label panel c",
+        "category": "scientific_label",
+        "surface_text": "Fe2+",
+        "normalized_text": "Fe2+",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t27",
+        "entity_type": "text",
+        "name": "panel d label",
+        "category": "panel_label",
+        "surface_text": "d",
+        "normalized_text": "d",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t28",
+        "entity_type": "text",
+        "name": "passivation layer annotation",
+        "category": "annotation_text",
+        "surface_text": "Passivation layer of Fe(III) oxide blocks key microbial corrosion mechanisms",
+        "normalized_text": "Passivation layer of Fe(III) oxide blocks key microbial corrosion mechanisms",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "protective barrier"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t29",
+        "entity_type": "text",
+        "name": "corrosion enabled annotation",
+        "category": "annotation_text",
+        "surface_text": "Corrosion enabled",
+        "normalized_text": "Corrosion enabled",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "after layer removal"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t30",
+        "entity_type": "text",
+        "name": "potentially corrosive microorganisms label",
+        "category": "scientific_label",
+        "surface_text": "Potentially corrosive microorganisms",
+        "normalized_text": "Potentially corrosive microorganisms",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t31",
+        "entity_type": "text",
+        "name": "organic acids neutralized annotation",
+        "category": "annotation_text",
+        "surface_text": "Organic acids neutralized and diffusion restricted",
+        "normalized_text": "Organic acids neutralized and diffusion restricted",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "acid blocking"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t32",
+        "entity_type": "text",
+        "name": "Fe(III) oxide layer label",
+        "category": "scientific_label",
+        "surface_text": "Fe(III) oxide layer",
+        "normalized_text": "Fe(III) oxide layer",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "passivation layer"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t33",
+        "entity_type": "text",
+        "name": "restricted H+ and H2 diffusion annotation",
+        "category": "annotation_text",
+        "surface_text": "Restricted diffusion of H+ in and H2 out limiting H2 production",
+        "normalized_text": "Restricted diffusion of H+ in and H2 out limiting H2 production",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "diffusion barrier",
+          "limits H2"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t34",
+        "entity_type": "text",
+        "name": "electron transfer blocking annotation",
+        "category": "annotation_text",
+        "surface_text": "Insulating Fe(III) oxide blocks electron transfer to potentially corrosive microorganisms",
+        "normalized_text": "Insulating Fe(III) oxide blocks electron transfer to potentially corrosive microorganisms",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "insulating layer",
+          "blocks electron transfer"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t35",
+        "entity_type": "text",
+        "name": "Fe(III) reducers annotation",
+        "category": "annotation_text",
+        "surface_text": "Fe(III) reducers remove Fe(III) oxide",
+        "normalized_text": "Fe(III) reducers remove Fe(III) oxide",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "layer removal"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t36",
+        "entity_type": "text",
+        "name": "direct electron transfer annotation",
+        "category": "annotation_text",
+        "surface_text": "Direct electron transfer to corrosive microorganisms",
+        "normalized_text": "Direct electron transfer to corrosive microorganisms",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "corrosion resumes"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t37",
+        "entity_type": "text",
+        "name": "sulfate reducer label",
+        "category": "scientific_label",
+        "surface_text": "Sulfate reducer",
+        "normalized_text": "Sulfate reducer",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t38",
+        "entity_type": "text",
+        "name": "Fe0 label panel d",
+        "category": "scientific_label",
+        "surface_text": "Fe0",
+        "normalized_text": "Fe0",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t39",
+        "entity_type": "text",
+        "name": "Fe2+ label panel d",
+        "category": "scientific_label",
+        "surface_text": "Fe2+",
+        "normalized_text": "Fe2+",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t2",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t4",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t5",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t3",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "t6",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "t7",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "t8",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "v3",
+        "target_entity_id": "v2",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "v2",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "t9",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "t12",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "t18",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "v4",
+        "target_entity_id": "v1",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "v5",
+        "target_entity_id": "v1",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "t13",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "t14",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "t16",
+        "target_entity_id": "v1",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "t17",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "t19",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "t21",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "t22",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "t23",
+        "target_entity_id": "v9",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r23",
+        "source_entity_id": "t24",
+        "target_entity_id": "v9",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r24",
+        "source_entity_id": "v7",
+        "target_entity_id": "v6",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r25",
+        "source_entity_id": "v8",
+        "target_entity_id": "v6",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r26",
+        "source_entity_id": "v9",
+        "target_entity_id": "v6",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r27",
+        "source_entity_id": "v6",
+        "target_entity_id": "v1",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r28",
+        "source_entity_id": "t25",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r29",
+        "source_entity_id": "t28",
+        "target_entity_id": "v10",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r30",
+        "source_entity_id": "t32",
+        "target_entity_id": "v10",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r31",
+        "source_entity_id": "v10",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r32",
+        "source_entity_id": "v10",
+        "target_entity_id": "v6",
+        "relation_type": "inhibits",
+        "importance": "required",
+        "prompt_status": "explicitly_needed",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r33",
+        "source_entity_id": "t31",
+        "target_entity_id": "v10",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r34",
+        "source_entity_id": "t33",
+        "target_entity_id": "v10",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r35",
+        "source_entity_id": "t34",
+        "target_entity_id": "v10",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r36",
+        "source_entity_id": "v11",
+        "target_entity_id": "v10",
+        "relation_type": "inhibits",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r37",
+        "source_entity_id": "t35",
+        "target_entity_id": "v11",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r38",
+        "source_entity_id": "v11",
+        "target_entity_id": "v1",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r39",
+        "source_entity_id": "t29",
+        "target_entity_id": "v11",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r40",
+        "source_entity_id": "t36",
+        "target_entity_id": "v11",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r41",
+        "source_entity_id": "t38",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r42",
+        "source_entity_id": "v12",
+        "target_entity_id": "v6",
+        "relation_type": "inhibits",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "cross_panel"
+      }
+    ]
+  }
+}

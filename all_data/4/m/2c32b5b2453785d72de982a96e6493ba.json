@@ -1,0 +1,886 @@
+{
+  "image_name": "2c32b5b2453785d72de982a96e6493ba.png",
+  "prompt_text": "The figure summarizes how sensory neurons in the dorsal root ganglion and spinal cord can contribute to abnormal pain signaling. On the left, a schematic shows primary sensory fibers running from the peripheral nerve through the dorsal root ganglion into the spinal cord, highlighting that changes can occur both in the nerve endings and in the neuron cell bodies. A magnified view of the ganglion emphasizes different sensory neuron classes, including nociceptors, mechanoreceptors, and proprioceptors, suggesting that several types of afferents may be involved.\n\nThe right side organizes key mechanisms that can make these neurons pathological. These include peripheral sensitization, where sensory endings become more responsive; ectopic neuronal activity, meaning abnormal spontaneous firing in fibers or cell bodies; and gene dysregulation, which appears to alter channel expression or function and thereby sensitize neurons. The diagram also shows presynaptic modulation, indicating enhanced neurotransmitter release from nociceptors, and a switch of sensory modality, where neurons seem to acquire new signaling roles, such as normally touch-sensitive fibers contributing to pain. Overall, the figure presents neuropathic or chronic pain as arising from multiple interacting changes along the sensory pathway rather than from a single lesion site.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "primary sensory pathway from peripheral nerve through DRG to spinal cord",
+        "category": "pathway_component",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "afferent fibers",
+          "continuous trajectory",
+          "left-side schematic"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "spinal cord cross-section",
+        "category": "region",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "cross-section",
+          "central gray region",
+          "entry target"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "dorsal root ganglion",
+        "category": "region",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "ganglion swelling",
+          "sensory neuron bodies",
+          "between nerve and cord"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "sensory neuron cell bodies in DRG",
+        "category": "cell",
+        "panel": "a",
+        "count": 2,
+        "key_attributes": [
+          "red and blue somata",
+          "ganglion-located",
+          "highlighted bodies"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "peripheral sensory endings / peripheral nerve side",
+        "category": "pathway_component",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "peripheral branch",
+          "distal side",
+          "site of sensitization"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "magnified DRG inset",
+        "category": "region",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "zoomed ganglion",
+          "cell class emphasis",
+          "dashed inset source"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "nociceptor neurons",
+        "category": "cell",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "red class",
+          "sensory afferent type",
+          "DRG neurons"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "mechanoreceptor neurons",
+        "category": "cell",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "purple class",
+          "sensory afferent type",
+          "DRG neurons"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "proprioceptor neurons",
+        "category": "cell",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "blue class",
+          "sensory afferent type",
+          "DRG neurons"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v10",
+        "entity_type": "visual",
+        "name": "colored sensory fiber classes",
+        "category": "pathway_component",
+        "panel": "b",
+        "count": 3,
+        "key_attributes": [
+          "red purple blue",
+          "parallel axons",
+          "afferent classes"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v11",
+        "entity_type": "visual",
+        "name": "mechanism callout boxes",
+        "category": "legend_key",
+        "panel": "c",
+        "count": 5,
+        "key_attributes": [
+          "boxed labels",
+          "paired descriptions",
+          "right column"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v12",
+        "entity_type": "visual",
+        "name": "connector lines from mechanism titles to descriptions",
+        "category": "arrow",
+        "panel": "c",
+        "count": 5,
+        "key_attributes": [
+          "horizontal connectors",
+          "title-to-text mapping",
+          "thin gray lines"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "v13",
+        "entity_type": "visual",
+        "name": "panel labels",
+        "category": "panel_marker",
+        "panel": "all",
+        "count": 3,
+        "key_attributes": [
+          "a b c",
+          "top-left markers",
+          "panel identifiers"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "panel label a",
+        "category": "panel_label",
+        "surface_text": "a",
+        "normalized_text": "a",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "panel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "panel label b",
+        "category": "panel_label",
+        "surface_text": "b",
+        "normalized_text": "b",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "panel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "panel label c",
+        "category": "panel_label",
+        "surface_text": "c",
+        "normalized_text": "c",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "panel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "Spinal cord label",
+        "category": "scientific_label",
+        "surface_text": "Spinal cord",
+        "normalized_text": "spinal cord",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "anatomical label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "SN label",
+        "category": "scientific_label",
+        "surface_text": "SN",
+        "normalized_text": "SN",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "abbreviation"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "DRG label",
+        "category": "scientific_label",
+        "surface_text": "DRG",
+        "normalized_text": "dorsal root ganglion",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "abbreviation",
+          "ganglion label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "Ventral root label",
+        "category": "scientific_label",
+        "surface_text": "Ventral root",
+        "normalized_text": "ventral root",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "anatomical label"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "Nociceptor label",
+        "category": "scientific_label",
+        "surface_text": "Nociceptor",
+        "normalized_text": "nociceptor",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "cell class label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "Mechanoreceptor label",
+        "category": "scientific_label",
+        "surface_text": "Mechanoreceptor",
+        "normalized_text": "mechanoreceptor",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "cell class label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "Proprioceptor label",
+        "category": "scientific_label",
+        "surface_text": "Proprioceptor",
+        "normalized_text": "proprioceptor",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "cell class label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "Central nerve label",
+        "category": "scientific_label",
+        "surface_text": "Central nerve",
+        "normalized_text": "central nerve",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "pathway label"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "Peripheral nerve label",
+        "category": "scientific_label",
+        "surface_text": "Peripheral nerve",
+        "normalized_text": "peripheral nerve",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "pathway label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "Peripheral sensitization",
+        "category": "legend_text",
+        "surface_text": "Peripheral sensitization",
+        "normalized_text": "peripheral sensitization",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "mechanism title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t14",
+        "entity_type": "text",
+        "name": "Peripheral sensitization description",
+        "category": "annotation_text",
+        "surface_text": "Reduction in threshold and/or increase in magnitude of responses of the peripheral endings of sensory fibres and/or cell bodies. For example, increased firing of nerve terminals in response to inflammatory mediators at a site of tissue injury",
+        "normalized_text": "reduction in threshold and/or increase in magnitude of responses of the peripheral endings of sensory fibres and/or cell bodies. for example, increased firing of nerve terminals in response to inflammatory mediators at a site of tissue injury",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "mechanism description"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t15",
+        "entity_type": "text",
+        "name": "Ectopic neuronal activity",
+        "category": "legend_text",
+        "surface_text": "Ectopic neuronal activity",
+        "normalized_text": "ectopic neuronal activity",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "mechanism title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t16",
+        "entity_type": "text",
+        "name": "Ectopic neuronal activity description",
+        "category": "annotation_text",
+        "surface_text": "Abnormal spontaneous action potential activity in sensory fibres and/or cell bodies, in some cases due to effects of disease or injury on ion channels or presence of mutant channels",
+        "normalized_text": "abnormal spontaneous action potential activity in sensory fibres and/or cell bodies, in some cases due to effects of disease or injury on ion channels or presence of mutant channels",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "mechanism description"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t17",
+        "entity_type": "text",
+        "name": "Gene dysregulation",
+        "category": "legend_text",
+        "surface_text": "Gene dysregulation",
+        "normalized_text": "gene dysregulation",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "mechanism title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t18",
+        "entity_type": "text",
+        "name": "Gene dysregulation description",
+        "category": "annotation_text",
+        "surface_text": "Transcriptional changes or epigenetic alterations in sensory neurons causing dysregulation of channel expression or function, leading to sensitization of nociceptors",
+        "normalized_text": "transcriptional changes or epigenetic alterations in sensory neurons causing dysregulation of channel expression or function, leading to sensitization of nociceptors",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "mechanism description"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t19",
+        "entity_type": "text",
+        "name": "Presynaptic modulation",
+        "category": "legend_text",
+        "surface_text": "Presynaptic modulation",
+        "normalized_text": "presynaptic modulation",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "mechanism title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t20",
+        "entity_type": "text",
+        "name": "Presynaptic modulation description",
+        "category": "annotation_text",
+        "surface_text": "Pathologically enhanced neurotransmitter release from nociceptors due to augmented neurosecretory mechanisms or sprouting of sensory terminals",
+        "normalized_text": "pathologically enhanced neurotransmitter release from nociceptors due to augmented neurosecretory mechanisms or sprouting of sensory terminals",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "mechanism description"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t21",
+        "entity_type": "text",
+        "name": "Switch of sensory modality",
+        "category": "legend_text",
+        "surface_text": "Switch of sensory modality",
+        "normalized_text": "switch of sensory modality",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "mechanism title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t22",
+        "entity_type": "text",
+        "name": "Switch of sensory modality description",
+        "category": "annotation_text",
+        "surface_text": "Acquisition of new modalities by sensory neurons after injury or drug treatment. For example, transmission of nociceptive signals by mechaniceptors (mechanical allodynia) after inflammation or high-dose chemotherapy",
+        "normalized_text": "acquisition of new modalities by sensory neurons after injury or drug treatment. for example, transmission of nociceptive signals by mechanoreceptors (mechanical allodynia) after inflammation or high-dose chemotherapy",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "mechanism description"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t4",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t6",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "v4",
+        "target_entity_id": "v3",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "v5",
+        "target_entity_id": "v3",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "v3",
+        "target_entity_id": "v2",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "v1",
+        "target_entity_id": "v3",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "v1",
+        "target_entity_id": "v2",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "v5",
+        "target_entity_id": "v2",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "v6",
+        "target_entity_id": "v3",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "t8",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "t9",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "t10",
+        "target_entity_id": "v9",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "v7",
+        "target_entity_id": "v6",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "v8",
+        "target_entity_id": "v6",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "v9",
+        "target_entity_id": "v6",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "v10",
+        "target_entity_id": "v6",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "v7",
+        "target_entity_id": "v10",
+        "relation_type": "connected_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "v8",
+        "target_entity_id": "v10",
+        "relation_type": "connected_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "v9",
+        "target_entity_id": "v10",
+        "relation_type": "connected_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "t12",
+        "target_entity_id": "v10",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "t13",
+        "target_entity_id": "v11",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "t15",
+        "target_entity_id": "v11",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r23",
+        "source_entity_id": "t17",
+        "target_entity_id": "v11",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r24",
+        "source_entity_id": "t19",
+        "target_entity_id": "v11",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r25",
+        "source_entity_id": "t21",
+        "target_entity_id": "v11",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r26",
+        "source_entity_id": "t13",
+        "target_entity_id": "t14",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r27",
+        "source_entity_id": "t15",
+        "target_entity_id": "t16",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r28",
+        "source_entity_id": "t17",
+        "target_entity_id": "t18",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r29",
+        "source_entity_id": "t19",
+        "target_entity_id": "t20",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r30",
+        "source_entity_id": "t21",
+        "target_entity_id": "t22",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r31",
+        "source_entity_id": "t17",
+        "target_entity_id": "v7",
+        "relation_type": "activates",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r32",
+        "source_entity_id": "t19",
+        "target_entity_id": "v7",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r33",
+        "source_entity_id": "t21",
+        "target_entity_id": "v8",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r34",
+        "source_entity_id": "t13",
+        "target_entity_id": "v5",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r35",
+        "source_entity_id": "t15",
+        "target_entity_id": "v1",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "cross_panel"
+      }
+    ]
+  }
+}

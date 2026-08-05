@@ -1,0 +1,971 @@
+{
+  "image_name": "2f6f6380886afcb07f68ff2171406ed0.png",
+  "prompt_text": "The figure summarizes how cancer-associated fibroblasts (CAFs) sit at the center of a tumor-supporting communication network. In the middle, CAFs exchange signals with many immune and stromal cell types and reshape the extracellular matrix (ECM). Arrows from CAFs toward immune cells indicate mainly suppressive or recruiting effects: they appear to attract or polarize TH2 cells, Treg cells, and M2 tumor-associated macrophages through chemokines and cytokines such as CCL2/5/7, IL-1, IL-6, IL-13, IL-26, SDF1, and M-CSF. They also inhibit antitumor cells, including CD8+ T cells, NK cells, and dendritic cells, through mediators like TGFβ, PGE2, IDO, and VEGF.\n\nOn the stromal side, CAFs release matrix-remodeling enzymes (MMP1, MMP2, MMP3, MMP9) that act on the ECM, and they promote lymphatic endothelial cells via VEGFA and VEGFC. Reciprocal signaling with cancer cells is also emphasized: factors including IL-1β, SDF1, PDGF-B, HB-EGF, PDGF-D, FGF, and TGFβ1 connect CAFs to carcinoma cells. ECM components such as tenascin, periostin, and osteopontin feed into tumor-cell signaling, with YAP/TAZ, NOTCH3, and Hh shown as downstream pathways. Overall, the image depicts CAFs as organizers of immune evasion, matrix remodeling, and tumor progression.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "cancer-associated fibroblasts",
+        "category": "cell",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "central cluster",
+          "spindle-shaped",
+          "hub of arrows"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "TH2 cells",
+        "category": "cell",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "left side",
+          "immune cell cluster",
+          "connected from CAF"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "Treg cells",
+        "category": "cell",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "lower left",
+          "immune cell cluster",
+          "connected from CAF"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "M2 tumor-associated macrophages",
+        "category": "cell",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "bottom left",
+          "purple cells",
+          "connected from CAF"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "CD8+ T cells",
+        "category": "cell",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "upper center-left",
+          "immune cell cluster",
+          "inhibitory link"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "NK cells",
+        "category": "cell",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "upper center",
+          "red cells",
+          "inhibitory link"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "dendritic cells",
+        "category": "cell",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "upper right",
+          "stellate purple cells",
+          "inhibitory link"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "extracellular matrix",
+        "category": "material_structure",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "fibrous mesh",
+          "right side",
+          "target of MMPs"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "lymphatic endothelial cells",
+        "category": "cell",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "bottom center",
+          "pink cells",
+          "VEGFA/VEGFC target"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v10",
+        "entity_type": "visual",
+        "name": "carcinoma cells",
+        "category": "cell",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "right lower side",
+          "green epithelial cells",
+          "reciprocal signaling"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v11",
+        "entity_type": "visual",
+        "name": "nucleus",
+        "category": "organelle",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "yellow circle",
+          "contains YAP/TAZ",
+          "downstream compartment"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v12",
+        "entity_type": "visual",
+        "name": "signal arrows",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "directed interactions",
+          "CAF-centered",
+          "multiple targets"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v13",
+        "entity_type": "visual",
+        "name": "downstream pathway region in carcinoma cells",
+        "category": "pathway_component",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "NOTCH3",
+          "Hh",
+          "YAP/TAZ"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "CAF label",
+        "category": "scientific_label",
+        "surface_text": "CAF",
+        "normalized_text": "CAF",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "central label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "TH2 cells label",
+        "category": "scientific_label",
+        "surface_text": "T_H2 cells",
+        "normalized_text": "TH2 cells",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "immune target"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "Treg cells label",
+        "category": "scientific_label",
+        "surface_text": "Treg cells",
+        "normalized_text": "Treg cells",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "immune target"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "CD8+ T cells label",
+        "category": "scientific_label",
+        "surface_text": "CD8+ T cells",
+        "normalized_text": "CD8+ T cells",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "antitumor cell"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "NK cells label",
+        "category": "scientific_label",
+        "surface_text": "NK cells",
+        "normalized_text": "NK cells",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "antitumor cell"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "dendritic cells label",
+        "category": "scientific_label",
+        "surface_text": "Dendritic cells",
+        "normalized_text": "Dendritic cells",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "antitumor cell"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "M2 TAM label",
+        "category": "scientific_label",
+        "surface_text": "M2 TAM",
+        "normalized_text": "M2 TAM",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "macrophage subtype"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "LEC label",
+        "category": "scientific_label",
+        "surface_text": "LEC",
+        "normalized_text": "LEC",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "stromal cell type"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "CCA label",
+        "category": "scientific_label",
+        "surface_text": "CCA",
+        "normalized_text": "CCA",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "carcinoma cells"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "ECM label",
+        "category": "scientific_label",
+        "surface_text": "ECM",
+        "normalized_text": "ECM",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "matrix region"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "YAP/TAZ label",
+        "category": "scientific_label",
+        "surface_text": "YAP/TAZ",
+        "normalized_text": "YAP/TAZ",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "downstream pathway"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "NOTCH3 label",
+        "category": "scientific_label",
+        "surface_text": "NOTCH3",
+        "normalized_text": "NOTCH3",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "downstream pathway"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "Hh label",
+        "category": "scientific_label",
+        "surface_text": "Hh",
+        "normalized_text": "Hh",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "downstream pathway"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t14",
+        "entity_type": "text",
+        "name": "TH2/Treg/M2 recruitment mediator set",
+        "category": "scientific_label",
+        "surface_text": "CCL2, CCL5, CCL7, IL-1, IL-6, IL-13, IL-26",
+        "normalized_text": "CCL2/CCL5/CCL7/IL-1/IL-6/IL-13/IL-26",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "recruiting chemokines",
+          "cytokine set"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t15",
+        "entity_type": "text",
+        "name": "CD8+ T-cell inhibitory mediator set",
+        "category": "scientific_label",
+        "surface_text": "TGFβ, PGE2",
+        "normalized_text": "TGFβ/PGE2",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "inhibitory mediators"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t16",
+        "entity_type": "text",
+        "name": "NK-cell inhibitory mediator set",
+        "category": "scientific_label",
+        "surface_text": "TGFβ, IDO, PGE2",
+        "normalized_text": "TGFβ/IDO/PGE2",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "inhibitory mediators"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t17",
+        "entity_type": "text",
+        "name": "dendritic-cell inhibitory mediator set",
+        "category": "scientific_label",
+        "surface_text": "TGFβ, IDO, VEGF",
+        "normalized_text": "TGFβ/IDO/VEGF",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "inhibitory mediators"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t18",
+        "entity_type": "text",
+        "name": "MMP mediator set",
+        "category": "scientific_label",
+        "surface_text": "MMP1, MMP2, MMP3, MMP9",
+        "normalized_text": "MMP1/MMP2/MMP3/MMP9",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "matrix remodeling enzymes"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t19",
+        "entity_type": "text",
+        "name": "M2 TAM mediator set",
+        "category": "scientific_label",
+        "surface_text": "IL-6, SDF1, M-CSF",
+        "normalized_text": "IL-6/SDF1/M-CSF",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "macrophage-polarizing set"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t20",
+        "entity_type": "text",
+        "name": "CAF-to-LEC mediator set",
+        "category": "scientific_label",
+        "surface_text": "VEGFA, VEGFC",
+        "normalized_text": "VEGFA/VEGFC",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "lymphatic promotion"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t21",
+        "entity_type": "text",
+        "name": "CAF-carcinoma mediator set",
+        "category": "scientific_label",
+        "surface_text": "IL-1β, SDF1, PDGF-B, HB-EGF",
+        "normalized_text": "IL-1β/SDF1/PDGF-B/HB-EGF",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "reciprocal signaling"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t22",
+        "entity_type": "text",
+        "name": "carcinoma-to-CAF mediator set",
+        "category": "scientific_label",
+        "surface_text": "PDGF-D, FGF, TGFβ1",
+        "normalized_text": "PDGF-D/FGF/TGFβ1",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "reciprocal signaling"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t23",
+        "entity_type": "text",
+        "name": "ECM component set",
+        "category": "scientific_label",
+        "surface_text": "Tenascin, Periostin, Osteopontin",
+        "normalized_text": "Tenascin/Periostin/Osteopontin",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "ECM components",
+          "tumor-cell signaling"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t24",
+        "entity_type": "text",
+        "name": "FGF TGFβ1 local mediator box",
+        "category": "scientific_label",
+        "surface_text": "FGF, TGFβ1",
+        "normalized_text": "FGF/TGFβ1",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "small side box"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t25",
+        "entity_type": "text",
+        "name": "Nucleus label",
+        "category": "scientific_label",
+        "surface_text": "Nucleus",
+        "normalized_text": "Nucleus",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "organelle label"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t1",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t2",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t3",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t4",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "t5",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "t6",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "t7",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "t8",
+        "target_entity_id": "v9",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "t9",
+        "target_entity_id": "v10",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "t10",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "t11",
+        "target_entity_id": "v13",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "t12",
+        "target_entity_id": "v13",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "t13",
+        "target_entity_id": "v13",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "t25",
+        "target_entity_id": "v11",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "v1",
+        "target_entity_id": "v2",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "v1",
+        "target_entity_id": "v3",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "v1",
+        "target_entity_id": "v4",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "v1",
+        "target_entity_id": "v5",
+        "relation_type": "inhibits",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "v1",
+        "target_entity_id": "v6",
+        "relation_type": "inhibits",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "v1",
+        "target_entity_id": "v7",
+        "relation_type": "inhibits",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "v1",
+        "target_entity_id": "v8",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "v1",
+        "target_entity_id": "v9",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r23",
+        "source_entity_id": "v1",
+        "target_entity_id": "v10",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r24",
+        "source_entity_id": "v10",
+        "target_entity_id": "v1",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r25",
+        "source_entity_id": "t14",
+        "target_entity_id": "v2",
+        "relation_type": "points_to",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r26",
+        "source_entity_id": "t14",
+        "target_entity_id": "v3",
+        "relation_type": "points_to",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r27",
+        "source_entity_id": "t19",
+        "target_entity_id": "v4",
+        "relation_type": "points_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r28",
+        "source_entity_id": "t15",
+        "target_entity_id": "v5",
+        "relation_type": "points_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r29",
+        "source_entity_id": "t16",
+        "target_entity_id": "v6",
+        "relation_type": "points_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r30",
+        "source_entity_id": "t17",
+        "target_entity_id": "v7",
+        "relation_type": "points_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r31",
+        "source_entity_id": "t18",
+        "target_entity_id": "v8",
+        "relation_type": "points_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r32",
+        "source_entity_id": "t20",
+        "target_entity_id": "v9",
+        "relation_type": "points_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r33",
+        "source_entity_id": "t21",
+        "target_entity_id": "v10",
+        "relation_type": "points_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r34",
+        "source_entity_id": "t22",
+        "target_entity_id": "v1",
+        "relation_type": "points_to",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r35",
+        "source_entity_id": "t23",
+        "target_entity_id": "v8",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r36",
+        "source_entity_id": "v8",
+        "target_entity_id": "v13",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r37",
+        "source_entity_id": "v13",
+        "target_entity_id": "v10",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r38",
+        "source_entity_id": "v11",
+        "target_entity_id": "v10",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r39",
+        "source_entity_id": "t11",
+        "target_entity_id": "v11",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      }
+    ]
+  }
+}

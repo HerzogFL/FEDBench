@@ -1,0 +1,261 @@
+{
+  "image_name": "41567_2024_2559_Fig1_HTML.webp",
+  "prompt_text": "The figure is a simple schematic of laser-driven ion acceleration. A red laser pulse, drawn as a cone with an oscillating wave, is focused onto a thin solid target. On the opposite side of the target, a plume of purple particles labeled ions emerges and spreads outward, indicating that the laser interaction with the target produces and accelerates ions away from the surface.\n\nThe main message is that an intense laser can act as a compact particle accelerator. The target serves as the medium where the laser deposits energy, and the resulting fields launch ions into a beam-like expanding bunch. The annotation about an accelerating gradient greater than TV/m highlights the key scientific point: the electric fields involved are extremely large, much stronger than those in conventional accelerators.\n\nVisually, the figure emphasizes cause and effect rather than fine detail. The laser comes in from the left, hits the target in the center, and generates a directed ion outflow to the right. Overall, it illustrates the basic concept and advantage of laser-plasma ion acceleration: producing energetic ions over very short distances using ultraintense laser pulses.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "laser pulse",
+        "category": "pathway_component",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "red cone beam",
+          "from left",
+          "focused on target"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "laser wave",
+        "category": "pathway_component",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "oscillating red wave",
+          "above beam",
+          "incoming from left"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "thin solid target",
+        "category": "material_structure",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "thin slab",
+          "vertical",
+          "center"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "ion plume",
+        "category": "molecule",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "purple particles",
+          "emerging rightward",
+          "expanding plume"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "plume region",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "light blue envelope",
+          "behind ions",
+          "beam-like spread"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "target label",
+        "category": "scientific_label",
+        "surface_text": "Target",
+        "normalized_text": "Target",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "object label"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "ions label",
+        "category": "scientific_label",
+        "surface_text": "Ions",
+        "normalized_text": "Ions",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "particle label"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "laser label",
+        "category": "scientific_label",
+        "surface_text": "Laser",
+        "normalized_text": "Laser",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "beam label"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "accelerating gradient annotation",
+        "category": "annotation_text",
+        "surface_text": "Accelerating gradient:",
+        "normalized_text": "Accelerating gradient:",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "performance annotation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "accelerating gradient value",
+        "category": "unit",
+        "surface_text": ">TV/m",
+        "normalized_text": "> TV/m",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "very large field",
+          "threshold notation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "v1",
+        "target_entity_id": "v3",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "v3",
+        "target_entity_id": "v4",
+        "relation_type": "transforms_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "v4",
+        "target_entity_id": "v5",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t1",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "t2",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "t3",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "t5",
+        "target_entity_id": "t4",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "v1",
+        "target_entity_id": "v3",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "v3",
+        "target_entity_id": "v4",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "v2",
+        "target_entity_id": "v1",
+        "relation_type": "above",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      }
+    ]
+  }
+}

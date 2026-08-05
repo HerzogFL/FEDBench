@@ -1,0 +1,1445 @@
+{
+  "image_name": "43017_2025_755_Fig2_HTML.webp",
+  "prompt_text": "The figure summarizes how PFAS-containing materials are managed and where problematic byproducts can emerge. At the top, it shows a general pathway: PFAS wastes may first go through non-destructive concentration methods, which produce concentrated PFAS residuals, and these residuals then enter destructive treatment. Destruction does not simply make the problem disappear; it can generate air emissions, liquid residuals, and solid residuals.\n\nThe lower diagrams compare three treatment system types. A thermal system with stacks uses a rotary kiln, afterburner, spray dryer, cyclone, filter, and acid scrubber. Along this flow, multiple outputs are identified, including bottom ash, powdered salt, fly ash, scrubbing liquid, and flue gas. Red labels marked “PIDs” appear on all of these streams, indicating products of incomplete destruction.\n\nThe other two panels show non-thermal destructive setups: a closed-vessel system and an open-vessel system. In both cases, PFAS-containing feed enters a treatment vessel, but the visible outputs again separate into gas, liquids, and solids, each also marked with PIDs. Overall, the figure emphasizes that across both thermal and non-thermal destruction technologies, PFAS treatment can shift contamination into several residual streams rather than fully eliminating it.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "overview process flow arrows and boxes",
+        "category": "pathway_component",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "box-and-arrow flow",
+          "top overview",
+          "PFAS management pathway"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "thermal treatment system diagram",
+        "category": "device_component",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "industrial process train",
+          "stack emissions",
+          "multiple residual outlets"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "rotary kiln unit",
+        "category": "device_component",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "slanted heated cylinder",
+          "thermal stage",
+          "feed entry"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "afterburner unit",
+        "category": "device_component",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "vertical heated chamber",
+          "high temperature",
+          "downstream of kiln"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "spray dryer unit",
+        "category": "device_component",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "spray nozzle",
+          "drying chamber",
+          "thermal train"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "cyclone unit",
+        "category": "device_component",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "conical separator",
+          "powder separation",
+          "between dryer and filter"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "filter unit",
+        "category": "device_component",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "rectangular filter",
+          "gas cleanup",
+          "fly ash outlet"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "acid scrubber unit",
+        "category": "device_component",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "vertical scrubber tower",
+          "spray section",
+          "liquid discharge"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "residual output streams in thermal panel",
+        "category": "arrow",
+        "panel": "b",
+        "count": 5,
+        "key_attributes": [
+          "bottom ash",
+          "powdered salt/fly ash",
+          "flue gas and scrubbing liquid"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v10",
+        "entity_type": "visual",
+        "name": "PID callout tags on streams",
+        "category": "legend_key",
+        "panel": "b",
+        "count": 5,
+        "key_attributes": [
+          "red labels",
+          "stream annotations",
+          "incomplete destruction products"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v11",
+        "entity_type": "visual",
+        "name": "closed-vessel non-thermal system diagram",
+        "category": "device_component",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "pressure vessel",
+          "non-thermal setup",
+          "separate gas/liquid/solid outputs"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v12",
+        "entity_type": "visual",
+        "name": "pressure vessel",
+        "category": "device_component",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "closed reactor",
+          "cylindrical vessel",
+          "feed inlet"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v13",
+        "entity_type": "visual",
+        "name": "pressure letdown and separator column",
+        "category": "device_component",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "vertical separator",
+          "pressure release",
+          "three outlet phases"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v14",
+        "entity_type": "visual",
+        "name": "PID callout tags in closed-vessel panel",
+        "category": "legend_key",
+        "panel": "c",
+        "count": 4,
+        "key_attributes": [
+          "red labels",
+          "gas liquids solids",
+          "stream annotations"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v15",
+        "entity_type": "visual",
+        "name": "open-vessel non-thermal system diagram",
+        "category": "device_component",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "open reactor",
+          "non-thermal setup",
+          "gas/liquid/solid outputs"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v16",
+        "entity_type": "visual",
+        "name": "open vessel reactor",
+        "category": "device_component",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "open-top vessel",
+          "liquid-filled",
+          "treatment interior"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v17",
+        "entity_type": "visual",
+        "name": "PID callout tags in open-vessel panel",
+        "category": "legend_key",
+        "panel": "d",
+        "count": 4,
+        "key_attributes": [
+          "red labels",
+          "gas liquids solids",
+          "stream annotations"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v18",
+        "entity_type": "visual",
+        "name": "panel markers",
+        "category": "panel_marker",
+        "panel": "all",
+        "count": 4,
+        "key_attributes": [
+          "a-d labels",
+          "panel identification"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "panel a label",
+        "category": "panel_label",
+        "surface_text": "a",
+        "normalized_text": "a",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "PFAS-containing materials",
+        "category": "scientific_label",
+        "surface_text": "PFAS-containing materials",
+        "normalized_text": "PFAS-containing materials",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "input material"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "Non-destructive concentration technologies",
+        "category": "scientific_label",
+        "surface_text": "Non-destructive concentration technologies",
+        "normalized_text": "Non-destructive concentration technologies",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "pretreatment step"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "Concentrated PFAS residuals",
+        "category": "scientific_label",
+        "surface_text": "Concentrated PFAS residuals",
+        "normalized_text": "Concentrated PFAS residuals",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "intermediate stream"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "Destructive technologies",
+        "category": "scientific_label",
+        "surface_text": "Destructive technologies",
+        "normalized_text": "Destructive technologies",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "destruction stage"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "Air emissions",
+        "category": "scientific_label",
+        "surface_text": "Air emissions",
+        "normalized_text": "Air emissions",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "output type"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "Liquid residuals",
+        "category": "scientific_label",
+        "surface_text": "Liquid residuals",
+        "normalized_text": "Liquid residuals",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "output type"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "Solid residuals",
+        "category": "scientific_label",
+        "surface_text": "Solid residuals",
+        "normalized_text": "Solid residuals",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "output type"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "panel b label",
+        "category": "panel_label",
+        "surface_text": "b",
+        "normalized_text": "b",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "Thermal system with stacks",
+        "category": "scientific_label",
+        "surface_text": "Thermal system with stacks",
+        "normalized_text": "Thermal system with stacks",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "panel title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "PFAS-containing materials",
+        "category": "scientific_label",
+        "surface_text": "PFAS-containing materials",
+        "normalized_text": "PFAS-containing materials",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "feed stream"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "Rotary kiln",
+        "category": "scientific_label",
+        "surface_text": "Rotary kiln",
+        "normalized_text": "Rotary kiln",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "unit operation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "900 degrees celsius",
+        "category": "annotation_text",
+        "surface_text": "~900 °C",
+        "normalized_text": "~900 °C",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "temperature"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t14",
+        "entity_type": "text",
+        "name": "Afterburner",
+        "category": "scientific_label",
+        "surface_text": "Afterburner",
+        "normalized_text": "Afterburner",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "unit operation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t15",
+        "entity_type": "text",
+        "name": "1100 degrees celsius",
+        "category": "annotation_text",
+        "surface_text": "~1100 °C",
+        "normalized_text": "~1100 °C",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "temperature"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t16",
+        "entity_type": "text",
+        "name": "Spray dryer",
+        "category": "scientific_label",
+        "surface_text": "Spray dryer",
+        "normalized_text": "Spray dryer",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "unit operation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t17",
+        "entity_type": "text",
+        "name": "Cyclone",
+        "category": "scientific_label",
+        "surface_text": "Cyclone",
+        "normalized_text": "Cyclone",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "unit operation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t18",
+        "entity_type": "text",
+        "name": "Filter",
+        "category": "scientific_label",
+        "surface_text": "Filter",
+        "normalized_text": "Filter",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "unit operation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t19",
+        "entity_type": "text",
+        "name": "Bottom ash",
+        "category": "scientific_label",
+        "surface_text": "Bottom ash",
+        "normalized_text": "Bottom ash",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "solid output"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t20",
+        "entity_type": "text",
+        "name": "Powdered salt",
+        "category": "scientific_label",
+        "surface_text": "Powdered salt",
+        "normalized_text": "Powdered salt",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "solid output"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t21",
+        "entity_type": "text",
+        "name": "Fly ash",
+        "category": "scientific_label",
+        "surface_text": "Fly ash",
+        "normalized_text": "Fly ash",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "solid output"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t22",
+        "entity_type": "text",
+        "name": "Flue gas",
+        "category": "scientific_label",
+        "surface_text": "Flue gas",
+        "normalized_text": "Flue gas",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "gas output"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t23",
+        "entity_type": "text",
+        "name": "PIDs label in thermal panel",
+        "category": "annotation_text",
+        "surface_text": "PIDs",
+        "normalized_text": "PIDs",
+        "panel": "b",
+        "count": 5,
+        "key_attributes": [
+          "red stream tag"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t24",
+        "entity_type": "text",
+        "name": "Acid scrubber",
+        "category": "scientific_label",
+        "surface_text": "Acid scrubber",
+        "normalized_text": "Acid scrubber",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "unit operation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t25",
+        "entity_type": "text",
+        "name": "Scrubbing liquid",
+        "category": "scientific_label",
+        "surface_text": "Scrubbing liquid",
+        "normalized_text": "Scrubbing liquid",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "liquid output"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t26",
+        "entity_type": "text",
+        "name": "panel c label",
+        "category": "panel_label",
+        "surface_text": "c",
+        "normalized_text": "c",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t27",
+        "entity_type": "text",
+        "name": "Closed-vessel system",
+        "category": "scientific_label",
+        "surface_text": "Closed-vessel system",
+        "normalized_text": "Closed-vessel system",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "panel title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t28",
+        "entity_type": "text",
+        "name": "PFAS-containing materials",
+        "category": "scientific_label",
+        "surface_text": "PFAS-containing materials",
+        "normalized_text": "PFAS-containing materials",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "feed stream"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t29",
+        "entity_type": "text",
+        "name": "Pressure vessel",
+        "category": "scientific_label",
+        "surface_text": "Pressure vessel",
+        "normalized_text": "Pressure vessel",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "closed reactor"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t30",
+        "entity_type": "text",
+        "name": "Pressure letdown",
+        "category": "scientific_label",
+        "surface_text": "Pressure letdown",
+        "normalized_text": "Pressure letdown",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "downstream step"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t31",
+        "entity_type": "text",
+        "name": "Gas",
+        "category": "scientific_label",
+        "surface_text": "Gas",
+        "normalized_text": "Gas",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "gas output"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t32",
+        "entity_type": "text",
+        "name": "Liquids",
+        "category": "scientific_label",
+        "surface_text": "Liquids",
+        "normalized_text": "Liquids",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "liquid output"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t33",
+        "entity_type": "text",
+        "name": "Solids",
+        "category": "scientific_label",
+        "surface_text": "Solids",
+        "normalized_text": "Solids",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "solid output"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t34",
+        "entity_type": "text",
+        "name": "PIDs label in closed-vessel panel",
+        "category": "annotation_text",
+        "surface_text": "PIDs",
+        "normalized_text": "PIDs",
+        "panel": "c",
+        "count": 4,
+        "key_attributes": [
+          "red stream tag"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t35",
+        "entity_type": "text",
+        "name": "panel d label",
+        "category": "panel_label",
+        "surface_text": "d",
+        "normalized_text": "d",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t36",
+        "entity_type": "text",
+        "name": "Open-vessel system",
+        "category": "scientific_label",
+        "surface_text": "Open-vessel system",
+        "normalized_text": "Open-vessel system",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "panel title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t37",
+        "entity_type": "text",
+        "name": "PFAS-containing materials",
+        "category": "scientific_label",
+        "surface_text": "PFAS-containing materials",
+        "normalized_text": "PFAS-containing materials",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "feed stream"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t38",
+        "entity_type": "text",
+        "name": "Gas",
+        "category": "scientific_label",
+        "surface_text": "Gas",
+        "normalized_text": "Gas",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "gas output"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t39",
+        "entity_type": "text",
+        "name": "Chemical, electrical or biological treatment",
+        "category": "scientific_label",
+        "surface_text": "Chemical, electrical or biological treatment",
+        "normalized_text": "Chemical, electrical or biological treatment",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "treatment modality"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t40",
+        "entity_type": "text",
+        "name": "Open vessel",
+        "category": "scientific_label",
+        "surface_text": "Open vessel",
+        "normalized_text": "Open vessel",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "reactor label"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t41",
+        "entity_type": "text",
+        "name": "Liquids",
+        "category": "scientific_label",
+        "surface_text": "Liquids",
+        "normalized_text": "Liquids",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "liquid output"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t42",
+        "entity_type": "text",
+        "name": "Solids",
+        "category": "scientific_label",
+        "surface_text": "Solids",
+        "normalized_text": "Solids",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "solid output"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t43",
+        "entity_type": "text",
+        "name": "PIDs label in open-vessel panel",
+        "category": "annotation_text",
+        "surface_text": "PIDs",
+        "normalized_text": "PIDs",
+        "panel": "d",
+        "count": 4,
+        "key_attributes": [
+          "red stream tag"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t2",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t3",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t4",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t5",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "t2",
+        "target_entity_id": "t3",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "t3",
+        "target_entity_id": "t4",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "t4",
+        "target_entity_id": "t5",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "t5",
+        "target_entity_id": "t6",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "t5",
+        "target_entity_id": "t7",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "t5",
+        "target_entity_id": "t8",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "t10",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "t12",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "t14",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "t16",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "t17",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "t18",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "t24",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "t11",
+        "target_entity_id": "v3",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "v3",
+        "target_entity_id": "v4",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "v4",
+        "target_entity_id": "v5",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "v5",
+        "target_entity_id": "v6",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "v6",
+        "target_entity_id": "v7",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r23",
+        "source_entity_id": "v7",
+        "target_entity_id": "v8",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r24",
+        "source_entity_id": "v3",
+        "target_entity_id": "t19",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r25",
+        "source_entity_id": "v6",
+        "target_entity_id": "t20",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r26",
+        "source_entity_id": "v7",
+        "target_entity_id": "t21",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r27",
+        "source_entity_id": "v8",
+        "target_entity_id": "t25",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r28",
+        "source_entity_id": "v8",
+        "target_entity_id": "t22",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r29",
+        "source_entity_id": "t23",
+        "target_entity_id": "t19",
+        "relation_type": "points_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r30",
+        "source_entity_id": "t23",
+        "target_entity_id": "t20",
+        "relation_type": "points_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r31",
+        "source_entity_id": "t23",
+        "target_entity_id": "t21",
+        "relation_type": "points_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r32",
+        "source_entity_id": "t23",
+        "target_entity_id": "t25",
+        "relation_type": "points_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r33",
+        "source_entity_id": "t23",
+        "target_entity_id": "t22",
+        "relation_type": "points_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r34",
+        "source_entity_id": "t27",
+        "target_entity_id": "v11",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r35",
+        "source_entity_id": "t28",
+        "target_entity_id": "v11",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r36",
+        "source_entity_id": "v11",
+        "target_entity_id": "t31",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r37",
+        "source_entity_id": "v11",
+        "target_entity_id": "t32",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r38",
+        "source_entity_id": "v11",
+        "target_entity_id": "t33",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r39",
+        "source_entity_id": "t34",
+        "target_entity_id": "t31",
+        "relation_type": "points_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r40",
+        "source_entity_id": "t34",
+        "target_entity_id": "t32",
+        "relation_type": "points_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r41",
+        "source_entity_id": "t34",
+        "target_entity_id": "t33",
+        "relation_type": "points_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r42",
+        "source_entity_id": "t36",
+        "target_entity_id": "v15",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r43",
+        "source_entity_id": "t37",
+        "target_entity_id": "v15",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r44",
+        "source_entity_id": "v15",
+        "target_entity_id": "t38",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r45",
+        "source_entity_id": "v15",
+        "target_entity_id": "t41",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r46",
+        "source_entity_id": "v15",
+        "target_entity_id": "t42",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r47",
+        "source_entity_id": "t43",
+        "target_entity_id": "t38",
+        "relation_type": "points_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r48",
+        "source_entity_id": "t43",
+        "target_entity_id": "t41",
+        "relation_type": "points_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r49",
+        "source_entity_id": "t43",
+        "target_entity_id": "t42",
+        "relation_type": "points_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r50",
+        "source_entity_id": "v2",
+        "target_entity_id": "v11",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r51",
+        "source_entity_id": "v2",
+        "target_entity_id": "v15",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r52",
+        "source_entity_id": "v11",
+        "target_entity_id": "v15",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "cross_panel"
+      }
+    ]
+  }
+}

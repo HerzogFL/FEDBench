@@ -1,0 +1,392 @@
+{
+  "image_name": "3dbffd309dc12c3a8fb83eda4c14c27f.png",
+  "prompt_text": "The figure illustrates a proposed two-way relationship between SARS-CoV-2 infection and white adipose tissue. At the top, the virus is shown, and at the bottom a cluster of white adipocytes contains several virus particles along with macrophages, suggesting that fat tissue may be infected and inflamed during COVID-19.\n\nLarge curved arrows connect the virus and adipose tissue in both directions, emphasizing a feedback loop. On the left side, the image indicates that SARS-CoV-2 leads to “infection and virus replication” and “inflammation,” implying that adipose tissue may act as a site where the virus can persist or expand while also triggering immune activity. The macrophages embedded among the fat cells reinforce the inflammatory component.\n\nOn the right side, the return arrow from adipose tissue toward the virus is linked to “hyperglycaemia” and “hyperinsulinaemia.” This suggests that metabolic dysfunction associated with adipose tissue may in turn worsen the disease environment or support viral effects. Overall, the figure conveys that white fat is not just a passive bystander but appears to participate in a harmful cycle involving viral replication, immune inflammation, and disturbed glucose-insulin metabolism.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "SARS-CoV-2 virion",
+        "category": "molecule",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "top position",
+          "spike-covered particle",
+          "large central virion"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "white adipocyte cluster",
+        "category": "cell",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "bottom cluster",
+          "multiple adipocytes",
+          "white fat tissue"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "white adipocytes",
+        "category": "cell",
+        "panel": "single_panel",
+        "count": 15,
+        "key_attributes": [
+          "large pale cells",
+          "rounded",
+          "clustered"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "macrophages",
+        "category": "cell",
+        "panel": "single_panel",
+        "count": 3,
+        "key_attributes": [
+          "pink irregular cells",
+          "embedded in adipose",
+          "inflammatory cells"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "virus particles within adipose tissue",
+        "category": "molecule",
+        "panel": "single_panel",
+        "count": 3,
+        "key_attributes": [
+          "small virions",
+          "inside adipocyte cluster",
+          "infection of fat tissue"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "bidirectional curved arrows",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "large curved arrows",
+          "two-way loop",
+          "connect top and bottom"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "left annotation callout box",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "left side",
+          "bullet list box",
+          "points to leftward relation"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "right annotation callout box",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "right side",
+          "bullet list box",
+          "points to return relation"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "SARS-CoV-2 label",
+        "category": "scientific_label",
+        "surface_text": "SARS-CoV-2",
+        "normalized_text": "SARS-CoV-2",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "virus name",
+          "top center"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "infection and virus replication text",
+        "category": "annotation_text",
+        "surface_text": "Infection and virus replication",
+        "normalized_text": "infection and virus replication",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "left bullet",
+          "process annotation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "inflammation text",
+        "category": "annotation_text",
+        "surface_text": "Inflammation",
+        "normalized_text": "inflammation",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "left bullet",
+          "immune response annotation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "hyperglycaemia text",
+        "category": "annotation_text",
+        "surface_text": "Hyperglycaemia",
+        "normalized_text": "hyperglycaemia",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "right bullet",
+          "metabolic dysfunction"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "hyperinsulinaemia text",
+        "category": "annotation_text",
+        "surface_text": "Hyperinsulinaemia",
+        "normalized_text": "hyperinsulinaemia",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "right bullet",
+          "metabolic dysfunction"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "Macrophage label",
+        "category": "scientific_label",
+        "surface_text": "Macrophage",
+        "normalized_text": "macrophage",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "cell label",
+          "leader line"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "White adipocyte label",
+        "category": "scientific_label",
+        "surface_text": "White adipocyte",
+        "normalized_text": "white adipocyte",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "cell label",
+          "leader line"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t1",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "v1",
+        "target_entity_id": "v2",
+        "relation_type": "above",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "v5",
+        "target_entity_id": "v2",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "v4",
+        "target_entity_id": "v2",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "v3",
+        "target_entity_id": "v2",
+        "relation_type": "part_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "t6",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "t7",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "v1",
+        "target_entity_id": "v2",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "v2",
+        "target_entity_id": "v1",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "t2",
+        "target_entity_id": "v1",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "t2",
+        "target_entity_id": "v2",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "t3",
+        "target_entity_id": "v2",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "t3",
+        "target_entity_id": "v4",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "t4",
+        "target_entity_id": "v2",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "t5",
+        "target_entity_id": "v2",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      }
+    ]
+  }
+}

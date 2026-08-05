@@ -1,0 +1,872 @@
+{
+  "image_name": "4ec019d130dcbe665c140319d2296761.png",
+  "prompt_text": "This schematic illustrates glia–neuron signaling in the spinal dorsal horn during pain-related activation. The central idea is that an activated astrocyte communicates with both a primary afferent terminal and a dorsal horn neuron, while also interacting with an activated microglial cell. The astrocyte appears to release several mediators, including chemokines, D-serine, glutamate, and growth-related factors, which act through receptors and channels on nearby neurons and glia.\n\nA key inset highlights TLR4 signaling in the astrocyte, involving TRAF6 and pERK/pJNK, leading to release of CCL2/CXCL1 on one side and WNT3A/FGF2 on the other. In the larger network, these signals converge on the presynaptic afferent terminal, where increased pERK is linked to increased glutamate release. They also act postsynaptically on the dorsal horn neuron, which likewise shows elevated pERK, suggesting neuronal sensitization.\n\nMicroglia contribute additional inflammatory and purinergic signals, and multiple receptor types are shown across the different cell membranes, emphasizing dense bidirectional communication. Overall, the figure depicts a feed-forward inflammatory circuit in which astrocytes, microglia, and neurons amplify excitatory transmission and likely promote central sensitization.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "activated astrocyte",
+        "category": "cell",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "central glial cell",
+          "stellate shape",
+          "signaling hub"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "primary afferent terminal",
+        "category": "cell",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "presynaptic terminal",
+          "bulb-shaped ending",
+          "contacts neuron"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "SDH neuron",
+        "category": "cell",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "postsynaptic neuron",
+          "branched morphology",
+          "dorsal horn"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "activated microglial cell",
+        "category": "cell",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "amoeboid glia",
+          "lower left",
+          "interacts with astrocyte"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "astrocyte TLR4 signaling inset",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "boxed inset",
+          "intracellular pathway",
+          "astrocyte-focused"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "signaling arrows",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 10,
+        "key_attributes": [
+          "bidirectional links",
+          "curved arrows",
+          "feed-forward signaling"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "cell surface receptors and channels",
+        "category": "protein",
+        "panel": "single_panel",
+        "count": 20,
+        "key_attributes": [
+          "membrane-localized",
+          "multiple types",
+          "dense communication"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "released signaling molecules",
+        "category": "molecule",
+        "panel": "single_panel",
+        "count": 20,
+        "key_attributes": [
+          "extracellular dots/icons",
+          "astrocyte-derived",
+          "microglial-derived"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "legend block",
+        "category": "legend_key",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "symbol key",
+          "top right",
+          "molecule/receptor mapping"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "Activated astrocyte label",
+        "category": "annotation_text",
+        "surface_text": "Activated astrocyte",
+        "normalized_text": "activated astrocyte",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "central label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "Primary afferent label",
+        "category": "annotation_text",
+        "surface_text": "Primary afferent",
+        "normalized_text": "primary afferent",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "presynaptic label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "SDH neuron label",
+        "category": "annotation_text",
+        "surface_text": "SDH neuron",
+        "normalized_text": "SDH neuron",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "postsynaptic label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "Activated microglial cell label",
+        "category": "annotation_text",
+        "surface_text": "Activated microglial cell",
+        "normalized_text": "activated microglial cell",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "glial label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "TLR4",
+        "category": "legend_text",
+        "surface_text": "TLR4",
+        "normalized_text": "TLR4",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "in inset pathway"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "TRAF6",
+        "category": "scientific_label",
+        "surface_text": "TRAF6",
+        "normalized_text": "TRAF6",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "inset mediator"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "pERK/pJNK",
+        "category": "scientific_label",
+        "surface_text": "pERK/pJNK",
+        "normalized_text": "pERK/pJNK",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "inset kinase pair"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "Release of CCL2 and CXCL1",
+        "category": "annotation_text",
+        "surface_text": "Release of CCL2 and CXCL1",
+        "normalized_text": "release of CCL2 and CXCL1",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "left inset output"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "Release of WNT3A and FGF2",
+        "category": "annotation_text",
+        "surface_text": "Release of WNT3A and FGF2",
+        "normalized_text": "release of WNT3A and FGF2",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "right inset output"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "presynaptic increased pERK",
+        "category": "annotation_text",
+        "surface_text": "↑pERK",
+        "normalized_text": "increased pERK",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "primary afferent"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "increased glutamate release",
+        "category": "annotation_text",
+        "surface_text": "↑Glutamate release",
+        "normalized_text": "increased glutamate release",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "presynaptic output"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "postsynaptic increased pERK",
+        "category": "annotation_text",
+        "surface_text": "↑pERK",
+        "normalized_text": "increased pERK",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "SDH neuron"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "CCL2",
+        "category": "legend_text",
+        "surface_text": "CCL2",
+        "normalized_text": "CCL2",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "astrocyte mediator"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t14",
+        "entity_type": "text",
+        "name": "CXCL1",
+        "category": "legend_text",
+        "surface_text": "CXCL1",
+        "normalized_text": "CXCL1",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "astrocyte mediator"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t15",
+        "entity_type": "text",
+        "name": "D-Serine",
+        "category": "legend_text",
+        "surface_text": "D-Serine",
+        "normalized_text": "D-serine",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "astrocyte mediator"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t16",
+        "entity_type": "text",
+        "name": "Glutamate",
+        "category": "legend_text",
+        "surface_text": "Glutamate",
+        "normalized_text": "glutamate",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "excitatory transmitter"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t17",
+        "entity_type": "text",
+        "name": "CCR2",
+        "category": "legend_text",
+        "surface_text": "CCR2",
+        "normalized_text": "CCR2",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "chemokine receptor"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t18",
+        "entity_type": "text",
+        "name": "CXCR2",
+        "category": "legend_text",
+        "surface_text": "CXCR2",
+        "normalized_text": "CXCR2",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "chemokine receptor"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t19",
+        "entity_type": "text",
+        "name": "CX43 (hemi)",
+        "category": "legend_text",
+        "surface_text": "CX43 (hemi)",
+        "normalized_text": "CX43 hemichannel",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "channel protein"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t20",
+        "entity_type": "text",
+        "name": "GluRs",
+        "category": "legend_text",
+        "surface_text": "GluRs",
+        "normalized_text": "glutamate receptors",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "neuronal receptor"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t21",
+        "entity_type": "text",
+        "name": "ATP",
+        "category": "legend_text",
+        "surface_text": "ATP",
+        "normalized_text": "ATP",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "purinergic signal"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t22",
+        "entity_type": "text",
+        "name": "IL-1β",
+        "category": "legend_text",
+        "surface_text": "IL-1β",
+        "normalized_text": "IL-1β",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "inflammatory cytokine"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t23",
+        "entity_type": "text",
+        "name": "IL1R",
+        "category": "legend_text",
+        "surface_text": "IL1R",
+        "normalized_text": "IL1R",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "cytokine receptor"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t24",
+        "entity_type": "text",
+        "name": "P2RX4",
+        "category": "legend_text",
+        "surface_text": "P2RX4",
+        "normalized_text": "P2RX4",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "purinergic receptor"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t25",
+        "entity_type": "text",
+        "name": "P2RX7",
+        "category": "legend_text",
+        "surface_text": "P2RX7",
+        "normalized_text": "P2RX7",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "purinergic receptor"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t26",
+        "entity_type": "text",
+        "name": "P2RY12",
+        "category": "legend_text",
+        "surface_text": "P2RY12",
+        "normalized_text": "P2RY12",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "purinergic receptor"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t27",
+        "entity_type": "text",
+        "name": "TNF",
+        "category": "legend_text",
+        "surface_text": "TNF",
+        "normalized_text": "TNF",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "inflammatory signal"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t28",
+        "entity_type": "text",
+        "name": "TNFR",
+        "category": "legend_text",
+        "surface_text": "TNFR",
+        "normalized_text": "TNFR",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "TNF receptor"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t1",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t2",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t3",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t4",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "t5",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "t6",
+        "target_entity_id": "v5",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "t7",
+        "target_entity_id": "v5",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "t8",
+        "target_entity_id": "v5",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "t9",
+        "target_entity_id": "v5",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "t5",
+        "target_entity_id": "t6",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "t6",
+        "target_entity_id": "t7",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "t7",
+        "target_entity_id": "t8",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "t7",
+        "target_entity_id": "t9",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "v1",
+        "target_entity_id": "v2",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "v1",
+        "target_entity_id": "v3",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "v1",
+        "target_entity_id": "v4",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "t10",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "t11",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "t10",
+        "target_entity_id": "t11",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "t12",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "t8",
+        "target_entity_id": "v2",
+        "relation_type": "activates",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "t9",
+        "target_entity_id": "v2",
+        "relation_type": "activates",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r23",
+        "source_entity_id": "t8",
+        "target_entity_id": "v3",
+        "relation_type": "activates",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r24",
+        "source_entity_id": "t9",
+        "target_entity_id": "v3",
+        "relation_type": "activates",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r25",
+        "source_entity_id": "v4",
+        "target_entity_id": "v1",
+        "relation_type": "activates",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r26",
+        "source_entity_id": "v4",
+        "target_entity_id": "v3",
+        "relation_type": "activates",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r27",
+        "source_entity_id": "v4",
+        "target_entity_id": "t21",
+        "relation_type": "connected_to",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r28",
+        "source_entity_id": "v4",
+        "target_entity_id": "v1",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r29",
+        "source_entity_id": "v1",
+        "target_entity_id": "v2",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r30",
+        "source_entity_id": "v1",
+        "target_entity_id": "v3",
+        "relation_type": "above",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1128 @@
+{
+  "image_name": "636eb0671a0b636a37290572a7f04420.png",
+  "prompt_text": "The figure summarizes how vertical land motion and surface elevation are measured relative to different Earth reference surfaces using ground surveying, GNSS, and satellite radar. It combines a coastal cross-section with measurement geometry to show that land subsidence is the downward movement of the ground surface relative to benchmarks, the geoid, ellipsoid, and ultimately sea level.\n\nIn the upper part, a levelling setup compares rod readings at two times to calculate a small elevation change, marked as subsidence, along a sloping land surface. This is set against broader geodetic surfaces such as topography, geoid, ellipsoid, sea surface, and global mean sea level, emphasizing that local ground lowering must be interpreted within these reference frames.\n\nThe lower part expands this into satellite-based methods. Several GNSS satellites transmit signals to an antenna fixed on the ground, allowing the antenna position to be solved in three dimensions over time with respect to Earth’s center of mass. Nearby, SAR interferometry is illustrated with two radar acquisitions; the phase difference between repeated observations gives a range change and thus surface displacement. Together, the figure shows complementary techniques for tracking coastal elevation change and subsidence from local benchmarks to global geodetic coordinates.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "coastal topographic land surface",
+        "category": "geological_structure",
+        "panel": "a,c",
+        "count": 2,
+        "key_attributes": [
+          "brown cross-section",
+          "sloping coast",
+          "ground surface"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "geoid reference surface",
+        "category": "layer",
+        "panel": "a,c",
+        "count": 2,
+        "key_attributes": [
+          "blue dashed line",
+          "reference surface"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "ellipsoid reference surface",
+        "category": "layer",
+        "panel": "a,c",
+        "count": 2,
+        "key_attributes": [
+          "black dashed line",
+          "smooth datum"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "sea surface",
+        "category": "layer",
+        "panel": "a,c",
+        "count": 2,
+        "key_attributes": [
+          "blue wavy line",
+          "water surface"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "global mean sea level reference",
+        "category": "layer",
+        "panel": "a,c",
+        "count": 2,
+        "key_attributes": [
+          "horizontal dashed line",
+          "sea-level reference"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "levelling instrument",
+        "category": "device_component",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "tripod level",
+          "between rods"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "survey rods",
+        "category": "device_component",
+        "panel": "a",
+        "count": 3,
+        "key_attributes": [
+          "vertical staffs",
+          "rod readings"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "subsidence displacement marker",
+        "category": "arrow",
+        "panel": "a,c",
+        "count": 2,
+        "key_attributes": [
+          "vertical dz",
+          "downward change"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "rod surface-elevation table inset",
+        "category": "device_component",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "circular inset",
+          "multiple rods",
+          "benchmark setup"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v10",
+        "entity_type": "visual",
+        "name": "marker horizon bar",
+        "category": "layer",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "gray horizontal bar",
+          "subsurface marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v11",
+        "entity_type": "visual",
+        "name": "GNSS satellites",
+        "category": "device_component",
+        "panel": "c",
+        "count": 4,
+        "key_attributes": [
+          "orbiting satellites",
+          "multiple platforms"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v12",
+        "entity_type": "visual",
+        "name": "GNSS signal paths",
+        "category": "arrow",
+        "panel": "c",
+        "count": 4,
+        "key_attributes": [
+          "rays to antenna",
+          "range lines"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v13",
+        "entity_type": "visual",
+        "name": "GNSS ground antenna",
+        "category": "device_component",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "fixed on ground",
+          "receiver antenna"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v14",
+        "entity_type": "visual",
+        "name": "Earth centre-of-mass reference line",
+        "category": "arrow",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "vertical dashed line",
+          "global reference"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v15",
+        "entity_type": "visual",
+        "name": "SAR satellite",
+        "category": "device_component",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "radar platform",
+          "side-looking"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v16",
+        "entity_type": "visual",
+        "name": "SAR acquisition rays",
+        "category": "arrow",
+        "panel": "c",
+        "count": 2,
+        "key_attributes": [
+          "two look vectors",
+          "repeated observations"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v17",
+        "entity_type": "visual",
+        "name": "SAR interferometry waveform graphic",
+        "category": "pathway_component",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "two phase waves",
+          "orange and yellow"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v18",
+        "entity_type": "visual",
+        "name": "GNSS signal legend swatches",
+        "category": "legend_key",
+        "panel": "c",
+        "count": 4,
+        "key_attributes": [
+          "colored line samples",
+          "signal types"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v19",
+        "entity_type": "visual",
+        "name": "SAR acquisition legend keys",
+        "category": "legend_key",
+        "panel": "c",
+        "count": 2,
+        "key_attributes": [
+          "two colored keys",
+          "acquisition times"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v20",
+        "entity_type": "visual",
+        "name": "panel markers",
+        "category": "panel_marker",
+        "panel": "a,b,c",
+        "count": 3,
+        "key_attributes": [
+          "a",
+          "b",
+          "c"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "panel label a",
+        "category": "panel_label",
+        "surface_text": "a",
+        "normalized_text": "a",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "Level",
+        "category": "scientific_label",
+        "surface_text": "Level",
+        "normalized_text": "Level",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "levelling instrument"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "Rod",
+        "category": "scientific_label",
+        "surface_text": "Rod",
+        "normalized_text": "Rod",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "survey staff"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "rod reading labels",
+        "category": "scientific_label",
+        "surface_text": "l₁, l₂, l₃",
+        "normalized_text": "l1, l2, l3",
+        "panel": "a",
+        "count": 3,
+        "key_attributes": [
+          "rod readings"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "levelling equations",
+        "category": "equation",
+        "surface_text": "δl₁₂ = l₂ − l₁; δl₁₃ = l₃ − l₁; dz = δl₁₃ − δl₁₂",
+        "normalized_text": "δl12 = l2 − l1; δl13 = l3 − l1; dz = δl13 − δl12",
+        "panel": "a",
+        "count": 3,
+        "key_attributes": [
+          "elevation change calculation"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "dz",
+        "category": "scientific_label",
+        "surface_text": "dz",
+        "normalized_text": "dz",
+        "panel": "a,c",
+        "count": 2,
+        "key_attributes": [
+          "vertical displacement"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "Land subsidence",
+        "category": "annotation_text",
+        "surface_text": "Land subsidence",
+        "normalized_text": "Land subsidence",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "downward ground motion"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "Topography",
+        "category": "scientific_label",
+        "surface_text": "Topography",
+        "normalized_text": "Topography",
+        "panel": "a,c",
+        "count": 2,
+        "key_attributes": [
+          "ground surface"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "Geoid",
+        "category": "scientific_label",
+        "surface_text": "Geoid",
+        "normalized_text": "Geoid",
+        "panel": "a,c",
+        "count": 2,
+        "key_attributes": [
+          "reference surface"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "Ellipsoid",
+        "category": "scientific_label",
+        "surface_text": "Ellipsoid",
+        "normalized_text": "Ellipsoid",
+        "panel": "a,c",
+        "count": 2,
+        "key_attributes": [
+          "reference datum"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "Sea surface",
+        "category": "scientific_label",
+        "surface_text": "Sea surface",
+        "normalized_text": "Sea surface",
+        "panel": "a,c",
+        "count": 2,
+        "key_attributes": [
+          "water level"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "GMSL",
+        "category": "scientific_label",
+        "surface_text": "GMSL",
+        "normalized_text": "GMSL",
+        "panel": "a,c",
+        "count": 2,
+        "key_attributes": [
+          "global mean sea level"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "geodetic height symbols",
+        "category": "scientific_label",
+        "surface_text": "H, h, N",
+        "normalized_text": "H, h, N",
+        "panel": "a,c",
+        "count": 6,
+        "key_attributes": [
+          "height references"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t14",
+        "entity_type": "text",
+        "name": "panel label b",
+        "category": "panel_label",
+        "surface_text": "b",
+        "normalized_text": "b",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t15",
+        "entity_type": "text",
+        "name": "Rod surface-elevation table",
+        "category": "scientific_label",
+        "surface_text": "Rod surface-elevation table",
+        "normalized_text": "Rod surface-elevation table",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "benchmark table"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t16",
+        "entity_type": "text",
+        "name": "Marker horizon",
+        "category": "scientific_label",
+        "surface_text": "Marker horizon",
+        "normalized_text": "Marker horizon",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "subsurface marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t17",
+        "entity_type": "text",
+        "name": "panel label c",
+        "category": "panel_label",
+        "surface_text": "c",
+        "normalized_text": "c",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t18",
+        "entity_type": "text",
+        "name": "satellite coordinate annotations",
+        "category": "annotation_text",
+        "surface_text": "(x₁, y₁, z₁, t₁); (x₂, y₂, z₂); (x₃, y₃, z₃); (x₄, y₄, z₄)",
+        "normalized_text": "(x1, y1, z1, t1); (x2, y2, z2); (x3, y3, z3); (x4, y4, z4)",
+        "panel": "c",
+        "count": 4,
+        "key_attributes": [
+          "satellite positions"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t19",
+        "entity_type": "text",
+        "name": "GNSS range labels",
+        "category": "scientific_label",
+        "surface_text": "R₁, R₂, R₃, R₄",
+        "normalized_text": "R1, R2, R3, R4",
+        "panel": "c",
+        "count": 4,
+        "key_attributes": [
+          "satellite ranges"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t20",
+        "entity_type": "text",
+        "name": "GPS signal",
+        "category": "legend_text",
+        "surface_text": "GPS signal",
+        "normalized_text": "GPS signal",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "legend header"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t21",
+        "entity_type": "text",
+        "name": "GNSS signal legend entries",
+        "category": "legend_text",
+        "surface_text": "L1 carrier (λ = 19.05 cm); L2 carrier (λ = 24.45 cm); C/A code (λ = 300 m); P code (λ = 30 m)",
+        "normalized_text": "L1 carrier (λ = 19.05 cm); L2 carrier (λ = 24.45 cm); C/A code (λ = 300 m); P code (λ = 30 m)",
+        "panel": "c",
+        "count": 4,
+        "key_attributes": [
+          "signal types",
+          "wavelengths"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t22",
+        "entity_type": "text",
+        "name": "GNSS antenna",
+        "category": "scientific_label",
+        "surface_text": "GNSS antenna",
+        "normalized_text": "GNSS antenna",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "ground receiver"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t23",
+        "entity_type": "text",
+        "name": "antenna coordinates",
+        "category": "annotation_text",
+        "surface_text": "(x, y, z, t)",
+        "normalized_text": "(x, y, z, t)",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "time-dependent position"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t24",
+        "entity_type": "text",
+        "name": "Anchoring depth",
+        "category": "scientific_label",
+        "surface_text": "Anchoring depth",
+        "normalized_text": "Anchoring depth",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "antenna foundation depth"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t25",
+        "entity_type": "text",
+        "name": "range change labels",
+        "category": "scientific_label",
+        "surface_text": "2ΔR",
+        "normalized_text": "2ΔR",
+        "panel": "c",
+        "count": 2,
+        "key_attributes": [
+          "radar range change"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t26",
+        "entity_type": "text",
+        "name": "Earth's centre of mass",
+        "category": "scientific_label",
+        "surface_text": "Earth's centre of mass",
+        "normalized_text": "Earth's centre of mass",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "global origin"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t27",
+        "entity_type": "text",
+        "name": "SAR satellite",
+        "category": "scientific_label",
+        "surface_text": "SAR satellite",
+        "normalized_text": "SAR satellite",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "radar platform"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t28",
+        "entity_type": "text",
+        "name": "SAR interferometry",
+        "category": "scientific_label",
+        "surface_text": "SAR interferometry",
+        "normalized_text": "SAR interferometry",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "phase comparison"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t29",
+        "entity_type": "text",
+        "name": "SAR range labels",
+        "category": "scientific_label",
+        "surface_text": "R₁, R₂",
+        "normalized_text": "R1, R2",
+        "panel": "c",
+        "count": 2,
+        "key_attributes": [
+          "two acquisitions"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t30",
+        "entity_type": "text",
+        "name": "SAR wavelength",
+        "category": "equation",
+        "surface_text": "λ = 3.1 cm",
+        "normalized_text": "λ = 3.1 cm",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "radar wavelength"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t31",
+        "entity_type": "text",
+        "name": "SAR acquisition legend",
+        "category": "legend_text",
+        "surface_text": "1st SAR acquisition; 2nd SAR acquisition",
+        "normalized_text": "1st SAR acquisition; 2nd SAR acquisition",
+        "panel": "c",
+        "count": 2,
+        "key_attributes": [
+          "repeat-pass observations"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t2",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t3",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t6",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t7",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "t8",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "t9",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "t10",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "t11",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "t12",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "v8",
+        "target_entity_id": "v1",
+        "relation_type": "points_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "v6",
+        "target_entity_id": "v7",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "v1",
+        "target_entity_id": "v2",
+        "relation_type": "above",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "v2",
+        "target_entity_id": "v3",
+        "relation_type": "above",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "v4",
+        "target_entity_id": "v5",
+        "relation_type": "above",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "t15",
+        "target_entity_id": "v9",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "t16",
+        "target_entity_id": "v10",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "v10",
+        "target_entity_id": "v9",
+        "relation_type": "part_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "t22",
+        "target_entity_id": "v13",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "t23",
+        "target_entity_id": "v13",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "t26",
+        "target_entity_id": "v14",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "t27",
+        "target_entity_id": "v15",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "t28",
+        "target_entity_id": "v17",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r23",
+        "source_entity_id": "t25",
+        "target_entity_id": "v16",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r24",
+        "source_entity_id": "v11",
+        "target_entity_id": "v12",
+        "relation_type": "points_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r25",
+        "source_entity_id": "v12",
+        "target_entity_id": "v13",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r26",
+        "source_entity_id": "v13",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r27",
+        "source_entity_id": "v14",
+        "target_entity_id": "v13",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r28",
+        "source_entity_id": "v15",
+        "target_entity_id": "v16",
+        "relation_type": "points_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r29",
+        "source_entity_id": "v16",
+        "target_entity_id": "v1",
+        "relation_type": "points_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r30",
+        "source_entity_id": "v16",
+        "target_entity_id": "v17",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r31",
+        "source_entity_id": "t20",
+        "target_entity_id": "v18",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r32",
+        "source_entity_id": "t21",
+        "target_entity_id": "v18",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r33",
+        "source_entity_id": "v18",
+        "target_entity_id": "v12",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r34",
+        "source_entity_id": "t31",
+        "target_entity_id": "v19",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r35",
+        "source_entity_id": "v19",
+        "target_entity_id": "v16",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r36",
+        "source_entity_id": "v11",
+        "target_entity_id": "v15",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      }
+    ]
+  }
+}

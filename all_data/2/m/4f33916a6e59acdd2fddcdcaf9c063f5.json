@@ -1,0 +1,612 @@
+{
+  "image_name": "4f33916a6e59acdd2fddcdcaf9c063f5.png",
+  "prompt_text": "The figure compares two band-diagram scenarios at the interface between a buffer layer and a Cu(In,Ga)Se2 or CZTS absorber, highlighting how interfacial band alignment affects solar-cell performance. In both sketches, dashed lines mark the electron and hole quasi-Fermi levels, and the separation between them indicates the open-circuit voltage, VOC.\n\nThe left side shows an unfavorable case. The bands near the interface bend in a way labeled as ineffective p-to-n inversion, and a red shaded region marks possible charge recombination. Electrons and holes are brought close together near the junction, implying that carriers can recombine instead of being extracted, which would limit device efficiency and VOC.\n\nThe right side shows a more favorable interface. The band shape appears to create a barrier or field that keeps electrons and holes spatially separated and directs them toward collection. Arrows indicate improved movement of electrons in the upper band and holes in the lower band, and the text emphasizes enhanced carrier collection. Overall, the figure illustrates that better interfacial band engineering in these thin-film absorbers suppresses recombination and improves charge extraction.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "left band-diagram profile",
+        "category": "pathway_component",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "bent upper and lower bands",
+          "unfavorable alignment",
+          "interface kink"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "right band-diagram profile",
+        "category": "pathway_component",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "band barrier/field",
+          "carrier separation",
+          "favorable alignment"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "electron quasi-Fermi level dashed line",
+        "category": "pathway_component",
+        "panel": "both",
+        "count": 2,
+        "key_attributes": [
+          "horizontal dashed line",
+          "upper dashed line",
+          "quasi-Fermi level"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "hole quasi-Fermi level dashed line",
+        "category": "pathway_component",
+        "panel": "both",
+        "count": 2,
+        "key_attributes": [
+          "horizontal dashed line",
+          "lower dashed line",
+          "quasi-Fermi level"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "open-circuit voltage spacing arrow",
+        "category": "arrow",
+        "panel": "both",
+        "count": 2,
+        "key_attributes": [
+          "vertical double arrow",
+          "between dashed lines",
+          "VOC indicator"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "recombination shaded region",
+        "category": "region",
+        "panel": "a",
+        "count": 2,
+        "key_attributes": [
+          "red shaded",
+          "near interface",
+          "charge recombination"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "carrier collection arrows",
+        "category": "arrow",
+        "panel": "b",
+        "count": 2,
+        "key_attributes": [
+          "curved arrows",
+          "electron and hole motion",
+          "improved collection"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "electron symbols",
+        "category": "molecule",
+        "panel": "both",
+        "count": 4,
+        "key_attributes": [
+          "blue circles",
+          "minus sign",
+          "upper band"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "hole symbols",
+        "category": "molecule",
+        "panel": "both",
+        "count": 4,
+        "key_attributes": [
+          "red circles",
+          "plus sign",
+          "lower band"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "panel label a",
+        "category": "panel_label",
+        "surface_text": "a",
+        "normalized_text": "a",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "top-left panel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "ineffective inversion annotation",
+        "category": "annotation_text",
+        "surface_text": "Ineffective p-to-n inversion",
+        "normalized_text": "ineffective p-to-n inversion",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "unfavorable case",
+          "interface annotation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "recombination annotation",
+        "category": "annotation_text",
+        "surface_text": "Possible charge recombination",
+        "normalized_text": "possible charge recombination",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "red region label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "electron quasi-Fermi label left",
+        "category": "scientific_label",
+        "surface_text": "EFn",
+        "normalized_text": "E_Fn",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "upper dashed line"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "hole quasi-Fermi label left",
+        "category": "scientific_label",
+        "surface_text": "EFp",
+        "normalized_text": "E_Fp",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "lower dashed line"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "open-circuit voltage label left",
+        "category": "scientific_label",
+        "surface_text": "V_OC",
+        "normalized_text": "V_OC",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "between dashed lines"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "buffer layer label left",
+        "category": "scientific_label",
+        "surface_text": "Buffer layer",
+        "normalized_text": "buffer layer",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "left material region"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "absorber label left",
+        "category": "scientific_label",
+        "surface_text": "Cu(In,Ga)Se2 or CZTS",
+        "normalized_text": "Cu(In,Ga)Se2 or CZTS",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "right absorber region"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "panel label b",
+        "category": "panel_label",
+        "surface_text": "b",
+        "normalized_text": "b",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "top panel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "enhanced collection annotation",
+        "category": "annotation_text",
+        "surface_text": "Enhanced carrier collection",
+        "normalized_text": "enhanced carrier collection",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "favorable case",
+          "collection annotation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "electron quasi-Fermi label right",
+        "category": "scientific_label",
+        "surface_text": "EFn",
+        "normalized_text": "E_Fn",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "upper dashed line"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "hole quasi-Fermi label right",
+        "category": "scientific_label",
+        "surface_text": "EFp",
+        "normalized_text": "E_Fp",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "lower dashed line"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "open-circuit voltage label right",
+        "category": "scientific_label",
+        "surface_text": "V_OC",
+        "normalized_text": "V_OC",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "between dashed lines"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t14",
+        "entity_type": "text",
+        "name": "buffer layer label right",
+        "category": "scientific_label",
+        "surface_text": "Buffer layer",
+        "normalized_text": "buffer layer",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "left material region"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t15",
+        "entity_type": "text",
+        "name": "absorber label right",
+        "category": "scientific_label",
+        "surface_text": "Cu(In,Ga)Se2 or CZTS",
+        "normalized_text": "Cu(In,Ga)Se2 or CZTS",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "right absorber region"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t2",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t3",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t4",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t5",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "t6",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "t7",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "t8",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "v5",
+        "target_entity_id": "v3",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "v5",
+        "target_entity_id": "v4",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "v4",
+        "target_entity_id": "v3",
+        "relation_type": "above",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "v6",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "v8",
+        "target_entity_id": "v9",
+        "relation_type": "above",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "v6",
+        "target_entity_id": "v8",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "v6",
+        "target_entity_id": "v9",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "t10",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "t11",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "t12",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "t13",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "t14",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "t15",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "v7",
+        "target_entity_id": "v8",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "v7",
+        "target_entity_id": "v9",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r23",
+        "source_entity_id": "v2",
+        "target_entity_id": "v7",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r24",
+        "source_entity_id": "v1",
+        "target_entity_id": "v2",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "cross_panel"
+      }
+    ]
+  }
+}

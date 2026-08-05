@@ -1,0 +1,916 @@
+{
+  "image_name": "0d0c26d9a95a323d761a47da725a3d20.jpg",
+  "prompt_text": "This figure is a schematic of the molecular dialogue between a T cell and a dendritic cell (DC), highlighting how immune activation is balanced by inhibitory “checkpoint” signals. The two cells are shown face to face, with paired receptors and ligands spanning the contact zone. \n\nA central activating interaction is the T-cell receptor binding MHC on the DC. Around this, several co-stimulatory pathways promote T-cell activation, including CD28 with CD80/CD86, CD40L with CD40, OX40 with OX40L, 4-1BB with 4-1BBL, ICOS with ICOSL, and CD27 with CD70. These are indicated with green arrows, suggesting positive signaling into the T cell.\n\nIn contrast, multiple inhibitory receptors on the T cell are shown with red inhibitory marks, emphasizing immune suppression or restraint. These include BTLA–HVEM, GITR–GITRL, CTLA4–CD80/CD86, TIGIT–CD155, PD1 binding PDL1 or PDL2, TIM3–Galectin 9, and LAG3. PD1 appears twice, reflecting its interaction with both PDL1 and PDL2. One additional interaction is marked with a question mark, implying uncertainty or incomplete understanding.\n\nOverall, the image conveys that T-cell responses are controlled by a complex mixture of stimulatory and inhibitory receptor-ligand pairs at the immune synapse.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "T cell",
+        "category": "cell",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "left cell",
+          "blue",
+          "faces DC"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "dendritic cell",
+        "category": "cell",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "right cell",
+          "green",
+          "branched outline"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "immune synapse contact zone",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "between cells",
+          "paired receptors",
+          "central interface"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "positive signaling arrows",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 8,
+        "key_attributes": [
+          "green",
+          "point into T cell",
+          "stimulatory"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "inhibitory marks",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 8,
+        "key_attributes": [
+          "red",
+          "T-shaped",
+          "inhibitory"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "paired receptor-ligand complexes",
+        "category": "pathway_component",
+        "panel": "single_panel",
+        "count": 16,
+        "key_attributes": [
+          "spanning interface",
+          "paired molecules",
+          "stacked vertically"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "T cell label",
+        "category": "scientific_label",
+        "surface_text": "T cell",
+        "normalized_text": "T cell",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "cell label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "DC label",
+        "category": "scientific_label",
+        "surface_text": "DC",
+        "normalized_text": "DC",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "cell label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "BTLA",
+        "category": "scientific_label",
+        "surface_text": "BTLA",
+        "normalized_text": "BTLA",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "inhibitory receptor"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "HVEM",
+        "category": "scientific_label",
+        "surface_text": "HVEM",
+        "normalized_text": "HVEM",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "BTLA ligand"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "GITR",
+        "category": "scientific_label",
+        "surface_text": "GITR",
+        "normalized_text": "GITR",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "inhibitory set"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "GITRL",
+        "category": "scientific_label",
+        "surface_text": "GITRL",
+        "normalized_text": "GITRL",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "GITR ligand"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "CTLA4",
+        "category": "scientific_label",
+        "surface_text": "CTLA4",
+        "normalized_text": "CTLA4",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "inhibitory receptor"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "CD80/CD86",
+        "category": "scientific_label",
+        "surface_text": "CD80/CD86",
+        "normalized_text": "CD80/CD86",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "shared ligand",
+          "appears twice"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "TIGIT",
+        "category": "scientific_label",
+        "surface_text": "TIGIT",
+        "normalized_text": "TIGIT",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "inhibitory receptor"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "CD155",
+        "category": "scientific_label",
+        "surface_text": "CD155",
+        "normalized_text": "CD155",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "TIGIT ligand"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "PD1",
+        "category": "scientific_label",
+        "surface_text": "PD1",
+        "normalized_text": "PD1",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "appears twice",
+          "inhibitory receptor"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "PDL2",
+        "category": "scientific_label",
+        "surface_text": "PDL2",
+        "normalized_text": "PDL2",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "PD1 ligand",
+          "appears twice visually"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "PDL1",
+        "category": "scientific_label",
+        "surface_text": "PDL1",
+        "normalized_text": "PDL1",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "PD1 ligand",
+          "appears twice visually"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t14",
+        "entity_type": "text",
+        "name": "TIM3",
+        "category": "scientific_label",
+        "surface_text": "TIM3",
+        "normalized_text": "TIM3",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "inhibitory receptor"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t15",
+        "entity_type": "text",
+        "name": "Galectin 9",
+        "category": "scientific_label",
+        "surface_text": "Galectin 9",
+        "normalized_text": "Galectin 9",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "TIM3 ligand"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t16",
+        "entity_type": "text",
+        "name": "LAG3",
+        "category": "scientific_label",
+        "surface_text": "LAG3",
+        "normalized_text": "LAG3",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "inhibitory receptor"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t17",
+        "entity_type": "text",
+        "name": "TCR",
+        "category": "scientific_label",
+        "surface_text": "TCR",
+        "normalized_text": "TCR",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "activating receptor",
+          "central pair"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t18",
+        "entity_type": "text",
+        "name": "MHC",
+        "category": "scientific_label",
+        "surface_text": "MHC",
+        "normalized_text": "MHC",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "TCR partner",
+          "central pair"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t19",
+        "entity_type": "text",
+        "name": "CD28",
+        "category": "scientific_label",
+        "surface_text": "CD28",
+        "normalized_text": "CD28",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "co-stimulatory receptor"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t20",
+        "entity_type": "text",
+        "name": "CD40L",
+        "category": "scientific_label",
+        "surface_text": "CD40L",
+        "normalized_text": "CD40L",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "co-stimulatory ligand"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t21",
+        "entity_type": "text",
+        "name": "CD40",
+        "category": "scientific_label",
+        "surface_text": "CD40",
+        "normalized_text": "CD40",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "CD40L partner"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t22",
+        "entity_type": "text",
+        "name": "OX40",
+        "category": "scientific_label",
+        "surface_text": "OX40",
+        "normalized_text": "OX40",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "co-stimulatory receptor"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t23",
+        "entity_type": "text",
+        "name": "OX40L",
+        "category": "scientific_label",
+        "surface_text": "OX40L",
+        "normalized_text": "OX40L",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "OX40 partner"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t24",
+        "entity_type": "text",
+        "name": "4-1BB",
+        "category": "scientific_label",
+        "surface_text": "4-1BB",
+        "normalized_text": "4-1BB",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "co-stimulatory receptor"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t25",
+        "entity_type": "text",
+        "name": "4-1BBL",
+        "category": "scientific_label",
+        "surface_text": "4-1BBL",
+        "normalized_text": "4-1BBL",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "4-1BB partner"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t26",
+        "entity_type": "text",
+        "name": "ICOS",
+        "category": "scientific_label",
+        "surface_text": "ICOS",
+        "normalized_text": "ICOS",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "co-stimulatory receptor"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t27",
+        "entity_type": "text",
+        "name": "ICOSL",
+        "category": "scientific_label",
+        "surface_text": "ICOSL",
+        "normalized_text": "ICOSL",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "ICOS partner"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t28",
+        "entity_type": "text",
+        "name": "uncertain interaction marker",
+        "category": "annotation_text",
+        "surface_text": "?",
+        "normalized_text": "?",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "unknown pair"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t29",
+        "entity_type": "text",
+        "name": "CD27",
+        "category": "scientific_label",
+        "surface_text": "CD27",
+        "normalized_text": "CD27",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "co-stimulatory receptor"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t30",
+        "entity_type": "text",
+        "name": "CD70",
+        "category": "scientific_label",
+        "surface_text": "CD70",
+        "normalized_text": "CD70",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "CD27 partner"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t1",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t2",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "v1",
+        "target_entity_id": "v2",
+        "relation_type": "left_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "v3",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "v3",
+        "target_entity_id": "v2",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "t17",
+        "target_entity_id": "t18",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "t19",
+        "target_entity_id": "t8",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "t20",
+        "target_entity_id": "t21",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "t22",
+        "target_entity_id": "t23",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "t24",
+        "target_entity_id": "t25",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "t26",
+        "target_entity_id": "t27",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "t29",
+        "target_entity_id": "t30",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "t3",
+        "target_entity_id": "t4",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "t5",
+        "target_entity_id": "t6",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "t7",
+        "target_entity_id": "t8",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "t9",
+        "target_entity_id": "t10",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "t11",
+        "target_entity_id": "t12",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "t11",
+        "target_entity_id": "t13",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "t14",
+        "target_entity_id": "t15",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "v4",
+        "target_entity_id": "v1",
+        "relation_type": "points_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "v5",
+        "target_entity_id": "v1",
+        "relation_type": "points_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "v4",
+        "target_entity_id": "t17",
+        "relation_type": "activates",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r23",
+        "source_entity_id": "v4",
+        "target_entity_id": "t19",
+        "relation_type": "activates",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r24",
+        "source_entity_id": "v4",
+        "target_entity_id": "t20",
+        "relation_type": "activates",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r25",
+        "source_entity_id": "v4",
+        "target_entity_id": "t22",
+        "relation_type": "activates",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r26",
+        "source_entity_id": "v4",
+        "target_entity_id": "t24",
+        "relation_type": "activates",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r27",
+        "source_entity_id": "v4",
+        "target_entity_id": "t26",
+        "relation_type": "activates",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r28",
+        "source_entity_id": "v4",
+        "target_entity_id": "t29",
+        "relation_type": "activates",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r29",
+        "source_entity_id": "v5",
+        "target_entity_id": "t3",
+        "relation_type": "inhibits",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r30",
+        "source_entity_id": "v5",
+        "target_entity_id": "t5",
+        "relation_type": "inhibits",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r31",
+        "source_entity_id": "v5",
+        "target_entity_id": "t7",
+        "relation_type": "inhibits",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r32",
+        "source_entity_id": "v5",
+        "target_entity_id": "t9",
+        "relation_type": "inhibits",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r33",
+        "source_entity_id": "v5",
+        "target_entity_id": "t11",
+        "relation_type": "inhibits",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r34",
+        "source_entity_id": "v5",
+        "target_entity_id": "t14",
+        "relation_type": "inhibits",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r35",
+        "source_entity_id": "v5",
+        "target_entity_id": "t16",
+        "relation_type": "inhibits",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r36",
+        "source_entity_id": "t28",
+        "target_entity_id": "t11",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      }
+    ]
+  }
+}

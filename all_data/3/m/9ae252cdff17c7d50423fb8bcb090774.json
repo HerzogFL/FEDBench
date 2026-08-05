@@ -1,0 +1,1536 @@
+{
+  "image_name": "9ae252cdff17c7d50423fb8bcb090774.png",
+  "prompt_text": "The figure summarizes major limitations of constructed wetland treatment systems and the main ways researchers intensify their performance. Across four themes, it contrasts a problem, possible engineering or biological solutions, and the reported treatment gains.\n\nOne key issue is oxygen limitation, which restricts nitrification in the root zone. This is addressed by artificial aeration or tidal operation that alternates filling and draining to improve oxygen transfer, leading to better removal of pollutants such as COD, ammonium, and total nitrogen. A second limitation is electron shortage for denitrification. The image shows this being overcome by adding organic-rich materials like biochar or organic matter, or inorganic electron-donor substrates containing metals, which support anaerobic microorganisms and improve nitrogen and phosphorus removal.\n\nCold climate is presented as another major constraint because low temperature suppresses microbial activity. Strategies such as insulation, artificial greenhouse covering, cold-resistant microbes, and cold-tolerant plants appear to maintain winter treatment efficiency. Finally, clogging risk in the porous bed is shown as a physical limitation. Pretreatment and substrate selection help prevent blockage, while adding reagents or earthworms appears to restore hydraulic conductivity.\n\nOverall, the figure presents wetland intensification as a combination of aeration control, substrate amendment, ecological adaptation, and clogging management.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "constructed wetland cross-section",
+        "category": "region",
+        "panel": "all",
+        "count": 4,
+        "key_attributes": [
+          "water over substrate",
+          "planted bed",
+          "side-view schematic"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "wetland plants",
+        "category": "region",
+        "panel": "all",
+        "count": 4,
+        "key_attributes": [
+          "emergent macrophytes",
+          "green leaves",
+          "yellow flowers"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "oxygen transfer arrows",
+        "category": "arrow",
+        "panel": "a",
+        "count": 3,
+        "key_attributes": [
+          "vertical blue arrows",
+          "air-water transfer",
+          "aeration/tidal flow"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "aeration equipment device",
+        "category": "device_component",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "bottom-mounted",
+          "gray diffuser/pump",
+          "artificial aeration"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "microbial activity bubbles and particles",
+        "category": "molecule",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "blue circles",
+          "oxygenated zone",
+          "nitrification context"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "tidal fill-drain flow arrows",
+        "category": "arrow",
+        "panel": "a",
+        "count": 2,
+        "key_attributes": [
+          "up/down arrows",
+          "water level cycling",
+          "fill and drain"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "organic-rich substrate amendment",
+        "category": "material_structure",
+        "panel": "b",
+        "count": 2,
+        "key_attributes": [
+          "biochar",
+          "organic matter",
+          "carbon source"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "inorganic electron donor substrate",
+        "category": "material_structure",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "metal-bearing media",
+          "Fe/Mn",
+          "electron donor"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "denitrification pathway arrows",
+        "category": "arrow",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "curved arrows",
+          "nitrogen conversion",
+          "electron limitation"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v10",
+        "entity_type": "visual",
+        "name": "snowflakes and winter symbols",
+        "category": "region",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "cold-weather icons",
+          "white snowflakes",
+          "low temperature"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v11",
+        "entity_type": "visual",
+        "name": "greenhouse cover",
+        "category": "device_component",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "arched transparent cover",
+          "orange roof edge",
+          "thermal protection"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v12",
+        "entity_type": "visual",
+        "name": "insulation material layer",
+        "category": "layer",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "surface mat",
+          "brown fibrous layer",
+          "heat retention"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v13",
+        "entity_type": "visual",
+        "name": "cold-resistant microorganisms",
+        "category": "molecule",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "colored microbe icons",
+          "subsurface inoculation",
+          "ecological adaptation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v14",
+        "entity_type": "visual",
+        "name": "porous substrate bed with blockage",
+        "category": "material_structure",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "coarse media",
+          "dark clogging patches",
+          "reduced pores"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v15",
+        "entity_type": "visual",
+        "name": "pretreatment device",
+        "category": "device_component",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "screen/filter",
+          "upstream control",
+          "clogging prevention"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v16",
+        "entity_type": "visual",
+        "name": "reagent addition tool",
+        "category": "device_component",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "syringe-like applicator",
+          "chemical dosing",
+          "clogging repair"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v17",
+        "entity_type": "visual",
+        "name": "earthworms in substrate",
+        "category": "molecule",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "pink worm shapes",
+          "biological repair",
+          "hydraulic recovery"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v18",
+        "entity_type": "visual",
+        "name": "panel dividers and dashed separators",
+        "category": "region",
+        "panel": "all",
+        "count": 1,
+        "key_attributes": [
+          "red vertical dividers",
+          "table-like layout",
+          "section separation"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "panel a label",
+        "category": "panel_label",
+        "surface_text": "a",
+        "normalized_text": "a",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "panel b label",
+        "category": "panel_label",
+        "surface_text": "b",
+        "normalized_text": "b",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "panel c label",
+        "category": "panel_label",
+        "surface_text": "c",
+        "normalized_text": "c",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "panel d label",
+        "category": "panel_label",
+        "surface_text": "d",
+        "normalized_text": "d",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "Limitations or risks",
+        "category": "scientific_label",
+        "surface_text": "Limitations or risks",
+        "normalized_text": "limitations or risks",
+        "panel": "all",
+        "count": 1,
+        "key_attributes": [
+          "column header"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "Enhancement strategies and technologies",
+        "category": "scientific_label",
+        "surface_text": "Enhancement strategies and technologies",
+        "normalized_text": "enhancement strategies and technologies",
+        "panel": "all",
+        "count": 1,
+        "key_attributes": [
+          "column header"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "Intensification performance",
+        "category": "scientific_label",
+        "surface_text": "Intensification performance",
+        "normalized_text": "intensification performance",
+        "panel": "all",
+        "count": 1,
+        "key_attributes": [
+          "column header"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "Oxygen limitation",
+        "category": "scientific_label",
+        "surface_text": "Oxygen limitation",
+        "normalized_text": "oxygen limitation",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "theme label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "Artificial aeration",
+        "category": "scientific_label",
+        "surface_text": "Artificial aeration (intermittent and/or continuous)",
+        "normalized_text": "artificial aeration",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "solution label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "Tidal operation",
+        "category": "scientific_label",
+        "surface_text": "Tidal operation",
+        "normalized_text": "tidal operation",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "solution label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "Nitrification",
+        "category": "scientific_label",
+        "surface_text": "Nitrification",
+        "normalized_text": "nitrification",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "process label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "Aeration equipment",
+        "category": "scientific_label",
+        "surface_text": "Aeration equipment",
+        "normalized_text": "aeration equipment",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "device label"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "Fill",
+        "category": "annotation_text",
+        "surface_text": "Fill",
+        "normalized_text": "fill",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "tidal cycle"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t14",
+        "entity_type": "text",
+        "name": "Drain",
+        "category": "annotation_text",
+        "surface_text": "Drain",
+        "normalized_text": "drain",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "tidal cycle"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t15",
+        "entity_type": "text",
+        "name": "Intermittent aeration performance",
+        "category": "legend_text",
+        "surface_text": "Intermittent aeration",
+        "normalized_text": "intermittent aeration",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "performance heading"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t16",
+        "entity_type": "text",
+        "name": "COD removal efficiency increase",
+        "category": "legend_text",
+        "surface_text": "↑ COD RE: 97%",
+        "normalized_text": "cod removal efficiency 97%",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "reported gain"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t17",
+        "entity_type": "text",
+        "name": "NH4+-N removal efficiency increase",
+        "category": "legend_text",
+        "surface_text": "↑ NH4+-N RE: 95%",
+        "normalized_text": "nh4+-n removal efficiency 95%",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "reported gain"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t18",
+        "entity_type": "text",
+        "name": "TN removal efficiency increase",
+        "category": "legend_text",
+        "surface_text": "↑ TN RE: 80%",
+        "normalized_text": "tn removal efficiency 80%",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "reported gain"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t19",
+        "entity_type": "text",
+        "name": "Tidal operation performance",
+        "category": "legend_text",
+        "surface_text": "Tidal operation",
+        "normalized_text": "tidal operation",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "performance heading"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t20",
+        "entity_type": "text",
+        "name": "Oxygen transfer rate increase",
+        "category": "legend_text",
+        "surface_text": "↑ Oxygen transfer rate: 350 g m−2 d−1",
+        "normalized_text": "oxygen transfer rate 350 g m−2 d−1",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "reported gain"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t21",
+        "entity_type": "text",
+        "name": "TN removal efficiency increase under tidal operation",
+        "category": "legend_text",
+        "surface_text": "↑ TN RE: 70%",
+        "normalized_text": "tn removal efficiency 70%",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "reported gain"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t22",
+        "entity_type": "text",
+        "name": "Electron limitation",
+        "category": "scientific_label",
+        "surface_text": "Electron limitation",
+        "normalized_text": "electron limitation",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "theme label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t23",
+        "entity_type": "text",
+        "name": "Organic-rich substrates",
+        "category": "scientific_label",
+        "surface_text": "Organic-rich substrates",
+        "normalized_text": "organic-rich substrates",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "solution label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t24",
+        "entity_type": "text",
+        "name": "Inorganic electron donor substrates",
+        "category": "scientific_label",
+        "surface_text": "Inorganic electron donor substrates",
+        "normalized_text": "inorganic electron donor substrates",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "solution label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t25",
+        "entity_type": "text",
+        "name": "Denitrification",
+        "category": "scientific_label",
+        "surface_text": "Denitrification",
+        "normalized_text": "denitrification",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "process label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t26",
+        "entity_type": "text",
+        "name": "Biochar",
+        "category": "scientific_label",
+        "surface_text": "Biochar",
+        "normalized_text": "biochar",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "material label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t27",
+        "entity_type": "text",
+        "name": "Organic matter",
+        "category": "scientific_label",
+        "surface_text": "Organic matter",
+        "normalized_text": "organic matter",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "material label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t28",
+        "entity_type": "text",
+        "name": "Fe/Mn",
+        "category": "scientific_label",
+        "surface_text": "Fe/Mn",
+        "normalized_text": "fe/mn",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "metal donor label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t29",
+        "entity_type": "text",
+        "name": "Organic-rich substrates performance",
+        "category": "legend_text",
+        "surface_text": "Organic-rich substrates",
+        "normalized_text": "organic-rich substrates",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "performance heading"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t30",
+        "entity_type": "text",
+        "name": "Inorganic electron donor substrates performance",
+        "category": "legend_text",
+        "surface_text": "Inorganic electron donor substrates",
+        "normalized_text": "inorganic electron donor substrates",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "performance heading"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t31",
+        "entity_type": "text",
+        "name": "Cold climate",
+        "category": "scientific_label",
+        "surface_text": "Cold climate",
+        "normalized_text": "cold climate",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "theme label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t32",
+        "entity_type": "text",
+        "name": "Artificial greenhouse",
+        "category": "scientific_label",
+        "surface_text": "Artificial greenhouse",
+        "normalized_text": "artificial greenhouse",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "solution label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t33",
+        "entity_type": "text",
+        "name": "Adding insulation material",
+        "category": "scientific_label",
+        "surface_text": "Adding insulation material",
+        "normalized_text": "adding insulation material",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "solution label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t34",
+        "entity_type": "text",
+        "name": "Selecting cold-resistant plants",
+        "category": "scientific_label",
+        "surface_text": "Selecting cold-resistant plants",
+        "normalized_text": "selecting cold-resistant plants",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "solution label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t35",
+        "entity_type": "text",
+        "name": "Low temperature inhibits microorganisms",
+        "category": "annotation_text",
+        "surface_text": "Inhibits the growth and activity of microorganisms",
+        "normalized_text": "inhibits the growth and activity of microorganisms",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "cold-climate effect"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t36",
+        "entity_type": "text",
+        "name": "Inoculating cold-resistant microorganisms",
+        "category": "scientific_label",
+        "surface_text": "Inoculating cold-resistant microorganisms",
+        "normalized_text": "inoculating cold-resistant microorganisms",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "solution label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t37",
+        "entity_type": "text",
+        "name": "Adding insulation material performance",
+        "category": "legend_text",
+        "surface_text": "Adding insulation material",
+        "normalized_text": "adding insulation material",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "performance heading"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t38",
+        "entity_type": "text",
+        "name": "Inoculating cold-resistant microorganisms performance",
+        "category": "legend_text",
+        "surface_text": "Inoculating cold-resistant microorganisms",
+        "normalized_text": "inoculating cold-resistant microorganisms",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "performance heading"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t39",
+        "entity_type": "text",
+        "name": "Selecting cold-resistant plants performance",
+        "category": "legend_text",
+        "surface_text": "Selecting cold-resistant plants",
+        "normalized_text": "selecting cold-resistant plants",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "performance heading"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t40",
+        "entity_type": "text",
+        "name": "Clogging risk",
+        "category": "scientific_label",
+        "surface_text": "Clogging risk",
+        "normalized_text": "clogging risk",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "theme label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t41",
+        "entity_type": "text",
+        "name": "Clogging prevention",
+        "category": "scientific_label",
+        "surface_text": "Clogging prevention",
+        "normalized_text": "clogging prevention",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "solution group"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t42",
+        "entity_type": "text",
+        "name": "Clogging repair",
+        "category": "scientific_label",
+        "surface_text": "Clogging repair",
+        "normalized_text": "clogging repair",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "solution group"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t43",
+        "entity_type": "text",
+        "name": "Blockage",
+        "category": "annotation_text",
+        "surface_text": "Blockage",
+        "normalized_text": "blockage",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "physical limitation"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t44",
+        "entity_type": "text",
+        "name": "Pretreatment",
+        "category": "scientific_label",
+        "surface_text": "Pretreatment",
+        "normalized_text": "pretreatment",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "prevention method"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t45",
+        "entity_type": "text",
+        "name": "Size distribution",
+        "category": "scientific_label",
+        "surface_text": "Size distribution",
+        "normalized_text": "size distribution",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "substrate property"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t46",
+        "entity_type": "text",
+        "name": "Selecting substrates",
+        "category": "scientific_label",
+        "surface_text": "Selecting substrates",
+        "normalized_text": "selecting substrates",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "prevention method"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t47",
+        "entity_type": "text",
+        "name": "Adding reagents such as H2O2",
+        "category": "scientific_label",
+        "surface_text": "Adding reagents (such as H2O2)",
+        "normalized_text": "adding reagents",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "repair method"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t48",
+        "entity_type": "text",
+        "name": "Adding earthworms",
+        "category": "scientific_label",
+        "surface_text": "Adding earthworms",
+        "normalized_text": "adding earthworms",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "repair method"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t49",
+        "entity_type": "text",
+        "name": "Adding earthworms performance",
+        "category": "legend_text",
+        "surface_text": "Adding earthworms",
+        "normalized_text": "adding earthworms",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "performance heading"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t50",
+        "entity_type": "text",
+        "name": "Hydraulic conductivity increase",
+        "category": "legend_text",
+        "surface_text": "↑ Increase the hydraulic conductivity by more than 60%",
+        "normalized_text": "increase the hydraulic conductivity by more than 60%",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "reported gain"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t51",
+        "entity_type": "text",
+        "name": "Adding reagent sodium hypochlorite",
+        "category": "legend_text",
+        "surface_text": "Adding reagent (sodium hypochlorite)",
+        "normalized_text": "adding reagent sodium hypochlorite",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "performance heading"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t52",
+        "entity_type": "text",
+        "name": "Recovery to original condition",
+        "category": "legend_text",
+        "surface_text": "↑ Recovery to 69% of the original condition",
+        "normalized_text": "recovery to 69% of the original condition",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "reported gain"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t8",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t9",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t12",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "v4",
+        "target_entity_id": "v3",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "t10",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "t13",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "t14",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "v6",
+        "target_entity_id": "v3",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "t11",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "v3",
+        "target_entity_id": "t11",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "t15",
+        "target_entity_id": "t16",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "t15",
+        "target_entity_id": "t17",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "t15",
+        "target_entity_id": "t18",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "t19",
+        "target_entity_id": "t20",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "t19",
+        "target_entity_id": "t21",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "t22",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "t23",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "t24",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "t26",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "t27",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "t28",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "t25",
+        "target_entity_id": "v9",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r23",
+        "source_entity_id": "v7",
+        "target_entity_id": "t25",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r24",
+        "source_entity_id": "v8",
+        "target_entity_id": "t25",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r25",
+        "source_entity_id": "t29",
+        "target_entity_id": "t23",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r26",
+        "source_entity_id": "t30",
+        "target_entity_id": "t24",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r27",
+        "source_entity_id": "t31",
+        "target_entity_id": "v10",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r28",
+        "source_entity_id": "t32",
+        "target_entity_id": "v11",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r29",
+        "source_entity_id": "t33",
+        "target_entity_id": "v12",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r30",
+        "source_entity_id": "t36",
+        "target_entity_id": "v13",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r31",
+        "source_entity_id": "v10",
+        "target_entity_id": "t35",
+        "relation_type": "inhibits",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r32",
+        "source_entity_id": "t37",
+        "target_entity_id": "t33",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r33",
+        "source_entity_id": "t38",
+        "target_entity_id": "t36",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r34",
+        "source_entity_id": "t39",
+        "target_entity_id": "t34",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r35",
+        "source_entity_id": "t40",
+        "target_entity_id": "v14",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r36",
+        "source_entity_id": "t43",
+        "target_entity_id": "v14",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r37",
+        "source_entity_id": "t44",
+        "target_entity_id": "v15",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r38",
+        "source_entity_id": "t47",
+        "target_entity_id": "v16",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r39",
+        "source_entity_id": "t48",
+        "target_entity_id": "v17",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r40",
+        "source_entity_id": "v15",
+        "target_entity_id": "v14",
+        "relation_type": "inhibits",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r41",
+        "source_entity_id": "t46",
+        "target_entity_id": "v14",
+        "relation_type": "inhibits",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r42",
+        "source_entity_id": "v16",
+        "target_entity_id": "t50",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r43",
+        "source_entity_id": "v17",
+        "target_entity_id": "t50",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r44",
+        "source_entity_id": "t49",
+        "target_entity_id": "t48",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r45",
+        "source_entity_id": "t51",
+        "target_entity_id": "t47",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r46",
+        "source_entity_id": "t51",
+        "target_entity_id": "t52",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      }
+    ]
+  }
+}

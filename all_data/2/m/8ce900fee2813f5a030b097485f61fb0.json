@@ -1,0 +1,786 @@
+{
+  "image_name": "8ce900fee2813f5a030b097485f61fb0.png",
+  "prompt_text": "The figure illustrates how a molecule, shown here as caffeine, can be represented as a graph for machine learning and then processed by a graph neural network. In the top portion, atoms are treated as nodes and bonds as edges. Different colors indicate atom types such as carbon, oxygen, nitrogen, and hydrogen, while single and double bonds are distinguished by different line styles. The caffeine structure is paired with common graph encodings: an adjacency matrix describing which atoms are connected, an edge list giving bond connections, and node and edge feature vectors that store atom identities and bond types numerically. A small legend links the visual chemistry to these labels.\n\nThe lower portion explains neural message passing on such a graph. A central node receives information from neighboring nodes through directed messages along edges. Each neighbor has its own node feature and each connecting bond has an edge feature, and these are combined into messages sent toward the central node. The visual emphasis suggests that the updated representation of one atom depends on the local chemical environment around it, which is the key idea behind graph-based learning on molecular structures.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "caffeine molecular graph",
+        "category": "molecule",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "atom nodes",
+          "bond edges",
+          "ring-like structure"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "atom nodes with color-coded types",
+        "category": "pathway_component",
+        "panel": "a",
+        "count": 4,
+        "key_attributes": [
+          "carbon oxygen nitrogen hydrogen",
+          "colored circles",
+          "node encoding"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "single and double bond edges",
+        "category": "arrow",
+        "panel": "a",
+        "count": 2,
+        "key_attributes": [
+          "single-line",
+          "double-line",
+          "bond type encoding"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "adjacency matrix block",
+        "category": "region",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "matrix layout",
+          "binary entries",
+          "graph connectivity"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "COO edge list block",
+        "category": "region",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "two-row list",
+          "bond connections",
+          "sparse graph encoding"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "node feature vector block",
+        "category": "region",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "X vector",
+          "atom identities",
+          "numeric encoding"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "edge feature vector block",
+        "category": "region",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "E vector",
+          "bond types",
+          "numeric encoding"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "chemistry-to-label legend",
+        "category": "legend_key",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "node labels",
+          "edge labels",
+          "color and line key"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "central target node",
+        "category": "pathway_component",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "yellow node",
+          "receiving messages",
+          "updated representation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v10",
+        "entity_type": "visual",
+        "name": "neighbor nodes around central node",
+        "category": "pathway_component",
+        "panel": "b",
+        "count": 4,
+        "key_attributes": [
+          "surrounding nodes",
+          "local environment",
+          "distinct features"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v11",
+        "entity_type": "visual",
+        "name": "directed message arrows toward central node",
+        "category": "arrow",
+        "panel": "b",
+        "count": 4,
+        "key_attributes": [
+          "inward direction",
+          "message passing",
+          "red curved arrows"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v12",
+        "entity_type": "visual",
+        "name": "connecting graph edges with edge features",
+        "category": "arrow",
+        "panel": "b",
+        "count": 4,
+        "key_attributes": [
+          "neighbor links",
+          "edge-associated",
+          "dark lines"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v13",
+        "entity_type": "visual",
+        "name": "blurred background graph context",
+        "category": "region",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "faded nodes",
+          "de-emphasized",
+          "context only"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "panel label a",
+        "category": "panel_label",
+        "surface_text": "a",
+        "normalized_text": "a",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "panel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "Caffeine graph title",
+        "category": "annotation_text",
+        "surface_text": "Caffeine graph",
+        "normalized_text": "Caffeine graph",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "panel title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "Adjacency matrix label",
+        "category": "scientific_label",
+        "surface_text": "Adjacency matrix",
+        "normalized_text": "Adjacency matrix",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "graph encoding"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "adjacency matrix equation",
+        "category": "equation",
+        "surface_text": "A =",
+        "normalized_text": "A =",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "matrix symbol"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "COO edge list label",
+        "category": "scientific_label",
+        "surface_text": "COO edge list",
+        "normalized_text": "COO edge list",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "sparse edge encoding"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "edge list equation",
+        "category": "equation",
+        "surface_text": "I =",
+        "normalized_text": "I =",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "list symbol"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "Node features label",
+        "category": "scientific_label",
+        "surface_text": "Node features",
+        "normalized_text": "Node features",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "feature encoding"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "node feature vector equation",
+        "category": "equation",
+        "surface_text": "X = [1, 0, 2, 2, ...]^T",
+        "normalized_text": "X = [1, 0, 2, 2, ...]^T",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "X vector"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "Edge features label",
+        "category": "scientific_label",
+        "surface_text": "Edge features",
+        "normalized_text": "Edge features",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "feature encoding"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "edge feature vector equation",
+        "category": "equation",
+        "surface_text": "E = [2, 1, 1, ...]^T",
+        "normalized_text": "E = [2, 1, 1, ...]^T",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "E vector"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "legend node labels header",
+        "category": "legend_text",
+        "surface_text": "Nodes; Labels",
+        "normalized_text": "Nodes; Labels",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "legend header"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "atom type legend entries",
+        "category": "legend_text",
+        "surface_text": "Carbon; Oxygen; Nitrogen; Hydrogen",
+        "normalized_text": "Carbon; Oxygen; Nitrogen; Hydrogen",
+        "panel": "a",
+        "count": 4,
+        "key_attributes": [
+          "atom types",
+          "color legend"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "atom type numeric labels",
+        "category": "number",
+        "surface_text": "0; 1; 2; 3",
+        "normalized_text": "0; 1; 2; 3",
+        "panel": "a",
+        "count": 4,
+        "key_attributes": [
+          "category ids"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t14",
+        "entity_type": "text",
+        "name": "edge legend entries",
+        "category": "legend_text",
+        "surface_text": "Edges; Single bond; Double bond",
+        "normalized_text": "Edges; Single bond; Double bond",
+        "panel": "a",
+        "count": 3,
+        "key_attributes": [
+          "bond types",
+          "line-style legend"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t15",
+        "entity_type": "text",
+        "name": "panel label b",
+        "category": "panel_label",
+        "surface_text": "b",
+        "normalized_text": "b",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "panel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t16",
+        "entity_type": "text",
+        "name": "Neural message passing title",
+        "category": "annotation_text",
+        "surface_text": "Neural message passing",
+        "normalized_text": "Neural message passing",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "panel title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t17",
+        "entity_type": "text",
+        "name": "node feature labels in message passing",
+        "category": "scientific_label",
+        "surface_text": "x_a; x_b; x_c; x_d; x_e",
+        "normalized_text": "x_a; x_b; x_c; x_d; x_e",
+        "panel": "b",
+        "count": 5,
+        "key_attributes": [
+          "node features",
+          "central and neighbors"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t18",
+        "entity_type": "text",
+        "name": "message labels",
+        "category": "scientific_label",
+        "surface_text": "m_a,b; m_a,c; m_a,d; m_a,e",
+        "normalized_text": "m_a,b; m_a,c; m_a,d; m_a,e",
+        "panel": "b",
+        "count": 4,
+        "key_attributes": [
+          "directed messages"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t19",
+        "entity_type": "text",
+        "name": "edge feature labels",
+        "category": "scientific_label",
+        "surface_text": "e_a,b; e_a,c; e_a,d; e_a,e",
+        "normalized_text": "e_a,b; e_a,c; e_a,d; e_a,e",
+        "panel": "b",
+        "count": 4,
+        "key_attributes": [
+          "bond features"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t2",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t3",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t5",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t7",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "t9",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "v2",
+        "target_entity_id": "v1",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "v3",
+        "target_entity_id": "v1",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "v8",
+        "target_entity_id": "v2",
+        "relation_type": "legend_for",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "v8",
+        "target_entity_id": "v3",
+        "relation_type": "legend_for",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "t12",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "t14",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "v1",
+        "target_entity_id": "v4",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "v1",
+        "target_entity_id": "v5",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "v1",
+        "target_entity_id": "v6",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "v1",
+        "target_entity_id": "v7",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "v4",
+        "target_entity_id": "v5",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "v5",
+        "target_entity_id": "v6",
+        "relation_type": "above",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "v6",
+        "target_entity_id": "v7",
+        "relation_type": "above",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "t16",
+        "target_entity_id": "v9",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "v10",
+        "target_entity_id": "v9",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "v12",
+        "target_entity_id": "v9",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "v12",
+        "target_entity_id": "v10",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r23",
+        "source_entity_id": "v10",
+        "target_entity_id": "v9",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r24",
+        "source_entity_id": "v11",
+        "target_entity_id": "v9",
+        "relation_type": "points_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r25",
+        "source_entity_id": "t17",
+        "target_entity_id": "v9",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r26",
+        "source_entity_id": "t17",
+        "target_entity_id": "v10",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r27",
+        "source_entity_id": "t18",
+        "target_entity_id": "v11",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r28",
+        "source_entity_id": "t19",
+        "target_entity_id": "v12",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r29",
+        "source_entity_id": "v1",
+        "target_entity_id": "v9",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "cross_panel"
+      }
+    ]
+  }
+}

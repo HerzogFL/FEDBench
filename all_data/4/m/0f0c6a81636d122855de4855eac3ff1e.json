@@ -1,0 +1,1451 @@
+{
+  "image_name": "0f0c6a81636d122855de4855eac3ff1e.png",
+  "prompt_text": "The figure summarizes how lysosomal damage can trigger several regulated cell-death pathways. It centers on a ruptured lysosome releasing contents such as cathepsins and iron into the cytosol after insults like photodamage, detergents, cationic amphiphilic drugs, or other lysosomotropic agents. A key early event is ROS generation: oxidative damage causes protein and lipid peroxidation, while iron and hydrogen peroxide further amplify ROS, promoting ferroptosis.\n\nLysosomal injury also connects to mitochondrial apoptosis. Cathepsin activity appears to activate BID/tBID and influence BAX/BAK at the mitochondrion, overcoming anti-apoptotic BCL-2 family proteins. This leads to cytochrome c release, apoptosome formation with APAF1 and caspase-9, then caspase-3/7 activation and apoptosis.\n\nAt the same time, leaked lysosomal factors seem to promote inflammasome signaling. NLRP3 recruits pro-caspase-1, producing active caspase-1, which processes IL-1β and IL-18 and cleaves gasdermin D. The gasdermin N-terminal fragment forms membrane pores, driving pyroptosis.\n\nA separate branch links lysosomal damage to necroptosis: cathepsins and/or caspase-8 regulation feed into the RIP1–RIP3–MLKL necrosome. Overall, the image emphasizes lysosomal membrane damage as a central hub that can route cells into apoptosis, pyroptosis, necroptosis, or ferroptosis depending on downstream signaling.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "damaged lysosome",
+        "category": "organelle",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "ruptured membrane",
+          "central hub",
+          "releases contents"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "mitochondrion",
+        "category": "organelle",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "outer membrane",
+          "apoptosis branch",
+          "BAX/BAK site"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "inflammasome complex",
+        "category": "pathway_component",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "radial complex",
+          "NLRP3 branch",
+          "caspase-1 activation"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "necrosome complex",
+        "category": "pathway_component",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "RIP1-RIP3-MLKL",
+          "bottom branch",
+          "death complex"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "gasdermin pore in plasma membrane",
+        "category": "membrane",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "membrane pore",
+          "pyroptosis branch",
+          "right edge"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "plasma membrane",
+        "category": "membrane",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "cell boundary",
+          "right edge",
+          "pore location"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "reactive oxygen species icons",
+        "category": "molecule",
+        "panel": "single_panel",
+        "count": 3,
+        "key_attributes": [
+          "red burst icons",
+          "ROS amplification",
+          "ferroptosis branch"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "cathepsin enzyme icons",
+        "category": "protein",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "released proteases",
+          "pac-man icons",
+          "lysosomal contents"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "iron and hydrogen peroxide species",
+        "category": "molecule",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "Fe2+",
+          "H2O2",
+          "ROS amplification"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v10",
+        "entity_type": "visual",
+        "name": "arrows linking lysosomal damage to death pathways",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "branching flow",
+          "causal signaling",
+          "hub-and-spoke"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v11",
+        "entity_type": "visual",
+        "name": "lightning bolt insult symbol",
+        "category": "legend_key",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "damage trigger",
+          "left side",
+          "insult cue"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "damaged lysosome label",
+        "category": "annotation_text",
+        "surface_text": "Damaged lysosome",
+        "normalized_text": "Damaged lysosome",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "central organelle",
+          "rupture source"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "ROS label",
+        "category": "scientific_label",
+        "surface_text": "ROS",
+        "normalized_text": "ROS",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "oxidative stress",
+          "early event"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "protein and lipid peroxidation",
+        "category": "annotation_text",
+        "surface_text": "Peroxidation of proteins and lipids",
+        "normalized_text": "Peroxidation of proteins and lipids",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "oxidative damage",
+          "ROS consequence"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "Fe2+ label",
+        "category": "scientific_label",
+        "surface_text": "Fe2+",
+        "normalized_text": "Fe2+",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "iron release",
+          "ROS amplification"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "H2O2 label",
+        "category": "scientific_label",
+        "surface_text": "H2O2",
+        "normalized_text": "H2O2",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "peroxide",
+          "ROS amplification"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "cathepsins label",
+        "category": "scientific_label",
+        "surface_text": "Cathepsins",
+        "normalized_text": "Cathepsins",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "lysosomal enzymes",
+          "released contents"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "photodamage insult",
+        "category": "legend_text",
+        "surface_text": "Photodamage",
+        "normalized_text": "Photodamage",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "lysosomal insult"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "detergents insult",
+        "category": "legend_text",
+        "surface_text": "Detergents",
+        "normalized_text": "Detergents",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "lysosomal insult"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "CADs insult",
+        "category": "legend_text",
+        "surface_text": "CADs",
+        "normalized_text": "cationic amphiphilic drugs",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "lysosomal insult",
+          "drug class"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "lysosomotropic agents insult",
+        "category": "legend_text",
+        "surface_text": "Lysosomotropic agents",
+        "normalized_text": "Lysosomotropic agents",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "lysosomal insult"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "B/D/L label",
+        "category": "scientific_label",
+        "surface_text": "B/D/L",
+        "normalized_text": "B/D/L",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "cathepsin family shorthand"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "mitochondrion label",
+        "category": "scientific_label",
+        "surface_text": "Mitochondrion",
+        "normalized_text": "Mitochondrion",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "apoptosis organelle"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "BAK label",
+        "category": "scientific_label",
+        "surface_text": "BAK",
+        "normalized_text": "BAK",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "pro-apoptotic",
+          "mitochondrial membrane"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t14",
+        "entity_type": "text",
+        "name": "BAX label",
+        "category": "scientific_label",
+        "surface_text": "BAX",
+        "normalized_text": "BAX",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "pro-apoptotic",
+          "mitochondrial membrane"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t15",
+        "entity_type": "text",
+        "name": "cytochrome c label",
+        "category": "scientific_label",
+        "surface_text": "Cytochrome c",
+        "normalized_text": "Cytochrome c",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "released factor",
+          "apoptosome input"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t16",
+        "entity_type": "text",
+        "name": "APAF1 label",
+        "category": "scientific_label",
+        "surface_text": "APAF1",
+        "normalized_text": "APAF1",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "apoptosome component"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t17",
+        "entity_type": "text",
+        "name": "apoptosome label",
+        "category": "scientific_label",
+        "surface_text": "Apoptosome",
+        "normalized_text": "Apoptosome",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "apoptosis complex"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t18",
+        "entity_type": "text",
+        "name": "caspase-9 label",
+        "category": "scientific_label",
+        "surface_text": "Caspase-9",
+        "normalized_text": "Caspase-9",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "initiator caspase"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t19",
+        "entity_type": "text",
+        "name": "caspase-3/7 label",
+        "category": "scientific_label",
+        "surface_text": "Caspase-3/7",
+        "normalized_text": "Caspase-3/7",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "executioner caspases"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t20",
+        "entity_type": "text",
+        "name": "apoptosis label",
+        "category": "annotation_text",
+        "surface_text": "Apoptosis",
+        "normalized_text": "Apoptosis",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "cell-death outcome"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t21",
+        "entity_type": "text",
+        "name": "BCL-2 label",
+        "category": "scientific_label",
+        "surface_text": "BCL-2",
+        "normalized_text": "BCL-2",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "anti-apoptotic family"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t22",
+        "entity_type": "text",
+        "name": "BCL-XL label",
+        "category": "scientific_label",
+        "surface_text": "BCL-XL",
+        "normalized_text": "BCL-XL",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "anti-apoptotic family"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t23",
+        "entity_type": "text",
+        "name": "MCL-1 label",
+        "category": "scientific_label",
+        "surface_text": "MCL-1",
+        "normalized_text": "MCL-1",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "anti-apoptotic family"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t24",
+        "entity_type": "text",
+        "name": "tBID label",
+        "category": "scientific_label",
+        "surface_text": "tBID",
+        "normalized_text": "tBID",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "activated BID",
+          "apoptosis link"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t25",
+        "entity_type": "text",
+        "name": "BID label",
+        "category": "scientific_label",
+        "surface_text": "BID",
+        "normalized_text": "BID",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "BH3-only protein"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t26",
+        "entity_type": "text",
+        "name": "ferroptosis label",
+        "category": "annotation_text",
+        "surface_text": "Ferroptosis",
+        "normalized_text": "Ferroptosis",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "cell-death outcome"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t27",
+        "entity_type": "text",
+        "name": "pro-caspase-1 label",
+        "category": "scientific_label",
+        "surface_text": "Pro-caspase-1",
+        "normalized_text": "Pro-caspase-1",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "inflammasome substrate"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t28",
+        "entity_type": "text",
+        "name": "NLRP3 label",
+        "category": "scientific_label",
+        "surface_text": "NLRP3",
+        "normalized_text": "NLRP3",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "inflammasome sensor"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t29",
+        "entity_type": "text",
+        "name": "caspase-1 label",
+        "category": "scientific_label",
+        "surface_text": "Caspase-1",
+        "normalized_text": "Caspase-1",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "active inflammatory caspase"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t30",
+        "entity_type": "text",
+        "name": "pro-IL-1β label",
+        "category": "scientific_label",
+        "surface_text": "Pro-IL-1β",
+        "normalized_text": "Pro-IL-1β",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "caspase-1 substrate"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t31",
+        "entity_type": "text",
+        "name": "IL-1β label",
+        "category": "scientific_label",
+        "surface_text": "IL-1β",
+        "normalized_text": "IL-1β",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "processed cytokine"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t32",
+        "entity_type": "text",
+        "name": "pro-IL-18 label",
+        "category": "scientific_label",
+        "surface_text": "Pro-IL-18",
+        "normalized_text": "Pro-IL-18",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "caspase-1 substrate"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t33",
+        "entity_type": "text",
+        "name": "IL-18 label",
+        "category": "scientific_label",
+        "surface_text": "IL-18",
+        "normalized_text": "IL-18",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "processed cytokine"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t34",
+        "entity_type": "text",
+        "name": "GSDMD-NT label",
+        "category": "scientific_label",
+        "surface_text": "GSDMD-NT",
+        "normalized_text": "GSDMD-NT",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "gasdermin N-terminus",
+          "pore-forming fragment"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t35",
+        "entity_type": "text",
+        "name": "GSDMD-CT label",
+        "category": "scientific_label",
+        "surface_text": "GSDMD-CT",
+        "normalized_text": "GSDMD-CT",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "gasdermin C-terminus"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t36",
+        "entity_type": "text",
+        "name": "pyroptosis label",
+        "category": "annotation_text",
+        "surface_text": "Pyroptosis",
+        "normalized_text": "Pyroptosis",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "cell-death outcome"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t37",
+        "entity_type": "text",
+        "name": "GSDMD pore label",
+        "category": "scientific_label",
+        "surface_text": "GSDMD pore",
+        "normalized_text": "GSDMD pore",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "membrane pore",
+          "pyroptosis effector"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t38",
+        "entity_type": "text",
+        "name": "caspase-8 label",
+        "category": "scientific_label",
+        "surface_text": "Caspase-8",
+        "normalized_text": "Caspase-8",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "necroptosis regulator"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t39",
+        "entity_type": "text",
+        "name": "RIP1 label",
+        "category": "scientific_label",
+        "surface_text": "RIP1",
+        "normalized_text": "RIP1",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "necrosome component"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t40",
+        "entity_type": "text",
+        "name": "RIP3 label",
+        "category": "scientific_label",
+        "surface_text": "RIP3",
+        "normalized_text": "RIP3",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "necrosome component"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t41",
+        "entity_type": "text",
+        "name": "MLKL label",
+        "category": "scientific_label",
+        "surface_text": "MLKL",
+        "normalized_text": "MLKL",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "necroptosis effector"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t42",
+        "entity_type": "text",
+        "name": "necrosome label",
+        "category": "scientific_label",
+        "surface_text": "Necrosome",
+        "normalized_text": "Necrosome",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "RIP1-RIP3-MLKL complex"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t43",
+        "entity_type": "text",
+        "name": "necroptosis label",
+        "category": "annotation_text",
+        "surface_text": "Necroptosis",
+        "normalized_text": "Necroptosis",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "cell-death outcome"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t44",
+        "entity_type": "text",
+        "name": "plasma membrane label",
+        "category": "scientific_label",
+        "surface_text": "Plasma membrane",
+        "normalized_text": "Plasma membrane",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "cell boundary"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t45",
+        "entity_type": "text",
+        "name": "step marker 1",
+        "category": "panel_label",
+        "surface_text": "①",
+        "normalized_text": "1",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "numbered callout"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t46",
+        "entity_type": "text",
+        "name": "step marker 2",
+        "category": "panel_label",
+        "surface_text": "②",
+        "normalized_text": "2",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "numbered callout"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t47",
+        "entity_type": "text",
+        "name": "step marker 3",
+        "category": "panel_label",
+        "surface_text": "③",
+        "normalized_text": "3",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "numbered callout"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t48",
+        "entity_type": "text",
+        "name": "step marker 4",
+        "category": "panel_label",
+        "surface_text": "④",
+        "normalized_text": "4",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "numbered callout"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t49",
+        "entity_type": "text",
+        "name": "step marker 5",
+        "category": "panel_label",
+        "surface_text": "⑤",
+        "normalized_text": "5",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "numbered callout"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t1",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t12",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t28",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t42",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "t37",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "t44",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "t2",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "t6",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "t4",
+        "target_entity_id": "v9",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "t5",
+        "target_entity_id": "v9",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "v5",
+        "target_entity_id": "v6",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "v1",
+        "target_entity_id": "v7",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "v9",
+        "target_entity_id": "v7",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "v7",
+        "target_entity_id": "t3",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "v7",
+        "target_entity_id": "t26",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "v1",
+        "target_entity_id": "v8",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "v8",
+        "target_entity_id": "t25",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "t25",
+        "target_entity_id": "t24",
+        "relation_type": "transforms_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "t24",
+        "target_entity_id": "t13",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "t24",
+        "target_entity_id": "t14",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "t21",
+        "target_entity_id": "t13",
+        "relation_type": "inhibits",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "t22",
+        "target_entity_id": "t14",
+        "relation_type": "inhibits",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r23",
+        "source_entity_id": "t23",
+        "target_entity_id": "t14",
+        "relation_type": "inhibits",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r24",
+        "source_entity_id": "t13",
+        "target_entity_id": "v2",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r25",
+        "source_entity_id": "t14",
+        "target_entity_id": "v2",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r26",
+        "source_entity_id": "t13",
+        "target_entity_id": "t15",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r27",
+        "source_entity_id": "t14",
+        "target_entity_id": "t15",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r28",
+        "source_entity_id": "t15",
+        "target_entity_id": "t17",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r29",
+        "source_entity_id": "t16",
+        "target_entity_id": "t17",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r30",
+        "source_entity_id": "t17",
+        "target_entity_id": "t18",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r31",
+        "source_entity_id": "t18",
+        "target_entity_id": "t19",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r32",
+        "source_entity_id": "t19",
+        "target_entity_id": "t20",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r33",
+        "source_entity_id": "v1",
+        "target_entity_id": "v3",
+        "relation_type": "activates",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r34",
+        "source_entity_id": "t28",
+        "target_entity_id": "t27",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r35",
+        "source_entity_id": "t27",
+        "target_entity_id": "t29",
+        "relation_type": "transforms_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r36",
+        "source_entity_id": "t29",
+        "target_entity_id": "t31",
+        "relation_type": "transforms_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r37",
+        "source_entity_id": "t29",
+        "target_entity_id": "t33",
+        "relation_type": "transforms_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r38",
+        "source_entity_id": "t29",
+        "target_entity_id": "t34",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r39",
+        "source_entity_id": "t34",
+        "target_entity_id": "v5",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r40",
+        "source_entity_id": "v5",
+        "target_entity_id": "t36",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r41",
+        "source_entity_id": "v1",
+        "target_entity_id": "v4",
+        "relation_type": "activates",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r42",
+        "source_entity_id": "v8",
+        "target_entity_id": "v4",
+        "relation_type": "activates",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r43",
+        "source_entity_id": "t38",
+        "target_entity_id": "v4",
+        "relation_type": "inhibits",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r44",
+        "source_entity_id": "t39",
+        "target_entity_id": "v4",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r45",
+        "source_entity_id": "t40",
+        "target_entity_id": "v4",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r46",
+        "source_entity_id": "t41",
+        "target_entity_id": "v4",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r47",
+        "source_entity_id": "v4",
+        "target_entity_id": "t43",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r48",
+        "source_entity_id": "t7",
+        "target_entity_id": "v11",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r49",
+        "source_entity_id": "t8",
+        "target_entity_id": "v11",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r50",
+        "source_entity_id": "t9",
+        "target_entity_id": "v11",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r51",
+        "source_entity_id": "t10",
+        "target_entity_id": "v11",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r52",
+        "source_entity_id": "v11",
+        "target_entity_id": "v1",
+        "relation_type": "points_to",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      }
+    ]
+  }
+}

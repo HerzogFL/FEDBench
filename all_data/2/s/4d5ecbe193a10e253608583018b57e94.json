@@ -1,0 +1,415 @@
+{
+  "image_name": "4d5ecbe193a10e253608583018b57e94.png",
+  "prompt_text": "This figure shows a lattice-style quantum error-correcting code built from two kinds of qubits: yellow “code qubits” placed on the grid vertices and dark blue “auxillary qubits” located at the centers of square plaquettes and around the boundary. The colored square tiles indicate two alternating stabilizer checks on groups of four neighboring code qubits. One type, shown in bluish tiles, fixes parity in the standard Z basis, while the other, shown in reddish tiles, fixes parity in the conjugate X basis.\n\nOverall, the image illustrates how local parity constraints are arranged across a finite patch of the code. The alternating checkerboard pattern of blue and red plaquettes suggests that neighboring stabilizers measure complementary kinds of parity. Along the edges, rounded boundary regions and extra ancilla-like qubits indicate how the code terminates at the boundary while preserving the structure of the checks.\n\nDashed outlines highlight the nonlocal logical operators of the encoded qubit. A blue dashed horizontal string marks the logical Z operator as a parity string in the standard basis across one direction of the patch, while a red dashed vertical string marks logical X as a parity string in the conjugate basis across the other direction. The figure therefore emphasizes the contrast between local stabilizer measurements and extended logical parity strings.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "code qubits",
+        "category": "pathway_component",
+        "panel": "single_panel",
+        "count": 25,
+        "key_attributes": [
+          "yellow circles",
+          "grid vertices",
+          "finite patch"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "auxiliary qubits",
+        "category": "pathway_component",
+        "panel": "single_panel",
+        "count": 20,
+        "key_attributes": [
+          "dark blue circles",
+          "plaquette centers",
+          "boundary positions"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "standard Z basis stabilizer plaquettes",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 8,
+        "key_attributes": [
+          "bluish tiles",
+          "square plaquettes",
+          "checkerboard pattern"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "conjugate X basis stabilizer plaquettes",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 8,
+        "key_attributes": [
+          "reddish tiles",
+          "square plaquettes",
+          "checkerboard pattern"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "logical Z operator string",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "blue dashed outline",
+          "horizontal string",
+          "nonlocal operator"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "logical X operator string",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "red dashed outline",
+          "vertical string",
+          "nonlocal operator"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "rounded boundary regions",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 8,
+        "key_attributes": [
+          "edge caps",
+          "rounded ends",
+          "code boundary"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "legend box",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "right-side inset",
+          "boxed legend",
+          "white background"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "Code qubit label",
+        "category": "scientific_label",
+        "surface_text": "Code qubit",
+        "normalized_text": "code qubit",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "legend label"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "Auxiliary qubit label",
+        "category": "scientific_label",
+        "surface_text": "Auxillary qubit",
+        "normalized_text": "auxiliary qubit",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "legend label",
+          "misspelled in figure"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "Z stabilizer legend text",
+        "category": "legend_text",
+        "surface_text": "Fixed parity in standard Z basis on 4 code qubits",
+        "normalized_text": "fixed parity in standard Z basis on 4 code qubits",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "blue plaquette explanation"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "X stabilizer legend text",
+        "category": "legend_text",
+        "surface_text": "Fixed parity in conjugate X basis on 4 code qubits",
+        "normalized_text": "fixed parity in conjugate X basis on 4 code qubits",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "red plaquette explanation"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "Logical Z annotation",
+        "category": "annotation_text",
+        "surface_text": "Logical Z is parity string in standard basis",
+        "normalized_text": "logical Z is parity string in standard basis",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "blue dashed label"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "Logical X annotation",
+        "category": "annotation_text",
+        "surface_text": "Logical X is parity string in conjugate basis",
+        "normalized_text": "logical X is parity string in conjugate basis",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "red dashed label"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "v2",
+        "target_entity_id": "v3",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "v2",
+        "target_entity_id": "v4",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "v3",
+        "target_entity_id": "v1",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "v4",
+        "target_entity_id": "v1",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "v3",
+        "target_entity_id": "v4",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "v2",
+        "target_entity_id": "v7",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "v5",
+        "target_entity_id": "v1",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "v6",
+        "target_entity_id": "v1",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "v5",
+        "target_entity_id": "v6",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "v5",
+        "target_entity_id": "v6",
+        "relation_type": "above",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "t1",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "t2",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "t3",
+        "target_entity_id": "v3",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "t4",
+        "target_entity_id": "v4",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "t5",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "t6",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "v8",
+        "target_entity_id": "v1",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "v8",
+        "target_entity_id": "v2",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "v8",
+        "target_entity_id": "v3",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "v8",
+        "target_entity_id": "v4",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      }
+    ]
+  }
+}

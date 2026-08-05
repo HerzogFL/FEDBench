@@ -1,0 +1,998 @@
+{
+  "image_name": "1e7e916cf2c01ed0381506edfe11d700.png",
+  "prompt_text": "The figure summarizes brain circuits that lower or raise body heat production to control hibernation and torpor. In the upper schematic, adenosine acts through hindbrain and hypothalamic regions, including the NTS, PVN, SCN, and especially the VLPO, to suppress thermogenesis. This drop in heat production is linked to entry into hibernation. A contrasting pathway, shown in a different color, promotes thermogenesis and is associated with arousal from hibernation, implying that the balance between these pathways switches the animal into or out of the hypometabolic state.\n\nThe lower schematic focuses on daily torpor and identifies a hypothalamic “Q-neuron” population as a key controller. These neurons are marked by several molecular features, including PACAP, VGlut2, and LepR, and they appear to integrate environmental warmth and fasting signals, with fasting represented as reduced leptin. The Q-neurons send glutamatergic output to the DMH and then influence the RPa through a GABAergic step, ultimately decreasing thermogenesis and producing daily torpor. Overall, the figure presents a coordinated neural network in which metabolic and thermal cues converge on hypothalamic circuits that actively reduce heat generation to drive energy-saving states.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "hindbrain and hypothalamic brain schematic",
+        "category": "region",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "brain silhouette",
+          "multiple labeled nuclei",
+          "schematic anatomy"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "adenosine suppressive pathway arrows",
+        "category": "arrow",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "blue pathway",
+          "projects to NTS PVN SCN VLPO",
+          "downstream inhibition"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "thermogenesis-promoting pathway arrows",
+        "category": "arrow",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "red pathway",
+          "contrasting color",
+          "arousal-associated"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "brain schematic with Q-neuron circuit",
+        "category": "region",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "hypothalamic circuit",
+          "DMH and RPa shown",
+          "schematic anatomy"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "Q-neuron population",
+        "category": "cell",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "cluster of neurons",
+          "highlighted inset",
+          "hypothalamic controller"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "environmental and metabolic input arrows to Q-neurons",
+        "category": "arrow",
+        "panel": "b",
+        "count": 2,
+        "key_attributes": [
+          "warm exposure input",
+          "fasting input",
+          "convergent signals"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "glutamatergic projection from Q-neuron to DMH",
+        "category": "arrow",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "Q-neuron to DMH",
+          "glutamate",
+          "descending projection"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "GABAergic projection from DMH to RPa",
+        "category": "arrow",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "DMH to RPa",
+          "GABA",
+          "inhibitory step"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "molecular feature list box for Q-neurons",
+        "category": "legend_key",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "marker list",
+          "two-column box",
+          "Q-neuron features"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v10",
+        "entity_type": "visual",
+        "name": "dashed circular inset around Q-neurons",
+        "category": "region",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "zoom callout",
+          "dashed outline",
+          "neuron emphasis"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "v11",
+        "entity_type": "visual",
+        "name": "panel marker a",
+        "category": "panel_marker",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "top panel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "v12",
+        "entity_type": "visual",
+        "name": "panel marker b",
+        "category": "panel_marker",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "bottom panel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "panel label a",
+        "category": "panel_label",
+        "surface_text": "a",
+        "normalized_text": "a",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "panel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "Adenosine",
+        "category": "scientific_label",
+        "surface_text": "Adenosine",
+        "normalized_text": "adenosine",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "input signal"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "NTS",
+        "category": "scientific_label",
+        "surface_text": "NTS",
+        "normalized_text": "NTS",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "hindbrain region"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "PVN",
+        "category": "scientific_label",
+        "surface_text": "PVN",
+        "normalized_text": "PVN",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "hypothalamic region"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "SCN",
+        "category": "scientific_label",
+        "surface_text": "SCN",
+        "normalized_text": "SCN",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "hypothalamic region"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "VLPO",
+        "category": "scientific_label",
+        "surface_text": "VLPO",
+        "normalized_text": "VLPO",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "hypothalamic region",
+          "especially emphasized"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "decreased thermogenesis",
+        "category": "annotation_text",
+        "surface_text": "↓ Thermogenesis",
+        "normalized_text": "decreased thermogenesis",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "suppressed heat production"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "increased thermogenesis",
+        "category": "annotation_text",
+        "surface_text": "↑ Thermogenesis",
+        "normalized_text": "increased thermogenesis",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "promoted heat production"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "Entrance into hibernation",
+        "category": "annotation_text",
+        "surface_text": "Entrance into hibernation",
+        "normalized_text": "entrance into hibernation",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "hibernation entry outcome"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "Arousal from hibernation",
+        "category": "annotation_text",
+        "surface_text": "Arousal from hibernation",
+        "normalized_text": "arousal from hibernation",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "hibernation exit outcome"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "panel label b",
+        "category": "panel_label",
+        "surface_text": "b",
+        "normalized_text": "b",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "panel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "Warm exposure",
+        "category": "annotation_text",
+        "surface_text": "Warm exposure",
+        "normalized_text": "warm exposure",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "environmental cue"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "Fasting",
+        "category": "annotation_text",
+        "surface_text": "Fasting",
+        "normalized_text": "fasting",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "metabolic cue"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t14",
+        "entity_type": "text",
+        "name": "decreased leptin",
+        "category": "annotation_text",
+        "surface_text": "↓ Leptin",
+        "normalized_text": "decreased leptin",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "fasting signal"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t15",
+        "entity_type": "text",
+        "name": "PACAP",
+        "category": "legend_text",
+        "surface_text": "PACAP",
+        "normalized_text": "PACAP",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "Q-neuron marker"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t16",
+        "entity_type": "text",
+        "name": "VGlut2",
+        "category": "legend_text",
+        "surface_text": "VGlut2",
+        "normalized_text": "VGlut2",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "Q-neuron marker"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t17",
+        "entity_type": "text",
+        "name": "NK3R",
+        "category": "legend_text",
+        "surface_text": "NK3R",
+        "normalized_text": "NK3R",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "Q-neuron marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t18",
+        "entity_type": "text",
+        "name": "LepR",
+        "category": "legend_text",
+        "surface_text": "LepR",
+        "normalized_text": "LepR",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "Q-neuron marker"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t19",
+        "entity_type": "text",
+        "name": "ERα",
+        "category": "legend_text",
+        "surface_text": "ERα",
+        "normalized_text": "ERα",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "Q-neuron marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t20",
+        "entity_type": "text",
+        "name": "EP3R",
+        "category": "legend_text",
+        "surface_text": "EP3R",
+        "normalized_text": "EP3R",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "Q-neuron marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t21",
+        "entity_type": "text",
+        "name": "Opn5",
+        "category": "legend_text",
+        "surface_text": "Opn5",
+        "normalized_text": "Opn5",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "Q-neuron marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t22",
+        "entity_type": "text",
+        "name": "Q-neuron",
+        "category": "scientific_label",
+        "surface_text": "Q-neuron",
+        "normalized_text": "Q-neuron",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "hypothalamic neuron population"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t23",
+        "entity_type": "text",
+        "name": "Glutamate",
+        "category": "scientific_label",
+        "surface_text": "Glutamate",
+        "normalized_text": "glutamate",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "excitatory transmitter"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t24",
+        "entity_type": "text",
+        "name": "DMH",
+        "category": "scientific_label",
+        "surface_text": "DMH",
+        "normalized_text": "DMH",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "relay nucleus"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t25",
+        "entity_type": "text",
+        "name": "GABA",
+        "category": "scientific_label",
+        "surface_text": "GABA",
+        "normalized_text": "GABA",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "inhibitory transmitter"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t26",
+        "entity_type": "text",
+        "name": "RPa",
+        "category": "scientific_label",
+        "surface_text": "RPa",
+        "normalized_text": "RPa",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "downstream region"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t27",
+        "entity_type": "text",
+        "name": "decreased thermogenesis",
+        "category": "annotation_text",
+        "surface_text": "↓ Thermogenesis",
+        "normalized_text": "decreased thermogenesis",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "reduced heat production"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t28",
+        "entity_type": "text",
+        "name": "Daily torpor",
+        "category": "annotation_text",
+        "surface_text": "Daily torpor",
+        "normalized_text": "daily torpor",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "physiological outcome"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t2",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t3",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t4",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t5",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "t6",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "v2",
+        "target_entity_id": "t3",
+        "relation_type": "points_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "v2",
+        "target_entity_id": "t4",
+        "relation_type": "points_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "v2",
+        "target_entity_id": "t5",
+        "relation_type": "points_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "v2",
+        "target_entity_id": "t6",
+        "relation_type": "points_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "v2",
+        "target_entity_id": "t7",
+        "relation_type": "inhibits",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "t7",
+        "target_entity_id": "t9",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "v3",
+        "target_entity_id": "t8",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "t8",
+        "target_entity_id": "t10",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "t12",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "t13",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "t14",
+        "target_entity_id": "t13",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "v6",
+        "target_entity_id": "v5",
+        "relation_type": "points_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "t22",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "t15",
+        "target_entity_id": "v9",
+        "relation_type": "legend_for",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "t16",
+        "target_entity_id": "v9",
+        "relation_type": "legend_for",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "t18",
+        "target_entity_id": "v9",
+        "relation_type": "legend_for",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "v9",
+        "target_entity_id": "v5",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r23",
+        "source_entity_id": "t17",
+        "target_entity_id": "v9",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r24",
+        "source_entity_id": "t19",
+        "target_entity_id": "v9",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r25",
+        "source_entity_id": "t20",
+        "target_entity_id": "v9",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r26",
+        "source_entity_id": "t21",
+        "target_entity_id": "v9",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r27",
+        "source_entity_id": "t23",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r28",
+        "source_entity_id": "t24",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r29",
+        "source_entity_id": "v7",
+        "target_entity_id": "t24",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r30",
+        "source_entity_id": "t25",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r31",
+        "source_entity_id": "t26",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r32",
+        "source_entity_id": "v8",
+        "target_entity_id": "t26",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r33",
+        "source_entity_id": "v7",
+        "target_entity_id": "t24",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r34",
+        "source_entity_id": "v8",
+        "target_entity_id": "t26",
+        "relation_type": "inhibits",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r35",
+        "source_entity_id": "t22",
+        "target_entity_id": "t24",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r36",
+        "source_entity_id": "t24",
+        "target_entity_id": "t26",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r37",
+        "source_entity_id": "t26",
+        "target_entity_id": "t27",
+        "relation_type": "inhibits",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r38",
+        "source_entity_id": "t27",
+        "target_entity_id": "t28",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r39",
+        "source_entity_id": "v5",
+        "target_entity_id": "v4",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      }
+    ]
+  }
+}

@@ -1,0 +1,997 @@
+{
+  "image_name": "0adb0c2e87123cbfafb30cddb17a14d5.png",
+  "prompt_text": "The figure illustrates how material can move from the bloodstream into brain tissue at the level of a capillary and how this may influence neural function. On the left, an artery branches into narrow capillaries wrapped by blue perivascular cells, and a zoomed cross-section shows the capillary wall in more detail. The vessel contains a red blood cell, while the wall is formed by endothelial cells joined by tight junctions and surrounded by a pericyte layer, emphasizing the blood–brain barrier structure.\n\nFrom this capillary cross-section, three transport routes are highlighted. One route, labeled receptor-mediated transcytosis, is linked to insulin signaling and downstream effects such as neurotransmitter release, mitochondrial function, and synaptic plasticity. A second route, adsorptive-mediated transcytosis, is associated with albumin entry and broader tissue responses including TGFβ signaling, astrocytic transformation, extracellular matrix or perineuronal net modulation, excitatory synaptogenesis, and plasticity. A third pathway, paracellular diffusion, refers to movement between cells and is tied to changes in ion concentrations such as calcium, magnesium, potassium, sodium, and chloride. Overall, the figure connects barrier transport mechanisms with altered neuronal excitability and synaptic function.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "artery branch",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "large red vessel",
+          "branches to capillary"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "capillary vessel",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "narrow vessel",
+          "connected to artery"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "pericyte cells around capillary",
+        "category": "cell",
+        "panel": "single_panel",
+        "count": 4,
+        "key_attributes": [
+          "blue wrapping cells",
+          "perivascular"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "capillary cross-section inset",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "zoomed view",
+          "circular vessel wall"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "red blood cell",
+        "category": "cell",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "inside lumen",
+          "red oval"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "endothelial cell layer",
+        "category": "cell",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "vessel wall",
+          "inner lining"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "tight junctions",
+        "category": "membrane",
+        "panel": "single_panel",
+        "count": 3,
+        "key_attributes": [
+          "between endothelial cells",
+          "blood-brain barrier"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "pericyte layer in cross-section",
+        "category": "layer",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "outer blue sheath",
+          "surrounding vessel wall"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "receptor-mediated transcytosis route",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "top pathway",
+          "from vessel to callout"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v10",
+        "entity_type": "visual",
+        "name": "adsorptive-mediated transcytosis route",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "middle pathway",
+          "from vessel to callout"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v11",
+        "entity_type": "visual",
+        "name": "paracellular diffusion route",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "bottom pathway",
+          "between cells"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v12",
+        "entity_type": "visual",
+        "name": "ion symbols near paracellular route",
+        "category": "molecule",
+        "panel": "single_panel",
+        "count": 5,
+        "key_attributes": [
+          "Ca Mg K Na Cl",
+          "colored circles"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v13",
+        "entity_type": "visual",
+        "name": "dashed inset connector/frame",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "dashed box",
+          "zoom indication"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "artery label",
+        "category": "scientific_label",
+        "surface_text": "Artery",
+        "normalized_text": "Artery",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "vessel label"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "capillary label",
+        "category": "scientific_label",
+        "surface_text": "Capillary",
+        "normalized_text": "Capillary",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "vessel label"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "pericyte label",
+        "category": "scientific_label",
+        "surface_text": "Pericyte",
+        "normalized_text": "Pericyte",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "cell-type label"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "endothelial cell label",
+        "category": "scientific_label",
+        "surface_text": "Endothelial cell",
+        "normalized_text": "Endothelial cell",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "wall cell label"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "tight junction label",
+        "category": "scientific_label",
+        "surface_text": "Tight junction",
+        "normalized_text": "Tight junction",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "barrier label"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "red blood cell label",
+        "category": "scientific_label",
+        "surface_text": "Red blood cell",
+        "normalized_text": "Red blood cell",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "lumen cell label"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "via RMT route label",
+        "category": "annotation_text",
+        "surface_text": "Via RMT",
+        "normalized_text": "Via RMT",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "transport route"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "insulin signalling",
+        "category": "legend_text",
+        "surface_text": "Insulin signalling",
+        "normalized_text": "Insulin signalling",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "RMT outcome heading"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "neurotransmitter release",
+        "category": "legend_text",
+        "surface_text": "Neurotransmitter release",
+        "normalized_text": "Neurotransmitter release",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "RMT downstream effect"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "mitochondria function",
+        "category": "legend_text",
+        "surface_text": "Mitochondria function",
+        "normalized_text": "Mitochondrial function",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "RMT downstream effect"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "synaptic plasticity in RMT box",
+        "category": "legend_text",
+        "surface_text": "Synaptic plasticity",
+        "normalized_text": "Synaptic plasticity",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "RMT downstream effect"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "via AMT route label",
+        "category": "annotation_text",
+        "surface_text": "Via AMT",
+        "normalized_text": "Via AMT",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "transport route"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "albumin",
+        "category": "legend_text",
+        "surface_text": "Albumin",
+        "normalized_text": "Albumin",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "AMT cargo heading"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t14",
+        "entity_type": "text",
+        "name": "TGFβ signalling",
+        "category": "legend_text",
+        "surface_text": "TGFβ signalling",
+        "normalized_text": "TGFβ signalling",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "AMT downstream effect"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t15",
+        "entity_type": "text",
+        "name": "astrocytic transformation",
+        "category": "legend_text",
+        "surface_text": "Astrocytic transformation",
+        "normalized_text": "Astrocytic transformation",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "AMT downstream effect"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t16",
+        "entity_type": "text",
+        "name": "PNN or ECM modulation",
+        "category": "legend_text",
+        "surface_text": "PNN or ECM modulation",
+        "normalized_text": "PNN or ECM modulation",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "matrix modulation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t17",
+        "entity_type": "text",
+        "name": "excitatory synaptogenesis",
+        "category": "legend_text",
+        "surface_text": "Excitatory synaptogenesis",
+        "normalized_text": "Excitatory synaptogenesis",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "AMT downstream effect"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t18",
+        "entity_type": "text",
+        "name": "calcium ion label",
+        "category": "scientific_label",
+        "surface_text": "Ca²⁺",
+        "normalized_text": "Ca2+",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "ion species"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t19",
+        "entity_type": "text",
+        "name": "magnesium ion label",
+        "category": "scientific_label",
+        "surface_text": "Mg²⁺",
+        "normalized_text": "Mg2+",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "ion species"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t20",
+        "entity_type": "text",
+        "name": "potassium ion label",
+        "category": "scientific_label",
+        "surface_text": "K⁺",
+        "normalized_text": "K+",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "ion species"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t21",
+        "entity_type": "text",
+        "name": "sodium ion label",
+        "category": "scientific_label",
+        "surface_text": "Na⁺",
+        "normalized_text": "Na+",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "ion species"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t22",
+        "entity_type": "text",
+        "name": "chloride ion label",
+        "category": "scientific_label",
+        "surface_text": "Cl⁻",
+        "normalized_text": "Cl-",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "ion species"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t23",
+        "entity_type": "text",
+        "name": "paracellular diffusion label",
+        "category": "annotation_text",
+        "surface_text": "Paracellular diffusion",
+        "normalized_text": "Paracellular diffusion",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "transport route"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t24",
+        "entity_type": "text",
+        "name": "changes in ion concentrations",
+        "category": "legend_text",
+        "surface_text": "Changes in ion concentrations",
+        "normalized_text": "Changes in ion concentrations",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "paracellular heading"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t25",
+        "entity_type": "text",
+        "name": "neuronal excitability",
+        "category": "legend_text",
+        "surface_text": "Neuronal excitability",
+        "normalized_text": "Neuronal excitability",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "functional outcome"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t26",
+        "entity_type": "text",
+        "name": "synaptic release",
+        "category": "legend_text",
+        "surface_text": "Synaptic release",
+        "normalized_text": "Synaptic release",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "functional outcome"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t27",
+        "entity_type": "text",
+        "name": "synaptic plasticity in lower box",
+        "category": "legend_text",
+        "surface_text": "Synaptic plasticity",
+        "normalized_text": "Synaptic plasticity",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "functional outcome"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "v1",
+        "target_entity_id": "v2",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "v3",
+        "target_entity_id": "v2",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "v5",
+        "target_entity_id": "v4",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "v6",
+        "target_entity_id": "v4",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "v7",
+        "target_entity_id": "v6",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "v8",
+        "target_entity_id": "v4",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "v13",
+        "target_entity_id": "v4",
+        "relation_type": "points_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "v13",
+        "target_entity_id": "v2",
+        "relation_type": "points_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "t1",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "t2",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "t3",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "t4",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "t5",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "t6",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "t7",
+        "target_entity_id": "v9",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "v9",
+        "target_entity_id": "v4",
+        "relation_type": "points_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "v9",
+        "target_entity_id": "t8",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "t8",
+        "target_entity_id": "t9",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "t8",
+        "target_entity_id": "t10",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "t8",
+        "target_entity_id": "t11",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "t12",
+        "target_entity_id": "v10",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "v10",
+        "target_entity_id": "v4",
+        "relation_type": "points_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r23",
+        "source_entity_id": "v10",
+        "target_entity_id": "t13",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r24",
+        "source_entity_id": "t13",
+        "target_entity_id": "t14",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r25",
+        "source_entity_id": "t13",
+        "target_entity_id": "t15",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r26",
+        "source_entity_id": "t13",
+        "target_entity_id": "t16",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r27",
+        "source_entity_id": "t13",
+        "target_entity_id": "t17",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r28",
+        "source_entity_id": "t13",
+        "target_entity_id": "t11",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r29",
+        "source_entity_id": "t23",
+        "target_entity_id": "v11",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r30",
+        "source_entity_id": "v11",
+        "target_entity_id": "v7",
+        "relation_type": "points_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r31",
+        "source_entity_id": "v11",
+        "target_entity_id": "t24",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r32",
+        "source_entity_id": "t18",
+        "target_entity_id": "v12",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r33",
+        "source_entity_id": "t19",
+        "target_entity_id": "v12",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r34",
+        "source_entity_id": "t20",
+        "target_entity_id": "v12",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r35",
+        "source_entity_id": "t21",
+        "target_entity_id": "v12",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r36",
+        "source_entity_id": "t22",
+        "target_entity_id": "v12",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r37",
+        "source_entity_id": "v12",
+        "target_entity_id": "v11",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r38",
+        "source_entity_id": "t24",
+        "target_entity_id": "t25",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r39",
+        "source_entity_id": "t24",
+        "target_entity_id": "t26",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r40",
+        "source_entity_id": "t24",
+        "target_entity_id": "t27",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      }
+    ]
+  }
+}

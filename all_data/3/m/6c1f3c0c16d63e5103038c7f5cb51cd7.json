@@ -1,0 +1,685 @@
+{
+  "image_name": "6c1f3c0c16d63e5103038c7f5cb51cd7.png",
+  "prompt_text": "The figure presents a conceptual sequence for how a major earthquake rupture zone may develop and then fail. It begins with a broad, damaged volume of rock surrounding a future fault, shown as a diffuse pink zone containing scattered small earthquakes and cracks, representing background seismicity. The next stage shows deformation becoming concentrated into a narrower shear zone: the activity and fractures align along a more distinct fault-like band, while large arrows indicate opposing motion on either side and emphasize shear localization.\n\nThe final part links this localized fault zone to loading through time. A three-dimensional sketch plots distance along the fault against time and suggests that stress is gradually built by slow slip and clustered foreshock sequences. Small clusters of foreshocks occur first, then a larger patch of slow slip expands and overlaps the active area. Near the end of this loading history, a small foreshock appears to trigger dynamic rupture at a starred point, implying that the main rupture starts only after progressive damage, localization, and stress accumulation combine. Overall, the image highlights a transition from distributed cracking to localized fault slip, culminating in earthquake nucleation.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "damaged rock zone around future rupture",
+        "category": "region",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "diffuse pink",
+          "elongated band",
+          "surrounding future fault"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "background seismicity events",
+        "category": "region",
+        "panel": "a",
+        "count": 10,
+        "key_attributes": [
+          "small starbursts",
+          "scattered in damage zone",
+          "earthquake symbols"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "distributed cracks",
+        "category": "geological_structure",
+        "panel": "a",
+        "count": 20,
+        "key_attributes": [
+          "gray fracture traces",
+          "scattered",
+          "within and around pink zone"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "localized shear zone",
+        "category": "geological_structure",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "narrow diagonal band",
+          "fault-like",
+          "aligned deformation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "aligned seismicity clusters",
+        "category": "region",
+        "panel": "b",
+        "count": 2,
+        "key_attributes": [
+          "starbursts on fault",
+          "clustered",
+          "localized"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "shear motion arrows",
+        "category": "arrow",
+        "panel": "b",
+        "count": 4,
+        "key_attributes": [
+          "large blue arrows",
+          "opposing sides",
+          "indicate shear"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "panel transition arrows",
+        "category": "arrow",
+        "panel": "multi_panel",
+        "count": 2,
+        "key_attributes": [
+          "dark horizontal arrows",
+          "left to right",
+          "stage progression"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "3D fault loading sketch",
+        "category": "region",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "perspective plot",
+          "distance vs time",
+          "loading history"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "slow slip patch",
+        "category": "region",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "large blue patch",
+          "expanding area",
+          "overlaps active zone"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v10",
+        "entity_type": "visual",
+        "name": "foreshock sequence 1 cluster",
+        "category": "region",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "small pink cluster",
+          "early in time",
+          "many small events"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v11",
+        "entity_type": "visual",
+        "name": "foreshock sequence 2 cluster",
+        "category": "region",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "larger pink cluster",
+          "later in time",
+          "near slow slip"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v12",
+        "entity_type": "visual",
+        "name": "triggering foreshock and rupture nucleation point",
+        "category": "region",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "starred point",
+          "near end of loading",
+          "dynamic rupture start"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v13",
+        "entity_type": "visual",
+        "name": "axis arrows",
+        "category": "arrow",
+        "panel": "c",
+        "count": 2,
+        "key_attributes": [
+          "time axis arrow",
+          "distance axis arrow",
+          "perspective axes"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "panel a label",
+        "category": "panel_label",
+        "surface_text": "a",
+        "normalized_text": "a",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "panel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "panel a title",
+        "category": "scientific_label",
+        "surface_text": "Rock damage around an eventual rupture zone",
+        "normalized_text": "Rock damage around an eventual rupture zone",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "stage title"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "background seismicity label",
+        "category": "annotation_text",
+        "surface_text": "Background seismicity",
+        "normalized_text": "Background seismicity",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "event annotation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "panel b label",
+        "category": "panel_label",
+        "surface_text": "b",
+        "normalized_text": "b",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "panel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "panel b title",
+        "category": "scientific_label",
+        "surface_text": "Localization of deformation",
+        "normalized_text": "Localization of deformation",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "stage title"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "shear localization label",
+        "category": "annotation_text",
+        "surface_text": "Shear localization",
+        "normalized_text": "Shear localization",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "process annotation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "panel c label",
+        "category": "panel_label",
+        "surface_text": "c",
+        "normalized_text": "c",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "panel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "panel c title",
+        "category": "scientific_label",
+        "surface_text": "Stress loading by a combination of slow slip and foreshocks",
+        "normalized_text": "Stress loading by a combination of slow slip and foreshocks",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "stage title"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "dynamic rupture trigger label",
+        "category": "annotation_text",
+        "surface_text": "A small foreshock triggers dynamic rupture",
+        "normalized_text": "A small foreshock triggers dynamic rupture",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "trigger statement"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "slow slip label",
+        "category": "annotation_text",
+        "surface_text": "Slow slip",
+        "normalized_text": "Slow slip",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "process label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "foreshock sequence 2 label",
+        "category": "annotation_text",
+        "surface_text": "Foreshock sequence 2",
+        "normalized_text": "Foreshock sequence 2",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "cluster label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "distance axis label",
+        "category": "annotation_text",
+        "surface_text": "Distance along fault",
+        "normalized_text": "Distance along fault",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "axis label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "foreshock sequence 1 label",
+        "category": "annotation_text",
+        "surface_text": "Foreshock sequence 1",
+        "normalized_text": "Foreshock sequence 1",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "cluster label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t14",
+        "entity_type": "text",
+        "name": "time axis label",
+        "category": "annotation_text",
+        "surface_text": "Time",
+        "normalized_text": "Time",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "axis label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t2",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t3",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "v2",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "v3",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "t5",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "t6",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "v5",
+        "target_entity_id": "v4",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "v6",
+        "target_entity_id": "v4",
+        "relation_type": "points_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "v1",
+        "target_entity_id": "v4",
+        "relation_type": "transforms_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "v7",
+        "target_entity_id": "v4",
+        "relation_type": "flows_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "t8",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "t10",
+        "target_entity_id": "v9",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "t13",
+        "target_entity_id": "v10",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "t11",
+        "target_entity_id": "v11",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "t9",
+        "target_entity_id": "v12",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "t12",
+        "target_entity_id": "v13",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "t14",
+        "target_entity_id": "v13",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "v9",
+        "target_entity_id": "v8",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "v10",
+        "target_entity_id": "v8",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "v11",
+        "target_entity_id": "v8",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "v12",
+        "target_entity_id": "v8",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "v10",
+        "target_entity_id": "v11",
+        "relation_type": "above",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r23",
+        "source_entity_id": "v11",
+        "target_entity_id": "v9",
+        "relation_type": "above",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r24",
+        "source_entity_id": "v12",
+        "target_entity_id": "v9",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r25",
+        "source_entity_id": "v12",
+        "target_entity_id": "v8",
+        "relation_type": "above",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r26",
+        "source_entity_id": "v12",
+        "target_entity_id": "v10",
+        "relation_type": "left_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r27",
+        "source_entity_id": "v4",
+        "target_entity_id": "v8",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "cross_panel"
+      }
+    ]
+  }
+}

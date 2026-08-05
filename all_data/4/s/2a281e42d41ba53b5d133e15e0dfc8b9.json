@@ -1,0 +1,1367 @@
+{
+  "image_name": "2a281e42d41ba53b5d133e15e0dfc8b9.png",
+  "prompt_text": "The figure summarizes how glucose and glutamine metabolism are connected to support biosynthesis and redox balance in a cell. Glucose enters through GLUT1/2 and is phosphorylated by HK1/2, then branches into glycolysis, the pentose phosphate pathway, and hexosamine biosynthesis. The pentose phosphate pathway is shown feeding nucleotide production for DNA/RNA, with both oxidative and non-oxidative branches. Another glucose-derived branch, via GFAT, combines carbon flow with glutamine-derived nitrogen to generate UDP-GlcNAc, a key hexosamine product.\n\nIn parallel, glutamine enters through SLC1A5 and is converted by GLS to glutamate, which feeds mitochondrial metabolism. Inside the mitochondrion, glutamine carbon appears to support the TCA cycle and production of intermediates such as aspartate, malate, fumarate, oxaloacetate, and alpha-ketoglutarate. A shuttle involving GOT2 in the mitochondrion and GOT1 in the cytosol links mitochondrial aspartate output to cytosolic oxaloacetate and malate metabolism. Downstream, MDH1 and ME1 convert these intermediates toward pyruvate while generating NADPH. The final redox module shows NADPH supporting glutathione cycling, converting GSSG to GSH and helping detoxify hydrogen peroxide to water. Overall, the image highlights coordinated glucose and glutamine use for growth and antioxidant defense.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "cell membrane",
+        "category": "membrane",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "top horizontal bilayer"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "mitochondrion",
+        "category": "organelle",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "oval organelle",
+          "contains TCA cycle"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "glucose transporter",
+        "category": "protein",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "membrane embedded",
+          "imports glucose"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "glutamine transporter",
+        "category": "protein",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "membrane embedded",
+          "imports glutamine"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "pentose phosphate pathway region",
+        "category": "pathway_component",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "circular pathway",
+          "oxidative and non-oxidative"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "glycolysis pathway branch",
+        "category": "pathway_component",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "glucose to pyruvate"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "hexosamine biosynthesis branch",
+        "category": "pathway_component",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "GFAT branch",
+          "produces UDP-GlcNAc"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "TCA cycle region",
+        "category": "pathway_component",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "inside mitochondrion",
+          "cyclic arrows"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "aspartate-malate shuttle connections",
+        "category": "pathway_component",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "GOT2 to GOT1",
+          "mitochondria-cytosol link"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v10",
+        "entity_type": "visual",
+        "name": "NADPH-glutathione redox module",
+        "category": "pathway_component",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "NADPH generation",
+          "GSH/GSSG cycle"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v11",
+        "entity_type": "visual",
+        "name": "metabolic arrows",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 20,
+        "key_attributes": [
+          "directed flow",
+          "solid and dashed"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "Glucose",
+        "category": "scientific_label",
+        "surface_text": "Glucose",
+        "normalized_text": "glucose",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "substrate"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "GLUT1/2",
+        "category": "scientific_label",
+        "surface_text": "GLUT1/2",
+        "normalized_text": "GLUT1/2",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "glucose transporter"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "Cell membrane",
+        "category": "annotation_text",
+        "surface_text": "Cell membrane",
+        "normalized_text": "cell membrane",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "compartment label"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "HK1/2",
+        "category": "scientific_label",
+        "surface_text": "HK1/2",
+        "normalized_text": "HK1/2",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "glucose phosphorylation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "Oxidative PPP",
+        "category": "scientific_label",
+        "surface_text": "Oxidative PPP",
+        "normalized_text": "oxidative pentose phosphate pathway",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "PPP branch"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "Pentose phosphate pathway",
+        "category": "scientific_label",
+        "surface_text": "Pentose phosphate pathway",
+        "normalized_text": "pentose phosphate pathway",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "pathway title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "DNA/RNA",
+        "category": "scientific_label",
+        "surface_text": "DNA/RNA",
+        "normalized_text": "DNA/RNA",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "nucleotide product"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "Non-oxidative PPP",
+        "category": "scientific_label",
+        "surface_text": "Non-oxidative PPP",
+        "normalized_text": "non-oxidative pentose phosphate pathway",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "PPP branch"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "Glycolysis",
+        "category": "scientific_label",
+        "surface_text": "Glycolysis",
+        "normalized_text": "glycolysis",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "pathway branch"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "Pyruvate",
+        "category": "scientific_label",
+        "surface_text": "Pyruvate",
+        "normalized_text": "pyruvate",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "glycolysis product"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "GFAT",
+        "category": "scientific_label",
+        "surface_text": "GFAT",
+        "normalized_text": "GFAT",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "hexosamine entry enzyme"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "Hexosamine biosynthesis",
+        "category": "scientific_label",
+        "surface_text": "Hexosamine biosynthesis",
+        "normalized_text": "hexosamine biosynthesis",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "pathway title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "UDP-GlcNAc",
+        "category": "scientific_label",
+        "surface_text": "UDP-GlcNAc",
+        "normalized_text": "UDP-GlcNAc",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "hexosamine product"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t14",
+        "entity_type": "text",
+        "name": "Glutamine",
+        "category": "scientific_label",
+        "surface_text": "Glutamine",
+        "normalized_text": "glutamine",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "imported nutrient"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t15",
+        "entity_type": "text",
+        "name": "SLC1A5",
+        "category": "scientific_label",
+        "surface_text": "SLC1A5",
+        "normalized_text": "SLC1A5",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "glutamine transporter"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t16",
+        "entity_type": "text",
+        "name": "GLS",
+        "category": "scientific_label",
+        "surface_text": "GLS",
+        "normalized_text": "GLS",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "glutaminase"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t17",
+        "entity_type": "text",
+        "name": "GOT2",
+        "category": "scientific_label",
+        "surface_text": "GOT2",
+        "normalized_text": "GOT2",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "mitochondrial shuttle enzyme"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t18",
+        "entity_type": "text",
+        "name": "OAA",
+        "category": "scientific_label",
+        "surface_text": "OAA",
+        "normalized_text": "oxaloacetate",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "TCA intermediate"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t19",
+        "entity_type": "text",
+        "name": "Mal",
+        "category": "scientific_label",
+        "surface_text": "Mal",
+        "normalized_text": "malate",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "shuttle intermediate"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t20",
+        "entity_type": "text",
+        "name": "AKG",
+        "category": "scientific_label",
+        "surface_text": "AKG",
+        "normalized_text": "alpha-ketoglutarate",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "TCA intermediate"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t21",
+        "entity_type": "text",
+        "name": "Fum",
+        "category": "scientific_label",
+        "surface_text": "Fum",
+        "normalized_text": "fumarate",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "TCA intermediate"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t22",
+        "entity_type": "text",
+        "name": "TCA cycle",
+        "category": "scientific_label",
+        "surface_text": "TCA cycle",
+        "normalized_text": "TCA cycle",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "mitochondrial pathway"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t23",
+        "entity_type": "text",
+        "name": "Asp",
+        "category": "scientific_label",
+        "surface_text": "Asp",
+        "normalized_text": "aspartate",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "shuttle metabolite"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t24",
+        "entity_type": "text",
+        "name": "Mitochondrion",
+        "category": "annotation_text",
+        "surface_text": "Mitochondrion",
+        "normalized_text": "mitochondrion",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "compartment label"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t25",
+        "entity_type": "text",
+        "name": "GOT1",
+        "category": "scientific_label",
+        "surface_text": "GOT1",
+        "normalized_text": "GOT1",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "cytosolic shuttle enzyme"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t26",
+        "entity_type": "text",
+        "name": "MDH1",
+        "category": "scientific_label",
+        "surface_text": "MDH1",
+        "normalized_text": "MDH1",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "malate dehydrogenase"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t27",
+        "entity_type": "text",
+        "name": "ME1",
+        "category": "scientific_label",
+        "surface_text": "ME1",
+        "normalized_text": "ME1",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "malic enzyme"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t28",
+        "entity_type": "text",
+        "name": "NADP+",
+        "category": "scientific_label",
+        "surface_text": "NADP+",
+        "normalized_text": "NADP+",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "redox cofactor"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t29",
+        "entity_type": "text",
+        "name": "NADPH",
+        "category": "scientific_label",
+        "surface_text": "NADPH",
+        "normalized_text": "NADPH",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "reducing power"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t30",
+        "entity_type": "text",
+        "name": "GSH",
+        "category": "scientific_label",
+        "surface_text": "GSH",
+        "normalized_text": "GSH",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "reduced glutathione"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t31",
+        "entity_type": "text",
+        "name": "GSSG",
+        "category": "scientific_label",
+        "surface_text": "GSSG",
+        "normalized_text": "GSSG",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "oxidized glutathione"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t32",
+        "entity_type": "text",
+        "name": "H2O2",
+        "category": "scientific_label",
+        "surface_text": "H2O2",
+        "normalized_text": "hydrogen peroxide",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "reactive oxygen species"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t33",
+        "entity_type": "text",
+        "name": "H2O",
+        "category": "scientific_label",
+        "surface_text": "H2O",
+        "normalized_text": "water",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "detoxification product"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t34",
+        "entity_type": "text",
+        "name": "Gln",
+        "category": "scientific_label",
+        "surface_text": "Gln",
+        "normalized_text": "glutamine",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "nitrogen donor"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t35",
+        "entity_type": "text",
+        "name": "Glu",
+        "category": "scientific_label",
+        "surface_text": "Glu",
+        "normalized_text": "glutamate",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "from glutamine"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t36",
+        "entity_type": "text",
+        "name": "NAD+",
+        "category": "scientific_label",
+        "surface_text": "NAD+",
+        "normalized_text": "NAD+",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "MDH1 cofactor"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t37",
+        "entity_type": "text",
+        "name": "NADH",
+        "category": "scientific_label",
+        "surface_text": "NADH",
+        "normalized_text": "NADH",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "MDH1 cofactor"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t38",
+        "entity_type": "text",
+        "name": "Lactate",
+        "category": "scientific_label",
+        "surface_text": "Lactate",
+        "normalized_text": "lactate",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "pyruvate branch"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t39",
+        "entity_type": "text",
+        "name": "RPE and/or RPIA",
+        "category": "scientific_label",
+        "surface_text": "RPE and/or RPIA",
+        "normalized_text": "RPE and/or RPIA",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "PPP enzyme label"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t40",
+        "entity_type": "text",
+        "name": "GPT1",
+        "category": "scientific_label",
+        "surface_text": "GPT1",
+        "normalized_text": "GPT1",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "alanine transaminase"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t41",
+        "entity_type": "text",
+        "name": "Ala",
+        "category": "scientific_label",
+        "surface_text": "Ala",
+        "normalized_text": "alanine",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "amino acid branch"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t42",
+        "entity_type": "text",
+        "name": "Pyr",
+        "category": "scientific_label",
+        "surface_text": "Pyr",
+        "normalized_text": "pyruvate",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "abbreviated pyruvate"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t2",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t15",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t6",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t9",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "t12",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "t22",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "t3",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "t24",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "v3",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "v4",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "v8",
+        "target_entity_id": "v2",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "t17",
+        "target_entity_id": "v2",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "t25",
+        "target_entity_id": "v2",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "t1",
+        "target_entity_id": "v3",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "v3",
+        "target_entity_id": "t4",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "t4",
+        "target_entity_id": "v5",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "t4",
+        "target_entity_id": "v6",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "t4",
+        "target_entity_id": "v7",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "t5",
+        "target_entity_id": "v5",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "t8",
+        "target_entity_id": "v5",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "v5",
+        "target_entity_id": "t7",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "t11",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r23",
+        "source_entity_id": "t34",
+        "target_entity_id": "t11",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r24",
+        "source_entity_id": "t11",
+        "target_entity_id": "t13",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r25",
+        "source_entity_id": "v7",
+        "target_entity_id": "t13",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r26",
+        "source_entity_id": "t14",
+        "target_entity_id": "v4",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r27",
+        "source_entity_id": "v4",
+        "target_entity_id": "t16",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r28",
+        "source_entity_id": "t16",
+        "target_entity_id": "t35",
+        "relation_type": "transforms_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r29",
+        "source_entity_id": "t35",
+        "target_entity_id": "v2",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r30",
+        "source_entity_id": "t35",
+        "target_entity_id": "v8",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r31",
+        "source_entity_id": "t20",
+        "target_entity_id": "v8",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r32",
+        "source_entity_id": "t18",
+        "target_entity_id": "v8",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r33",
+        "source_entity_id": "t19",
+        "target_entity_id": "v8",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r34",
+        "source_entity_id": "t21",
+        "target_entity_id": "v8",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r35",
+        "source_entity_id": "t23",
+        "target_entity_id": "v8",
+        "relation_type": "part_of",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r36",
+        "source_entity_id": "t17",
+        "target_entity_id": "v9",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r37",
+        "source_entity_id": "t25",
+        "target_entity_id": "v9",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r38",
+        "source_entity_id": "v9",
+        "target_entity_id": "v2",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r39",
+        "source_entity_id": "t23",
+        "target_entity_id": "v9",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r40",
+        "source_entity_id": "t18",
+        "target_entity_id": "v9",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r41",
+        "source_entity_id": "t19",
+        "target_entity_id": "v9",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r42",
+        "source_entity_id": "t23",
+        "target_entity_id": "t18",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r43",
+        "source_entity_id": "t18",
+        "target_entity_id": "t19",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r44",
+        "source_entity_id": "t19",
+        "target_entity_id": "t10",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r45",
+        "source_entity_id": "t26",
+        "target_entity_id": "t18",
+        "relation_type": "connected_to",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r46",
+        "source_entity_id": "t26",
+        "target_entity_id": "t19",
+        "relation_type": "connected_to",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r47",
+        "source_entity_id": "t27",
+        "target_entity_id": "t19",
+        "relation_type": "connected_to",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r48",
+        "source_entity_id": "t27",
+        "target_entity_id": "t10",
+        "relation_type": "connected_to",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r49",
+        "source_entity_id": "t29",
+        "target_entity_id": "v10",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r50",
+        "source_entity_id": "t30",
+        "target_entity_id": "v10",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r51",
+        "source_entity_id": "t31",
+        "target_entity_id": "v10",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r52",
+        "source_entity_id": "t32",
+        "target_entity_id": "v10",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r53",
+        "source_entity_id": "t33",
+        "target_entity_id": "v10",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r54",
+        "source_entity_id": "t29",
+        "target_entity_id": "t30",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r55",
+        "source_entity_id": "t31",
+        "target_entity_id": "t30",
+        "relation_type": "transforms_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r56",
+        "source_entity_id": "t32",
+        "target_entity_id": "t33",
+        "relation_type": "transforms_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r57",
+        "source_entity_id": "t30",
+        "target_entity_id": "t32",
+        "relation_type": "inhibits",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r58",
+        "source_entity_id": "t28",
+        "target_entity_id": "t29",
+        "relation_type": "transforms_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      }
+    ]
+  }
+}

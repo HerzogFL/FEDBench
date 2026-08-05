@@ -1,0 +1,858 @@
+{
+  "image_name": "dd964eb76203cab0440da7eb3efd0d49.png",
+  "prompt_text": "The figure summarizes the compositional and structural diversity of MXenes and the properties that follow from that diversity. It first shows the general formula, with layered transition-metal carbides or nitrides built from different early transition metals and either C or N, emphasizing that many metal choices are possible. The central part compares several MXene atomic arrangements: a “common” form, ordered and disordered mixed-metal versions, a high-entropy form with several metals, and structures that differ in how surface terminations or metal layers are arranged. In these schematics, metal atoms occupy stacked layers around carbon or nitrogen, while the outer surfaces carry various terminal groups.\n\nA side view highlights possible adsorption or termination sites on the MXene surface, such as top, bridge, hcp, and fcc positions. Together, these panels convey that MXenes are not a single material but a broad family with many possible layer chemistries and atomic orderings.\n\nThe bottom row links this structural versatility to key material features: adjustable surface chemistry, tunable electronic band gap, coexistence of covalent and metallic bonding, many possible terminal groups, controllable stacked films with nanometer-scale spacing, and mechanical flexibility. Overall, the figure presents MXenes as highly designable 2D materials.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "MXene compositional formula schematic",
+        "category": "material_structure",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "formula block",
+          "M/X/T components",
+          "composition overview"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "transition metal choice chart",
+        "category": "region",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "multiple metals",
+          "C vs N axis",
+          "selection map"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "common MXene layered atomic arrangement",
+        "category": "material_structure",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "stacked layers",
+          "surface terminations",
+          "single-metal type"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "ordered/disordered mixed-metal MXene arrangements",
+        "category": "material_structure",
+        "panel": "b",
+        "count": 4,
+        "key_attributes": [
+          "mixed metals",
+          "ordering variants",
+          "layered lattices"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "high-entropy MXene arrangement",
+        "category": "material_structure",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "several metals",
+          "multicolor atoms",
+          "high configurational diversity"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "MXene surface termination and layer-arrangement variants",
+        "category": "material_structure",
+        "panel": "b",
+        "count": 2,
+        "key_attributes": [
+          "termination ordering",
+          "layer ordering",
+          "structural diversity"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "atomic species legend",
+        "category": "legend_key",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "termination symbols",
+          "X atom key",
+          "M1-M4 colors"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "surface adsorption-site top view lattice",
+        "category": "material_structure",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "top view",
+          "surface sites",
+          "hexagonal lattice"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "site markers for top, hcp, bridge, and fcc positions",
+        "category": "legend_key",
+        "panel": "c",
+        "count": 4,
+        "key_attributes": [
+          "colored markers",
+          "site exemplars",
+          "adsorption positions"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v10",
+        "entity_type": "visual",
+        "name": "property illustration set",
+        "category": "region",
+        "panel": "d",
+        "count": 6,
+        "key_attributes": [
+          "bottom-row properties",
+          "application-style icons",
+          "materials features"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v11",
+        "entity_type": "visual",
+        "name": "intercalation solvent container schematic",
+        "category": "device_component",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "beaker/vial",
+          "solvent molecules",
+          "surface chemistry"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v12",
+        "entity_type": "visual",
+        "name": "band-gap diagram",
+        "category": "pathway_component",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "Ec/Ev",
+          "energy levels",
+          "gap tuning"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v13",
+        "entity_type": "visual",
+        "name": "bonding schematic with M-X and M-Tx links",
+        "category": "molecule",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "two bond types",
+          "node-link motif",
+          "covalent vs metallic"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v14",
+        "entity_type": "visual",
+        "name": "surface termination icon set",
+        "category": "molecule",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "terminal groups",
+          "three examples drawn",
+          "surface attachments"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v15",
+        "entity_type": "visual",
+        "name": "stacked MXene film layers with spacing arrow",
+        "category": "layer",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "stacked sheets",
+          "interlayer spacing",
+          "nanometer scale"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v16",
+        "entity_type": "visual",
+        "name": "bent flexible MXene sheet",
+        "category": "layer",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "curved sheet",
+          "mechanical deformation",
+          "flexibility"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "panel label a",
+        "category": "panel_label",
+        "surface_text": "a",
+        "normalized_text": "a",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "panel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "general MXene formula",
+        "category": "scientific_label",
+        "surface_text": "MₙXₙ₊₁Tₓ",
+        "normalized_text": "M_nX_n+1T_x",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "general formula"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "composition symbols",
+        "category": "scientific_label",
+        "surface_text": "M, X, T, Y",
+        "normalized_text": "M, X, T, Y",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "component symbols"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "metal choices",
+        "category": "scientific_label",
+        "surface_text": "Hf, Sc, W, Cr, Mo, Nb, Ti, V, Zr, Ta",
+        "normalized_text": "Hf, Sc, W, Cr, Mo, Nb, Ti, V, Zr, Ta",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "early transition metals"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "X element choices",
+        "category": "scientific_label",
+        "surface_text": "C, N",
+        "normalized_text": "C, N",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "carbide/nitride"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "panel label b",
+        "category": "panel_label",
+        "surface_text": "b",
+        "normalized_text": "b",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "panel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "common MXene label",
+        "category": "scientific_label",
+        "surface_text": "Common MXene",
+        "normalized_text": "Common MXene",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "baseline structure"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "MXene subtype labels",
+        "category": "scientific_label",
+        "surface_text": "s-MXene, o-MXene, h-MXene, t-MXene, i-MXene",
+        "normalized_text": "s-MXene, o-MXene, h-MXene, t-MXene, i-MXene",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "structural variants"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "legend labels for atomic species",
+        "category": "legend_text",
+        "surface_text": "T, T′, Tₓ, X, M¹, M², M³, M⁴",
+        "normalized_text": "T, T', T_x, X, M1, M2, M3, M4",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "legend mapping"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "panel label c",
+        "category": "panel_label",
+        "surface_text": "c",
+        "normalized_text": "c",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "panel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "adsorption site labels",
+        "category": "annotation_text",
+        "surface_text": "Top, hcp, Bridge, fcc",
+        "normalized_text": "Top, hcp, Bridge, fcc",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "surface sites"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "top view caption",
+        "category": "annotation_text",
+        "surface_text": "Top view",
+        "normalized_text": "Top view",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "view orientation"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "panel label d",
+        "category": "panel_label",
+        "surface_text": "d",
+        "normalized_text": "d",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "panel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t14",
+        "entity_type": "text",
+        "name": "property labels",
+        "category": "scientific_label",
+        "surface_text": "Tailorable surface chemistry; Tunable band gap; Covalent and metallic bonds; Abundant surface terminations; Arrayed stack; Flexibility",
+        "normalized_text": "Tailorable surface chemistry; Tunable band gap; Covalent and metallic bonds; Abundant surface terminations; Arrayed stack; Flexibility",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "materials properties"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t15",
+        "entity_type": "text",
+        "name": "solvent examples",
+        "category": "annotation_text",
+        "surface_text": "H₂O, DMF, DMSO, ACN, THF…",
+        "normalized_text": "H2O, DMF, DMSO, ACN, THF...",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "intercalation solvents"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t16",
+        "entity_type": "text",
+        "name": "band-edge labels",
+        "category": "scientific_label",
+        "surface_text": "Ec, Ev",
+        "normalized_text": "Ec, Ev",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "conduction/valence"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t17",
+        "entity_type": "text",
+        "name": "bond labels",
+        "category": "scientific_label",
+        "surface_text": "M–Tₓ, M–X",
+        "normalized_text": "M-Tx, M-X",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "bond types"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t18",
+        "entity_type": "text",
+        "name": "termination group list",
+        "category": "annotation_text",
+        "surface_text": "–OH, =O, –Cl, –F, –S, –Br, –I, –Se, –Te, –NH₂",
+        "normalized_text": "-OH, =O, -Cl, -F, -S, -Br, -I, -Se, -Te, -NH2",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "surface terminations"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t19",
+        "entity_type": "text",
+        "name": "nanometer unit",
+        "category": "unit",
+        "surface_text": "nm",
+        "normalized_text": "nm",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "spacing unit"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t2",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t4",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t5",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "v2",
+        "target_entity_id": "v1",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "t7",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "t8",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "t8",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "t8",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "t9",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "v7",
+        "target_entity_id": "v3",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "v7",
+        "target_entity_id": "v4",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "v7",
+        "target_entity_id": "v5",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "v7",
+        "target_entity_id": "v6",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "v3",
+        "target_entity_id": "v4",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "v4",
+        "target_entity_id": "v5",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "t11",
+        "target_entity_id": "v9",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "t12",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "v9",
+        "target_entity_id": "v8",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "t14",
+        "target_entity_id": "v10",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "v11",
+        "target_entity_id": "v10",
+        "relation_type": "part_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "v12",
+        "target_entity_id": "v10",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "v13",
+        "target_entity_id": "v10",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r23",
+        "source_entity_id": "v14",
+        "target_entity_id": "v10",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r24",
+        "source_entity_id": "v15",
+        "target_entity_id": "v10",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r25",
+        "source_entity_id": "v16",
+        "target_entity_id": "v10",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r26",
+        "source_entity_id": "t15",
+        "target_entity_id": "v11",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r27",
+        "source_entity_id": "t16",
+        "target_entity_id": "v12",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r28",
+        "source_entity_id": "t17",
+        "target_entity_id": "v13",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r29",
+        "source_entity_id": "t18",
+        "target_entity_id": "v14",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r30",
+        "source_entity_id": "t19",
+        "target_entity_id": "v15",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r31",
+        "source_entity_id": "v1",
+        "target_entity_id": "v10",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r32",
+        "source_entity_id": "v3",
+        "target_entity_id": "v10",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "cross_panel"
+      }
+    ]
+  }
+}

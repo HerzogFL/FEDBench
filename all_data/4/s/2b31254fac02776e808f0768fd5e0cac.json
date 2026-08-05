@@ -1,0 +1,1388 @@
+{
+  "image_name": "2b31254fac02776e808f0768fd5e0cac.png",
+  "prompt_text": "The figure summarizes how intestinal fungi interact with bacteria, metabolites, and host immunity in the colon and small intestine, and how these interactions can either support barrier health or promote inflammation. Across both regions, fungal overgrowth or altered fungal communities appear alongside changes in bacterial populations, including reduced beneficial anaerobes and expansion of pathobionts. In the colon, fungal products and tryptophan-derived metabolites are shown influencing epithelial cells and immune pathways such as AhR, IL-17, IL-22, and RORγt, which shape barrier protection and ILC3/TH17 responses. Other panels highlight bile acid and short-chain fatty acid pathways, suggesting that microbial metabolites can dampen or promote inflammation through T regulatory cells, dendritic cells, and cytokine signaling.\n\nThe figure also depicts several mechanisms of mucosal damage: fungal invasion, epithelial DNA damage, inflammasome-related signaling, and toxins such as candidalysin. These are linked to recruitment of neutrophils and activation of fungus-specific cytotoxic T cells. In the small intestine, Peyer’s patches, M cells, IgA, and Paneth cell antimicrobial peptides are emphasized, indicating immune sampling and control of fungi near the crypts and villi. Overall, the image presents intestinal fungal dysbiosis as tightly connected to microbiome imbalance, metabolite shifts, barrier dysfunction, and chronic gut inflammation.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "colon mucosal region",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "upper section",
+          "intestinal epithelium",
+          "microbe interactions"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "small intestine mucosal region",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "lower section",
+          "villus and crypt",
+          "immune sampling"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "intestinal epithelial lining",
+        "category": "cell",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "curved monolayer",
+          "blue enterocytes",
+          "barrier surface"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "fungal cells in lumen",
+        "category": "cell",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "orange budding cells",
+          "Candida-like",
+          "luminal overgrowth"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "bacterial populations in lumen",
+        "category": "cell",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "purple rods/cocci",
+          "mixed microbiota",
+          "dysbiosis context"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "metabolite dots and pathways",
+        "category": "molecule",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "colored small circles",
+          "diffusing metabolites",
+          "signal mediators"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "immune signaling arrows",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "directional connectors",
+          "activation/inhibition",
+          "cross-talk"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "mucosal barrier region",
+        "category": "membrane",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "apical barrier",
+          "epithelium interface",
+          "protective surface"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "dendritic cell",
+        "category": "cell",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "antigen-presenting cell",
+          "lamina propria",
+          "immune regulation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v10",
+        "entity_type": "visual",
+        "name": "Treg cells",
+        "category": "cell",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "regulatory T cells",
+          "anti-inflammatory",
+          "metabolite-responsive"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v11",
+        "entity_type": "visual",
+        "name": "ILC3/TH17 effector cells",
+        "category": "cell",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "RORγt-positive",
+          "cytokine-producing",
+          "barrier immunity"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v12",
+        "entity_type": "visual",
+        "name": "fungus-specific cytotoxic T cells",
+        "category": "cell",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "cytotoxic T cell",
+          "granzyme/perforin",
+          "fungus-specific"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v13",
+        "entity_type": "visual",
+        "name": "neutrophils",
+        "category": "cell",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "recruited granulocytes",
+          "inflammation",
+          "fungal response"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v14",
+        "entity_type": "visual",
+        "name": "Peyer's patch",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "lymphoid aggregate",
+          "small intestine",
+          "immune sampling"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v15",
+        "entity_type": "visual",
+        "name": "M cell",
+        "category": "cell",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "sampling epithelial cell",
+          "over Peyer's patch",
+          "luminal uptake"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v16",
+        "entity_type": "visual",
+        "name": "Paneth cell",
+        "category": "cell",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "crypt base cell",
+          "antimicrobial secretion",
+          "small intestine"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v17",
+        "entity_type": "visual",
+        "name": "crypt and villus architecture",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "small intestine folds",
+          "crypts",
+          "villus-like projections"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v18",
+        "entity_type": "visual",
+        "name": "IgA antibodies",
+        "category": "molecule",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "Y-shaped antibodies",
+          "luminal coating",
+          "mucosal immunity"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "Colon",
+        "category": "annotation_text",
+        "surface_text": "Colon",
+        "normalized_text": "Colon",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "region header"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "Small intestine",
+        "category": "annotation_text",
+        "surface_text": "Small intestine",
+        "normalized_text": "Small intestine",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "region header"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "Candida spp. increase",
+        "category": "scientific_label",
+        "surface_text": "↑Candida spp.",
+        "normalized_text": "Candida spp. increased",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "fungal overgrowth"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "Bacterial pathobionts increase",
+        "category": "scientific_label",
+        "surface_text": "↑Bacterial pathobionts",
+        "normalized_text": "Bacterial pathobionts increased",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "dysbiosis"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "SCFAs",
+        "category": "scientific_label",
+        "surface_text": "SCFAs",
+        "normalized_text": "short-chain fatty acids",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "metabolite class"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "Secondary bile acids",
+        "category": "scientific_label",
+        "surface_text": "Secondary bile acids",
+        "normalized_text": "secondary bile acids",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "metabolite pathway"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "Tryptophan metabolites",
+        "category": "scientific_label",
+        "surface_text": "Tryptophan metabolites",
+        "normalized_text": "tryptophan metabolites",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "metabolite pathway"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "AhR",
+        "category": "scientific_label",
+        "surface_text": "AhR",
+        "normalized_text": "AhR",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "immune receptor"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "IL-17",
+        "category": "scientific_label",
+        "surface_text": "IL-17",
+        "normalized_text": "IL-17",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "cytokine"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "IL-22",
+        "category": "scientific_label",
+        "surface_text": "IL-22",
+        "normalized_text": "IL-22",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "cytokine"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "RORγt",
+        "category": "scientific_label",
+        "surface_text": "RORγt",
+        "normalized_text": "RORγt",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "transcription factor"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "ILC3",
+        "category": "scientific_label",
+        "surface_text": "ILC3",
+        "normalized_text": "ILC3",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "innate lymphoid cell"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "TH17",
+        "category": "scientific_label",
+        "surface_text": "TH17",
+        "normalized_text": "TH17",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "helper T cell subtype"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t14",
+        "entity_type": "text",
+        "name": "Treg cells",
+        "category": "scientific_label",
+        "surface_text": "Treg cells",
+        "normalized_text": "Treg cells",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "regulatory lymphocytes"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t15",
+        "entity_type": "text",
+        "name": "Dendritic cell",
+        "category": "scientific_label",
+        "surface_text": "Dendritic cell",
+        "normalized_text": "Dendritic cell",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "antigen-presenting cell"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t16",
+        "entity_type": "text",
+        "name": "Inflammation",
+        "category": "annotation_text",
+        "surface_text": "Inflammation",
+        "normalized_text": "Inflammation",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "pathologic outcome"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t17",
+        "entity_type": "text",
+        "name": "Barrier protection",
+        "category": "annotation_text",
+        "surface_text": "Barrier protection",
+        "normalized_text": "Barrier protection",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "protective outcome"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t18",
+        "entity_type": "text",
+        "name": "Mucosal barrier",
+        "category": "annotation_text",
+        "surface_text": "Mucosal barrier",
+        "normalized_text": "Mucosal barrier",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "barrier label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t19",
+        "entity_type": "text",
+        "name": "DNA damage",
+        "category": "annotation_text",
+        "surface_text": "DNA damage",
+        "normalized_text": "DNA damage",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "epithelial injury"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t20",
+        "entity_type": "text",
+        "name": "Fungi-specific cytotoxic TH1 cells",
+        "category": "scientific_label",
+        "surface_text": "Fungi-specific cytotoxic TH1 cells",
+        "normalized_text": "fungi-specific cytotoxic TH1 cells",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "cytotoxic response"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t21",
+        "entity_type": "text",
+        "name": "Neutrophil",
+        "category": "scientific_label",
+        "surface_text": "Neutrophil",
+        "normalized_text": "Neutrophil",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "innate effector"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t22",
+        "entity_type": "text",
+        "name": "Candidalysin",
+        "category": "scientific_label",
+        "surface_text": "Candidalysin",
+        "normalized_text": "Candidalysin",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "fungal toxin"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t23",
+        "entity_type": "text",
+        "name": "Peyer's patch",
+        "category": "scientific_label",
+        "surface_text": "Peyer's patch",
+        "normalized_text": "Peyer's patch",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "lymphoid tissue"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t24",
+        "entity_type": "text",
+        "name": "M cell",
+        "category": "scientific_label",
+        "surface_text": "M cell",
+        "normalized_text": "M cell",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "sampling cell"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t25",
+        "entity_type": "text",
+        "name": "sigA",
+        "category": "scientific_label",
+        "surface_text": "sigA",
+        "normalized_text": "sIgA",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "secretory IgA"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t26",
+        "entity_type": "text",
+        "name": "Crypt",
+        "category": "scientific_label",
+        "surface_text": "Crypt",
+        "normalized_text": "Crypt",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "small intestine structure"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t27",
+        "entity_type": "text",
+        "name": "Paneth cell",
+        "category": "scientific_label",
+        "surface_text": "Paneth cell",
+        "normalized_text": "Paneth cell",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "crypt base cell"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t28",
+        "entity_type": "text",
+        "name": "AMPs",
+        "category": "scientific_label",
+        "surface_text": "AMPs",
+        "normalized_text": "antimicrobial peptides",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "Paneth cell products"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t29",
+        "entity_type": "text",
+        "name": "Epithelial cell",
+        "category": "scientific_label",
+        "surface_text": "Epithelial cell",
+        "normalized_text": "Epithelial cell",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "barrier cell"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t30",
+        "entity_type": "text",
+        "name": "Propionate",
+        "category": "scientific_label",
+        "surface_text": "Propionate",
+        "normalized_text": "Propionate",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "SCFA example"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t31",
+        "entity_type": "text",
+        "name": "Butyrate",
+        "category": "scientific_label",
+        "surface_text": "Butyrate",
+        "normalized_text": "Butyrate",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "SCFA example"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t32",
+        "entity_type": "text",
+        "name": "IL-10",
+        "category": "scientific_label",
+        "surface_text": "IL-10",
+        "normalized_text": "IL-10",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "anti-inflammatory cytokine"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t33",
+        "entity_type": "text",
+        "name": "GPR43",
+        "category": "scientific_label",
+        "surface_text": "GPR43",
+        "normalized_text": "GPR43",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "SCFA receptor"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t34",
+        "entity_type": "text",
+        "name": "FOXP3",
+        "category": "scientific_label",
+        "surface_text": "FOXP3",
+        "normalized_text": "FOXP3",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "Treg marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t35",
+        "entity_type": "text",
+        "name": "FXR",
+        "category": "scientific_label",
+        "surface_text": "FXR",
+        "normalized_text": "FXR",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "bile acid receptor"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t36",
+        "entity_type": "text",
+        "name": "IL-1α/β",
+        "category": "scientific_label",
+        "surface_text": "IL-1α/β",
+        "normalized_text": "IL-1α/β",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "inflammatory cytokines"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t37",
+        "entity_type": "text",
+        "name": "C. albicans",
+        "category": "scientific_label",
+        "surface_text": "C. albicans",
+        "normalized_text": "Candida albicans",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "fungal species"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t38",
+        "entity_type": "text",
+        "name": "C. tropicalis",
+        "category": "scientific_label",
+        "surface_text": "C. tropicalis",
+        "normalized_text": "Candida tropicalis",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "fungal species"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t39",
+        "entity_type": "text",
+        "name": "ASCA",
+        "category": "scientific_label",
+        "surface_text": "ASCA",
+        "normalized_text": "ASCA",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "anti-fungal antibody marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t40",
+        "entity_type": "text",
+        "name": "Other metabolites?",
+        "category": "annotation_text",
+        "surface_text": "Other metabolites?",
+        "normalized_text": "Other metabolites?",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "speculative note"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t1",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t2",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t18",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t15",
+        "target_entity_id": "v9",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "t14",
+        "target_entity_id": "v10",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "t20",
+        "target_entity_id": "v12",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "t21",
+        "target_entity_id": "v13",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "t23",
+        "target_entity_id": "v14",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "t24",
+        "target_entity_id": "v15",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "t25",
+        "target_entity_id": "v18",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "t27",
+        "target_entity_id": "v16",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "t26",
+        "target_entity_id": "v17",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "v4",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "v5",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "v4",
+        "target_entity_id": "v2",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "v5",
+        "target_entity_id": "v2",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "v3",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "v3",
+        "target_entity_id": "v2",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "v8",
+        "target_entity_id": "v3",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "v14",
+        "target_entity_id": "v2",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "v15",
+        "target_entity_id": "v14",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "v16",
+        "target_entity_id": "v17",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r23",
+        "source_entity_id": "v17",
+        "target_entity_id": "v2",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r24",
+        "source_entity_id": "v18",
+        "target_entity_id": "v2",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r25",
+        "source_entity_id": "t3",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r26",
+        "source_entity_id": "t4",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r27",
+        "source_entity_id": "t5",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r28",
+        "source_entity_id": "t6",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r29",
+        "source_entity_id": "t7",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r30",
+        "source_entity_id": "t7",
+        "target_entity_id": "t8",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r31",
+        "source_entity_id": "t8",
+        "target_entity_id": "t10",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r32",
+        "source_entity_id": "t11",
+        "target_entity_id": "v11",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r33",
+        "source_entity_id": "t12",
+        "target_entity_id": "v11",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r34",
+        "source_entity_id": "t13",
+        "target_entity_id": "v11",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r35",
+        "source_entity_id": "v11",
+        "target_entity_id": "t9",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r36",
+        "source_entity_id": "v11",
+        "target_entity_id": "t10",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r37",
+        "source_entity_id": "t10",
+        "target_entity_id": "t17",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r38",
+        "source_entity_id": "t17",
+        "target_entity_id": "v8",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r39",
+        "source_entity_id": "v6",
+        "target_entity_id": "v9",
+        "relation_type": "points_to",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r40",
+        "source_entity_id": "v6",
+        "target_entity_id": "v10",
+        "relation_type": "points_to",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r41",
+        "source_entity_id": "v6",
+        "target_entity_id": "t16",
+        "relation_type": "points_to",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r42",
+        "source_entity_id": "v4",
+        "target_entity_id": "t19",
+        "relation_type": "points_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r43",
+        "source_entity_id": "t19",
+        "target_entity_id": "v3",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r44",
+        "source_entity_id": "t22",
+        "target_entity_id": "v4",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r45",
+        "source_entity_id": "t22",
+        "target_entity_id": "v3",
+        "relation_type": "inhibits",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r46",
+        "source_entity_id": "v4",
+        "target_entity_id": "v13",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r47",
+        "source_entity_id": "v4",
+        "target_entity_id": "v12",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r48",
+        "source_entity_id": "v15",
+        "target_entity_id": "v4",
+        "relation_type": "points_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r49",
+        "source_entity_id": "v16",
+        "target_entity_id": "v4",
+        "relation_type": "inhibits",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r50",
+        "source_entity_id": "t28",
+        "target_entity_id": "v16",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      }
+    ]
+  }
+}

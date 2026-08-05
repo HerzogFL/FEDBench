@@ -1,0 +1,1895 @@
+{
+  "image_name": "00d4db8178b25d8c16776b4bad2cd712.png",
+  "prompt_text": "The figure summarizes B-cell development and several key functions of mature B cells. At the top, it shows a progression from stem cells in the bone marrow through pro-B, pre-B, immature, and transitional B cells, then into naïve B cells that circulate in secondary lymphoid organs and can differentiate into memory B cells, plasmablasts, and antibody-secreting plasma cells. A bar chart beneath this pathway compares how surface markers change across stages, indicating that different markers and antibody isotypes appear or disappear as B cells mature.\n\nThe lower panels highlight major immune roles of activated B cells. One panel depicts class switching driven by help from a T follicular helper cell, with signals such as IL-21 and factors including BCL-6 and CXCR5 leading to production of a different antibody class. Another shows antibody production by plasmablasts or plasma cells, with antibodies acting through complement, direct cell killing, or NK-cell-mediated mechanisms like ADCC/ADCP to eliminate target cells. Additional panels show antigen presentation, where a B cell internalizes antigen through the B-cell receptor and presents peptide on MHC to a T cell, and cytokine production, where distinct B-cell subsets appear to promote either inflammatory or regulatory T-cell responses.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "B-cell developmental progression",
+        "category": "pathway_component",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "left-to-right maturation",
+          "bone marrow to circulation",
+          "cell sequence"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "stage-to-stage arrows",
+        "category": "arrow",
+        "panel": "a",
+        "count": 8,
+        "key_attributes": [
+          "directional flow",
+          "maturation transitions"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "surface marker bar chart",
+        "category": "legend_key",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "horizontal bars",
+          "marker changes",
+          "across stages"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "class switching interaction",
+        "category": "pathway_component",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "TFH help",
+          "B-cell differentiation",
+          "isotype change"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "T follicular helper cell",
+        "category": "cell",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "adjacent to B cell",
+          "helper interaction"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "B cells in class switching panel",
+        "category": "cell",
+        "panel": "b",
+        "count": 3,
+        "key_attributes": [
+          "naive to switched",
+          "antibody icons"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "antibody production pathway",
+        "category": "pathway_component",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "secreted antibodies",
+          "effector mechanisms"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "plasmablast or plasma cell",
+        "category": "cell",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "antibody-secreting",
+          "source of antibodies"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "antibody molecules",
+        "category": "molecule",
+        "panel": "c",
+        "count": 6,
+        "key_attributes": [
+          "Y-shaped",
+          "bind target cell"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v10",
+        "entity_type": "visual",
+        "name": "target cells",
+        "category": "cell",
+        "panel": "c",
+        "count": 2,
+        "key_attributes": [
+          "bound by antibodies",
+          "subject to killing"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v11",
+        "entity_type": "visual",
+        "name": "NK cell",
+        "category": "cell",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "effector cell",
+          "mediates ADCC/ADCP"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v12",
+        "entity_type": "visual",
+        "name": "cell death outcome",
+        "category": "region",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "terminal outcome",
+          "right side"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v13",
+        "entity_type": "visual",
+        "name": "antigen presentation interaction",
+        "category": "pathway_component",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "BCR uptake",
+          "peptide-MHC display",
+          "T-cell contact"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v14",
+        "entity_type": "visual",
+        "name": "B cell antigen-presenting cell",
+        "category": "cell",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "contains internalized antigen",
+          "presents peptide"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v15",
+        "entity_type": "visual",
+        "name": "T cell",
+        "category": "cell",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "contacts MHC-peptide",
+          "TCR-mediated recognition"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v16",
+        "entity_type": "visual",
+        "name": "extracellular antigen",
+        "category": "molecule",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "binds BCR",
+          "left side"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v17",
+        "entity_type": "visual",
+        "name": "peptide-MHC complex",
+        "category": "molecule",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "displayed on B cell",
+          "recognized by TCR"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v18",
+        "entity_type": "visual",
+        "name": "cytokine production schematic",
+        "category": "pathway_component",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "effector vs regulatory",
+          "B-cell subsets",
+          "T-cell influence"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v19",
+        "entity_type": "visual",
+        "name": "Beff cell",
+        "category": "cell",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "pro-inflammatory subset"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v20",
+        "entity_type": "visual",
+        "name": "Breg cell",
+        "category": "cell",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "regulatory subset"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v21",
+        "entity_type": "visual",
+        "name": "responding T cell",
+        "category": "cell",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "target of cytokine effects"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v22",
+        "entity_type": "visual",
+        "name": "colored cytokine dots",
+        "category": "molecule",
+        "panel": "e",
+        "count": 12,
+        "key_attributes": [
+          "secreted factors",
+          "subset-specific colors"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "panel a label",
+        "category": "panel_label",
+        "surface_text": "a",
+        "normalized_text": "a",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "panel a title",
+        "category": "scientific_label",
+        "surface_text": "B cell development in the bone marrow",
+        "normalized_text": "B cell development in the bone marrow",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "development overview"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "bone marrow region label",
+        "category": "annotation_text",
+        "surface_text": "Bone marrow",
+        "normalized_text": "Bone marrow",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "anatomical region"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "secondary lymphoid organs region label",
+        "category": "annotation_text",
+        "surface_text": "Secondary lymphoid organs and circulation",
+        "normalized_text": "Secondary lymphoid organs and circulation",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "circulation region"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "stem cell label",
+        "category": "scientific_label",
+        "surface_text": "Stem cell",
+        "normalized_text": "Stem cell",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "development stage"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "pro-B cell label",
+        "category": "scientific_label",
+        "surface_text": "Pro-B cell",
+        "normalized_text": "Pro-B cell",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "development stage"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "pre-B cell label",
+        "category": "scientific_label",
+        "surface_text": "Pre-B cell",
+        "normalized_text": "Pre-B cell",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "development stage"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "immature B cell label",
+        "category": "scientific_label",
+        "surface_text": "Immature B cell",
+        "normalized_text": "Immature B cell",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "development stage"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "transitional B cell label",
+        "category": "scientific_label",
+        "surface_text": "Transitional B cell",
+        "normalized_text": "Transitional B cell",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "development stage"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "naive B cell label",
+        "category": "scientific_label",
+        "surface_text": "Naive B cell",
+        "normalized_text": "Naive B cell",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "mature stage"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "memory cell label",
+        "category": "scientific_label",
+        "surface_text": "Memory",
+        "normalized_text": "Memory B cell",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "differentiated fate"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "plasmablast label",
+        "category": "scientific_label",
+        "surface_text": "Plasmablast",
+        "normalized_text": "Plasmablast",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "differentiated fate"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "plasma cell label",
+        "category": "scientific_label",
+        "surface_text": "Plasma cell",
+        "normalized_text": "Plasma cell",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "antibody secreting fate"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t14",
+        "entity_type": "text",
+        "name": "CD34 label",
+        "category": "scientific_label",
+        "surface_text": "CD34",
+        "normalized_text": "CD34",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "surface marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t15",
+        "entity_type": "text",
+        "name": "HLA-DR label",
+        "category": "scientific_label",
+        "surface_text": "HLA-DR",
+        "normalized_text": "HLA-DR",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "surface marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t16",
+        "entity_type": "text",
+        "name": "CD19 label",
+        "category": "scientific_label",
+        "surface_text": "CD19",
+        "normalized_text": "CD19",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "surface marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t17",
+        "entity_type": "text",
+        "name": "CD20 label",
+        "category": "scientific_label",
+        "surface_text": "CD20",
+        "normalized_text": "CD20",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "surface marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t18",
+        "entity_type": "text",
+        "name": "IgM label",
+        "category": "scientific_label",
+        "surface_text": "IgM",
+        "normalized_text": "IgM",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "antibody isotype"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t19",
+        "entity_type": "text",
+        "name": "IgD label",
+        "category": "scientific_label",
+        "surface_text": "IgD",
+        "normalized_text": "IgD",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "antibody isotype"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t20",
+        "entity_type": "text",
+        "name": "CD27 label",
+        "category": "scientific_label",
+        "surface_text": "CD27",
+        "normalized_text": "CD27",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "surface marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t21",
+        "entity_type": "text",
+        "name": "CD38 label",
+        "category": "scientific_label",
+        "surface_text": "CD38",
+        "normalized_text": "CD38",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "surface marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t22",
+        "entity_type": "text",
+        "name": "CD138 label",
+        "category": "scientific_label",
+        "surface_text": "CD138",
+        "normalized_text": "CD138",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "surface marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t23",
+        "entity_type": "text",
+        "name": "Pre-BCR label",
+        "category": "scientific_label",
+        "surface_text": "Pre-BCR",
+        "normalized_text": "Pre-BCR",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "receptor/isotype legend"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t24",
+        "entity_type": "text",
+        "name": "IgG label",
+        "category": "scientific_label",
+        "surface_text": "IgG",
+        "normalized_text": "IgG",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "switched isotype legend"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t25",
+        "entity_type": "text",
+        "name": "panel b label",
+        "category": "panel_label",
+        "surface_text": "b",
+        "normalized_text": "b",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t26",
+        "entity_type": "text",
+        "name": "class switching title",
+        "category": "scientific_label",
+        "surface_text": "Class switching",
+        "normalized_text": "Class switching",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "functional panel title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t27",
+        "entity_type": "text",
+        "name": "TFH cell label",
+        "category": "scientific_label",
+        "surface_text": "TFH cell",
+        "normalized_text": "T follicular helper cell",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "helper T cell"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t28",
+        "entity_type": "text",
+        "name": "BCL-6 label",
+        "category": "scientific_label",
+        "surface_text": "BCL-6",
+        "normalized_text": "BCL-6",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "transcription factor"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t29",
+        "entity_type": "text",
+        "name": "CXCR5 label",
+        "category": "scientific_label",
+        "surface_text": "CXCR5",
+        "normalized_text": "CXCR5",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "chemokine receptor"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t30",
+        "entity_type": "text",
+        "name": "IL-21 label",
+        "category": "scientific_label",
+        "surface_text": "IL-21",
+        "normalized_text": "IL-21",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "helper cytokine"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t31",
+        "entity_type": "text",
+        "name": "panel c label",
+        "category": "panel_label",
+        "surface_text": "c",
+        "normalized_text": "c",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t32",
+        "entity_type": "text",
+        "name": "antibody production title",
+        "category": "scientific_label",
+        "surface_text": "Antibody production",
+        "normalized_text": "Antibody production",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "functional panel title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t33",
+        "entity_type": "text",
+        "name": "Complement label",
+        "category": "annotation_text",
+        "surface_text": "Complement",
+        "normalized_text": "Complement",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "effector mechanism"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t34",
+        "entity_type": "text",
+        "name": "CDC label",
+        "category": "annotation_text",
+        "surface_text": "CDC",
+        "normalized_text": "CDC",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "complement-dependent cytotoxicity"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t35",
+        "entity_type": "text",
+        "name": "target cell label",
+        "category": "scientific_label",
+        "surface_text": "Target cell",
+        "normalized_text": "Target cell",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "effector target"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t36",
+        "entity_type": "text",
+        "name": "NK cell label",
+        "category": "scientific_label",
+        "surface_text": "NK cell",
+        "normalized_text": "NK cell",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "cytotoxic effector"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t37",
+        "entity_type": "text",
+        "name": "ADCC or ADCP label",
+        "category": "annotation_text",
+        "surface_text": "ADCC or ADCP",
+        "normalized_text": "ADCC or ADCP",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "NK-mediated mechanism"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t38",
+        "entity_type": "text",
+        "name": "cell death label",
+        "category": "annotation_text",
+        "surface_text": "Cell death",
+        "normalized_text": "Cell death",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "outcome"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t39",
+        "entity_type": "text",
+        "name": "panel d label",
+        "category": "panel_label",
+        "surface_text": "d",
+        "normalized_text": "d",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t40",
+        "entity_type": "text",
+        "name": "antigen presentation title",
+        "category": "scientific_label",
+        "surface_text": "Antigen presentation",
+        "normalized_text": "Antigen presentation",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "functional panel title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t41",
+        "entity_type": "text",
+        "name": "internalization and degradation label",
+        "category": "annotation_text",
+        "surface_text": "Internalization and degradation",
+        "normalized_text": "Internalization and degradation",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "processing step"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t42",
+        "entity_type": "text",
+        "name": "Peptide label",
+        "category": "scientific_label",
+        "surface_text": "Peptide",
+        "normalized_text": "Peptide",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "processed antigen fragment"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t43",
+        "entity_type": "text",
+        "name": "TCR label",
+        "category": "scientific_label",
+        "surface_text": "TCR",
+        "normalized_text": "TCR",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "T-cell receptor"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t44",
+        "entity_type": "text",
+        "name": "T cell label",
+        "category": "scientific_label",
+        "surface_text": "T cell",
+        "normalized_text": "T cell",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "interacting lymphocyte"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t45",
+        "entity_type": "text",
+        "name": "extracellular antigen label",
+        "category": "annotation_text",
+        "surface_text": "Extracellular antigen",
+        "normalized_text": "Extracellular antigen",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "uptake source"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t46",
+        "entity_type": "text",
+        "name": "BCR label",
+        "category": "scientific_label",
+        "surface_text": "BCR",
+        "normalized_text": "BCR",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "antigen receptor"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t47",
+        "entity_type": "text",
+        "name": "MHC label",
+        "category": "scientific_label",
+        "surface_text": "MHC",
+        "normalized_text": "MHC",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "presentation molecule"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t48",
+        "entity_type": "text",
+        "name": "B cell label",
+        "category": "scientific_label",
+        "surface_text": "B cell",
+        "normalized_text": "B cell",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "presenting cell"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t49",
+        "entity_type": "text",
+        "name": "panel e label",
+        "category": "panel_label",
+        "surface_text": "e",
+        "normalized_text": "e",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t50",
+        "entity_type": "text",
+        "name": "cytokine production title",
+        "category": "scientific_label",
+        "surface_text": "Cytokine production",
+        "normalized_text": "Cytokine production",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "functional panel title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t51",
+        "entity_type": "text",
+        "name": "Beff cell label",
+        "category": "scientific_label",
+        "surface_text": "Beff cell",
+        "normalized_text": "Beff cell",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "effector B-cell subset"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t52",
+        "entity_type": "text",
+        "name": "Breg cell label",
+        "category": "scientific_label",
+        "surface_text": "Breg cell",
+        "normalized_text": "Breg cell",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "regulatory B-cell subset"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t53",
+        "entity_type": "text",
+        "name": "TNF label",
+        "category": "scientific_label",
+        "surface_text": "TNF",
+        "normalized_text": "TNF",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "cytokine"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t54",
+        "entity_type": "text",
+        "name": "IL-6 label",
+        "category": "scientific_label",
+        "surface_text": "IL-6",
+        "normalized_text": "IL-6",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "cytokine"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t55",
+        "entity_type": "text",
+        "name": "LTα label",
+        "category": "scientific_label",
+        "surface_text": "LTα",
+        "normalized_text": "LTα",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "cytokine"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t56",
+        "entity_type": "text",
+        "name": "GM-CSF label",
+        "category": "scientific_label",
+        "surface_text": "GM-CSF",
+        "normalized_text": "GM-CSF",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "cytokine"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t57",
+        "entity_type": "text",
+        "name": "IL-10 label",
+        "category": "scientific_label",
+        "surface_text": "IL-10",
+        "normalized_text": "IL-10",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "regulatory cytokine"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t58",
+        "entity_type": "text",
+        "name": "IL-35 label",
+        "category": "scientific_label",
+        "surface_text": "IL-35",
+        "normalized_text": "IL-35",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "regulatory cytokine"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t59",
+        "entity_type": "text",
+        "name": "TH1 cell label",
+        "category": "scientific_label",
+        "surface_text": "TH1 cell",
+        "normalized_text": "TH1 cell",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "inflammatory T-cell response"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t60",
+        "entity_type": "text",
+        "name": "TH17 cell label",
+        "category": "scientific_label",
+        "surface_text": "TH17 cell",
+        "normalized_text": "TH17 cell",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "inflammatory T-cell response"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t2",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t3",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t4",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t5",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "t6",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "t7",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "t8",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "t9",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "t10",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "t11",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "t12",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "t13",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "v1",
+        "target_entity_id": "v3",
+        "relation_type": "above",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "t18",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "t19",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "t14",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "t15",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "t16",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "t17",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "t20",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "t21",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "t22",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r23",
+        "source_entity_id": "t23",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r24",
+        "source_entity_id": "t24",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r25",
+        "source_entity_id": "t5",
+        "target_entity_id": "t6",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r26",
+        "source_entity_id": "t6",
+        "target_entity_id": "t7",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r27",
+        "source_entity_id": "t7",
+        "target_entity_id": "t8",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r28",
+        "source_entity_id": "t8",
+        "target_entity_id": "t9",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r29",
+        "source_entity_id": "t9",
+        "target_entity_id": "t10",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r30",
+        "source_entity_id": "t10",
+        "target_entity_id": "t11",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r31",
+        "source_entity_id": "t10",
+        "target_entity_id": "t12",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r32",
+        "source_entity_id": "t12",
+        "target_entity_id": "t13",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r33",
+        "source_entity_id": "t26",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r34",
+        "source_entity_id": "t27",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r35",
+        "source_entity_id": "t28",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r36",
+        "source_entity_id": "t29",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r37",
+        "source_entity_id": "t30",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r38",
+        "source_entity_id": "v5",
+        "target_entity_id": "v6",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r39",
+        "source_entity_id": "v6",
+        "target_entity_id": "v6",
+        "relation_type": "transforms_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r40",
+        "source_entity_id": "t32",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r41",
+        "source_entity_id": "v8",
+        "target_entity_id": "v9",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r42",
+        "source_entity_id": "v9",
+        "target_entity_id": "v10",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r43",
+        "source_entity_id": "t35",
+        "target_entity_id": "v10",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r44",
+        "source_entity_id": "t36",
+        "target_entity_id": "v11",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r45",
+        "source_entity_id": "t33",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r46",
+        "source_entity_id": "t37",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r47",
+        "source_entity_id": "t38",
+        "target_entity_id": "v12",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r48",
+        "source_entity_id": "v9",
+        "target_entity_id": "v12",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r49",
+        "source_entity_id": "v11",
+        "target_entity_id": "v12",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r50",
+        "source_entity_id": "t40",
+        "target_entity_id": "v13",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r51",
+        "source_entity_id": "t48",
+        "target_entity_id": "v14",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r52",
+        "source_entity_id": "t44",
+        "target_entity_id": "v15",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r53",
+        "source_entity_id": "t45",
+        "target_entity_id": "v16",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r54",
+        "source_entity_id": "t47",
+        "target_entity_id": "v17",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r55",
+        "source_entity_id": "t42",
+        "target_entity_id": "v17",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r56",
+        "source_entity_id": "t43",
+        "target_entity_id": "v15",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r57",
+        "source_entity_id": "t46",
+        "target_entity_id": "v14",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r58",
+        "source_entity_id": "v16",
+        "target_entity_id": "v14",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r59",
+        "source_entity_id": "v14",
+        "target_entity_id": "v17",
+        "relation_type": "transforms_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r60",
+        "source_entity_id": "v17",
+        "target_entity_id": "v15",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r61",
+        "source_entity_id": "t41",
+        "target_entity_id": "v13",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r62",
+        "source_entity_id": "t50",
+        "target_entity_id": "v18",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r63",
+        "source_entity_id": "t51",
+        "target_entity_id": "v19",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r64",
+        "source_entity_id": "t52",
+        "target_entity_id": "v20",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r65",
+        "source_entity_id": "v19",
+        "target_entity_id": "v21",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r66",
+        "source_entity_id": "v20",
+        "target_entity_id": "v21",
+        "relation_type": "inhibits",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r67",
+        "source_entity_id": "v22",
+        "target_entity_id": "v21",
+        "relation_type": "activates",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      }
+    ]
+  }
+}

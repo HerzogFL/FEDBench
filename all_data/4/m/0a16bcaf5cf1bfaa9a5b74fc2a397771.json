@@ -1,0 +1,945 @@
+{
+  "image_name": "0a16bcaf5cf1bfaa9a5b74fc2a397771.png",
+  "prompt_text": "This schematic summarizes two-way communication between adipose tissue, sensory nerves, and the brain. At the center is a white adipocyte cluster supplied by blood vessels and associated with beige adipocytes, macrophages, and a Treg cell. The main idea is that adipose tissue can signal outward through afferent sensory nerves, while nerve endings can also feed signals back to adipose tissue.\n\nOn the adipose side, the figure highlights a range of secreted factors reported to influence afferent nerves, including leptin, growth factors, fatty-acid–related lipids, prostaglandins, inflammatory cytokines, and immune mediators. These molecules may come directly from adipocytes or from adipose-resident cells such as immune cells. The sensory terminals within the tissue then relay information along an afferent pathway to the brain, shown by dashed blue projections.\n\nIn the opposite direction, the nerve terminals release CGRP and substance P locally into the adipose tissue. These neuropeptides are indicated as factors that can affect adipose cells and their local microenvironment. Overall, the figure depicts adipose tissue not just as a storage organ but as an active sensory and signaling hub that communicates with the nervous system through immune, metabolic, and neuropeptide-mediated signals.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "white adipocyte cluster",
+        "category": "cell",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "large central cluster",
+          "pale cells",
+          "main adipose mass"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "beige adipocytes",
+        "category": "cell",
+        "panel": "single_panel",
+        "count": 3,
+        "key_attributes": [
+          "round multilocular",
+          "peripheral",
+          "adjacent to white adipocytes"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "macrophages",
+        "category": "cell",
+        "panel": "single_panel",
+        "count": 3,
+        "key_attributes": [
+          "green irregular cells",
+          "adipose-resident",
+          "local immune cells"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "Treg cell",
+        "category": "cell",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "blue round cell",
+          "immune cell",
+          "near adipocytes"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "blood vessels",
+        "category": "pathway_component",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "red branching network",
+          "supplies adipose tissue",
+          "within cluster"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "sensory nerve terminals",
+        "category": "pathway_component",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "red nerve endings",
+          "within adipose tissue",
+          "local projections"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "afferent pathway to brain",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "blue dashed trajectory",
+          "upward projection",
+          "sensory direction"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "brain",
+        "category": "organelle",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "top right",
+          "anatomical sketch",
+          "signal target"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "adipose-secreted mediator particles",
+        "category": "molecule",
+        "panel": "single_panel",
+        "count": 20,
+        "key_attributes": [
+          "yellow and blue dots",
+          "around adipose tissue",
+          "toward nerve pathway"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v10",
+        "entity_type": "visual",
+        "name": "feedback arrows from nerves to adipose tissue",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "curved dark arrows",
+          "return direction",
+          "local feedback"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v11",
+        "entity_type": "visual",
+        "name": "panel marker a",
+        "category": "panel_marker",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "top left",
+          "bold letter"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "v12",
+        "entity_type": "visual",
+        "name": "panel marker b",
+        "category": "panel_marker",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "right side",
+          "bold letter"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "panel label a",
+        "category": "panel_label",
+        "surface_text": "a",
+        "normalized_text": "a",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "panel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "adipose factors heading",
+        "category": "legend_text",
+        "surface_text": "Adipose-tissue-secreted factors reported to affect afferent nerves",
+        "normalized_text": "Adipose-tissue-secreted factors reported to affect afferent nerves",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "left heading",
+          "secreted factors"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "leptin label",
+        "category": "scientific_label",
+        "surface_text": "Leptin",
+        "normalized_text": "leptin",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "secreted factor"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "NRG4 label",
+        "category": "scientific_label",
+        "surface_text": "NRG4",
+        "normalized_text": "NRG4",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "growth factor"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "NGF label",
+        "category": "scientific_label",
+        "surface_text": "NGF",
+        "normalized_text": "NGF",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "growth factor"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "BDNF label",
+        "category": "scientific_label",
+        "surface_text": "BDNF",
+        "normalized_text": "BDNF",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "growth factor"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "FFAs label",
+        "category": "scientific_label",
+        "surface_text": "FFAs",
+        "normalized_text": "free fatty acids",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "fatty-acid lipid"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "AA label",
+        "category": "scientific_label",
+        "surface_text": "AA",
+        "normalized_text": "arachidonic acid",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "fatty-acid lipid"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "EPA label",
+        "category": "scientific_label",
+        "surface_text": "EPA",
+        "normalized_text": "eicosapentaenoic acid",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "fatty-acid lipid"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "PGE2 label",
+        "category": "scientific_label",
+        "surface_text": "PGE2",
+        "normalized_text": "prostaglandin E2",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "prostaglandin"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "VEGF label",
+        "category": "scientific_label",
+        "surface_text": "VEGF",
+        "normalized_text": "VEGF",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "growth factor"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "TNF label",
+        "category": "scientific_label",
+        "surface_text": "TNF",
+        "normalized_text": "TNF",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "inflammatory cytokine"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "IL-1β label",
+        "category": "scientific_label",
+        "surface_text": "IL-1β",
+        "normalized_text": "IL-1β",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "inflammatory cytokine"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t14",
+        "entity_type": "text",
+        "name": "IL-6 label",
+        "category": "scientific_label",
+        "surface_text": "IL-6",
+        "normalized_text": "IL-6",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "inflammatory cytokine"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t15",
+        "entity_type": "text",
+        "name": "IL-17A label",
+        "category": "scientific_label",
+        "surface_text": "IL-17A",
+        "normalized_text": "IL-17A",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "immune mediator"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t16",
+        "entity_type": "text",
+        "name": "adenosine label",
+        "category": "scientific_label",
+        "surface_text": "Adenosine",
+        "normalized_text": "adenosine",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "immune mediator"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t17",
+        "entity_type": "text",
+        "name": "CGRP and substance P release annotation",
+        "category": "annotation_text",
+        "surface_text": "CGRP and substance P released from sensory nerve terminals",
+        "normalized_text": "CGRP and substance P released from sensory nerve terminals",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "nerve-to-adipose signaling"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t18",
+        "entity_type": "text",
+        "name": "resident-cell mediator annotation",
+        "category": "annotation_text",
+        "surface_text": "Molecular mediators released from adipose-tissue-resident cells",
+        "normalized_text": "Molecular mediators released from adipose-tissue-resident cells",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "resident cell source"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t19",
+        "entity_type": "text",
+        "name": "afferent pathway annotation",
+        "category": "annotation_text",
+        "surface_text": "Afferent pathway (sensory)",
+        "normalized_text": "Afferent pathway (sensory)",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "blue dashed pathway"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t20",
+        "entity_type": "text",
+        "name": "brain label",
+        "category": "scientific_label",
+        "surface_text": "Brain",
+        "normalized_text": "brain",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "signal destination"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t21",
+        "entity_type": "text",
+        "name": "Treg cell label",
+        "category": "scientific_label",
+        "surface_text": "Treg cell",
+        "normalized_text": "Treg cell",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "immune cell"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t22",
+        "entity_type": "text",
+        "name": "white adipocyte label",
+        "category": "scientific_label",
+        "surface_text": "White adipocyte",
+        "normalized_text": "white adipocyte",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "central adipose cell"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t23",
+        "entity_type": "text",
+        "name": "beige adipocyte label",
+        "category": "scientific_label",
+        "surface_text": "Beige adipocyte",
+        "normalized_text": "beige adipocyte",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "associated adipocyte type"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t24",
+        "entity_type": "text",
+        "name": "blood vessel label",
+        "category": "scientific_label",
+        "surface_text": "Blood vessel",
+        "normalized_text": "blood vessel",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "vascular supply"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t25",
+        "entity_type": "text",
+        "name": "macrophage label",
+        "category": "scientific_label",
+        "surface_text": "Macrophage",
+        "normalized_text": "macrophage",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "immune resident cell"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t26",
+        "entity_type": "text",
+        "name": "panel label b",
+        "category": "panel_label",
+        "surface_text": "b",
+        "normalized_text": "b",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "panel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t27",
+        "entity_type": "text",
+        "name": "afferent nerve factors heading",
+        "category": "legend_text",
+        "surface_text": "Afferent-nerve-secreted factors reported to affect adipose tissue",
+        "normalized_text": "Afferent-nerve-secreted factors reported to affect adipose tissue",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "right heading",
+          "feedback factors"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t28",
+        "entity_type": "text",
+        "name": "CGRP label",
+        "category": "scientific_label",
+        "surface_text": "CGRP",
+        "normalized_text": "CGRP",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "nerve-secreted neuropeptide"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t29",
+        "entity_type": "text",
+        "name": "substance P label",
+        "category": "scientific_label",
+        "surface_text": "Substance P",
+        "normalized_text": "substance P",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "nerve-secreted neuropeptide"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t22",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t23",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t25",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t21",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "t24",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "t20",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "t19",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "t2",
+        "target_entity_id": "v9",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "t27",
+        "target_entity_id": "v10",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "t17",
+        "target_entity_id": "v10",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "t18",
+        "target_entity_id": "v9",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "v7",
+        "target_entity_id": "v8",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "v6",
+        "target_entity_id": "v7",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "v9",
+        "target_entity_id": "v6",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "v10",
+        "target_entity_id": "v1",
+        "relation_type": "points_to",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "v10",
+        "target_entity_id": "v2",
+        "relation_type": "points_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "t3",
+        "target_entity_id": "t2",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "t7",
+        "target_entity_id": "t2",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "t10",
+        "target_entity_id": "t2",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "t12",
+        "target_entity_id": "t2",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "t15",
+        "target_entity_id": "t2",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "t16",
+        "target_entity_id": "t2",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r23",
+        "source_entity_id": "t28",
+        "target_entity_id": "t27",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r24",
+        "source_entity_id": "t29",
+        "target_entity_id": "t27",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r25",
+        "source_entity_id": "v2",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r26",
+        "source_entity_id": "v3",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r27",
+        "source_entity_id": "v4",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r28",
+        "source_entity_id": "v5",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r29",
+        "source_entity_id": "v6",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r30",
+        "source_entity_id": "v1",
+        "target_entity_id": "v8",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r31",
+        "source_entity_id": "v1",
+        "target_entity_id": "v8",
+        "relation_type": "above",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      }
+    ]
+  }
+}

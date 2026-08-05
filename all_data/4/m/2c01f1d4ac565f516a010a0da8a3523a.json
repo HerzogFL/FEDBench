@@ -1,0 +1,1032 @@
+{
+  "image_name": "2c01f1d4ac565f516a010a0da8a3523a.png",
+  "prompt_text": "This figure summarizes how *H. pylori* infection is associated with different pathological trajectories in the stomach, comparing the antrum and corpus. It uses stylized gastric glands to show how a healthy gland changes in cell composition and architecture after infection.\n\nIn the antrum, infection appears to drive hyperplastic gastritis, with expansion and rearrangement of the surface and glandular epithelium. In the corpus, the outcome is more diverse and severe: infection is linked to SPEM, then incomplete intestinal metaplasia and dysplasia, or alternatively to complete intestinal metaplasia. The visual emphasis is on progressive replacement of normal gastric cell types by abnormal or intestinal-like cells.\n\nThe healthy glands contain region-specific gastric lineages such as parietal, chief, mucous, enteroendocrine, and stem cells arranged along the gland axis. As disease develops, these normal populations diminish and are replaced by metaplastic and dysplastic cell states, including SPEM-like cells and goblet-cell–like intestinal cells. Colored dots around the glands suggest changing signaling environments involving factors such as EGF, BMP, WNT ligands, and RSPO3, with stromal cells also contributing. Overall, the figure depicts infection-driven remodeling of gastric glands toward metaplasia and neoplasia.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "Antrum gastric glands",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "left-side glands",
+          "healthy and hyperplastic",
+          "stylized gland units"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "Corpus gastric glands",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 3,
+        "key_attributes": [
+          "right-side glands",
+          "healthy and diseased",
+          "branching outcomes"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "Healthy gland state",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "normal architecture",
+          "baseline cell composition"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "Hyperplastic gastritis gland",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "expanded epithelium",
+          "antrum outcome"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "SPEM and dysplastic/metaplastic corpus gland",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "SPEM-like cells",
+          "abnormal replacement",
+          "progressed corpus state"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "Complete intestinal metaplasia gland",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "intestinal-like cells",
+          "alternative corpus outcome"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "H. pylori bacteria",
+        "category": "molecule",
+        "panel": "single_panel",
+        "count": 10,
+        "key_attributes": [
+          "curved green rods",
+          "near gland lumen",
+          "infection cue"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "Progression arrows",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 3,
+        "key_attributes": [
+          "left-to-right flow",
+          "trajectory indicators"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "Normal gastric cell populations",
+        "category": "cell",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "pit/mucous/stem",
+          "parietal/chief",
+          "enteroendocrine lineages"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v10",
+        "entity_type": "visual",
+        "name": "Metaplastic and dysplastic cell populations",
+        "category": "cell",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "SPEM-like",
+          "goblet-cell-like",
+          "dysplastic states"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v11",
+        "entity_type": "visual",
+        "name": "Colored signaling dots around glands",
+        "category": "molecule",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "periglandular dots",
+          "multiple colors",
+          "signaling environment"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v12",
+        "entity_type": "visual",
+        "name": "Stromal cells around glands",
+        "category": "cell",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "surrounding mesenchymal cells",
+          "outside epithelium"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v13",
+        "entity_type": "visual",
+        "name": "Bottom legend with colored cell and signal keys",
+        "category": "legend_key",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "boxed legend",
+          "color-coded markers"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "Antrum label",
+        "category": "scientific_label",
+        "surface_text": "Antrum",
+        "normalized_text": "antrum",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "regional heading"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "Corpus label",
+        "category": "scientific_label",
+        "surface_text": "Corpus",
+        "normalized_text": "corpus",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "regional heading"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "Healthy label",
+        "category": "annotation_text",
+        "surface_text": "Healthy",
+        "normalized_text": "healthy",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "baseline state"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "Hyperplastic gastritis label",
+        "category": "annotation_text",
+        "surface_text": "Hyperplastic gastritis",
+        "normalized_text": "hyperplastic gastritis",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "antrum disease state"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "SPEM label",
+        "category": "scientific_label",
+        "surface_text": "SPEM",
+        "normalized_text": "spem",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "corpus disease state"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "Incomplete intestinal metaplasia label",
+        "category": "annotation_text",
+        "surface_text": "± Incomplete intestinal metaplasia",
+        "normalized_text": "incomplete intestinal metaplasia",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "branch progression"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "Dysplasia label",
+        "category": "annotation_text",
+        "surface_text": "± Dysplasia",
+        "normalized_text": "dysplasia",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "advanced lesion"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "OR branch label",
+        "category": "annotation_text",
+        "surface_text": "OR",
+        "normalized_text": "or",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "alternative outcome"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "Complete intestinal metaplasia label",
+        "category": "annotation_text",
+        "surface_text": "Complete intestinal metaplasia",
+        "normalized_text": "complete intestinal metaplasia",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "alternative corpus outcome"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "H. pylori label",
+        "category": "scientific_label",
+        "surface_text": "H. pylori",
+        "normalized_text": "h. pylori",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "infection agent"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "Parietal cell legend label",
+        "category": "legend_text",
+        "surface_text": "Parietal cell",
+        "normalized_text": "parietal cell",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "normal gastric lineage"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "Chief cell legend label",
+        "category": "legend_text",
+        "surface_text": "Chief cell",
+        "normalized_text": "chief cell",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "normal gastric lineage"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "Mucous cell legend label",
+        "category": "legend_text",
+        "surface_text": "Mucous cell",
+        "normalized_text": "mucous cell",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "normal gastric lineage"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t14",
+        "entity_type": "text",
+        "name": "Stem cell legend label",
+        "category": "legend_text",
+        "surface_text": "Stem cell",
+        "normalized_text": "stem cell",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "normal gastric lineage"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t15",
+        "entity_type": "text",
+        "name": "Pit cell legend label",
+        "category": "legend_text",
+        "surface_text": "Pit cell",
+        "normalized_text": "pit cell",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "surface lineage"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t16",
+        "entity_type": "text",
+        "name": "ECL cell legend label",
+        "category": "legend_text",
+        "surface_text": "ECL cell",
+        "normalized_text": "ecl cell",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "enteroendocrine lineage"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t17",
+        "entity_type": "text",
+        "name": "G cell legend label",
+        "category": "legend_text",
+        "surface_text": "G cell",
+        "normalized_text": "g cell",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "antral endocrine lineage"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t18",
+        "entity_type": "text",
+        "name": "D cell legend label",
+        "category": "legend_text",
+        "surface_text": "D cell",
+        "normalized_text": "d cell",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "antral endocrine lineage"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t19",
+        "entity_type": "text",
+        "name": "Goblet cell legend label",
+        "category": "legend_text",
+        "surface_text": "Goblet cell",
+        "normalized_text": "goblet cell",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "intestinal-like lineage"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t20",
+        "entity_type": "text",
+        "name": "Enterocyte legend label",
+        "category": "legend_text",
+        "surface_text": "Enterocyte",
+        "normalized_text": "enterocyte",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "intestinal-like lineage"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t21",
+        "entity_type": "text",
+        "name": "SPEM cell legend label",
+        "category": "legend_text",
+        "surface_text": "SPEM cell",
+        "normalized_text": "spem cell",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "metaplastic lineage"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t22",
+        "entity_type": "text",
+        "name": "Dysplastic cell legend label",
+        "category": "legend_text",
+        "surface_text": "Dysplastic cell",
+        "normalized_text": "dysplastic cell",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "neoplastic-like lineage"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t23",
+        "entity_type": "text",
+        "name": "Immature goblet cell legend label",
+        "category": "legend_text",
+        "surface_text": "Immature goblet cell",
+        "normalized_text": "immature goblet cell",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "metaplastic intestinal-like cell"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t24",
+        "entity_type": "text",
+        "name": "Stromal cell legend label",
+        "category": "legend_text",
+        "surface_text": "Stromal cell",
+        "normalized_text": "stromal cell",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "microenvironment source"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t25",
+        "entity_type": "text",
+        "name": "EGF legend label",
+        "category": "legend_text",
+        "surface_text": "EGF",
+        "normalized_text": "egf",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "signaling factor"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t26",
+        "entity_type": "text",
+        "name": "BMP legend label",
+        "category": "legend_text",
+        "surface_text": "BMP",
+        "normalized_text": "bmp",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "signaling factor"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t27",
+        "entity_type": "text",
+        "name": "WNT ligand legend label",
+        "category": "legend_text",
+        "surface_text": "WNT ligand",
+        "normalized_text": "wnt ligand",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "signaling factor"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t28",
+        "entity_type": "text",
+        "name": "RSPO3 legend label",
+        "category": "legend_text",
+        "surface_text": "RSPO3",
+        "normalized_text": "rspo3",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "signaling factor"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t29",
+        "entity_type": "text",
+        "name": "Dysplastic marker label",
+        "category": "scientific_label",
+        "surface_text": "TROP2, CEACAM5",
+        "normalized_text": "TROP2, CEACAM5",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "marker genes"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t30",
+        "entity_type": "text",
+        "name": "Immature goblet marker label",
+        "category": "scientific_label",
+        "surface_text": "TFF3, TROP2",
+        "normalized_text": "TFF3, TROP2",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "marker genes"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t31",
+        "entity_type": "text",
+        "name": "SPEM marker label",
+        "category": "scientific_label",
+        "surface_text": "TFF2, GIF, AQP5, CD44v9",
+        "normalized_text": "TFF2, GIF, AQP5, CD44v9",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "marker genes"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t1",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t2",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t3",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t4",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "t5",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "t9",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "t10",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "v1",
+        "target_entity_id": "v2",
+        "relation_type": "left_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "v3",
+        "target_entity_id": "v4",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "v3",
+        "target_entity_id": "v5",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "v5",
+        "target_entity_id": "v6",
+        "relation_type": "flows_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "v7",
+        "target_entity_id": "v4",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "v7",
+        "target_entity_id": "v5",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "v7",
+        "target_entity_id": "v6",
+        "relation_type": "activates",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "v9",
+        "target_entity_id": "v3",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "v10",
+        "target_entity_id": "v5",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "v10",
+        "target_entity_id": "v6",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "v11",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "v11",
+        "target_entity_id": "v2",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "v12",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "v12",
+        "target_entity_id": "v2",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "t6",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r23",
+        "source_entity_id": "t7",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r24",
+        "source_entity_id": "t8",
+        "target_entity_id": "v6",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r25",
+        "source_entity_id": "t11",
+        "target_entity_id": "v13",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r26",
+        "source_entity_id": "t12",
+        "target_entity_id": "v13",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r27",
+        "source_entity_id": "t13",
+        "target_entity_id": "v13",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r28",
+        "source_entity_id": "t14",
+        "target_entity_id": "v13",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r29",
+        "source_entity_id": "t19",
+        "target_entity_id": "v13",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r30",
+        "source_entity_id": "t21",
+        "target_entity_id": "v13",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r31",
+        "source_entity_id": "t22",
+        "target_entity_id": "v13",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r32",
+        "source_entity_id": "t24",
+        "target_entity_id": "v13",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r33",
+        "source_entity_id": "t25",
+        "target_entity_id": "v13",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r34",
+        "source_entity_id": "t26",
+        "target_entity_id": "v13",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r35",
+        "source_entity_id": "t27",
+        "target_entity_id": "v13",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r36",
+        "source_entity_id": "t28",
+        "target_entity_id": "v13",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "global"
+      }
+    ]
+  }
+}

@@ -1,0 +1,906 @@
+{
+  "image_name": "1ca8d606a0d8ae532bb8080984c27bfe.png",
+  "prompt_text": "The figure summarizes four genetic forms of familial hyperaldosteronism and links each to its molecular mechanism and possible treatment. Across all forms, the central theme is excess aldosterone production caused by altered regulation of adrenal steroid synthesis or ion-channel function.\n\nIn FH-I, an unequal crossover joins regulatory and coding regions of CYP11B1 and CYP11B2, creating a chimeric gene that places aldosterone synthase under ACTH control. This leads to abnormal aldosterone production in the adrenal zona fasciculata and is shown as treatable with glucocorticoids.\n\nThe other forms involve membrane proteins. FH-II shows mutations in the chloride channel CLCN2, with the diagram highlighting altered residues across the channel structure. The proposed effect is increased chloride efflux, membrane depolarization, opening of voltage-gated calcium channels, and higher aldosterone production; no targeted treatment is indicated.\n\nFH-III involves mutations in KCNJ5, a potassium channel, causing loss of potassium selectivity and sodium entry, again leading to depolarization, calcium-channel activation, and increased aldosterone synthesis. Macrolides are noted as a possible future therapy.\n\nFH-IV shows mutations in CACNA1H, a calcium channel, altering calcium current properties and raising intracellular calcium, which stimulates aldosterone production. Calcium channel blockers are suggested as a potential future treatment.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "FH-I chimeric CYP11B1/CYP11B2 gene schematic",
+        "category": "pathway_component",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "unequal crossover",
+          "promoter-coding fusion",
+          "gene diagrams"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "FH-II chloride channel in membrane",
+        "category": "protein",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "multispan channel",
+          "membrane embedded",
+          "mutation sites marked"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "FH-III potassium channel in membrane",
+        "category": "protein",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "KCNJ5/GIRK4",
+          "membrane channel",
+          "mutation sites marked"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "FH-IV calcium channel in membrane",
+        "category": "protein",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "CACNA1H/Cav3.2",
+          "membrane channel",
+          "mutation sites marked"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "cell membrane bilayer depictions",
+        "category": "membrane",
+        "panel": "single_panel",
+        "count": 3,
+        "key_attributes": [
+          "lipid bilayer",
+          "surrounds channels",
+          "wavy tails"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "mechanistic downward arrows",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 4,
+        "key_attributes": [
+          "cause-effect flow",
+          "vertical arrows",
+          "links mechanism steps"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "mutation site markers on channel structures",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "pink dots",
+          "residue positions",
+          "across structures"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "Affected genes and proteins",
+        "category": "scientific_label",
+        "surface_text": "Affected genes and proteins",
+        "normalized_text": "Affected genes and proteins",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "column header"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "Pathogenic mechanism",
+        "category": "scientific_label",
+        "surface_text": "Pathogenic mechanism",
+        "normalized_text": "Pathogenic mechanism",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "column header"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "Targeted treatment",
+        "category": "scientific_label",
+        "surface_text": "Targeted treatment",
+        "normalized_text": "Targeted treatment",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "column header"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "FH-I label",
+        "category": "scientific_label",
+        "surface_text": "FH-I",
+        "normalized_text": "FH-I",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "disease form"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "FH-II label",
+        "category": "scientific_label",
+        "surface_text": "FH-II",
+        "normalized_text": "FH-II",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "disease form"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "FH-III label",
+        "category": "scientific_label",
+        "surface_text": "FH-III",
+        "normalized_text": "FH-III",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "disease form"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "FH-IV label",
+        "category": "scientific_label",
+        "surface_text": "FH-IV",
+        "normalized_text": "FH-IV",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "disease form"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "ACTH",
+        "category": "scientific_label",
+        "surface_text": "ACTH",
+        "normalized_text": "ACTH",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "hormone regulator"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "CYP11B1",
+        "category": "scientific_label",
+        "surface_text": "CYP11B1",
+        "normalized_text": "CYP11B1",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "gene name"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "CYP11B2",
+        "category": "scientific_label",
+        "surface_text": "CYP11B2",
+        "normalized_text": "CYP11B2",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "gene name"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "Unequal crossing-over between CYP11B1 and CYP11B2",
+        "category": "annotation_text",
+        "surface_text": "Unequal crossing-over between CYP11B1 and CYP11B2",
+        "normalized_text": "Unequal crossing-over between CYP11B1 and CYP11B2",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "FH-I mechanism"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "CYP11B2 gene under the control of CYP11B1 promoter",
+        "category": "annotation_text",
+        "surface_text": "CYP11B2 gene under the control of CYP11B1 promoter",
+        "normalized_text": "CYP11B2 gene under the control of CYP11B1 promoter",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "chimeric regulation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "Ectopic aldosterone synthase expression in zona fasciculata",
+        "category": "annotation_text",
+        "surface_text": "Ectopic aldosterone synthase expression in the zona fasciculata and stimulation of aldosterone production by ACTH",
+        "normalized_text": "Ectopic aldosterone synthase expression in the zona fasciculata and stimulation of aldosterone production by ACTH",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "zona fasciculata",
+          "aldosterone production"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t14",
+        "entity_type": "text",
+        "name": "Glucocorticoids",
+        "category": "legend_text",
+        "surface_text": "Glucocorticoids",
+        "normalized_text": "Glucocorticoids",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "FH-I treatment"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t15",
+        "entity_type": "text",
+        "name": "CLCN2 mutation annotation",
+        "category": "annotation_text",
+        "surface_text": "Mutations in CLCN2, which encodes the chloride channel ClC-2",
+        "normalized_text": "Mutations in CLCN2, which encodes the chloride channel ClC-2",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "FH-II gene",
+          "chloride channel"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t16",
+        "entity_type": "text",
+        "name": "Increased efflux of Cl− ions",
+        "category": "annotation_text",
+        "surface_text": "Increased efflux of Cl⁻ ions",
+        "normalized_text": "Increased efflux of Cl- ions",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "FH-II mechanism"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t17",
+        "entity_type": "text",
+        "name": "Cell membrane depolarization",
+        "category": "annotation_text",
+        "surface_text": "• Cell membrane depolarization",
+        "normalized_text": "Cell membrane depolarization",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "shared downstream effect"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t18",
+        "entity_type": "text",
+        "name": "Opening of voltage-gated Ca2+ channels",
+        "category": "annotation_text",
+        "surface_text": "• Opening of voltage-gated Ca²⁺ channels",
+        "normalized_text": "Opening of voltage-gated Ca2+ channels",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "shared downstream effect"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t19",
+        "entity_type": "text",
+        "name": "Increased aldosterone production",
+        "category": "annotation_text",
+        "surface_text": "• Increased aldosterone production",
+        "normalized_text": "Increased aldosterone production",
+        "panel": "single_panel",
+        "count": 3,
+        "key_attributes": [
+          "central outcome"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t20",
+        "entity_type": "text",
+        "name": "No targeted treatments",
+        "category": "legend_text",
+        "surface_text": "No targeted treatments",
+        "normalized_text": "No targeted treatments",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "FH-II treatment status"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t21",
+        "entity_type": "text",
+        "name": "KCNJ5 mutation annotation",
+        "category": "annotation_text",
+        "surface_text": "Mutations in KCNJ5, which encodes the potassium channel GIRK4",
+        "normalized_text": "Mutations in KCNJ5, which encodes the potassium channel GIRK4",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "FH-III gene",
+          "potassium channel"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t22",
+        "entity_type": "text",
+        "name": "Loss of K+ selectivity and increased Na+ influx",
+        "category": "annotation_text",
+        "surface_text": "Loss of K⁺ selectivity and increased Na⁺ influx",
+        "normalized_text": "Loss of K+ selectivity and increased Na+ influx",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "FH-III mechanism"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t23",
+        "entity_type": "text",
+        "name": "Potential future use of macrolides",
+        "category": "legend_text",
+        "surface_text": "Potential future use of macrolides",
+        "normalized_text": "Potential future use of macrolides",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "FH-III treatment"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t24",
+        "entity_type": "text",
+        "name": "CACNA1H mutation annotation",
+        "category": "annotation_text",
+        "surface_text": "Mutations in CACNA1H, which encodes the calcium channel Cav3.2",
+        "normalized_text": "Mutations in CACNA1H, which encodes the calcium channel Cav3.2",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "FH-IV gene",
+          "calcium channel"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t25",
+        "entity_type": "text",
+        "name": "Changes in the Ca2+ current properties",
+        "category": "annotation_text",
+        "surface_text": "Changes in the Ca²⁺ current properties",
+        "normalized_text": "Changes in the Ca2+ current properties",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "FH-IV mechanism"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t26",
+        "entity_type": "text",
+        "name": "Increased intracellular concentration of Ca2+",
+        "category": "annotation_text",
+        "surface_text": "• Increased intracellular concentration of Ca²⁺",
+        "normalized_text": "Increased intracellular concentration of Ca2+",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "FH-IV downstream effect"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t27",
+        "entity_type": "text",
+        "name": "Potential future use of calcium channel blockers",
+        "category": "legend_text",
+        "surface_text": "Potential future use of calcium channel blockers",
+        "normalized_text": "Potential future use of calcium channel blockers",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "FH-IV treatment"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t28",
+        "entity_type": "text",
+        "name": "Representative CLCN2 residue labels",
+        "category": "scientific_label",
+        "surface_text": "p.Arg172Gln; p.Lys362del; p.Tyr26Asn; p.Gly24Asp; p.Met22Lys; p.Ser865Arg",
+        "normalized_text": "p.Arg172Gln; p.Lys362del; p.Tyr26Asn; p.Gly24Asp; p.Met22Lys; p.Ser865Arg",
+        "panel": "single_panel",
+        "count": 6,
+        "key_attributes": [
+          "mutation examples",
+          "FH-II residues"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t29",
+        "entity_type": "text",
+        "name": "Representative KCNJ5 residue labels",
+        "category": "scientific_label",
+        "surface_text": "p.Thr158Ala; p.Ile157Ser; p.Tyr152Cys; p.Gly151Arg; p.Gly151Glu; p.Glu145Gln",
+        "normalized_text": "p.Thr158Ala; p.Ile157Ser; p.Tyr152Cys; p.Gly151Arg; p.Gly151Glu; p.Glu145Gln",
+        "panel": "single_panel",
+        "count": 6,
+        "key_attributes": [
+          "mutation examples",
+          "FH-III residues"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t30",
+        "entity_type": "text",
+        "name": "Representative CACNA1H residue labels",
+        "category": "scientific_label",
+        "surface_text": "p.Ser196Leu; p.Met1549Val; p.Met1549Ile; p.Pro2083Leu; p.Val1951Gly",
+        "normalized_text": "p.Ser196Leu; p.Met1549Val; p.Met1549Ile; p.Pro2083Leu; p.Val1951Gly",
+        "panel": "single_panel",
+        "count": 5,
+        "key_attributes": [
+          "mutation examples",
+          "FH-IV residues"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t4",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t5",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t6",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t7",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "t9",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "t10",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "t8",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "t11",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "t12",
+        "target_entity_id": "v1",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "t13",
+        "target_entity_id": "t19",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "t8",
+        "target_entity_id": "t13",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "t14",
+        "target_entity_id": "t4",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "t15",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "v7",
+        "target_entity_id": "v2",
+        "relation_type": "part_of",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "t16",
+        "target_entity_id": "t17",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "t17",
+        "target_entity_id": "t18",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "t18",
+        "target_entity_id": "t19",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "t20",
+        "target_entity_id": "t5",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "v2",
+        "target_entity_id": "v5",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "t21",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "v7",
+        "target_entity_id": "v3",
+        "relation_type": "part_of",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "t22",
+        "target_entity_id": "t17",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r23",
+        "source_entity_id": "t23",
+        "target_entity_id": "t6",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r24",
+        "source_entity_id": "v3",
+        "target_entity_id": "v5",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r25",
+        "source_entity_id": "t24",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r26",
+        "source_entity_id": "v7",
+        "target_entity_id": "v4",
+        "relation_type": "part_of",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r27",
+        "source_entity_id": "t25",
+        "target_entity_id": "t26",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r28",
+        "source_entity_id": "t26",
+        "target_entity_id": "t19",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r29",
+        "source_entity_id": "t27",
+        "target_entity_id": "t7",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r30",
+        "source_entity_id": "v4",
+        "target_entity_id": "v5",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r31",
+        "source_entity_id": "t4",
+        "target_entity_id": "t5",
+        "relation_type": "above",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r32",
+        "source_entity_id": "t5",
+        "target_entity_id": "t6",
+        "relation_type": "above",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r33",
+        "source_entity_id": "t6",
+        "target_entity_id": "t7",
+        "relation_type": "above",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "global"
+      }
+    ]
+  }
+}

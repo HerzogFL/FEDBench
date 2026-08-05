@@ -1,0 +1,1218 @@
+{
+  "image_name": "2b43747f67a1bfe515c9a83af39073f8.png",
+  "prompt_text": "The figure presents the immune system as a central hub that directs different kinds of cells to specific tissues and biological settings through chemokine receptor–ligand pairs. From the center, arrows radiate to major contexts such as development or tissue repair, acute inflammation, infections by intracellular or extracellular pathogens, responses to macroparasites, residence in non-lymphoid tissues, formation of lymphoid tissues, and cancer.\n\nEach surrounding box links a tissue or disease state with the immune cell types involved and the chemokine signals that appear to guide their movement. For example, acute inflammation highlights monocytes and macrophages, while intracellular pathogens are associated with T helper 17 cells, cytotoxic lymphocytes, NK cells, and related subsets. Extracellular bacteria and fungi emphasize neutrophils and other innate or helper populations, and macroparasites are tied to type 2 immunity, including eosinophils and mast cells. Other boxes show chemokine programs for stem or repair-associated cells, memory lymphocytes in peripheral tissues, and organized lymphoid structures.\n\nA cancer panel sits above the center with a question mark, suggesting a less clearly defined or more complex relationship between immune trafficking cues and malignancy compared with the other, better characterized settings.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "central immune system hub",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "central circle",
+          "hub",
+          "radiating connections"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "radiating arrows from immune system",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 8,
+        "key_attributes": [
+          "hub-and-spoke",
+          "outward arrows",
+          "context links"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "malignancy context box",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "top position",
+          "separate context",
+          "question-mark link"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "cancer cells",
+        "category": "cell",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "blue cell cluster",
+          "epithelial bed",
+          "tumor mass"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "development or tissue repair context box",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "surrounding box",
+          "development context",
+          "repair context"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "acute inflammation context box",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "surrounding box",
+          "inflammation context",
+          "left side"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "intracellular pathogens context box",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "surrounding box",
+          "infection context",
+          "lower right"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "extracellular bacteria and fungi context box",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "surrounding box",
+          "infection context",
+          "bottom center"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "macroparasites context box",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "surrounding box",
+          "parasite context",
+          "lower left"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v10",
+        "entity_type": "visual",
+        "name": "non-lymphoid tissue residence context box",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "surrounding box",
+          "tissue residence",
+          "right side"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v11",
+        "entity_type": "visual",
+        "name": "lymphoid tissue formation context box",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "surrounding box",
+          "lymphoid organization",
+          "upper right"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v12",
+        "entity_type": "visual",
+        "name": "question mark annotation",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "uncertainty marker",
+          "near upward arrow",
+          "malignancy link"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v13",
+        "entity_type": "visual",
+        "name": "embryo illustration",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "development icon",
+          "fetus",
+          "left upper"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v14",
+        "entity_type": "visual",
+        "name": "inflamed skin illustration",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "red lesion",
+          "skin cross-section",
+          "inflammation icon"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v15",
+        "entity_type": "visual",
+        "name": "worm-like macroparasite illustration",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "helminth-like",
+          "pink ribbon shape",
+          "parasite icon"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v16",
+        "entity_type": "visual",
+        "name": "microbe illustrations for infection contexts",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "pathogen icons",
+          "bottom right",
+          "bottom center"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v17",
+        "entity_type": "visual",
+        "name": "lymphoid organ illustration",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "organ icon",
+          "upper right",
+          "lymphoid structure"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v18",
+        "entity_type": "visual",
+        "name": "peripheral tissue illustration",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "skin-like tissue",
+          "right side",
+          "residence icon"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "The immune system",
+        "category": "scientific_label",
+        "surface_text": "The immune system",
+        "normalized_text": "the immune system",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "central hub"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "Malignancy",
+        "category": "scientific_label",
+        "surface_text": "Malignancy",
+        "normalized_text": "malignancy",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "top context"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "Cancer cell",
+        "category": "scientific_label",
+        "surface_text": "Cancer cell",
+        "normalized_text": "cancer cell",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "tumor label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "question mark",
+        "category": "annotation_text",
+        "surface_text": "?",
+        "normalized_text": "?",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "uncertainty marker"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "Development or tissue repair",
+        "category": "scientific_label",
+        "surface_text": "Development or tissue repair",
+        "normalized_text": "development or tissue repair",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "context title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "Stem cells, fibroblasts, monocytes or macrophages",
+        "category": "legend_text",
+        "surface_text": "Stem cells, fibroblasts, monocytes or macrophages",
+        "normalized_text": "stem cells, fibroblasts, monocytes or macrophages",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "cell types"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "Acute inflammation",
+        "category": "scientific_label",
+        "surface_text": "Acute inflammation",
+        "normalized_text": "acute inflammation",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "context title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "Monocytes, macrophages",
+        "category": "legend_text",
+        "surface_text": "Monocytes, macrophages",
+        "normalized_text": "monocytes, macrophages",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "cell types"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "Intracellular pathogens",
+        "category": "scientific_label",
+        "surface_text": "Intracellular pathogens",
+        "normalized_text": "intracellular pathogens",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "context title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "T_H17, cDC1, CTLs, NK cells, ILC1, T_reg cells",
+        "category": "legend_text",
+        "surface_text": "T_H17, cDC1, CTLs, NK cells, ILC1, T_reg cells",
+        "normalized_text": "T_H17, cDC1, CTLs, NK cells, ILC1, T_reg cells",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "cell types"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "Extracellular bacteria and fungi",
+        "category": "scientific_label",
+        "surface_text": "Extracellular bacteria and fungi",
+        "normalized_text": "extracellular bacteria and fungi",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "context title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "T_H17, ILC3, B cells, Mo-DCs, neutrophils, T_reg cells",
+        "category": "legend_text",
+        "surface_text": "T_H17, ILC3, B cells, Mo-DCs, neutrophils, T_reg cells",
+        "normalized_text": "T_H17, ILC3, B cells, Mo-DCs, neutrophils, T_reg cells",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "cell types"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "Macroparasites",
+        "category": "scientific_label",
+        "surface_text": "Macroparasites",
+        "normalized_text": "macroparasites",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "context title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t14",
+        "entity_type": "text",
+        "name": "T_H2, eosinophils, basophils, mast cells, ILC2, T_reg cells",
+        "category": "legend_text",
+        "surface_text": "T_H2, eosinophils, basophils, mast cells, ILC2, T_reg cells",
+        "normalized_text": "T_H2, eosinophils, basophils, mast cells, ILC2, T_reg cells",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "type 2 immunity"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t15",
+        "entity_type": "text",
+        "name": "Non-lymphoid tissue residence",
+        "category": "scientific_label",
+        "surface_text": "Non-lymphoid tissue residence",
+        "normalized_text": "non-lymphoid tissue residence",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "context title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t16",
+        "entity_type": "text",
+        "name": "Memory lymphocytes",
+        "category": "legend_text",
+        "surface_text": "Memory lymphocytes",
+        "normalized_text": "memory lymphocytes",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "cell type"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t17",
+        "entity_type": "text",
+        "name": "Lymphoid tissue formation",
+        "category": "scientific_label",
+        "surface_text": "Lymphoid tissue formation",
+        "normalized_text": "lymphoid tissue formation",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "context title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t18",
+        "entity_type": "text",
+        "name": "B follicles, T cell areas, myeloid niches, thymus",
+        "category": "legend_text",
+        "surface_text": "B follicles, T cell areas, myeloid niches, thymus",
+        "normalized_text": "B follicles, T cell areas, myeloid niches, thymus",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "lymphoid structures"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t19",
+        "entity_type": "text",
+        "name": "CXCR4 ↔ CXCL12",
+        "category": "scientific_label",
+        "surface_text": "CXCR4 ↔ CXCL12",
+        "normalized_text": "CXCR4 ↔ CXCL12",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "chemokine pair"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t20",
+        "entity_type": "text",
+        "name": "CX3CR1 ↔ CX3CL1",
+        "category": "scientific_label",
+        "surface_text": "CX3CR1 ↔ CX3CL1",
+        "normalized_text": "CX3CR1 ↔ CX3CL1",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "chemokine pair"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t21",
+        "entity_type": "text",
+        "name": "CCR2 ↔ CCL2/7",
+        "category": "scientific_label",
+        "surface_text": "CCR2 ↔ CCL2/7",
+        "normalized_text": "CCR2 ↔ CCL2/7",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "chemokine pair"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t22",
+        "entity_type": "text",
+        "name": "CCR5 ↔ CCL5",
+        "category": "scientific_label",
+        "surface_text": "CCR5 ↔ CCL5",
+        "normalized_text": "CCR5 ↔ CCL5",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "chemokine pair"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t23",
+        "entity_type": "text",
+        "name": "CCR1 ↔ CCL1–3/5–8",
+        "category": "scientific_label",
+        "surface_text": "CCR1 ↔ CCL1–3/5–8",
+        "normalized_text": "CCR1 ↔ CCL1–3/5–8",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "chemokine pair"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t24",
+        "entity_type": "text",
+        "name": "CXCR6 ↔ CXCL16",
+        "category": "scientific_label",
+        "surface_text": "CXCR6 ↔ CXCL16",
+        "normalized_text": "CXCR6 ↔ CXCL16",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "chemokine pair"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t25",
+        "entity_type": "text",
+        "name": "CCR4 ↔ CCL17/22",
+        "category": "scientific_label",
+        "surface_text": "CCR4 ↔ CCL17/22",
+        "normalized_text": "CCR4 ↔ CCL17/22",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "chemokine pair"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t26",
+        "entity_type": "text",
+        "name": "CCR3 ↔ CCL5/7/8/11/13/15/24",
+        "category": "scientific_label",
+        "surface_text": "CCR3 ↔ CCL5/7/8/11/13/15/24",
+        "normalized_text": "CCR3 ↔ CCL5/7/8/11/13/15/24",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "chemokine pair"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t27",
+        "entity_type": "text",
+        "name": "CCR8 ↔ CCL1/mCCL8",
+        "category": "scientific_label",
+        "surface_text": "CCR8 ↔ CCL1/mCCL8",
+        "normalized_text": "CCR8 ↔ CCL1/mCCL8",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "chemokine pair"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t28",
+        "entity_type": "text",
+        "name": "CCR6 ↔ CCL20",
+        "category": "scientific_label",
+        "surface_text": "CCR6 ↔ CCL20",
+        "normalized_text": "CCR6 ↔ CCL20",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "chemokine pair"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t29",
+        "entity_type": "text",
+        "name": "CXCR1/2 ↔ CXCL8",
+        "category": "scientific_label",
+        "surface_text": "CXCR1/2 ↔ CXCL8",
+        "normalized_text": "CXCR1/2 ↔ CXCL8",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "chemokine pair"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t30",
+        "entity_type": "text",
+        "name": "CXCR3 ↔ CXCL9/10/11",
+        "category": "scientific_label",
+        "surface_text": "CXCR3 ↔ CXCL9/10/11",
+        "normalized_text": "CXCR3 ↔ CXCL9/10/11",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "chemokine pair"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t31",
+        "entity_type": "text",
+        "name": "CCR5 ↔ CCL3/4/5",
+        "category": "scientific_label",
+        "surface_text": "CCR5 ↔ CCL3/4/5",
+        "normalized_text": "CCR5 ↔ CCL3/4/5",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "chemokine pair"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t32",
+        "entity_type": "text",
+        "name": "XCR1 ↔ XCL1/2",
+        "category": "scientific_label",
+        "surface_text": "XCR1 ↔ XCL1/2",
+        "normalized_text": "XCR1 ↔ XCL1/2",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "chemokine pair"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t33",
+        "entity_type": "text",
+        "name": "CXCR5 ↔ CXCL13",
+        "category": "scientific_label",
+        "surface_text": "CXCR5 ↔ CXCL13",
+        "normalized_text": "CXCR5 ↔ CXCL13",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "chemokine pair"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t34",
+        "entity_type": "text",
+        "name": "CCR7 ↔ CCL19/21",
+        "category": "scientific_label",
+        "surface_text": "CCR7 ↔ CCL19/21",
+        "normalized_text": "CCR7 ↔ CCL19/21",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "chemokine pair"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t35",
+        "entity_type": "text",
+        "name": "CCR9 ↔ CCL25",
+        "category": "scientific_label",
+        "surface_text": "CCR9 ↔ CCL25",
+        "normalized_text": "CCR9 ↔ CCL25",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "chemokine pair"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t1",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "v2",
+        "target_entity_id": "v1",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "v1",
+        "target_entity_id": "v3",
+        "relation_type": "points_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "v1",
+        "target_entity_id": "v5",
+        "relation_type": "points_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "v1",
+        "target_entity_id": "v6",
+        "relation_type": "points_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "v1",
+        "target_entity_id": "v7",
+        "relation_type": "points_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "v1",
+        "target_entity_id": "v8",
+        "relation_type": "points_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "v1",
+        "target_entity_id": "v9",
+        "relation_type": "points_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "v1",
+        "target_entity_id": "v10",
+        "relation_type": "points_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "v1",
+        "target_entity_id": "v11",
+        "relation_type": "points_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "t2",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "v4",
+        "target_entity_id": "v3",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "t3",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "t4",
+        "target_entity_id": "v12",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "v12",
+        "target_entity_id": "v3",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "v3",
+        "target_entity_id": "v1",
+        "relation_type": "above",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "t5",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "t6",
+        "target_entity_id": "v5",
+        "relation_type": "legend_for",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "v13",
+        "target_entity_id": "v5",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "t7",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "t8",
+        "target_entity_id": "v6",
+        "relation_type": "legend_for",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "v14",
+        "target_entity_id": "v6",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r23",
+        "source_entity_id": "t9",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r24",
+        "source_entity_id": "t10",
+        "target_entity_id": "v7",
+        "relation_type": "legend_for",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r25",
+        "source_entity_id": "v16",
+        "target_entity_id": "v7",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r26",
+        "source_entity_id": "t11",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r27",
+        "source_entity_id": "t12",
+        "target_entity_id": "v8",
+        "relation_type": "legend_for",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r28",
+        "source_entity_id": "v16",
+        "target_entity_id": "v8",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r29",
+        "source_entity_id": "t13",
+        "target_entity_id": "v9",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r30",
+        "source_entity_id": "t14",
+        "target_entity_id": "v9",
+        "relation_type": "legend_for",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r31",
+        "source_entity_id": "v15",
+        "target_entity_id": "v9",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r32",
+        "source_entity_id": "t15",
+        "target_entity_id": "v10",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r33",
+        "source_entity_id": "t16",
+        "target_entity_id": "v10",
+        "relation_type": "legend_for",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r34",
+        "source_entity_id": "v18",
+        "target_entity_id": "v10",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r35",
+        "source_entity_id": "t17",
+        "target_entity_id": "v11",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r36",
+        "source_entity_id": "t18",
+        "target_entity_id": "v11",
+        "relation_type": "legend_for",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r37",
+        "source_entity_id": "v17",
+        "target_entity_id": "v11",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r38",
+        "source_entity_id": "v5",
+        "target_entity_id": "v11",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r39",
+        "source_entity_id": "v6",
+        "target_entity_id": "v10",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r40",
+        "source_entity_id": "v9",
+        "target_entity_id": "v7",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      }
+    ]
+  }
+}

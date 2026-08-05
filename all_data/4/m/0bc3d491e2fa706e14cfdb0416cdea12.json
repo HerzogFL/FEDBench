@@ -1,0 +1,1573 @@
+{
+  "image_name": "0bc3d491e2fa706e14cfdb0416cdea12.png",
+  "prompt_text": "The figure summarizes how extracellular vesicles (EVs), especially tumour-derived EVs, can be engineered and used for therapy. It combines three ideas: how cargo is loaded, how the EV surface is modified, and what biological effects these redesigned vesicles can achieve.\n\nOn the left, donor cells are shown producing EVs through endogenous loading pathways, where RNA and proteins are selectively packaged, or through overexpression of desired components. Cargo can also be added more directly using methods such as viral transduction, liposomes, electroporation, membrane permeabilization, or chemical loading. The central and right portions depict many surface-engineering strategies, including insertion of membrane proteins, attachment of antibodies or other ligands, fusion with liposomes, and creation of hybrid EV-like systems. These modifications allow EVs to carry miRNA, drugs, nanoparticles, or other hydrophilic cargo, and to present tumour antigens or targeting molecules on their surface.\n\nThe bottom row highlights the intended outcomes of these engineered EVs: stronger drug activity, improved uptake and lysosomal escape, targeting of tumours in different organs, immune modulation, longer circulation in blood, and use as tumour vaccines through dendritic-cell priming. Overall, the figure presents EVs as versatile, customizable delivery vehicles for cancer therapy.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "donor cell producing extracellular vesicles",
+        "category": "cell",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "large parent cell",
+          "EV biogenesis",
+          "left panel origin"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "extracellular vesicle",
+        "category": "membrane",
+        "panel": "a",
+        "count": 3,
+        "key_attributes": [
+          "spherical vesicle",
+          "lipid bilayer",
+          "cargo carrier"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "endosome / intraluminal vesicle compartment",
+        "category": "organelle",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "internal vesicle",
+          "sorting compartment",
+          "endogenous loading"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "RNA cargo molecules",
+        "category": "molecule",
+        "panel": "a",
+        "count": 4,
+        "key_attributes": [
+          "red squiggles",
+          "cargo loading",
+          "nucleic acid"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "RNA-binding protein cargo-selection complex",
+        "category": "protein",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "RBP-associated",
+          "selective packaging",
+          "RNA binding"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "surface proteins on EV membrane",
+        "category": "protein",
+        "panel": "a",
+        "count": 4,
+        "key_attributes": [
+          "membrane inserted",
+          "CD63/CD81-like",
+          "displayed externally"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "viral vector / transduction particle",
+        "category": "pathway_component",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "spiky particle",
+          "loading method",
+          "external engineering"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "liposome for cargo delivery",
+        "category": "membrane",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "small vesicle",
+          "cargo dots inside",
+          "direct loading method"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "tumour antigen displayed on EV",
+        "category": "protein",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "surface antigen",
+          "immune-related",
+          "displayed externally"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v10",
+        "entity_type": "visual",
+        "name": "modified EV with diverse surface functionalization",
+        "category": "membrane",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "central large vesicle",
+          "many attached moieties",
+          "engineered surface"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v11",
+        "entity_type": "visual",
+        "name": "antibody / ligand attachments on EV surface",
+        "category": "protein",
+        "panel": "b",
+        "count": 5,
+        "key_attributes": [
+          "Y-shaped moieties",
+          "targeting ligands",
+          "surface conjugation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v12",
+        "entity_type": "visual",
+        "name": "membrane protein insertions / pores",
+        "category": "protein",
+        "panel": "b",
+        "count": 4,
+        "key_attributes": [
+          "inserted transmembrane structures",
+          "surface engineering",
+          "transport-related"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v13",
+        "entity_type": "visual",
+        "name": "cargo classes inside engineered EV",
+        "category": "molecule",
+        "panel": "b",
+        "count": 4,
+        "key_attributes": [
+          "miRNA",
+          "drugs",
+          "nanoparticles"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v14",
+        "entity_type": "visual",
+        "name": "hybrid EV-mimetic system",
+        "category": "material_structure",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "artificial EV-like",
+          "bottom left",
+          "hybrid carrier"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v15",
+        "entity_type": "visual",
+        "name": "liposome fused with EV",
+        "category": "membrane",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "membrane fusion",
+          "bottom center",
+          "hybridization strategy"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v16",
+        "entity_type": "visual",
+        "name": "directional/process arrows",
+        "category": "arrow",
+        "panel": "a",
+        "count": 4,
+        "key_attributes": [
+          "loading flow",
+          "horizontal arrows",
+          "process guidance"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "v17",
+        "entity_type": "visual",
+        "name": "drug-treated cancer cells undergoing apoptosis",
+        "category": "cell",
+        "panel": "c",
+        "count": 2,
+        "key_attributes": [
+          "pink target cells",
+          "cell death",
+          "potency outcome"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v18",
+        "entity_type": "visual",
+        "name": "cell with lysosome and escape pathway",
+        "category": "cell",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "uptake outcome",
+          "lysosome included",
+          "escape arrow"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v19",
+        "entity_type": "visual",
+        "name": "organ targeting icons",
+        "category": "region",
+        "panel": "c",
+        "count": 3,
+        "key_attributes": [
+          "lung",
+          "brain",
+          "pancreas-like organ"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v20",
+        "entity_type": "visual",
+        "name": "immune modulation interaction",
+        "category": "cell",
+        "panel": "c",
+        "count": 2,
+        "key_attributes": [
+          "EV to cancer/immune cell",
+          "antigen display",
+          "immunomodulation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v21",
+        "entity_type": "visual",
+        "name": "blood vessel with circulating EVs",
+        "category": "region",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "curved vessel",
+          "circulation",
+          "bloodstream transport"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v22",
+        "entity_type": "visual",
+        "name": "dendritic cell priming schematic",
+        "category": "cell",
+        "panel": "c",
+        "count": 2,
+        "key_attributes": [
+          "ex vivo priming",
+          "primed DC",
+          "vaccine concept"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "panel a label",
+        "category": "panel_label",
+        "surface_text": "a",
+        "normalized_text": "a",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "panel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "viral transduction label",
+        "category": "annotation_text",
+        "surface_text": "Viral transduction",
+        "normalized_text": "viral transduction",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "loading method"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "liposome label",
+        "category": "scientific_label",
+        "surface_text": "Liposome",
+        "normalized_text": "liposome",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "loading vehicle"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "tumour antigen label",
+        "category": "scientific_label",
+        "surface_text": "Tumour antigen",
+        "normalized_text": "tumour antigen",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "surface display"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "MHCs label",
+        "category": "scientific_label",
+        "surface_text": "MHCs",
+        "normalized_text": "MHCs",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "surface protein"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "electrotransfection label",
+        "category": "legend_text",
+        "surface_text": "Electrotransfection",
+        "normalized_text": "electrotransfection",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "direct loading"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "membrane permeabilization label",
+        "category": "legend_text",
+        "surface_text": "Membrane permeabilization",
+        "normalized_text": "membrane permeabilization",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "direct loading"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "active chemical loading label",
+        "category": "legend_text",
+        "surface_text": "Active chemical loading",
+        "normalized_text": "active chemical loading",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "direct loading"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "overexpression label",
+        "category": "annotation_text",
+        "surface_text": "Overexpression",
+        "normalized_text": "overexpression",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "engineered donor cell"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "RBP label",
+        "category": "scientific_label",
+        "surface_text": "RBP",
+        "normalized_text": "RBP",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "sorting protein"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "RNA label",
+        "category": "scientific_label",
+        "surface_text": "RNA",
+        "normalized_text": "RNA",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "cargo type"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "endosome label",
+        "category": "scientific_label",
+        "surface_text": "Endosome",
+        "normalized_text": "endosome",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "sorting compartment"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "CD63/CD81 label",
+        "category": "scientific_label",
+        "surface_text": "CD63/CD81",
+        "normalized_text": "CD63/CD81",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "EV marker proteins"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t14",
+        "entity_type": "text",
+        "name": "endogenous EV loading mechanisms label",
+        "category": "annotation_text",
+        "surface_text": "Endogenous EV loading mechanisms",
+        "normalized_text": "endogenous EV loading mechanisms",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "left-panel concept"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t15",
+        "entity_type": "text",
+        "name": "donor cells label",
+        "category": "annotation_text",
+        "surface_text": "Donor cells",
+        "normalized_text": "donor cells",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "cell source"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t16",
+        "entity_type": "text",
+        "name": "panel b label",
+        "category": "panel_label",
+        "surface_text": "b",
+        "normalized_text": "b",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "panel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t17",
+        "entity_type": "text",
+        "name": "other sources donor membranes label",
+        "category": "annotation_text",
+        "surface_text": "Other sources (donor membranes)",
+        "normalized_text": "other sources (donor membranes)",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "alternative membrane source"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t18",
+        "entity_type": "text",
+        "name": "protein-lipid membrane heterogeneity label",
+        "category": "annotation_text",
+        "surface_text": "Protein–lipid membrane heterogeneity",
+        "normalized_text": "protein-lipid membrane heterogeneity",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "membrane property"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t19",
+        "entity_type": "text",
+        "name": "transit membrane pores label",
+        "category": "legend_text",
+        "surface_text": "Transit membrane pores",
+        "normalized_text": "transit membrane pores",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "surface engineering"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t20",
+        "entity_type": "text",
+        "name": "electroporation label",
+        "category": "legend_text",
+        "surface_text": "Electroporation",
+        "normalized_text": "electroporation",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "direct loading"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t21",
+        "entity_type": "text",
+        "name": "membrane permeabilization label in panel b",
+        "category": "legend_text",
+        "surface_text": "Membrane permeabilization",
+        "normalized_text": "membrane permeabilization",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "direct loading"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t22",
+        "entity_type": "text",
+        "name": "miR label",
+        "category": "scientific_label",
+        "surface_text": "miR",
+        "normalized_text": "miR",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "RNA cargo"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t23",
+        "entity_type": "text",
+        "name": "drugs label",
+        "category": "scientific_label",
+        "surface_text": "Drugs",
+        "normalized_text": "drugs",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "cargo class"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t24",
+        "entity_type": "text",
+        "name": "nanoparticles label",
+        "category": "scientific_label",
+        "surface_text": "Nanoparticles",
+        "normalized_text": "nanoparticles",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "cargo class"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t25",
+        "entity_type": "text",
+        "name": "hydrophilic cargo label",
+        "category": "scientific_label",
+        "surface_text": "Hydrophilic cargo",
+        "normalized_text": "hydrophilic cargo",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "cargo class"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t26",
+        "entity_type": "text",
+        "name": "immunotherapy label",
+        "category": "scientific_label",
+        "surface_text": "Immunotherapy",
+        "normalized_text": "immunotherapy",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "surface payload"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t27",
+        "entity_type": "text",
+        "name": "antibody-drug conjugate label",
+        "category": "scientific_label",
+        "surface_text": "Antibody–drug conjugate",
+        "normalized_text": "antibody-drug conjugate",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "surface conjugate"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t28",
+        "entity_type": "text",
+        "name": "radiopharmaceutical label",
+        "category": "scientific_label",
+        "surface_text": "Radiopharmaceutical",
+        "normalized_text": "radiopharmaceutical",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "surface conjugate"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t29",
+        "entity_type": "text",
+        "name": "surface functionalization label",
+        "category": "annotation_text",
+        "surface_text": "Surface functionalization",
+        "normalized_text": "surface functionalization",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "central concept"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t30",
+        "entity_type": "text",
+        "name": "hybrid EV-mimetic systems label",
+        "category": "annotation_text",
+        "surface_text": "Hybrid EV-mimetic systems (artificial and EV-like)",
+        "normalized_text": "hybrid EV-mimetic systems (artificial and EV-like)",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "hybrid carrier"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t31",
+        "entity_type": "text",
+        "name": "liposome membrane fusion label",
+        "category": "annotation_text",
+        "surface_text": "Liposome (membrane fusion)",
+        "normalized_text": "liposome (membrane fusion)",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "fusion strategy"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t32",
+        "entity_type": "text",
+        "name": "panel c label",
+        "category": "panel_label",
+        "surface_text": "c",
+        "normalized_text": "c",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "panel marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t33",
+        "entity_type": "text",
+        "name": "enhanced potency label",
+        "category": "annotation_text",
+        "surface_text": "Enhanced potency",
+        "normalized_text": "enhanced potency",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "therapeutic outcome"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t34",
+        "entity_type": "text",
+        "name": "drug label",
+        "category": "scientific_label",
+        "surface_text": "Drug",
+        "normalized_text": "drug",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "payload"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t35",
+        "entity_type": "text",
+        "name": "cancer cell apoptosis label",
+        "category": "annotation_text",
+        "surface_text": "Cancer cell apoptosis",
+        "normalized_text": "cancer cell apoptosis",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "biological effect"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t36",
+        "entity_type": "text",
+        "name": "enhanced uptake and lysosomal escape label",
+        "category": "annotation_text",
+        "surface_text": "Enhanced uptake and lysosomal escape",
+        "normalized_text": "enhanced uptake and lysosomal escape",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "therapeutic outcome"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t37",
+        "entity_type": "text",
+        "name": "lysosome label",
+        "category": "scientific_label",
+        "surface_text": "Lysosome",
+        "normalized_text": "lysosome",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "organelle"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t38",
+        "entity_type": "text",
+        "name": "tumour targeting label",
+        "category": "annotation_text",
+        "surface_text": "Tumour targeting",
+        "normalized_text": "tumour targeting",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "organ targeting"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t39",
+        "entity_type": "text",
+        "name": "immunomodulation label",
+        "category": "annotation_text",
+        "surface_text": "Immunomodulation",
+        "normalized_text": "immunomodulation",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "immune effect"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t40",
+        "entity_type": "text",
+        "name": "tumour antigen display label",
+        "category": "annotation_text",
+        "surface_text": "Tumour antigen display",
+        "normalized_text": "tumour antigen display",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "surface presentation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t41",
+        "entity_type": "text",
+        "name": "target cancer cell label",
+        "category": "annotation_text",
+        "surface_text": "Target cancer cell",
+        "normalized_text": "target cancer cell",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "recipient cell"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t42",
+        "entity_type": "text",
+        "name": "extended circulation label",
+        "category": "annotation_text",
+        "surface_text": "Extended circulation",
+        "normalized_text": "extended circulation",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "blood persistence"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t43",
+        "entity_type": "text",
+        "name": "CD47 label",
+        "category": "scientific_label",
+        "surface_text": "CD47",
+        "normalized_text": "CD47",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "circulation marker"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t44",
+        "entity_type": "text",
+        "name": "vessel label",
+        "category": "scientific_label",
+        "surface_text": "Vessel",
+        "normalized_text": "vessel",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "bloodstream region"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t45",
+        "entity_type": "text",
+        "name": "tumour vaccine label",
+        "category": "annotation_text",
+        "surface_text": "Tumour vaccine",
+        "normalized_text": "tumour vaccine",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "vaccination outcome"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t46",
+        "entity_type": "text",
+        "name": "ex vivo priming of DC label",
+        "category": "annotation_text",
+        "surface_text": "Ex vivo priming of DC",
+        "normalized_text": "ex vivo priming of DC",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "dendritic-cell priming"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t47",
+        "entity_type": "text",
+        "name": "primed DC label",
+        "category": "annotation_text",
+        "surface_text": "Primed DC",
+        "normalized_text": "primed DC",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "vaccination cell state"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t15",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t14",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t12",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t11",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "t10",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "t13",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "t2",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "t3",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "t4",
+        "target_entity_id": "v9",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "t9",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "v4",
+        "target_entity_id": "v2",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "v6",
+        "target_entity_id": "v2",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "v9",
+        "target_entity_id": "v2",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "v5",
+        "target_entity_id": "v4",
+        "relation_type": "connected_to",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "v3",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "v3",
+        "target_entity_id": "v2",
+        "relation_type": "transforms_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "v1",
+        "target_entity_id": "v2",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "v7",
+        "target_entity_id": "v1",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "v8",
+        "target_entity_id": "v2",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "t29",
+        "target_entity_id": "v10",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "t30",
+        "target_entity_id": "v14",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "t31",
+        "target_entity_id": "v15",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r23",
+        "source_entity_id": "t22",
+        "target_entity_id": "v13",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r24",
+        "source_entity_id": "t23",
+        "target_entity_id": "v13",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r25",
+        "source_entity_id": "t24",
+        "target_entity_id": "v13",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r26",
+        "source_entity_id": "t25",
+        "target_entity_id": "v13",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r27",
+        "source_entity_id": "t27",
+        "target_entity_id": "v11",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r28",
+        "source_entity_id": "t19",
+        "target_entity_id": "v12",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r29",
+        "source_entity_id": "v11",
+        "target_entity_id": "v10",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r30",
+        "source_entity_id": "v12",
+        "target_entity_id": "v10",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r31",
+        "source_entity_id": "v13",
+        "target_entity_id": "v10",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r32",
+        "source_entity_id": "v15",
+        "target_entity_id": "v10",
+        "relation_type": "transforms_to",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r33",
+        "source_entity_id": "v14",
+        "target_entity_id": "v10",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r34",
+        "source_entity_id": "t33",
+        "target_entity_id": "v17",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r35",
+        "source_entity_id": "t35",
+        "target_entity_id": "v17",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r36",
+        "source_entity_id": "t36",
+        "target_entity_id": "v18",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r37",
+        "source_entity_id": "t38",
+        "target_entity_id": "v19",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r38",
+        "source_entity_id": "t39",
+        "target_entity_id": "v20",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r39",
+        "source_entity_id": "t42",
+        "target_entity_id": "v21",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r40",
+        "source_entity_id": "t44",
+        "target_entity_id": "v21",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r41",
+        "source_entity_id": "t45",
+        "target_entity_id": "v22",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r42",
+        "source_entity_id": "t46",
+        "target_entity_id": "v22",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r43",
+        "source_entity_id": "t47",
+        "target_entity_id": "v22",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r44",
+        "source_entity_id": "t37",
+        "target_entity_id": "v18",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r45",
+        "source_entity_id": "t40",
+        "target_entity_id": "v20",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r46",
+        "source_entity_id": "v10",
+        "target_entity_id": "v17",
+        "relation_type": "activates",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r47",
+        "source_entity_id": "v10",
+        "target_entity_id": "v18",
+        "relation_type": "activates",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r48",
+        "source_entity_id": "v10",
+        "target_entity_id": "v19",
+        "relation_type": "activates",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r49",
+        "source_entity_id": "v10",
+        "target_entity_id": "v20",
+        "relation_type": "activates",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r50",
+        "source_entity_id": "v10",
+        "target_entity_id": "v21",
+        "relation_type": "activates",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r51",
+        "source_entity_id": "v10",
+        "target_entity_id": "v22",
+        "relation_type": "activates",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "cross_panel"
+      }
+    ]
+  }
+}

@@ -1,0 +1,866 @@
+{
+  "image_name": "9cf994f20dfcdbffc0d0eb6ffa6b18fc.png",
+  "prompt_text": "The figure compares paraelectric and ferroelectric dielectric behavior and shows how this affects capacitance and possible negative-capacitance operation. Red denotes a paraelectric response, while blue denotes a ferroelectric one.\n\nAcross the top panels, the paraelectric material has a smooth, monotonic relation between polarization/charge and electric field/voltage, whereas the ferroelectric material shows an S-shaped, nonmonotonic response with unstable middle regions and switching between two stable branches. The corresponding capacitance plots emphasize this contrast: the paraelectric capacitance peaks smoothly near zero field, while the ferroelectric case splits into two branches and can pass through a regime where the inverse capacitance becomes negative. In the energy-like plot, the paraelectric curve appears as a single well, but the ferroelectric curve is a double well, indicating two stable polarization states.\n\nThe bottom part illustrates what happens when a ferroelectric is combined with a linear dielectric. For a “dielectrically soft” system with large series capacitance, the operating line intersects the ferroelectric curve in the usual hysteretic way, giving regular ferroelectric switching. For a “dielectrically stiff” system with small series capacitance, the line can stabilize the otherwise unstable central part of the ferroelectric curve, consistent with incipient negative capacitance behavior.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "red paraelectric response curves",
+        "category": "pathway_component",
+        "panel": "single_panel",
+        "count": 4,
+        "key_attributes": [
+          "red",
+          "smooth monotonic",
+          "across panels a-d"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "blue ferroelectric response curves",
+        "category": "pathway_component",
+        "panel": "single_panel",
+        "count": 4,
+        "key_attributes": [
+          "blue",
+          "S-shaped/nonmonotonic",
+          "across panels a-d"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "switching arrows on ferroelectric hysteresis loop",
+        "category": "arrow",
+        "panel": "a",
+        "count": 3,
+        "key_attributes": [
+          "blue arrows",
+          "branch switching",
+          "hysteresis indication"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "dashed vertical guide lines",
+        "category": "arrow",
+        "panel": "a",
+        "count": 2,
+        "key_attributes": [
+          "gray dashed",
+          "switching positions",
+          "panel a/c"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "single-well energy-like curve",
+        "category": "pathway_component",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "red",
+          "single minimum",
+          "paraelectric"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "double-well energy-like curve",
+        "category": "pathway_component",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "blue",
+          "double well",
+          "ferroelectric"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "linear dielectric load lines",
+        "category": "pathway_component",
+        "panel": "e",
+        "count": 4,
+        "key_attributes": [
+          "red straight lines",
+          "solid and dashed",
+          "series capacitance"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "ferroelectric Qf(Vf) curves in panel e",
+        "category": "pathway_component",
+        "panel": "e",
+        "count": 2,
+        "key_attributes": [
+          "blue",
+          "S-shaped",
+          "bottom subplots"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "intersection operating points",
+        "category": "region",
+        "panel": "e",
+        "count": 8,
+        "key_attributes": [
+          "orange/white circles",
+          "line-curve intersections",
+          "operating states"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v10",
+        "entity_type": "visual",
+        "name": "legend color keys",
+        "category": "legend_key",
+        "panel": "single_panel",
+        "count": 4,
+        "key_attributes": [
+          "red line key",
+          "blue line key",
+          "two legends"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "panel label a",
+        "category": "panel_label",
+        "surface_text": "a",
+        "normalized_text": "a",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "Q D axis label in panel a",
+        "category": "scientific_label",
+        "surface_text": "Q, D",
+        "normalized_text": "Q, D",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "vertical axis"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "V E axis label in panel a",
+        "category": "scientific_label",
+        "surface_text": "V, E",
+        "normalized_text": "V, E",
+        "panel": "a",
+        "count": 1,
+        "key_attributes": [
+          "horizontal axis"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "panel label b",
+        "category": "panel_label",
+        "surface_text": "b",
+        "normalized_text": "b",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "V E axis label in panel b",
+        "category": "scientific_label",
+        "surface_text": "V, E",
+        "normalized_text": "V, E",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "vertical axis"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "Q D axis label in panel b",
+        "category": "scientific_label",
+        "surface_text": "Q, D",
+        "normalized_text": "Q, D",
+        "panel": "b",
+        "count": 1,
+        "key_attributes": [
+          "horizontal axis"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "panel label c",
+        "category": "panel_label",
+        "surface_text": "c",
+        "normalized_text": "c",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "capacitance axis label",
+        "category": "scientific_label",
+        "surface_text": "C",
+        "normalized_text": "C",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "vertical axis"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "V E axis label in panel c",
+        "category": "scientific_label",
+        "surface_text": "V, E",
+        "normalized_text": "V, E",
+        "panel": "c",
+        "count": 1,
+        "key_attributes": [
+          "horizontal axis"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "panel label d",
+        "category": "panel_label",
+        "surface_text": "d",
+        "normalized_text": "d",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "inverse capacitance axis label",
+        "category": "equation",
+        "surface_text": "1/C",
+        "normalized_text": "1/C",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "vertical axis"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "Q D axis label in panel d",
+        "category": "scientific_label",
+        "surface_text": "Q, D",
+        "normalized_text": "Q, D",
+        "panel": "d",
+        "count": 1,
+        "key_attributes": [
+          "horizontal axis"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "paraelectric legend entry",
+        "category": "legend_text",
+        "surface_text": "Paraelectric (a > 0)",
+        "normalized_text": "Paraelectric (a > 0)",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "red legend"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t14",
+        "entity_type": "text",
+        "name": "ferroelectric legend entry",
+        "category": "legend_text",
+        "surface_text": "Ferroelectric (a < 0)",
+        "normalized_text": "Ferroelectric (a < 0)",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "blue legend"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t15",
+        "entity_type": "text",
+        "name": "panel label e",
+        "category": "panel_label",
+        "surface_text": "e",
+        "normalized_text": "e",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t16",
+        "entity_type": "text",
+        "name": "dielectrically soft heading",
+        "category": "annotation_text",
+        "surface_text": "Dielectrically soft",
+        "normalized_text": "Dielectrically soft",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "left bottom heading"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t17",
+        "entity_type": "text",
+        "name": "large series capacitance annotation",
+        "category": "annotation_text",
+        "surface_text": "(large Cₛ)",
+        "normalized_text": "(large C_s)",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "soft case"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t18",
+        "entity_type": "text",
+        "name": "regular ferroelectric behaviour annotation",
+        "category": "annotation_text",
+        "surface_text": "Regular ferroelectric behaviour",
+        "normalized_text": "Regular ferroelectric behaviour",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "left bottom caption"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t19",
+        "entity_type": "text",
+        "name": "dielectrically stiff heading",
+        "category": "annotation_text",
+        "surface_text": "Dielectrically stiff",
+        "normalized_text": "Dielectrically stiff",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "right bottom heading"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t20",
+        "entity_type": "text",
+        "name": "small series capacitance annotation",
+        "category": "annotation_text",
+        "surface_text": "(small Cₛ)",
+        "normalized_text": "(small C_s)",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "stiff case"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t21",
+        "entity_type": "text",
+        "name": "incipient ferroelectric NC annotation",
+        "category": "annotation_text",
+        "surface_text": "Incipient ferroelectric NC",
+        "normalized_text": "Incipient ferroelectric NC",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "right bottom caption"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t22",
+        "entity_type": "text",
+        "name": "Q axis labels in panel e",
+        "category": "scientific_label",
+        "surface_text": "Q",
+        "normalized_text": "Q",
+        "panel": "e",
+        "count": 2,
+        "key_attributes": [
+          "vertical axes"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t23",
+        "entity_type": "text",
+        "name": "Vf axis labels in panel e",
+        "category": "scientific_label",
+        "surface_text": "Vf",
+        "normalized_text": "V_f",
+        "panel": "e",
+        "count": 2,
+        "key_attributes": [
+          "horizontal axes"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t24",
+        "entity_type": "text",
+        "name": "series capacitor equation legend",
+        "category": "equation",
+        "surface_text": "Qₛ = Cₛ(V − Vf)",
+        "normalized_text": "Q_s = C_s(V - V_f)",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "red legend equation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t25",
+        "entity_type": "text",
+        "name": "ferroelectric curve equation legend",
+        "category": "equation",
+        "surface_text": "Qf(Vf)",
+        "normalized_text": "Q_f(V_f)",
+        "panel": "e",
+        "count": 1,
+        "key_attributes": [
+          "blue legend equation"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t13",
+        "target_entity_id": "v1",
+        "relation_type": "legend_for",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t14",
+        "target_entity_id": "v2",
+        "relation_type": "legend_for",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "v10",
+        "target_entity_id": "v1",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "v10",
+        "target_entity_id": "v2",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "t2",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "t3",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "t5",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "t6",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "t8",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "t9",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "t11",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "t11",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "t12",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "t12",
+        "target_entity_id": "v6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "v3",
+        "target_entity_id": "v2",
+        "relation_type": "points_to",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "v4",
+        "target_entity_id": "v2",
+        "relation_type": "points_to",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "v5",
+        "target_entity_id": "v1",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "v6",
+        "target_entity_id": "v2",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "t16",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "t17",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "t18",
+        "target_entity_id": "v7",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "t19",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r23",
+        "source_entity_id": "t20",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r24",
+        "source_entity_id": "t21",
+        "target_entity_id": "v7",
+        "relation_type": "corresponds_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r25",
+        "source_entity_id": "t22",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r26",
+        "source_entity_id": "t23",
+        "target_entity_id": "v8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r27",
+        "source_entity_id": "t24",
+        "target_entity_id": "v7",
+        "relation_type": "legend_for",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r28",
+        "source_entity_id": "t25",
+        "target_entity_id": "v8",
+        "relation_type": "legend_for",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r29",
+        "source_entity_id": "v9",
+        "target_entity_id": "v7",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r30",
+        "source_entity_id": "v9",
+        "target_entity_id": "v8",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r31",
+        "source_entity_id": "v7",
+        "target_entity_id": "v8",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r32",
+        "source_entity_id": "t16",
+        "target_entity_id": "t19",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r33",
+        "source_entity_id": "v1",
+        "target_entity_id": "v2",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "cross_panel"
+      },
+      {
+        "relation_id": "r34",
+        "source_entity_id": "v5",
+        "target_entity_id": "v6",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      }
+    ]
+  }
+}

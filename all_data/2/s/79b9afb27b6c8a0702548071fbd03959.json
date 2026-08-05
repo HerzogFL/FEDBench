@@ -1,0 +1,502 @@
+{
+  "image_name": "79b9afb27b6c8a0702548071fbd03959.png",
+  "prompt_text": "The figure compares three kinds of helical macromolecular systems by how easily their handedness changes and how chirality can be induced. On the left, a static helical polymer is shown as either a left- or right-handed helix, with a high inversion barrier, meaning each helix sense is stable and does not readily switch. Several example polymer structures are sketched underneath.\n\nIn the middle, a dynamic helical polymer has a low inversion barrier. Its helix can locally invert, illustrated by a segment where the handedness changes along the chain, implying a more flexible and reversible helical state. Example repeat-unit structures are again shown below.\n\nOn the right, a foldamer is depicted as switching between a non-helical conformation and helical forms of opposite handedness. A chiral agent appears to bind to the helical foldamer and bias or stabilize one screw sense. This emphasizes that foldamers can adopt helicity through folding rather than being permanently locked into a helix, and that external chiral information can control the resulting handedness.\n\nOverall, the figure highlights a progression from rigid, fixed helices to dynamic helices and then to foldable systems whose helicity is induced and selected by molecular interactions.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "static helical polymer pair",
+        "category": "material_structure",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "left- and right-handed",
+          "stable helices",
+          "left section"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "dynamic helical polymer with local inversion",
+        "category": "material_structure",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "handedness switch",
+          "multicolor segments",
+          "middle section"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "foldamer non-helical conformation",
+        "category": "material_structure",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "ribbon-like chain",
+          "unfolded",
+          "right section"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "foldamer helical forms",
+        "category": "material_structure",
+        "panel": "single_panel",
+        "count": 2,
+        "key_attributes": [
+          "opposite handedness",
+          "boxed comparison",
+          "right section"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "chiral agent molecule",
+        "category": "molecule",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "red central sphere",
+          "binds foldamer",
+          "right section"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "bound foldamer-chiral agent complex",
+        "category": "material_structure",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "helical foldamer",
+          "agent inserted",
+          "induced helicity"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "equilibrium and conversion arrows",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 4,
+        "key_attributes": [
+          "reversible switching",
+          "between conformations",
+          "right section"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "example polymer repeat-unit structures",
+        "category": "molecule",
+        "panel": "single_panel",
+        "count": 6,
+        "key_attributes": [
+          "bottom row",
+          "chemical sketches",
+          "example structures"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v9",
+        "entity_type": "visual",
+        "name": "dashed box around helical foldamer states",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "dashed outline",
+          "helical inset",
+          "right section"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "Static helical polymer label",
+        "category": "scientific_label",
+        "surface_text": "Static helical polymer",
+        "normalized_text": "Static helical polymer",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "left section title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "High inversion barrier label",
+        "category": "scientific_label",
+        "surface_text": "High inversion barrier",
+        "normalized_text": "High inversion barrier",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "static polymer property"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "or annotation",
+        "category": "annotation_text",
+        "surface_text": "or",
+        "normalized_text": "or",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "between static helices"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "Dynamic helical polymer label",
+        "category": "scientific_label",
+        "surface_text": "Dynamic helical polymer",
+        "normalized_text": "Dynamic helical polymer",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "middle section title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "Low inversion barrier label",
+        "category": "scientific_label",
+        "surface_text": "Low inversion barrier",
+        "normalized_text": "Low inversion barrier",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "dynamic polymer property"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "Inversion annotation",
+        "category": "annotation_text",
+        "surface_text": "Inversion",
+        "normalized_text": "Inversion",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "points to switched segment"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "Foldamer label",
+        "category": "scientific_label",
+        "surface_text": "Foldamer",
+        "normalized_text": "Foldamer",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "right section title"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "Non-helical label",
+        "category": "scientific_label",
+        "surface_text": "Non-helical",
+        "normalized_text": "Non-helical",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "foldamer state"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "Helical label",
+        "category": "scientific_label",
+        "surface_text": "Helical",
+        "normalized_text": "Helical",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "foldamer state"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "Chiral agent label",
+        "category": "scientific_label",
+        "surface_text": "Chiral agent",
+        "normalized_text": "Chiral agent",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "binding molecule label"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "chemical substituent labels",
+        "category": "scientific_label",
+        "surface_text": "Ph; R*; R1; R2; R; n",
+        "normalized_text": "Ph; R*; R1; R2; R; n",
+        "panel": "single_panel",
+        "count": 6,
+        "key_attributes": [
+          "chemical structure annotations",
+          "bottom examples"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t1",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t2",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t4",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t5",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "t6",
+        "target_entity_id": "v2",
+        "relation_type": "points_to",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "t7",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "t8",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "t9",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "t10",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "v3",
+        "target_entity_id": "v4",
+        "relation_type": "transforms_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "v5",
+        "target_entity_id": "v6",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "v4",
+        "target_entity_id": "v6",
+        "relation_type": "transforms_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "v5",
+        "target_entity_id": "v4",
+        "relation_type": "activates",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "v4",
+        "target_entity_id": "v9",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "v1",
+        "target_entity_id": "v2",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "v2",
+        "target_entity_id": "v3",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "v8",
+        "target_entity_id": "v1",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "v8",
+        "target_entity_id": "v2",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "v8",
+        "target_entity_id": "v3",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      }
+    ]
+  }
+}

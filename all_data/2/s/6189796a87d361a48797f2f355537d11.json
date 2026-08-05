@@ -1,0 +1,544 @@
+{
+  "image_name": "6189796a87d361a48797f2f355537d11.png",
+  "prompt_text": "The figure presents a conceptual framework for improving self-driving laboratory (SDL) safety with AI. At the center is a circular workflow linking two complementary sides: automated laboratory hardware, shown as a robotic arm with a lock symbol, and human oversight supported by AI, shown as a scientist beside a computer labeled “AI.” The loop suggests an ongoing interaction between these elements when dealing with “challenging chemistries” and “high-risk experiments.”\n\nOn the left, the image highlights ways AI can strengthen SDL safety directly within the experimental platform. These include cognitive safety, vision-based safety, more robust chemical handling and motion planning, addressing the “curse of rarity,” and creating digital safety twins. Together, these points imply AI helps both perceive hazards and make safer decisions in automated experimentation.\n\nOn the right, the figure broadens the message to a larger “robust SDL safety ecosystem.” This includes workforce training, SDL safety level classification, collaboration between stakeholders, and instilling trust. Overall, the figure argues that safe autonomous chemistry depends not only on smarter robotic systems and AI tools, but also on human-centered governance, training, and shared safety standards.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "circular workflow loop",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "large circular loop",
+          "two-directional flow",
+          "central connector"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "robotic laboratory hardware",
+        "category": "device_component",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "robotic arm",
+          "left circle",
+          "automated platform"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "lock symbol",
+        "category": "device_component",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "padlock",
+          "near robotic arm",
+          "safety/security cue"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "human scientist",
+        "category": "device_component",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "person figure",
+          "right circle",
+          "human oversight"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "computer",
+        "category": "device_component",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "laptop",
+          "beside scientist",
+          "AI support"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "left blue highlighted region",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "left-side list",
+          "blue boxes",
+          "AI safety methods"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "right beige highlighted region",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "right-side list",
+          "beige boxes",
+          "safety ecosystem items"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "title",
+        "category": "scientific_label",
+        "surface_text": "Enhancing SDL safety with AI",
+        "normalized_text": "Enhancing SDL safety with AI",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "main title"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "cognitive safety label",
+        "category": "scientific_label",
+        "surface_text": "Cognitive safety",
+        "normalized_text": "Cognitive safety",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "left list item"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "vision-based safety label",
+        "category": "scientific_label",
+        "surface_text": "Vision-based safety",
+        "normalized_text": "Vision-based safety",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "left list item"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "chemical handling and motion planning label",
+        "category": "scientific_label",
+        "surface_text": "Robust chemical handling and motion planning",
+        "normalized_text": "Robust chemical handling and motion planning",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "left list item"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "curse of rarity label",
+        "category": "scientific_label",
+        "surface_text": "Tackling ‘curse of rarity’",
+        "normalized_text": "Tackling curse of rarity",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "left list item"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "digital safety twins label",
+        "category": "scientific_label",
+        "surface_text": "Digital safety twins",
+        "normalized_text": "Digital safety twins",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "left list item"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "challenging chemistries annotation",
+        "category": "annotation_text",
+        "surface_text": "Challenging chemistries",
+        "normalized_text": "Challenging chemistries",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "top center annotation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "high-risk experiments annotation",
+        "category": "annotation_text",
+        "surface_text": "High-risk experiments",
+        "normalized_text": "High-risk experiments",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "bottom center annotation"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "safety ecosystem heading",
+        "category": "scientific_label",
+        "surface_text": "Robust SDL safety ecosystem",
+        "normalized_text": "Robust SDL safety ecosystem",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "right heading"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "workforce training label",
+        "category": "scientific_label",
+        "surface_text": "Workforce training",
+        "normalized_text": "Workforce training",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "right list item"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "safety level classification label",
+        "category": "scientific_label",
+        "surface_text": "SDL safety level classification",
+        "normalized_text": "SDL safety level classification",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "right list item"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "stakeholder collaboration label",
+        "category": "scientific_label",
+        "surface_text": "Collaborations between stakeholders",
+        "normalized_text": "Collaborations between stakeholders",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "right list item"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "instilling trust label",
+        "category": "scientific_label",
+        "surface_text": "Instilling trust",
+        "normalized_text": "Instilling trust",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "right list item"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t14",
+        "entity_type": "text",
+        "name": "AI label",
+        "category": "annotation_text",
+        "surface_text": "AI",
+        "normalized_text": "AI",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "on laptop screen"
+        ],
+        "importance": "optional",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "supporting_content"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "v2",
+        "target_entity_id": "v3",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t14",
+        "target_entity_id": "v5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "v4",
+        "target_entity_id": "v5",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "v2",
+        "target_entity_id": "v1",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "v4",
+        "target_entity_id": "v1",
+        "relation_type": "connected_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "v2",
+        "target_entity_id": "v4",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "v4",
+        "target_entity_id": "v2",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "t7",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "t8",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "t2",
+        "target_entity_id": "v6",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "t3",
+        "target_entity_id": "v6",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "t4",
+        "target_entity_id": "v6",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "t5",
+        "target_entity_id": "v6",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "t6",
+        "target_entity_id": "v6",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "t9",
+        "target_entity_id": "v7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "t10",
+        "target_entity_id": "v7",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "t11",
+        "target_entity_id": "v7",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "t12",
+        "target_entity_id": "v7",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "t13",
+        "target_entity_id": "v7",
+        "relation_type": "located_in",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "v6",
+        "target_entity_id": "v2",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "v7",
+        "target_entity_id": "v4",
+        "relation_type": "corresponds_to",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "v6",
+        "target_entity_id": "v7",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      }
+    ]
+  }
+}

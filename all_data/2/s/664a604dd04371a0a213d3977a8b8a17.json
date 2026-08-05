@@ -1,0 +1,1400 @@
+{
+  "image_name": "664a604dd04371a0a213d3977a8b8a17.png",
+  "prompt_text": "The figure is a flow-style comparison chart linking ambient energy sources to harvesting methods, storage options, and possible low-power uses. It starts with inputs such as solar, wind, vibration, raindrop, and radio-frequency energy, each shown with rough power-density ranges. These feed into transduction methods including photovoltaic, electromagnetic, piezoelectric, triboelectric, and RF antenna approaches, which are annotated with approximate conversion efficiencies.\n\nThe harvested energy is then matched to storage technologies—battery, supercapacitor, and capacitor—highlighting their energy density, efficiency, and voltage ranges. Finally, the chart connects these storage choices to outputs in three broad categories: propulsion, computing, and sensing. Example loads include motors and actuators for propulsion, microcontrollers and communication modules for computing, and sensors such as radar, cameras, ultrasonic/IMU/GPS units, and barometric sensors.\n\nOverall, the graphic emphasizes how different environmental sources vary greatly in available power, how harvesting methods differ in efficiency, and how storage technology helps determine what kinds of functions can realistically be powered. It visually suggests that stronger sources like solar support a wider range of applications, while weaker sources are better suited to intermittent, low-power electronics and sensing.",
+  "atomic_annotations": {
+    "entities": [
+      {
+        "entity_id": "v1",
+        "entity_type": "visual",
+        "name": "input source boxes",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 5,
+        "key_attributes": [
+          "left column",
+          "boxed entries",
+          "source categories"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v2",
+        "entity_type": "visual",
+        "name": "harvesting method boxes",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 5,
+        "key_attributes": [
+          "second column",
+          "boxed entries",
+          "transduction methods"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v3",
+        "entity_type": "visual",
+        "name": "storage technology boxes",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 3,
+        "key_attributes": [
+          "third column",
+          "boxed entries",
+          "storage choices"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v4",
+        "entity_type": "visual",
+        "name": "output application boxes",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 9,
+        "key_attributes": [
+          "right column",
+          "grouped by function",
+          "load examples"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v5",
+        "entity_type": "visual",
+        "name": "connecting flow lines",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "column-to-column links",
+          "many-to-many mapping",
+          "thin gray lines"
+        ],
+        "importance": "required",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "v6",
+        "entity_type": "visual",
+        "name": "top directional arrows",
+        "category": "arrow",
+        "panel": "single_panel",
+        "count": 3,
+        "key_attributes": [
+          "left-to-right",
+          "between headers",
+          "flow direction"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v7",
+        "entity_type": "visual",
+        "name": "color-coded metric bars within boxes",
+        "category": "legend_key",
+        "panel": "single_panel",
+        "count": 4,
+        "key_attributes": [
+          "energy density",
+          "efficiency",
+          "voltage/power"
+        ],
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "v8",
+        "entity_type": "visual",
+        "name": "bottom legend area",
+        "category": "region",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "boxed legend",
+          "metric keys",
+          "label definitions"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t1",
+        "entity_type": "text",
+        "name": "Input header",
+        "category": "annotation_text",
+        "surface_text": "Input",
+        "normalized_text": "Input",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "column header"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t2",
+        "entity_type": "text",
+        "name": "Methods header",
+        "category": "annotation_text",
+        "surface_text": "Methods",
+        "normalized_text": "Methods",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "column header"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t3",
+        "entity_type": "text",
+        "name": "Storage header",
+        "category": "annotation_text",
+        "surface_text": "Storage",
+        "normalized_text": "Storage",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "column header"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t4",
+        "entity_type": "text",
+        "name": "Output header",
+        "category": "annotation_text",
+        "surface_text": "Output",
+        "normalized_text": "Output",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "column header"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t5",
+        "entity_type": "text",
+        "name": "Solar",
+        "category": "scientific_label",
+        "surface_text": "Solar",
+        "normalized_text": "solar",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "ambient source"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t6",
+        "entity_type": "text",
+        "name": "Wind",
+        "category": "scientific_label",
+        "surface_text": "Wind",
+        "normalized_text": "wind",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "ambient source"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t7",
+        "entity_type": "text",
+        "name": "Vibration",
+        "category": "scientific_label",
+        "surface_text": "Vibration",
+        "normalized_text": "vibration",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "ambient source"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t8",
+        "entity_type": "text",
+        "name": "Raindrop",
+        "category": "scientific_label",
+        "surface_text": "Raindrop",
+        "normalized_text": "raindrop",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "ambient source"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t9",
+        "entity_type": "text",
+        "name": "Radio frequency",
+        "category": "scientific_label",
+        "surface_text": "Radio frequency",
+        "normalized_text": "radio frequency",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "ambient source"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t10",
+        "entity_type": "text",
+        "name": "Solar power density",
+        "category": "scientific_label",
+        "surface_text": "10^3 W m^-2",
+        "normalized_text": "10^3 W m^-2",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "power density range/value"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t11",
+        "entity_type": "text",
+        "name": "Wind power density",
+        "category": "scientific_label",
+        "surface_text": "10^2–10^3 W m^-2",
+        "normalized_text": "10^2–10^3 W m^-2",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "power density range"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t12",
+        "entity_type": "text",
+        "name": "Vibration power density",
+        "category": "scientific_label",
+        "surface_text": "10^1–10^2 W m^-2",
+        "normalized_text": "10^1–10^2 W m^-2",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "power density range"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t13",
+        "entity_type": "text",
+        "name": "Raindrop power density",
+        "category": "scientific_label",
+        "surface_text": "10^0–10^2 W m^-2",
+        "normalized_text": "10^0–10^2 W m^-2",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "power density range"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t14",
+        "entity_type": "text",
+        "name": "RF source power density",
+        "category": "scientific_label",
+        "surface_text": "10^-2–10^0 W m^-2",
+        "normalized_text": "10^-2–10^0 W m^-2",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "power density range"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t15",
+        "entity_type": "text",
+        "name": "Photovoltaic",
+        "category": "scientific_label",
+        "surface_text": "Photovoltaic",
+        "normalized_text": "photovoltaic",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "harvesting method"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t16",
+        "entity_type": "text",
+        "name": "Electromagnetic",
+        "category": "scientific_label",
+        "surface_text": "Electromagnetic",
+        "normalized_text": "electromagnetic",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "harvesting method"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t17",
+        "entity_type": "text",
+        "name": "Piezoelectric",
+        "category": "scientific_label",
+        "surface_text": "Piezoelectric",
+        "normalized_text": "piezoelectric",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "harvesting method"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t18",
+        "entity_type": "text",
+        "name": "Triboelectric",
+        "category": "scientific_label",
+        "surface_text": "Triboelectric",
+        "normalized_text": "triboelectric",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "harvesting method"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t19",
+        "entity_type": "text",
+        "name": "Radio frequency antenna",
+        "category": "scientific_label",
+        "surface_text": "Radio frequency antenna",
+        "normalized_text": "radio frequency antenna",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "harvesting method"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t20",
+        "entity_type": "text",
+        "name": "Photovoltaic efficiency",
+        "category": "scientific_label",
+        "surface_text": "~5–30%",
+        "normalized_text": "~5–30%",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "conversion efficiency"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t21",
+        "entity_type": "text",
+        "name": "Electromagnetic efficiency",
+        "category": "scientific_label",
+        "surface_text": "~10–95%",
+        "normalized_text": "~10–95%",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "conversion efficiency"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t22",
+        "entity_type": "text",
+        "name": "Piezoelectric efficiency",
+        "category": "scientific_label",
+        "surface_text": "~17–30%",
+        "normalized_text": "~17–30%",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "conversion efficiency"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t23",
+        "entity_type": "text",
+        "name": "Triboelectric efficiency",
+        "category": "scientific_label",
+        "surface_text": "~17–30%",
+        "normalized_text": "~17–30%",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "conversion efficiency"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t24",
+        "entity_type": "text",
+        "name": "RF antenna efficiency",
+        "category": "scientific_label",
+        "surface_text": "~15–83%",
+        "normalized_text": "~15–83%",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "conversion efficiency"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t25",
+        "entity_type": "text",
+        "name": "Battery",
+        "category": "scientific_label",
+        "surface_text": "Battery",
+        "normalized_text": "battery",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "storage technology"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t26",
+        "entity_type": "text",
+        "name": "Supercapacitor",
+        "category": "scientific_label",
+        "surface_text": "Supercapacitor",
+        "normalized_text": "supercapacitor",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "storage technology"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t27",
+        "entity_type": "text",
+        "name": "Capacitor",
+        "category": "scientific_label",
+        "surface_text": "Capacitor",
+        "normalized_text": "capacitor",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "storage technology"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t28",
+        "entity_type": "text",
+        "name": "Battery metrics",
+        "category": "scientific_label",
+        "surface_text": "10^0–10^2 Wh kg^-1; ~70–85%; 10^0 V",
+        "normalized_text": "10^0–10^2 Wh kg^-1; ~70–85%; 10^0 V",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "energy density",
+          "efficiency",
+          "voltage"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t29",
+        "entity_type": "text",
+        "name": "Supercapacitor metrics",
+        "category": "scientific_label",
+        "surface_text": "10^-1–10^0 Wh kg^-1; ~95–98%; 10^0 V",
+        "normalized_text": "10^-1–10^0 Wh kg^-1; ~95–98%; 10^0 V",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "energy density",
+          "efficiency",
+          "voltage"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t30",
+        "entity_type": "text",
+        "name": "Capacitor metrics",
+        "category": "scientific_label",
+        "surface_text": "10^-2–10^0 Wh kg^-1; ~90–95%; 10^0–10^2 V",
+        "normalized_text": "10^-2–10^0 Wh kg^-1; ~90–95%; 10^0–10^2 V",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "energy density",
+          "efficiency",
+          "voltage"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t31",
+        "entity_type": "text",
+        "name": "Propulsion",
+        "category": "scientific_label",
+        "surface_text": "Propulsion",
+        "normalized_text": "propulsion",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "output category"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t32",
+        "entity_type": "text",
+        "name": "Compute",
+        "category": "scientific_label",
+        "surface_text": "Compute",
+        "normalized_text": "computing",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "output category"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t33",
+        "entity_type": "text",
+        "name": "Sensing",
+        "category": "scientific_label",
+        "surface_text": "Sensing",
+        "normalized_text": "sensing",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "output category"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t34",
+        "entity_type": "text",
+        "name": "P1 Electromagnetic motor",
+        "category": "legend_text",
+        "surface_text": "P1: Electromagnetic motor",
+        "normalized_text": "electromagnetic motor",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "propulsion example"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t35",
+        "entity_type": "text",
+        "name": "P2 Electrostatic motor",
+        "category": "legend_text",
+        "surface_text": "P2: Electrostatic motor",
+        "normalized_text": "electrostatic motor",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "propulsion example"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t36",
+        "entity_type": "text",
+        "name": "P3 Piezoelectric actuator",
+        "category": "legend_text",
+        "surface_text": "P3: Piezoelectric actuator",
+        "normalized_text": "piezoelectric actuator",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "propulsion example"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t37",
+        "entity_type": "text",
+        "name": "C1 Microcontroller",
+        "category": "legend_text",
+        "surface_text": "C1: Microcontroller",
+        "normalized_text": "microcontroller",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "computing example"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t38",
+        "entity_type": "text",
+        "name": "C2 Communication module",
+        "category": "legend_text",
+        "surface_text": "C2: Communication module",
+        "normalized_text": "communication module",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "computing example"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t39",
+        "entity_type": "text",
+        "name": "S1 Laser radar",
+        "category": "legend_text",
+        "surface_text": "S1: Laser radar",
+        "normalized_text": "laser radar",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "sensing example"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t40",
+        "entity_type": "text",
+        "name": "S2 Camera",
+        "category": "legend_text",
+        "surface_text": "S2: Camera",
+        "normalized_text": "camera",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "sensing example"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t41",
+        "entity_type": "text",
+        "name": "S3 Ultrasonic sensor IMU GPS",
+        "category": "legend_text",
+        "surface_text": "S3: Ultrasonic sensor; inertial measurement unit; global position system",
+        "normalized_text": "ultrasonic sensor; inertial measurement unit; global position system",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "sensing example group"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t42",
+        "entity_type": "text",
+        "name": "S4 Barometric pressure sensor",
+        "category": "legend_text",
+        "surface_text": "S4: Barometric pressure sensor",
+        "normalized_text": "barometric pressure sensor",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "sensing example"
+        ],
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "scientific_role": "core_content"
+      },
+      {
+        "entity_id": "t43",
+        "entity_type": "text",
+        "name": "Energy density legend",
+        "category": "legend_text",
+        "surface_text": "Energy density – (W m^-2)/(Wh kg^-1)",
+        "normalized_text": "Energy density",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "metric key"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t44",
+        "entity_type": "text",
+        "name": "Efficiency legend",
+        "category": "legend_text",
+        "surface_text": "Efficiency – %",
+        "normalized_text": "Efficiency",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "metric key"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t45",
+        "entity_type": "text",
+        "name": "Voltage legend",
+        "category": "legend_text",
+        "surface_text": "Voltage – V",
+        "normalized_text": "Voltage",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "metric key"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t46",
+        "entity_type": "text",
+        "name": "Power legend",
+        "category": "legend_text",
+        "surface_text": "Power – W",
+        "normalized_text": "Power",
+        "panel": "single_panel",
+        "count": 1,
+        "key_attributes": [
+          "metric key"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "supporting_content"
+      },
+      {
+        "entity_id": "t47",
+        "entity_type": "text",
+        "name": "Output code markers",
+        "category": "panel_label",
+        "surface_text": "P1, P2, P3, C1, C2, S1, S2, S3, S4",
+        "normalized_text": "P1 P2 P3 C1 C2 S1 S2 S3 S4",
+        "panel": "single_panel",
+        "count": 9,
+        "key_attributes": [
+          "right-side codes"
+        ],
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "scientific_role": "layout_or_decoration"
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "r1",
+        "source_entity_id": "t1",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r2",
+        "source_entity_id": "t2",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r3",
+        "source_entity_id": "t3",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r4",
+        "source_entity_id": "t4",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r5",
+        "source_entity_id": "t5",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r6",
+        "source_entity_id": "t6",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r7",
+        "source_entity_id": "t7",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r8",
+        "source_entity_id": "t8",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r9",
+        "source_entity_id": "t9",
+        "target_entity_id": "v1",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r10",
+        "source_entity_id": "t10",
+        "target_entity_id": "t5",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r11",
+        "source_entity_id": "t11",
+        "target_entity_id": "t6",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r12",
+        "source_entity_id": "t12",
+        "target_entity_id": "t7",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r13",
+        "source_entity_id": "t13",
+        "target_entity_id": "t8",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r14",
+        "source_entity_id": "t14",
+        "target_entity_id": "t9",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r15",
+        "source_entity_id": "t15",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r16",
+        "source_entity_id": "t16",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r17",
+        "source_entity_id": "t17",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r18",
+        "source_entity_id": "t18",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r19",
+        "source_entity_id": "t19",
+        "target_entity_id": "v2",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r20",
+        "source_entity_id": "t20",
+        "target_entity_id": "t15",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r21",
+        "source_entity_id": "t21",
+        "target_entity_id": "t16",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r22",
+        "source_entity_id": "t22",
+        "target_entity_id": "t17",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r23",
+        "source_entity_id": "t23",
+        "target_entity_id": "t18",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r24",
+        "source_entity_id": "t24",
+        "target_entity_id": "t19",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r25",
+        "source_entity_id": "t25",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r26",
+        "source_entity_id": "t26",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r27",
+        "source_entity_id": "t27",
+        "target_entity_id": "v3",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r28",
+        "source_entity_id": "t28",
+        "target_entity_id": "t25",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r29",
+        "source_entity_id": "t29",
+        "target_entity_id": "t26",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r30",
+        "source_entity_id": "t30",
+        "target_entity_id": "t27",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r31",
+        "source_entity_id": "t31",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r32",
+        "source_entity_id": "t32",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r33",
+        "source_entity_id": "t33",
+        "target_entity_id": "v4",
+        "relation_type": "label_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r34",
+        "source_entity_id": "t34",
+        "target_entity_id": "t31",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r35",
+        "source_entity_id": "t35",
+        "target_entity_id": "t31",
+        "relation_type": "part_of",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r36",
+        "source_entity_id": "t36",
+        "target_entity_id": "t31",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r37",
+        "source_entity_id": "t37",
+        "target_entity_id": "t32",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r38",
+        "source_entity_id": "t38",
+        "target_entity_id": "t32",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r39",
+        "source_entity_id": "t39",
+        "target_entity_id": "t33",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r40",
+        "source_entity_id": "t40",
+        "target_entity_id": "t33",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r41",
+        "source_entity_id": "t41",
+        "target_entity_id": "t33",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r42",
+        "source_entity_id": "t42",
+        "target_entity_id": "t33",
+        "relation_type": "part_of",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r43",
+        "source_entity_id": "v1",
+        "target_entity_id": "v2",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r44",
+        "source_entity_id": "v2",
+        "target_entity_id": "v3",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r45",
+        "source_entity_id": "v3",
+        "target_entity_id": "v4",
+        "relation_type": "flows_to",
+        "importance": "required",
+        "prompt_status": "explicitly_mentioned",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r46",
+        "source_entity_id": "v1",
+        "target_entity_id": "v2",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r47",
+        "source_entity_id": "v2",
+        "target_entity_id": "v3",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r48",
+        "source_entity_id": "v3",
+        "target_entity_id": "v4",
+        "relation_type": "left_of",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "global"
+      },
+      {
+        "relation_id": "r49",
+        "source_entity_id": "v7",
+        "target_entity_id": "v1",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r50",
+        "source_entity_id": "v7",
+        "target_entity_id": "v2",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r51",
+        "source_entity_id": "v7",
+        "target_entity_id": "v3",
+        "relation_type": "located_in",
+        "importance": "optional",
+        "prompt_status": "implicitly_needed",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r52",
+        "source_entity_id": "t43",
+        "target_entity_id": "v7",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r53",
+        "source_entity_id": "t44",
+        "target_entity_id": "v7",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r54",
+        "source_entity_id": "t45",
+        "target_entity_id": "v7",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r55",
+        "source_entity_id": "t46",
+        "target_entity_id": "v7",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      },
+      {
+        "relation_id": "r56",
+        "source_entity_id": "v8",
+        "target_entity_id": "v7",
+        "relation_type": "legend_for",
+        "importance": "optional",
+        "prompt_status": "reference_only",
+        "panel_scope": "same_panel"
+      }
+    ]
+  }
+}
